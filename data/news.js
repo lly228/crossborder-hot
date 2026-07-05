@@ -2,6 +2,17 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "187297",
+    "date": "2026-07-05",
+    "time": "17:40",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187297",
+    "score": 67,
+    "category": "policy",
+    "title": "这几类卖家快自查！海外爆款IP成下架重灾区",
+    "summary": ""
+  },
+  {
     "id": "lsch-9f9745fe",
     "date": "2026-07-05",
     "time": "09:15",
@@ -22,6 +33,17 @@ window.NEWS_DATA = [
     "category": "market",
     "title": "欧洲热爆了！除了空调，这些「降温神器」也在被疯抢",
     "summary": "高温季的应急需求爆发快、窗口短，做欧洲站的可以对照选品清单看看自己仓里有没有能蹭上的品。"
+  },
+  {
+    "id": "mjzj-fr1r1c1bivpc",
+    "date": "2026-07-04",
+    "time": "09:38",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fr1r1c1bivpc",
+    "score": 63,
+    "category": "policy",
+    "title": "补税潮杀到跨境圈：69家A股已掏49亿，下一个是谁？",
+    "summary": "跨境企业补税激增，星徽、赛维、华凯易佰等多家公司因税务问题面临高额罚款与补税，合规成本持续攀升。"
   },
   {
     "id": "lsch-22b55143",
@@ -57,6 +79,50 @@ window.NEWS_DATA = [
     "summary": "经历了大停电痛楚的西班牙，迅速反思并走出此前“重发电、轻电网、缺储能”的发展模式"
   },
   {
+    "id": "mjzj-fqzj65fiwo3k",
+    "date": "2026-07-03",
+    "time": "18:37",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqzj65fiwo3k",
+    "score": 67,
+    "category": "policy",
+    "title": "跨境必看：PPWR 新政下，西班牙包装合规 4 点一文讲清",
+    "summary": "跨境卖家注意！2026年8月12日，欧盟PPWR《包装和包装废弃物法规》将正式落地，取代原有包装指令，成为欧盟27国统一执行的强制性市场准入法规！不少卖家关心：PPWR生效后，西班牙包装法还能按老规矩注册、合规吗？答案很明确——不能！"
+  },
+  {
+    "id": "mjzj-fqzia995mosg",
+    "date": "2026-07-03",
+    "time": "18:26",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqzia995mosg",
+    "score": 55,
+    "category": "market",
+    "title": "国内公司控股香港公司，不做ODI备案会怎样？后果比你想的更严重！",
+    "summary": "​国内公司控股香港公司，不做ODI备案会怎样？后果比你想的更严重！在聊风险之前，我们先搞清楚最基础的问题：到底什么是ODI备案？越来越多国内企业选择控股香港公司以拓展海外市场，但不少企业存在误区：认为香港是中国特别行政区，控股无需备案。答案明确：必须办！"
+  },
+  {
+    "id": "mjzj-fqzgucejgsn4",
+    "date": "2026-07-03",
+    "time": "18:20",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqzgucejgsn4",
+    "score": 65,
+    "category": "logistics",
+    "title": "旺季不慌，入库有招！亚马逊旺季物流神器FIST Elite重磅上线",
+    "summary": "每年的亚马逊旺季，是跨境卖家的销售黄金期，更是头程物流的年度“大考”。订单量翻倍激增，可“爆单”的希望，往往最后栽在了头程物流这一环。"
+  },
+  {
+    "id": "mjzj-fqzh811v1atc",
+    "date": "2026-07-03",
+    "time": "18:15",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqzh811v1atc",
+    "score": 55,
+    "category": "market",
+    "title": "全年热卖！游泳用品TOSWIM在东南亚找到“没有淡季”的生意",
+    "summary": ""
+  },
+  {
     "id": "187291",
     "date": "2026-07-03",
     "time": "17:45",
@@ -79,6 +145,144 @@ window.NEWS_DATA = [
     "summary": "包装认证从美国站扩到欧洲站，影响入仓和费用核算，发欧洲FBA的卖家要提前核对自己商品的包装是否达标。"
   },
   {
+    "id": "mjzj-fqzbl4dsj1ts",
+    "date": "2026-07-03",
+    "time": "17:09",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqzbl4dsj1ts",
+    "score": 55,
+    "category": "market",
+    "title": "紫讯、米多多、扬腾之后，福建跨境电商还差一个“安克”",
+    "summary": ""
+  },
+  {
+    "id": "mjzj-fqzb51o3etj4",
+    "date": "2026-07-03",
+    "time": "17:06",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqzb51o3etj4",
+    "score": 55,
+    "category": "market",
+    "title": "警惕!违规罚10万美金/箱，出货前必看!",
+    "summary": "警惕!违规罚10万美金/箱，出货前必看!"
+  },
+  {
+    "id": "mjzj-fqz9y64p6sqo",
+    "date": "2026-07-03",
+    "time": "16:54",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqz9y64p6sqo",
+    "score": 55,
+    "category": "market",
+    "title": "台风“美莎克”即将登陆，多地停课、停运、停航",
+    "summary": "预计“美莎克”将于傍晚前后在海南陵水到乐东一带沿海登陆，将成为今年首个登陆我国的台风。"
+  },
+  {
+    "id": "mjzj-fqz90b5r06io",
+    "date": "2026-07-03",
+    "time": "16:44",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqz90b5r06io",
+    "score": 73,
+    "category": "marketing",
+    "title": "亚马逊重大调整！7月6日起，这项功能正式下线，卖家必须提前做好准备——26 章鱼站外选品助力品牌运营",
+    "summary": "距离7月6日越来越近，一则亚马逊官方公告正在跨境卖家圈持续发酵。不少卖家可能还没有注意到：亚马逊即将关闭Promo Codes官方展示页面，这意味着依赖官方渠道获取站外推广流量的方式将发生重大变化。"
+  },
+  {
+    "id": "mjzj-fqz7dv8ybu9s",
+    "date": "2026-07-03",
+    "time": "16:30",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqz7dv8ybu9s",
+    "score": 55,
+    "category": "market",
+    "title": "宇树科技IPO注册申请通过 美团是最大外部股东",
+    "summary": "宇树科技科创板IPO获批，发行后估值约420亿元，拟融资42.02亿元；美团合计持股9.65%，为其最大外部股东，2023年至2025年公司营收从1.59亿元增至16.99亿元，净利润扭亏为盈达2.78亿元。",
+    "ref": "https://www.pai.com.cn/p/01kwh28095k5a1w08nhv9b1gq3"
+  },
+  {
+    "id": "mjzj-fqz7efw04h6o",
+    "date": "2026-07-03",
+    "time": "16:30",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqz7efw04h6o",
+    "score": 61,
+    "category": "platform",
+    "title": "亚马逊欧洲站推出促销一键拓展功能",
+    "summary": "亚马逊欧洲站卖家后台新增“全欧拓展”功能，支持一键将Z划算、秒杀或优惠券复制到多个欧洲站点，简化跨站点促销管理，提升多站点运营效率。",
+    "ref": "https://www.amz123.com/kx/wJEauwQ4"
+  },
+  {
+    "id": "mjzj-fqz7d3a3r2f4",
+    "date": "2026-07-03",
+    "time": "16:30",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqz7d3a3r2f4",
+    "score": 61,
+    "category": "platform",
+    "title": "月销百万美金！亚马逊10款热卖厨房用品盘点",
+    "summary": "AMZ123获悉，近日，亚马逊各类产品搜索量增长显著，以下10款产品在亚马逊上销量表现突出，深受消费者欢迎。",
+    "ref": "https://www.amz123.com/t/HHlrS2tp"
+  },
+  {
+    "id": "mjzj-fqz7d3a3r2f6",
+    "date": "2026-07-03",
+    "time": "16:30",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqz7d3a3r2f6",
+    "score": 81,
+    "category": "policy",
+    "title": "TikTok Shop东南亚7月7日起加强减重与增肌宣传监管",
+    "summary": "TikTok Shop东南亚跨境店自2026年7月7日起更新规范，禁止推广减重、增肌类商品时出现五类违规表述，违规内容将下架，严重者受罚。",
+    "ref": "https://www.amz123.com/kx/Qx4MH0QO"
+  },
+  {
+    "id": "mjzj-fqz7d3a3r2f5",
+    "date": "2026-07-03",
+    "time": "16:30",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqz7d3a3r2f5",
+    "score": 61,
+    "category": "marketing",
+    "title": "TikTok Shop东南亚6.6大促GMV同比增长80%",
+    "summary": "TikTok Shop东南亚在2026年“6.6 Birthday Mega Sale”中GMV同比增长80%，订单量增超65%；跨境新卖家首单转化率42%，直播贡献超三成GMV，美妆、家居、穆斯林时尚增长最快。",
+    "ref": "https://www.amz123.com/kx/xrFSaNkv"
+  },
+  {
+    "id": "mjzj-fqz7bov01fcw",
+    "date": "2026-07-03",
+    "time": "16:29",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqz7bov01fcw",
+    "score": 55,
+    "category": "platform",
+    "title": "日本二手电商Mercari接入ChatGPT，支持AI搜索商品",
+    "summary": "日本二手电商平台Mercari在OpenAI的ChatGPT中上线官方应用，用户可通过自然语言搜索约2300万件商品，AI自动生成标题、分类和描述，支持多语言搜索。",
+    "ref": "https://www.amz123.com/t/z0VdOhMa"
+  },
+  {
+    "id": "mjzj-fqz66qcftbsw",
+    "date": "2026-07-03",
+    "time": "16:04",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqz66qcftbsw",
+    "score": 55,
+    "category": "policy",
+    "title": "26-cv-07759，不止运动鞋！Reebok同步追责家纺宠物NFT多赛道全方位维权！",
+    "summary": "本案是KossofIPR代理国际运动巨头Reebok International Limited在伊利诺伊州发起的商标维权案件，针对其REEBOK文字商标以及图形商标未经授权使用的侵权行为发起，涵盖运动、家居、宠物、以及数码NFT等多个赛道。"
+  },
+  {
+    "id": "mjzj-fqz45ug0kpvk",
+    "date": "2026-07-03",
+    "time": "15:44",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqz45ug0kpvk",
+    "score": 61,
+    "category": "policy",
+    "title": "26-cv-01438｜跨境热销手机壳PITAKA日落/月升手机壳版权维权啦！Temu的3C卖家速围观！",
+    "summary": "本案是Getech Law代理Shenzhen Lingyi Innovation Technology Co.,Ltd在宾夕法尼亚州发起的版权维权案件，目前案件版权详情处于密封状态，但麦家支持通过排查锁定了涉案版权图，供卖家参考并及时避雷！"
+  },
+  {
     "id": "187265",
     "date": "2026-07-03",
     "time": "14:20",
@@ -88,6 +292,17 @@ window.NEWS_DATA = [
     "category": "platform",
     "title": "Alexa for Shopping：你的亚马逊个性化、智能购物助手",
     "summary": "亚马逊把AI购物助手往前台推，入口变了流量分配就会变，值得留意它怎么影响搜索和推荐的权重。"
+  },
+  {
+    "id": "mjzj-fqygr61wpm2o",
+    "date": "2026-07-03",
+    "time": "11:30",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fqygr61wpm2o",
+    "score": 55,
+    "category": "market",
+    "title": "第三届出海全球峰会一线干货 | 宋来：从产品出海到标准引领，中国智造的全球化进阶",
+    "summary": ""
   },
   {
     "id": "187257",
@@ -310,6 +525,17 @@ window.NEWS_DATA = [
     "summary": "卡塔尔投资促进局（Invest Qatar）联合卡塔尔投资局（QIA）推出创投融资模块，通过整合基金资源与融资渠道，为初创企业提供更加便捷的融资对接平台，进一步完善卡塔尔创新创业生态。"
   },
   {
+    "id": "187136",
+    "date": "2026-06-28",
+    "time": "17:19",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187136",
+    "score": 61,
+    "category": "platform",
+    "title": "他用了18个月，让香薰蜡烛在亚马逊卖到1亿，客单价$30碾压同行！",
+    "summary": ""
+  },
+  {
     "id": "187135",
     "date": "2026-06-27",
     "time": "16:59",
@@ -329,6 +555,17 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "报告分析·三层拆解法,让数据开口说话",
+    "summary": ""
+  },
+  {
+    "id": "187126",
+    "date": "2026-06-26",
+    "time": "11:21",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187126",
+    "score": 61,
+    "category": "marketing",
+    "title": "注意！亚马逊的这2个新改动，直接影响卖家转化",
     "summary": ""
   },
   {
@@ -373,6 +610,17 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "一周要闻·阿联酋&卡塔尔｜阿联酋宣布“霍尔木兹零依赖”计划；卡塔尔获评中东和北非最和平国家",
+    "summary": ""
+  },
+  {
+    "id": "186956",
+    "date": "2026-06-21",
+    "time": "20:21",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/186956",
+    "score": 75,
+    "category": "policy",
+    "title": "欧盟7月1日关税新政落地，多家跨境物流企业发布重磅预警",
     "summary": ""
   },
   {
@@ -442,6 +690,17 @@ window.NEWS_DATA = [
     "summary": ""
   },
   {
+    "id": "186693",
+    "date": "2026-06-11",
+    "time": "09:50",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/186693",
+    "score": 59,
+    "category": "market",
+    "title": "Prime会员日将近，如何入选消费者的购物车",
+    "summary": ""
+  },
+  {
     "id": "lsch-a07b83dd",
     "date": "2026-06-08",
     "time": "15:45",
@@ -464,6 +723,17 @@ window.NEWS_DATA = [
     "summary": ""
   },
   {
+    "id": "lsch-c0114eb0",
+    "date": "2026-06-06",
+    "time": "16:37",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/c0114eb0",
+    "score": 55,
+    "category": "market",
+    "title": "中国品牌出海，海外网红不够用了",
+    "summary": ""
+  },
+  {
     "id": "lsch-28f848a7",
     "date": "2026-06-06",
     "time": "12:21",
@@ -475,6 +745,17 @@ window.NEWS_DATA = [
     "summary": ""
   },
   {
+    "id": "lsch-c7f7dd95",
+    "date": "2026-06-06",
+    "time": "12:18",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/c7f7dd95",
+    "score": 55,
+    "category": "market",
+    "title": "36氪出海·行业｜中国跨境电商，正在走出漫长的雨季？",
+    "summary": "接下来的跨境电商行业不是比谁跑得快，而是比谁扎得深。"
+  },
+  {
     "id": "lsch-b2a057a5",
     "date": "2026-06-06",
     "time": "11:58",
@@ -484,6 +765,39 @@ window.NEWS_DATA = [
     "category": "market",
     "title": "36氪出海·AI｜佛陀、分身互联网与我们的精神危机：对话Second Me陶芳波",
     "summary": ""
+  },
+  {
+    "id": "lsch-54b1af0f",
+    "date": "2026-06-06",
+    "time": "11:46",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/54b1af0f",
+    "score": 63,
+    "category": "market",
+    "title": "5月卡塔尔创投要闻：“北京-卡塔尔”投资合作高峰洽谈会即将举办；中国车企卡塔尔市占率接近30%",
+    "summary": "从中卡合作、行业机遇、市场政策和近期活动四个方面，全面了解卡塔尔投资机遇。"
+  },
+  {
+    "id": "lsch-7bfd68ab",
+    "date": "2026-06-06",
+    "time": "11:29",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/7bfd68ab",
+    "score": 55,
+    "category": "marketing",
+    "title": "36氪出海·AI | 迪拜宣布智能体AI倡议，中国AI企业迎来出海新风口",
+    "summary": "迪拜商会主席兼首席执行官穆罕默德·阿里·拉希德·卢塔阁下撰文表示，迪拜近期宣布了一项智能体 AI（Agentic AI ）倡议，体现了其将未来技术转化为商业影响力的务实路径，也为中国企业开展创新合作开辟了全新契机。"
+  },
+  {
+    "id": "lsch-59ccc363",
+    "date": "2026-06-05",
+    "time": "17:46",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/59ccc363",
+    "score": 55,
+    "category": "platform",
+    "title": "速卖通欧洲多个市场本地订单规模反超跨境，本地化备货成趋势",
+    "summary": "海外618，速卖通欧洲本地订单占比过半，跨境商家加速本地备货"
   },
   {
     "id": "lsch-6ad79935",

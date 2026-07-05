@@ -316,6 +316,18 @@ button { font-family: inherit; }
   padding: 1px 6px;
 }
 
+.row-ref {
+  flex-shrink: 0;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  text-decoration: none;
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 0 5px;
+  transition: color var(--duration-fast) var(--easing-default), border-color var(--duration-fast) var(--easing-default);
+}
+.row-ref:hover { color: var(--color-accent); border-color: var(--color-accent); }
+
 .score {
   margin-left: auto;
   flex-shrink: 0;

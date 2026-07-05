@@ -54,10 +54,25 @@ check("lsch 提取1条", len(rows) == 1 and rows[0][0] == "lsch-9f9745fe")
 check("lsch 标题干净", rows[0][2] == "中国公司全球化周报，速卖通首发出海成交榜")
 check("clean_text 去@media", fn.clean_text("@media screen and (min-width: 48em){}大停电后一年") == "大停电后一年")
 check("clean_text 解HTML实体", fn.clean_text("一周要闻·阿联酋&#038;卡塔尔动态汇总") == "一周要闻·阿联酋&卡塔尔动态汇总")
+check("clean_text 去残留大括号", fn.clean_text("}中国品牌出海，海外网红不够用了") == "中国品牌出海，海外网红不够用了")
 
 # lsch 摘要：站点宣传语要放弃
 check("lsch 摘要取正文摘要", fn.lsch_detail_summary('<meta name="description" content="经历了大停电痛楚的西班牙，迅速反思并走出此前的发展模式">') == "经历了大停电痛楚的西班牙，迅速反思并走出此前的发展模式")
 check("lsch 摘要拒绝宣传语", fn.lsch_detail_summary('<meta name="description" content="聚焦中国公司全球化大事，36氪出海致力于消除信息差，让读者尽收眼底。">') == "")
+
+# 卖家之家（sitemap发现 + 详情页提取）
+idx_xml = '<sitemapindex><sitemap><loc>https://mjzj.com/sitemap/common</loc></sitemap><sitemap><loc>https://mjzj.com/sitemap/articles/2</loc></sitemap><sitemap><loc>https://mjzj.com/sitemap/articles/11</loc></sitemap></sitemapindex>'
+check("mjzj 索引取最大分卷", fn.mjzj_parse_index(idx_xml) == "https://mjzj.com/sitemap/articles/11")
+art_xml = ('<url><loc>https://mjzj.com/article/aaa111</loc><lastmod>2026-07-01T10:00:00</lastmod></url>'
+           '<url><loc>https://mjzj.com/article/bbb222</loc><lastmod>2026-07-03T10:00:00</lastmod></url>')
+rows = fn.mjzj_parse_articles(art_xml)
+check("mjzj 分卷按时间倒序", [r[0] for r in rows] == ["bbb222", "aaa111"])
+check("mjzj 标题去后缀", fn.mjzj_detail_title("<title>\n  亚马逊欧洲站推出促销一键拓展功能-卖家之家\n</title>") == "亚马逊欧洲站推出促销一键拓展功能")
+check("mjzj 发布时间", fn.mjzj_detail_time('"datePublished":"2026-07-02T11:42:37+08:00"') == ("2026-07-02", "11:42"))
+check("mjzj 摘要", fn.mjzj_detail_summary('<meta name="description" content="亚马逊欧洲站卖家后台新增全欧拓展功能，支持一键复制促销到多个站点。">') == "亚马逊欧洲站卖家后台新增全欧拓展功能，支持一键复制促销到多个站点。")
+check("mjzj 原始来源canonical注释", fn.mjzj_detail_ref('<p></p><!-- canonical: https://www.amz123.com/kx/wJEauwQ4 --><p>正文</p>') == "https://www.amz123.com/kx/wJEauwQ4")
+check("mjzj 原始来源href兜底", fn.mjzj_detail_ref('<a href="https://www.amz123.com/kx/wJEauwQ4">来源</a>') == "https://www.amz123.com/kx/wJEauwQ4")
+check("mjzj 无来源返回空", fn.mjzj_detail_ref('<a href="https://mjzj.com/x">站内</a>') == "")
 
 # 详情时间解析
 check("cifnews 时间", fn.cifnews_detail_time("发布于 2026-07-03 17:45 阅读") == ("2026-07-03", "17:45"))

@@ -16,7 +16,8 @@
 
 ## 踩坑记录
 
-- amz123 / mjzj.com 首页是 Nuxt 客户端渲染，curl 拿不到资讯列表，别再试直接抓 HTML。亿恩（ennews.com）和亿邦（ebrun.com）有WAF，也抓不到。雨果跨境（cifnews.com）和36氪出海（letschuhai.com）是服务端渲染，可以直接抓。
+- amz123 / mjzj.com 的列表页是客户端渲染，curl 拿不到，但**详情页是服务端渲染**。卖家之家走 sitemap 发现文章（sitemap索引的最后一个articles分卷最新），最近一天的文章会404（站方延迟放出），跳过即可下轮补上。amz123 的 sitemap.xml 本身是坏的（返回Nuxt错误页），目前通过卖家之家的转载间接覆盖 amz123 快讯。亿恩（ennews.com）和亿邦（ebrun.com）有WAF，抓不到。雨果跨境（cifnews.com）和36氪出海（letschuhai.com）是服务端渲染，可以直接抓。
+- 卖家之家转载文的原文出处写在HTML注释 `<!-- canonical: URL -->` 里，不在超链接里。ref 指向站内已收录条目时视为重复跳过。
 - aihot.virxact.com 无 UA 的 curl 会 403，带浏览器 UA 正常。
 - 36氪出海的锚文本里混着emotion的CSS规则文本（`@media{...}`、`.css-xxx{...}`），标题必须过 `clean_text` 清洗；部分文章页的 meta description 是站点宣传语（含「36氪出海」「信息差」字样），不能当摘要用。
 - cifnews 首页会混入置顶旧文章，抓取层用「文章id距页面最大id超过3000就丢弃」过滤。

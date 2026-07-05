@@ -26,9 +26,11 @@ python scripts/fetch_news.py --refresh-times  # 顺带刷新已有条目的发�
 python scripts/fetch_news.py --limit 20       # 限制每源本次详情页抓取数
 ```
 
-- 数据源：雨果跨境（cifnews.com）、36氪出海（letschuhai.com），都是服务端渲染可直接抓
+- 数据源：雨果跨境（cifnews.com）、36氪出海（letschuhai.com）、卖家之家（mjzj.com）
+- 前两个从首页列表发现文章；卖家之家列表页是客户端渲染，改走它的sitemap（网站提供给搜索引擎的文章清单）发现，最近一天的文章站方还没放出会404，下轮自动补上
 - 新条目会抓详情页取真实发布时间，拿不到回退为抓取时刻
-- 按条目id去重，只追加不覆盖
+- 卖家之家的转载文在HTML注释里标注原文出处（canonical），存进 `ref` 字段；如果原文就是站内已收录的条目，转载直接跳过（跨源去重）
+- 按条目id、链接、标题三重去重，只追加不覆盖
 - 超过30天的条目自动移入 `data/archive/YYYY-MM.json`
 
 ### 2. LLM加工（打分＋点评＋校正分类）
@@ -90,6 +92,7 @@ score     热度分 0-100（>=75 高亮绿，>=65 品牌色，其余灰）
 category  platform | policy | logistics | marketing | market
 title     标题
 summary   一句点评（LLM或人工写，可为空）
+ref       原文出处链接（仅转载类条目有，选填字段）
 ```
 
 ## 备注

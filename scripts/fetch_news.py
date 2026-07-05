@@ -66,7 +66,8 @@ def clean_text(text):
     text = re.sub(r"@media[^{]*\{[^}]*\}", "", text)
     text = re.sub(r"\.css-[\w-]+\{[^}]*\}", "", text)
     text = re.sub(r"[\w.#: >,()-]*\{[^}]*\}", "", text)
-    return re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s+", " ", text).strip()
+    return text.lstrip("{} ")
 
 
 # ---------- 源定义 ----------
@@ -126,22 +127,95 @@ def lsch_detail_summary(html):
     return text
 
 
+def mjzj_parse_index(xml):
+    """sitemap索引里编号最大的文章分卷是最新的。"""
+    maps = re.findall(r"<loc>(https://mjzj\.com/sitemap/articles/(\d+))</loc>", xml)
+    if not maps:
+        return None
+    return max(maps, key=lambda m: int(m[1]))[0]
+
+
+def mjzj_parse_articles(xml, cap=80):
+    """返回 [(id, lastmod)]，按lastmod倒序取最近cap条。"""
+    rows = re.findall(
+        r"<url><loc>https://mjzj\.com/article/([\w-]+)</loc><lastmod>([^<]+)</lastmod>", xml
+    )
+    rows.sort(key=lambda r: r[1], reverse=True)
+    return rows[:cap]
+
+
+def mjzj_discover():
+    """卖家之家列表页是客户端渲染，走sitemap发现文章。
+    标题留空，进详情页再取（最近一天的文章可能还没放出，会404，跳过等下轮）。"""
+    latest = mjzj_parse_index(fetch_html("https://mjzj.com/sitemap.xml"))
+    if not latest:
+        return []
+    return [
+        ("mjzj-" + aid, "https://mjzj.com/article/" + aid, "")
+        for aid, _ in mjzj_parse_articles(fetch_html(latest))
+    ]
+
+
+def mjzj_detail_title(html):
+    m = re.search(r"<title>\s*(.*?)\s*-\s*卖家之家\s*</title>", html, flags=re.S)
+    return clean_text(m.group(1)) if m else ""
+
+
+def mjzj_detail_time(html):
+    m = re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2})', html)
+    if m:
+        return (m.group(1), m.group(2))
+    m = re.search(r"(\d{4}-\d{2}-\d{2})[T ](\d{2}:\d{2})", html)
+    return (m.group(1), m.group(2)) if m else None
+
+
+def mjzj_detail_summary(html):
+    m = re.search(r'<meta name="description" content="([^"]{20,300})"', html)
+    return clean_text(m.group(1)) if m else ""
+
+
+def mjzj_detail_ref(html):
+    """卖家之家转载的文章把原文出处写在HTML注释里：<!-- canonical: 原文URL -->。"""
+    m = re.search(r"<!--\s*canonical:\s*(https?://[^\s>]+?)\s*-->", html)
+    if m:
+        return m.group(1)
+    m = re.search(r'href="(https://www\.amz123\.com/kx/[A-Za-z0-9]+)"', html)
+    return m.group(1) if m else ""
+
+
+def _list_discover(list_url, extract):
+    def discover():
+        return extract(fetch_html(list_url))
+    return discover
+
+
 SOURCES = [
     {
         "name": "雨果跨境",
-        "list_url": "https://www.cifnews.com/",
-        "extract": cifnews_extract,
+        "discover": _list_discover("https://www.cifnews.com/", cifnews_extract),
         "detail_time": cifnews_detail_time,
         "detail_summary": None,  # cifnews的meta描述就是标题，没用
+        "detail_title": None,
+        "detail_ref": None,
         "match_id": lambda item_id: item_id.isdigit(),
     },
     {
         "name": "36氪出海",
-        "list_url": "https://letschuhai.com/",
-        "extract": lsch_extract,
+        "discover": _list_discover("https://letschuhai.com/", lsch_extract),
         "detail_time": lsch_detail_time,
         "detail_summary": lsch_detail_summary,
+        "detail_title": None,
+        "detail_ref": None,
         "match_id": lambda item_id: item_id.startswith("lsch-"),
+    },
+    {
+        "name": "卖家之家",
+        "discover": mjzj_discover,
+        "detail_time": mjzj_detail_time,
+        "detail_summary": mjzj_detail_summary,
+        "detail_title": mjzj_detail_title,
+        "detail_ref": mjzj_detail_ref,
+        "match_id": lambda item_id: item_id.startswith("mjzj-"),
     },
 ]
 
@@ -227,14 +301,18 @@ def main():
     items = load_existing()
     known_ids = {it["id"] for it in items}
     known_urls = {it["url"] for it in items}
+    # 同一篇文章可能挂在多个不同链接下（36氪出海出现过），标题也要去重
+    known_titles = {(it["source"], it["title"]) for it in items}
+    # 转载文的原文链接。ref指向已收录条目时跳过，避免同一事件出现两遍
+    known_refs = {it["ref"] for it in items if it.get("ref")}
     now = datetime.now()
     added = 0
 
     for src in SOURCES:
         try:
-            listing = src["extract"](fetch_html(src["list_url"]))
+            listing = src["discover"]()
         except Exception as e:
-            print("列表页抓取失败 %s: %s" % (src["name"], e), file=sys.stderr)
+            print("来源发现失败 %s: %s" % (src["name"], e), file=sys.stderr)
             continue
         budget = limit
         for uid, url, title in listing:
@@ -243,6 +321,7 @@ def main():
             budget -= 1
             date_s, time_s = now.strftime("%Y-%m-%d"), now.strftime("%H:%M")
             summary = ""
+            ref = ""
             detail = fetch_detail(src, url)
             if detail:
                 dt = src["detail_time"](detail)
@@ -250,14 +329,31 @@ def main():
                     date_s, time_s = dt
                 if src["detail_summary"]:
                     summary = src["detail_summary"](detail)
-            items.append({
+                if src["detail_title"] and not title:
+                    title = src["detail_title"](detail)
+                if src["detail_ref"]:
+                    ref = src["detail_ref"](detail)
+            if not title:
+                # 发现渠道没给标题且详情页也没拿到（如卖家之家未放出的新文），下轮再试
+                continue
+            if (src["name"], title) in known_titles:
+                continue
+            if ref and (ref in known_urls or ref in known_refs):
+                continue
+            entry = {
                 "id": uid, "date": date_s, "time": time_s,
                 "source": src["name"], "url": url,
-                "score": score(title), "category": categorize(title),
+                "score": score(title + summary), "category": categorize(title + summary),
                 "title": title, "summary": summary,
-            })
+            }
+            if ref:
+                entry["ref"] = ref
+            items.append(entry)
             known_ids.add(uid)
             known_urls.add(url)
+            known_titles.add((src["name"], title))
+            if ref:
+                known_refs.add(ref)
             added += 1
             print("+ [%s] %s" % (src["name"], title[:40]))
 

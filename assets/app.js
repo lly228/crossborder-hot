@@ -135,6 +135,15 @@
     score.title = '热度分';
     meta.appendChild(badge);
     meta.appendChild(src);
+    if (it.ref) {
+      var ref = document.createElement('a');
+      ref.className = 'row-ref';
+      ref.href = it.ref;
+      ref.target = '_blank';
+      ref.rel = 'noopener';
+      ref.textContent = '原始来源';
+      meta.appendChild(ref);
+    }
     meta.appendChild(score);
 
     var title = document.createElement('a');
