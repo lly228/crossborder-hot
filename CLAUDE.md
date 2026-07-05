@@ -9,6 +9,8 @@
 - 数据文件是 `data/news.js`（`window.NEWS_DATA = [...]` 形式），不是 JSON fetch。原因：file:// 下没有 CORS 问题，用户双击就能打开。改数据格式前先想清楚这一点。
 - 数据字段 schema 见 README.md「数据字段」一节，新增字段要同步更新 README、`scripts/fetch_news.py` 和 `scripts/enrich_llm.py`。
 - 分类枚举固定五个：platform / policy / logistics / marketing / market，对应中文见 `assets/app.js` 里的 CATEGORIES。加分类要同时改 app.js、fetch_news.py 的关键词表和 enrich_llm.py 的 prompt。
+- 视图逻辑全在 `assets/app.js`：精选门槛 FEATURED_MIN_SCORE=65，主题是 TOPICS 里的正则关键词，日报/周报/月报是纯前端对 NEWS_DATA 的过滤排序，没有独立数据文件。改主题只动 TOPICS 数组。
+- AMZ123 的发现方式是从已知快讯页链式爬（amz123_discover），种子来自库里最近的 amz-条目和转载ref，断种子时用 AMZ_SEED 兜底。它家 sitemap 是坏的，列表页是客户端渲染，别试。
 - 加数据源：在 `scripts/fetch_news.py` 的 SOURCES 注册表里加一项（extract / detail_time / detail_summary / match_id 四个函数），只接服务端渲染的源。改完跑 `python scripts/test_fetch.py`。
 - LLM密钥放 `.env.local`（已gitignore）或环境变量 CBHOT_LLM_API_KEY，禁止写进代码、commit和派工prompt。
 - 设计令牌集中在 `assets/style.css` 的 `:root`，遵循 `~/.claude/rules/design_template.md` 的变量命名。不要写死色值到组件样式里。

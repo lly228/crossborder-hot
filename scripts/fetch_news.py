@@ -54,10 +54,18 @@ SCORE_KEYWORDS = [
 ]
 
 
-def fetch_html(url):
+_HTML_CACHE = {}
+
+
+def fetch_html(url, cache=False):
+    if cache and url in _HTML_CACHE:
+        return _HTML_CACHE[url]
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=30) as resp:
-        return resp.read().decode("utf-8", errors="ignore")
+        text = resp.read().decode("utf-8", errors="ignore")
+    if cache:
+        _HTML_CACHE[url] = text
+    return text
 
 
 def clean_text(text):
@@ -144,7 +152,7 @@ def mjzj_parse_articles(xml, cap=80):
     return rows[:cap]
 
 
-def mjzj_discover():
+def mjzj_discover(items):
     """卖家之家列表页是客户端渲染，走sitemap发现文章。
     标题留空，进详情页再取（最近一天的文章可能还没放出，会404，跳过等下轮）。"""
     latest = mjzj_parse_index(fetch_html("https://mjzj.com/sitemap.xml"))
@@ -183,8 +191,73 @@ def mjzj_detail_ref(html):
     return m.group(1) if m else ""
 
 
+AMZ_SEED = "https://www.amz123.com/kx/wJEauwQ4"
+
+
+def amz123_extract_links(html):
+    """快讯页里的其他快讯链接（上一篇/下一篇导航 + 推荐列表）。"""
+    return list(dict.fromkeys(re.findall(r'href="/kx/([A-Za-z0-9]+)"', html)))
+
+
+def amz123_detail_title(html):
+    m = re.search(r"<h1[^>]*>(.*?)</h1>", html, flags=re.S)
+    if m:
+        return clean_text(m.group(1))
+    m = re.search(r"<title>\s*(.*?)\s*-\s*AMZ123[^<]*</title>", html, flags=re.S)
+    return clean_text(m.group(1)) if m else ""
+
+
+def amz123_detail_time(html):
+    m = re.search(r'"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2})', html)
+    if m:
+        return (m.group(1), m.group(2))
+    m = re.search(r"(\d{4}-\d{2}-\d{2})[T ](\d{2}:\d{2})", html)
+    return (m.group(1), m.group(2)) if m else None
+
+
+def amz123_detail_summary(html):
+    m = re.search(r'<meta name="description" content="([^"]{20,300})"', html)
+    return clean_text(m.group(1)) if m else ""
+
+
+def amz123_discover(items):
+    """amz123列表页是客户端渲染、sitemap是坏的，从已知快讯页出发链式发现。
+
+    种子：库里最近的amz123条目 + 转载文ref里的amz123链接，都没有就用固定种子。
+    每个快讯页带上一篇/下一篇和推荐快讯链接，逐页扩散，页面进缓存供主流程复用。
+    """
+    known = {it["url"] for it in items}
+    recent = sorted(items, key=lambda i: i["date"] + i["time"], reverse=True)
+    seeds = [it["url"] for it in recent if it["id"].startswith("amz-")][:3]
+    seeds += [it["ref"] for it in recent
+              if it.get("ref", "").startswith("https://www.amz123.com/kx/")][:3]
+    if not seeds:
+        seeds = [AMZ_SEED]
+
+    frontier = list(dict.fromkeys(seeds))
+    visited, found, found_ids = set(), [], set()
+    pages = 0
+    while frontier and pages < 20 and len(found) < 30:
+        url = frontier.pop(0)
+        if url in visited:
+            continue
+        visited.add(url)
+        html = fetch_detail(None, url)
+        pages += 1
+        if not html:
+            continue
+        for hexid in amz123_extract_links(html):
+            u = "https://www.amz123.com/kx/" + hexid
+            if u in known or hexid in found_ids or u in visited:
+                continue
+            found_ids.add(hexid)
+            found.append(("amz-" + hexid, u, ""))
+            frontier.append(u)
+    return found
+
+
 def _list_discover(list_url, extract):
-    def discover():
+    def discover(items):
         return extract(fetch_html(list_url))
     return discover
 
@@ -217,6 +290,15 @@ SOURCES = [
         "detail_ref": mjzj_detail_ref,
         "match_id": lambda item_id: item_id.startswith("mjzj-"),
     },
+    {
+        "name": "AMZ123",
+        "discover": amz123_discover,
+        "detail_time": amz123_detail_time,
+        "detail_summary": amz123_detail_summary,
+        "detail_title": amz123_detail_title,
+        "detail_ref": None,
+        "match_id": lambda item_id: item_id.startswith("amz-"),
+    },
 ]
 
 
@@ -248,6 +330,15 @@ def load_existing():
         print("警告：无法解析现有 news.js，将视为空数据", file=sys.stderr)
         return []
     return json.loads(m.group(1))
+
+
+def load_archives():
+    """归档条目也要参与去重，否则被归档的旧文会被当成新文反复抓回来。"""
+    rows = []
+    if ARCHIVE_DIR.exists():
+        for p in ARCHIVE_DIR.glob("*.json"):
+            rows.extend(json.loads(p.read_text(encoding="utf-8")))
+    return rows
 
 
 def write_data(items):
@@ -284,8 +375,9 @@ def archive_old(items):
 
 def fetch_detail(src, url):
     try:
-        time.sleep(DETAIL_SLEEP)
-        return fetch_html(url)
+        if url not in _HTML_CACHE:
+            time.sleep(DETAIL_SLEEP)
+        return fetch_html(url, cache=True)
     except Exception as e:
         print("  详情页抓取失败 %s: %s" % (url, e), file=sys.stderr)
         return ""
@@ -299,24 +391,28 @@ def main():
         limit = int(args[args.index("--limit") + 1])
 
     items = load_existing()
-    known_ids = {it["id"] for it in items}
-    known_urls = {it["url"] for it in items}
+    everything = items + load_archives()
+    known_ids = {it["id"] for it in everything}
+    known_urls = {it["url"] for it in everything}
     # 同一篇文章可能挂在多个不同链接下（36氪出海出现过），标题也要去重
-    known_titles = {(it["source"], it["title"]) for it in items}
+    known_titles = {(it["source"], it["title"]) for it in everything}
     # 转载文的原文链接。ref指向已收录条目时跳过，避免同一事件出现两遍
-    known_refs = {it["ref"] for it in items if it.get("ref")}
+    known_refs = {it["ref"] for it in everything if it.get("ref")}
     now = datetime.now()
     added = 0
 
     for src in SOURCES:
         try:
-            listing = src["discover"]()
+            listing = src["discover"](everything)
         except Exception as e:
             print("来源发现失败 %s: %s" % (src["name"], e), file=sys.stderr)
             continue
         budget = limit
         for uid, url, title in listing:
             if uid in known_ids or url in known_urls or budget <= 0:
+                continue
+            if url in known_refs:
+                # 这篇的内容已通过转载收录过
                 continue
             budget -= 1
             date_s, time_s = now.strftime("%Y-%m-%d"), now.strftime("%H:%M")

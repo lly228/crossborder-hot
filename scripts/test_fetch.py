@@ -74,6 +74,17 @@ check("mjzj 原始来源canonical注释", fn.mjzj_detail_ref('<p></p><!-- canoni
 check("mjzj 原始来源href兜底", fn.mjzj_detail_ref('<a href="https://www.amz123.com/kx/wJEauwQ4">来源</a>') == "https://www.amz123.com/kx/wJEauwQ4")
 check("mjzj 无来源返回空", fn.mjzj_detail_ref('<a href="https://mjzj.com/x">站内</a>') == "")
 
+# AMZ123（链式发现 + 详情页提取）
+amz_html = ('<a href="/kx/0CWptcE8" class="article-nav-prev"></a>'
+            '<a href="/kx/B3jFUy0J" class="article-nav-next">下一篇</a>'
+            '<a href="/kx/TV3AT2yu" class="kx-item-title">AI服务功能调整</a>'
+            '<a href="/kx/0CWptcE8">重复的</a><a href="/kx">列表页不算</a>')
+check("amz123 提取快讯链接去重", fn.amz123_extract_links(amz_html) == ["0CWptcE8", "B3jFUy0J", "TV3AT2yu"])
+check("amz123 标题取h1", fn.amz123_detail_title('<h1 class="x">亚马逊欧洲站推出促销一键拓展功能</h1>') == "亚马逊欧洲站推出促销一键拓展功能")
+check("amz123 标题title兜底", fn.amz123_detail_title("<title>某快讯标题-AMZ123跨境导航</title>") == "某快讯标题")
+check("amz123 时间", fn.amz123_detail_time('"datePublished":"2026-07-02T11:42:37+08:00"') == ("2026-07-02", "11:42"))
+check("amz123 摘要", fn.amz123_detail_summary('<meta name="description" content="AMZ123获悉，亚马逊欧洲站卖家后台新增全欧拓展功能，支持一键复制。">') == "AMZ123获悉，亚马逊欧洲站卖家后台新增全欧拓展功能，支持一键复制。")
+
 # 详情时间解析
 check("cifnews 时间", fn.cifnews_detail_time("发布于 2026-07-03 17:45 阅读") == ("2026-07-03", "17:45"))
 check("lsch 时间", fn.lsch_detail_time('datetime="2026-07-05T09:15:00"') == ("2026-07-05", "09:15"))

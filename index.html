@@ -17,10 +17,15 @@
       </div>
       <nav class="side-nav" aria-label="侧边导航">
         <div class="side-label">内容</div>
-        <button class="side-link side-link-active" type="button" data-view="feed">精选</button>
+        <button class="side-link" type="button" data-view="featured">精选</button>
+        <button class="side-link" type="button" data-view="all">全部</button>
         <button class="side-link" type="button" data-view="starred">收藏</button>
-        <div class="side-label">关于</div>
-        <a class="side-link" href="https://www.cifnews.com/" target="_blank" rel="noopener">数据来源</a>
+        <div class="side-label">报告</div>
+        <button class="side-link" type="button" data-view="daily">日报</button>
+        <button class="side-link" type="button" data-view="weekly">周报</button>
+        <button class="side-link" type="button" data-view="monthly">月报</button>
+        <div class="side-label">主题</div>
+        <div id="topicNav"></div>
       </nav>
       <div class="side-foot">MVP · 数据仅供参考</div>
     </aside>
@@ -36,6 +41,8 @@
           <input id="searchInput" type="search" placeholder="搜索标题、来源" aria-label="搜索资讯">
         </div>
       </header>
+
+      <div class="mobile-nav" id="mobileNav" aria-label="视图与主题导航"></div>
 
       <div class="feed-head">
         <h1 class="feed-title" id="feedTitle">最新精选</h1>
