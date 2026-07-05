@@ -13,6 +13,7 @@
 - 与 data/news.js 按条目id去重，只追加不覆盖。
 - 超过 RETENTION_DAYS 天的条目移到 data/archive/YYYY-MM.json 归档，页面只加载 news.js。
 """
+import html as html_mod
 import json
 import re
 import sys
@@ -21,8 +22,9 @@ import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
 
-if sys.stdout.encoding and sys.stdout.encoding.lower() not in ("utf-8", "utf8"):
-    sys.stdout.reconfigure(encoding="utf-8")
+for stream in (sys.stdout, sys.stderr):
+    if stream.encoding and stream.encoding.lower() not in ("utf-8", "utf8"):
+        stream.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "news.js"
@@ -59,6 +61,7 @@ def fetch_html(url):
 
 
 def clean_text(text):
+    text = html_mod.unescape(text)
     text = re.sub(r"<[^>]+>", "", text)
     text = re.sub(r"@media[^{]*\{[^}]*\}", "", text)
     text = re.sub(r"\.css-[\w-]+\{[^}]*\}", "", text)

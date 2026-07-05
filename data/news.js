@@ -372,7 +372,7 @@ window.NEWS_DATA = [
     "url": "https://letschuhai.com/a5342eb4",
     "score": 55,
     "category": "market",
-    "title": "一周要闻·阿联酋&#038;卡塔尔｜阿联酋宣布“霍尔木兹零依赖”计划；卡塔尔获评中东和北非最和平国家",
+    "title": "一周要闻·阿联酋&卡塔尔｜阿联酋宣布“霍尔木兹零依赖”计划；卡塔尔获评中东和北非最和平国家",
     "summary": ""
   },
   {
@@ -449,7 +449,7 @@ window.NEWS_DATA = [
     "url": "https://letschuhai.com/a07b83dd",
     "score": 63,
     "category": "market",
-    "title": "一周要闻·阿联酋&#038;卡塔尔｜迪拜拟推出智能医疗签证；卡塔尔商工部启动企业经营活动三阶段更新",
+    "title": "一周要闻·阿联酋&卡塔尔｜迪拜拟推出智能医疗签证；卡塔尔商工部启动企业经营活动三阶段更新",
     "summary": ""
   },
   {

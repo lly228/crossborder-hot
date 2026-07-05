@@ -53,6 +53,7 @@ rows = fn.lsch_extract(html_lsch)
 check("lsch 提取1条", len(rows) == 1 and rows[0][0] == "lsch-9f9745fe")
 check("lsch 标题干净", rows[0][2] == "中国公司全球化周报，速卖通首发出海成交榜")
 check("clean_text 去@media", fn.clean_text("@media screen and (min-width: 48em){}大停电后一年") == "大停电后一年")
+check("clean_text 解HTML实体", fn.clean_text("一周要闻·阿联酋&#038;卡塔尔动态汇总") == "一周要闻·阿联酋&卡塔尔动态汇总")
 
 # lsch 摘要：站点宣传语要放弃
 check("lsch 摘要取正文摘要", fn.lsch_detail_summary('<meta name="description" content="经历了大停电痛楚的西班牙，迅速反思并走出此前的发展模式">') == "经历了大停电痛楚的西班牙，迅速反思并走出此前的发展模式")
