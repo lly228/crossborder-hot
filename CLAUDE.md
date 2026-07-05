@@ -1,0 +1,23 @@
+# CLAUDE.md — 跨境HOT
+
+## 项目定位
+
+仿 aihot.virxact.com 风格的跨境电商资讯精选静态站，MVP阶段。纯静态无构建，禁止引入打包工具和框架，保持双击 index.html 可用。
+
+## 约定
+
+- 数据文件是 `data/news.js`（`window.NEWS_DATA = [...]` 形式），不是 JSON fetch。原因：file:// 下没有 CORS 问题，用户双击就能打开。改数据格式前先想清楚这一点。
+- 数据字段 schema 见 README.md「数据字段」一节，新增字段要同步更新 README、`scripts/fetch_news.py` 和 `scripts/enrich_llm.py`。
+- 分类枚举固定五个：platform / policy / logistics / marketing / market，对应中文见 `assets/app.js` 里的 CATEGORIES。加分类要同时改 app.js、fetch_news.py 的关键词表和 enrich_llm.py 的 prompt。
+- 加数据源：在 `scripts/fetch_news.py` 的 SOURCES 注册表里加一项（extract / detail_time / detail_summary / match_id 四个函数），只接服务端渲染的源。改完跑 `python scripts/test_fetch.py`。
+- LLM密钥放 `.env.local`（已gitignore）或环境变量 CBHOT_LLM_API_KEY，禁止写进代码、commit和派工prompt。
+- 设计令牌集中在 `assets/style.css` 的 `:root`，遵循 `~/.claude/rules/design_template.md` 的变量命名。不要写死色值到组件样式里。
+- 视觉基准是 aihot 的浅色时间线风格：白底、40px等宽时间列、衬线体日期栏、评分按档位着色（>=75 绿、>=65 品牌橙、其余灰）。改版式前先对照参考站。
+
+## 踩坑记录
+
+- amz123 / mjzj.com 首页是 Nuxt 客户端渲染，curl 拿不到资讯列表，别再试直接抓 HTML。亿恩（ennews.com）和亿邦（ebrun.com）有WAF，也抓不到。雨果跨境（cifnews.com）和36氪出海（letschuhai.com）是服务端渲染，可以直接抓。
+- aihot.virxact.com 无 UA 的 curl 会 403，带浏览器 UA 正常。
+- 36氪出海的锚文本里混着emotion的CSS规则文本（`@media{...}`、`.css-xxx{...}`），标题必须过 `clean_text` 清洗；部分文章页的 meta description 是站点宣传语（含「36氪出海」「信息差」字样），不能当摘要用。
+- cifnews 首页会混入置顶旧文章，抓取层用「文章id距页面最大id超过3000就丢弃」过滤。
+- 详情页抓取间隔0.4秒，别去掉，避免被源站限流。

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>跨境HOT — 跨境电商行业动态精选</title>
+  <meta name="description" content="跨境电商行业动态聚合与每日精选：平台政策、合规知产、物流供应链、营销运营、市场行情。">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="app-shell">
+
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark">跨境<em>HOT</em></span>
+        <span class="brand-sub">跨境电商信息精选</span>
+      </div>
+      <nav class="side-nav" aria-label="侧边导航">
+        <div class="side-label">内容</div>
+        <button class="side-link side-link-active" type="button" data-view="feed">精选</button>
+        <button class="side-link" type="button" data-view="starred">收藏</button>
+        <div class="side-label">关于</div>
+        <a class="side-link" href="https://www.cifnews.com/" target="_blank" rel="noopener">数据来源</a>
+      </nav>
+      <div class="side-foot">MVP · 数据仅供参考</div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-left">
+          <span class="brand-mark brand-mark-mobile">跨境<em>HOT</em></span>
+          <span class="today" id="todayLabel"></span>
+        </div>
+        <div class="searchbox">
+          <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.3-4.3M17 10.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/></svg>
+          <input id="searchInput" type="search" placeholder="搜索标题、来源" aria-label="搜索资讯">
+        </div>
+      </header>
+
+      <div class="feed-head">
+        <h1 class="feed-title" id="feedTitle">最新精选</h1>
+        <div class="tabs" role="tablist" aria-label="分类筛选" id="tabs"></div>
+      </div>
+
+      <section id="feed" class="feed" aria-live="polite"></section>
+
+      <div id="emptyState" class="empty" hidden>
+        <div class="empty-icon">◎</div>
+        <p class="empty-text" id="emptyText">没有匹配的条目</p>
+      </div>
+
+      <footer class="pagefoot">
+        跨境HOT MVP · 内容抓取自公开资讯源，版权归原作者 · 点评为站内编辑观点
+      </footer>
+    </main>
+
+  </div>
+
+  <script src="data/news.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
