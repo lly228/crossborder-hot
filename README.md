@@ -4,8 +4,8 @@
 
 - **精选**：热度分65以上的条目，按日期分组时间线
 - **全部**：不设门槛的完整时间线
-- **日报**：单日条目按热度排序，可前后翻天
-- **周报/月报**：最近7天/30天按热度取头部条目，按分类分区展示
+- **日报**：杂志式版面（刊头、今日看点目录、按分类编号分区、统计栏），可前后翻天；配好LLM密钥后 `--report` 可生成编辑导语
+- **周报/月报**：同版式，最近7天/30天按热度取头部条目分区展示
 - **主题**：亚马逊、TikTok Shop、Temu·SHEIN·速卖通、东南亚、合规与知产、物流仓储六个关键词主题
 - 全局搜索、分类筛选、本地收藏；移动端侧边栏收起，换横向滑动导航
 
@@ -46,6 +46,7 @@ python scripts/fetch_news.py --limit 20       # 限制每源本次详情页抓�
 ```
 python scripts/enrich_llm.py            # 处理所有点评为空的条目
 python scripts/enrich_llm.py --all      # 全部重新加工
+python scripts/enrich_llm.py --report   # 生成最新一天的日报导语，写入 data/reports.js
 python scripts/enrich_llm.py --dry-run  # 只看要处理哪些，不调API
 ```
 

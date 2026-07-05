@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
-"""用LLM给资讯条目补点评、重打热度分、校正分类。
+"""用LLM给资讯条目补点评、重打热度分、校正分类，以及生成日报导语。
 
 用法：
     python scripts/enrich_llm.py            处理所有 summary 为空的条目
     python scripts/enrich_llm.py --all      所有条目重新加工（含已有点评的）
+    python scripts/enrich_llm.py --report   给最新一天生成日报导语，写入 data/reports.js
     python scripts/enrich_llm.py --dry-run  只打印将要发送的条目，不调API
 
 配置（环境变量，或项目根目录 .env.local 文件里的 KEY=VALUE 行）：
@@ -26,7 +27,16 @@ for _stream in (sys.stdout, sys.stderr):
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "news.js"
+REPORTS_FILE = ROOT / "data" / "reports.js"
 BATCH_SIZE = 15
+
+REPORTS_HEADER = (
+    "// 报告附加内容（当日导语等），由 scripts/enrich_llm.py --report 生成，可为空。\n"
+    "// 结构：{ \"daily\": { \"YYYY-MM-DD\": { \"intro\": \"当日导语文本\" } } }\n"
+    "window.NEWS_REPORTS = "
+)
+
+INTRO_PROMPT = """你是跨境电商日报的编辑，读者是平台卖家和出海从业者。根据当日资讯清单写一段80到120字的日报导语：概括当天最值得卖家注意的1到3件事，说清各自影响哪类卖家。全部用中文标点，语气平实，不用感叹号。只输出导语正文，无需其他内容。"""
 
 HEADER = (
     "// 资讯数据。由 scripts/fetch_news.py 追加维护，也可手工编辑。\n"
@@ -92,13 +102,81 @@ def call_llm(base_url, api_key, model, batch):
     return json.loads(content)
 
 
+def call_llm_text(base_url, api_key, model, system, user):
+    payload = {
+        "model": model,
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ],
+        "temperature": 0.4,
+    }
+    req = urllib.request.Request(
+        base_url.rstrip("/") + "/chat/completions",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json", "Authorization": "Bearer " + api_key},
+    )
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+    return data["choices"][0]["message"]["content"].strip()
+
+
+def load_reports():
+    if not REPORTS_FILE.exists():
+        return {"daily": {}}
+    m = re.search(r"window\.NEWS_REPORTS\s*=\s*(\{.*\});?\s*$",
+                  REPORTS_FILE.read_text(encoding="utf-8"), flags=re.S)
+    return json.loads(m.group(1)) if m else {"daily": {}}
+
+
+def gen_report(base_url, api_key, model, items, dry_run):
+    """给最新一天生成日报导语。"""
+    dates = sorted({it["date"] for it in items}, reverse=True)
+    if not dates:
+        print("没有数据")
+        return
+    date = dates[0]
+    day_items = sorted([it for it in items if it["date"] == date],
+                       key=lambda it: it["score"], reverse=True)
+    listing = "\n".join(
+        "- [%s] %s：%s" % (it["source"], it["title"], it.get("summary") or "无摘要")
+        for it in day_items[:20]
+    )
+    print("生成 %s 的日报导语，素材 %d 条" % (date, min(len(day_items), 20)))
+    if dry_run:
+        print(listing)
+        return
+    intro = call_llm_text(base_url, api_key, model, INTRO_PROMPT, listing)
+    reports = load_reports()
+    reports.setdefault("daily", {})[date] = {"intro": intro}
+    REPORTS_FILE.write_text(
+        REPORTS_HEADER + json.dumps(reports, ensure_ascii=False, indent=2) + ";\n",
+        encoding="utf-8",
+    )
+    print("导语已写入 %s" % REPORTS_FILE)
+    print(intro)
+
+
 def main():
     args = sys.argv[1:]
     do_all = "--all" in args
     dry_run = "--dry-run" in args
+    do_report = "--report" in args
 
     load_env_local()
     items = load_items()
+
+    if do_report:
+        api_key = os.environ.get("CBHOT_LLM_API_KEY")
+        if not api_key and not dry_run:
+            print("缺少 CBHOT_LLM_API_KEY，设置环境变量或写入 .env.local 后重试", file=sys.stderr)
+            sys.exit(1)
+        gen_report(
+            os.environ.get("CBHOT_LLM_BASE_URL", "https://api.deepseek.com/v1"),
+            api_key, os.environ.get("CBHOT_LLM_MODEL", "deepseek-chat"),
+            items, dry_run,
+        )
+        return
     targets = [it for it in items if do_all or not it.get("summary")]
     if not targets:
         print("没有需要加工的条目")

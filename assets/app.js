@@ -32,6 +32,18 @@
     weekly: '跨境周报',
     monthly: '跨境月报'
   };
+  var REPORT_CFG = {
+    daily: { title: '日报', eng: 'DAILY', cadence: 'DAILY · 每日更新' },
+    weekly: { title: '周报', eng: 'WEEKLY', cadence: 'WEEKLY · 最近7天' },
+    monthly: { title: '月报', eng: 'MONTHLY', cadence: 'MONTHLY · 最近30天' }
+  };
+  var CAT_ENG = {
+    platform: 'Platforms',
+    policy: 'Policy & IP',
+    logistics: 'Logistics',
+    marketing: 'Marketing',
+    market: 'Markets'
+  };
   var FEATURED_MIN_SCORE = 65;
   var WEEKDAYS = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
   var STORE_KEY = 'cbhot-starred';
@@ -66,6 +78,20 @@
     var p = dateStr.split('-');
     var d = new Date(Number(p[0]), Number(p[1]) - 1, Number(p[2]));
     return { main: Number(p[1]) + '月' + Number(p[2]) + '日', sub: WEEKDAYS[d.getDay()] };
+  }
+
+  var CN_DIGIT = '〇一二三四五六七八九';
+  function cnNum(n) {
+    if (n <= 10) return n === 10 ? '十' : CN_DIGIT[n];
+    if (n < 20) return '十' + CN_DIGIT[n % 10];
+    return CN_DIGIT[Math.floor(n / 10)] + '十' + (n % 10 ? CN_DIGIT[n % 10] : '');
+  }
+  function cnDate(dateStr) {
+    var p = dateStr.split('-');
+    var d = new Date(Number(p[0]), Number(p[1]) - 1, Number(p[2]));
+    var year = String(p[0]).split('').map(function (ch) { return CN_DIGIT[Number(ch)]; }).join('');
+    return year + '年' + cnNum(Number(p[1])) + '月' + cnNum(Number(p[2])) + '日　星期' +
+      '日一二三四五六'.charAt(d.getDay());
   }
   function shortDate(dateStr) {
     var p = dateStr.split('-');
@@ -142,10 +168,11 @@
     var items = getItems();
     feedEl.innerHTML = '';
 
-    if (state.view === 'daily') renderDailyHead();
-    else if (state.view === 'weekly') renderRangeHead('最近7天 · 按热度取前30条');
-    else if (state.view === 'monthly') renderRangeHead('最近30天 · 按热度取前60条');
-
+    if (REPORT_CFG[state.view]) {
+      emptyEl.hidden = true;
+      renderReport(items);
+      return;
+    }
     if (!items.length) {
       emptyEl.hidden = false;
       emptyTextEl.textContent =
@@ -155,10 +182,7 @@
       return;
     }
     emptyEl.hidden = true;
-
-    if (state.view === 'daily') renderFlat(items, false);
-    else if (state.view === 'weekly' || state.view === 'monthly') renderGrouped(items);
-    else renderTimeline(items);
+    renderTimeline(items);
   }
 
   function renderTimeline(items) {
@@ -178,76 +202,181 @@
     });
   }
 
-  function renderFlat(items, withDate) {
-    var idx = 0;
-    items.forEach(function (it) { feedEl.appendChild(renderRow(it, idx++, withDate)); });
+  // ---------- 杂志式报告（日报/周报/月报） ----------
+
+  function el(tag, cls, text) {
+    var node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text != null) node.textContent = text;
+    return node;
   }
 
-  function renderGrouped(items) {
+  function reportDateLine() {
+    var dates = allDates();
+    if (state.view === 'daily') {
+      return cnDate(state.dailyDate || dates[0] || '');
+    }
+    var latest = dates[0];
+    if (!latest) return '';
+    var from = shiftDate(latest, state.view === 'weekly' ? -6 : -29);
+    var f = dayLabel(from), t = dayLabel(latest);
+    return f.main + ' 至 ' + t.main;
+  }
+
+  function reportVolDate() {
+    if (state.view === 'daily') {
+      return (state.dailyDate || allDates()[0] || '').replace(/-/g, '.');
+    }
+    return (allDates()[0] || '').replace(/-/g, '.');
+  }
+
+  function renderReport(items) {
+    var cfg = REPORT_CFG[state.view];
+    var wrap = el('div', 'mag');
+
+    // 刊头
+    var vol = el('div', 'mag-vol');
+    vol.appendChild(el('span', null, 'VOL. ' + reportVolDate()));
+    vol.appendChild(el('span', null, items.length + ' STORIES'));
+    vol.appendChild(el('span', null, '跨境HOT ' + cfg.eng));
+    wrap.appendChild(vol);
+
+    var masthead = el('div', 'mag-masthead');
+    var brand = el('div', 'mag-title');
+    brand.appendChild(el('span', 'mag-title-cn', '跨境'));
+    brand.appendChild(el('em', null, 'HOT'));
+    brand.appendChild(el('span', 'mag-title-kind', cfg.title));
+    masthead.appendChild(brand);
+    masthead.appendChild(el('div', 'mag-date', reportDateLine()));
+    masthead.appendChild(el('div', 'mag-cadence', cfg.cadence));
+    wrap.appendChild(masthead);
+
+    // 当日导语（enrich_llm --report 生成，可能没有）
+    if (state.view === 'daily') {
+      var reports = (window.NEWS_REPORTS || {}).daily || {};
+      var intro = (reports[state.dailyDate || allDates()[0]] || {}).intro;
+      if (intro) {
+        var introBox = el('div', 'mag-intro');
+        introBox.appendChild(el('div', 'mag-intro-label', '编辑导语'));
+        introBox.appendChild(el('p', 'mag-intro-text', intro));
+        wrap.appendChild(introBox);
+      }
+    }
+
+    if (!items.length) {
+      wrap.appendChild(el('p', 'mag-empty', '这个时间段没有条目'));
+      if (state.view === 'daily') wrap.appendChild(buildDayNav());
+      feedEl.appendChild(wrap);
+      return;
+    }
+
+    // 分区
     var byCat = {};
     items.forEach(function (it) { (byCat[it.category] = byCat[it.category] || []).push(it); });
-    var idx = 0;
+    var sections = [];
     REPORT_CAT_ORDER.forEach(function (cat) {
-      var group = byCat[cat];
-      if (!group || !group.length) return;
-      var head = document.createElement('div');
-      head.className = 'section-head';
-      head.innerHTML = '<span class="section-title"></span><span class="section-count"></span>';
-      head.children[0].textContent = CAT_LABEL[cat];
-      head.children[1].textContent = group.length + '条';
-      feedEl.appendChild(head);
-      group.forEach(function (it) { feedEl.appendChild(renderRow(it, idx++, true)); });
+      if (byCat[cat] && byCat[cat].length) sections.push({ cat: cat, items: byCat[cat] });
     });
+
+    // 看点目录
+    var toc = el('div', 'mag-toc');
+    toc.appendChild(el('div', 'mag-toc-label',
+      (state.view === 'daily' ? '今日看点' : state.view === 'weekly' ? '本周看点' : '本月看点')));
+    sections.slice(0, 4).forEach(function (sec, i) {
+      var row = el('div', 'mag-toc-item');
+      row.appendChild(el('span', 'mag-toc-num', ('0' + (i + 1)).slice(-2)));
+      row.appendChild(el('span', 'mag-toc-cat', CAT_LABEL[sec.cat]));
+      row.appendChild(el('span', 'mag-toc-title', sec.items[0].title));
+      toc.appendChild(row);
+    });
+    wrap.appendChild(toc);
+
+    // 正文分区
+    sections.forEach(function (sec, i) {
+      var secEl = el('section', 'mag-section');
+      var head = el('div', 'mag-sechead');
+      head.appendChild(el('span', 'mag-secnum', ('0' + (i + 1)).slice(-2)));
+      var st = el('div', 'mag-sectitles');
+      st.appendChild(el('div', 'mag-sectitle', CAT_LABEL[sec.cat]));
+      st.appendChild(el('div', 'mag-seceng', CAT_ENG[sec.cat] + ' · ' + sec.items.length + '篇'));
+      head.appendChild(st);
+      secEl.appendChild(head);
+
+      sec.items.forEach(function (it) {
+        var block = el('article', 'mag-item');
+        var title = el('a', 'mag-item-title', it.title);
+        title.href = it.url;
+        title.target = '_blank';
+        title.rel = 'noopener';
+        block.appendChild(title);
+        var meta = el('div', 'mag-item-meta');
+        meta.appendChild(el('span', null, it.source));
+        if (state.view !== 'daily') meta.appendChild(el('span', null, shortDate(it.date)));
+        if (it.ref) {
+          var ref = el('a', 'row-ref', '原始来源');
+          ref.href = it.ref;
+          ref.target = '_blank';
+          ref.rel = 'noopener';
+          meta.appendChild(ref);
+        }
+        meta.appendChild(el('span', scoreClass(it.score), String(it.score)));
+        block.appendChild(meta);
+        if (it.summary) block.appendChild(el('p', 'mag-item-text', it.summary));
+        secEl.appendChild(block);
+      });
+      wrap.appendChild(secEl);
+    });
+
+    // 统计
+    var srcCount = {};
+    items.forEach(function (it) { srcCount[it.source] = 1; });
+    var hot = items.filter(function (it) { return it.score >= 75; }).length;
+    var stats = el('div', 'mag-stats');
+    [[items.length, state.view === 'daily' ? '今日条目' : '条目'],
+     [hot, '高热条目'],
+     [Object.keys(srcCount).length, '信源']].forEach(function (s) {
+      var cell = el('div', 'mag-stat');
+      cell.appendChild(el('div', 'mag-stat-num', String(s[0])));
+      cell.appendChild(el('div', 'mag-stat-label', s[1]));
+      stats.appendChild(cell);
+    });
+    wrap.appendChild(stats);
+
+    // 引流卡
+    var cross = state.view === 'daily'
+      ? { text: '这周太忙没跟上？跨境周报把整周大事浓缩成5分钟', btn: '读本周周报 →', view: 'weekly' }
+      : state.view === 'weekly'
+        ? { text: '想看更长的趋势？跨境月报覆盖最近30天的头部动态', btn: '读本月月报 →', view: 'monthly' }
+        : { text: '回到今天，看最新的高热条目', btn: '去最新精选 →', view: 'featured' };
+    var crossEl = el('div', 'mag-cross');
+    crossEl.appendChild(el('span', 'mag-cross-text', cross.text));
+    var crossBtn = el('button', 'mag-cross-btn', cross.btn);
+    crossBtn.type = 'button';
+    crossBtn.addEventListener('click', function () { setView(cross.view); });
+    crossEl.appendChild(crossBtn);
+    wrap.appendChild(crossEl);
+
+    if (state.view === 'daily') wrap.appendChild(buildDayNav());
+    wrap.appendChild(el('div', 'mag-foot', '跨境HOT · 编辑系统自动生成'));
+    feedEl.appendChild(wrap);
   }
 
-  function renderDailyHead() {
+  function buildDayNav() {
     var dates = allDates();
-    if (!dates.length) return;
     var date = state.dailyDate || dates[0];
-    state.dailyDate = date;
     var i = dates.indexOf(date);
-    var day = dayLabel(date);
-
-    var head = document.createElement('div');
-    head.className = 'report-head';
-    var info = document.createElement('div');
-    var h = document.createElement('div');
-    h.className = 'report-title';
-    h.textContent = day.main + ' · ' + day.sub;
-    var sub = document.createElement('div');
-    sub.className = 'report-sub';
-    sub.textContent = '当日条目按热度排序';
-    info.appendChild(h);
-    info.appendChild(sub);
-
-    var nav = document.createElement('div');
-    nav.className = 'daynav';
-    var prev = document.createElement('button');
+    var nav = el('div', 'daynav daynav-bottom');
+    var prev = el('button', null, '‹ 前一日');
     prev.type = 'button';
-    prev.textContent = '‹ 前一天';
-    prev.disabled = i >= dates.length - 1;
+    prev.disabled = i < 0 || i >= dates.length - 1;
     prev.addEventListener('click', function () { state.dailyDate = dates[i + 1]; render(); });
-    var next = document.createElement('button');
+    var next = el('button', null, '后一日 ›');
     next.type = 'button';
-    next.textContent = '后一天 ›';
     next.disabled = i <= 0;
     next.addEventListener('click', function () { state.dailyDate = dates[i - 1]; render(); });
     nav.appendChild(prev);
     nav.appendChild(next);
-
-    head.appendChild(info);
-    head.appendChild(nav);
-    feedEl.appendChild(head);
-  }
-
-  function renderRangeHead(text) {
-    var head = document.createElement('div');
-    head.className = 'report-head';
-    var sub = document.createElement('div');
-    sub.className = 'report-sub';
-    sub.textContent = text + ' · 按分类分区';
-    head.appendChild(sub);
-    feedEl.appendChild(head);
+    return nav;
   }
 
   function renderRow(it, idx, withDate) {
