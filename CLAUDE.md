@@ -9,7 +9,9 @@
 - 数据文件是 `data/news.js`（`window.NEWS_DATA = [...]` 形式），不是 JSON fetch。原因：file:// 下没有 CORS 问题，用户双击就能打开。改数据格式前先想清楚这一点。
 - 数据字段 schema 见 README.md「数据字段」一节，新增字段要同步更新 README、`scripts/fetch_news.py` 和 `scripts/enrich_llm.py`。
 - 分类枚举固定五个：platform / policy / logistics / marketing / market，对应中文见 `assets/app.js` 里的 CATEGORIES。加分类要同时改 app.js、fetch_news.py 的关键词表和 enrich_llm.py 的 prompt。
-- 视图逻辑全在 `assets/app.js`：精选门槛 FEATURED_MIN_SCORE=65，主题是 TOPICS 里的正则关键词，日报/周报/月报是纯前端对 NEWS_DATA 的过滤排序，没有独立数据文件。改主题只动 TOPICS 数组。
+- 视图逻辑全在 `assets/app.js`：精选由条目的 `selected` 布尔字段决定，`score` 只表示经营影响强度；旧数据缺 `selected` 时才用 FEATURED_MIN_SCORE=65 兜底。主题是 TOPICS 里的正则关键词，日报/周报/月报是纯前端对 NEWS_DATA 的过滤排序，没有独立数据文件。改主题只动 TOPICS 数组。
+- 同一事件用 `eventId` 聚合。`scripts/fetch_news.py` 每次写数据前会按标题相似度补齐事件ID；精选流折叠同事件条目，全部动态保留原始条目。
+- 数据鲜度放在 `data/meta.js` 的 `window.NEWS_META`，由抓取脚本每次运行后更新。页面仍然不能通过fetch读取本地数据。
 - AMZ123 的发现方式是从已知快讯页链式爬（amz123_discover），种子来自库里最近的 amz-条目和转载ref，断种子时用 AMZ_SEED 兜底。它家 sitemap 是坏的，列表页是客户端渲染，别试。
 - 加数据源：在 `scripts/fetch_news.py` 的 SOURCES 注册表里加一项（extract / detail_time / detail_summary / match_id 四个函数），只接服务端渲染的源。改完跑 `python scripts/test_fetch.py`。
 - LLM密钥放 `.env.local`（已gitignore）或环境变量 CBHOT_LLM_API_KEY，禁止写进代码、commit和派工prompt。

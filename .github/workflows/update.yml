@@ -10,6 +10,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-news-data
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -31,9 +35,13 @@ jobs:
         run: |
           if [ -n "$CBHOT_LLM_API_KEY" ]; then
             python scripts/enrich_llm.py
+            python scripts/enrich_llm.py --report
           else
             echo "未配置 CBHOT_LLM_API_KEY，跳过LLM加工"
           fi
+
+      - name: 回归测试
+        run: python scripts/test_fetch.py
 
       - name: 提交变更
         run: |

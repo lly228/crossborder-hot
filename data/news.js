@@ -2,6 +2,1464 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "187695",
+    "date": "2026-07-23",
+    "time": "17:03",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187695",
+    "score": 55,
+    "category": "logistics",
+    "title": "含毒！5300双女鞋被海关查获，老板面临天价罚款+坐牢",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-ac4b38227846"
+  },
+  {
+    "id": "mjzj-fsyj36582ayo",
+    "date": "2026-07-23",
+    "time": "16:15",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsyj36582ayo",
+    "score": 55,
+    "category": "market",
+    "title": "Woot 活动效果怎么复盘？先看这四类数据",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-5555ce0d5b76"
+  },
+  {
+    "id": "mjzj-fsyih8z0fdvk",
+    "date": "2026-07-23",
+    "time": "16:06",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsyih8z0fdvk",
+    "score": 63,
+    "category": "policy",
+    "title": "商务部：中美双方经贸团队正在探讨推进各自300亿美元规模的对等降税的框架安排",
+    "summary": "目前，中美双方经贸团队正在就贸易理事会架构、职能运行模式等具体安排保持密切的沟通，并探讨推进各自300亿美元规模的对等降税的框架安排。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-43cfe1af040f"
+  },
+  {
+    "id": "mjzj-fsyi6fplkbgg",
+    "date": "2026-07-23",
+    "time": "15:58",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsyi6fplkbgg",
+    "score": 55,
+    "category": "market",
+    "title": "出口7.7亿元！热到“爆”的欧洲，吹上了江门产的风扇",
+    "summary": "江门市对欧洲出口电扇7.7亿元同比增长72.9%",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-51c1db553fbb"
+  },
+  {
+    "id": "mjzj-fsyhj9yo5csg",
+    "date": "2026-07-23",
+    "time": "15:56",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsyhj9yo5csg",
+    "score": 55,
+    "category": "market",
+    "title": "OpenAI发布Presence 以期拓展企业软件市场",
+    "summary": "外媒称，这也是OpenAI试图从单纯销售AI模型访问权限扩展到更多企业软件市场的最新例证。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-fc1fda2eec6b"
+  },
+  {
+    "id": "mjzj-fsyh85438rgg",
+    "date": "2026-07-23",
+    "time": "15:51",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsyh85438rgg",
+    "score": 55,
+    "category": "market",
+    "title": "价格涨超300%！这一电子产品需求爆发，订单排到2027年",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-84cb6db6b447"
+  },
+  {
+    "id": "mjzj-fsygzvridslc",
+    "date": "2026-07-23",
+    "time": "15:49",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsygzvridslc",
+    "score": 55,
+    "category": "market",
+    "title": "气温突破40℃！中国空调，治好了欧洲的“空调焦虑”",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-92fdb91e2614"
+  },
+  {
+    "id": "mjzj-fsygf7kzwgsg",
+    "date": "2026-07-23",
+    "time": "15:42",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsygf7kzwgsg",
+    "score": 55,
+    "category": "market",
+    "title": "台风“红霞”即将生成 或于本周登陆粤闽沿海",
+    "summary": "珠江、长江、淮河流域部分河流将出现涨水过程",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-4a8e00112fa7"
+  },
+  {
+    "id": "mjzj-fsyfzhfpdudc",
+    "date": "2026-07-23",
+    "time": "15:38",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsyfzhfpdudc",
+    "score": 63,
+    "category": "policy",
+    "title": "eBay国际配送服务将于8月在英国上线",
+    "summary": "根据介绍，卖家只需将已售商品寄送至英国本地中转仓，后续包括报关文件处理、税费和关税计算、国际运输、承运商管理以及售后服务均由eBay负责。同时，新服务首次推出国际买家退货保障。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-4ac72dfedc95"
+  },
+  {
+    "id": "mjzj-fsyg94hnin0g",
+    "date": "2026-07-23",
+    "time": "15:31",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsyg94hnin0g",
+    "score": 55,
+    "category": "policy",
+    "title": "26-cv-01567 | PopGrip商标维权来袭，气囊支架卖家自查TRO关键词",
+    "summary": "麦家支持TRO侵权快讯 | 2026.07.23",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-90cbb96b4122"
+  },
+  {
+    "id": "mjzj-fsyfctslz6dc",
+    "date": "2026-07-23",
+    "time": "15:26",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsyfctslz6dc",
+    "score": 55,
+    "category": "market",
+    "title": "震动整个AI圈！OpenAI模型“失控越狱”，自主入侵全球最大AI开源社区",
+    "summary": "从事件的影响来看，这是行业首次公开披露，模型评测失控直接升级为跨企业真实生产环境网络攻击的AI安全事件。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f3b8f5b20079"
+  },
+  {
+    "id": "mjzj-fsyec7h56cxs",
+    "date": "2026-07-23",
+    "time": "15:20",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsyec7h56cxs",
+    "score": 61,
+    "category": "platform",
+    "title": "亚马逊再砍AGI团队岗位",
+    "summary": "裁员与加码并行——亚马逊预计2026全年资本开支达2000亿美元、同比增超50%，靠发债撑起AI基建，下周将发Q2财报，这轮",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-5ab0bcbe3859"
+  },
+  {
+    "id": "mjzj-fsyeai46gwsg",
+    "date": "2026-07-23",
+    "time": "15:19",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsyeai46gwsg",
+    "score": 65,
+    "category": "marketing",
+    "title": "断货3天，排名掉没了？亚马逊流量断崖下跌，7天恢复原有排名实操！——26 章鱼站外选品助力品牌运营",
+    "summary": "很多卖家都经历过这样的场景：昨天还是每天稳定出单，今天补货刚到仓，却发现流量没了、排名没了、广告烧钱却不出单。更扎心的是，有些链接断货仅仅几天，恢复库存后却像“新链接”一样，怎么推都推不起来。为什么？因为在亚马逊眼里，断货不仅意味着没库存，更意味着销量中断、转化中断、算法重新评估你的Listing。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销",
+      "选品"
+    ],
+    "eventId": "evt-356450ac175d"
+  },
+  {
+    "id": "mjzj-fsydofifa58g",
+    "date": "2026-07-23",
+    "time": "15:11",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsydofifa58g",
+    "score": 61,
+    "category": "platform",
+    "title": "一文说清亚马逊欧洲站BIL是什么",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-20c645c34de4"
+  },
+  {
+    "id": "187692",
+    "date": "2026-07-23",
+    "time": "14:20",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187692",
+    "score": 55,
+    "category": "market",
+    "title": "Wildberries 4个仓库被炸！近2万中国店铺遭“团灭”",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-94a001f692d7"
+  },
+  {
+    "id": "mjzj-fsy9tdmu9z40",
+    "date": "2026-07-23",
+    "time": "14:10",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsy9tdmu9z40",
+    "score": 61,
+    "category": "policy",
+    "title": "TikTok Shop欧洲，中小卖家现在要不要做？",
+    "summary": "中小卖家要抢的，是时间——但抢时间不是抢入场，而是趁着窗口期，把一个国家、一款产品、一套合规和履约的账，先老老实实算清楚。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "政策合规"
+    ],
+    "eventId": "evt-c396aa6cfea6"
+  },
+  {
+    "id": "mjzj-fsy7f81ikruo",
+    "date": "2026-07-23",
+    "time": "13:55",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsy7f81ikruo",
+    "score": 55,
+    "category": "policy",
+    "title": "TRO资讯｜你以为躲开剧名就安全了？它的咒语、学园徽章都有商标！",
+    "summary": "跨境卖家紧急排查！全球最具影响力的魔法IP哈利波特Harry Potter再度发威——2026年7月22日，华纳兄弟娱乐公司（Warner Bros. Entertainment Inc.）通过TME Law律所在伊利诺伊州北区联邦法院同日发起2起TRO批量诉讼（26-cv-08718 / 26-cv-08714），被告名单全部密封。卖家请及时做好侵权防护",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-5cadd042631e"
+  },
+  {
+    "id": "mjzj-fsyajitjyjuo",
+    "date": "2026-07-23",
+    "time": "13:47",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsyajitjyjuo",
+    "score": 61,
+    "category": "platform",
+    "title": "亚马逊自配送攻略",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-5e6007bd08a1"
+  },
+  {
+    "id": "mjzj-fsxvf79znxfk",
+    "date": "2026-07-23",
+    "time": "11:44",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsxvf79znxfk",
+    "score": 55,
+    "category": "logistics",
+    "title": "野莓又有仓库被炸！大批货物烧毁，损失惨重",
+    "summary": "Wildberries多个物流中心被炸毁。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-94a001f692d7"
+  },
+  {
+    "id": "mjzj-fsxtsydypiio",
+    "date": "2026-07-23",
+    "time": "11:26",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsxtsydypiio",
+    "score": 61,
+    "category": "logistics",
+    "title": "TikTok Shop 掘金潮下，卖家最缺的不是流量，是「看得清」的数据后台",
+    "summary": "优麦云正式上线TikTok Shop数据同步，支持商品库存、订单履约、财务结算三大核心数据自动同步，一个后台管好亚马逊与TikTok双平台经营，助力跨境卖家告别多系统切数据，实现精细化多平台运营。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "TikTok Shop",
+      "广告营销"
+    ],
+    "eventId": "evt-5f23051e1ceb"
+  },
+  {
+    "id": "mjzj-fsxucrmqgo3k",
+    "date": "2026-07-23",
+    "time": "11:26",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsxucrmqgo3k",
+    "score": 61,
+    "category": "platform",
+    "title": "突发！亚马逊数据中心被炸！",
+    "summary": "伊朗伊斯兰革命卫队近日在一场军事行动中，用导弹精准打击并完全摧毁了亚马逊位于巴林的中央数据基础设施。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-f0fff7d642a7"
+  },
+  {
+    "id": "mjzj-fsxrhrz75ybk",
+    "date": "2026-07-23",
+    "time": "11:05",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsxrhrz75ybk",
+    "score": 63,
+    "category": "policy",
+    "title": "意大利10月起加征2欧元小包裹税",
+    "summary": "AMZ123获悉，近日，据外媒报道，自今年10月起，进口至意大利、商业价值不超过150欧元的小包裹将同时承担欧盟3欧元关税和意大利2欧元税费。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "ref": "https://www.amz123.com/t/HRlQTc9e",
+    "eventId": "evt-a871beb1fb89"
+  },
+  {
+    "id": "mjzj-fsxrkk07ahvk",
+    "date": "2026-07-23",
+    "time": "11:05",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsxrkk07ahvk",
+    "score": 55,
+    "category": "market",
+    "title": "华凯易佰紧急声明！影响严重",
+    "summary": "华凯易佰2026年7月16日声明，不法分子冒用其名义通过“HKYB”APP以高回报为诱饵诈骗，诱导用户虚假投资并缴纳“解冻金”，已严重损害商誉和公众权益。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "ref": "http://chsynews.com/?news_16/837.html",
+    "eventId": "evt-755e74cec528"
+  },
+  {
+    "id": "mjzj-fsxrijx2s5c0",
+    "date": "2026-07-23",
+    "time": "11:05",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsxrijx2s5c0",
+    "score": 61,
+    "category": "platform",
+    "title": "亚马逊突然出手！要批量造2000个亿级卖家",
+    "summary": "7月20日，亚马逊官方发布消息，宣布“标杆新卖家孵化计划”重磅上线。简单讲，未来三年，亚马逊要让2000个以上品牌卖家，在三年内成为年销过亿的大卖。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "ref": "http://chsynews.com/?news_7/835.html",
+    "eventId": "evt-177f039fbc58"
+  },
+  {
+    "id": "mjzj-fsxrj6feubk1",
+    "date": "2026-07-23",
+    "time": "11:05",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsxrj6feubk1",
+    "score": 55,
+    "category": "market",
+    "title": "梁文锋：DeepSeek不追求成为下一个字节或腾讯",
+    "summary": "梁文锋：DeepSeek不想做超级APP，是因为后面还有西瓜，前面的可能都是芝麻。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "ref": "https://www.pai.com.cn/p/01ky69rjr44tmzke8dp82nvwhc",
+    "eventId": "evt-c80a58dbbd4d"
+  },
+  {
+    "id": "mjzj-fsxrjcm5a77k",
+    "date": "2026-07-23",
+    "time": "11:05",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fsxrjcm5a77k",
+    "score": 61,
+    "category": "platform",
+    "title": "影响所有卖家 ！亚马逊卖家中心全面大改版",
+    "summary": "以前可以随便在新旧版本之间切换，现在部分老店铺已经被系统直接锁定成新版，想切回旧版都找不到入口了。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "ref": "https://www.amz123.com/t/Qq7SHcHq",
+    "eventId": "evt-8dbfaa3ff5e0"
+  },
+  {
+    "id": "187687",
+    "date": "2026-07-23",
+    "time": "10:36",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187687",
+    "score": 55,
+    "category": "market",
+    "title": "成本不到8美元，售价超22美元！中国卖家正在 TTS 上拿下 442 亿美元市场",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-181f177613b2"
+  },
+  {
+    "id": "amz-PsMsyHVX",
+    "date": "2026-07-23",
+    "time": "09:50",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/PsMsyHVX",
+    "score": 55,
+    "category": "market",
+    "title": "星商创新以12.9亿接手浙江美大 跨境电商大卖通往A股上市的明确信号",
+    "summary": "AMZ123获悉，浙江美大近日公告控股股东夏志生与其子夏鼎向深圳星蓝图转让29.99%的股份，交易总金额约为12.9亿元。转让后，夏氏家族的持股比例降至22.42%。星商创新创始人张海政通过持股99.9%的星蓝图接管实控权。浙江美大自2012年以集成灶首股的身份上市深交所以来，因创始人年事已高及二代接班的反复，业绩自2022年起持续下滑，预计2025年营收将降至4.54亿元（同比下跌48.24%），归母净利仅1154万元（暴降近90%），使其面临新老交替的挑战。接盘的星商创新预计2025年营收将达到141.74亿元，净利为7.13亿元，是浙江美大的31倍。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-7caf384ac0d8"
+  },
+  {
+    "id": "amz-i8Cf9KgN",
+    "date": "2026-07-23",
+    "time": "09:50",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/i8Cf9KgN",
+    "score": 61,
+    "category": "marketing",
+    "title": "TikTok预计在2025年为英国贡献100亿英镑GVA，吸引超30万中小卖家入驻Shop",
+    "summary": "AMZ123获悉，根据咨询机构Public First与安永联合发布的最新报告，TikTok预计将在2025年为英国经济贡献至少100亿英镑的增加值（GVA），并支撑约15.3万个就业岗位。目前，TikTok Shop已吸引超过30万家中小企业入驻，91%的入驻企业表示该平台推动了其营收增长，28%的商家由于流量激增而出现售罄现象，随之新增了约3.1万个岗位。此外，直播购物的规模同比增长55%，全英每日开播超过6000场。更值得注意的是，TikTok的流量影响已超越屏幕：610万人因此走进本地咖啡馆和餐厅，430万人访问独立小店，230万人次前往地方景点。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "广告营销"
+    ],
+    "eventId": "evt-aa1a85443452"
+  },
+  {
+    "id": "amz-yNZdDPWy",
+    "date": "2026-07-23",
+    "time": "09:50",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/yNZdDPWy",
+    "score": 55,
+    "category": "logistics",
+    "title": "Coupang仁川32号仓火灾后CFS承诺全额赔偿",
+    "summary": "AMZ123获悉，Coupang旗下的CFS（Coupang Fulfillment Services）于7月22日宣布，将对因7月18日仁川西区石南洞32号物流中心火灾而遭受损失的“火箭增长（Rocket Growth）”第三方卖家的库存提供全额赔偿。CFS表示，此次赔偿不需等待消防调查与保险定损完成，而是将依据内部系统库存数据进行核算，赔偿范围包括明火焚毁区域及未受到明火影响但因搬运延误、粉尘污染等原因受损的存货。具体金额和支付时间将于8月中旬逐店通知，赔偿流程简化，无需提供发票、包装视频等繁琐证据。此外，CFS还设置了“火箭增长卖家专属咨询窗口”进行一对一的跟进服务。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-625f1192305f"
+  },
+  {
+    "id": "amz-pMxFalxa",
+    "date": "2026-07-23",
+    "time": "09:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/pMxFalxa",
+    "score": 69,
+    "category": "policy",
+    "title": "TikTok Shop东南亚跨境自7月23日起调整运费补贴与非商责赔付规则",
+    "summary": "AMZ123获悉，从7月23日起，TikTok Shop东南亚地区将对平台资金结算的节奏进行调整，明确运费补贴及源于非商责原因的赔付将在订单完成后约3个自然日内完成结算。如遇需要进一步调查的情况，最终到账时间将以合理范围内由平台酌情决定。其余结算周期将保持不变。需要注意的是，此项新规并不涉及即时到账，卖家需提前做好现金流规划与对账准备，如有疑问可通过商家客服渠道咨询。本次调整将明确\"平台返补\"的时间限制为3日，与6月9日实施的四级账期（极速1天、加速3天、标准8天、递延15天）形成了互补关系。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "政策合规"
+    ],
+    "eventId": "evt-674ffdc5f3ce"
+  },
+  {
+    "id": "amz-DU548SLC",
+    "date": "2026-07-23",
+    "time": "09:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/DU548SLC",
+    "score": 67,
+    "category": "policy",
+    "title": "印尼修订版权法首纳AI：完全生成内容不受保护，模仿独特风格禁止，或成东南亚首例",
+    "summary": "AMZ123获悉，印度尼西亚国会正就版权法全面修订草案征求政府意见，计划首次将人工智能纳入法律框架。如果该草案实施，将成为东南亚首个相关案例。草案明确指出，仅有具有人类实质投入的AI辅助创作可以获得版权保护，完全由AI自动生成的内容将被排除在外。此外，使用受版权保护作品训练AI模型需遵循合理使用原则或签署许可协议，禁止AI模仿创作者的“独特风格”，并必须强制披露使用情况。同时，科技平台如聚合新闻链接、展示预览或利用版权内容训练模型，需向国家监管的集体管理组织支付报酬后再向出版商分发。违反此规定的，最严可能导致吊销当地营业执照。该法律覆盖范围包括游戏、摄影、软件、新闻、电影等多个领域。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-1735fc57093f"
+  },
+  {
+    "id": "187685",
+    "date": "2026-07-23",
+    "time": "09:28",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187685",
+    "score": 55,
+    "category": "policy",
+    "title": "网格置物架有专利护身！外框和底座均有风险！",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-a50072669c02"
+  },
+  {
+    "id": "amz-zmzTWQMA",
+    "date": "2026-07-23",
+    "time": "09:27",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/zmzTWQMA",
+    "score": 69,
+    "category": "policy",
+    "title": "Shopee马来本土店新增RM0.5/单平台支持费，新卖家及小额卖家可获豁免",
+    "summary": "AMZ123获悉，Shopee马来西亚本土店近日推出“平台支持费”（Platform Support Fee），针对每笔已完成订单（已付款、已交付且买家确认收货，不包含取消、退货及待送达订单），将在结算前直接收取RM0.50（含8%销售税）。该费用主要用于覆盖聊天AI助手、商品AI优化器、卖家中心、即时配送以及跨境扩展等平台工具的升级成本。根据规则，新入驻不超过60天的全新卖家ID、面包米面粮油肉蛋海鲜等生活必需品类目、月净订单量≤100单或≤200单且GMV≤RM3000的小额卖家，以及包含一本及以上马来西亚教育部目录教科书的活动册订单，可享受费用豁免。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee",
+      "选品"
+    ],
+    "eventId": "evt-2dbded4d79c8"
+  },
+  {
+    "id": "amz-UKAlFWDE",
+    "date": "2026-07-23",
+    "time": "09:27",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/UKAlFWDE",
+    "score": 61,
+    "category": "platform",
+    "title": "TikTok美国首席安全官9月15日赴众议院作证",
+    "summary": "AMZ123获悉，据国会助理7月21日向路透社透露，TikTok美国数据安全合资公司（TikTok USDS Joint Venture LLC）首席安全官威尔·法瑞尔（Will Farrell）将于2026年9月15日出席美国联邦众议院“美中战略竞争特别委员会”听证会并接受质询。这将是今年1月TikTok完成美国业务分拆、成立由美方主导董事会的USDS合资实体后，首位赴众议院公开作证的TikTok美国高管。法瑞尔主要负责美国用户数据隐私、网络安全、算法及内容审核保障等相关事务。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-a634092a9565"
+  },
+  {
+    "id": "amz-3E0RuH5H",
+    "date": "2026-07-23",
+    "time": "09:27",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/3E0RuH5H",
+    "score": 55,
+    "category": "platform",
+    "title": "速卖通携Brand+品牌矩阵首次亮相柏林IFA",
+    "summary": "AMZ123获悉，阿里旗下跨境电商平台速卖通AliExpress宣布将于9月携Brand+品牌矩阵首次亮相欧洲最大消费电子展柏林IFA，这也是中国“出海四小龙”首次集体登陆国际顶级展会。此次参展阵容包括3D打印品牌ANYCUBIC、泳池机器人品牌Seauto、电动出行品牌ENGWE以及新签约的春晚机器人品牌魔法原子等，覆盖机器人、AR眼镜、智能出行等多个高科技领域。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "速卖通"
+    ],
+    "eventId": "evt-335016a8da25"
+  },
+  {
+    "id": "amz-eso0mzql",
+    "date": "2026-07-23",
+    "time": "09:27",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/eso0mzql",
+    "score": 55,
+    "category": "logistics",
+    "title": "顺丰6月营收278.80亿元同比增长6.19%",
+    "summary": "AMZ123获悉，顺丰控股于7月17日晚披露2026年6月经营简报，速运物流与供应链及国际两项业务合计实现收入278.80亿元，同比增长6.19%。其中，供应链及国际业务成为主要增长来源，当月营收达到78.63亿元，同比增长24.97%，持续释放第二增长曲线的增长动力。与此同时，传统速运物流业务6月营收为200.17亿元，同比增长0.28%，业务量为13.89亿票，同比下降4.86%。不过，该业务单票收入提升至14.41元，同比增长5.41%，已连续四个月实现同比回升，显示公司自2025年“激活经营”进阶机制实施以来，正逐步由规模增长转向价值增长，并持续优化低价件业务结构。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-f23f907a2bbf"
+  },
+  {
+    "id": "187684",
+    "date": "2026-07-23",
+    "time": "09:14",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187684",
+    "score": 69,
+    "category": "policy",
+    "title": "亚马逊新规范！涉及产品图里有AI人物画像",
+    "summary": "",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规"
+    ],
+    "eventId": "evt-754f94a6c26d"
+  },
+  {
+    "id": "187681",
+    "date": "2026-07-22",
+    "time": "18:01",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187681",
+    "score": 55,
+    "category": "market",
+    "title": "又有3C大厂倒闭！国际知名大牌也顶不住了",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-21072ffe1f54"
+  },
+  {
+    "id": "187680",
+    "date": "2026-07-22",
+    "time": "18:00",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187680",
+    "score": 63,
+    "category": "policy",
+    "title": "美国12.5%新关税或将落地！卖家要重新定价了",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-acfb50ae316d"
+  },
+  {
+    "id": "187675",
+    "date": "2026-07-22",
+    "time": "11:44",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187675",
+    "score": 61,
+    "category": "platform",
+    "title": "TikTok Shop全托管美区年中促生意同比增长1.5倍，这些商家为何“赢麻了”？",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-764222f50580"
+  },
+  {
+    "id": "187610",
+    "date": "2026-07-22",
+    "time": "11:00",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187610",
+    "score": 55,
+    "category": "market",
+    "title": "AI 外贸员，让外贸客户开发走向高效增长",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e7dfcbf8809a"
+  },
+  {
+    "id": "187673",
+    "date": "2026-07-22",
+    "time": "09:55",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187673",
+    "score": 65,
+    "category": "marketing",
+    "title": "TikTok Shop旺季选品怎么做？有人找到爆品，有人还在找货！",
+    "summary": "",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "选品"
+    ],
+    "eventId": "evt-3a4109077948"
+  },
+  {
+    "id": "187672",
+    "date": "2026-07-22",
+    "time": "09:04",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187672",
+    "score": 67,
+    "category": "policy",
+    "title": "SHOYELA淋浴水阀专利发案！五金卫浴卖家抓紧下架同款产品！",
+    "summary": "",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-ff39de3bd773"
+  },
+  {
+    "id": "187671",
+    "date": "2026-07-21",
+    "time": "19:11",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187671",
+    "score": 65,
+    "category": "platform",
+    "title": "一次假货跟卖亏掉10008美金！Prime Day损失账单警醒所有亚马逊品牌卖家",
+    "summary": "",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-50484a84e0b9"
+  },
+  {
+    "id": "187670",
+    "date": "2026-07-21",
+    "time": "18:56",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187670",
+    "score": 61,
+    "category": "platform",
+    "title": "入驻亚马逊三年做到销售额破亿？标杆孵化计划把成功路径标准化",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-07c6c1e68df5"
+  },
+  {
+    "id": "187669",
+    "date": "2026-07-21",
+    "time": "18:19",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187669",
+    "score": 55,
+    "category": "market",
+    "title": "月销过千、供不应求：一件10美元的“小球衣”，藏着怎样的大生意？",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-ed9bc316910f"
+  },
+  {
+    "id": "187668",
+    "date": "2026-07-21",
+    "time": "18:11",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187668",
+    "score": 73,
+    "category": "policy",
+    "title": "链接变狗！亚马逊正在批量下架这一热销产品",
+    "summary": "",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-3b2d7806255b"
+  },
+  {
+    "id": "lsch-f36a2c08",
+    "date": "2026-07-21",
+    "time": "16:36",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/f36a2c08",
+    "score": 61,
+    "category": "marketing",
+    "title": "即刷即玩， TikTok for Business 为小游戏出海搭建增长“快车道”",
+    "summary": "TikTok Growth Max for Mini Games 正式面向全球广告主与开发者全量开放",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "广告营销"
+    ],
+    "eventId": "evt-512084197975"
+  },
+  {
+    "id": "187665",
+    "date": "2026-07-21",
+    "time": "14:13",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187665",
+    "score": 55,
+    "category": "market",
+    "title": "泽宝创始人离职后，押注厨房电器，一年收入5亿",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f9a6fb02fa86"
+  },
+  {
+    "id": "187663",
+    "date": "2026-07-21",
+    "time": "11:07",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187663",
+    "score": 61,
+    "category": "platform",
+    "title": "2026年做亚马逊还赚不赚钱？这7组数据告诉你答案",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-532b156d0d80"
+  },
+  {
+    "id": "187662",
+    "date": "2026-07-21",
+    "time": "11:01",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187662",
+    "score": 61,
+    "category": "platform",
+    "title": "亚马逊重磅新政！三年将孵化 2000 个亿级品牌",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-177f039fbc58"
+  },
+  {
+    "id": "187659",
+    "date": "2026-07-21",
+    "time": "09:34",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187659",
+    "score": 55,
+    "category": "platform",
+    "title": "中国卖家占比不足8%！这3个蓝海平台正在疯狂抢人",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-3ee2ca77d3ff"
+  },
+  {
+    "id": "187658",
+    "date": "2026-07-21",
+    "time": "09:15",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187658",
+    "score": 55,
+    "category": "policy",
+    "title": "LV全商标TRO突袭！相关字母、四叶花卉等元素统统不要再用！",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-bd7991476b1d"
+  },
+  {
+    "id": "lsch-af32aa53",
+    "date": "2026-07-20",
+    "time": "09:48",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/af32aa53",
+    "score": 55,
+    "category": "market",
+    "title": "一周要闻·阿联酋&卡塔尔｜迪拜联合百度与文远知行推出自动驾驶出租车服务；卡塔尔以创新驱动投资持续拓展全球布局",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-86d4a1b0deac"
+  },
+  {
+    "id": "lsch-6a36e6e6",
+    "date": "2026-07-20",
+    "time": "08:36",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/6a36e6e6",
+    "score": 55,
+    "category": "market",
+    "title": "印尼街头，快被中国奶茶和咖啡占领了?",
+    "summary": "中国餐饮品牌为何开始重仓印尼？这里拥有2.8亿人口的消费市场，更是检验供应链的战略节点",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f597e9989939"
+  },
+  {
+    "id": "lsch-e69f51e3",
+    "date": "2026-07-20",
+    "time": "08:31",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/e69f51e3",
+    "score": 55,
+    "category": "market",
+    "title": "东南亚储能到底有多卷？一线销售：低价、磨人才是真相",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-b3cf93d5ba67"
+  },
+  {
+    "id": "lsch-3526a024",
+    "date": "2026-07-19",
+    "time": "11:37",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/3526a024",
+    "score": 55,
+    "category": "market",
+    "title": "WorkBuddy落地东南亚，腾讯AI出海提速",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-8387d3490e94"
+  },
+  {
+    "id": "187619",
+    "date": "2026-07-18",
+    "time": "17:51",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187619",
+    "score": 55,
+    "category": "market",
+    "title": "30天爆卖近万件！这些产品7月突然大爆单",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-ccab7acbae9d"
+  },
+  {
+    "id": "lsch-648c71b5",
+    "date": "2026-07-17",
+    "time": "18:10",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/648c71b5",
+    "score": 55,
+    "category": "market",
+    "title": "10个中东“土豪”，8个爱中国手机壳",
+    "summary": "越来越多中国小商品品牌愿意沉下来做出口，或许比代工更重、更慢，但它带来的不再是“内卷”，而是真正意义上的品牌出海",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f7d31c576204"
+  },
+  {
+    "id": "187541",
+    "date": "2026-07-15",
+    "time": "16:25",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187541",
+    "score": 55,
+    "category": "marketing",
+    "title": "统一报告功能现已正式推出，助力简化广告活动分析",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-01fa273a029f"
+  },
+  {
+    "id": "lsch-cf1dacbc",
+    "date": "2026-07-14",
+    "time": "21:14",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/cf1dacbc",
+    "score": 55,
+    "category": "market",
+    "title": "一周要闻·阿联酋&卡塔尔｜阿布扎比BlueFive联合领投可灵AI 30亿美元融资；卡塔尔宣布成立全球人工智能伦理联盟",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-3c93ebf5ee5a"
+  },
+  {
+    "id": "lsch-73c75624",
+    "date": "2026-07-14",
+    "time": "18:31",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/73c75624",
+    "score": 55,
+    "category": "market",
+    "title": "36氪出海·关注｜LEAP East香港首秀落幕，未来三年将继续在港举办",
+    "summary": "政府高层会谈、商业合作落地、初创企业融资，中东与亚太科技合作进入实质阶段。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-d7b9ed2971df"
+  },
+  {
+    "id": "lsch-128c7672",
+    "date": "2026-07-13",
+    "time": "11:48",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/128c7672",
+    "score": 55,
+    "category": "market",
+    "title": "日销1000+台的脱毛仪：Ulike用“IP+内容”把增长做到东南亚",
+    "summary": "从进入东南亚的第一天起，Ulike就把本地化融进了跨境经营的每一条脉络里",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-7cc6a3efb2d4"
+  },
+  {
+    "id": "187484",
+    "date": "2026-07-12",
+    "time": "18:02",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187484",
+    "score": 55,
+    "category": "market",
+    "title": "欧洲40℃热浪引爆睡眠经济！这12款产品正在疯狂出单",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-cb7319c6a63f"
+  },
+  {
+    "id": "lsch-6c35a640",
+    "date": "2026-07-12",
+    "time": "17:02",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/6c35a640",
+    "score": 55,
+    "category": "market",
+    "title": "中卡合作｜卡塔尔自由区管理局与比亚迪会谈，探讨未来合作机遇",
+    "summary": "卡塔尔自由区管理局与比亚迪代表团举行会谈，双方围绕先进制造、科技创新及产业落地等领域展开交流，进一步探索中国企业在卡塔尔自由区发展的新空间。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-6798e2c78f09"
+  },
+  {
+    "id": "187420",
+    "date": "2026-07-10",
+    "time": "15:54",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187420",
+    "score": 55,
+    "category": "platform",
+    "title": "欧洲增长破局：热销品类站点组合与联投打法",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品"
+    ],
+    "eventId": "evt-f66e2bd92d2c"
+  },
+  {
+    "id": "187348",
+    "date": "2026-07-07",
+    "time": "11:22",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187348",
+    "score": 55,
+    "category": "marketing",
+    "title": "多站点爆单攻略，一键推广+专属广告福利双重加持",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-e79b11a5e109"
+  },
+  {
+    "id": "amz-JrJ0TDAR",
+    "date": "2026-07-06",
+    "time": "01:59",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/JrJ0TDAR",
+    "score": 63,
+    "category": "platform",
+    "title": "Lazada泰国本土店将于7月1日起调整Premium Package费率",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Lazada"
+    ],
+    "eventId": "evt-cd7110b302d6"
+  },
+  {
+    "id": "amz-5R18M3eA",
+    "date": "2026-07-06",
+    "time": "01:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/5R18M3eA",
+    "score": 55,
+    "category": "logistics",
+    "title": "Etsy钩针教程PDF热销：虚拟数字产品月销2800单，低成本高毛利引关注",
+    "summary": "AMZ123获悉，Etsy美国站近期一款售价约1—2美元的钩针编织教程PDF（数字下载产品）在细分市场中表现突出。该新品店铺上线14款数字商品，仅依靠低价引流策略，首月实现约2800余笔订单，并积累数百名关注者。成熟的虚拟商品店铺年销量可超过4万单。该类商品在用户付款后即可直接下载文件，平台通常不支持退换，因此几乎不存在物流及售后处理成本，整体毛利率可达95%以上。Etsy作为主流跨境电商平台中较早支持数字商品交易的渠道之一，允许图案、模板、预设及可打印设计等虚拟产品销售，一次制作即可无限复用。业内认为，该模式适合手工艺与设计类资源的轻资产切入。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-708cf359fc87"
+  },
+  {
+    "id": "amz-IKHwjgKx",
+    "date": "2026-07-06",
+    "time": "01:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/IKHwjgKx",
+    "score": 61,
+    "category": "platform",
+    "title": "越南电商格局重构：Shopee以42%领先 TikTok Shop占24%高速增长",
+    "summary": "AMZ123获悉，2026年越南电商市场已呈现出清晰的三层竞争格局：Shopee以42%的市场份额继续保持领先，TikTok Shop以24%的份额位居第二，并实现全年同比60%的高速增长，Lazada以18%位列第三。在消费结构方面，越南用户对短视频内容的高接受度显著加快了TikTok Shop在东南亚市场的渗透节奏，但其平均客单价仅为8.5美元，明显低于Shopee的12美元，进一步体现出低价走量模式更契合“货找人”的内容种草生态；相比之下，Shopee作为传统货架电商，依托成熟的促销体系与更高客单价优势，在家电、家居等大件及品牌复购场景中表现更为稳健。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "Shopee",
+      "Lazada"
+    ],
+    "eventId": "evt-85482f8d846f"
+  },
+  {
+    "id": "amz-tNE6yCTx",
+    "date": "2026-07-06",
+    "time": "01:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/tNE6yCTx",
+    "score": 61,
+    "category": "policy",
+    "title": "Shopee中国台湾站强化BSMI标识监管 应施检验商品违规最高罚200万新台币",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee",
+      "政策合规"
+    ],
+    "eventId": "evt-4cc6cc9b8bf5"
+  },
+  {
+    "id": "amz-eYPp1Nfl",
+    "date": "2026-07-06",
+    "time": "01:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/eYPp1Nfl",
+    "score": 69,
+    "category": "policy",
+    "title": "亚马逊向中国税务部门二次报送2025Q4及2026Q1卖家交易数据",
+    "summary": "AMZ123获悉，亚马逊近期向国内税务机关重新报送部分卖家2025年第四季度及2026年第一季度的交易数据，原因在于平台在数据核查过程中发现此前季度税务申报报告存在金额偏差，目前已通过邮件通知相关卖家下载最新版税务报告进行核对。若卖家自行申报的收入数据与平台报送数据不一致，税务机关将以平台数据作为比对依据，差额较大的情况可能引发补缴税款、滞纳金，甚至进一步稽查。平台建议卖家及时登录后台下载最新报告，重点区分统计时间节点及汇率折算差异，核对净收入明细，并补充佣金、广告费、退款等费用台账，对存在疑问的项目进行截图留存并可通过Case向平台申请澄清。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-3f522553412a"
+  },
+  {
+    "id": "amz-XBt6qVzF",
+    "date": "2026-07-06",
+    "time": "01:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/XBt6qVzF",
+    "score": 65,
+    "category": "marketing",
+    "title": "澄海潜水玩具借TikTok在美区走红 多款产品月销破百万",
+    "summary": "AMZ123获悉，今夏北美水上玩具消费向“内容驱动型”转变，汕头澄海生产的潜水玩具通过TikTok在美国市场走红——“贝壳美人鱼”款在国内批发价约6元，在亚马逊美站售价20.99美元，月销超5000件；“仿真鱼箱解救海洋动物”款售价23.99美元，月销超9000单，GMV突破百万人民币。两款产品均通过短视频完整呈现“沉底—弹开/解锁”的戏剧化过程，具备天然传播属性，受众从儿童延伸至成年解压与悦己消费群体；Skillmatics的寻宝宝石潜水玩具在美区同样售出超5000单，进一步验证“寻宝/救援/孵化+叙事+强视觉呈现”是水下玩具选品的关键突破方向。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "TikTok Shop",
+      "选品"
+    ],
+    "eventId": "evt-63f66fd18eb2"
+  },
+  {
+    "id": "amz-XxCHUTvh",
+    "date": "2026-07-06",
+    "time": "01:37",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/XxCHUTvh",
+    "score": 61,
+    "category": "platform",
+    "title": "Shopee印尼上线“1小时极速达”，最快60分钟送达",
+    "summary": "AMZ123获悉，Shopee印尼正式推出“1小时极速送达（Instant Shopping 1 Hour Tiba）”服务，用户购买鸡蛋、果蔬、鲜肉、冰淇淋及非处方药等日常刚需商品后最快可在60分钟内收货；若超时，平台将依据条款发放“延迟送达免费优惠券”作为补偿。该服务已接入Klik Indomaret、Hypermart、Hero及Segari等大型零售商的即时购物频道，用户在首页开启“即时配送”筛选后，可看到带绿色标识、标注预计送达时间及距离的就近商品。目前，使用指定商品及Instant Priority服务最高可享50%折扣。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee"
+    ],
+    "eventId": "evt-4fa23b779705"
+  },
+  {
     "id": "187297",
     "date": "2026-07-05",
     "time": "17:40",
@@ -10,7 +1468,14 @@ window.NEWS_DATA = [
     "score": 67,
     "category": "policy",
     "title": "这几类卖家快自查！海外爆款IP成下架重灾区",
-    "summary": ""
+    "summary": "",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-0f73d84dce26"
   },
   {
     "id": "lsch-9f9745fe",
@@ -21,7 +1486,16 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "platform",
     "title": "中国公司全球化周报｜速卖通首发618中国品牌出海成交榜 / 智平方最新融资50亿元、估值破200亿",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "速卖通"
+    ],
+    "eventId": "evt-51453e59542a"
   },
   {
     "id": "amz-TV3AT2yu",
@@ -32,7 +1506,16 @@ window.NEWS_DATA = [
     "score": 63,
     "category": "platform",
     "title": "AI服务功能调整：字节与阿里同日下线智能体能力",
-    "summary": "AMZ123获悉，字节跳动旗下豆包与阿里云通义千问同日宣布，其智能体功能将于2026年7月15日正式停止服务。根据官方公告，用户需在10月15日前通过截图、导出文本或复制对话等方式备份历史数据，逾期平台将依据隐私政策清除相关数据。值得注意的是，豆包方面建议用户迁移至同集团猫箱APP继续使用智能体能力，而通义千问未提供替代方案。两家平台均表示，功能关闭后所有智能体配置及对话记录将永久不可恢复，建议用户及时处理重要内容。"
+    "summary": "AMZ123获悉，字节跳动旗下豆包与阿里云通义千问同日宣布，其智能体功能将于2026年7月15日正式停止服务。根据官方公告，用户需在10月15日前通过截图、导出文本或复制对话等方式备份历史数据，逾期平台将依据隐私政策清除相关数据。值得注意的是，豆包方面建议用户迁移至同集团猫箱APP继续使用智能体能力，而通义千问未提供替代方案。两家平台均表示，功能关闭后所有智能体配置及对话记录将永久不可恢复，建议用户及时处理重要内容。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-3d3c117a25f6"
   },
   {
     "id": "187296",
@@ -43,7 +1526,16 @@ window.NEWS_DATA = [
     "score": 74,
     "category": "market",
     "title": "欧洲热爆了！除了空调，这些「降温神器」也在被疯抢",
-    "summary": "高温季的应急需求爆发快、窗口短，做欧洲站的可以对照选品清单看看自己仓里有没有能蹭上的品。"
+    "summary": "高温季的应急需求爆发快、窗口短，做欧洲站的可以对照选品清单看看自己仓里有没有能蹭上的品。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品"
+    ],
+    "eventId": "evt-0023781ab7b9"
   },
   {
     "id": "mjzj-fr1r1c1bivpc",
@@ -54,7 +1546,16 @@ window.NEWS_DATA = [
     "score": 63,
     "category": "policy",
     "title": "补税潮杀到跨境圈：69家A股已掏49亿，下一个是谁？",
-    "summary": "跨境企业补税激增，星徽、赛维、华凯易佰等多家公司因税务问题面临高额罚款与补税，合规成本持续攀升。"
+    "summary": "跨境企业补税激增，星徽、赛维、华凯易佰等多家公司因税务问题面临高额罚款与补税，合规成本持续攀升。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-d5efe6041979"
   },
   {
     "id": "lsch-22b55143",
@@ -65,7 +1566,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "汽车“极寒”，博弈全球｜深度",
-    "summary": "国内残酷的市场洗牌不可避免，征战全球将是必修课。"
+    "summary": "国内残酷的市场洗牌不可避免，征战全球将是必修课。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-4ac0b18f8811"
   },
   {
     "id": "lsch-6e217fba",
@@ -76,7 +1584,16 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "6月卡塔尔创投要闻：“北京-卡塔尔”投资合作高峰洽谈会成功举办；Invest Qatar Gateway推出创投融资模块",
-    "summary": "从中卡合作、行业机遇、市场政策和近期活动四个方面，全面了解卡塔尔投资机遇。"
+    "summary": "从中卡合作、行业机遇、市场政策和近期活动四个方面，全面了解卡塔尔投资机遇。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-6d9553705c54"
   },
   {
     "id": "lsch-8d2623f9",
@@ -87,7 +1604,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "大停电后一年，西班牙补强电网和储能",
-    "summary": "经历了大停电痛楚的西班牙，迅速反思并走出此前“重发电、轻电网、缺储能”的发展模式"
+    "summary": "经历了大停电痛楚的西班牙，迅速反思并走出此前“重发电、轻电网、缺储能”的发展模式",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-a80f1d992254"
   },
   {
     "id": "mjzj-fqzj65fiwo3k",
@@ -98,7 +1622,16 @@ window.NEWS_DATA = [
     "score": 67,
     "category": "policy",
     "title": "跨境必看：PPWR 新政下，西班牙包装合规 4 点一文讲清",
-    "summary": "跨境卖家注意！2026年8月12日，欧盟PPWR《包装和包装废弃物法规》将正式落地，取代原有包装指令，成为欧盟27国统一执行的强制性市场准入法规！不少卖家关心：PPWR生效后，西班牙包装法还能按老规矩注册、合规吗？答案很明确——不能！"
+    "summary": "跨境卖家注意！2026年8月12日，欧盟PPWR《包装和包装废弃物法规》将正式落地，取代原有包装指令，成为欧盟27国统一执行的强制性市场准入法规！不少卖家关心：PPWR生效后，西班牙包装法还能按老规矩注册、合规吗？答案很明确——不能！",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-42aebd68ce1e"
   },
   {
     "id": "mjzj-fqzia995mosg",
@@ -109,7 +1642,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "国内公司控股香港公司，不做ODI备案会怎样？后果比你想的更严重！",
-    "summary": "​国内公司控股香港公司，不做ODI备案会怎样？后果比你想的更严重！在聊风险之前，我们先搞清楚最基础的问题：到底什么是ODI备案？越来越多国内企业选择控股香港公司以拓展海外市场，但不少企业存在误区：认为香港是中国特别行政区，控股无需备案。答案明确：必须办！"
+    "summary": "​国内公司控股香港公司，不做ODI备案会怎样？后果比你想的更严重！在聊风险之前，我们先搞清楚最基础的问题：到底什么是ODI备案？越来越多国内企业选择控股香港公司以拓展海外市场，但不少企业存在误区：认为香港是中国特别行政区，控股无需备案。答案明确：必须办！",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-386f214727b0"
   },
   {
     "id": "mjzj-fqzgucejgsn4",
@@ -120,7 +1660,17 @@ window.NEWS_DATA = [
     "score": 65,
     "category": "logistics",
     "title": "旺季不慌，入库有招！亚马逊旺季物流神器FIST Elite重磅上线",
-    "summary": "每年的亚马逊旺季，是跨境卖家的销售黄金期，更是头程物流的年度“大考”。订单量翻倍激增，可“爆单”的希望，往往最后栽在了头程物流这一环。"
+    "summary": "每年的亚马逊旺季，是跨境卖家的销售黄金期，更是头程物流的年度“大考”。订单量翻倍激增，可“爆单”的希望，往往最后栽在了头程物流这一环。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储"
+    ],
+    "eventId": "evt-f109a8e1fa98"
   },
   {
     "id": "mjzj-fqzh811v1atc",
@@ -131,7 +1681,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "全年热卖！游泳用品TOSWIM在东南亚找到“没有淡季”的生意",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e4599be670f9"
   },
   {
     "id": "187291",
@@ -142,7 +1699,18 @@ window.NEWS_DATA = [
     "score": 82,
     "category": "platform",
     "title": "亚马逊标题新规：75 字符标题+商品亮点",
-    "summary": "标题规则直接影响搜索展示和转化，新规落地前把在售ASIN的标题挨个过一遍，别等系统强制截断才处理。"
+    "summary": "标题规则直接影响搜索展示和转化，新规落地前把在售ASIN的标题挨个过一遍，别等系统强制截断才处理。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "广告营销"
+    ],
+    "eventId": "evt-517184c73327"
   },
   {
     "id": "amz-QpOO2wRB",
@@ -153,7 +1721,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "5月中国汽车出口额同比增长25%达258.5亿美元",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-3c73858ce619"
   },
   {
     "id": "amz-TjlsusTN",
@@ -164,7 +1739,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "巴西数字化进程加速：超七成网民已使用网银服务",
-    "summary": "AMZ123获悉，巴西地理与统计研究所（IBGE）最新数据显示，2025年第四季度巴西互联网普及水平进一步提升，其中74.2%的网民已使用网上银行服务，较2022年提升14.4个百分点，新增用户达3020万；网购渗透率首次超过半数，达到52.7%，较2022年增长10.9个百分点，新增网购用户2250万人；在线公共服务访问比例同步升至41.1%。当前巴西网民的主要互联网活动包括语音与视频通话（95.3%）、信息收发（90.2%）、视频观看（89.3%）以及使用社交媒体（84.9%）。"
+    "summary": "AMZ123获悉，巴西地理与统计研究所（IBGE）最新数据显示，2025年第四季度巴西互联网普及水平进一步提升，其中74.2%的网民已使用网上银行服务，较2022年提升14.4个百分点，新增用户达3020万；网购渗透率首次超过半数，达到52.7%，较2022年增长10.9个百分点，新增网购用户2250万人；在线公共服务访问比例同步升至41.1%。当前巴西网民的主要互联网活动包括语音与视频通话（95.3%）、信息收发（90.2%）、视频观看（89.3%）以及使用社交媒体（84.9%）。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-cfcde220ca87"
   },
   {
     "id": "amz-DeYJGwcc",
@@ -175,7 +1757,14 @@ window.NEWS_DATA = [
     "score": 63,
     "category": "platform",
     "title": "Etsy将扩大商品申诉范围并引入大模型提升违规检测效率",
-    "summary": "AMZ123获悉，Etsy于2026年7月1日宣布，计划在今年年底前扩展商品（Listing）层级的申诉适用范围。此前该机制仅覆盖“创意标准”相关违规类型，后续将逐步延伸至更多平台规则领域。平台在最新《透明度报告》中指出，去年约92%的订单纠纷由买卖双方自行协商解决，平台未直接介入，显示出较强的社区自治能力。Etsy同时表示，2026年的重点方向包括加强违规内容的识别与移除、提升违规通知的透明度，并已引入基于大语言模型（LLM）的检测技术以优化处理效率。平台建议卖家持续关注规则更新，确保商品信息与平台规范保持一致，以便在申诉机制扩展后更有效地维护自身权益。"
+    "summary": "AMZ123获悉，Etsy于2026年7月1日宣布，计划在今年年底前扩展商品（Listing）层级的申诉适用范围。此前该机制仅覆盖“创意标准”相关违规类型，后续将逐步延伸至更多平台规则领域。平台在最新《透明度报告》中指出，去年约92%的订单纠纷由买卖双方自行协商解决，平台未直接介入，显示出较强的社区自治能力。Etsy同时表示，2026年的重点方向包括加强违规内容的识别与移除、提升违规通知的透明度，并已引入基于大语言模型（LLM）的检测技术以优化处理效率。平台建议卖家持续关注规则更新，确保商品信息与平台规范保持一致，以便在申诉机制扩展后更有效地维护自身权益。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-d5d25083aabc"
   },
   {
     "id": "amz-7OSvuaeF",
@@ -186,7 +1775,17 @@ window.NEWS_DATA = [
     "score": 63,
     "category": "policy",
     "title": "菲律宾警方联合国税局突袭酒店查获8270万比索走私香烟",
-    "summary": "AMZ123获悉，菲律宾警方联合国税局（BIR）依据相关任务令对一家酒店展开突击搜查行动，现场查获202箱涉嫌走私香烟，涉案总价值超过8270万比索（约合人民币827万元）。执法人员当场抓获酒店老板及两名中国籍商人。目前，涉案香烟已移交当地国税局统一保管，相关责任人因涉嫌违反菲律宾《国家国内税收法典》及走私相关法律法规，将依法接受起诉。此次行动被视为菲律宾近期加强打击走私及税务违规行为的典型案例之一，同时也提醒在菲从事烟草及相关贸易的经营主体需确保货源合法合规并具备完整完税凭证，以避免因涉及走私行为而面临货物查扣、高额罚款及刑事责任风险。"
+    "summary": "AMZ123获悉，菲律宾警方联合国税局（BIR）依据相关任务令对一家酒店展开突击搜查行动，现场查获202箱涉嫌走私香烟，涉案总价值超过8270万比索（约合人民币827万元）。执法人员当场抓获酒店老板及两名中国籍商人。目前，涉案香烟已移交当地国税局统一保管，相关责任人因涉嫌违反菲律宾《国家国内税收法典》及走私相关法律法规，将依法接受起诉。此次行动被视为菲律宾近期加强打击走私及税务违规行为的典型案例之一，同时也提醒在菲从事烟草及相关贸易的经营主体需确保货源合法合规并具备完整完税凭证，以避免因涉及走私行为而面临货物查扣、高额罚款及刑事责任风险。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规",
+      "知识产权"
+    ],
+    "eventId": "evt-6605ec567e71"
   },
   {
     "id": "187271",
@@ -197,7 +1796,16 @@ window.NEWS_DATA = [
     "score": 76,
     "category": "logistics",
     "title": "亚马逊FBA商品包装尺寸认证扩展至欧洲站",
-    "summary": "包装认证从美国站扩到欧洲站，影响入仓和费用核算，发欧洲FBA的卖家要提前核对自己商品的包装是否达标。"
+    "summary": "包装认证从美国站扩到欧洲站，影响入仓和费用核算，发欧洲FBA的卖家要提前核对自己商品的包装是否达标。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-80d21ebe9c8f"
   },
   {
     "id": "mjzj-fqzbl4dsj1ts",
@@ -208,7 +1816,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "紫讯、米多多、扬腾之后，福建跨境电商还差一个“安克”",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-5332e4c12992"
   },
   {
     "id": "mjzj-fqzb51o3etj4",
@@ -219,7 +1834,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "警惕!违规罚10万美金/箱，出货前必看!",
-    "summary": "警惕!违规罚10万美金/箱，出货前必看!"
+    "summary": "警惕!违规罚10万美金/箱，出货前必看!",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-5b822ee5d6f3"
   },
   {
     "id": "mjzj-fqz9y64p6sqo",
@@ -230,7 +1852,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "台风“美莎克”即将登陆，多地停课、停运、停航",
-    "summary": "预计“美莎克”将于傍晚前后在海南陵水到乐东一带沿海登陆，将成为今年首个登陆我国的台风。"
+    "summary": "预计“美莎克”将于傍晚前后在海南陵水到乐东一带沿海登陆，将成为今年首个登陆我国的台风。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-eef2c0ab8780"
   },
   {
     "id": "mjzj-fqz90b5r06io",
@@ -241,7 +1870,18 @@ window.NEWS_DATA = [
     "score": 73,
     "category": "marketing",
     "title": "亚马逊重大调整！7月6日起，这项功能正式下线，卖家必须提前做好准备——26 章鱼站外选品助力品牌运营",
-    "summary": "距离7月6日越来越近，一则亚马逊官方公告正在跨境卖家圈持续发酵。不少卖家可能还没有注意到：亚马逊即将关闭Promo Codes官方展示页面，这意味着依赖官方渠道获取站外推广流量的方式将发生重大变化。"
+    "summary": "距离7月6日越来越近，一则亚马逊官方公告正在跨境卖家圈持续发酵。不少卖家可能还没有注意到：亚马逊即将关闭Promo Codes官方展示页面，这意味着依赖官方渠道获取站外推广流量的方式将发生重大变化。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销",
+      "选品"
+    ],
+    "eventId": "evt-33a456ef99ff"
   },
   {
     "id": "mjzj-fqz7dv8ybu9s",
@@ -253,7 +1893,14 @@ window.NEWS_DATA = [
     "category": "market",
     "title": "宇树科技IPO注册申请通过 美团是最大外部股东",
     "summary": "宇树科技科创板IPO获批，发行后估值约420亿元，拟融资42.02亿元；美团合计持股9.65%，为其最大外部股东，2023年至2025年公司营收从1.59亿元增至16.99亿元，净利润扭亏为盈达2.78亿元。",
-    "ref": "https://www.pai.com.cn/p/01kwh28095k5a1w08nhv9b1gq3"
+    "ref": "https://www.pai.com.cn/p/01kwh28095k5a1w08nhv9b1gq3",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-fe25e35a1f86"
   },
   {
     "id": "mjzj-fqz7efw04h6o",
@@ -265,7 +1912,16 @@ window.NEWS_DATA = [
     "category": "platform",
     "title": "亚马逊欧洲站推出促销一键拓展功能",
     "summary": "亚马逊欧洲站卖家后台新增“全欧拓展”功能，支持一键将Z划算、秒杀或优惠券复制到多个欧洲站点，简化跨站点促销管理，提升多站点运营效率。",
-    "ref": "https://www.amz123.com/kx/wJEauwQ4"
+    "ref": "https://www.amz123.com/kx/wJEauwQ4",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-a78ea5fa1e80"
   },
   {
     "id": "mjzj-fqz7d3a3r2f4",
@@ -277,7 +1933,16 @@ window.NEWS_DATA = [
     "category": "platform",
     "title": "月销百万美金！亚马逊10款热卖厨房用品盘点",
     "summary": "AMZ123获悉，近日，亚马逊各类产品搜索量增长显著，以下10款产品在亚马逊上销量表现突出，深受消费者欢迎。",
-    "ref": "https://www.amz123.com/t/HHlrS2tp"
+    "ref": "https://www.amz123.com/t/HHlrS2tp",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-8554635dc4e9"
   },
   {
     "id": "mjzj-fqz7d3a3r2f6",
@@ -289,7 +1954,18 @@ window.NEWS_DATA = [
     "category": "policy",
     "title": "TikTok Shop东南亚7月7日起加强减重与增肌宣传监管",
     "summary": "TikTok Shop东南亚跨境店自2026年7月7日起更新规范，禁止推广减重、增肌类商品时出现五类违规表述，违规内容将下架，严重者受罚。",
-    "ref": "https://www.amz123.com/kx/Qx4MH0QO"
+    "ref": "https://www.amz123.com/kx/Qx4MH0QO",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "政策合规",
+      "广告营销"
+    ],
+    "eventId": "evt-d25b7c28de17"
   },
   {
     "id": "mjzj-fqz7d3a3r2f5",
@@ -301,7 +1977,17 @@ window.NEWS_DATA = [
     "category": "marketing",
     "title": "TikTok Shop东南亚6.6大促GMV同比增长80%",
     "summary": "TikTok Shop东南亚在2026年“6.6 Birthday Mega Sale”中GMV同比增长80%，订单量增超65%；跨境新卖家首单转化率42%，直播贡献超三成GMV，美妆、家居、穆斯林时尚增长最快。",
-    "ref": "https://www.amz123.com/kx/xrFSaNkv"
+    "ref": "https://www.amz123.com/kx/xrFSaNkv",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "广告营销"
+    ],
+    "eventId": "evt-45abbbce7958"
   },
   {
     "id": "mjzj-fqz7bov01fcw",
@@ -313,7 +1999,14 @@ window.NEWS_DATA = [
     "category": "platform",
     "title": "日本二手电商Mercari接入ChatGPT，支持AI搜索商品",
     "summary": "日本二手电商平台Mercari在OpenAI的ChatGPT中上线官方应用，用户可通过自然语言搜索约2300万件商品，AI自动生成标题、分类和描述，支持多语言搜索。",
-    "ref": "https://www.amz123.com/t/z0VdOhMa"
+    "ref": "https://www.amz123.com/t/z0VdOhMa",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-1b93919d196c"
   },
   {
     "id": "mjzj-fqz66qcftbsw",
@@ -324,7 +2017,16 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "policy",
     "title": "26-cv-07759，不止运动鞋！Reebok同步追责家纺宠物NFT多赛道全方位维权！",
-    "summary": "本案是KossofIPR代理国际运动巨头Reebok International Limited在伊利诺伊州发起的商标维权案件，针对其REEBOK文字商标以及图形商标未经授权使用的侵权行为发起，涵盖运动、家居、宠物、以及数码NFT等多个赛道。"
+    "summary": "本案是KossofIPR代理国际运动巨头Reebok International Limited在伊利诺伊州发起的商标维权案件，针对其REEBOK文字商标以及图形商标未经授权使用的侵权行为发起，涵盖运动、家居、宠物、以及数码NFT等多个赛道。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-343750a6e9aa"
   },
   {
     "id": "mjzj-fqz45ug0kpvk",
@@ -335,7 +2037,17 @@ window.NEWS_DATA = [
     "score": 61,
     "category": "policy",
     "title": "26-cv-01438｜跨境热销手机壳PITAKA日落/月升手机壳版权维权啦！Temu的3C卖家速围观！",
-    "summary": "本案是Getech Law代理Shenzhen Lingyi Innovation Technology Co.,Ltd在宾夕法尼亚州发起的版权维权案件，目前案件版权详情处于密封状态，但麦家支持通过排查锁定了涉案版权图，供卖家参考并及时避雷！"
+    "summary": "本案是Getech Law代理Shenzhen Lingyi Innovation Technology Co.,Ltd在宾夕法尼亚州发起的版权维权案件，目前案件版权详情处于密封状态，但麦家支持通过排查锁定了涉案版权图，供卖家参考并及时避雷！",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Temu",
+      "知识产权"
+    ],
+    "eventId": "evt-40c4cc0bcdc9"
   },
   {
     "id": "mjzj-fqz32431qfwg",
@@ -346,7 +2058,19 @@ window.NEWS_DATA = [
     "score": 61,
     "category": "policy",
     "title": "26-cv-05666｜泽农农场儿童IP维权进行时，农场角色印花版权及文字高危",
-    "summary": "母婴、派对用品、童装跨境卖家注意！少儿IP：La Granja de Zenón农场跨境收维权，由BSF律所代理Leader Entertainment S.A.在纽约州发起已立案！维权类目涵盖数码影音、文具、箱包、童装、毛绒玩具、零售服务、流媒体、少儿教育、乳制品等，Temu、SHEIN、TikTok等平台高危"
+    "summary": "母婴、派对用品、童装跨境卖家注意！少儿IP：La Granja de Zenón农场跨境收维权，由BSF律所代理Leader Entertainment S.A.在纽约州发起已立案！维权类目涵盖数码影音、文具、箱包、童装、毛绒玩具、零售服务、流媒体、少儿教育、乳制品等，Temu、SHEIN、TikTok等平台高危",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "Temu",
+      "SHEIN",
+      "知识产权"
+    ],
+    "eventId": "evt-d1b1c027d213"
   },
   {
     "id": "mjzj-fqyzrfahy0hs",
@@ -357,7 +2081,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "Cognizant推出GPT-5.5赋能AI网络安全防御服务",
-    "summary": "Cognizant已率先在其内部安全运营中实践该方案，以自身为‘零号客户’完成验证。此举旨在缩短从漏洞识别到可验证修复的周期，提升企业安全响应效能。"
+    "summary": "Cognizant已率先在其内部安全运营中实践该方案，以自身为‘零号客户’完成验证。此举旨在缩短从漏洞识别到可验证修复的周期，提升企业安全响应效能。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-ddda573b4d11"
   },
   {
     "id": "mjzj-fqyzgro6tq80",
@@ -368,7 +2099,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "脉脉发布最新校招数据：AI岗位增长47.3%",
-    "summary": "新发岗位AI渗透率从2025年的26.41%提升至2026年的37.56%，意味着每10个新发校招岗位中，接近4个与AI相关。"
+    "summary": "新发岗位AI渗透率从2025年的26.41%提升至2026年的37.56%，意味着每10个新发校招岗位中，接近4个与AI相关。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-c05abc788b5b"
   },
   {
     "id": "mjzj-fqyyg7h0x91c",
@@ -379,7 +2117,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "快手可灵AI完成30亿美元融资，投后估值180亿美元",
-    "summary": "可灵AI创下全球视频大模型公司最大额融资纪录，标志着其独立商业化发展进程正式开启。"
+    "summary": "可灵AI创下全球视频大模型公司最大额融资纪录，标志着其独立商业化发展进程正式开启。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-36c674741f51"
   },
   {
     "id": "mjzj-fqyyd80eoi68",
@@ -390,7 +2135,16 @@ window.NEWS_DATA = [
     "score": 61,
     "category": "platform",
     "title": "AI创作平台“灵珠”完成天使轮融资，TikTok天使投资人领投",
-    "summary": "AI创作平台“灵珠”宣布完成天使轮融资，由TikTok天使投资人韦海军领投。"
+    "summary": "AI创作平台“灵珠”宣布完成天使轮融资，由TikTok天使投资人韦海军领投。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-ad1e5c94f383"
   },
   {
     "id": "mjzj-fqylp023naio",
@@ -401,7 +2155,17 @@ window.NEWS_DATA = [
     "score": 63,
     "category": "policy",
     "title": "2026运营重大利好：促销一键拓展欧洲10国，这波流量红利你抓得住吗？",
-    "summary": "仅需一次创建，促销活动自动覆盖欧洲十站。详细拆解功能逻辑、站点优先级策略及税务合规底线，避坑才能真提效。"
+    "summary": "仅需一次创建，促销活动自动覆盖欧洲十站。详细拆解功能逻辑、站点优先级策略及税务合规底线，避坑才能真提效。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规",
+      "广告营销"
+    ],
+    "eventId": "evt-7875cf2cc544"
   },
   {
     "id": "mjzj-fqno7ohpigao",
@@ -412,7 +2176,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "platform",
     "title": "2倍GMV爆发，最高50%平台券补！东南亚跨境电商7.7超级大促重磅上线！",
-    "summary": "收官！6.6生日狂欢大促东南亚再创新高，4大品牌爆单套路，7.7超级大促高达50%折扣券等您来抢！"
+    "summary": "收官！6.6生日狂欢大促东南亚再创新高，4大品牌爆单套路，7.7超级大促高达50%折扣券等您来抢！",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-9faa74790ac5"
   },
   {
     "id": "mjzj-fqygxk0yo1kw",
@@ -423,7 +2194,14 @@ window.NEWS_DATA = [
     "score": 63,
     "category": "market",
     "title": "第三届出海全球峰会一线干货 | 许思涛：全球化调整期，中国企业出海的策略与路径",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-6a10926efbe4"
   },
   {
     "id": "187265",
@@ -434,7 +2212,17 @@ window.NEWS_DATA = [
     "score": 63,
     "category": "platform",
     "title": "Alexa for Shopping：你的亚马逊个性化、智能购物助手",
-    "summary": "亚马逊把AI购物助手往前台推，入口变了流量分配就会变，值得留意它怎么影响搜索和推荐的权重。"
+    "summary": "亚马逊把AI购物助手往前台推，入口变了流量分配就会变，值得留意它怎么影响搜索和推荐的权重。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-1c4f0263dde4"
   },
   {
     "id": "mjzj-fqzf7mc6n8cg",
@@ -445,7 +2233,14 @@ window.NEWS_DATA = [
     "score": 63,
     "category": "market",
     "title": "GeeLark 6月功能更新合集",
-    "summary": "来看下GeeLark的指纹浏览器、自动化、AIGC都有哪些新增和优化吧"
+    "summary": "来看下GeeLark的指纹浏览器、自动化、AIGC都有哪些新增和优化吧",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-c9eb21bfee9d"
   },
   {
     "id": "mjzj-fqysti88229s",
@@ -456,7 +2251,16 @@ window.NEWS_DATA = [
     "score": 73,
     "category": "platform",
     "title": "亚马逊卖家炸锅！7月全面推行Passkey，下半年强制生效",
-    "summary": "官方正式定调：自2026年7月起，亚马逊将向所有卖家平台账户逐步推行通行密钥(Passkey)。"
+    "summary": "官方正式定调：自2026年7月起，亚马逊将向所有卖家平台账户逐步推行通行密钥(Passkey)。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-526b2ac0589c"
   },
   {
     "id": "mjzj-fqyqc6hpwhz4",
@@ -467,7 +2271,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "湾区闽商品牌出海委员会新址揭牌",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-4aa5637c66cb"
   },
   {
     "id": "mjzj-fqyj7v037sow",
@@ -479,7 +2290,14 @@ window.NEWS_DATA = [
     "category": "market",
     "title": "突发！马士基、MSC暂停订舱，该国重要港口运营中断",
     "summary": "委内瑞拉北部地震导致拉瓜伊拉港商业运营暂停，马士基暂停该港部分航线订舱，MSC暂停其进出口业务，在途货物改由卡贝略港卸货，恢复时间未定。",
-    "ref": "https://www.amz123.com/t/LsDv7WHy"
+    "ref": "https://www.amz123.com/t/LsDv7WHy",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-d4628355e105"
   },
   {
     "id": "mjzj-fqyj7v037sox",
@@ -491,7 +2309,14 @@ window.NEWS_DATA = [
     "category": "market",
     "title": "美团王兴等不及了，突然成立新公司",
     "summary": "回顾过去，美团在本地生活服务领域始终稳居领先地位，从餐饮外卖到出行旅游，其业务触角已深入亿万用户的日常场景，成为很多人生活中不可或缺的一部分。",
-    "ref": "https://www.pai.com.cn/p/01kwhhbjqe1r58m1vkz6fsr5tz"
+    "ref": "https://www.pai.com.cn/p/01kwhhbjqe1r58m1vkz6fsr5tz",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-ba8357822aec"
   },
   {
     "id": "mjzj-fqyj7qsivlds",
@@ -503,7 +2328,14 @@ window.NEWS_DATA = [
     "category": "marketing",
     "title": "辛巴美女徒弟摊上事了，直播带货惹出大麻烦",
     "summary": "辛巴徒弟徐杰在母亲节直播中将普通代用茶宣传为具清湿气等功效的养生品，售出30万单、销售额4000万，因涉虚假宣传被调查，辛选集团回应将核查整改。",
-    "ref": "https://www.pai.com.cn/p/01kwjr6ddv0qka0cm5stxxg383"
+    "ref": "https://www.pai.com.cn/p/01kwjr6ddv0qka0cm5stxxg383",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e6c84252cb60"
   },
   {
     "id": "mjzj-fqyj6du7ij2a",
@@ -515,7 +2347,19 @@ window.NEWS_DATA = [
     "category": "policy",
     "title": "2026年全球跨境电商收入预计突破1.2万亿美元",
     "summary": "2026年全球跨境电商总收入预计突破1.2万亿美元，2024年已超万亿美元；Temu、SHEIN等企业通过本地仓与分散供应链应对关税，Shopee、美客多依托物流支撑区域增长。",
-    "ref": "https://www.amz123.com/kx/1u273cjQ"
+    "ref": "https://www.amz123.com/kx/1u273cjQ",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Temu",
+      "SHEIN",
+      "Shopee",
+      "物流仓储"
+    ],
+    "eventId": "evt-0d167b015b7b"
   },
   {
     "id": "mjzj-fqyj6du7ij29",
@@ -527,7 +2371,14 @@ window.NEWS_DATA = [
     "category": "market",
     "title": "马士基公布26年Q1财报，营收降至129.70亿美元",
     "summary": "AMZ123获悉，近日，马士基（Maersk）公布了截至2026年3月31日的2026年第一季度财报。",
-    "ref": "https://www.amz123.com/t/KWIfLKe7"
+    "ref": "https://www.amz123.com/t/KWIfLKe7",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e264a2a47365"
   },
   {
     "id": "mjzj-fqyj6gq1skjl",
@@ -539,7 +2390,16 @@ window.NEWS_DATA = [
     "category": "platform",
     "title": "26年越南电子电商市场竞争更激烈，GMV同比增长52%",
     "summary": "2026年前5个月，越南四大电商平台电子产品总交易额达8.15万亿越南盾，同比增长52%，销量140万件，同比增长42%，TikTok Shop市场份额升至12%。",
-    "ref": "https://www.amz123.com/t/rxXuMIOK"
+    "ref": "https://www.amz123.com/t/rxXuMIOK",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-6b70e872a54d"
   },
   {
     "id": "mjzj-fqygr61wpm2o",
@@ -550,7 +2410,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "第三届出海全球峰会一线干货 | 宋来：从产品出海到标准引领，中国智造的全球化进阶",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-84846e8bce10"
   },
   {
     "id": "187257",
@@ -561,7 +2428,16 @@ window.NEWS_DATA = [
     "score": 68,
     "category": "policy",
     "title": "KZOYNEA商标维权！国人卖家发起诉讼！",
-    "summary": "又一起国人卖家主动发案的商标维权，卖同类产品的先自查listing有没有沾到这个标。"
+    "summary": "又一起国人卖家主动发案的商标维权，卖同类产品的先自查listing有没有沾到这个标。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-3c88cd81c8d4"
   },
   {
     "id": "187244",
@@ -572,7 +2448,16 @@ window.NEWS_DATA = [
     "score": 75,
     "category": "platform",
     "title": "告别低效重复！亚马逊新功能上线，促销一键拓展欧洲10国站点",
-    "summary": "促销跨站点一键复制对做泛欧的卖家是实打实的效率提升，旺季前值得把这个功能跑熟。"
+    "summary": "促销跨站点一键复制对做泛欧的卖家是实打实的效率提升，旺季前值得把这个功能跑熟。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-4e3bb89211d0"
   },
   {
     "id": "187243",
@@ -583,7 +2468,18 @@ window.NEWS_DATA = [
     "score": 79,
     "category": "platform",
     "title": "Shopee 7月起三大变动落地；3名卖家因在Shopee等平台售假被起诉；TikTok Shop严禁违规内容宣传",
-    "summary": "东南亚两大平台同时收紧，Shopee的7月新政和TikTok Shop的内容红线都是运营层面马上要动作的事。"
+    "summary": "东南亚两大平台同时收紧，Shopee的7月新政和TikTok Shop的内容红线都是运营层面马上要动作的事。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "Shopee",
+      "知识产权"
+    ],
+    "eventId": "evt-1a4f4339314e"
   },
   {
     "id": "lsch-cbea0350",
@@ -594,7 +2490,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "36氪出海·关注｜球场之外：世界杯中的“非典型”中国生意",
-    "summary": "世界杯的聚光灯之外，一批中国企业已经融入赛事经济。"
+    "summary": "世界杯的聚光灯之外，一批中国企业已经融入赛事经济。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-fde6c1e47edb"
   },
   {
     "id": "amz-aScvG7g9",
@@ -605,7 +2508,17 @@ window.NEWS_DATA = [
     "score": 73,
     "category": "policy",
     "title": "Temu与韩国知识产权保护局KOIPA签署备忘录 联手打击K品牌侵权假冒",
-    "summary": "AMZ123获悉，Temu正式与韩国知识产权保护局（KOIPA）签署谅解备忘录，双方将建立专门沟通机制，以快速响应并打击平台内针对韩国品牌（K-brands）的知识产权侵权行为。根据合作内容，Temu将依托自主研发的检测技术及全球专家评审团队，主动识别并下架侵权商品；KOIPA则负责核实韩国品牌知识产权的真实性及权属信息，并指导韩国企业使用Temu提供的知识产权维权工具。目前，Temu的主动监测数据库已覆盖超过1.5万个品牌、4700万张图片及950万个关键词，平台平均处理知识产权侵权投诉的时间已缩短至24小时以内。"
+    "summary": "AMZ123获悉，Temu正式与韩国知识产权保护局（KOIPA）签署谅解备忘录，双方将建立专门沟通机制，以快速响应并打击平台内针对韩国品牌（K-brands）的知识产权侵权行为。根据合作内容，Temu将依托自主研发的检测技术及全球专家评审团队，主动识别并下架侵权商品；KOIPA则负责核实韩国品牌知识产权的真实性及权属信息，并指导韩国企业使用Temu提供的知识产权维权工具。目前，Temu的主动监测数据库已覆盖超过1.5万个品牌、4700万张图片及950万个关键词，平台平均处理知识产权侵权投诉的时间已缩短至24小时以内。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Temu",
+      "知识产权"
+    ],
+    "eventId": "evt-5e61d138ec3f"
   },
   {
     "id": "amz-lM9ke4gc",
@@ -616,7 +2529,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "韩国2026年上半年化妆品出口同比增长27.3%至70亿美元 创同期新高",
-    "summary": "AMZ123获悉，韩国食品医药品安全处于7月2日发布的初步统计数据显示，2026年上半年韩国化妆品出口额达到70亿美元，同比增长27.3%，创历年同期最高水平；此前2022年至2024年上半年出口额连续三年维持在40多亿美元区间，去年提升至55亿美元，今年进一步增至70亿美元，其中第二季度出口额为39亿美元，环比增长25.8%，反映出韩妆在全球市场尤其是亚洲及北美地区的恢复与扩张趋势。相关数据也显示韩国美妆出口在主要海外市场持续走强，跨境美妆卖家可重点关注韩系品牌新品动态及本土供应链价格变化，以优化下半年备货节奏。"
+    "summary": "AMZ123获悉，韩国食品医药品安全处于7月2日发布的初步统计数据显示，2026年上半年韩国化妆品出口额达到70亿美元，同比增长27.3%，创历年同期最高水平；此前2022年至2024年上半年出口额连续三年维持在40多亿美元区间，去年提升至55亿美元，今年进一步增至70亿美元，其中第二季度出口额为39亿美元，环比增长25.8%，反映出韩妆在全球市场尤其是亚洲及北美地区的恢复与扩张趋势。相关数据也显示韩国美妆出口在主要海外市场持续走强，跨境美妆卖家可重点关注韩系品牌新品动态及本土供应链价格变化，以优化下半年备货节奏。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-929ff6160417"
   },
   {
     "id": "amz-37WNGlyN",
@@ -627,7 +2547,16 @@ window.NEWS_DATA = [
     "score": 63,
     "category": "policy",
     "title": "新加坡推进电子发票系统分阶段接入，企业合规升级时间明确",
-    "summary": "AMZ123获悉，新加坡税务局（IRAS）规定，所有已注册消费税（GST）的企业需依据年营业额分阶段在2028年4月至2031年4月期间接入全国InvoiceNow电子发票系统。该系统基于国际Peppol标准，统一采用B2B/B2G电子发票格式向IRAS报送数据，以实现申报流程简化、人工错误降低以及跨境业务兼容性的提升。为推动落地，新加坡政府同步推出分级资金补贴、免费轻量化解决方案及技术支持服务，覆盖不同规模企业的信息化改造需求。业内案例显示，企业若提前完成系统部署，可实现平稳过渡，并有效缓解后期集中合规带来的压力。"
+    "summary": "AMZ123获悉，新加坡税务局（IRAS）规定，所有已注册消费税（GST）的企业需依据年营业额分阶段在2028年4月至2031年4月期间接入全国InvoiceNow电子发票系统。该系统基于国际Peppol标准，统一采用B2B/B2G电子发票格式向IRAS报送数据，以实现申报流程简化、人工错误降低以及跨境业务兼容性的提升。为推动落地，新加坡政府同步推出分级资金补贴、免费轻量化解决方案及技术支持服务，覆盖不同规模企业的信息化改造需求。业内案例显示，企业若提前完成系统部署，可实现平稳过渡，并有效缓解后期集中合规带来的压力。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-58d19dd55eab"
   },
   {
     "id": "amz-EQm3SPPZ",
@@ -638,7 +2567,17 @@ window.NEWS_DATA = [
     "score": 69,
     "category": "policy",
     "title": "Shopee泰国本土店联盟计划7月1日升级 支持跨店推广并优化佣金结算",
-    "summary": "AMZ123获悉，Shopee泰国本土店自2026年7月1日起对卖家联盟（Affiliate）计划进行升级调整，卖家除可推广自有店铺商品外，还可通过联盟链接推广平台其他店铺商品并获取佣金。佣金结算周期同步加快，由原有方式调整为每周分两次打入店铺账户，并将根据是否完成增值税登记及主体类型（个人或法人）执行不同结算规则。商家可登录联盟官网实时查询点击数据、成交情况及佣金明细。同时，达标联盟店铺将获得专属20%折扣券（满100泰铢可用，最高减150泰铢），该优惠可与免运券及店铺优惠券叠加使用，但仅限通过联盟链接核销。相关佣金发放及优惠使用均需符合平台现行费率及税务资料要求。"
+    "summary": "AMZ123获悉，Shopee泰国本土店自2026年7月1日起对卖家联盟（Affiliate）计划进行升级调整，卖家除可推广自有店铺商品外，还可通过联盟链接推广平台其他店铺商品并获取佣金。佣金结算周期同步加快，由原有方式调整为每周分两次打入店铺账户，并将根据是否完成增值税登记及主体类型（个人或法人）执行不同结算规则。商家可登录联盟官网实时查询点击数据、成交情况及佣金明细。同时，达标联盟店铺将获得专属20%折扣券（满100泰铢可用，最高减150泰铢），该优惠可与免运券及店铺优惠券叠加使用，但仅限通过联盟链接核销。相关佣金发放及优惠使用均需符合平台现行费率及税务资料要求。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee",
+      "广告营销"
+    ],
+    "eventId": "evt-521f3de4f498"
   },
   {
     "id": "amz-JUheJVD7",
@@ -649,7 +2588,16 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "policy",
     "title": "菲律宾贸工部加强家电ICC/PS安全认证审查 电商需公示执照及合规文件",
-    "summary": "AMZ123获悉，菲律宾贸易与工业部（DTI）近期进一步强化对线上及线下家电商家的合规监管，在对帕西格市商场的突击检查中发现，相关商家家电产品均已规范张贴ICC进口商品认证标签或PS菲律宾产品安全标准标识，整体符合现行法规要求。DTI指出，未获得认证的家电产品可能存在火灾等安全风险，消费者可通过官方应用程序核验认证真实性。自2024年以来，已有238家企业因缺乏认证或证照不完整而收到整改通知。同时，电商商家需在店铺显著位置公示营业执照及对应产品的合规认证文件，其中进口家电需具备ICC认证，本土生产产品需符合PS标准。"
+    "summary": "AMZ123获悉，菲律宾贸易与工业部（DTI）近期进一步强化对线上及线下家电商家的合规监管，在对帕西格市商场的突击检查中发现，相关商家家电产品均已规范张贴ICC进口商品认证标签或PS菲律宾产品安全标准标识，整体符合现行法规要求。DTI指出，未获得认证的家电产品可能存在火灾等安全风险，消费者可通过官方应用程序核验认证真实性。自2024年以来，已有238家企业因缺乏认证或证照不完整而收到整改通知。同时，电商商家需在店铺显著位置公示营业执照及对应产品的合规认证文件，其中进口家电需具备ICC认证，本土生产产品需符合PS标准。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-2cc4e920e07e"
   },
   {
     "id": "amz-eeK5TrRS",
@@ -660,7 +2608,17 @@ window.NEWS_DATA = [
     "score": 69,
     "category": "policy",
     "title": "印尼率先设立社交媒体最低使用年龄门槛",
-    "summary": "AMZ123获悉，印度尼西亚依据2025年第17号儿童网络安全法令，于2026年6月全面实施相关监管政策，成为全球首个通过立法设立社交媒体最低使用年龄的国家。新规适用于各类数字平台，并实施风险分级管理机制，按照七大标准对平台风险等级进行评估。根据规定，被认定为高风险的八大社交平台禁止16岁以下儿童使用，同时针对不同年龄段制定了相应的使用规范及家长明示授权机制。新规还要求平台优化儿童友好型界面设计，并严格限制未成年人数据收集。目前，已有64家企业完成产品风险自评。TikTok Indonesia已按照新规关停超过170万个疑似未成年用户账户。"
+    "summary": "AMZ123获悉，印度尼西亚依据2025年第17号儿童网络安全法令，于2026年6月全面实施相关监管政策，成为全球首个通过立法设立社交媒体最低使用年龄的国家。新规适用于各类数字平台，并实施风险分级管理机制，按照七大标准对平台风险等级进行评估。根据规定，被认定为高风险的八大社交平台禁止16岁以下儿童使用，同时针对不同年龄段制定了相应的使用规范及家长明示授权机制。新规还要求平台优化儿童友好型界面设计，并严格限制未成年人数据收集。目前，已有64家企业完成产品风险自评。TikTok Indonesia已按照新规关停超过170万个疑似未成年用户账户。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "政策合规"
+    ],
+    "eventId": "evt-3a4def8b69df"
   },
   {
     "id": "amz-gO8YPQ9B",
@@ -671,7 +2629,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "集装箱船未按指定航线航行在霍尔木兹海峡搁浅",
-    "summary": "AMZ123获悉，据伊朗国家媒体及外电综合报道，近日一艘集装箱船因未按照伊朗指定航线航行，在霍尔木兹海峡发生搁浅。目前，涉事船舶的船名、船东、货载情况及受损情况均尚未公布。伊朗方面已将进出霍尔木兹海峡的指定航线限定为拉腊克岛以南航线，所有船舶需与伊朗伊斯兰革命卫队海军进行协调，并按照安排的通行时间航行，方可获得全程安全保障。对于未经许可擅自选择规定航线以外航行的船舶，伊方警告称“可能导致不可挽回的事件发生”。当前，霍尔木兹海峡实际形成了三条航线并存的格局，分别为伊朗控制的北线、原有常规国际航道以及阿曼与美国协调的南线替代通道。"
+    "summary": "AMZ123获悉，据伊朗国家媒体及外电综合报道，近日一艘集装箱船因未按照伊朗指定航线航行，在霍尔木兹海峡发生搁浅。目前，涉事船舶的船名、船东、货载情况及受损情况均尚未公布。伊朗方面已将进出霍尔木兹海峡的指定航线限定为拉腊克岛以南航线，所有船舶需与伊朗伊斯兰革命卫队海军进行协调，并按照安排的通行时间航行，方可获得全程安全保障。对于未经许可擅自选择规定航线以外航行的船舶，伊方警告称“可能导致不可挽回的事件发生”。当前，霍尔木兹海峡实际形成了三条航线并存的格局，分别为伊朗控制的北线、原有常规国际航道以及阿曼与美国协调的南线替代通道。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-b8ce8813fedf"
   },
   {
     "id": "amz-B3jFUy0J",
@@ -682,7 +2647,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "南非多城爆发排外示威 侨企与贸易业务受影响",
-    "summary": "AMZ123获悉，南非约翰内斯堡、比勒陀利亚、开普敦及德班等多个城市于2026年6月30日同步发生大规模反非法移民示威活动，部分示威人群携带器械聚集，导致当地安全形势趋紧。受局势影响，多数华人商场、批发市场及便利店已提前暂停营业，中资企业及在地侨胞普遍采取居家办公并减少外出以规避风险。同时，当地导航软件已发布交通警报，提醒用户绕行相关区域。据悉，此轮排外情绪受到“三月与三月”组织的煽动，并在11月地方选举政治化因素推动下进一步升温，后续发展存在持续发酵可能。"
+    "summary": "AMZ123获悉，南非约翰内斯堡、比勒陀利亚、开普敦及德班等多个城市于2026年6月30日同步发生大规模反非法移民示威活动，部分示威人群携带器械聚集，导致当地安全形势趋紧。受局势影响，多数华人商场、批发市场及便利店已提前暂停营业，中资企业及在地侨胞普遍采取居家办公并减少外出以规避风险。同时，当地导航软件已发布交通警报，提醒用户绕行相关区域。据悉，此轮排外情绪受到“三月与三月”组织的煽动，并在11月地方选举政治化因素推动下进一步升温，后续发展存在持续发酵可能。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-29a6a7ce0703"
   },
   {
     "id": "amz-L73qs5Pp",
@@ -693,7 +2665,16 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "logistics",
     "title": "DHL加码中欧快件网络 上海至东米德兰新航线经停多地",
-    "summary": "AMZ123获悉，DHL快递正式开通上海至英国东米德兰的全货运航线，该航线经停曼谷、巴林及布鲁塞尔，串联亚太、中东与欧洲五大核心物流枢纽。新航线每周可为长三角地区新增近200吨航空运力，主要满足华东地区对亚太及欧洲出口持续增长的运输需求。该航线将进一步提升中欧间供应链的响应弹性与运力配置效率，为华东外贸企业提供更加稳定高效的洲际快件及高附加值货物运输通道。业内建议相关货代企业关注航班班期及截单时间，优化出货安排。"
+    "summary": "AMZ123获悉，DHL快递正式开通上海至英国东米德兰的全货运航线，该航线经停曼谷、巴林及布鲁塞尔，串联亚太、中东与欧洲五大核心物流枢纽。新航线每周可为长三角地区新增近200吨航空运力，主要满足华东地区对亚太及欧洲出口持续增长的运输需求。该航线将进一步提升中欧间供应链的响应弹性与运力配置效率，为华东外贸企业提供更加稳定高效的洲际快件及高附加值货物运输通道。业内建议相关货代企业关注航班班期及截单时间，优化出货安排。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-a6bcb62b817e"
   },
   {
     "id": "amz-0CWptcE8",
@@ -704,7 +2685,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "logistics",
     "title": "俄罗斯邮政在莫斯科试点“一键速达”服务",
-    "summary": "AMZ123获悉，俄罗斯邮政已在莫斯科及莫斯科州启动“一键速达”服务试点。该服务允许用户在电商平台下单结算时直接勾选相应选项，系统将于30分钟内调度快递员上门揽收。首期覆盖莫斯科核心城区及部分莫斯科州区域，主要服务对象包括有紧急发货需求的电商卖家以及对时效要求较高的个人寄件用户；该服务依托俄罗斯邮政近年来升级的数字化调度体系及城市前置仓网络，旨在通过压缩“下单至揽收”时间提升电商履约效率。未来将根据试点运行情况，逐步拓展至圣彼得堡及其他人口规模超百万的城市，建议跨境电商卖家持续关注其接入进展，以优化整体发货时效并提升店铺运营表现。"
+    "summary": "AMZ123获悉，俄罗斯邮政已在莫斯科及莫斯科州启动“一键速达”服务试点。该服务允许用户在电商平台下单结算时直接勾选相应选项，系统将于30分钟内调度快递员上门揽收。首期覆盖莫斯科核心城区及部分莫斯科州区域，主要服务对象包括有紧急发货需求的电商卖家以及对时效要求较高的个人寄件用户；该服务依托俄罗斯邮政近年来升级的数字化调度体系及城市前置仓网络，旨在通过压缩“下单至揽收”时间提升电商履约效率。未来将根据试点运行情况，逐步拓展至圣彼得堡及其他人口规模超百万的城市，建议跨境电商卖家持续关注其接入进展，以优化整体发货时效并提升店铺运营表现。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-3a9b8d009c3e"
   },
   {
     "id": "amz-llzExTt4",
@@ -715,7 +2703,18 @@ window.NEWS_DATA = [
     "score": 69,
     "category": "policy",
     "title": "美海关CBP认证AWS海关贸易业务合规能力",
-    "summary": "AMZ123获悉，亚马逊云科技（AWS）宣布，美国海关与边境保护局（CBP）已正式认定其海关与贸易相关业务主体为合规合作方，表明AWS在供应链安全管理、数据传输合规以及报关流程规范性等方面符合CBP《海关—贸易反恐伙伴关系》（C-TPAT）及相关贸易便利化标准要求。该认证意味着AWS在跨境清关环节有望获得更低查验率及优先处理待遇。对于使用AWS开展跨境贸易合规、报关数据对接及供应链可视化服务的进出口企业及货代而言，该CBP背书进一步提升了其头程及进口申报链路的可信度。建议相关企业关注AWS Compliance Center的后续更新，并根据需要获取相关合规证明文件用于客户沟通或审计备案。"
+    "summary": "AMZ123获悉，亚马逊云科技（AWS）宣布，美国海关与边境保护局（CBP）已正式认定其海关与贸易相关业务主体为合规合作方，表明AWS在供应链安全管理、数据传输合规以及报关流程规范性等方面符合CBP《海关—贸易反恐伙伴关系》（C-TPAT）及相关贸易便利化标准要求。该认证意味着AWS在跨境清关环节有望获得更低查验率及优先处理待遇。对于使用AWS开展跨境贸易合规、报关数据对接及供应链可视化服务的进出口企业及货代而言，该CBP背书进一步提升了其头程及进口申报链路的可信度。建议相关企业关注AWS Compliance Center的后续更新，并根据需要获取相关合规证明文件用于客户沟通或审计备案。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "物流仓储"
+    ],
+    "eventId": "evt-6ffa4feb681b"
   },
   {
     "id": "amz-pqRr4sm3",
@@ -726,7 +2725,17 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "marketing",
     "title": "M.Video与Eldorado自7月1日起合并线上平台",
-    "summary": "AMZ123获悉，俄罗斯消费电子零售巨头M.Video与Eldorado（均隶属M.Video-Eldorado / Сафмар零售集团）自2026年7月1日起正式完成线上销售平台整合。用户访问任一品牌官网或App时，均可享受统一搜索、合并购物车、通用账号登录以及跨品牌积分累计与兑换服务。两大品牌将继续保留独立的视觉标识和差异化促销活动，但各类优惠不可叠加使用。卖家后台的商品信息将自动同步至两个平台前端展示，订单及库存管理逻辑基本保持不变。此次平台整合旨在降低重复的IT及营销成本，集中流量资源，以应对Wildberries和Ozon等电商平台对家电品类市场份额的持续竞争。"
+    "summary": "AMZ123获悉，俄罗斯消费电子零售巨头M.Video与Eldorado（均隶属M.Video-Eldorado / Сафмар零售集团）自2026年7月1日起正式完成线上销售平台整合。用户访问任一品牌官网或App时，均可享受统一搜索、合并购物车、通用账号登录以及跨品牌积分累计与兑换服务。两大品牌将继续保留独立的视觉标识和差异化促销活动，但各类优惠不可叠加使用。卖家后台的商品信息将自动同步至两个平台前端展示，订单及库存管理逻辑基本保持不变。此次平台整合旨在降低重复的IT及营销成本，集中流量资源，以应对Wildberries和Ozon等电商平台对家电品类市场份额的持续竞争。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销",
+      "选品"
+    ],
+    "eventId": "evt-587ec656d6c3"
   },
   {
     "id": "amz-M49erFx6",
@@ -737,7 +2746,16 @@ window.NEWS_DATA = [
     "score": 61,
     "category": "platform",
     "title": "美零售百强榜：沃尔玛、亚马逊连续七年稳居前二 Costco第三稳固",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-385a69e80662"
   },
   {
     "id": "amz-20tKdME1",
@@ -748,7 +2766,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "platform",
     "title": "Ozon将卖家协议重大变更通知期延长至45天",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-1cd425645be7"
   },
   {
     "id": "amz-jhHHb1eY",
@@ -759,7 +2784,16 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "policy",
     "title": "Shopify与竞争对手达成版权诉讼和解 案件正式结案",
-    "summary": "AMZ123获悉，加拿大电商平台Shopify已与竞争对手就一宗版权诉讼达成和解，并向美国法院提交联合申请，请求驳回该案件，双方同意各自承担相关法律费用。根据此前诉讼指控，原告方面称Shopify在开发电商平台过程中，未经授权复制其平台源代码及相关功能，涉嫌侵犯版权。法院文件显示，双方目前已就相关争议达成一致，但具体和解条款未对外披露，因此涉及的赔偿金额及其他细节仍未公开。随着联合撤诉申请的提交，这起持续多年的版权纠纷也将正式告一段落。"
+    "summary": "AMZ123获悉，加拿大电商平台Shopify已与竞争对手就一宗版权诉讼达成和解，并向美国法院提交联合申请，请求驳回该案件，双方同意各自承担相关法律费用。根据此前诉讼指控，原告方面称Shopify在开发电商平台过程中，未经授权复制其平台源代码及相关功能，涉嫌侵犯版权。法院文件显示，双方目前已就相关争议达成一致，但具体和解条款未对外披露，因此涉及的赔偿金额及其他细节仍未公开。随着联合撤诉申请的提交，这起持续多年的版权纠纷也将正式告一段落。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-7b3076b1d202"
   },
   {
     "id": "amz-HFv6BLu9",
@@ -770,7 +2804,16 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "policy",
     "title": "德国附条件批准京东22亿欧元收购欧洲消费电子零售商Ceconomy",
-    "summary": "AMZ123获悉，德国联邦经济部已附条件批准京东以约22亿欧元收购欧洲消费电子零售巨头Ceconomy（旗下拥有MediaMarkt与Saturn连锁门店）的交易。监管要求包括确保客户数据安全、德国相关部门保留持续监管权及撤销批准的权力。交易预计将于2026年下半年完成交割。目前，法国与意大利已无条件批准该交易，奥地利与西班牙的审查仍在推进中。与此同时，欧盟委员会正依据《外国补贴条例》审查是否存在来自中国政府补贴可能造成的竞争扭曲问题。若全部审批顺利通过，该交易将成为首个中资控股欧洲大型实体消费电子零售网络的案例，为京东在欧洲自营3C及家电业务拓展线下门店与供应链体系提供关键通道。"
+    "summary": "AMZ123获悉，德国联邦经济部已附条件批准京东以约22亿欧元收购欧洲消费电子零售巨头Ceconomy（旗下拥有MediaMarkt与Saturn连锁门店）的交易。监管要求包括确保客户数据安全、德国相关部门保留持续监管权及撤销批准的权力。交易预计将于2026年下半年完成交割。目前，法国与意大利已无条件批准该交易，奥地利与西班牙的审查仍在推进中。与此同时，欧盟委员会正依据《外国补贴条例》审查是否存在来自中国政府补贴可能造成的竞争扭曲问题。若全部审批顺利通过，该交易将成为首个中资控股欧洲大型实体消费电子零售网络的案例，为京东在欧洲自营3C及家电业务拓展线下门店与供应链体系提供关键通道。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-06d2e6eb858e"
   },
   {
     "id": "amz-3NDbEAkh",
@@ -781,7 +2824,17 @@ window.NEWS_DATA = [
     "score": 61,
     "category": "marketing",
     "title": "TikTok推出AI广告助手Symphony Agent 自动匹配创作者内容生成品牌素材",
-    "summary": "AMZ123获悉，TikTok正式发布面向广告主的AI营销工具“Symphony Agent”。该工具集成于Symphony Creative Studio、Content Suite与TikTok One三大模块，其中Symphony Creative Studio支持通过对话方式生成广告视频，Content Suite可在平台内检索并筛选与品牌匹配的创作者内容，TikTok One则用于达人Brief管理及多语言触达。系统还可基于算法自动构建广告视频、从海量UGC内容中匹配适配品牌的创作者素材，并主动推荐合适达人资源。"
+    "summary": "AMZ123获悉，TikTok正式发布面向广告主的AI营销工具“Symphony Agent”。该工具集成于Symphony Creative Studio、Content Suite与TikTok One三大模块，其中Symphony Creative Studio支持通过对话方式生成广告视频，Content Suite可在平台内检索并筛选与品牌匹配的创作者内容，TikTok One则用于达人Brief管理及多语言触达。系统还可基于算法自动构建广告视频、从海量UGC内容中匹配适配品牌的创作者素材，并主动推荐合适达人资源。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "广告营销"
+    ],
+    "eventId": "evt-edc9d1b5bf43"
   },
   {
     "id": "187212",
@@ -792,7 +2845,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "刚刚，安克登陆港交所！",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-96a592166279"
   },
   {
     "id": "187209",
@@ -803,7 +2863,16 @@ window.NEWS_DATA = [
     "score": 66,
     "category": "policy",
     "title": "又一国人卖家出手了！Lolbit文具商标发案！",
-    "summary": "文具类目的Lolbit商标发案，相关关键词在售的卖家注意排查，冻结资金比下架更伤。"
+    "summary": "文具类目的Lolbit商标发案，相关关键词在售的卖家注意排查，冻结资金比下架更伤。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-e5739a2777aa"
   },
   {
     "id": "187201",
@@ -814,7 +2883,16 @@ window.NEWS_DATA = [
     "score": 58,
     "category": "market",
     "title": "从失业到创业，两个年轻人在Shopee上找到「第二人生」",
-    "summary": "个体卖家故事，参考价值在于起盘路径和类目选择，别只看情绪。"
+    "summary": "个体卖家故事，参考价值在于起盘路径和类目选择，别只看情绪。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee"
+    ],
+    "eventId": "evt-9b683901b30a"
   },
   {
     "id": "187208",
@@ -825,7 +2903,16 @@ window.NEWS_DATA = [
     "score": 77,
     "category": "logistics",
     "title": "终结免税、流量加权！跨境卖家如何算清泰国「本土履约」这笔账？",
-    "summary": "泰国免税红利收尾，本土履约拿流量加权，转不转本土仓是个成本账，这篇把账算得比较细。"
+    "summary": "泰国免税红利收尾，本土履约拿流量加权，转不转本土仓是个成本账，这篇把账算得比较细。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-f707f71a4dbb"
   },
   {
     "id": "187193",
@@ -836,7 +2923,17 @@ window.NEWS_DATA = [
     "score": 72,
     "category": "platform",
     "title": "Shopee今日起强制双认证；Shopee七大站点同步调整该政策；菲律宾举办10万人大游行",
-    "summary": "强制双认证是账号安全层面的硬要求，七大站点同步落地，没开的账号会被卡操作，尽快处理。"
+    "summary": "强制双认证是账号安全层面的硬要求，七大站点同步落地，没开的账号会被卡操作，尽快处理。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee",
+      "政策合规"
+    ],
+    "eventId": "evt-bb75fdc57fbe"
   },
   {
     "id": "187187",
@@ -847,7 +2944,14 @@ window.NEWS_DATA = [
     "score": 65,
     "category": "marketing",
     "title": "韩国跨境如何四两拨千金？低门槛、高复购的增长秘籍就藏在「轻小件」中！",
-    "summary": "韩国市场轻小件的逻辑是低门槛加高复购，适合想低成本试新市场的卖家当切入点。"
+    "summary": "韩国市场轻小件的逻辑是低门槛加高复购，适合想低成本试新市场的卖家当切入点。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-6b713489623b"
   },
   {
     "id": "187185",
@@ -858,7 +2962,17 @@ window.NEWS_DATA = [
     "score": 78,
     "category": "platform",
     "title": "7/1起生效：亚马逊卖家自配送绩效政策更新通知",
-    "summary": "自配送绩效口径变了，FBM卖家的准时率和取消率考核跟着变，7月1日已生效，先看自己后台的指标面板。"
+    "summary": "自配送绩效口径变了，FBM卖家的准时率和取消率考核跟着变，7月1日已生效，先看自己后台的指标面板。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规"
+    ],
+    "eventId": "evt-c454be403244"
   },
   {
     "id": "187184",
@@ -869,7 +2983,17 @@ window.NEWS_DATA = [
     "score": 60,
     "category": "marketing",
     "title": "亚马逊商品推广视频样式SPv入门指南",
-    "summary": "SPv视频广告的入门向教程，还没跑过视频位的可以拿来入门，已经在跑的可以略过。"
+    "summary": "SPv视频广告的入门向教程，还没跑过视频位的可以拿来入门，已经在跑的可以略过。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-ed564875cca4"
   },
   {
     "id": "187183",
@@ -880,7 +3004,17 @@ window.NEWS_DATA = [
     "score": 64,
     "category": "marketing",
     "title": "新卖家成长「三步走」：TikTok Shop美国跨境新商冷启指南②",
-    "summary": "TikTok Shop美国站官方口径的冷启动路径，新商照着走能少踩坑，重点看流量扶持的申请条件。"
+    "summary": "TikTok Shop美国站官方口径的冷启动路径，新商照着走能少踩坑，重点看流量扶持的申请条件。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "广告营销"
+    ],
+    "eventId": "evt-66b0e549e77c"
   },
   {
     "id": "187181",
@@ -891,7 +3025,17 @@ window.NEWS_DATA = [
     "score": 73,
     "category": "market",
     "title": "速卖通公布618中国品牌出海成交榜：硬科技、高客单品牌成主力",
-    "summary": "618出海榜的信号是硬科技和高客单在涨，低价铺货的空间继续被挤，选品方向可以对着榜单校准。"
+    "summary": "618出海榜的信号是硬科技和高客单在涨，低价铺货的空间继续被挤，选品方向可以对着榜单校准。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "速卖通",
+      "选品"
+    ],
+    "eventId": "evt-48d671450792"
   },
   {
     "id": "187180",
@@ -902,7 +3046,16 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "marketing",
     "title": "卖家必看：eMAG Ads广告基础设置（eMAG开店指南⑯）",
-    "summary": "东欧平台eMAG的广告基础设置教程，在做罗马尼亚市场的小众卖家用得上。"
+    "summary": "东欧平台eMAG的广告基础设置教程，在做罗马尼亚市场的小众卖家用得上。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-7385a283585e"
   },
   {
     "id": "187179",
@@ -913,7 +3066,16 @@ window.NEWS_DATA = [
     "score": 62,
     "category": "policy",
     "title": "国人卖家隐匿发案！洗车拖把外观维权！",
-    "summary": "外观专利隐匿发案更难提前防，卖洗车拖把和同类清洁工具的先自查在售款式。"
+    "summary": "外观专利隐匿发案更难提前防，卖洗车拖把和同类清洁工具的先自查在售款式。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-23679c2781d9"
   },
   {
     "id": "187178",
@@ -924,7 +3086,16 @@ window.NEWS_DATA = [
     "score": 80,
     "category": "market",
     "title": "一夜之间被9国下架：VITURE的出海「神话」与「专利劫」",
-    "summary": "增长再快也扛不住专利突袭，VITURE被9国下架是今年最典型的知产风险案例，做硬件出海的都该复盘一遍。"
+    "summary": "增长再快也扛不住专利突袭，VITURE被9国下架是今年最典型的知产风险案例，做硬件出海的都该复盘一遍。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-423ee8151e8c"
   },
   {
     "id": "187175",
@@ -935,7 +3106,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "千锁大战中活下来，出海战场上拿第一！解码凯迪仕Kaadas的全球征途",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-9929a1cd9730"
   },
   {
     "id": "187171",
@@ -946,7 +3124,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "销量暴涨5倍、退货率仅6%！盖世小鸡拉美市场实战方法论丨“新”卖家故事②",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-5118f4d16116"
   },
   {
     "id": "lsch-9743448d",
@@ -957,7 +3142,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "一键对接投资人，Invest Qatar Gateway推出创投融资模块",
-    "summary": "卡塔尔投资促进局（Invest Qatar）联合卡塔尔投资局（QIA）推出创投融资模块，通过整合基金资源与融资渠道，为初创企业提供更加便捷的融资对接平台，进一步完善卡塔尔创新创业生态。"
+    "summary": "卡塔尔投资促进局（Invest Qatar）联合卡塔尔投资局（QIA）推出创投融资模块，通过整合基金资源与融资渠道，为初创企业提供更加便捷的融资对接平台，进一步完善卡塔尔创新创业生态。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-355f08171009"
   },
   {
     "id": "187136",
@@ -968,7 +3160,16 @@ window.NEWS_DATA = [
     "score": 61,
     "category": "platform",
     "title": "他用了18个月，让香薰蜡烛在亚马逊卖到1亿，客单价$30碾压同行！",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-b90fb04873a2"
   },
   {
     "id": "187135",
@@ -979,7 +3180,17 @@ window.NEWS_DATA = [
     "score": 84,
     "category": "policy",
     "title": "紧急预警：亚马逊多站合规新规已生效！未合规商品将下架，附完整自查与操作清单",
-    "summary": "新规已经生效而不是预告，未合规直接下架，这篇带自查清单，多站点在售的卖家优先级最高的一条。"
+    "summary": "新规已经生效而不是预告，未合规直接下架，这篇带自查清单，多站点在售的卖家优先级最高的一条。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规"
+    ],
+    "eventId": "evt-0a620dcd7f82"
   },
   {
     "id": "187134",
@@ -990,7 +3201,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "报告分析·三层拆解法,让数据开口说话",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-d213e5d06598"
   },
   {
     "id": "187126",
@@ -1001,7 +3219,17 @@ window.NEWS_DATA = [
     "score": 61,
     "category": "marketing",
     "title": "注意！亚马逊的这2个新改动，直接影响卖家转化",
-    "summary": ""
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-9cbecf97741e"
   },
   {
     "id": "186999",
@@ -1012,7 +3240,17 @@ window.NEWS_DATA = [
     "score": 71,
     "category": "marketing",
     "title": "旺季ROAS下降？亚马逊英德站头部ASIN反而加大预算的秘密",
-    "summary": "旺季ROAS普跌时头部反而加预算，赌的是流量高峰的绝对量，这套打法适不适合自己要先算毛利空间。"
+    "summary": "旺季ROAS普跌时头部反而加预算，赌的是流量高峰的绝对量，这套打法适不适合自己要先算毛利空间。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-8a191e2e2341"
   },
   {
     "id": "lsch-712538c0",
@@ -1023,7 +3261,14 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "2026全球和平指数发布，卡塔尔位居中东北非地区首位",
-    "summary": "卡塔尔在2026年全球和平指数中位居中东和北非地区首位，进一步凸显其在地区安全与稳定方面的领先优势。"
+    "summary": "卡塔尔在2026年全球和平指数中位居中东和北非地区首位，进一步凸显其在地区安全与稳定方面的领先优势。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-63cdff4f89d8"
   },
   {
     "id": "lsch-45bc3ede",
@@ -1034,215 +3279,15 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "36氪出海·中东｜卡塔尔自由区管理局代表团访问中国，深化多领域务实合作",
-    "summary": "卡塔尔自由区管理局代表团6月访华，持续深化中卡在物流、数字基础设施及生物医药等领域的务实合作。"
-  },
-  {
-    "id": "lsch-a5342eb4",
-    "date": "2026-06-22",
-    "time": "17:28",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/a5342eb4",
-    "score": 55,
-    "category": "market",
-    "title": "一周要闻·阿联酋&卡塔尔｜阿联酋宣布“霍尔木兹零依赖”计划；卡塔尔获评中东和北非最和平国家",
-    "summary": ""
-  },
-  {
-    "id": "186956",
-    "date": "2026-06-21",
-    "time": "20:21",
-    "source": "雨果跨境",
-    "url": "https://www.cifnews.com/article/186956",
-    "score": 75,
-    "category": "policy",
-    "title": "欧盟7月1日关税新政落地，多家跨境物流企业发布重磅预警",
-    "summary": ""
-  },
-  {
-    "id": "lsch-291e654b",
-    "date": "2026-06-20",
-    "time": "10:47",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/291e654b",
-    "score": 55,
-    "category": "marketing",
-    "title": "Taboola向生成式AI企业开放广告变现技术",
-    "summary": "将 DeeperDive 商业化能力扩展至 AI 问答引擎、对话式 AI、聊天机器人及虚拟助手"
-  },
-  {
-    "id": "186937",
-    "date": "2026-06-18",
-    "time": "10:46",
-    "source": "雨果跨境",
-    "url": "https://www.cifnews.com/article/186937",
-    "score": 67,
-    "category": "marketing",
-    "title": "体育盛事遇上Prime会员日，流量双高峰如何「一石二鸟」",
-    "summary": "体育大事件和Prime Day撞期，广告节奏和库存要按双峰来排，只备一个高峰的量会踏空。"
-  },
-  {
-    "id": "lsch-61f8b1d7",
-    "date": "2026-06-14",
-    "time": "22:47",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/61f8b1d7",
-    "score": 55,
-    "category": "market",
-    "title": "机器人行业的真正瓶颈，中美谁能率先攻克？",
-    "summary": "从跳舞到干活的距离：机器人到底缺了什么？"
-  },
-  {
-    "id": "lsch-5f832c4f",
-    "date": "2026-06-14",
-    "time": "22:41",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/5f832c4f",
-    "score": 55,
-    "category": "market",
-    "title": "全球市占率超50%！新型储能狂飙：宁德时代领跑，阳光电源签大单，龙头企业海外“掘金”",
-    "summary": ""
-  },
-  {
-    "id": "lsch-c562b9d7",
-    "date": "2026-06-14",
-    "time": "22:30",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/c562b9d7",
-    "score": 55,
-    "category": "market",
-    "title": "短剧出海“狂飙”，谁在幕后稳稳收割红利？",
-    "summary": ""
-  },
-  {
-    "id": "lsch-7b0ffcda",
-    "date": "2026-06-14",
-    "time": "17:41",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/7b0ffcda",
-    "score": 55,
-    "category": "market",
-    "title": "36氪出海·AI｜互动盲盒快闪卖出12万+，AI激活率40%，他要定义AI时代IP新品类：对话WakuArt树杨",
-    "summary": ""
-  },
-  {
-    "id": "186693",
-    "date": "2026-06-11",
-    "time": "09:50",
-    "source": "雨果跨境",
-    "url": "https://www.cifnews.com/article/186693",
-    "score": 59,
-    "category": "market",
-    "title": "Prime会员日将近，如何入选消费者的购物车",
-    "summary": ""
-  },
-  {
-    "id": "lsch-a07b83dd",
-    "date": "2026-06-08",
-    "time": "15:45",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/a07b83dd",
-    "score": 63,
-    "category": "market",
-    "title": "一周要闻·阿联酋&卡塔尔｜迪拜拟推出智能医疗签证；卡塔尔商工部启动企业经营活动三阶段更新",
-    "summary": ""
-  },
-  {
-    "id": "186661",
-    "date": "2026-06-06",
-    "time": "17:48",
-    "source": "雨果跨境",
-    "url": "https://www.cifnews.com/article/186661",
-    "score": 55,
-    "category": "market",
-    "title": "需求上升！这类产品即将被买爆",
-    "summary": ""
-  },
-  {
-    "id": "lsch-c0114eb0",
-    "date": "2026-06-06",
-    "time": "16:37",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/c0114eb0",
-    "score": 55,
-    "category": "market",
-    "title": "中国品牌出海，海外网红不够用了",
-    "summary": ""
-  },
-  {
-    "id": "lsch-28f848a7",
-    "date": "2026-06-06",
-    "time": "12:21",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/28f848a7",
-    "score": 55,
-    "category": "market",
-    "title": "36氪出海·行业｜消费级机器人大爆发，我在今年看到的产业新变化",
-    "summary": ""
-  },
-  {
-    "id": "lsch-c7f7dd95",
-    "date": "2026-06-06",
-    "time": "12:18",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/c7f7dd95",
-    "score": 55,
-    "category": "market",
-    "title": "36氪出海·行业｜中国跨境电商，正在走出漫长的雨季？",
-    "summary": "接下来的跨境电商行业不是比谁跑得快，而是比谁扎得深。"
-  },
-  {
-    "id": "lsch-b2a057a5",
-    "date": "2026-06-06",
-    "time": "11:58",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/b2a057a5",
-    "score": 55,
-    "category": "market",
-    "title": "36氪出海·AI｜佛陀、分身互联网与我们的精神危机：对话Second Me陶芳波",
-    "summary": ""
-  },
-  {
-    "id": "lsch-54b1af0f",
-    "date": "2026-06-06",
-    "time": "11:46",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/54b1af0f",
-    "score": 63,
-    "category": "market",
-    "title": "5月卡塔尔创投要闻：“北京-卡塔尔”投资合作高峰洽谈会即将举办；中国车企卡塔尔市占率接近30%",
-    "summary": "从中卡合作、行业机遇、市场政策和近期活动四个方面，全面了解卡塔尔投资机遇。"
-  },
-  {
-    "id": "lsch-7bfd68ab",
-    "date": "2026-06-06",
-    "time": "11:29",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/7bfd68ab",
-    "score": 55,
-    "category": "marketing",
-    "title": "36氪出海·AI | 迪拜宣布智能体AI倡议，中国AI企业迎来出海新风口",
-    "summary": "迪拜商会主席兼首席执行官穆罕默德·阿里·拉希德·卢塔阁下撰文表示，迪拜近期宣布了一项智能体 AI（Agentic AI ）倡议，体现了其将未来技术转化为商业影响力的务实路径，也为中国企业开展创新合作开辟了全新契机。"
-  },
-  {
-    "id": "lsch-59ccc363",
-    "date": "2026-06-05",
-    "time": "17:46",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/59ccc363",
-    "score": 55,
-    "category": "platform",
-    "title": "速卖通欧洲多个市场本地订单规模反超跨境，本地化备货成趋势",
-    "summary": "海外618，速卖通欧洲本地订单占比过半，跨境商家加速本地备货"
-  },
-  {
-    "id": "lsch-6ad79935",
-    "date": "2026-06-05",
-    "time": "17:43",
-    "source": "36氪出海",
-    "url": "https://letschuhai.com/6ad79935",
-    "score": 55,
-    "category": "platform",
-    "title": "东南亚家庭“新三大件”，储能电池商家在Lazada卖断货",
-    "summary": "储能电池成东南亚&amp;quot;家庭清单&amp;quot;，新能源商家在Lazada半年增长超6倍"
+    "summary": "卡塔尔自由区管理局代表团6月访华，持续深化中卡在物流、数字基础设施及生物医药等领域的务实合作。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-2fc6c807f59a"
   }
 ];

@@ -65,6 +65,8 @@
   var searchEl = document.getElementById('searchInput');
   var topicNavEl = document.getElementById('topicNav');
   var mobileNavEl = document.getElementById('mobileNav');
+  var freshnessEl = document.getElementById('freshnessLabel');
+  var hotspotsEl = document.getElementById('hotspots');
 
   function loadStarred() {
     try { return JSON.parse(localStorage.getItem(STORE_KEY) || '{}'); }
@@ -116,6 +118,78 @@
     return Object.keys(seen).sort().reverse();
   }
 
+  function normalizeNewsItems() {
+    (window.NEWS_DATA || []).forEach(function (it) {
+      if (typeof it.selected !== 'boolean') it.selected = Number(it.score || 0) >= FEATURED_MIN_SCORE;
+      ['why', 'impact', 'action', 'deadline'].forEach(function (field) {
+        if (typeof it[field] !== 'string') it[field] = '';
+      });
+      if (!Array.isArray(it.tags)) it.tags = [];
+      if (!it.eventId) it.eventId = 'evt-item-' + it.id;
+    });
+  }
+
+  function distinctSources(items) {
+    var seen = {};
+    return items.filter(function (it) {
+      var key = it.source + '|' + it.url;
+      if (seen[key]) return false;
+      seen[key] = true;
+      return true;
+    });
+  }
+
+  function collapseEvents(items) {
+    var grouped = {};
+    items.forEach(function (it) {
+      var key = it.eventId || ('evt-item-' + it.id);
+      (grouped[key] = grouped[key] || []).push(it);
+    });
+    return Object.keys(grouped).map(function (key) {
+      var group = grouped[key].slice().sort(function (a, b) {
+        var scoreDiff = Number(b.score) - Number(a.score);
+        if (scoreDiff) return scoreDiff;
+        var aDetail = (a.summary ? 1 : 0) + (a.why ? 1 : 0);
+        var bDetail = (b.summary ? 1 : 0) + (b.why ? 1 : 0);
+        return (bDetail - aDetail) || byTimeDesc(a, b);
+      });
+      var rep = Object.assign({}, group[0]);
+      rep._eventItems = group;
+      return rep;
+    });
+  }
+
+  function renderFreshness() {
+    if (!freshnessEl) return;
+    var meta = window.NEWS_META || {};
+    var latest = meta.latestItemAt || ((allDates()[0] || '') + 'T00:00:00+08:00');
+    var when = latest ? new Date(latest) : null;
+    if (!when || isNaN(when.getTime())) {
+      freshnessEl.textContent = '更新时间未知';
+      freshnessEl.className = 'freshness freshness-unknown';
+      return;
+    }
+    var hours = Math.max(0, (Date.now() - when.getTime()) / 3600000);
+    if (meta.status === 'failed') {
+      freshnessEl.textContent = '最近抓取失败';
+      freshnessEl.className = 'freshness freshness-stale';
+      freshnessEl.title = '页面保留上一次成功抓取的数据';
+    } else if (meta.status === 'partial' && hours <= 72) {
+      freshnessEl.textContent = '部分来源延迟';
+      freshnessEl.className = 'freshness freshness-delayed';
+      freshnessEl.title = '最近一次抓取有部分来源失败';
+    } else if (hours <= 24) {
+      freshnessEl.textContent = '数据已更新';
+      freshnessEl.className = 'freshness freshness-fresh';
+    } else if (hours <= 72) {
+      freshnessEl.textContent = '数据延迟' + Math.floor(hours) + '小时';
+      freshnessEl.className = 'freshness freshness-delayed';
+    } else {
+      freshnessEl.textContent = '数据停更' + Math.floor(hours / 24) + '天';
+      freshnessEl.className = 'freshness freshness-stale';
+    }
+  }
+
   function applyCommonFilters(items) {
     if (state.category !== 'all') {
       items = items.filter(function (it) { return it.category === state.category; });
@@ -135,7 +209,7 @@
   function getItems() {
     var items = (window.NEWS_DATA || []).slice();
     if (state.view === 'featured') {
-      items = items.filter(function (it) { return it.score >= FEATURED_MIN_SCORE; });
+      items = items.filter(function (it) { return it.selected; });
     } else if (state.view === 'starred') {
       items = items.filter(function (it) { return state.starred[it.id]; });
     } else if (state.view === 'topic') {
@@ -157,6 +231,7 @@
     items = applyCommonFilters(items);
     var isReport = state.view === 'daily' || state.view === 'weekly' || state.view === 'monthly';
     items.sort(isReport ? byScoreDesc : byTimeDesc);
+    if (state.view === 'featured' || isReport) items = collapseEvents(items);
     if (state.view === 'weekly') items = items.slice(0, 30);
     if (state.view === 'monthly') items = items.slice(0, 60);
     return items;
@@ -167,6 +242,7 @@
   function render() {
     var items = getItems();
     feedEl.innerHTML = '';
+    renderHotspots();
 
     if (REPORT_CFG[state.view]) {
       emptyEl.hidden = true;
@@ -177,12 +253,66 @@
       emptyEl.hidden = false;
       emptyTextEl.textContent =
         state.view === 'starred' ? '还没有收藏，点条目右侧的星标即可收藏'
-        : state.view === 'featured' ? '这个筛选下暂时没有高热度条目，可以切到「全部」看'
+        : state.view === 'featured' ? '这个筛选下暂时没有精选条目，可以切到全部查看'
         : '没有匹配的条目，换个关键词或分类试试';
       return;
     }
     emptyEl.hidden = true;
     renderTimeline(items);
+  }
+
+  function renderHotspots() {
+    if (!hotspotsEl) return;
+    hotspotsEl.innerHTML = '';
+    var show = state.view === 'featured' && state.category === 'all' && !state.keyword;
+    if (!show) {
+      hotspotsEl.hidden = true;
+      return;
+    }
+    var latest = allDates()[0];
+    if (!latest) {
+      hotspotsEl.hidden = true;
+      return;
+    }
+    var from = shiftDate(latest, -2);
+    var events = collapseEvents((window.NEWS_DATA || []).filter(function (it) {
+      return it.selected && it.date >= from;
+    }));
+    events.sort(function (a, b) {
+      var aSources = distinctSources(a._eventItems || [a]).length;
+      var bSources = distinctSources(b._eventItems || [b]).length;
+      var aRank = Number(a.score || 0) + (aSources - 1) * 8;
+      var bRank = Number(b.score || 0) + (bSources - 1) * 8;
+      return (bRank - aRank) || byTimeDesc(a, b);
+    });
+    events = events.slice(0, 5);
+    if (!events.length) {
+      hotspotsEl.hidden = true;
+      return;
+    }
+
+    var head = el('div', 'hotspots-head');
+    head.appendChild(el('h2', 'hotspots-title', '最新重要' + events.length + '件事'));
+    head.appendChild(el('span', 'hotspots-range', shortDate(from) + ' 至 ' + shortDate(latest)));
+    hotspotsEl.appendChild(head);
+    var list = el('ol', 'hotspots-list');
+    events.forEach(function (it) {
+      var sources = distinctSources(it._eventItems || [it]);
+      var li = el('li', 'hotspot-item');
+      var link = el('a', 'hotspot-link', it.title);
+      link.href = it.url;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      li.appendChild(link);
+      li.appendChild(el(
+        'span',
+        'hotspot-meta',
+        sources.length > 1 ? sources.length + '个信源报道' : it.source
+      ));
+      list.appendChild(li);
+    });
+    hotspotsEl.appendChild(list);
+    hotspotsEl.hidden = false;
   }
 
   function renderTimeline(items) {
@@ -329,7 +459,11 @@
 
     // 统计
     var srcCount = {};
-    items.forEach(function (it) { srcCount[it.source] = 1; });
+    items.forEach(function (it) {
+      (it._eventItems || [it]).forEach(function (sourceItem) {
+        srcCount[sourceItem.source] = 1;
+      });
+    });
     var hot = items.filter(function (it) { return it.score >= 75; }).length;
     var stats = el('div', 'mag-stats');
     [[items.length, state.view === 'daily' ? '今日条目' : '条目'],
@@ -402,6 +536,10 @@
     src.textContent = it.source;
     meta.appendChild(badge);
     meta.appendChild(src);
+    var eventSources = distinctSources(it._eventItems || [it]);
+    if (eventSources.length > 1) {
+      meta.appendChild(el('span', 'source-count', '另有' + (eventSources.length - 1) + '个信源'));
+    }
     if (it.ref) {
       var ref = document.createElement('a');
       ref.className = 'row-ref';
@@ -432,6 +570,46 @@
       summary.style.margin = '0';
       summary.textContent = it.summary;
       body.appendChild(summary);
+    }
+    if (it.why) {
+      var why = el('p', 'row-why');
+      why.appendChild(el('span', 'row-field-label', '推荐理由'));
+      why.appendChild(document.createTextNode(it.why));
+      body.appendChild(why);
+    }
+    if (it.impact || it.action || it.deadline) {
+      var insight = el('div', 'row-insight');
+      if (it.impact) {
+        var impact = el('div', 'row-insight-line');
+        impact.appendChild(el('span', 'row-field-label', '卖家影响'));
+        impact.appendChild(document.createTextNode(it.impact));
+        insight.appendChild(impact);
+      }
+      if (it.action) {
+        var action = el('div', 'row-insight-line');
+        action.appendChild(el('span', 'row-field-label', '建议动作'));
+        action.appendChild(document.createTextNode(it.action));
+        insight.appendChild(action);
+      }
+      if (it.deadline) {
+        var deadline = el('div', 'row-insight-line');
+        deadline.appendChild(el('span', 'row-field-label', '截止日期'));
+        deadline.appendChild(document.createTextNode(it.deadline));
+        insight.appendChild(deadline);
+      }
+      body.appendChild(insight);
+    }
+    if (eventSources.length > 1) {
+      var related = el('div', 'row-related');
+      related.appendChild(el('span', 'row-field-label', '相关信源'));
+      eventSources.forEach(function (sourceItem) {
+        var sourceLink = el('a', null, sourceItem.source);
+        sourceLink.href = sourceItem.url;
+        sourceLink.target = '_blank';
+        sourceLink.rel = 'noopener';
+        related.appendChild(sourceLink);
+      });
+      body.appendChild(related);
     }
 
     var star = document.createElement('button');
@@ -538,6 +716,9 @@
   }
 
   // ---------- 启动 ----------
+
+  normalizeNewsItems();
+  renderFreshness();
 
   (function () {
     var now = new Date();

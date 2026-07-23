@@ -14,11 +14,13 @@
 - 超过 RETENTION_DAYS 天的条目移到 data/archive/YYYY-MM.json 归档，页面只加载 news.js。
 """
 import html as html_mod
+import hashlib
 import json
 import re
 import sys
 import time
 import urllib.request
+from difflib import SequenceMatcher
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -28,6 +30,7 @@ for stream in (sys.stdout, sys.stderr):
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "news.js"
+META_FILE = ROOT / "data" / "meta.js"
 ARCHIVE_DIR = ROOT / "data" / "archive"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36"
 RETENTION_DAYS = 30
@@ -37,6 +40,11 @@ HEADER = (
     "// 资讯数据。由 scripts/fetch_news.py 追加维护，也可手工编辑。\n"
     "// 字段说明见 README.md「数据字段」。\n"
     "window.NEWS_DATA = "
+)
+
+META_HEADER = (
+    "// 数据管线状态。由 scripts/fetch_news.py 每次运行后更新。\n"
+    "window.NEWS_META = "
 )
 
 CATEGORY_KEYWORDS = [
@@ -52,6 +60,44 @@ SCORE_KEYWORDS = [
     (6, ["亚马逊", "TikTok", "Temu", "SHEIN", "Shopee"]),
     (4, ["旺季", "Prime", "黑五", "选品"]),
 ]
+
+TAG_KEYWORDS = [
+    ("亚马逊", ["亚马逊", "Amazon", "FBA", "FBM", "Prime"]),
+    ("TikTok Shop", ["TikTok"]),
+    ("Temu", ["Temu"]),
+    ("SHEIN", ["SHEIN"]),
+    ("Shopee", ["Shopee"]),
+    ("Lazada", ["Lazada"]),
+    ("速卖通", ["速卖通", "AliExpress"]),
+    ("政策合规", ["新规", "政策", "监管", "合规", "禁令"]),
+    ("知识产权", ["知识产权", "商标", "专利", "侵权", "维权", "诉讼", "起诉"]),
+    ("物流仓储", ["物流", "海运", "空运", "清关", "海关", "海外仓", "仓储"]),
+    ("广告营销", ["广告", "投放", "营销", "推广", "流量", "转化"]),
+    ("选品", ["选品", "爆品", "品类"]),
+]
+
+EVENT_NOISE_WORDS = (
+    "重磅", "突发", "刚刚", "官宣", "最新", "消息", "快讯", "跨境电商",
+    "卖家注意", "卖家必看", "正式", "宣布", "发布",
+)
+
+EVENT_ALIASES = [
+    ("tiktok shop", "tiktokshop"),
+    ("wildberries", "野莓"),
+    ("joybuy", "京东"),
+    ("amazon", "亚马逊"),
+    ("aliexpress", "速卖通"),
+]
+
+EVENT_ENTITIES = (
+    "亚马逊", "tiktokshop", "temu", "shein", "shopee", "lazada",
+    "速卖通", "ebay", "etsy", "野莓", "京东", "沃尔玛",
+)
+
+EVENT_SIGNALS = (
+    "仓库被炸", "仓库火灾", "次日达", "数据中心", "税务报送",
+    "运费补贴", "平台支持费", "佣金费率", "知识产权新规", "批量下架",
+)
 
 
 _HTML_CACHE = {}
@@ -75,7 +121,12 @@ def clean_text(text):
     text = re.sub(r"\.css-[\w-]+\{[^}]*\}", "", text)
     text = re.sub(r"[\w.#: >,()-]*\{[^}]*\}", "", text)
     text = re.sub(r"\s+", " ", text).strip()
-    return text.lstrip("{} ")
+    text = text.lstrip("{} ")
+    if text.count("“") > text.count("”"):
+        text += "”"
+    if text.count("‘") > text.count("’"):
+        text += "’"
+    return text
 
 
 # ---------- 源定义 ----------
@@ -319,6 +370,114 @@ def score(title):
     return min(s, 85)
 
 
+def infer_tags(text):
+    """从标题和摘要提取少量稳定标签，LLM加工后可以覆盖。"""
+    return [
+        label for label, keywords in TAG_KEYWORDS
+        if any(keyword.lower() in text.lower() for keyword in keywords)
+    ][:6]
+
+
+def normalize_event_title(title):
+    """生成仅用于事件相似度比较的标题文本。"""
+    text = html_mod.unescape(title).lower()
+    for source, target in EVENT_ALIASES:
+        text = text.replace(source, target)
+    for word in EVENT_NOISE_WORDS:
+        text = text.replace(word.lower(), "")
+    return re.sub(r"[\W_]+", "", text, flags=re.UNICODE)
+
+
+def _bigrams(text):
+    if len(text) < 2:
+        return {text} if text else set()
+    return {text[i:i + 2] for i in range(len(text) - 1)}
+
+
+def event_similarity(title_a, title_b):
+    """结合字符序列和二元组重合度，判断两个标题是否描述同一事件。"""
+    a, b = normalize_event_title(title_a), normalize_event_title(title_b)
+    if not a or not b:
+        return 0.0
+    seq = SequenceMatcher(None, a, b).ratio()
+    a2, b2 = _bigrams(a), _bigrams(b)
+    jac = len(a2 & b2) / len(a2 | b2) if a2 | b2 else 0.0
+    base = max(seq, jac)
+    shared_entity = any(entity in a and entity in b for entity in EVENT_ENTITIES)
+    shared_signal = any(signal in a and signal in b for signal in EVENT_SIGNALS)
+    def event_numbers(text):
+        numbers = set()
+        for value in re.findall(r"\d+(?:\.\d+)?", text):
+            if len(value) < 2:
+                continue
+            if value.isdigit() and len(value) == 4 and 2020 <= int(value) <= 2039:
+                continue
+            numbers.add(value)
+        return numbers
+    numbers_a, numbers_b = event_numbers(a), event_numbers(b)
+    if shared_entity and base >= 0.3 and (shared_signal or numbers_a & numbers_b):
+        return max(base, 0.78)
+    return base
+
+
+def _event_hash(title):
+    normalized = normalize_event_title(title) or title
+    return "evt-" + hashlib.sha1(normalized.encode("utf-8")).hexdigest()[:12]
+
+
+def normalize_item(item):
+    """补齐P0内容字段，兼容旧数据和未配置LLM的抓取结果。"""
+    if isinstance(item.get("title"), str):
+        item["title"] = clean_text(item["title"])
+    item["selected"] = (
+        item["selected"] if isinstance(item.get("selected"), bool)
+        else item.get("score", 0) >= 65
+    )
+    for field in ("why", "impact", "action", "deadline"):
+        if not isinstance(item.get(field), str):
+            item[field] = ""
+    if not isinstance(item.get("tags"), list):
+        item["tags"] = infer_tags((item.get("title") or "") + (item.get("summary") or ""))
+    else:
+        item["tags"] = [str(tag).strip() for tag in item["tags"] if str(tag).strip()][:6]
+    return item
+
+
+def assign_event_ids(items, threshold=0.72, max_gap_days=3):
+    """按发布时间递增匹配事件；已有条目顺序不影响最终分组。"""
+    ordered = sorted(
+        items,
+        key=lambda it: (it.get("date", ""), it.get("time", ""), str(it.get("id", ""))),
+    )
+    leaders = []
+    for item in ordered:
+        normalize_item(item)
+        try:
+            item_date = datetime.strptime(item["date"], "%Y-%m-%d")
+        except (KeyError, TypeError, ValueError):
+            item_date = None
+        best = None
+        best_score = 0.0
+        for leader in leaders:
+            if item_date and leader["date"]:
+                if abs((item_date - leader["date"]).days) > max_gap_days:
+                    continue
+            sim = event_similarity(item.get("title", ""), leader["title"])
+            if sim >= threshold and sim > best_score:
+                best, best_score = leader, sim
+        if best:
+            item["eventId"] = best["eventId"]
+        else:
+            event_id = _event_hash(item.get("title", "") or str(item.get("id", "")))
+            item["eventId"] = event_id
+            leaders.append({
+                "date": item_date,
+                "eventId": event_id,
+                "title": item.get("title", ""),
+            })
+    return items
+
+
 # ---------- 数据读写 ----------
 
 def load_existing():
@@ -345,6 +504,47 @@ def write_data(items):
     items.sort(key=lambda it: it["date"] + it["time"], reverse=True)
     DATA_FILE.write_text(
         HEADER + json.dumps(items, ensure_ascii=False, indent=2) + ";\n",
+        encoding="utf-8",
+    )
+
+
+def load_meta():
+    if not META_FILE.exists():
+        return {}
+    m = re.search(
+        r"window\.NEWS_META\s*=\s*(\{.*\});?\s*$",
+        META_FILE.read_text(encoding="utf-8"),
+        flags=re.S,
+    )
+    return json.loads(m.group(1)) if m else {}
+
+
+def write_meta(items, source_results, started_at):
+    previous = load_meta()
+    success_count = sum(1 for row in source_results if row["status"] == "ok")
+    if success_count == len(source_results):
+        status = "ok"
+    elif success_count:
+        status = "partial"
+    else:
+        status = "failed"
+    latest = max(
+        (it.get("date", "") + "T" + it.get("time", "00:00") + ":00+08:00" for it in items),
+        default="",
+    )
+    completed_at = datetime.now().astimezone().isoformat(timespec="seconds")
+    meta = {
+        "generatedAt": completed_at,
+        "lastSuccessfulFetchAt": (
+            completed_at if success_count else previous.get("lastSuccessfulFetchAt", "")
+        ),
+        "latestItemAt": latest,
+        "status": status,
+        "durationSeconds": round((datetime.now() - started_at).total_seconds(), 1),
+        "sourceResults": source_results,
+    }
+    META_FILE.write_text(
+        META_HEADER + json.dumps(meta, ensure_ascii=False, indent=2) + ";\n",
         encoding="utf-8",
     )
 
@@ -384,6 +584,7 @@ def fetch_detail(src, url):
 
 
 def main():
+    started_at = datetime.now()
     args = sys.argv[1:]
     refresh_times = "--refresh-times" in args
     limit = 30
@@ -400,14 +601,23 @@ def main():
     known_refs = {it["ref"] for it in everything if it.get("ref")}
     now = datetime.now()
     added = 0
+    source_results = []
 
     for src in SOURCES:
         try:
             listing = src["discover"](everything)
         except Exception as e:
             print("来源发现失败 %s: %s" % (src["name"], e), file=sys.stderr)
+            source_results.append({
+                "name": src["name"],
+                "status": "failed",
+                "discovered": 0,
+                "added": 0,
+                "error": type(e).__name__,
+            })
             continue
         budget = limit
+        source_added = 0
         for uid, url, title in listing:
             if uid in known_ids or url in known_urls or budget <= 0:
                 continue
@@ -442,6 +652,7 @@ def main():
                 "score": score(title + summary), "category": categorize(title + summary),
                 "title": title, "summary": summary,
             }
+            normalize_item(entry)
             if ref:
                 entry["ref"] = ref
             items.append(entry)
@@ -451,7 +662,14 @@ def main():
             if ref:
                 known_refs.add(ref)
             added += 1
+            source_added += 1
             print("+ [%s] %s" % (src["name"], title[:40]))
+        source_results.append({
+            "name": src["name"],
+            "status": "ok",
+            "discovered": len(listing),
+            "added": source_added,
+        })
 
     if refresh_times:
         for src in SOURCES:
@@ -463,8 +681,10 @@ def main():
                     print("~ 时间修正 %s: %s %s -> %s %s" % (it["id"], it["date"], it["time"], dt[0], dt[1]))
                     it["date"], it["time"] = dt
 
+    assign_event_ids(items)
     items = archive_old(items)
     write_data(items)
+    write_meta(items, source_results, started_at)
     print("本次新增 %d 条，news.js 现有 %d 条" % (added, len(items)))
 
 

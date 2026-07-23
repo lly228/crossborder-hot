@@ -34,6 +34,42 @@ check("score 命中生效+新规+平台", fn.score("亚马逊新规7月生效") 
 check("score 无命中=55", fn.score("两个年轻人的创业故事") == 55)
 check("score 上限85", fn.score("亚马逊TikTok新规生效强制下架关税旺季选品") == 85)
 
+# P0内容字段与事件聚合
+check("infer_tags 平台与合规", fn.infer_tags("亚马逊欧洲站发布知识产权新规") == ["亚马逊", "政策合规", "知识产权"])
+legacy = {"id": "legacy", "date": "2026-07-01", "time": "10:00", "score": 70,
+          "title": "亚马逊新规", "summary": "", "source": "测试", "url": "https://example.com/a"}
+fn.normalize_item(legacy)
+check("normalize_item 旧数据补精选", legacy["selected"] is True)
+check("normalize_item 旧数据补P0字段", all(k in legacy for k in ("why", "impact", "action", "deadline", "tags")))
+event_items = [
+    {"id": "e1", "date": "2026-07-01", "time": "10:00", "score": 75,
+     "title": "亚马逊欧洲站推出促销一键拓展功能", "summary": "", "source": "来源A", "url": "https://example.com/e1"},
+    {"id": "e2", "date": "2026-07-02", "time": "11:00", "score": 72,
+     "title": "亚马逊欧洲站上线促销一键拓展新功能", "summary": "", "source": "来源B", "url": "https://example.com/e2"},
+    {"id": "e3", "date": "2026-07-02", "time": "12:00", "score": 70,
+     "title": "TikTok Shop调整东南亚佣金费率", "summary": "", "source": "来源C", "url": "https://example.com/e3"},
+]
+fn.assign_event_ids(event_items)
+check("assign_event_ids 相似事件合并", event_items[0]["eventId"] == event_items[1]["eventId"])
+check("assign_event_ids 不同事件分开", event_items[0]["eventId"] != event_items[2]["eventId"])
+first_event_ids = [it["eventId"] for it in event_items]
+fn.assign_event_ids(event_items)
+check("assign_event_ids 重复运行稳定", first_event_ids == [it["eventId"] for it in event_items])
+check(
+    "event_similarity 平台别名事件合并",
+    fn.event_similarity(
+        "Wildberries 4个仓库被炸，近2万中国店铺受影响",
+        "野莓又有仓库被炸，大批货物烧毁",
+    ) >= 0.72,
+)
+check(
+    "event_similarity 同平台不同主题不合并",
+    fn.event_similarity(
+        "TikTok Shop欧洲中小卖家现在要不要做",
+        "TikTok Shop旺季选品怎么做",
+    ) < 0.72,
+)
+
 # cifnews 列表提取：旧id过滤
 html_cif = (
     '<a href="https://www.cifnews.com/article/187296" title="x">欧洲热爆了！降温神器被疯抢</a>'
@@ -105,6 +141,23 @@ with tempfile.TemporaryDirectory() as tmp:
     check("归档后保留新条目", [it["id"] for it in keep] == ["a"])
     archived = list(Path(tmp).glob("*.json"))
     check("归档文件生成", len(archived) == 1 and old[:7] in archived[0].name)
+
+# 抓取状态元数据
+with tempfile.TemporaryDirectory() as tmp:
+    original_meta_file = fn.META_FILE
+    fn.META_FILE = Path(tmp) / "meta.js"
+    fn.write_meta(
+        [{"date": "2026-07-23", "time": "10:00"}],
+        [
+            {"name": "来源A", "status": "ok", "discovered": 2, "added": 1},
+            {"name": "来源B", "status": "failed", "discovered": 0, "added": 0},
+        ],
+        datetime.now(),
+    )
+    meta = fn.load_meta()
+    check("meta 部分失败状态", meta["status"] == "partial")
+    check("meta 最新条目时间", meta["latestItemAt"] == "2026-07-23T10:00:00+08:00")
+    fn.META_FILE = original_meta_file
 
 print()
 if failures:

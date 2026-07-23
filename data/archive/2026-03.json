@@ -1,5 +1,43 @@
 [
   {
+    "id": "lsch-a29fe41a",
+    "date": "2026-03-20",
+    "time": "20:47",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/a29fe41a",
+    "score": 55,
+    "category": "market",
+    "title": "欧洲承认犯了重大错误，中国机会来了？",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-6b8a111d5408"
+  },
+  {
+    "id": "lsch-d2466c94",
+    "date": "2026-03-20",
+    "time": "20:21",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/d2466c94",
+    "score": 61,
+    "category": "platform",
+    "title": "次日达在欧洲“杀疯了”？京东正从亚马逊手中抢走用户",
+    "summary": "京东Joybuy以更快的配送速度、更低的包邮门槛，以及更好的服务体验惊艳欧洲",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-c4e62936596c"
+  },
+  {
     "id": "lsch-59dea3ec",
     "date": "2026-03-20",
     "time": "20:07",
@@ -9,5 +47,23 @@
     "category": "market",
     "title": "“饿疯了”的中国企业，正在东南亚“抢垃圾”烧",
     "summary": ""
+  },
+  {
+    "id": "lsch-dbe1937b",
+    "date": "2026-03-07",
+    "time": "23:46",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/dbe1937b",
+    "score": 55,
+    "category": "market",
+    "title": "京东出海新动作：Joybuy将正式上线欧洲，要拼“次日达”",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-fa7c504b8961"
   }
 ]

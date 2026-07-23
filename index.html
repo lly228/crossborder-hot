@@ -35,6 +35,7 @@
         <div class="topbar-left">
           <span class="brand-mark brand-mark-mobile">跨境<em>HOT</em></span>
           <span class="today" id="todayLabel"></span>
+          <span class="freshness" id="freshnessLabel" aria-live="polite"></span>
         </div>
         <div class="searchbox">
           <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.3-4.3M17 10.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/></svg>
@@ -48,6 +49,8 @@
         <h1 class="feed-title" id="feedTitle">最新精选</h1>
         <div class="tabs" role="tablist" aria-label="分类筛选" id="tabs"></div>
       </div>
+
+      <section id="hotspots" class="hotspots" aria-labelledby="hotspotsTitle" hidden></section>
 
       <section id="feed" class="feed" aria-live="polite"></section>
 
@@ -64,6 +67,7 @@
   </div>
 
   <script src="data/news.js"></script>
+  <script src="data/meta.js"></script>
   <script src="data/reports.js"></script>
   <script src="assets/app.js"></script>
 </body>

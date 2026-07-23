@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-"""用LLM给资讯条目补点评、重打热度分、校正分类，以及生成日报导语。
+"""用LLM补事实摘要、经营影响、行动建议、精选判断、评分和分类，以及生成日报导语。
 
 用法：
-    python scripts/enrich_llm.py            处理所有 summary 为空的条目
+    python scripts/enrich_llm.py            处理所有P0内容字段未完成的条目
     python scripts/enrich_llm.py --all      所有条目重新加工（含已有点评的）
     python scripts/enrich_llm.py --report   给最新一天生成日报导语，写入 data/reports.js
     python scripts/enrich_llm.py --dry-run  只打印将要发送的条目，不调API
@@ -44,13 +44,19 @@ HEADER = (
     "window.NEWS_DATA = "
 )
 
-SYSTEM_PROMPT = """你是跨境电商行业资讯编辑，读者是平台卖家和出海从业者。对输入的每条资讯标题输出三项：
+SYSTEM_PROMPT = """你是跨境电商行业资讯编辑，读者是亚马逊、TikTok Shop、Temu、SHEIN、Shopee、Lazada等平台的中小卖家和运营负责人。对每条资讯输出：
 
-1. score：0到100的整数，衡量这条资讯对卖家经营的直接影响。政策生效、账号封禁、费用调整、商标专利发案这类直接影响钱和账号安全的给75到95；平台功能更新、重要市场数据给60到75；教程、案例故事、活动宣传给40到60。
-2. summary：一句话点评，40到70个字，说清这条资讯影响哪类卖家、需要做什么动作。全部用中文标点，语气平实。
-3. category：从 platform、policy、logistics、marketing、market 五个里选一个。platform是平台规则与功能，policy是政策法规与知识产权，logistics是物流仓储关税，marketing是营销投放选品方法，market是市场行情与行业动态。
+1. score：0到100的整数，衡量对卖家经营的直接影响。政策生效、账号封禁、费用调整、商标专利发案给75到95；平台功能更新、重要市场数据给60到75；教程、案例故事、活动宣传给40到60。
+2. selected：布尔值。卖家值得在当天花时间阅读时为true。它是编辑判断，与score分别判断。
+3. summary：40到90字的事实摘要，只概括发生了什么。
+4. why：30到70字的推荐理由，说明为什么值得关注。
+5. impact：30到70字，说明影响哪些平台、地区或卖家。
+6. action：20到60字，给出卖家可以执行的下一步；信息不足时输出空字符串。
+7. deadline：明确存在生效日或截止日时输出YYYY-MM-DD，否则输出空字符串。
+8. tags：1到6个简短中文标签，优先使用平台、地区、政策合规、知识产权、物流仓储、广告营销、选品。
+9. category：从platform、policy、logistics、marketing、market中选一个。platform是平台规则与功能，policy是政策法规与知识产权，logistics是物流仓储关税，marketing是营销投放选品方法，market是市场行情与行业动态。
 
-只输出JSON数组，格式：[{"id":"条目id","score":80,"summary":"点评","category":"policy"}]"""
+只输出JSON数组。每个对象包含id、score、selected、summary、why、impact、action、deadline、tags、category。"""
 
 
 def load_env_local():
@@ -77,9 +83,26 @@ def write_items(items):
     )
 
 
+def normalize_items(items):
+    for it in items:
+        if not isinstance(it.get("selected"), bool):
+            it["selected"] = int(it.get("score", 0)) >= 65
+        for field in ("why", "impact", "action", "deadline"):
+            if not isinstance(it.get(field), str):
+                it[field] = ""
+        if not isinstance(it.get("tags"), list):
+            it["tags"] = []
+    return items
+
+
 def call_llm(base_url, api_key, model, batch):
     user_content = json.dumps(
-        [{"id": it["id"], "title": it["title"], "source": it["source"]} for it in batch],
+        [{
+            "id": it["id"],
+            "title": it["title"],
+            "source": it["source"],
+            "source_summary": it.get("summary", ""),
+        } for it in batch],
         ensure_ascii=False,
     )
     payload = {
@@ -164,7 +187,7 @@ def main():
     do_report = "--report" in args
 
     load_env_local()
-    items = load_items()
+    items = normalize_items(load_items())
 
     if do_report:
         api_key = os.environ.get("CBHOT_LLM_API_KEY")
@@ -177,7 +200,11 @@ def main():
             items, dry_run,
         )
         return
-    targets = [it for it in items if do_all or not it.get("summary")]
+    required_fields = ("summary", "why", "impact")
+    targets = [
+        it for it in items
+        if do_all or any(not it.get(field) for field in required_fields)
+    ]
     if not targets:
         print("没有需要加工的条目")
         return
@@ -210,8 +237,24 @@ def main():
                 continue
             if isinstance(row.get("score"), int) and 0 <= row["score"] <= 100:
                 it["score"] = row["score"]
+            if isinstance(row.get("selected"), bool):
+                it["selected"] = row["selected"]
             if row.get("summary"):
                 it["summary"] = str(row["summary"]).strip()
+            for field in ("why", "impact", "action"):
+                if isinstance(row.get(field), str):
+                    it[field] = row[field].strip()
+            deadline = row.get("deadline")
+            if isinstance(deadline, str) and (
+                not deadline or re.fullmatch(r"\d{4}-\d{2}-\d{2}", deadline)
+            ):
+                it["deadline"] = deadline
+            tags = row.get("tags")
+            if isinstance(tags, list):
+                it["tags"] = [
+                    str(tag).strip() for tag in tags
+                    if str(tag).strip()
+                ][:6]
             if row.get("category") in ("platform", "policy", "logistics", "marketing", "market"):
                 it["category"] = row["category"]
             updated += 1
