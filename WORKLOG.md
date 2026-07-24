@@ -153,6 +153,10 @@ aihot日报的实际结构：刊头（VOL.+日期+N STORIES）、汉字大标题
 - LLM补全后回归测试全部通过。
 - 保留用户创建的空文件`新建 文本文档.txt`，不纳入Git。
 
-待账号侧完成：
-- 在GitHub仓库Actions Secrets写入`CBHOT_LLM_API_KEY`。
-- 在GitHub Pages设置中选择GitHub Actions作为发布源。
+账号侧配置与验收：
+- GitHub Pages发布源已切换为GitHub Actions，部署工作流第2次运行成功，线上地址为`https://lly228.github.io/crossborder-hot/`。
+- Actions Secret已写入`CBHOT_LLM_API_KEY`，Actions Variables已写入`CBHOT_LLM_BASE_URL`和`CBHOT_LLM_MODEL`。
+- 线上页面验证通过：精选事件、最新重要5件事和数据鲜度正常显示，浏览器控制台无错误。
+- 手动触发定时更新工作流验收，抓取、LLM加工、回归测试和自动提交全部成功，用时2分58秒。
+- 本次线上更新新增36条资讯：雨果跨境5条、卖家之家21条、AMZ123 10条；36氪出海本轮无新增。
+- GitHub Actions生成自动更新提交`142b360`，并触发后续Pages部署。
