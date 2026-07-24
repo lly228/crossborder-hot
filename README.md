@@ -65,10 +65,11 @@ CBHOT_LLM_MODEL=deepseek-chat                     # 选填
 
 ### 3. 自动化（GitHub Actions）
 
-`.github/workflows/update.yml` 每天北京时间06:15和17:15自动抓取加加工，数据有变化就commit。推到GitHub后：
+`.github/workflows/update.yml`每天北京时间06:15和17:15自动抓取加加工，数据有变化就commit。`.github/workflows/deploy.yml`在页面或数据推送到`main`后自动部署：
 
-1. 仓库 Settings → Pages → Source 选 main 分支根目录，站点就发布了
-2. 仓库 Settings → Secrets and variables → Actions，加 secret `CBHOT_LLM_API_KEY`（可选，加了才有LLM点评；`CBHOT_LLM_BASE_URL` 和 `CBHOT_LLM_MODEL` 用 variables 配）
+1. 仓库Settings → Pages → Build and deployment → Source选择GitHub Actions
+2. 仓库Settings → Secrets and variables → Actions，添加secret `CBHOT_LLM_API_KEY`（可选，加了才有LLM点评；`CBHOT_LLM_BASE_URL`和`CBHOT_LLM_MODEL`用variables配置）
+3. 站点地址为`https://<用户名>.github.io/<仓库名>/`
 
 ### 测试
 
@@ -91,6 +92,7 @@ scripts/fetch_news.py       多源抓取
 scripts/enrich_llm.py       LLM打分点评
 scripts/test_fetch.py       自测
 .github/workflows/update.yml  定时抓取workflow
+.github/workflows/deploy.yml  GitHub Pages部署workflow
 ```
 
 ## 数据字段

@@ -1,0 +1,50 @@
+name: 部署静态站
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "index.html"
+      - "assets/**"
+      - "data/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v6
+
+      - name: 准备静态文件
+        run: |
+          mkdir _site
+          cp index.html _site/
+          cp -R assets data _site/
+          touch _site/.nojekyll
+
+      - name: 配置GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传静态文件
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: 部署到GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

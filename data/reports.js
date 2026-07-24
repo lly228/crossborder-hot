@@ -1,3 +1,9 @@
 // 报告附加内容（当日导语等），由 scripts/enrich_llm.py --report 生成，可为空。
 // 结构：{ "daily": { "YYYY-MM-DD": { "intro": "当日导语文本" } } }
-window.NEWS_REPORTS = { "daily": {} };
+window.NEWS_REPORTS = {
+  "daily": {
+    "2026-07-23": {
+      "intro": "今日关注：TikTok Shop东南亚自7月23日起调整运费补贴与非商责赔付结算节奏，明确3日内到账，卖家需提前规划现金流。Shopee马来本土店新增每单RM0.5平台支持费，新卖家及小额卖家可获豁免。印尼版权法修订草案首次纳入AI，完全由AI生成内容不受保护，使用版权内容训练模型需遵循合理使用原则，影响所有涉及AI内容创作的卖家。"
+    }
+  }
+};

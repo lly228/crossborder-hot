@@ -141,3 +141,18 @@ aihot日报的实际结构：刊头（VOL.+日期+N STORIES）、汉字大标题
 - `python -m py_compile`和`node --check assets/app.js`通过。
 - 当前未配置`CBHOT_LLM_API_KEY`，168条均待补推荐理由和卖家影响字段。
 - 当前仓库仍没有Git remote，定时工作流尚未接入线上仓库。
+
+## 2026-07-24 GitHub自动更新与部署接入
+
+完成内容：
+- 将用户创建的`1.env.txt`安全改名为`.env.local`，只校验变量是否存在，不输出密钥；Git已确认忽略该文件。
+- 本地仓库关联`https://github.com/lly228/crossborder-hot.git`，`main`分支首次推送成功。
+- 新增`.github/workflows/deploy.yml`，网页和数据更新后自动发布GitHub Pages。
+- 部署包只包含`index.html`、`assets`和`data`，不发布脚本、项目规范、工作日志和本地配置。
+- 本地LLM配置验证成功，生成2026-07-23日报导语，并补齐168条资讯的事实摘要、推荐理由和卖家影响；行动建议按适用性生成129条。
+- LLM补全后回归测试全部通过。
+- 保留用户创建的空文件`新建 文本文档.txt`，不纳入Git。
+
+待账号侧完成：
+- 在GitHub仓库Actions Secrets写入`CBHOT_LLM_API_KEY`。
+- 在GitHub Pages设置中选择GitHub Actions作为发布源。
