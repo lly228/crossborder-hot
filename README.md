@@ -68,7 +68,7 @@ CBHOT_LLM_MODEL=deepseek-chat                     # 选填
 
 ### 3. 自动化（GitHub Actions）
 
-`.github/workflows/update.yml`每天北京时间06:15和17:15自动抓取加加工，数据有变化就commit。`.github/workflows/deploy.yml`在页面或数据推送到`main`后自动部署，也会在更新工作流成功结束后部署最新数据：
+`.github/workflows/update.yml`每天北京时间09:10和12:10自动抓取加加工，数据有变化就commit。`.github/workflows/deploy.yml`在页面或数据推送到`main`后自动部署，也会在更新工作流成功结束后部署最新数据：
 
 1. 仓库Settings → Pages → Build and deployment → Source选择GitHub Actions
 2. 仓库Settings → Secrets and variables → Actions，添加secret `CBHOT_LLM_API_KEY`（可选，加了才有LLM点评；`CBHOT_LLM_BASE_URL`和`CBHOT_LLM_MODEL`用variables配置）
