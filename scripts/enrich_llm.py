@@ -55,8 +55,11 @@ SYSTEM_PROMPT = """你是跨境电商行业资讯编辑，读者是亚马逊、T
 7. deadline：明确存在生效日或截止日时输出YYYY-MM-DD，否则输出空字符串。
 8. tags：1到6个简短中文标签，优先使用平台、地区、政策合规、知识产权、物流仓储、广告营销、选品。
 9. category：从platform、policy、logistics、marketing、market中选一个。platform是平台规则与功能，policy是政策法规与知识产权，logistics是物流仓储关税，marketing是营销投放选品方法，market是市场行情与行业动态。
+10. title：原始标题不是中文时，翻译成准确、简洁的中文标题；原始标题是中文时保持原样。
 
-只输出JSON数组。每个对象包含id、score、selected、summary、why、impact、action、deadline、tags、category。"""
+信源类型会随条目提供：official是平台官方，media是行业媒体，community是社区讨论。社区讨论只能作为经验、问题线索或卖家反馈，不得把未经官方证实的说法写成确定事实；community条目的selected必须为false。
+
+只输出JSON数组。每个对象包含id、title、score、selected、summary、why、impact、action、deadline、tags、category。"""
 
 
 def load_env_local():
@@ -92,6 +95,10 @@ def normalize_items(items):
                 it[field] = ""
         if not isinstance(it.get("tags"), list):
             it["tags"] = []
+        if it.get("sourceType") not in ("official", "media", "community"):
+            it["sourceType"] = "media"
+        if it["sourceType"] == "community":
+            it["selected"] = False
     return items
 
 
@@ -101,6 +108,7 @@ def call_llm(base_url, api_key, model, batch):
             "id": it["id"],
             "title": it["title"],
             "source": it["source"],
+            "source_type": it.get("sourceType", "media"),
             "source_summary": it.get("summary", ""),
         } for it in batch],
         ensure_ascii=False,
@@ -239,6 +247,8 @@ def main():
                 it["score"] = row["score"]
             if isinstance(row.get("selected"), bool):
                 it["selected"] = row["selected"]
+            if isinstance(row.get("title"), str) and row["title"].strip():
+                it["title"] = row["title"].strip()
             if row.get("summary"):
                 it["summary"] = str(row["summary"]).strip()
             for field in ("why", "impact", "action"):
@@ -260,6 +270,7 @@ def main():
             updated += 1
         print("批次 %d 完成，累计更新 %d 条" % (i // BATCH_SIZE + 1, updated))
 
+    normalize_items(items)
     write_items(items)
     print("完成，共更新 %d 条 -> %s" % (updated, DATA_FILE))
 

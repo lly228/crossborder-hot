@@ -45,6 +45,7 @@
     market: 'Markets'
   };
   var FEATURED_MIN_SCORE = 65;
+  var SOURCE_TYPE_LABEL = { official: '官方', community: '社区' };
   var WEEKDAYS = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
   var STORE_KEY = 'cbhot-starred';
 
@@ -126,7 +127,13 @@
       });
       if (!Array.isArray(it.tags)) it.tags = [];
       if (!it.eventId) it.eventId = 'evt-item-' + it.id;
+      if (!/^(official|media|community)$/.test(it.sourceType || '')) it.sourceType = 'media';
     });
+  }
+
+  function sourceTypeBadge(it) {
+    var label = SOURCE_TYPE_LABEL[it.sourceType];
+    return label ? el('span', 'source-type source-type-' + it.sourceType, label) : null;
   }
 
   function distinctSources(items) {
@@ -441,6 +448,8 @@
         block.appendChild(title);
         var meta = el('div', 'mag-item-meta');
         meta.appendChild(el('span', null, it.source));
+        var reportSourceType = sourceTypeBadge(it);
+        if (reportSourceType) meta.appendChild(reportSourceType);
         if (state.view !== 'daily') meta.appendChild(el('span', null, shortDate(it.date)));
         if (it.ref) {
           var ref = el('a', 'row-ref', '原始来源');
@@ -536,6 +545,8 @@
     src.textContent = it.source;
     meta.appendChild(badge);
     meta.appendChild(src);
+    var typeBadge = sourceTypeBadge(it);
+    if (typeBadge) meta.appendChild(typeBadge);
     var eventSources = distinctSources(it._eventItems || [it]);
     if (eventSources.length > 1) {
       meta.appendChild(el('span', 'source-count', '另有' + (eventSources.length - 1) + '个信源'));

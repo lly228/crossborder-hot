@@ -21,7 +21,7 @@ import sys
 import time
 import urllib.request
 from difflib import SequenceMatcher
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 for stream in (sys.stdout, sys.stderr):
@@ -34,6 +34,7 @@ META_FILE = ROOT / "data" / "meta.js"
 ARCHIVE_DIR = ROOT / "data" / "archive"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36"
 RETENTION_DAYS = 30
+OFFICIAL_RETENTION_DAYS = 90
 DETAIL_SLEEP = 0.4  # 详情页抓取间隔，别打太快
 
 HEADER = (
@@ -102,6 +103,11 @@ EVENT_SIGNALS = (
 
 _HTML_CACHE = {}
 
+SOURCE_TYPE_BY_NAME = {
+    "Amazon卖家论坛": "official",
+    "知无不言": "community",
+}
+
 
 def fetch_html(url, cache=False):
     if cache and url in _HTML_CACHE:
@@ -127,6 +133,21 @@ def clean_text(text):
     if text.count("‘") > text.count("’"):
         text += "’"
     return text
+
+
+def parse_next_data(html):
+    """解析Next.js服务端注入的数据，解析失败时返回空字典。"""
+    m = re.search(
+        r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>',
+        html,
+        flags=re.S,
+    )
+    if not m:
+        return {}
+    try:
+        return json.loads(m.group(1))
+    except json.JSONDecodeError:
+        return {}
 
 
 # ---------- 源定义 ----------
@@ -307,6 +328,171 @@ def amz123_discover(items):
     return found
 
 
+AMAZON_FORUM_LIST = (
+    "https://sellercentral.amazon.com/seller-forums/discussions"
+    "?categories%5B%5D=amzn1.spce.category.8b1ad9d2"
+)
+
+
+def _walk_dicts(value):
+    if isinstance(value, dict):
+        yield value
+        for child in value.values():
+            yield from _walk_dicts(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from _walk_dicts(child)
+
+
+def amazon_forum_discover(items):
+    """从News and Announcements分类发现亚马逊官方公告。"""
+    data = parse_next_data(fetch_html(AMAZON_FORUM_LIST))
+    seen, out = set(), []
+    for row in _walk_dicts(data):
+        thread_id = str(row.get("threadId") or "")
+        author = str(row.get("userDisplayName") or row.get("username") or "")
+        title = clean_text(str(row.get("title") or ""))
+        if (
+            not re.fullmatch(r"[0-9a-f-]{36}", thread_id)
+            or not author.endswith("_Amazon")
+            or not title
+            or thread_id in seen
+        ):
+            continue
+        seen.add(thread_id)
+        out.append((
+            "amazon-forum-" + thread_id,
+            "https://sellercentral.amazon.com/seller-forums/discussions/t/" + thread_id,
+            title,
+        ))
+    return out
+
+
+def amazon_forum_structured(html):
+    data = parse_next_data(html)
+    value = (
+        data.get("props", {})
+        .get("pageProps", {})
+        .get("pageHead", {})
+        .get("structuredData", {})
+    )
+    if isinstance(value, list):
+        value = next(
+            (row for row in value if isinstance(row, dict) and row.get("headline")),
+            {},
+        )
+    return value if isinstance(value, dict) else {}
+
+
+def amazon_forum_detail_accept(html):
+    author = amazon_forum_structured(html).get("author") or {}
+    return isinstance(author, dict) and str(author.get("name") or "").endswith("_Amazon")
+
+
+def amazon_forum_detail_title(html):
+    return clean_text(str(amazon_forum_structured(html).get("headline") or ""))
+
+
+def amazon_forum_detail_time(html):
+    raw = str(amazon_forum_structured(html).get("datePublished") or "")
+    if not raw:
+        return None
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        dt = dt.astimezone(timezone(timedelta(hours=8)))
+        return dt.strftime("%Y-%m-%d"), dt.strftime("%H:%M")
+    except ValueError:
+        return None
+
+
+def amazon_forum_detail_summary(html):
+    text = clean_text(str(amazon_forum_structured(html).get("text") or ""))
+    return text[:500]
+
+
+WEARESELLERS_LIST = "https://www.wearesellers.com/question/"
+WEARESELLERS_SEED_IDS = (
+    "120904", "121108", "121314", "121773", "121805", "121027",
+)
+WEARESELLERS_BLOCKED_MARKERS = (
+    "私密悬赏贴", "普通悬赏帖", "付费围观", "悬赏期内参与回帖",
+)
+WEARESELLERS_PROMO_WORDS = (
+    "报名", "课程", "大会", "同城会", "训练营", "招生", "招募", "研习",
+)
+
+
+def wearesellers_extract(html):
+    """提取公开问题，列表上已标注的私密、付费和活动推广内容直接过滤。"""
+    blocks = re.findall(
+        r'<div class="aw-item\b.*?(?=<div class="aw-item\b|\Z)',
+        html,
+        flags=re.S,
+    )
+    seen, out = set(), []
+    for block in blocks:
+        m = re.search(
+            r'<a href="https://www\.wearesellers\.com/question/(\d+)"'
+            r'[^>]*>(.*?)</a>',
+            block,
+            flags=re.S,
+        )
+        if not m:
+            continue
+        qid, title = m.group(1), clean_text(m.group(2))
+        if (
+            qid in seen
+            or len(title) < 10
+            or "社区指南" in block
+            or any(marker in block for marker in WEARESELLERS_BLOCKED_MARKERS)
+            or any(word in title for word in WEARESELLERS_PROMO_WORDS)
+        ):
+            continue
+        seen.add(qid)
+        out.append((
+            "was-q-" + qid,
+            "https://www.wearesellers.com/question/" + qid,
+            title,
+        ))
+    return out
+
+
+def wearesellers_discover(items):
+    rows = wearesellers_extract(fetch_html(WEARESELLERS_LIST))
+    known = {uid for uid, _, _ in rows}
+    for qid in WEARESELLERS_SEED_IDS:
+        uid = "was-q-" + qid
+        if uid not in known:
+            rows.append((uid, "https://www.wearesellers.com/question/" + qid, ""))
+    return rows
+
+
+def wearesellers_detail_accept(html):
+    return (
+        "<title>登录 -" not in html
+        and not any(marker in html for marker in WEARESELLERS_BLOCKED_MARKERS)
+    )
+
+
+def wearesellers_detail_title(html):
+    m = re.search(r"<title>\s*(.*?)\s*-\s*知无不言", html, flags=re.S)
+    return clean_text(m.group(1)) if m else ""
+
+
+def wearesellers_detail_time(html):
+    m = re.search(r'<span class="text-color-999">[^<]*?•\s*(\d{4}-\d{2}-\d{2})</span>', html)
+    return (m.group(1), "00:00") if m else None
+
+
+def wearesellers_detail_summary(html):
+    m = re.search(r'<meta name="description" content="([^"]{20,600})"', html)
+    if not m:
+        return ""
+    text = clean_text(m.group(1))
+    text = re.sub(r"\s*-\s*$", "", text)
+    return text[:500]
+
+
 def _list_discover(list_url, extract):
     def discover(items):
         return extract(fetch_html(list_url))
@@ -316,7 +502,9 @@ def _list_discover(list_url, extract):
 SOURCES = [
     {
         "name": "雨果跨境",
+        "source_type": "media",
         "discover": _list_discover("https://www.cifnews.com/", cifnews_extract),
+        "detail_accept": None,
         "detail_time": cifnews_detail_time,
         "detail_summary": None,  # cifnews的meta描述就是标题，没用
         "detail_title": None,
@@ -325,7 +513,9 @@ SOURCES = [
     },
     {
         "name": "36氪出海",
+        "source_type": "media",
         "discover": _list_discover("https://letschuhai.com/", lsch_extract),
+        "detail_accept": None,
         "detail_time": lsch_detail_time,
         "detail_summary": lsch_detail_summary,
         "detail_title": None,
@@ -334,7 +524,9 @@ SOURCES = [
     },
     {
         "name": "卖家之家",
+        "source_type": "media",
         "discover": mjzj_discover,
+        "detail_accept": None,
         "detail_time": mjzj_detail_time,
         "detail_summary": mjzj_detail_summary,
         "detail_title": mjzj_detail_title,
@@ -343,12 +535,39 @@ SOURCES = [
     },
     {
         "name": "AMZ123",
+        "source_type": "media",
         "discover": amz123_discover,
+        "detail_accept": None,
         "detail_time": amz123_detail_time,
         "detail_summary": amz123_detail_summary,
         "detail_title": amz123_detail_title,
         "detail_ref": None,
         "match_id": lambda item_id: item_id.startswith("amz-"),
+    },
+    {
+        "name": "Amazon卖家论坛",
+        "source_type": "official",
+        "score_adjust": 5,
+        "discover": amazon_forum_discover,
+        "detail_accept": amazon_forum_detail_accept,
+        "detail_time": amazon_forum_detail_time,
+        "detail_summary": amazon_forum_detail_summary,
+        "detail_title": amazon_forum_detail_title,
+        "detail_ref": None,
+        "match_id": lambda item_id: item_id.startswith("amazon-forum-"),
+    },
+    {
+        "name": "知无不言",
+        "source_type": "community",
+        "score_adjust": -8,
+        "default_selected": False,
+        "discover": wearesellers_discover,
+        "detail_accept": wearesellers_detail_accept,
+        "detail_time": wearesellers_detail_time,
+        "detail_summary": wearesellers_detail_summary,
+        "detail_title": wearesellers_detail_title,
+        "detail_ref": None,
+        "match_id": lambda item_id: item_id.startswith("was-q-"),
     },
 ]
 
@@ -433,6 +652,8 @@ def normalize_item(item):
         item["selected"] if isinstance(item.get("selected"), bool)
         else item.get("score", 0) >= 65
     )
+    if item.get("sourceType") not in ("official", "media", "community"):
+        item["sourceType"] = SOURCE_TYPE_BY_NAME.get(item.get("source"), "media")
     for field in ("why", "impact", "action", "deadline"):
         if not isinstance(item.get(field), str):
             item[field] = ""
@@ -552,8 +773,16 @@ def write_meta(items, source_results, started_at):
 def archive_old(items):
     """把超过保留期的条目移入 data/archive/YYYY-MM.json，返回保留的条目。"""
     cutoff = (datetime.now() - timedelta(days=RETENTION_DAYS)).strftime("%Y-%m-%d")
-    keep = [it for it in items if it["date"] >= cutoff]
-    old = [it for it in items if it["date"] < cutoff]
+    official_cutoff = (
+        datetime.now() - timedelta(days=OFFICIAL_RETENTION_DAYS)
+    ).strftime("%Y-%m-%d")
+    keep = [
+        it for it in items
+        if it["date"] >= cutoff
+        or (it.get("sourceType") == "official" and it["date"] >= official_cutoff)
+    ]
+    kept_ids = {it["id"] for it in keep}
+    old = [it for it in items if it["id"] not in kept_ids]
     if not old:
         return keep
     ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
@@ -630,6 +859,8 @@ def main():
             ref = ""
             detail = fetch_detail(src, url)
             if detail:
+                if src.get("detail_accept") and not src["detail_accept"](detail):
+                    continue
                 dt = src["detail_time"](detail)
                 if dt:
                     date_s, time_s = dt
@@ -649,9 +880,13 @@ def main():
             entry = {
                 "id": uid, "date": date_s, "time": time_s,
                 "source": src["name"], "url": url,
-                "score": score(title + summary), "category": categorize(title + summary),
+                "sourceType": src.get("source_type", "media"),
+                "score": max(0, min(100, score(title + summary) + src.get("score_adjust", 0))),
+                "category": categorize(title + summary),
                 "title": title, "summary": summary,
             }
+            if "default_selected" in src:
+                entry["selected"] = src["default_selected"]
             normalize_item(entry)
             if ref:
                 entry["ref"] = ref

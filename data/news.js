@@ -2,6 +2,245 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "was-q-122596",
+    "date": "2026-07-24",
+    "time": "11:49",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122596",
+    "sourceType": "community",
+    "score": 45,
+    "category": "marketing",
+    "title": "急！！求助-7月秒杀过后广告曝光大幅度下降，cpc越来越高，转化不断下降，点击率是不断升高",
+    "summary": "一位卖家反映，7月初秒杀结束后，产品广告曝光大幅下降，CPC持续升高，转化率下滑，陷入恶性循环。",
+    "selected": false,
+    "why": "该案例反映了秒杀后广告表现下滑的常见痛点，但属于个体经验，缺乏官方数据支撑，仅供参考。",
+    "impact": "主要影响亚马逊平台参与秒杀活动的卖家，尤其是广告预算有限的中小卖家。",
+    "action": "建议检查秒杀后的广告活动设置，尝试降低竞价并优化关键词，同时关注产品Listing的转化率优化。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销",
+      "秒杀",
+      "CPC"
+    ],
+    "eventId": "evt-67eeca778ceb"
+  },
+  {
+    "id": "was-q-122567",
+    "date": "2026-07-24",
+    "time": "11:41",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122567",
+    "sourceType": "community",
+    "score": 55,
+    "category": "marketing",
+    "title": "跑一个月广告，为什么手动广告能出单，而自动不能？产品是标品，主图和同行区别不大，还能做什么优化呢？请前辈指点",
+    "summary": "卖家反映标品手动广告出单但自动广告无转化，主图与同行区别不大，寻求优化建议。社区讨论聚焦于自动广告匹配逻辑与标品竞争策略。",
+    "selected": false,
+    "why": "该问题反映了标品运营中的常见痛点，但信息较为零散，缺乏系统性解决方案，对多数卖家参考价值有限。",
+    "impact": "主要影响亚马逊平台标品类目卖家，尤其是依赖广告引流的卖家。",
+    "action": "检查自动广告的否定关键词设置，尝试调整竞价策略或使用精准匹配。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销",
+      "标品",
+      "运营"
+    ],
+    "eventId": "evt-1639110cacfd"
+  },
+  {
+    "id": "was-q-122506",
+    "date": "2026-07-24",
+    "time": "11:41",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122506",
+    "sourceType": "community",
+    "score": 50,
+    "category": "marketing",
+    "title": "上架三个月后接手重推，售价14.99，CPC1.5-2.0，基本靠广告出单，每天2-3单还不稳定，除了广告还有其他方式能推起来吗？",
+    "summary": "卖家接手三个月老品，售价14.99美元，CPC高，日单量2-3单且依赖广告，寻求广告外的推广方法。社区讨论提供了一些非广告策略建议。",
+    "selected": false,
+    "why": "该案例反映了高CPC低转化产品的困境，但信息不够具体，且社区建议的普适性有待验证。",
+    "impact": "主要影响亚马逊平台中小卖家，尤其是面临高广告成本和低转化率问题的卖家。",
+    "action": "优化Listing的A+页面和视频，尝试站外引流或捆绑销售，并检查产品评论和定价策略。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "运营",
+      "广告营销",
+      "选品"
+    ],
+    "eventId": "evt-8152070ca6e3"
+  },
+  {
+    "id": "was-q-122493",
+    "date": "2026-07-24",
+    "time": "11:41",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122493",
+    "sourceType": "community",
+    "score": 70,
+    "category": "policy",
+    "title": "75字符标题新规，我选择开源一个写listing的skill",
+    "summary": "一位卖家为应对亚马逊75字符标题新规，开发并开源了一个辅助编写Listing的AI工具，旨在帮助卖家快速适应新规则。",
+    "selected": false,
+    "why": "标题新规直接影响Listing曝光和转化，该开源工具为卖家提供了低成本、可操作的解决方案，具有实用价值。",
+    "impact": "影响所有亚马逊卖家，尤其是需要快速调整标题以符合新规的卖家。",
+    "action": "访问GitHub链接获取该开源工具，并测试其效果，同时参考官方指南优化现有标题。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "工具",
+      "Listing优化"
+    ],
+    "eventId": "evt-2b4e6b2ffe64"
+  },
+  {
+    "id": "was-q-122542",
+    "date": "2026-07-24",
+    "time": "11:41",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122542",
+    "sourceType": "community",
+    "score": 80,
+    "category": "policy",
+    "title": "亚马逊AI图片合规新规实操分享 哪些图要打标怎么打标一次说清楚",
+    "summary": "卖家分享亚马逊AI生成图片合规新规的实操经验，明确需打标的图片类型及具体操作步骤，包括在文件元数据中添加标签。",
+    "selected": false,
+    "why": "AI图片合规新规已生效，违规可能导致图片被拒或下架。该实操分享提供了清晰的执行指南，能帮助卖家避免风险。",
+    "impact": "影响所有使用AI生成人物图片的亚马逊卖家，尤其是服装、美妆等类目。",
+    "action": "立即检查所有商品图片，对包含AI生成逼真人物的图片，在文件元数据中添加“contains-synthetic-performer”标签。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "AI图片",
+      "运营"
+    ],
+    "eventId": "evt-779193d7ba29"
+  },
+  {
+    "id": "was-q-122536",
+    "date": "2026-07-24",
+    "time": "11:41",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122536",
+    "sourceType": "community",
+    "score": 75,
+    "category": "policy",
+    "title": "# 超级话题 # 现在必须在商品信息和 A+ 商品描述中为由 AI 生成的人物添加标签，按亚马逊规则是不是这样操作，不太确定?大佬们帮忙看看，而且是不是以前的老图片都需要加这个",
+    "summary": "卖家对亚马逊AI图片标签新规的具体操作存在疑问，不确定是否需为所有历史图片添加标签，社区讨论中寻求确认。",
+    "selected": false,
+    "why": "该问题反映了新规执行中的普遍困惑，但社区讨论未给出官方明确答复，信息确定性不足。",
+    "impact": "影响所有使用AI生成人物图片的亚马逊卖家。",
+    "action": "查阅亚马逊官方帮助页面或联系卖家支持，确认历史图片的处理要求，并参考上一条实操分享。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "AI图片"
+    ],
+    "eventId": "evt-baf700c8cf4b"
+  },
+  {
+    "id": "was-q-122491",
+    "date": "2026-07-24",
+    "time": "11:41",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122491",
+    "sourceType": "community",
+    "score": 65,
+    "category": "marketing",
+    "title": "鸭马逊漂流记-Listing优化-老鸭汤手把手教你怎么顺应新标题规则优化产品图片",
+    "summary": "一篇关于如何根据亚马逊75字符标题新规优化产品图片的教程，提供了从文案到图片的完整流程建议。",
+    "selected": false,
+    "why": "该教程结合了标题新规和图片优化，内容较为系统，但属于经验分享，权威性一般。",
+    "impact": "影响亚马逊卖家，尤其是正在调整Listing以符合新规的卖家。",
+    "action": "参考教程中的图片优化思路，结合自身产品进行测试和调整。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "Listing优化",
+      "运营"
+    ],
+    "eventId": "evt-ddc488417b66"
+  },
+  {
+    "id": "was-q-122505",
+    "date": "2026-07-24",
+    "time": "11:41",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122505",
+    "sourceType": "community",
+    "score": 45,
+    "category": "marketing",
+    "title": "聊聊现在用 MCP、Codex 做 AI 选品的痛点，想搭建一套可复制的标准化选品流程，欢迎交流",
+    "summary": "卖家分享使用AI工具进行选品时遇到的痛点，认为现有方案缺乏标准化评判标准，并寻求可复制的选品流程。",
+    "selected": false,
+    "why": "该话题涉及前沿工具应用，但内容较为抽象，缺乏具体可执行方案，对多数卖家参考价值有限。",
+    "impact": "主要影响对AI选品工具感兴趣的亚马逊卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "选品",
+      "AI工具",
+      "运营"
+    ],
+    "eventId": "evt-ddc6a01d4b76"
+  },
+  {
+    "id": "was-q-122591",
+    "date": "2026-07-24",
+    "time": "11:41",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122591",
+    "sourceType": "community",
+    "score": 60,
+    "category": "logistics",
+    "title": "请教各位老卖家，亚马逊官方“批量清货”的实际回款费率大概是多少？",
+    "summary": "卖家询问亚马逊官方批量清货计划的实际回款费率，社区讨论中分享了不同品类和条件下的费率经验。",
+    "selected": false,
+    "why": "清货是卖家常见需求，了解实际回款费率有助于评估清货成本，做出更优决策。",
+    "impact": "影响所有有库存清理需求的亚马逊卖家。",
+    "action": "在卖家中心查看批量清货计划的费率说明，并根据自身产品价值计算回款预期。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储",
+      "库存管理",
+      "运营"
+    ],
+    "eventId": "evt-d3af1ccd69c4"
+  },
+  {
+    "id": "187702",
+    "date": "2026-07-24",
+    "time": "11:18",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187702",
+    "sourceType": "media",
+    "score": 85,
+    "category": "policy",
+    "title": "多国海关开始对中国产品\"动真格\"！查验方向突变！",
+    "summary": "多国海关加强对中国产品的查验力度，查验方向和重点发生变化，可能涉及关税、合规性等。",
+    "selected": true,
+    "why": "海关查验政策突变直接影响货物清关时效和成本，可能导致延误、罚款甚至扣押，卖家需立即关注。",
+    "impact": "影响所有出口至相关国家的中国跨境电商卖家，涉及亚马逊、Temu、SHEIN等平台。",
+    "action": "立即检查出口产品的海关编码、原产地证明及合规文件，与货代确认最新查验要求。",
+    "deadline": "",
+    "tags": [
+      "政策合规",
+      "物流仓储",
+      "关税",
+      "中国"
+    ],
+    "eventId": "evt-3f0b2c1471ac"
+  },
+  {
     "id": "187701",
     "date": "2026-07-24",
     "time": "11:13",
@@ -21,7 +260,8 @@ window.NEWS_DATA = [
       "选品",
       "盈利策略"
     ],
-    "eventId": "evt-cb89ae64b661"
+    "eventId": "evt-cb89ae64b661",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft1clqkwxz40",
@@ -45,7 +285,8 @@ window.NEWS_DATA = [
       "纽约州"
     ],
     "ref": "https://www.amz123.com/t/Obftv6oR",
-    "eventId": "evt-a2a778c9b495"
+    "eventId": "evt-a2a778c9b495",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft1cmfcm72tc",
@@ -69,7 +310,8 @@ window.NEWS_DATA = [
       "美西"
     ],
     "ref": "https://www.amz123.com/kx/ltfXz3Ow",
-    "eventId": "evt-7d8013f5fbd7"
+    "eventId": "evt-7d8013f5fbd7",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft1clqkwxz41",
@@ -92,7 +334,8 @@ window.NEWS_DATA = [
       "效率提升"
     ],
     "ref": "https://www.pai.com.cn/p/01ky7p4ywc8qf59qjf4mt74dt7",
-    "eventId": "evt-60fb7b190d6a"
+    "eventId": "evt-60fb7b190d6a",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft1clp67i6f4",
@@ -116,7 +359,32 @@ window.NEWS_DATA = [
       "中国卖家"
     ],
     "ref": "https://www.amz123.com/kx/JQshE6Rd",
-    "eventId": "evt-7170cac9af92"
+    "eventId": "evt-7170cac9af92",
+    "sourceType": "media"
+  },
+  {
+    "id": "mjzj-ft1cmfcm72td",
+    "date": "2026-07-24",
+    "time": "11:12",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ft1cmfcm72td",
+    "sourceType": "media",
+    "score": 40,
+    "category": "market",
+    "title": "又一外贸工厂扛不住了！年产值20亿，被韩国巨头关停",
+    "summary": "LG惠州工厂因业务调整被关停，该工厂年产值曾达20亿，反映了部分外贸工厂面临的经营压力。",
+    "selected": false,
+    "why": "该事件属于个别案例，对跨境电商卖家的直接影响有限，更多是行业背景信息。",
+    "impact": "主要影响与LG有供应链关系的卖家，以及关注制造业趋势的从业者。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "市场行情",
+      "供应链",
+      "工厂"
+    ],
+    "ref": "https://www.pai.com.cn/p/01ky4hq765b16bsfakmwwgx9gf",
+    "eventId": "evt-f578df55510c"
   },
   {
     "id": "mjzj-ft1ciw72rr40",
@@ -138,7 +406,8 @@ window.NEWS_DATA = [
       "政策合规",
       "活体宠物"
     ],
-    "eventId": "evt-9a503a1ed6a5"
+    "eventId": "evt-9a503a1ed6a5",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft1cd9y78fls",
@@ -160,7 +429,8 @@ window.NEWS_DATA = [
       "AI",
       "市场行情"
     ],
-    "eventId": "evt-8e2b87c3b22b"
+    "eventId": "evt-8e2b87c3b22b",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft1byx4tjbwg",
@@ -182,7 +452,8 @@ window.NEWS_DATA = [
       "AI算力",
       "市场行情"
     ],
-    "eventId": "evt-380a81da94b1"
+    "eventId": "evt-380a81da94b1",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft1alwrazitc",
@@ -204,7 +475,8 @@ window.NEWS_DATA = [
       "政策合规",
       "账号安全"
     ],
-    "eventId": "evt-19499144a85c"
+    "eventId": "evt-19499144a85c",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft18lbgj88hs",
@@ -227,7 +499,8 @@ window.NEWS_DATA = [
       "中国卖家"
     ],
     "ref": "https://www.amz123.com/kx/rJdlh32o",
-    "eventId": "evt-c05011f940ba"
+    "eventId": "evt-c05011f940ba",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft18l0ekwrnl",
@@ -250,7 +523,8 @@ window.NEWS_DATA = [
       "海关"
     ],
     "ref": "https://www.amz123.com/t/lsgHqIux",
-    "eventId": "evt-0bdb34cbdaa7"
+    "eventId": "evt-0bdb34cbdaa7",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft18ks5jzfgh",
@@ -273,7 +547,8 @@ window.NEWS_DATA = [
       "市场行情"
     ],
     "ref": "https://www.pai.com.cn/p/01ky753rqdcrb72rzkhfhczhc5",
-    "eventId": "evt-65496e2081e2"
+    "eventId": "evt-65496e2081e2",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft18js4epgxt",
@@ -296,7 +571,8 @@ window.NEWS_DATA = [
       "市场行情"
     ],
     "ref": "https://www.pai.com.cn/p/01ky8wf1r8dfya07ptppjk3d55",
-    "eventId": "evt-89c89e24de2e"
+    "eventId": "evt-89c89e24de2e",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft18j6wh9kao",
@@ -319,7 +595,8 @@ window.NEWS_DATA = [
       "市场行情"
     ],
     "ref": "https://www.amz123.com/kx/OFs8NLLL",
-    "eventId": "evt-cee90842bf5b"
+    "eventId": "evt-cee90842bf5b",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft19ej0eercw",
@@ -341,7 +618,8 @@ window.NEWS_DATA = [
       "政策合规",
       "AI生成内容"
     ],
-    "eventId": "evt-0e278fdfc4f5"
+    "eventId": "evt-0e278fdfc4f5",
+    "sourceType": "media"
   },
   {
     "id": "187700",
@@ -362,7 +640,8 @@ window.NEWS_DATA = [
       "财务管理",
       "跨境大卖"
     ],
-    "eventId": "evt-df40d4d8e80e"
+    "eventId": "evt-df40d4d8e80e",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft16hu08w35s",
@@ -384,7 +663,8 @@ window.NEWS_DATA = [
       "美国",
       "物流仓储"
     ],
-    "eventId": "evt-9b889a6fa6f7"
+    "eventId": "evt-9b889a6fa6f7",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft15z033g8w0",
@@ -406,7 +686,8 @@ window.NEWS_DATA = [
       "科技巨头",
       "财务风险"
     ],
-    "eventId": "evt-ccbeaada6bc7"
+    "eventId": "evt-ccbeaada6bc7",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft15j4djkohs",
@@ -428,7 +709,8 @@ window.NEWS_DATA = [
       "英特尔",
       "科技"
     ],
-    "eventId": "evt-e7789bf18cef"
+    "eventId": "evt-e7789bf18cef",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft15dawjm70g",
@@ -450,7 +732,8 @@ window.NEWS_DATA = [
       "汇率",
       "定价"
     ],
-    "eventId": "evt-3334e7166b90"
+    "eventId": "evt-3334e7166b90",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft1574sumqyo",
@@ -472,7 +755,8 @@ window.NEWS_DATA = [
       "通胀",
       "利率"
     ],
-    "eventId": "evt-bebabe2488c3"
+    "eventId": "evt-bebabe2488c3",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-ft150xuaeneo",
@@ -494,7 +778,32 @@ window.NEWS_DATA = [
       "关税",
       "政策合规"
     ],
-    "eventId": "evt-4ecebca5abed"
+    "eventId": "evt-4ecebca5abed",
+    "sourceType": "media"
+  },
+  {
+    "id": "mjzj-ft14tv8lhj40",
+    "date": "2026-07-24",
+    "time": "09:44",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ft14tv8lhj40",
+    "sourceType": "media",
+    "score": 60,
+    "category": "policy",
+    "title": "巴西怒批美国以强迫劳动为由加征关税“武断”且“站不住脚”",
+    "summary": "巴西政府批评美国以强迫劳动为由对其加征关税，认为此举“武断”且“站不住脚”，引发贸易争端。",
+    "selected": false,
+    "why": "该事件可能影响美国与巴西之间的贸易关系，但短期内对跨境电商卖家的直接影响较小。",
+    "impact": "主要影响涉及美国与巴西贸易的卖家，尤其是出口相关产品的卖家。",
+    "action": "关注事态发展，评估可能对自身业务产生的间接影响。",
+    "deadline": "",
+    "tags": [
+      "政策合规",
+      "关税",
+      "巴西",
+      "美国"
+    ],
+    "eventId": "evt-2938f16f0985"
   },
   {
     "id": "mjzj-ft14q9y9or28",
@@ -516,7 +825,54 @@ window.NEWS_DATA = [
       "马斯克",
       "行业动态"
     ],
-    "eventId": "evt-e5404cfec8b5"
+    "eventId": "evt-e5404cfec8b5",
+    "sourceType": "media"
+  },
+  {
+    "id": "mjzj-ft14m31l0ni8",
+    "date": "2026-07-24",
+    "time": "09:41",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ft14m31l0ni8",
+    "sourceType": "media",
+    "score": 30,
+    "category": "market",
+    "title": "主播离职潮后东方甄选交出反转成绩单：2026财年营收、净利双大增",
+    "summary": "东方甄选在经历主播离职潮后，2026财年营收和净利润均实现大幅增长，业绩反转。",
+    "selected": false,
+    "why": "该事件属于国内电商领域，与跨境电商卖家关联度较低。",
+    "impact": "主要影响关注东方甄选或国内电商模式的从业者。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "市场行情",
+      "电商",
+      "东方甄选"
+    ],
+    "eventId": "evt-21e9f3a3b527"
+  },
+  {
+    "id": "mjzj-ft14fgwmibcw",
+    "date": "2026-07-24",
+    "time": "09:39",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ft14fgwmibcw",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "日本6月消费者通胀回升 为进一步加息铺平道路",
+    "summary": "日本6月消费者通胀数据回升，市场预期日本央行可能进一步加息，影响日元汇率和消费市场。",
+    "selected": false,
+    "why": "通胀和加息可能影响日本消费者的购买力和电商市场，但短期内影响有限，需持续关注。",
+    "impact": "主要影响日本站卖家，尤其是销售非必需品的卖家。",
+    "action": "关注日元汇率波动，评估对利润的影响，并调整定价策略。",
+    "deadline": "",
+    "tags": [
+      "日本",
+      "市场行情",
+      "汇率"
+    ],
+    "eventId": "evt-7adbf60b7858"
   },
   {
     "id": "187697",
@@ -538,7 +894,130 @@ window.NEWS_DATA = [
       "专利",
       "宠物用品"
     ],
-    "eventId": "evt-3d0a01a95170"
+    "eventId": "evt-3d0a01a95170",
+    "sourceType": "media"
+  },
+  {
+    "id": "amz-QGRXEHfo",
+    "date": "2026-07-24",
+    "time": "03:40",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/QGRXEHfo",
+    "sourceType": "media",
+    "score": 75,
+    "category": "logistics",
+    "title": "亚马逊将于9月7日启用西班牙首个配送中心ZAZ8",
+    "summary": "亚马逊宣布将于2026年9月7日启用西班牙首个配送中心ZAZ8，投资1亿欧元，重点存储家庭刚需商品，提升西班牙订单履约效率。",
+    "selected": true,
+    "why": "新配送中心启用将缩短西班牙及周边地区的配送时效，降低物流成本，为卖家带来新的FBA入仓机会。",
+    "impact": "影响亚马逊西班牙站卖家，尤其是销售个人护理、婴幼儿食品等高频刚需品的卖家。",
+    "action": "评估将相关产品发往ZAZ8的可行性，提前规划库存和物流方案。",
+    "deadline": "2026-09-07",
+    "tags": [
+      "亚马逊",
+      "物流仓储",
+      "西班牙",
+      "FBA"
+    ],
+    "eventId": "evt-34bff8471b78"
+  },
+  {
+    "id": "amz-tk8cMo4V",
+    "date": "2026-07-24",
+    "time": "03:40",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/tk8cMo4V",
+    "sourceType": "media",
+    "score": 60,
+    "category": "market",
+    "title": "罗马尼亚H1电商销售额同比仅增长4%",
+    "summary": "罗马尼亚2026年上半年电商销售额同比仅增长4%，低于通胀率，实际销售规模下降。电子产品、药品等品类增长较快。",
+    "selected": true,
+    "why": "该数据反映了罗马尼亚电商市场增速放缓的趋势，有助于卖家评估市场机会和风险，调整选品策略。",
+    "impact": "影响罗马尼亚站卖家或计划进入该市场的卖家。",
+    "action": "关注增长较快的品类（如电子产品、药品），评估自身产品是否匹配市场趋势。",
+    "deadline": "",
+    "tags": [
+      "罗马尼亚",
+      "市场行情",
+      "电商数据",
+      "选品"
+    ],
+    "eventId": "evt-70d5e352ca77"
+  },
+  {
+    "id": "amz-iy2z7eNe",
+    "date": "2026-07-24",
+    "time": "03:29",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/iy2z7eNe",
+    "sourceType": "media",
+    "score": 65,
+    "category": "market",
+    "title": "俄快递市场结构调整：时尚品类领涨，家具珠宝需求增长",
+    "summary": "DPD俄罗斯公司6月数据显示，B2B出货量同比增长20%，时尚品类翻倍，化妆品、珠宝、家具配饰分别增长56%、44%和39%。B2C市场时尚品类居首，运输成本同比增近三分之一。",
+    "selected": true,
+    "why": "俄罗斯市场消费趋势向品质化、悦己型转移，时尚、珠宝等品类增长显著，为卖家选品和备货提供明确方向。",
+    "impact": "影响在俄罗斯市场销售时尚、化妆品、珠宝、家具等品类的卖家，尤其是B2B和B2C渠道。",
+    "action": "关注俄罗斯时尚及悦己品类需求，调整选品策略，增加相关品类库存，同时评估运输成本上涨对利润的影响。",
+    "deadline": "",
+    "tags": [
+      "俄罗斯",
+      "物流",
+      "选品",
+      "时尚品类",
+      "市场趋势"
+    ],
+    "eventId": "evt-929273c65002"
+  },
+  {
+    "id": "amz-csYL3ZUr",
+    "date": "2026-07-24",
+    "time": "03:19",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/csYL3ZUr",
+    "sourceType": "media",
+    "score": 80,
+    "category": "policy",
+    "title": "俄抽检20款充电器仅7款符合安全标准",
+    "summary": "俄罗斯联邦国防军工业局抽检20款充电器，仅7款（35%）达标，13款存在触电、起火风险，包括绝缘不达标、易燃外壳、铅超标、电磁干扰等问题。",
+    "selected": true,
+    "why": "俄罗斯加强电子产品安全监管，充电器类目合规风险高，卖家需立即自查产品，避免下架或处罚。",
+    "impact": "影响在俄罗斯销售充电器及类似电子配件的卖家，尤其是低价产品。",
+    "action": "检查充电器产品是否符合俄罗斯安全标准，获取EAC认证，更换不合格供应商，确保标签信息完整。",
+    "deadline": "",
+    "tags": [
+      "俄罗斯",
+      "政策合规",
+      "电子产品",
+      "安全标准"
+    ],
+    "eventId": "evt-ac28f1e598e4"
+  },
+  {
+    "id": "amz-Sk0adW84",
+    "date": "2026-07-24",
+    "time": "03:19",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Sk0adW84",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "Detsky Mir锁定新学年用品价格，多类商品低至1.99卢布起",
+    "summary": "俄罗斯母婴零售连锁Detsky Mir连续第五年实施“价格锚定”计划，将书包、文具、校服等新学年用品价格维持在2025年水平，部分文具价格同比下降5%-13%。",
+    "selected": false,
+    "why": "Detsky Mir的低价策略可能挤压其他卖家市场份额，但自有品牌占比提升也暗示了选品机会。",
+    "impact": "影响在俄罗斯销售母婴、文具、校服等品类的卖家，尤其是与Detsky Mir直接竞争的卖家。",
+    "action": "分析Detsky Mir的定价和选品策略，考虑差异化竞争，如提供更高品质或独特设计的产品。",
+    "deadline": "",
+    "tags": [
+      "俄罗斯",
+      "母婴",
+      "文具",
+      "价格竞争",
+      "选品"
+    ],
+    "eventId": "evt-d4497f4ad0d0"
   },
   {
     "id": "amz-7QA0Y0rI",
@@ -561,7 +1040,8 @@ window.NEWS_DATA = [
       "电商",
       "选品"
     ],
-    "eventId": "evt-c50c774e9478"
+    "eventId": "evt-c50c774e9478",
+    "sourceType": "media"
   },
   {
     "id": "amz-y5sIyYYp",
@@ -584,7 +1064,8 @@ window.NEWS_DATA = [
       "平台规则",
       "物流仓储"
     ],
-    "eventId": "evt-e7c05a359029"
+    "eventId": "evt-e7c05a359029",
+    "sourceType": "media"
   },
   {
     "id": "amz-Fjnj10Eu",
@@ -607,7 +1088,8 @@ window.NEWS_DATA = [
       "选品",
       "广告营销"
     ],
-    "eventId": "evt-b318a7537b04"
+    "eventId": "evt-b318a7537b04",
+    "sourceType": "media"
   },
   {
     "id": "amz-W5QGb51b",
@@ -630,7 +1112,8 @@ window.NEWS_DATA = [
       "保险",
       "中东"
     ],
-    "eventId": "evt-65b67c1937e2"
+    "eventId": "evt-65b67c1937e2",
+    "sourceType": "media"
   },
   {
     "id": "amz-FijiNIYK",
@@ -652,7 +1135,8 @@ window.NEWS_DATA = [
       "物流仓储",
       "航空货运"
     ],
-    "eventId": "evt-d9552864db8c"
+    "eventId": "evt-d9552864db8c",
+    "sourceType": "media"
   },
   {
     "id": "amz-i9obcYa8",
@@ -674,7 +1158,8 @@ window.NEWS_DATA = [
       "航空货运",
       "MSC"
     ],
-    "eventId": "evt-c6a929ac94a6"
+    "eventId": "evt-c6a929ac94a6",
+    "sourceType": "media"
   },
   {
     "id": "amz-2IJWREi1",
@@ -698,7 +1183,8 @@ window.NEWS_DATA = [
       "大件商品",
       "菜鸟"
     ],
-    "eventId": "evt-e292f76f1ad9"
+    "eventId": "evt-e292f76f1ad9",
+    "sourceType": "media"
   },
   {
     "id": "amz-wDSfLiFq",
@@ -720,7 +1206,8 @@ window.NEWS_DATA = [
       "空运",
       "市场行情"
     ],
-    "eventId": "evt-c97d7e3ffeaf"
+    "eventId": "evt-c97d7e3ffeaf",
+    "sourceType": "media"
   },
   {
     "id": "amz-lfR401U0",
@@ -743,7 +1230,8 @@ window.NEWS_DATA = [
       "洗产地",
       "海关"
     ],
-    "eventId": "evt-8ada11aaaea1"
+    "eventId": "evt-8ada11aaaea1",
+    "sourceType": "media"
   },
   {
     "id": "amz-H3BFDaLC",
@@ -765,7 +1253,8 @@ window.NEWS_DATA = [
       "LG电子",
       "工厂关停"
     ],
-    "eventId": "evt-f5b2de216423"
+    "eventId": "evt-f5b2de216423",
+    "sourceType": "media"
   },
   {
     "id": "187696",
@@ -786,7 +1275,8 @@ window.NEWS_DATA = [
       "选品",
       "案例故事"
     ],
-    "eventId": "evt-35a8f4f26a7f"
+    "eventId": "evt-35a8f4f26a7f",
+    "sourceType": "media"
   },
   {
     "id": "187695",
@@ -809,7 +1299,8 @@ window.NEWS_DATA = [
       "海关",
       "鞋类"
     ],
-    "eventId": "evt-ac4b38227846"
+    "eventId": "evt-ac4b38227846",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsyj36582ayo",
@@ -832,7 +1323,8 @@ window.NEWS_DATA = [
       "Woot",
       "数据复盘"
     ],
-    "eventId": "evt-5555ce0d5b76"
+    "eventId": "evt-5555ce0d5b76",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsyih8z0fdvk",
@@ -855,7 +1347,8 @@ window.NEWS_DATA = [
       "关税",
       "降税"
     ],
-    "eventId": "evt-43cfe1af040f"
+    "eventId": "evt-43cfe1af040f",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsyi6fplkbgg",
@@ -879,7 +1372,8 @@ window.NEWS_DATA = [
       "电扇",
       "市场行情"
     ],
-    "eventId": "evt-51c1db553fbb"
+    "eventId": "evt-51c1db553fbb",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsyhj9yo5csg",
@@ -902,7 +1396,8 @@ window.NEWS_DATA = [
       "OpenAI",
       "企业软件"
     ],
-    "eventId": "evt-fc1fda2eec6b"
+    "eventId": "evt-fc1fda2eec6b",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsyh85438rgg",
@@ -925,7 +1420,8 @@ window.NEWS_DATA = [
       "市场行情",
       "涨价"
     ],
-    "eventId": "evt-84cb6db6b447"
+    "eventId": "evt-84cb6db6b447",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsygzvridslc",
@@ -949,7 +1445,8 @@ window.NEWS_DATA = [
       "空调",
       "市场行情"
     ],
-    "eventId": "evt-92fdb91e2614"
+    "eventId": "evt-92fdb91e2614",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsygf7kzwgsg",
@@ -971,7 +1468,8 @@ window.NEWS_DATA = [
       "台风",
       "华南"
     ],
-    "eventId": "evt-4a8e00112fa7"
+    "eventId": "evt-4a8e00112fa7",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsyfzhfpdudc",
@@ -994,7 +1492,8 @@ window.NEWS_DATA = [
       "英国",
       "国际配送"
     ],
-    "eventId": "evt-4ac72dfedc95"
+    "eventId": "evt-4ac72dfedc95",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsyg94hnin0g",
@@ -1018,7 +1517,8 @@ window.NEWS_DATA = [
       "PopGrip",
       "气囊支架"
     ],
-    "eventId": "evt-90cbb96b4122"
+    "eventId": "evt-90cbb96b4122",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsyfctslz6dc",
@@ -1040,7 +1540,8 @@ window.NEWS_DATA = [
       "AI",
       "安全"
     ],
-    "eventId": "evt-f3b8f5b20079"
+    "eventId": "evt-f3b8f5b20079",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsyec7h56cxs",
@@ -1063,7 +1564,8 @@ window.NEWS_DATA = [
       "裁员",
       "AI"
     ],
-    "eventId": "evt-5ab0bcbe3859"
+    "eventId": "evt-5ab0bcbe3859",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsyeai46gwsg",
@@ -1087,7 +1589,8 @@ window.NEWS_DATA = [
       "排名恢复",
       "运营"
     ],
-    "eventId": "evt-356450ac175d"
+    "eventId": "evt-356450ac175d",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsydofifa58g",
@@ -1111,7 +1614,8 @@ window.NEWS_DATA = [
       "BIL",
       "B2B"
     ],
-    "eventId": "evt-20c645c34de4"
+    "eventId": "evt-20c645c34de4",
+    "sourceType": "media"
   },
   {
     "id": "187692",
@@ -1136,7 +1640,8 @@ window.NEWS_DATA = [
       "物流仓储",
       "风险"
     ],
-    "eventId": "evt-94a001f692d7"
+    "eventId": "evt-94a001f692d7",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsy9tdmu9z40",
@@ -1159,7 +1664,8 @@ window.NEWS_DATA = [
       "中小卖家",
       "合规"
     ],
-    "eventId": "evt-c396aa6cfea6"
+    "eventId": "evt-c396aa6cfea6",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsy7f81ikruo",
@@ -1183,7 +1689,8 @@ window.NEWS_DATA = [
       "商标侵权",
       "合规"
     ],
-    "eventId": "evt-5cadd042631e"
+    "eventId": "evt-5cadd042631e",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsyajitjyjuo",
@@ -1205,7 +1712,8 @@ window.NEWS_DATA = [
       "物流",
       "自配送"
     ],
-    "eventId": "evt-5e6007bd08a1"
+    "eventId": "evt-5e6007bd08a1",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsxvf79znxfk",
@@ -1228,7 +1736,8 @@ window.NEWS_DATA = [
       "物流仓储",
       "风险"
     ],
-    "eventId": "evt-94a001f692d7"
+    "eventId": "evt-94a001f692d7",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsxtsydypiio",
@@ -1252,7 +1761,8 @@ window.NEWS_DATA = [
       "运营工具",
       "多平台"
     ],
-    "eventId": "evt-5f23051e1ceb"
+    "eventId": "evt-5f23051e1ceb",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsxucrmqgo3k",
@@ -1275,7 +1785,8 @@ window.NEWS_DATA = [
       "风险",
       "物流仓储"
     ],
-    "eventId": "evt-f0fff7d642a7"
+    "eventId": "evt-f0fff7d642a7",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsxrhrz75ybk",
@@ -1299,7 +1810,8 @@ window.NEWS_DATA = [
       "物流"
     ],
     "ref": "https://www.amz123.com/t/HRlQTc9e",
-    "eventId": "evt-a871beb1fb89"
+    "eventId": "evt-a871beb1fb89",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsxrkk07ahvk",
@@ -1322,7 +1834,8 @@ window.NEWS_DATA = [
       "风险"
     ],
     "ref": "http://chsynews.com/?news_16/837.html",
-    "eventId": "evt-755e74cec528"
+    "eventId": "evt-755e74cec528",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsxrijx2s5c0",
@@ -1346,7 +1859,8 @@ window.NEWS_DATA = [
       "卖家扶持"
     ],
     "ref": "http://chsynews.com/?news_7/835.html",
-    "eventId": "evt-177f039fbc58"
+    "eventId": "evt-177f039fbc58",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsxrj6feubk1",
@@ -1367,7 +1881,8 @@ window.NEWS_DATA = [
       "行业动态"
     ],
     "ref": "https://www.pai.com.cn/p/01ky69rjr44tmzke8dp82nvwhc",
-    "eventId": "evt-c80a58dbbd4d"
+    "eventId": "evt-c80a58dbbd4d",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fsxrjcm5a77k",
@@ -1390,7 +1905,8 @@ window.NEWS_DATA = [
       "卖家中心"
     ],
     "ref": "https://www.amz123.com/t/Qq7SHcHq",
-    "eventId": "evt-8dbfaa3ff5e0"
+    "eventId": "evt-8dbfaa3ff5e0",
+    "sourceType": "media"
   },
   {
     "id": "187687",
@@ -1412,7 +1928,8 @@ window.NEWS_DATA = [
       "选品",
       "广告营销"
     ],
-    "eventId": "evt-181f177613b2"
+    "eventId": "evt-181f177613b2",
+    "sourceType": "media"
   },
   {
     "id": "amz-PsMsyHVX",
@@ -1434,7 +1951,8 @@ window.NEWS_DATA = [
       "资本",
       "A股"
     ],
-    "eventId": "evt-7caf384ac0d8"
+    "eventId": "evt-7caf384ac0d8",
+    "sourceType": "media"
   },
   {
     "id": "amz-i8Cf9KgN",
@@ -1457,7 +1975,8 @@ window.NEWS_DATA = [
       "市场数据",
       "直播购物"
     ],
-    "eventId": "evt-aa1a85443452"
+    "eventId": "evt-aa1a85443452",
+    "sourceType": "media"
   },
   {
     "id": "amz-yNZdDPWy",
@@ -1480,7 +1999,8 @@ window.NEWS_DATA = [
       "风险",
       "赔偿"
     ],
-    "eventId": "evt-625f1192305f"
+    "eventId": "evt-625f1192305f",
+    "sourceType": "media"
   },
   {
     "id": "amz-pMxFalxa",
@@ -1503,7 +2023,8 @@ window.NEWS_DATA = [
       "政策合规",
       "物流仓储"
     ],
-    "eventId": "evt-674ffdc5f3ce"
+    "eventId": "evt-674ffdc5f3ce",
+    "sourceType": "media"
   },
   {
     "id": "amz-DU548SLC",
@@ -1526,7 +2047,8 @@ window.NEWS_DATA = [
       "知识产权",
       "AI"
     ],
-    "eventId": "evt-1735fc57093f"
+    "eventId": "evt-1735fc57093f",
+    "sourceType": "media"
   },
   {
     "id": "187685",
@@ -1548,7 +2070,8 @@ window.NEWS_DATA = [
       "选品",
       "专利"
     ],
-    "eventId": "evt-a50072669c02"
+    "eventId": "evt-a50072669c02",
+    "sourceType": "media"
   },
   {
     "id": "amz-zmzTWQMA",
@@ -1571,7 +2094,8 @@ window.NEWS_DATA = [
       "政策合规",
       "费用调整"
     ],
-    "eventId": "evt-2dbded4d79c8"
+    "eventId": "evt-2dbded4d79c8",
+    "sourceType": "media"
   },
   {
     "id": "amz-UKAlFWDE",
@@ -1594,7 +2118,8 @@ window.NEWS_DATA = [
       "政策合规",
       "数据隐私"
     ],
-    "eventId": "evt-a634092a9565"
+    "eventId": "evt-a634092a9565",
+    "sourceType": "media"
   },
   {
     "id": "amz-3E0RuH5H",
@@ -1616,7 +2141,8 @@ window.NEWS_DATA = [
       "品牌",
       "营销"
     ],
-    "eventId": "evt-335016a8da25"
+    "eventId": "evt-335016a8da25",
+    "sourceType": "media"
   },
   {
     "id": "amz-eso0mzql",
@@ -1637,7 +2163,8 @@ window.NEWS_DATA = [
       "物流仓储",
       "顺丰"
     ],
-    "eventId": "evt-f23f907a2bbf"
+    "eventId": "evt-f23f907a2bbf",
+    "sourceType": "media"
   },
   {
     "id": "187684",
@@ -1659,7 +2186,8 @@ window.NEWS_DATA = [
       "政策合规",
       "AI"
     ],
-    "eventId": "evt-754f94a6c26d"
+    "eventId": "evt-754f94a6c26d",
+    "sourceType": "media"
   },
   {
     "id": "187681",
@@ -1681,7 +2209,8 @@ window.NEWS_DATA = [
       "市场行情",
       "3C"
     ],
-    "eventId": "evt-21072ffe1f54"
+    "eventId": "evt-21072ffe1f54",
+    "sourceType": "media"
   },
   {
     "id": "187680",
@@ -1703,7 +2232,8 @@ window.NEWS_DATA = [
       "政策合规",
       "关税"
     ],
-    "eventId": "evt-acfb50ae316d"
+    "eventId": "evt-acfb50ae316d",
+    "sourceType": "media"
   },
   {
     "id": "187675",
@@ -1725,7 +2255,8 @@ window.NEWS_DATA = [
       "美国",
       "营销"
     ],
-    "eventId": "evt-764222f50580"
+    "eventId": "evt-764222f50580",
+    "sourceType": "media"
   },
   {
     "id": "187610",
@@ -1747,7 +2278,8 @@ window.NEWS_DATA = [
       "营销",
       "选品"
     ],
-    "eventId": "evt-e7dfcbf8809a"
+    "eventId": "evt-e7dfcbf8809a",
+    "sourceType": "media"
   },
   {
     "id": "187673",
@@ -1769,7 +2301,8 @@ window.NEWS_DATA = [
       "选品",
       "营销"
     ],
-    "eventId": "evt-3a4109077948"
+    "eventId": "evt-3a4109077948",
+    "sourceType": "media"
   },
   {
     "id": "187672",
@@ -1791,7 +2324,32 @@ window.NEWS_DATA = [
       "选品",
       "专利"
     ],
-    "eventId": "evt-ff39de3bd773"
+    "eventId": "evt-ff39de3bd773",
+    "sourceType": "media"
+  },
+  {
+    "id": "amazon-forum-f09dda4e-f582-483a-974c-47ccc89b0f09",
+    "date": "2026-07-22",
+    "time": "00:02",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f09dda4e-f582-483a-974c-47ccc89b0f09",
+    "sourceType": "official",
+    "score": 85,
+    "category": "policy",
+    "title": "了解测试、检验和认证要求",
+    "summary": "亚马逊官方说明，膳食补充剂、儿童玩具、电动出行产品等品类必须通过测试、检验和认证流程，合规结果需来自批准的机构，否则产品将无法销售。",
+    "selected": true,
+    "why": "合规是账号安全底线，官方明确要求特定品类必须认证，忽视将导致产品下架或账号封禁。",
+    "impact": "影响所有在亚马逊销售膳食补充剂、儿童玩具、电动出行产品的卖家，全球站点均适用。",
+    "action": "立即检查在售产品是否属于上述品类，联系亚马逊批准的认证机构进行测试，确保合规文件齐全。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "产品认证",
+      "安全标准"
+    ],
+    "eventId": "evt-6001a754ab2c"
   },
   {
     "id": "187671",
@@ -1813,7 +2371,8 @@ window.NEWS_DATA = [
       "知识产权",
       "品牌"
     ],
-    "eventId": "evt-50484a84e0b9"
+    "eventId": "evt-50484a84e0b9",
+    "sourceType": "media"
   },
   {
     "id": "187670",
@@ -1835,7 +2394,8 @@ window.NEWS_DATA = [
       "品牌孵化",
       "成功案例"
     ],
-    "eventId": "evt-07c6c1e68df5"
+    "eventId": "evt-07c6c1e68df5",
+    "sourceType": "media"
   },
   {
     "id": "187669",
@@ -1857,7 +2417,8 @@ window.NEWS_DATA = [
       "爆款案例",
       "亚马逊"
     ],
-    "eventId": "evt-ed9bc316910f"
+    "eventId": "evt-ed9bc316910f",
+    "sourceType": "media"
   },
   {
     "id": "187668",
@@ -1879,7 +2440,8 @@ window.NEWS_DATA = [
       "政策合规",
       "产品下架"
     ],
-    "eventId": "evt-3b2d7806255b"
+    "eventId": "evt-3b2d7806255b",
+    "sourceType": "media"
   },
   {
     "id": "lsch-f36a2c08",
@@ -1901,7 +2463,8 @@ window.NEWS_DATA = [
       "广告营销",
       "小游戏"
     ],
-    "eventId": "evt-512084197975"
+    "eventId": "evt-512084197975",
+    "sourceType": "media"
   },
   {
     "id": "187665",
@@ -1923,7 +2486,8 @@ window.NEWS_DATA = [
       "创业案例",
       "厨房电器"
     ],
-    "eventId": "evt-f9a6fb02fa86"
+    "eventId": "evt-f9a6fb02fa86",
+    "sourceType": "media"
   },
   {
     "id": "187663",
@@ -1945,7 +2509,8 @@ window.NEWS_DATA = [
       "市场数据",
       "盈利分析"
     ],
-    "eventId": "evt-532b156d0d80"
+    "eventId": "evt-532b156d0d80",
+    "sourceType": "media"
   },
   {
     "id": "187662",
@@ -1967,7 +2532,8 @@ window.NEWS_DATA = [
       "品牌孵化",
       "政策合规"
     ],
-    "eventId": "evt-177f039fbc58"
+    "eventId": "evt-177f039fbc58",
+    "sourceType": "media"
   },
   {
     "id": "187659",
@@ -1989,7 +2555,8 @@ window.NEWS_DATA = [
       "市场拓展",
       "选品"
     ],
-    "eventId": "evt-3ee2ca77d3ff"
+    "eventId": "evt-3ee2ca77d3ff",
+    "sourceType": "media"
   },
   {
     "id": "187658",
@@ -2013,7 +2580,8 @@ window.NEWS_DATA = [
       "亚马逊",
       "Temu"
     ],
-    "eventId": "evt-bd7991476b1d"
+    "eventId": "evt-bd7991476b1d",
+    "sourceType": "media"
   },
   {
     "id": "lsch-af32aa53",
@@ -2035,7 +2603,8 @@ window.NEWS_DATA = [
       "自动驾驶",
       "物流"
     ],
-    "eventId": "evt-86d4a1b0deac"
+    "eventId": "evt-86d4a1b0deac",
+    "sourceType": "media"
   },
   {
     "id": "lsch-6a36e6e6",
@@ -2057,7 +2626,8 @@ window.NEWS_DATA = [
       "餐饮出海",
       "消费市场"
     ],
-    "eventId": "evt-f597e9989939"
+    "eventId": "evt-f597e9989939",
+    "sourceType": "media"
   },
   {
     "id": "lsch-e69f51e3",
@@ -2079,7 +2649,8 @@ window.NEWS_DATA = [
       "储能",
       "市场竞争"
     ],
-    "eventId": "evt-b3cf93d5ba67"
+    "eventId": "evt-b3cf93d5ba67",
+    "sourceType": "media"
   },
   {
     "id": "lsch-3526a024",
@@ -2101,7 +2672,8 @@ window.NEWS_DATA = [
       "东南亚",
       "腾讯"
     ],
-    "eventId": "evt-8387d3490e94"
+    "eventId": "evt-8387d3490e94",
+    "sourceType": "media"
   },
   {
     "id": "187619",
@@ -2123,7 +2695,8 @@ window.NEWS_DATA = [
       "爆款",
       "亚马逊"
     ],
-    "eventId": "evt-ccab7acbae9d"
+    "eventId": "evt-ccab7acbae9d",
+    "sourceType": "media"
   },
   {
     "id": "lsch-648c71b5",
@@ -2145,7 +2718,8 @@ window.NEWS_DATA = [
       "手机壳",
       "品牌出海"
     ],
-    "eventId": "evt-f7d31c576204"
+    "eventId": "evt-f7d31c576204",
+    "sourceType": "media"
   },
   {
     "id": "187541",
@@ -2167,7 +2741,31 @@ window.NEWS_DATA = [
       "广告营销",
       "功能更新"
     ],
-    "eventId": "evt-01fa273a029f"
+    "eventId": "evt-01fa273a029f",
+    "sourceType": "media"
+  },
+  {
+    "id": "was-q-122231",
+    "date": "2026-07-15",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122231",
+    "sourceType": "community",
+    "score": 40,
+    "category": "platform",
+    "title": "大家开始改新标题了吗？看了一上午所有链接都是老标题，没有看到一个二段式的新标题",
+    "summary": "日本站卖家在社区询问是否已开始按亚马逊新标题格式要求修改，观察发现美国站和日本站链接仍多为老标题，未见二段式新标题。",
+    "selected": false,
+    "why": "社区讨论反映卖家对新标题格式的执行进度不一，但信息未经官方证实，仅作参考。",
+    "impact": "可能影响所有亚马逊卖家，尤其是美国站和日本站，但当前无明确执行要求。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "标题优化",
+      "社区讨论"
+    ],
+    "eventId": "evt-78d6bad77d81"
   },
   {
     "id": "lsch-cf1dacbc",
@@ -2189,7 +2787,8 @@ window.NEWS_DATA = [
       "市场行情",
       "科技投资"
     ],
-    "eventId": "evt-3c93ebf5ee5a"
+    "eventId": "evt-3c93ebf5ee5a",
+    "sourceType": "media"
   },
   {
     "id": "lsch-73c75624",
@@ -2211,7 +2810,8 @@ window.NEWS_DATA = [
       "市场行情",
       "科技合作"
     ],
-    "eventId": "evt-d7b9ed2971df"
+    "eventId": "evt-d7b9ed2971df",
+    "sourceType": "media"
   },
   {
     "id": "lsch-128c7672",
@@ -2234,7 +2834,8 @@ window.NEWS_DATA = [
       "选品",
       "本地化"
     ],
-    "eventId": "evt-7cc6a3efb2d4"
+    "eventId": "evt-7cc6a3efb2d4",
+    "sourceType": "media"
   },
   {
     "id": "187484",
@@ -2257,7 +2858,8 @@ window.NEWS_DATA = [
       "季节性",
       "亚马逊"
     ],
-    "eventId": "evt-cb7319c6a63f"
+    "eventId": "evt-cb7319c6a63f",
+    "sourceType": "media"
   },
   {
     "id": "lsch-6c35a640",
@@ -2279,7 +2881,8 @@ window.NEWS_DATA = [
       "市场行情",
       "政策合规"
     ],
-    "eventId": "evt-6798e2c78f09"
+    "eventId": "evt-6798e2c78f09",
+    "sourceType": "media"
   },
   {
     "id": "187420",
@@ -2301,7 +2904,32 @@ window.NEWS_DATA = [
       "广告营销",
       "选品"
     ],
-    "eventId": "evt-f66e2bd92d2c"
+    "eventId": "evt-f66e2bd92d2c",
+    "sourceType": "media"
+  },
+  {
+    "id": "amazon-forum-3e31fbb7-04e0-4ed4-873e-f74b1052e2ff",
+    "date": "2026-07-07",
+    "time": "23:02",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/3e31fbb7-04e0-4ed4-873e-f74b1052e2ff",
+    "sourceType": "official",
+    "score": 90,
+    "category": "platform",
+    "title": "2026年假日季：相同费用、相同资格、更早截止日期",
+    "summary": "亚马逊公布2026年假日季安排：Prime Big Deal Days与去年同期举行，黑五和网周紧随其后。Deal提交窗口：Prime Big Deal Days为7月8日至9月8日，黑五/网周为7月8日至10月20日。",
+    "selected": true,
+    "why": "假日季是全年最大销售机会，Deal提交截止日期明确，错过将无法参与，直接影响旺季销量。",
+    "impact": "影响所有亚马逊卖家，尤其是计划参与Prime Big Deal Days、黑五和网周促销的卖家。",
+    "action": "立即规划促销活动，在截止日期前提交Deal申请，同时根据Q4峰值准备指南优化库存和运营。",
+    "deadline": "2026-09-08",
+    "tags": [
+      "亚马逊",
+      "假日季",
+      "促销",
+      "截止日期"
+    ],
+    "eventId": "evt-19af5852727e"
   },
   {
     "id": "187348",
@@ -2322,7 +2950,32 @@ window.NEWS_DATA = [
       "广告营销",
       "多站点"
     ],
-    "eventId": "evt-e79b11a5e109"
+    "eventId": "evt-e79b11a5e109",
+    "sourceType": "media"
+  },
+  {
+    "id": "amazon-forum-7336583f-09ac-41de-99d1-667017a88db2",
+    "date": "2026-07-06",
+    "time": "23:47",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/7336583f-09ac-41de-99d1-667017a88db2",
+    "sourceType": "official",
+    "score": 75,
+    "category": "platform",
+    "title": "Featured Offer资格要求更新",
+    "summary": "亚马逊宣布自2026年7月起逐步移除Featured Offer的卖家资格要求，预计2026年底前完成全球所有站点更新。现有报价将自动纳入，无需卖家操作。",
+    "selected": true,
+    "why": "此变化可能降低获得购物车的门槛，但竞争可能加剧，卖家需关注后续影响。",
+    "impact": "影响所有亚马逊卖家，尤其是此前因绩效不达标而无法获得Featured Offer的卖家。",
+    "action": "无需立即操作，但应关注后续更新，并持续优化产品定价和绩效以保持竞争力。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "购物车",
+      "政策更新",
+      "卖家资格"
+    ],
+    "eventId": "evt-d63f94c2c709"
   },
   {
     "id": "amz-JrJ0TDAR",
@@ -2345,7 +2998,8 @@ window.NEWS_DATA = [
       "政策合规",
       "费用调整"
     ],
-    "eventId": "evt-cd7110b302d6"
+    "eventId": "evt-cd7110b302d6",
+    "sourceType": "media"
   },
   {
     "id": "amz-5R18M3eA",
@@ -2368,7 +3022,8 @@ window.NEWS_DATA = [
       "虚拟产品",
       "高毛利"
     ],
-    "eventId": "evt-708cf359fc87"
+    "eventId": "evt-708cf359fc87",
+    "sourceType": "media"
   },
   {
     "id": "amz-IKHwjgKx",
@@ -2391,7 +3046,8 @@ window.NEWS_DATA = [
       "Shopee",
       "TikTok Shop"
     ],
-    "eventId": "evt-85482f8d846f"
+    "eventId": "evt-85482f8d846f",
+    "sourceType": "media"
   },
   {
     "id": "amz-tNE6yCTx",
@@ -2414,7 +3070,8 @@ window.NEWS_DATA = [
       "政策合规",
       "BSMI"
     ],
-    "eventId": "evt-4cc6cc9b8bf5"
+    "eventId": "evt-4cc6cc9b8bf5",
+    "sourceType": "media"
   },
   {
     "id": "amz-eYPp1Nfl",
@@ -2437,7 +3094,8 @@ window.NEWS_DATA = [
       "税务",
       "中国"
     ],
-    "eventId": "evt-3f522553412a"
+    "eventId": "evt-3f522553412a",
+    "sourceType": "media"
   },
   {
     "id": "amz-XBt6qVzF",
@@ -2461,7 +3119,8 @@ window.NEWS_DATA = [
       "广告营销",
       "玩具"
     ],
-    "eventId": "evt-63f66fd18eb2"
+    "eventId": "evt-63f66fd18eb2",
+    "sourceType": "media"
   },
   {
     "id": "amz-XxCHUTvh",
@@ -2484,7 +3143,8 @@ window.NEWS_DATA = [
       "物流仓储",
       "功能更新"
     ],
-    "eventId": "evt-4fa23b779705"
+    "eventId": "evt-4fa23b779705",
+    "sourceType": "media"
   },
   {
     "id": "187297",
@@ -2507,7 +3167,8 @@ window.NEWS_DATA = [
       "下架风险",
       "亚马逊"
     ],
-    "eventId": "evt-0f73d84dce26"
+    "eventId": "evt-0f73d84dce26",
+    "sourceType": "media"
   },
   {
     "id": "lsch-9f9745fe",
@@ -2530,7 +3191,8 @@ window.NEWS_DATA = [
       "选品",
       "市场趋势"
     ],
-    "eventId": "evt-51453e59542a"
+    "eventId": "evt-51453e59542a",
+    "sourceType": "media"
   },
   {
     "id": "amz-TV3AT2yu",
@@ -2552,7 +3214,8 @@ window.NEWS_DATA = [
       "服务调整",
       "数据备份"
     ],
-    "eventId": "evt-3d3c117a25f6"
+    "eventId": "evt-3d3c117a25f6",
+    "sourceType": "media"
   },
   {
     "id": "187296",
@@ -2575,7 +3238,8 @@ window.NEWS_DATA = [
       "季节性",
       "热销"
     ],
-    "eventId": "evt-0023781ab7b9"
+    "eventId": "evt-0023781ab7b9",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fr1r1c1bivpc",
@@ -2598,7 +3262,8 @@ window.NEWS_DATA = [
       "跨境企业",
       "风险"
     ],
-    "eventId": "evt-d5efe6041979"
+    "eventId": "evt-d5efe6041979",
+    "sourceType": "media"
   },
   {
     "id": "lsch-22b55143",
@@ -2620,7 +3285,8 @@ window.NEWS_DATA = [
       "全球化",
       "市场趋势"
     ],
-    "eventId": "evt-4ac0b18f8811"
+    "eventId": "evt-4ac0b18f8811",
+    "sourceType": "media"
   },
   {
     "id": "lsch-6e217fba",
@@ -2642,7 +3308,8 @@ window.NEWS_DATA = [
       "投资",
       "中东市场"
     ],
-    "eventId": "evt-6d9553705c54"
+    "eventId": "evt-6d9553705c54",
+    "sourceType": "media"
   },
   {
     "id": "lsch-8d2623f9",
@@ -2664,7 +3331,8 @@ window.NEWS_DATA = [
       "能源",
       "电网"
     ],
-    "eventId": "evt-a80f1d992254"
+    "eventId": "evt-a80f1d992254",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqzj65fiwo3k",
@@ -2687,7 +3355,8 @@ window.NEWS_DATA = [
       "包装法规",
       "西班牙"
     ],
-    "eventId": "evt-42aebd68ce1e"
+    "eventId": "evt-42aebd68ce1e",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqzia995mosg",
@@ -2710,7 +3379,8 @@ window.NEWS_DATA = [
       "香港公司",
       "税务"
     ],
-    "eventId": "evt-386f214727b0"
+    "eventId": "evt-386f214727b0",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqzgucejgsn4",
@@ -2733,7 +3403,8 @@ window.NEWS_DATA = [
       "旺季",
       "工具"
     ],
-    "eventId": "evt-f109a8e1fa98"
+    "eventId": "evt-f109a8e1fa98",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqzh811v1atc",
@@ -2756,7 +3427,8 @@ window.NEWS_DATA = [
       "案例",
       "季节性"
     ],
-    "eventId": "evt-e4599be670f9"
+    "eventId": "evt-e4599be670f9",
+    "sourceType": "media"
   },
   {
     "id": "187291",
@@ -2779,7 +3451,8 @@ window.NEWS_DATA = [
       "合规",
       "搜索优化"
     ],
-    "eventId": "evt-517184c73327"
+    "eventId": "evt-517184c73327",
+    "sourceType": "media"
   },
   {
     "id": "amz-QpOO2wRB",
@@ -2801,7 +3474,8 @@ window.NEWS_DATA = [
       "市场数据",
       "宏观趋势"
     ],
-    "eventId": "evt-3c73858ce619"
+    "eventId": "evt-3c73858ce619",
+    "sourceType": "media"
   },
   {
     "id": "amz-TjlsusTN",
@@ -2824,7 +3498,8 @@ window.NEWS_DATA = [
       "市场趋势",
       "电商渗透率"
     ],
-    "eventId": "evt-cfcde220ca87"
+    "eventId": "evt-cfcde220ca87",
+    "sourceType": "media"
   },
   {
     "id": "amz-DeYJGwcc",
@@ -2847,7 +3522,8 @@ window.NEWS_DATA = [
       "政策合规",
       "大模型"
     ],
-    "eventId": "evt-d5d25083aabc"
+    "eventId": "evt-d5d25083aabc",
+    "sourceType": "media"
   },
   {
     "id": "amz-7OSvuaeF",
@@ -2870,7 +3546,8 @@ window.NEWS_DATA = [
       "走私",
       "税务"
     ],
-    "eventId": "evt-6605ec567e71"
+    "eventId": "evt-6605ec567e71",
+    "sourceType": "media"
   },
   {
     "id": "187271",
@@ -2894,7 +3571,8 @@ window.NEWS_DATA = [
       "物流仓储",
       "包装认证"
     ],
-    "eventId": "evt-80d21ebe9c8f"
+    "eventId": "evt-80d21ebe9c8f",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqzbl4dsj1ts",
@@ -2916,7 +3594,8 @@ window.NEWS_DATA = [
       "跨境电商",
       "品牌建设"
     ],
-    "eventId": "evt-5332e4c12992"
+    "eventId": "evt-5332e4c12992",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqzb51o3etj4",
@@ -2938,7 +3617,8 @@ window.NEWS_DATA = [
       "物流仓储",
       "罚款"
     ],
-    "eventId": "evt-5b822ee5d6f3"
+    "eventId": "evt-5b822ee5d6f3",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqz9y64p6sqo",
@@ -2960,7 +3640,8 @@ window.NEWS_DATA = [
       "台风",
       "海南"
     ],
-    "eventId": "evt-eef2c0ab8780"
+    "eventId": "evt-eef2c0ab8780",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqz90b5r06io",
@@ -2983,7 +3664,8 @@ window.NEWS_DATA = [
       "站外推广",
       "功能下线"
     ],
-    "eventId": "evt-33a456ef99ff"
+    "eventId": "evt-33a456ef99ff",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqz7dv8ybu9s",
@@ -3006,7 +3688,8 @@ window.NEWS_DATA = [
       "IPO",
       "资本市场"
     ],
-    "eventId": "evt-fe25e35a1f86"
+    "eventId": "evt-fe25e35a1f86",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqz7efw04h6o",
@@ -3030,7 +3713,8 @@ window.NEWS_DATA = [
       "广告营销",
       "功能更新"
     ],
-    "eventId": "evt-a78ea5fa1e80"
+    "eventId": "evt-a78ea5fa1e80",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqz7d3a3r2f4",
@@ -3053,7 +3737,8 @@ window.NEWS_DATA = [
       "选品",
       "厨房用品"
     ],
-    "eventId": "evt-8554635dc4e9"
+    "eventId": "evt-8554635dc4e9",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqz7d3a3r2f6",
@@ -3077,7 +3762,8 @@ window.NEWS_DATA = [
       "政策合规",
       "广告营销"
     ],
-    "eventId": "evt-d25b7c28de17"
+    "eventId": "evt-d25b7c28de17",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqz7d3a3r2f5",
@@ -3101,7 +3787,8 @@ window.NEWS_DATA = [
       "市场数据",
       "直播"
     ],
-    "eventId": "evt-45abbbce7958"
+    "eventId": "evt-45abbbce7958",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqz7bov01fcw",
@@ -3125,7 +3812,8 @@ window.NEWS_DATA = [
       "AI搜索",
       "功能更新"
     ],
-    "eventId": "evt-1b93919d196c"
+    "eventId": "evt-1b93919d196c",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqz66qcftbsw",
@@ -3148,7 +3836,8 @@ window.NEWS_DATA = [
       "Reebok",
       "多赛道"
     ],
-    "eventId": "evt-343750a6e9aa"
+    "eventId": "evt-343750a6e9aa",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqz45ug0kpvk",
@@ -3172,7 +3861,8 @@ window.NEWS_DATA = [
       "Temu",
       "3C"
     ],
-    "eventId": "evt-40c4cc0bcdc9"
+    "eventId": "evt-40c4cc0bcdc9",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqz32431qfwg",
@@ -3197,7 +3887,8 @@ window.NEWS_DATA = [
       "Temu",
       "SHEIN"
     ],
-    "eventId": "evt-d1b1c027d213"
+    "eventId": "evt-d1b1c027d213",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqyzrfahy0hs",
@@ -3219,7 +3910,8 @@ window.NEWS_DATA = [
       "网络安全",
       "技术"
     ],
-    "eventId": "evt-ddda573b4d11"
+    "eventId": "evt-ddda573b4d11",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqyzgro6tq80",
@@ -3241,7 +3933,8 @@ window.NEWS_DATA = [
       "人才",
       "市场趋势"
     ],
-    "eventId": "evt-c05abc788b5b"
+    "eventId": "evt-c05abc788b5b",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqyyg7h0x91c",
@@ -3263,7 +3956,8 @@ window.NEWS_DATA = [
       "融资",
       "视频生成"
     ],
-    "eventId": "evt-36c674741f51"
+    "eventId": "evt-36c674741f51",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqyyd80eoi68",
@@ -3285,7 +3979,8 @@ window.NEWS_DATA = [
       "融资",
       "创作工具"
     ],
-    "eventId": "evt-ad1e5c94f383"
+    "eventId": "evt-ad1e5c94f383",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqylp023naio",
@@ -3309,7 +4004,8 @@ window.NEWS_DATA = [
       "流量",
       "税务合规"
     ],
-    "eventId": "evt-7875cf2cc544"
+    "eventId": "evt-7875cf2cc544",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqno7ohpigao",
@@ -3334,7 +4030,8 @@ window.NEWS_DATA = [
       "折扣",
       "GMV"
     ],
-    "eventId": "evt-9faa74790ac5"
+    "eventId": "evt-9faa74790ac5",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqygxk0yo1kw",
@@ -3356,7 +4053,8 @@ window.NEWS_DATA = [
       "全球化",
       "策略"
     ],
-    "eventId": "evt-6a10926efbe4"
+    "eventId": "evt-6a10926efbe4",
+    "sourceType": "media"
   },
   {
     "id": "187265",
@@ -3380,7 +4078,8 @@ window.NEWS_DATA = [
       "流量",
       "推荐"
     ],
-    "eventId": "evt-1c4f0263dde4"
+    "eventId": "evt-1c4f0263dde4",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqzf7mc6n8cg",
@@ -3403,7 +4102,8 @@ window.NEWS_DATA = [
       "自动化",
       "AIGC"
     ],
-    "eventId": "evt-c9eb21bfee9d"
+    "eventId": "evt-c9eb21bfee9d",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqysti88229s",
@@ -3426,7 +4126,8 @@ window.NEWS_DATA = [
       "政策合规",
       "Passkey"
     ],
-    "eventId": "evt-526b2ac0589c"
+    "eventId": "evt-526b2ac0589c",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqyqc6hpwhz4",
@@ -3447,7 +4148,8 @@ window.NEWS_DATA = [
       "出海",
       "行业组织"
     ],
-    "eventId": "evt-4aa5637c66cb"
+    "eventId": "evt-4aa5637c66cb",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqyj7v037sow",
@@ -3472,7 +4174,8 @@ window.NEWS_DATA = [
       "MSC",
       "委内瑞拉"
     ],
-    "eventId": "evt-d4628355e105"
+    "eventId": "evt-d4628355e105",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqyj7v037sox",
@@ -3494,7 +4197,8 @@ window.NEWS_DATA = [
       "美团",
       "本地生活"
     ],
-    "eventId": "evt-ba8357822aec"
+    "eventId": "evt-ba8357822aec",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqyj7qsivlds",
@@ -3517,7 +4221,8 @@ window.NEWS_DATA = [
       "虚假宣传",
       "合规"
     ],
-    "eventId": "evt-e6c84252cb60"
+    "eventId": "evt-e6c84252cb60",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqyj6du7ij2a",
@@ -3541,7 +4246,8 @@ window.NEWS_DATA = [
       "物流仓储",
       "供应链"
     ],
-    "eventId": "evt-0d167b015b7b"
+    "eventId": "evt-0d167b015b7b",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqyj6du7ij29",
@@ -3564,7 +4270,8 @@ window.NEWS_DATA = [
       "航运",
       "财报"
     ],
-    "eventId": "evt-e264a2a47365"
+    "eventId": "evt-e264a2a47365",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqyj6gq1skjl",
@@ -3589,7 +4296,8 @@ window.NEWS_DATA = [
       "TikTok Shop",
       "选品"
     ],
-    "eventId": "evt-6b70e872a54d"
+    "eventId": "evt-6b70e872a54d",
+    "sourceType": "media"
   },
   {
     "id": "mjzj-fqygr61wpm2o",
@@ -3611,7 +4319,8 @@ window.NEWS_DATA = [
       "全球化",
       "行业活动"
     ],
-    "eventId": "evt-84846e8bce10"
+    "eventId": "evt-84846e8bce10",
+    "sourceType": "media"
   },
   {
     "id": "187257",
@@ -3634,7 +4343,8 @@ window.NEWS_DATA = [
       "亚马逊",
       "合规"
     ],
-    "eventId": "evt-3c88cd81c8d4"
+    "eventId": "evt-3c88cd81c8d4",
+    "sourceType": "media"
   },
   {
     "id": "187244",
@@ -3657,7 +4367,8 @@ window.NEWS_DATA = [
       "广告营销",
       "功能更新"
     ],
-    "eventId": "evt-4e3bb89211d0"
+    "eventId": "evt-4e3bb89211d0",
+    "sourceType": "media"
   },
   {
     "id": "187243",
@@ -3680,7 +4391,8 @@ window.NEWS_DATA = [
       "政策合规",
       "东南亚"
     ],
-    "eventId": "evt-1a4f4339314e"
+    "eventId": "evt-1a4f4339314e",
+    "sourceType": "media"
   },
   {
     "id": "lsch-cbea0350",
@@ -3703,7 +4415,8 @@ window.NEWS_DATA = [
       "营销",
       "市场动态"
     ],
-    "eventId": "evt-fde6c1e47edb"
+    "eventId": "evt-fde6c1e47edb",
+    "sourceType": "media"
   },
   {
     "id": "amz-aScvG7g9",
@@ -3726,7 +4439,8 @@ window.NEWS_DATA = [
       "知识产权",
       "合规"
     ],
-    "eventId": "evt-5e61d138ec3f"
+    "eventId": "evt-5e61d138ec3f",
+    "sourceType": "media"
   },
   {
     "id": "amz-lM9ke4gc",
@@ -3749,7 +4463,8 @@ window.NEWS_DATA = [
       "选品",
       "市场数据"
     ],
-    "eventId": "evt-929ff6160417"
+    "eventId": "evt-929ff6160417",
+    "sourceType": "media"
   },
   {
     "id": "amz-37WNGlyN",
@@ -3772,7 +4487,8 @@ window.NEWS_DATA = [
       "税务",
       "电子发票"
     ],
-    "eventId": "evt-58d19dd55eab"
+    "eventId": "evt-58d19dd55eab",
+    "sourceType": "media"
   },
   {
     "id": "amz-EQm3SPPZ",
@@ -3795,7 +4511,8 @@ window.NEWS_DATA = [
       "广告营销",
       "联盟计划"
     ],
-    "eventId": "evt-521f3de4f498"
+    "eventId": "evt-521f3de4f498",
+    "sourceType": "media"
   },
   {
     "id": "amz-JUheJVD7",
@@ -3818,7 +4535,8 @@ window.NEWS_DATA = [
       "家电",
       "认证"
     ],
-    "eventId": "evt-2cc4e920e07e"
+    "eventId": "evt-2cc4e920e07e",
+    "sourceType": "media"
   },
   {
     "id": "amz-eeK5TrRS",
@@ -3841,7 +4559,8 @@ window.NEWS_DATA = [
       "TikTok Shop",
       "社交媒体"
     ],
-    "eventId": "evt-3a4def8b69df"
+    "eventId": "evt-3a4def8b69df",
+    "sourceType": "media"
   },
   {
     "id": "amz-gO8YPQ9B",
@@ -3864,7 +4583,8 @@ window.NEWS_DATA = [
       "中东",
       "风险"
     ],
-    "eventId": "evt-b8ce8813fedf"
+    "eventId": "evt-b8ce8813fedf",
+    "sourceType": "media"
   },
   {
     "id": "amz-B3jFUy0J",
@@ -3888,7 +4608,8 @@ window.NEWS_DATA = [
       "贸易业务",
       "物流中断"
     ],
-    "eventId": "evt-29a6a7ce0703"
+    "eventId": "evt-29a6a7ce0703",
+    "sourceType": "media"
   },
   {
     "id": "amz-L73qs5Pp",
@@ -3912,7 +4633,8 @@ window.NEWS_DATA = [
       "长三角",
       "物流仓储"
     ],
-    "eventId": "evt-a6bcb62b817e"
+    "eventId": "evt-a6bcb62b817e",
+    "sourceType": "media"
   },
   {
     "id": "amz-0CWptcE8",
@@ -3936,7 +4658,8 @@ window.NEWS_DATA = [
       "莫斯科",
       "物流仓储"
     ],
-    "eventId": "evt-3a9b8d009c3e"
+    "eventId": "evt-3a9b8d009c3e",
+    "sourceType": "media"
   },
   {
     "id": "amz-llzExTt4",
@@ -3960,7 +4683,8 @@ window.NEWS_DATA = [
       "C-TPAT",
       "政策合规"
     ],
-    "eventId": "evt-6ffa4feb681b"
+    "eventId": "evt-6ffa4feb681b",
+    "sourceType": "media"
   },
   {
     "id": "amz-pqRr4sm3",
@@ -3984,7 +4708,8 @@ window.NEWS_DATA = [
       "平台整合",
       "流量集中"
     ],
-    "eventId": "evt-587ec656d6c3"
+    "eventId": "evt-587ec656d6c3",
+    "sourceType": "media"
   },
   {
     "id": "amz-M49erFx6",
@@ -4008,7 +4733,8 @@ window.NEWS_DATA = [
       "Costco",
       "市场行情"
     ],
-    "eventId": "evt-385a69e80662"
+    "eventId": "evt-385a69e80662",
+    "sourceType": "media"
   },
   {
     "id": "amz-20tKdME1",
@@ -4032,7 +4758,8 @@ window.NEWS_DATA = [
       "政策合规",
       "俄罗斯"
     ],
-    "eventId": "evt-1cd425645be7"
+    "eventId": "evt-1cd425645be7",
+    "sourceType": "media"
   },
   {
     "id": "amz-jhHHb1eY",
@@ -4055,7 +4782,8 @@ window.NEWS_DATA = [
       "和解",
       "法律动态"
     ],
-    "eventId": "evt-7b3076b1d202"
+    "eventId": "evt-7b3076b1d202",
+    "sourceType": "media"
   },
   {
     "id": "amz-HFv6BLu9",
@@ -4080,7 +4808,8 @@ window.NEWS_DATA = [
       "收购",
       "政策合规"
     ],
-    "eventId": "evt-06d2e6eb858e"
+    "eventId": "evt-06d2e6eb858e",
+    "sourceType": "media"
   },
   {
     "id": "amz-3NDbEAkh",
@@ -4104,7 +4833,8 @@ window.NEWS_DATA = [
       "广告营销",
       "达人营销"
     ],
-    "eventId": "evt-edc9d1b5bf43"
+    "eventId": "evt-edc9d1b5bf43",
+    "sourceType": "media"
   },
   {
     "id": "187212",
@@ -4127,7 +4857,8 @@ window.NEWS_DATA = [
       "上市",
       "行业动态"
     ],
-    "eventId": "evt-96a592166279"
+    "eventId": "evt-96a592166279",
+    "sourceType": "media"
   },
   {
     "id": "187209",
@@ -4151,7 +4882,8 @@ window.NEWS_DATA = [
       "知识产权",
       "资金冻结"
     ],
-    "eventId": "evt-e5739a2777aa"
+    "eventId": "evt-e5739a2777aa",
+    "sourceType": "media"
   },
   {
     "id": "187201",
@@ -4174,7 +4906,8 @@ window.NEWS_DATA = [
       "选品",
       "案例"
     ],
-    "eventId": "evt-9b683901b30a"
+    "eventId": "evt-9b683901b30a",
+    "sourceType": "media"
   },
   {
     "id": "187208",
@@ -4199,7 +4932,8 @@ window.NEWS_DATA = [
       "政策合规",
       "物流仓储"
     ],
-    "eventId": "evt-f707f71a4dbb"
+    "eventId": "evt-f707f71a4dbb",
+    "sourceType": "media"
   },
   {
     "id": "187193",
@@ -4223,7 +4957,8 @@ window.NEWS_DATA = [
       "菲律宾",
       "政策合规"
     ],
-    "eventId": "evt-bb75fdc57fbe"
+    "eventId": "evt-bb75fdc57fbe",
+    "sourceType": "media"
   },
   {
     "id": "187187",
@@ -4245,7 +4980,8 @@ window.NEWS_DATA = [
       "市场行情",
       "韩国"
     ],
-    "eventId": "evt-6b713489623b"
+    "eventId": "evt-6b713489623b",
+    "sourceType": "media"
   },
   {
     "id": "187185",
@@ -4268,7 +5004,8 @@ window.NEWS_DATA = [
       "物流仓储",
       "FBM"
     ],
-    "eventId": "evt-c454be403244"
+    "eventId": "evt-c454be403244",
+    "sourceType": "media"
   },
   {
     "id": "187184",
@@ -4289,7 +5026,8 @@ window.NEWS_DATA = [
       "亚马逊",
       "广告营销"
     ],
-    "eventId": "evt-ed564875cca4"
+    "eventId": "evt-ed564875cca4",
+    "sourceType": "media"
   },
   {
     "id": "187183",
@@ -4311,7 +5049,8 @@ window.NEWS_DATA = [
       "广告营销",
       "美国"
     ],
-    "eventId": "evt-66b0e549e77c"
+    "eventId": "evt-66b0e549e77c",
+    "sourceType": "media"
   },
   {
     "id": "187181",
@@ -4333,7 +5072,8 @@ window.NEWS_DATA = [
       "选品",
       "市场行情"
     ],
-    "eventId": "evt-48d671450792"
+    "eventId": "evt-48d671450792",
+    "sourceType": "media"
   },
   {
     "id": "187180",
@@ -4355,7 +5095,8 @@ window.NEWS_DATA = [
       "广告营销",
       "东欧"
     ],
-    "eventId": "evt-7385a283585e"
+    "eventId": "evt-7385a283585e",
+    "sourceType": "media"
   },
   {
     "id": "187179",
@@ -4378,7 +5119,8 @@ window.NEWS_DATA = [
       "选品",
       "政策合规"
     ],
-    "eventId": "evt-23679c2781d9"
+    "eventId": "evt-23679c2781d9",
+    "sourceType": "media"
   },
   {
     "id": "187178",
@@ -4402,7 +5144,8 @@ window.NEWS_DATA = [
       "亚马逊",
       "TikTok Shop"
     ],
-    "eventId": "evt-423ee8151e8c"
+    "eventId": "evt-423ee8151e8c",
+    "sourceType": "media"
   },
   {
     "id": "187175",
@@ -4424,7 +5167,8 @@ window.NEWS_DATA = [
       "市场行情",
       "亚马逊"
     ],
-    "eventId": "evt-9929a1cd9730"
+    "eventId": "evt-9929a1cd9730",
+    "sourceType": "media"
   },
   {
     "id": "187171",
@@ -4446,7 +5190,55 @@ window.NEWS_DATA = [
       "市场行情",
       "拉美"
     ],
-    "eventId": "evt-5118f4d16116"
+    "eventId": "evt-5118f4d16116",
+    "sourceType": "media"
+  },
+  {
+    "id": "amazon-forum-57222b70-40df-4574-aa0f-9f815c197987",
+    "date": "2026-06-30",
+    "time": "16:02",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/57222b70-40df-4574-aa0f-9f815c197987",
+    "sourceType": "official",
+    "score": 85,
+    "category": "logistics",
+    "title": "卖家自配送订单新增营业时间配送要求",
+    "summary": "亚马逊宣布自2026年9月30日起，美国站卖家自配送订单需维持90%或以上的营业时间配送率，该指标基于现有的营业时间配送指标计算。",
+    "selected": true,
+    "why": "新要求直接影响卖家自配送绩效，不达标可能导致账号限制，需提前调整物流流程。",
+    "impact": "影响所有使用卖家自配送（FBM）的美国站卖家，尤其是面向企业客户的卖家。",
+    "action": "检查现有配送流程，确保能在客户营业时间内完成配送，必要时调整物流合作伙伴或配送时间安排。",
+    "deadline": "2026-09-30",
+    "tags": [
+      "亚马逊",
+      "物流",
+      "卖家自配送",
+      "绩效要求"
+    ],
+    "eventId": "evt-09acb0a14f45"
+  },
+  {
+    "id": "amazon-forum-8cc9ea8c-6e1c-4c32-812c-28de469f3df4",
+    "date": "2026-06-30",
+    "time": "15:33",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/8cc9ea8c-6e1c-4c32-812c-28de469f3df4",
+    "sourceType": "official",
+    "score": 60,
+    "category": "platform",
+    "title": "7月起Seller Central将支持通行密钥登录",
+    "summary": "亚马逊宣布自2026年7月起，所有Seller Central账户将支持通行密钥登录，这是一种无密码的安全登录方式，可使用指纹、面部识别或PIN码。",
+    "selected": false,
+    "why": "通行密钥提升账户安全性，防止钓鱼攻击，但非强制要求，卖家可自愿选择是否启用。",
+    "impact": "影响所有亚马逊卖家，提供更安全的登录选项，但无强制截止日期。",
+    "action": "7月后可在Seller Central设置中启用通行密钥，建议优先使用以增强账户安全。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "账户安全",
+      "功能更新"
+    ],
+    "eventId": "evt-3621d33e2c14"
   },
   {
     "id": "187167",
@@ -4468,7 +5260,8 @@ window.NEWS_DATA = [
       "行业动态",
       "出海"
     ],
-    "eventId": "evt-7a36f8714871"
+    "eventId": "evt-7a36f8714871",
+    "sourceType": "media"
   },
   {
     "id": "lsch-9743448d",
@@ -4489,7 +5282,8 @@ window.NEWS_DATA = [
       "市场行情",
       "中东"
     ],
-    "eventId": "evt-355f08171009"
+    "eventId": "evt-355f08171009",
+    "sourceType": "media"
   },
   {
     "id": "187136",
@@ -4511,7 +5305,8 @@ window.NEWS_DATA = [
       "亚马逊",
       "广告营销"
     ],
-    "eventId": "evt-b90fb04873a2"
+    "eventId": "evt-b90fb04873a2",
+    "sourceType": "media"
   },
   {
     "id": "187135",
@@ -4533,7 +5328,8 @@ window.NEWS_DATA = [
       "政策合规",
       "多站点"
     ],
-    "eventId": "evt-0a620dcd7f82"
+    "eventId": "evt-0a620dcd7f82",
+    "sourceType": "media"
   },
   {
     "id": "187134",
@@ -4553,7 +5349,8 @@ window.NEWS_DATA = [
     "tags": [
       "广告营销"
     ],
-    "eventId": "evt-d213e5d06598"
+    "eventId": "evt-d213e5d06598",
+    "sourceType": "media"
   },
   {
     "id": "187126",
@@ -4574,7 +5371,8 @@ window.NEWS_DATA = [
       "亚马逊",
       "平台"
     ],
-    "eventId": "evt-9cbecf97741e"
+    "eventId": "evt-9cbecf97741e",
+    "sourceType": "media"
   },
   {
     "id": "186999",
@@ -4599,6 +5397,55 @@ window.NEWS_DATA = [
       "英国站",
       "德国站"
     ],
-    "eventId": "evt-8a191e2e2341"
+    "eventId": "evt-8a191e2e2341",
+    "sourceType": "media"
+  },
+  {
+    "id": "amazon-forum-145b6d0f-999c-4555-896c-c694bda2e470",
+    "date": "2026-06-11",
+    "time": "02:31",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/145b6d0f-999c-4555-896c-c694bda2e470",
+    "sourceType": "official",
+    "score": 85,
+    "category": "policy",
+    "title": "亚马逊产品标题更新：7月27日起限制75个字符",
+    "summary": "亚马逊宣布自2026年7月27日起，除媒体类目外，所有产品标题需控制在75个字符以内（含空格），以优化移动端购物体验。",
+    "selected": true,
+    "why": "标题字符限制直接影响Listing的合规性和曝光，卖家需提前调整，避免违规导致流量下降。",
+    "impact": "影响所有亚马逊卖家（除媒体类目），需重新优化标题，尤其是长标题产品。",
+    "action": "立即检查现有标题长度，对超过75字符的标题进行精简，确保核心关键词和卖点突出。",
+    "deadline": "2026-07-27",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "产品标题",
+      "移动端"
+    ],
+    "eventId": "evt-e50fd8e864c9"
+  },
+  {
+    "id": "amazon-forum-da197a8b-e781-4530-99db-eb0ac8a5876d",
+    "date": "2026-05-28",
+    "time": "01:17",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/da197a8b-e781-4530-99db-eb0ac8a5876d",
+    "sourceType": "official",
+    "score": 80,
+    "category": "logistics",
+    "title": "亚马逊推出卖家自配送产品的新配送时效要求",
+    "summary": "亚马逊实施新的配送时效要求，以优化卖家自配送产品的承诺送达时间，数据显示配送时效每提升1天可带来平均5%的销售增长。",
+    "selected": true,
+    "why": "新要求直接影响卖家自配送订单的客户体验和转化率，卖家需调整处理时间设置以符合标准。",
+    "impact": "影响所有使用亚马逊卖家自配送（FBM）的卖家，尤其是处理时间设置较长的卖家。",
+    "action": "检查账户级别和SKU级别的处理时间设置，确保符合新要求，并考虑优化仓储和发货流程以缩短处理时间。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储",
+      "卖家自配送",
+      "配送时效"
+    ],
+    "eventId": "evt-c6b456122567"
   }
 ];

@@ -403,6 +403,17 @@ button { font-family: inherit; }
   padding: 1px 6px;
 }
 
+.source-type {
+  flex-shrink: 0;
+  padding: 0 5px;
+  border: 1px solid currentColor;
+  border-radius: var(--radius-sm);
+  font-size: var(--text-xs);
+  line-height: 1.45;
+}
+.source-type-official { color: var(--color-success); background: var(--color-success-subtle); }
+.source-type-community { color: var(--color-info); background: var(--color-bg-secondary); }
+
 .row-ref {
   flex-shrink: 0;
   font-size: var(--text-xs);

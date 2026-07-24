@@ -13,7 +13,7 @@
 - 同一事件用 `eventId` 聚合。`scripts/fetch_news.py` 每次写数据前会按标题相似度补齐事件ID；精选流折叠同事件条目，全部动态保留原始条目。
 - 数据鲜度放在 `data/meta.js` 的 `window.NEWS_META`，由抓取脚本每次运行后更新。页面仍然不能通过fetch读取本地数据。
 - AMZ123 的发现方式是从已知快讯页链式爬（amz123_discover），种子来自库里最近的 amz-条目和转载ref，断种子时用 AMZ_SEED 兜底。它家 sitemap 是坏的，列表页是客户端渲染，别试。
-- 加数据源：在 `scripts/fetch_news.py` 的 SOURCES 注册表里加一项（extract / detail_time / detail_summary / match_id 四个函数），只接服务端渲染的源。改完跑 `python scripts/test_fetch.py`。
+- 加数据源：在 `scripts/fetch_news.py` 的 SOURCES 注册表里加一项（discover / detail_accept / detail_time / detail_summary / detail_title / match_id），只接服务端渲染且robots允许访问的公开源。同步设置`source_type`，取值仅限official / media / community。改完跑 `python scripts/test_fetch.py`。
 - LLM密钥放 `.env.local`（已gitignore）或环境变量 CBHOT_LLM_API_KEY，禁止写进代码、commit和派工prompt。
 - 设计令牌集中在 `assets/style.css` 的 `:root`，遵循 `~/.claude/rules/design_template.md` 的变量命名。不要写死色值到组件样式里。
 - 视觉基准是 aihot 的浅色时间线风格：白底、40px等宽时间列、衬线体日期栏、评分按档位着色（>=75 绿、>=65 品牌橙、其余灰）。改版式前先对照参考站。
@@ -25,4 +25,5 @@
 - aihot.virxact.com 无 UA 的 curl 会 403，带浏览器 UA 正常。
 - 36氪出海的锚文本里混着emotion的CSS规则文本（`@media{...}`、`.css-xxx{...}`），标题必须过 `clean_text` 清洗；部分文章页的 meta description 是站点宣传语（含「36氪出海」「信息差」字样），不能当摘要用。
 - cifnews 首页会混入置顶旧文章，抓取层用「文章id距页面最大id超过3000就丢弃」过滤。
+- Amazon卖家论坛只抓News and Announcements分类，并用原帖作者名`*_Amazon`二次校验官方身份。知无不言只抓公开问题，私密悬赏、付费围观和活动推广必须过滤。微信公众号robots禁止通用爬取，不接自动抓取。
 - 详情页抓取间隔0.4秒，别去掉，避免被源站限流。

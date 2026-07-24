@@ -41,6 +41,7 @@ legacy = {"id": "legacy", "date": "2026-07-01", "time": "10:00", "score": 70,
 fn.normalize_item(legacy)
 check("normalize_item 旧数据补精选", legacy["selected"] is True)
 check("normalize_item 旧数据补P0字段", all(k in legacy for k in ("why", "impact", "action", "deadline", "tags")))
+check("normalize_item 旧数据补信源类型", legacy["sourceType"] == "media")
 event_items = [
     {"id": "e1", "date": "2026-07-01", "time": "10:00", "score": 75,
      "title": "亚马逊欧洲站推出促销一键拓展功能", "summary": "", "source": "来源A", "url": "https://example.com/e1"},
@@ -121,6 +122,74 @@ check("amz123 标题title兜底", fn.amz123_detail_title("<title>某快讯标题
 check("amz123 时间", fn.amz123_detail_time('"datePublished":"2026-07-02T11:42:37+08:00"') == ("2026-07-02", "11:42"))
 check("amz123 摘要", fn.amz123_detail_summary('<meta name="description" content="AMZ123获悉，亚马逊欧洲站卖家后台新增全欧拓展功能，支持一键复制。">') == "AMZ123获悉，亚马逊欧洲站卖家后台新增全欧拓展功能，支持一键复制。")
 
+# Amazon卖家论坛（Next.js数据发现 + 官方作者校验）
+amazon_next = {
+    "props": {
+        "pageProps": {
+            "pageHead": {
+                "structuredData": {
+                    "headline": "New handling time requirements",
+                    "author": {"name": "News_Amazon"},
+                    "datePublished": "2026-07-20T18:30:00Z",
+                    "text": "Starting August 1, new handling time requirements apply.",
+                }
+            },
+            "rows": [
+                {
+                    "threadId": "57222b70-40df-4574-aa0f-9f815c197987",
+                    "title": "New handling time requirements",
+                    "userDisplayName": "News_Amazon",
+                },
+                {
+                    "threadId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+                    "title": "Seller question",
+                    "userDisplayName": "Seller_demo",
+                },
+            ],
+        }
+    }
+}
+import json
+amazon_html = (
+    '<script id="__NEXT_DATA__" type="application/json">'
+    + json.dumps(amazon_next)
+    + "</script>"
+)
+original_fetch_html = fn.fetch_html
+fn.fetch_html = lambda url: amazon_html
+amazon_rows = fn.amazon_forum_discover([])
+fn.fetch_html = original_fetch_html
+check("Amazon论坛只发现官方作者", len(amazon_rows) == 1 and amazon_rows[0][0].startswith("amazon-forum-"))
+check("Amazon论坛官方详情通过", fn.amazon_forum_detail_accept(amazon_html))
+check("Amazon论坛标题", fn.amazon_forum_detail_title(amazon_html) == "New handling time requirements")
+check("Amazon论坛时间转北京时间", fn.amazon_forum_detail_time(amazon_html) == ("2026-07-21", "02:30"))
+check("Amazon论坛摘要", fn.amazon_forum_detail_summary(amazon_html).startswith("Starting August 1"))
+
+# 知无不言（公开问题发现 + 私密付费过滤）
+was_list_html = (
+    '<div class="aw-item"><a href="https://www.wearesellers.com/question/123456">'
+    '亚马逊美国站新规调整，卖家应该如何应对</a></div>'
+    '<div class="aw-item">私密悬赏贴<a href="https://www.wearesellers.com/question/123457">'
+    '亚马逊账号审核问题求助</a></div>'
+    '<div class="aw-item"><a href="https://www.wearesellers.com/question/123458">'
+    '跨境电商线下大会报名通知</a></div>'
+    '<div class="aw-item"><a class="aw-question-tags">社区指南</a>'
+    '<a href="https://www.wearesellers.com/question/123459">'
+    '高流量成本下的广告增长实战</a></div>'
+)
+was_rows = fn.wearesellers_extract(was_list_html)
+check("知无不言只提取公开非推广问题", [row[0] for row in was_rows] == ["was-q-123456"])
+was_detail_html = (
+    '<title>亚马逊美国站新规调整 - 知无不言跨境电商社区</title>'
+    '<meta name="description" content="亚马逊美国站近期调整规则，卖家讨论具体影响和应对方式。">'
+    '<span class="text-color-999">深圳 •  2026-07-20</span>'
+)
+check("知无不言公开详情通过", fn.wearesellers_detail_accept(was_detail_html))
+check("知无不言登录页拒绝", not fn.wearesellers_detail_accept("<title>登录 - 知无不言跨境电商社区</title>"))
+check("知无不言标题", fn.wearesellers_detail_title(was_detail_html) == "亚马逊美国站新规调整")
+check("知无不言日期", fn.wearesellers_detail_time(was_detail_html) == ("2026-07-20", "00:00"))
+check("知无不言摘要", "卖家讨论" in fn.wearesellers_detail_summary(was_detail_html))
+
 # 详情时间解析
 check("cifnews 时间", fn.cifnews_detail_time("发布于 2026-07-03 17:45 阅读") == ("2026-07-03", "17:45"))
 check("lsch 时间", fn.lsch_detail_time('datetime="2026-07-05T09:15:00"') == ("2026-07-05", "09:15"))
@@ -136,9 +205,10 @@ with tempfile.TemporaryDirectory() as tmp:
     items = [
         {"id": "a", "date": fresh, "time": "10:00", "title": "新"},
         {"id": "b", "date": old, "time": "10:00", "title": "旧"},
+        {"id": "c", "date": old, "time": "10:00", "title": "官方旧公告", "sourceType": "official"},
     ]
     keep = fn.archive_old(items)
-    check("归档后保留新条目", [it["id"] for it in keep] == ["a"])
+    check("归档后保留新条目和90天内官方公告", [it["id"] for it in keep] == ["a", "c"])
     archived = list(Path(tmp).glob("*.json"))
     check("归档文件生成", len(archived) == 1 and old[:7] in archived[0].name)
 
