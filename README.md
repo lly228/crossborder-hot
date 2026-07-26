@@ -61,8 +61,10 @@ python scripts/enrich_llm.py --dry-run  # 只看要处理哪些，不调API
 ```
 CBHOT_LLM_API_KEY=你的密钥
 CBHOT_LLM_BASE_URL=https://api.deepseek.com/v1   # 任意OpenAI兼容接口，选填
-CBHOT_LLM_MODEL=deepseek-chat                     # 选填
+CBHOT_LLM_MODEL=deepseek-v4-pro                   # 选填
 ```
+
+服务商换模型名时改这里。`scripts/enrich_llm.py`里的`RETIRED_MODELS`会把已下线的旧名字自动改写成同档在线模型，避免线上配置没跟上就整批加工失败。
 
 不配密钥时抓取照常工作，新条目使用启发式评分和精选判断，事实摘要、推荐理由、卖家影响与行动建议可能为空。
 

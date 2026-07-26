@@ -10,7 +10,7 @@
 配置（环境变量，或项目根目录 .env.local 文件里的 KEY=VALUE 行）：
     CBHOT_LLM_API_KEY    必填，API密钥
     CBHOT_LLM_BASE_URL   默认 https://api.deepseek.com/v1（任意OpenAI兼容接口）
-    CBHOT_LLM_MODEL      默认 deepseek-chat
+    CBHOT_LLM_MODEL      默认 deepseek-v4-pro
 
 .env.local 已在 .gitignore 里，密钥不入库。
 """
@@ -29,6 +29,10 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "news.js"
 REPORTS_FILE = ROOT / "data" / "reports.js"
 BATCH_SIZE = 15
+DEFAULT_BASE_URL = "https://api.deepseek.com/v1"
+DEFAULT_MODEL = "deepseek-v4-pro"
+# 服务商下线的旧模型名，自动改写成在线的同档模型，避免线上配置没跟上就整条流水线挂掉
+RETIRED_MODELS = {"deepseek-chat": "deepseek-v4-pro", "deepseek-reasoner": "deepseek-v4-pro"}
 
 REPORTS_HEADER = (
     "// 报告附加内容（当日导语等），由 scripts/enrich_llm.py --report 生成，可为空。\n"
@@ -71,6 +75,15 @@ def load_env_local():
         if line and not line.startswith("#") and "=" in line:
             k, v = line.split("=", 1)
             os.environ.setdefault(k.strip(), v.strip())
+
+
+def llm_config():
+    base_url = os.environ.get("CBHOT_LLM_BASE_URL") or DEFAULT_BASE_URL
+    model = os.environ.get("CBHOT_LLM_MODEL") or DEFAULT_MODEL
+    if model in RETIRED_MODELS:
+        print("模型 %s 已下线，改用 %s" % (model, RETIRED_MODELS[model]), file=sys.stderr)
+        model = RETIRED_MODELS[model]
+    return base_url, model
 
 
 def load_items():
@@ -177,7 +190,11 @@ def gen_report(base_url, api_key, model, items, dry_run):
     if dry_run:
         print(listing)
         return
-    intro = call_llm_text(base_url, api_key, model, INTRO_PROMPT, listing)
+    try:
+        intro = call_llm_text(base_url, api_key, model, INTRO_PROMPT, listing)
+    except Exception as e:
+        print("导语生成失败，跳过: %s" % e, file=sys.stderr)
+        return
     reports = load_reports()
     reports.setdefault("daily", {})[date] = {"intro": intro}
     REPORTS_FILE.write_text(
@@ -202,11 +219,8 @@ def main():
         if not api_key and not dry_run:
             print("缺少 CBHOT_LLM_API_KEY，设置环境变量或写入 .env.local 后重试", file=sys.stderr)
             sys.exit(1)
-        gen_report(
-            os.environ.get("CBHOT_LLM_BASE_URL", "https://api.deepseek.com/v1"),
-            api_key, os.environ.get("CBHOT_LLM_MODEL", "deepseek-chat"),
-            items, dry_run,
-        )
+        base_url, model = llm_config()
+        gen_report(base_url, api_key, model, items, dry_run)
         return
     required_fields = ("summary", "why", "impact")
     targets = [
@@ -227,8 +241,7 @@ def main():
     if not api_key:
         print("缺少 CBHOT_LLM_API_KEY，设置环境变量或写入 .env.local 后重试", file=sys.stderr)
         sys.exit(1)
-    base_url = os.environ.get("CBHOT_LLM_BASE_URL", "https://api.deepseek.com/v1")
-    model = os.environ.get("CBHOT_LLM_MODEL", "deepseek-chat")
+    base_url, model = llm_config()
 
     by_id = {it["id"]: it for it in items}
     updated = 0
