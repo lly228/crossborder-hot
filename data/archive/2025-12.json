@@ -131,6 +131,27 @@
     "summary": "已成当地中式米饭快餐连锁门店数最多的品牌"
   },
   {
+    "id": "amazon-forum-106d0747-e5c6-44d8-86f3-7669f11238fe",
+    "date": "2025-12-09",
+    "time": "02:12",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/106d0747-e5c6-44d8-86f3-7669f11238fe",
+    "sourceType": "official",
+    "score": 60,
+    "category": "platform",
+    "title": "Commingling practices will end effective March 31, 2026",
+    "summary": "In March, we’ll end commingling practices across our supply chain and update eligibility criteria for using manufacturer barcodes. Commingling is when we fulfill customer orders using exact product matches from the closest available inventory in the Amazon fulfillment network, even if that inventory belonged to a different seller, to achieve faster delivery speeds. Now that most sellers maintain inventory levels that keep products close to customers, we can achieve fast delivery without commingl",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-2e4d6f299cd3"
+  },
+  {
     "id": "was-q-113417",
     "date": "2025-12-08",
     "time": "00:00",
@@ -150,5 +171,24 @@
       "政策合规"
     ],
     "eventId": "evt-04e557c7b184"
+  },
+  {
+    "id": "amazon-forum-3d5c05d6-4b85-49bd-8fcc-12ba86059a78",
+    "date": "2025-12-04",
+    "time": "03:27",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/3d5c05d6-4b85-49bd-8fcc-12ba86059a78",
+    "sourceType": "official",
+    "score": 60,
+    "category": "market",
+    "title": "Passkey verification for Seller Central sign-in is coming on December 2",
+    "summary": "Starting December 2, 2025, to improve Seller Central account security and to maintain our commitment to a trustworthy selling experience, we're encouraging the use of Passkey verification for all accounts. This change is to increase the security of your account and to remain in line with industry standards. A Passkey is a password-free sign-in method that uses your device's identification features (fingerprint, face scan) or PIN to protect your account with end-to-end encryption. Passkey verific",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-9af9bbb4d5c4"
   }
 ]

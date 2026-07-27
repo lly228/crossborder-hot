@@ -2,6 +2,161 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "187800",
+    "date": "2026-07-27",
+    "time": "11:48",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187800",
+    "sourceType": "media",
+    "score": 50,
+    "category": "market",
+    "title": "穿透SHEIN招股书：2.7亿用户撑起的418亿美金生意，为何Q1突然亏损",
+    "summary": "SHEIN招股书显示拥有2.7亿用户、估值418亿美元，但2026年第一季度出现亏损。",
+    "selected": true,
+    "why": "帮助卖家评估SHEIN平台财务健康度与未来稳定性，判断入驻或加大投入的时机。",
+    "impact": "已在或计划入驻SHEIN的卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "SHEIN",
+      "市场行情"
+    ],
+    "eventId": "evt-8fb3cb27d52a"
+  },
+  {
+    "id": "lsch-96e6da98",
+    "date": "2026-07-27",
+    "time": "11:46",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/96e6da98",
+    "sourceType": "media",
+    "score": 45,
+    "category": "platform",
+    "title": "2026 Shopee卖家激励大会即将举办，立即预约直播！",
+    "summary": "Shopee将于2026年8月6日举办卖家激励大会，直播可预约，预计公布旺季激励政策。",
+    "selected": true,
+    "why": "卖家可直接获取平台最新激励措施与旺季备战策略，有助于抢占流量先机。",
+    "impact": "Shopee平台卖家。",
+    "action": "扫码预约直播，按时参加大会。",
+    "deadline": "2026-08-06",
+    "tags": [
+      "Shopee",
+      "活动"
+    ],
+    "eventId": "evt-c541a668effb"
+  },
+  {
+    "id": "187799",
+    "date": "2026-07-27",
+    "time": "11:45",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187799",
+    "sourceType": "media",
+    "score": 65,
+    "category": "logistics",
+    "title": "直邮时代的黄昏：一场跨境电商供应链的\"去中心化\"大迁徙",
+    "summary": "分析跨境电商供应链从直邮向海外仓、本地化履约体系转变的趋势与动因。",
+    "selected": true,
+    "why": "直邮模式面临时效、成本与合规压力，卖家需提前布局海外仓以维持竞争力。",
+    "impact": "所有跨境电商卖家，特别是仍以直邮为主的卖家。",
+    "action": "评估自身物流模式，逐步配置海外仓或第三方海外仓服务。",
+    "deadline": "",
+    "tags": [
+      "物流",
+      "供应链",
+      "海外仓"
+    ],
+    "eventId": "evt-afec38144da5"
+  },
+  {
+    "id": "mjzj-ftc4q4lmjlz4",
+    "date": "2026-07-27",
+    "time": "11:39",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftc4q4lmjlz4",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "SHEIN通过港交所上市聆讯，有望成2026年港股最大跨境电商IPO",
+    "summary": "SHEIN已通过香港交易所上市聆讯，预计将成为2026年港股最大的跨境电商IPO。",
+    "selected": true,
+    "why": "上市可能带来平台政策调整、流量变化与更严格的合规要求，影响卖家经营环境。",
+    "impact": "SHEIN平台卖家及潜在入驻者。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "SHEIN",
+      "IPO"
+    ],
+    "eventId": "evt-ee6b3865a864"
+  },
+  {
+    "id": "187798",
+    "date": "2026-07-27",
+    "time": "11:37",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187798",
+    "sourceType": "media",
+    "score": 40,
+    "category": "marketing",
+    "title": "江苏数学老师创业做婴儿车，年营收近百亿",
+    "summary": "一位江苏数学老师转型创立婴儿车品牌，实现年营收近百亿元。",
+    "selected": false,
+    "why": "成功案例对母婴品类选品和品牌建设有一定启发，但非经营必须信息。",
+    "impact": "母婴类目卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品",
+      "案例",
+      "品牌"
+    ],
+    "eventId": "evt-1b56a60cf8e5"
+  },
+  {
+    "id": "mjzj-ftc3qis3c6ps",
+    "date": "2026-07-27",
+    "time": "11:27",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftc3qis3c6ps",
+    "sourceType": "media",
+    "score": 10,
+    "category": "market",
+    "title": "周鸿祎谈Open AI智能体逃逸事故：智能体安全比模型安全严重十倍",
+    "summary": "周鸿祎评论OpenAI智能体逃逸事故，称智能体安全风险远超模型安全。",
+    "selected": false,
+    "why": "与跨境电商日常经营关联极低，仅极少数深度集成AI工具的卖家需关注。",
+    "impact": "无明显直接影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "AI",
+      "行业动态"
+    ],
+    "eventId": "evt-acad8b4ac503"
+  },
+  {
+    "id": "mjzj-ftc39jgux3wg",
+    "date": "2026-07-27",
+    "time": "11:26",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftc39jgux3wg",
+    "sourceType": "media",
+    "score": 0,
+    "category": "market",
+    "title": "美团全场景 AI Agent 平台",
+    "summary": "美团推出面向本地生活商家的AI助手CatPaw，可整合销售、评价等数据生成报告。",
+    "selected": false,
+    "why": "面向国内本地生活商家，与跨境电商卖家无关。",
+    "impact": "无。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "国内电商"
+    ],
+    "eventId": "evt-79786a0c3587"
+  },
+  {
     "id": "mjzj-ftc1sg8qrf9d",
     "date": "2026-07-27",
     "time": "11:10",
@@ -172,6 +327,28 @@ window.NEWS_DATA = [
     ],
     "ref": "https://www.amz123.com/kx/kdBw05GO",
     "eventId": "evt-2c49d743edd1"
+  },
+  {
+    "id": "mjzj-ftc1rdiwfbi9",
+    "date": "2026-07-27",
+    "time": "11:10",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftc1rdiwfbi9",
+    "sourceType": "media",
+    "score": 0,
+    "category": "market",
+    "title": "俞敏洪一夜翻身，东方甄选利润暴涨90倍",
+    "summary": "东方甄选利润暴增，但经历核心主播离职和管理层变动。",
+    "selected": false,
+    "why": "国内电商平台动态，对跨境电商卖家无直接影响。",
+    "impact": "无。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "国内电商"
+    ],
+    "ref": "https://www.pai.com.cn/p/01kyghn0jfk4eg99450w17092s",
+    "eventId": "evt-8119ec72e296"
   },
   {
     "id": "lsch-76f914e4",
@@ -538,6 +715,53 @@ window.NEWS_DATA = [
     "eventId": "evt-721430ca9aee"
   },
   {
+    "id": "mjzj-ft5psfzcjsow",
+    "date": "2026-07-27",
+    "time": "09:32",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ft5psfzcjsow",
+    "sourceType": "media",
+    "score": 72,
+    "category": "platform",
+    "title": "DD+7 叠加 FBM 时效收紧，卖家先紧的不是销量，是哪段资金？",
+    "summary": "亚马逊DD+7政策与FBM发货时效收紧，导致自发货卖家回款周期变长、资金占用增加。",
+    "selected": true,
+    "why": "资金周转效率直接影响卖家利润和备货能力，FBM卖家需及时调整财务预期。",
+    "impact": "亚马逊自发货（FBM）卖家。",
+    "action": "重新测算回款周期，优化现金流与库存管理。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "FBM",
+      "资金管理"
+    ],
+    "eventId": "evt-66d3a9692ec2"
+  },
+  {
+    "id": "mjzj-ftbruwu7i9kw",
+    "date": "2026-07-27",
+    "time": "09:16",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftbruwu7i9kw",
+    "sourceType": "media",
+    "score": 82,
+    "category": "policy",
+    "title": "深度解析：什么是欧盟SDS（化学品安全数据表）？",
+    "summary": "解读欧盟SDS（化学品安全数据表）的定义、内容及在国际化学品贸易中的合规重要性。",
+    "selected": true,
+    "why": "销往欧盟的化学品、含化学成分的产品必须提供合规SDS，否则可能被扣货或下架。",
+    "impact": "出口欧盟市场的化学品或相关品类卖家。",
+    "action": "检查产品是否需提供SDS，并联系专业机构编制合规文件。",
+    "deadline": "",
+    "tags": [
+      "欧盟",
+      "合规",
+      "化学品",
+      "SDS"
+    ],
+    "eventId": "evt-08f2019fd3a0"
+  },
+  {
     "id": "187796",
     "date": "2026-07-27",
     "time": "09:14",
@@ -561,6 +785,148 @@ window.NEWS_DATA = [
     "eventId": "evt-7e202b8b095d"
   },
   {
+    "id": "mjzj-ftbq7v4y7pq8",
+    "date": "2026-07-27",
+    "time": "09:01",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftbq7v4y7pq8",
+    "sourceType": "media",
+    "score": 65,
+    "category": "market",
+    "title": "安克现金流转负、SHEIN估值腰斩：跨境上市潮背后，藏着卖家什么样的账本？",
+    "summary": "安克创新现金流转负，SHEIN估值较此前大幅缩水，突显跨境企业财务健康的重要性。",
+    "selected": true,
+    "why": "警示卖家关注自身现金流与盈利可持续性，避免高速扩张下的资金链风险。",
+    "impact": "所有跨境电商卖家，尤其是寻求融资或快速扩张的卖家。",
+    "action": "审视现金流状况，控制库存与应收账款，确保财务稳健。",
+    "deadline": "",
+    "tags": [
+      "财务健康",
+      "现金流",
+      "SHEIN",
+      "安克"
+    ],
+    "eventId": "evt-3f0af0df4338"
+  },
+  {
+    "id": "mjzj-ftbqe1obk1kw",
+    "date": "2026-07-27",
+    "time": "08:58",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftbqe1obk1kw",
+    "sourceType": "media",
+    "score": 88,
+    "category": "platform",
+    "title": "亚马逊发布AI图片新规！使用AI模特图的卖家注意：上传前必须完成这一步（附操作步骤）",
+    "summary": "亚马逊要求卖家上传AI生成的模特图前，必须添加元数据标记，否则图片可能被拒绝。",
+    "selected": true,
+    "why": "违反新规可能导致listing图片无法显示，影响产品曝光和转化，具有即时生效特点。",
+    "impact": "使用AI模特图的亚马逊卖家。",
+    "action": "按照新规为AI图片添加相应元数据，检查已有图片并更新。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "AI图片",
+      "政策合规"
+    ],
+    "eventId": "evt-97f2645a9f50"
+  },
+  {
+    "id": "mjzj-ft4set5yl7nk",
+    "date": "2026-07-27",
+    "time": "08:53",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ft4set5yl7nk",
+    "sourceType": "media",
+    "score": 90,
+    "category": "policy",
+    "title": "亚马逊卖家警惕！2026波兰&捷克VAT注册要求合规升级",
+    "summary": "加入亚马逊中欧计划，库存调配至波兰或捷克仓，即使无当地订单也可能触发VAT注册义务。",
+    "selected": true,
+    "why": "未注册VAT可能导致税务罚款、货物扣押或账号销售权限受限，合规风险高。",
+    "impact": "亚马逊欧洲站加入中欧计划的卖家。",
+    "action": "立即核查波兰、捷克库存及销售情况，触发义务则尽快完成VAT注册。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "欧洲",
+      "VAT",
+      "合规"
+    ],
+    "eventId": "evt-310071d8bd06"
+  },
+  {
+    "id": "mjzj-ftbojvzmuz9c",
+    "date": "2026-07-27",
+    "time": "08:40",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftbojvzmuz9c",
+    "sourceType": "media",
+    "score": 60,
+    "category": "marketing",
+    "title": "气候友好认证-关于 Carbonfree 认证的介绍与详情",
+    "summary": "介绍亚马逊气候友好计划下的Carbonfree认证的含义、申请流程及优势。",
+    "selected": true,
+    "why": "获得认证可增加产品绿色标识，提升搜索排名与消费者信任，适合可持续品类。",
+    "impact": "亚马逊卖家，尤其是环保、可持续品类卖家。",
+    "action": "评估产品碳排放情况，联系认证机构申请Carbonfree认证。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "气候友好",
+      "认证"
+    ],
+    "eventId": "evt-adaf9e658b82"
+  },
+  {
+    "id": "mjzj-ftboe8ejsdts",
+    "date": "2026-07-27",
+    "time": "08:38",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftboe8ejsdts",
+    "sourceType": "media",
+    "score": 95,
+    "category": "platform",
+    "title": "关于亚马逊8月24日BSA新规：大陆店铺换香港主体，最核心的误区与真相",
+    "summary": "亚马逊BSA新规要求大陆店铺在8月24日前更换为香港主体，澄清常见操作误区。",
+    "selected": true,
+    "why": "未按时完成主体变更可能导致账号被限制或关闭，影响正常销售。",
+    "impact": "亚马逊大陆站点卖家。",
+    "action": "确认主体变更要求，备齐香港公司资料，在截止日期前完成更换。",
+    "deadline": "2026-08-24",
+    "tags": [
+      "亚马逊",
+      "BSA新规",
+      "账号安全",
+      "香港主体"
+    ],
+    "eventId": "evt-6a015d99c538"
+  },
+  {
+    "id": "mjzj-ftbo6ddfgr28",
+    "date": "2026-07-27",
+    "time": "08:35",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftbo6ddfgr28",
+    "sourceType": "media",
+    "score": 70,
+    "category": "policy",
+    "title": "亚马逊不侵权报告，侵权下架产品链接的后遗症",
+    "summary": "文章探讨亚马逊卖家在链接因侵权被下架后，使用不侵权报告申诉恢复链接的后续影响与处理经验。",
+    "selected": true,
+    "why": "侵权下架后链接恢复困难，不侵权报告的运用及后遗症是卖家申诉流程中的关键盲点。",
+    "impact": "影响遭遇过知识产权侵权下架的亚马逊卖家，尤其是需要恢复链接的自发货及FBA卖家。",
+    "action": "参考不侵权报告模板，针对不同侵权类型准备差异化申诉材料，并监控链接复议状态。",
+    "deadline": "",
+    "tags": [
+      "知识产权",
+      "亚马逊",
+      "申诉",
+      "链接恢复"
+    ],
+    "eventId": "evt-763ed9280f60"
+  },
+  {
     "id": "lsch-6a9f41be",
     "date": "2026-07-27",
     "time": "07:53",
@@ -582,6 +948,104 @@ window.NEWS_DATA = [
       "跨境电商"
     ],
     "eventId": "evt-64ea038afbb3"
+  },
+  {
+    "id": "was-q-122521",
+    "date": "2026-07-27",
+    "time": "04:49",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122521",
+    "sourceType": "community",
+    "score": 60,
+    "category": "policy",
+    "title": "有在亚马逊英国站卖灯具的小伙伴吗？ 像落地灯，台灯的LED款（低压）和上灯泡的款（高压），插头式，不带电池",
+    "summary": "卖家在社区提问，询问在英国站销售落地灯、台灯等插头式灯具是否必须做CE/UKCA认证，外包装是否需要相关标志，以及ERP能效标签是否强制。",
+    "selected": false,
+    "why": "英国灯具合规要求复杂且易被忽视，该问题指向账号被关停和产品下架的真实风险。",
+    "impact": "主要影响亚马逊英国站销售灯具品类的卖家，尤其是新进入该市场的卖家。",
+    "action": "查阅英国政府官网最新UKCA及能效标签指南，联系认证机构确认产品适用指令。",
+    "deadline": "",
+    "tags": [
+      "合规",
+      "亚马逊英国",
+      "CE",
+      "UKCA",
+      "能效标签"
+    ],
+    "eventId": "evt-758fe6a25ab4"
+  },
+  {
+    "id": "was-q-122456",
+    "date": "2026-07-27",
+    "time": "04:49",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122456",
+    "sourceType": "community",
+    "score": 60,
+    "category": "policy",
+    "title": "请问用香港公司做主体，能正常运营亚马逊欧洲站吗？后续VAT，KYC等场景，会不会因为这些香港公司的常见问题卡住.......",
+    "summary": "卖家询问使用秘书地址挂靠的香港公司注册欧洲站，是否会因缺少真实办公地址在VAT税号和KYC审核环节受阻，以及长期稳定运营的可能性。",
+    "selected": false,
+    "why": "公司资质是欧洲站合规的基石，若香港公司地址问题导致审核失败，将造成账号注册投入的浪费。",
+    "impact": "影响计划或正在使用香港公司主体运营亚马逊欧洲站的卖家。",
+    "action": "在注册前咨询专业税务代理，确认香港公司地址是否能通过VAT和KYC，必要时准备实体办公室账单。",
+    "deadline": "",
+    "tags": [
+      "亚马逊欧洲",
+      "公司注册",
+      "VAT",
+      "KYC",
+      "香港公司"
+    ],
+    "eventId": "evt-d5f17dc9a838"
+  },
+  {
+    "id": "was-q-122553",
+    "date": "2026-07-27",
+    "time": "04:49",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122553",
+    "sourceType": "community",
+    "score": 60,
+    "category": "logistics",
+    "title": "美西FBA货件建单超90天被CLOSED，7/16已送仓却扣了入库缺陷费还0上架，补发票能赔吗？",
+    "summary": "卖家反馈其FBA货件因建单超过90天被系统关闭，货物实际送仓后不仅被收取入库缺陷费且未上架，询问提交发票能否获得赔偿。",
+    "selected": false,
+    "why": "货件超时关闭引发的拒收与费用问题是FBA卖家常遇到的运营痛点，涉及直接资金损失。",
+    "impact": "影响所有使用FBA发货流程的卖家，特别是节假日前易出现延误的美西仓库用户。",
+    "action": "立即开Case提交送仓证明与采购发票申请调查，同时检查其他在途货件状态避免超期。",
+    "deadline": "",
+    "tags": [
+      "FBA",
+      "货件关闭",
+      "入库缺陷费",
+      "亚马逊物流"
+    ],
+    "eventId": "evt-cb9d3c2e03b4"
+  },
+  {
+    "id": "amz-R2HeyvRX",
+    "date": "2026-07-27",
+    "time": "03:55",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/R2HeyvRX",
+    "sourceType": "media",
+    "score": 70,
+    "category": "marketing",
+    "title": "无主播无视频纯图文：TikTok美区亲子对话卡片月销9633单、155万元",
+    "summary": "TikTok美区一款亲子对话卡片，仅依靠无人物出镜的雪山公路图文和情感文案，便获得百万级观看并实现月销9633单、销售额155万元。",
+    "selected": true,
+    "why": "该案例证明在TikTok无需视频制作和主播的高成本投入，纯图文也能打造爆款，对中小卖家极具参考价值。",
+    "impact": "主要对TikTok Shop美区卖家，尤其是不具备视频制作能力的初创团队和内容营销新手。",
+    "action": "研究情感共鸣类的图文内容结构，筛选适合图文展示的产品进行低成本测款。",
+    "deadline": "",
+    "tags": [
+      "TikTok",
+      "图文带货",
+      "选品",
+      "美区"
+    ],
+    "eventId": "evt-ebb518293a29"
   },
   {
     "id": "was-q-122585",
@@ -832,7 +1296,7 @@ window.NEWS_DATA = [
       "跟卖",
       "品牌"
     ],
-    "eventId": "evt-df26ef0c90f7"
+    "eventId": "evt-76c4a1445f2d"
   },
   {
     "id": "amz-H4tINdzL",
@@ -1117,6 +1581,31 @@ window.NEWS_DATA = [
     "eventId": "evt-ed0919bf2d1e"
   },
   {
+    "id": "mjzj-ft5oymxwth4w",
+    "date": "2026-07-26",
+    "time": "11:30",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ft5oymxwth4w",
+    "sourceType": "media",
+    "score": 70,
+    "category": "logistics",
+    "title": "AWD 大件 7/31 截口撞上旺季提报，卖家先改哪一步？",
+    "summary": "亚马逊AWD大件仓的截仓日期为7月31日，与旺季促销提报时间重合，文章指导卖家在两者冲突时如何调整发货与提报节奏。",
+    "selected": true,
+    "why": "旺季备货和促销提报是直接影响下半年销售业绩的关键操作，时间冲突处理不当将错过重要节点。",
+    "impact": "影响使用AWD存储并销售大件商品的亚马逊卖家。",
+    "action": "立即核查货件进度，优先完成7月31日前的截仓提报，并根据库存情况调整旺季发货计划。",
+    "deadline": "2025-07-31",
+    "tags": [
+      "AWD",
+      "大件",
+      "旺季",
+      "提报",
+      "亚马逊物流"
+    ],
+    "eventId": "evt-1facade2d3b9"
+  },
+  {
     "id": "was-q-122598",
     "date": "2026-07-26",
     "time": "11:22",
@@ -1399,6 +1888,54 @@ window.NEWS_DATA = [
       "季节性选品"
     ],
     "eventId": "evt-67701f6dc788"
+  },
+  {
+    "id": "mjzj-ft5mv54zzsw0",
+    "date": "2026-07-25",
+    "time": "15:52",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ft5mv54zzsw0",
+    "sourceType": "media",
+    "score": 85,
+    "category": "policy",
+    "title": "26-08823｜维密多商标维权，涵盖跨境电商全平台，哪些类目有TRO冻结风险？",
+    "summary": "维多利亚的秘密发起多商标维权诉讼，案号26-08823，维权范围覆盖全电商平台，相关类目卖家面临TRO临时禁令冻结风险。",
+    "selected": true,
+    "why": "维密作为知名品牌，维权行动迅速且范围广，一旦被TRO，账户资金和货物将被冻结，损失严重。",
+    "impact": "影响亚马逊、eBay、Temu等全平台销售维密商标相关或类似元素产品的卖家。",
+    "action": "立即自查店铺，下架任何包含维密商标、蕾丝花纹等疑似侵权产品，并检查过往订单。",
+    "deadline": "",
+    "tags": [
+      "知识产权",
+      "商标维权",
+      "TRO",
+      "维密",
+      "全平台"
+    ],
+    "eventId": "evt-2c765c807514"
+  },
+  {
+    "id": "mjzj-ft5ngcap76yo",
+    "date": "2026-07-25",
+    "time": "15:51",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ft5ngcap76yo",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "参考价没变，为什么活动空间还是缩了？",
+    "summary": "文章解析亚马逊促销系统中，即使产品参考价未变，但活动可设置的最低售价空间却缩小的背后计算逻辑与政策变化。",
+    "selected": true,
+    "why": "促销价格空间直接影响秒杀等活动的提报成功率和利润，不明规则变动会导致促销策略失效。",
+    "impact": "影响所有参与亚马逊Deal活动、优惠券设置的卖家。",
+    "action": "导出促销价格报告，对比系统计算的参考价和成交价，重新规划后续的定价与折扣策略。",
+    "deadline": "",
+    "tags": [
+      "促销",
+      "定价",
+      "亚马逊"
+    ],
+    "eventId": "evt-25f84dbbe3a0"
   },
   {
     "id": "lsch-e4fba416",
@@ -4958,6 +5495,29 @@ window.NEWS_DATA = [
     "sourceType": "media"
   },
   {
+    "id": "187627",
+    "date": "2026-07-20",
+    "time": "10:47",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187627",
+    "sourceType": "media",
+    "score": 70,
+    "category": "marketing",
+    "title": "爆单 or 烧钱？日本站服饰广告「黄金投放窗口」三品类深度拆解",
+    "summary": "针对日本站服饰品类，深度拆解男装、女装、家居服三大细分品类的广告投放黄金时间窗口与策略。",
+    "selected": true,
+    "why": "日本站竞争激烈，抓住高转化时段投放能有效提升ACOS，避免无效烧钱，对服饰卖家非常实用。",
+    "impact": "主要影响亚马逊日本站的服饰类目卖家。",
+    "action": "根据文中拆解的品类窗口，调整广告活动的出价时间和预算分配进行测试。",
+    "deadline": "",
+    "tags": [
+      "日本站",
+      "广告投放",
+      "服饰"
+    ],
+    "eventId": "evt-30b4d741dd02"
+  },
+  {
     "id": "lsch-af32aa53",
     "date": "2026-07-20",
     "time": "09:48",
@@ -5025,6 +5585,29 @@ window.NEWS_DATA = [
     ],
     "eventId": "evt-b3cf93d5ba67",
     "sourceType": "media"
+  },
+  {
+    "id": "was-q-122388",
+    "date": "2026-07-20",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122388",
+    "sourceType": "community",
+    "score": 55,
+    "category": "marketing",
+    "title": "鸭马逊漂流记-Listing优化-老鸭汤手把手教你怎么写75字符新标题规则下既要又要的文案",
+    "summary": "社区创作者分享在亚马逊75字符标题新规下，如何兼顾关键词收录与文案可读性，撰写高转化标题的经验。",
+    "selected": false,
+    "why": "标题新规实施后，如何在缩短的字符内平衡搜索权重和客户点击是一大挑战，该经验提供实操思路。",
+    "impact": "影响亚马逊美国站及其他实行标题新规的站点卖家。",
+    "action": "参考分享的文案结构，重新审查和压缩现有Listing标题，进行A/B测试。",
+    "deadline": "",
+    "tags": [
+      "Listing优化",
+      "标题规则",
+      "亚马逊"
+    ],
+    "eventId": "evt-c6b20d4ed5f7"
   },
   {
     "id": "lsch-3526a024",
@@ -7934,7 +8517,7 @@ window.NEWS_DATA = [
       "界面更新",
       "亚马逊"
     ],
-    "eventId": "evt-224a6bb3cc89"
+    "eventId": "evt-bb19549b17a5"
   },
   {
     "id": "amazon-forum-da197a8b-e781-4530-99db-eb0ac8a5876d",

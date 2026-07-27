@@ -1,0 +1,40 @@
+[
+  {
+    "id": "amazon-forum-0a027b19-0e4f-4525-9535-13aefae92cda",
+    "date": "2025-08-26",
+    "time": "23:08",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/0a027b19-0e4f-4525-9535-13aefae92cda",
+    "sourceType": "official",
+    "score": 60,
+    "category": "market",
+    "title": "Update to irrelevant or redundant variation theme removal",
+    "summary": "On August 20, 2025, we announced that irrelevant or redundant variation themes would be removed from our listing experiences. These variation themes are marked as “Deprecated: Do Not Use” in our new product templates. We also published a list of variation themes and product types affected by this change. This change was only intended to impact variation themes that were not needed. We've revised the list to only remove variation themes that had no sales in the past 12 months. Additionally, we wo",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f1562959ddaf"
+  },
+  {
+    "id": "amazon-forum-29b9e0b4-2b4d-4caa-b4af-83b57c47862d",
+    "date": "2025-08-19",
+    "time": "18:06",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/29b9e0b4-2b4d-4caa-b4af-83b57c47862d",
+    "sourceType": "official",
+    "score": 60,
+    "category": "market",
+    "title": "Removal of irrelevant variation themes will start September 2",
+    "summary": "Hi sellers, Please see the new announcement thread which covers updates made to the variation theme change: Update to irrelevant or redundant variation theme removal. ---Between September 2, 2025, and November 30, 2025, we will remove variation themes from our product templates that aren’t relevant or frequently used, to simplify your listing experience. We’ve already marked the impacted themes as Deprecated: Do Not Use in the product template Variation Theme Name field.If you try to update a li",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-fce090a82acc"
+  }
+]
