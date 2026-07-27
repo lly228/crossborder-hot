@@ -88,6 +88,27 @@
     "eventId": "evt-e6b12de036a6"
   },
   {
+    "id": "was-q-114126",
+    "date": "2025-12-23",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/114126",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "疯了。。。亚马逊发邮件产品因safety recall，让我们移除库存",
+    "summary": "疯了。。。亚马逊发邮件产品因safety recall，让我们移除库存 - 亚马逊像发疯一样，针对我们的各种产品发来因 safety recall 而让我们移除库存的邮件。最早收到是在6月中旬，至今共计收到31封，尤以12月越发频繁，内容除了时间和 ASIN 以外一模一样。 我实际检查了后台移除的情况，没有库存被弃置的迹象，链接...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-efa7c7b1af41"
+  },
+  {
     "id": "lsch-8220e394",
     "date": "2025-12-22",
     "time": "22:45",
@@ -108,5 +129,26 @@
     "category": "market",
     "title": "「鱼你在一起」马来西亚再度「六店齐开」，魏彤蓉：酸菜鱼品类海外具备双重优势",
     "summary": "已成当地中式米饭快餐连锁门店数最多的品牌"
+  },
+  {
+    "id": "was-q-113417",
+    "date": "2025-12-08",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/113417",
+    "sourceType": "community",
+    "score": 55,
+    "category": "market",
+    "title": "绩效篇-关于商品详情页违规-标题违规。经过 CASE 联系，经过三天解决并重新上架产品。下面与大家分享解决过程，以及注意事项",
+    "summary": "绩效篇-关于商品详情页违规-标题违规。经过 CASE 联系，经过三天解决并重新上架产品。下面与大家分享解决过程，以及注意事项 - 前天收到一个产品的商品详情页违规，属于标题违规，导致产品被冻结。随后收到账户状况、上架政策违规的通知。经过 CASE 联系，经过三天解决并重新上架产品。下面与大家分享解决过程，以及注意事项。 以下是注意事项与解决过程： 1. 首先确认此事对店铺账户安全的...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-04e557c7b184"
   }
 ]
