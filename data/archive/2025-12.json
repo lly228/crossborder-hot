@@ -194,6 +194,25 @@
     "eventId": "evt-04e557c7b184"
   },
   {
+    "id": "was-q-113345",
+    "date": "2025-12-05",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/113345",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "产品从接收货物开始一直处于缺货状态，有可售库存但是一直显示缺货，怎么解决？",
+    "summary": "产品从接收货物开始一直处于缺货状态，有可售库存但是一直显示缺货，怎么解决？ - 产品从接收货物开始就一直处于缺货状态，虽然有可售库存，但页面始终显示缺货。多次开case，客服已经刷新了链接、库存和配送方式，但仍然显示缺货状态。多次尝试删除链接再重新上架，依然无效。无在售页面显示的商品信息有误，但客服表示未查出问题，只能转给内部团队处理...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-dbdfb7135fbb"
+  },
+  {
     "id": "amazon-forum-3d5c05d6-4b85-49bd-8fcc-12ba86059a78",
     "date": "2025-12-04",
     "time": "03:27",
