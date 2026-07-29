@@ -230,5 +230,48 @@
     "deadline": "",
     "tags": [],
     "eventId": "evt-9af9bbb4d5c4"
+  },
+  {
+    "id": "was-q-113119",
+    "date": "2025-12-02",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/113119",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "SP也可以投视频广告了？有尝试过的友友们来分享下效果嘛",
+    "summary": "SP也可以投视频广告了？有尝试过的友友们来分享下效果嘛 - 今天发现后台广告页面新增加了两个点，一个是提示词，一个是视频……目前都没尝试过，有没有已经试过的友友来分享下效果呀？",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-8c2d31a225e1"
+  },
+  {
+    "id": "was-q-113080",
+    "date": "2025-12-01",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/113080",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "想问问大神们，有在做澳洲的本土店TEMU吗？请简单指点迷津一下。TEMU 本土店的流量相对全托管和半托来说，怎么样？本土店是不是有自主经营的？",
+    "summary": "想问问大神们，有在做澳洲的本土店TEMU吗？请简单指点迷津一下。TEMU 本土店的流量相对全托管和半托来说，怎么样？本土店是不是有自主经营的？ - 想主要了解一下： 1. 本土店的流量相对全托管和半托来说，怎么样？ 2. 听说全托和半托入局都很难盈利，工厂都搞不定，所以很纠结。 3. 本土店是不是有自主经营的？ 想做的原因： 澳洲现在用 Temu 真的蛮多的，所以想入局。 感谢大神们的回答",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Temu",
+      "广告营销"
+    ],
+    "eventId": "evt-27f200259dd2"
   }
 ]

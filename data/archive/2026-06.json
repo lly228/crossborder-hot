@@ -1,5 +1,50 @@
 [
   {
+    "id": "lsch-9743448d",
+    "date": "2026-06-28",
+    "time": "23:03",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/9743448d",
+    "score": 30,
+    "category": "market",
+    "title": "一键对接投资人，Invest Qatar Gateway推出创投融资模块",
+    "summary": "卡塔尔投资促进局推出创投融资模块，为初创企业提供融资对接平台。",
+    "selected": false,
+    "why": "与跨境电商卖家直接关联度低，适合关注中东市场的投资者。",
+    "impact": "影响中东市场初创企业。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "市场行情",
+      "中东"
+    ],
+    "eventId": "evt-355f08171009",
+    "sourceType": "media"
+  },
+  {
+    "id": "187136",
+    "date": "2026-06-28",
+    "time": "17:19",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187136",
+    "score": 50,
+    "category": "market",
+    "title": "他用了18个月，让香薰蜡烛在亚马逊卖到1亿，客单价$30碾压同行！",
+    "summary": "香薰蜡烛卖家18个月在亚马逊做到1亿销售额，客单价30美元，分享成功经验。",
+    "selected": false,
+    "why": "案例展示高客单价产品潜力，但缺乏具体操作步骤。",
+    "impact": "影响家居品类卖家。",
+    "action": "分析香薰蜡烛品类竞争和利润空间，评估是否进入。",
+    "deadline": "",
+    "tags": [
+      "选品",
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-b90fb04873a2",
+    "sourceType": "media"
+  },
+  {
     "id": "187135",
     "date": "2026-06-27",
     "time": "16:59",
@@ -279,6 +324,27 @@
       "广告营销"
     ],
     "eventId": "evt-e1ac932cfc67"
+  },
+  {
+    "id": "was-q-121162",
+    "date": "2026-06-17",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121162",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "从一次面试聊起: 广深卖家和不同地域间亚马逊运营生态差异——跨境电商组织管理5篇之03 (0614)",
+    "summary": "从一次面试聊起: 广深卖家和不同地域间亚马逊运营生态差异——跨境电商组织管理5篇之03 (0614) - 原创 AMZ Bluesky AMZ小麦成长记 2026年6月14日 19:45 广东 运营人观察 · 城市产业差异 · AI 时代 今天上午帮陪跑伙伴做了一场复试，原本只是一次普通的面试沟通，聊完之后随手发了一条微博记录一下。同时感受到，现在企...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-853b16ffe494"
   },
   {
     "id": "was-q-121108",
