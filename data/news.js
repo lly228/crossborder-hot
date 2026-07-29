@@ -2,6 +2,128 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "mjzj-ftjmc9x19d6p",
+    "date": "2026-07-29",
+    "time": "14:05",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftjmc9x19d6p",
+    "sourceType": "media",
+    "score": 45,
+    "category": "platform",
+    "title": "亚马逊裁员后启动AI重组",
+    "summary": "亚马逊在裁员后启动AI领域重组，聚焦业务优化与技术创新，以应对市场变化并提升竞争力。",
+    "selected": false,
+    "why": "了解亚马逊内部战略调整方向，长期可能影响卖家使用的平台工具与服务效率。",
+    "impact": "短期对亚马逊卖家无直接影响，长期或间接改变平台运营环境。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "AI",
+      "裁员",
+      "平台动态"
+    ],
+    "eventId": "evt-0ad6029fbabb"
+  },
+  {
+    "id": "mjzj-ftjmc9x19d6o",
+    "date": "2026-07-29",
+    "time": "14:05",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftjmc9x19d6o",
+    "sourceType": "media",
+    "score": 35,
+    "category": "market",
+    "title": "2026《财富》世界500强： 登顶全球最大公司",
+    "summary": "2026年《财富》世界500强中亚马逊取代沃尔玛成为全球最大公司，中国国家电网第三，京东、阿里巴巴等排名上升。",
+    "selected": false,
+    "why": "反映全球零售格局变化，增强卖家对电商长期趋势的信心。",
+    "impact": "无直接经营影响，属于行业资讯参考。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "财富500强",
+      "行业动态"
+    ],
+    "ref": "https://www.pai.com.cn/p/01kykz42fe06p1a41d5mfdrzhp",
+    "eventId": "evt-86d69f75d6f8"
+  },
+  {
+    "id": "mjzj-ftjmatqo4av4",
+    "date": "2026-07-29",
+    "time": "14:05",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftjmatqo4av4",
+    "sourceType": "media",
+    "score": 50,
+    "category": "platform",
+    "title": "1688推出AI Agent产品“享造”",
+    "summary": "阿里1688推出面向C端的AI定制产品“享造”，支持印刷和3D打印，覆盖20多个轻定制品类，用户可通过自然语言交互完成设计到下单全链路。",
+    "selected": true,
+    "why": "为卖家提供小批量、快速反应的定制采购选择，便于测试新选品。",
+    "impact": "通过1688采购的跨境卖家可尝试定制商品，探索差异化选品。",
+    "action": "登录1688体验“享造”功能，评估定制产品上架可行性。",
+    "deadline": "",
+    "tags": [
+      "1688",
+      "AI",
+      "定制",
+      "选品",
+      "供应链"
+    ],
+    "ref": "https://www.pai.com.cn/p/01kykrz5xyktz2jbdccf27fn7k",
+    "eventId": "evt-20aaa3d0c1e8"
+  },
+  {
+    "id": "mjzj-ftjma93tt6o1",
+    "date": "2026-07-29",
+    "time": "14:05",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftjma93tt6o1",
+    "sourceType": "media",
+    "score": 35,
+    "category": "market",
+    "title": "亚马逊超越沃尔玛，首次登顶《财富》世界500强榜首",
+    "summary": "亚马逊在2026年《财富》世界500强榜单中超越沃尔玛，首次登上榜首，标志电商对传统零售的历史性超越。",
+    "selected": false,
+    "why": "象征电商主导地位，卖家可借此增强对平台长期发展的信心。",
+    "impact": "无直接经营影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "财富500强",
+      "行业动态"
+    ],
+    "eventId": "evt-86d69f75d6f8"
+  },
+  {
+    "id": "mjzj-ftjmabc31wxs",
+    "date": "2026-07-29",
+    "time": "14:05",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftjmabc31wxs",
+    "sourceType": "media",
+    "score": 70,
+    "category": "market",
+    "title": "TikTok Shop日本站运营一年，用户增长30倍",
+    "summary": "TikTok Shop日本站上线一年用户规模增长超30倍，超70% GMV来自内容和直播，35岁以上用户占60%，并推出中小企业扶持计划。",
+    "selected": true,
+    "why": "日本站高速增长和内容驱动特征为卖家提供明确入场信号与运营方向。",
+    "impact": "计划进入或已在日本站经营的TikTok卖家，可参考直播和达人策略。",
+    "action": "研究日本站热销品类，制定直播与达人联盟合作计划。",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "日本",
+      "直播",
+      "内容电商"
+    ],
+    "ref": "https://www.amz123.com/t/wEGtHJ1h",
+    "eventId": "evt-5bc78a63b51e"
+  },
+  {
     "id": "187836",
     "date": "2026-07-29",
     "time": "11:12",
@@ -521,6 +643,296 @@ window.NEWS_DATA = [
     "eventId": "evt-f0a4a76ca504"
   },
   {
+    "id": "was-q-122717",
+    "date": "2026-07-29",
+    "time": "06:43",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122717",
+    "sourceType": "community",
+    "score": 65,
+    "category": "platform",
+    "title": "亚马逊 7.27 标题新规生效，修改标题却频繁报错怎么办？",
+    "summary": "亚马逊7月27日标题75字符新规执行后，卖家集中修改标题时遭遇多种报错，文章整理了常见报错及解决方法。",
+    "selected": false,
+    "why": "提供报错解决方案，帮助卖家尽快完成合规修改，避免链接被AI自动改写。",
+    "impact": "所有亚马逊卖家在修改标题时可能遇到类似问题，影响listing维护。",
+    "action": "对照常见报错类型，使用模板或特定字段调整方法完成标题修改。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "标题新规",
+      "报错",
+      "合规"
+    ],
+    "eventId": "evt-4e2ce8d6cc17"
+  },
+  {
+    "id": "was-q-122712",
+    "date": "2026-07-29",
+    "time": "06:43",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122712",
+    "sourceType": "community",
+    "score": 60,
+    "category": "platform",
+    "title": "服装类，尺码填反，出了几单，要怎么改？已经找客服刷新过5.6次了，还是没改过来",
+    "summary": "服装卖家将S和M尺码信息填反，导致实物与条形码不符，多次联系客服刷新未解决，面临8541报错。",
+    "selected": false,
+    "why": "反映listing层级数据修改的难点，提醒卖家注意尺码准确性并尝试深层编辑。",
+    "impact": "服装类卖家遇尺码错误时，可能无法简单刷新解决，影响销售与库存管理。",
+    "action": "尝试用模板删除后重新上传，或开case要求系统完全清除再建。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "服装",
+      "listing错误",
+      "客服"
+    ],
+    "eventId": "evt-a6c103162005"
+  },
+  {
+    "id": "amz-xhTsBrfC",
+    "date": "2026-07-29",
+    "time": "06:36",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/xhTsBrfC",
+    "sourceType": "media",
+    "score": 75,
+    "category": "market",
+    "title": "TikTok Shop日本站首年用户规模增长30倍，直播贡献六成GMV",
+    "summary": "TikTok Shop日本站首年用户增长超30倍，直播贡献约60% GMV，算法在直播前120秒完成属性判断并推送给近期购物用户，案例显示品牌直播和达人视频大幅带动销量。",
+    "selected": true,
+    "why": "详细数据揭示日本站内容电商爆发力，为卖家提供直播打法和达人合作的具体参考。",
+    "impact": "布局日本站的TikTok卖家需重视直播和Affiliate达人矩阵，以提升转化。",
+    "action": "借鉴Crocs、安克等案例，策划高频直播和达人内容矩阵。",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "日本",
+      "直播",
+      "达人",
+      "GMV"
+    ],
+    "eventId": "evt-5bc78a63b51e"
+  },
+  {
+    "id": "amz-isXa26c5",
+    "date": "2026-07-29",
+    "time": "06:26",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/isXa26c5",
+    "sourceType": "media",
+    "score": 85,
+    "category": "logistics",
+    "title": "Ozon物流保险费率上调3.3倍",
+    "summary": "Ozon因无人袭击风险将物流货物保险费率从0.0035%上调至0.0115%，涨幅3.3倍。新费率7月28日起适用于新客户，现有客户可沿用至8月26日，8月27日全面执行。",
+    "selected": true,
+    "why": "费率大幅上调直接增加卖家运营成本，需立刻核算影响并调整策略。",
+    "impact": "所有使用Ozon物流保险的卖家，成本将显著上升。",
+    "action": "计算费率上涨对利润的影响，考虑调整售价、优化库存或切换物流方案。",
+    "deadline": "2025-08-27",
+    "tags": [
+      "Ozon",
+      "物流",
+      "保险费率",
+      "上调"
+    ],
+    "eventId": "evt-e05f418c6ae4"
+  },
+  {
+    "id": "amz-1cGMsRXi",
+    "date": "2026-07-29",
+    "time": "06:26",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/1cGMsRXi",
+    "sourceType": "media",
+    "score": 65,
+    "category": "market",
+    "title": "巴西上半年电商销售额达2084亿雷亚尔，同比增长16.9%",
+    "summary": "2026上半年巴西电商销售额2084亿雷亚尔，同比增长16.9%，订单量增34.8%，客单价降13.3%，时尚配饰和家电品类领先。",
+    "selected": true,
+    "why": "揭示巴西市场“增量降价”趋势，为卖家选品和定价策略提供数据支撑。",
+    "impact": "拓展巴西市场的卖家需适应高频低客单消费模式，注重时尚、家电等品类。",
+    "action": "参考品类趋势，优化巴西站点选品，控制成本以应对低客单价。",
+    "deadline": "",
+    "tags": [
+      "巴西",
+      "电商",
+      "销售额",
+      "选品"
+    ],
+    "eventId": "evt-d17eb22345bd"
+  },
+  {
+    "id": "amz-J8S12Yar",
+    "date": "2026-07-29",
+    "time": "06:16",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/J8S12Yar",
+    "sourceType": "media",
+    "score": 90,
+    "category": "logistics",
+    "title": "美海关2R禁装指令集中出现，ISF异常货物面临起运港拦截",
+    "summary": "美国海关针对ISF申报异常货物启动2R禁装指令，导致货物在起运港无法装船或到港被扣，并面临5000-10000美元罚款，常见问题为数据不一致、IOR失效等。",
+    "selected": true,
+    "why": "直接影响美线货物出运，卖家需立即核查合规，避免巨额滞留费和罚款。",
+    "impact": "所有通过海运发往美国的卖家，ISF申报不准确将导致货物被拦截。",
+    "action": "立即核实ISF与AMS/提单信息一致，确认IOR主体有效及Bond未过期，并确保装船前24小时完成申报。",
+    "deadline": "",
+    "tags": [
+      "美国海关",
+      "ISF",
+      "2R",
+      "禁装",
+      "合规"
+    ],
+    "eventId": "evt-911639453117"
+  },
+  {
+    "id": "amz-BXIExUrw",
+    "date": "2026-07-29",
+    "time": "06:16",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/BXIExUrw",
+    "sourceType": "media",
+    "score": 65,
+    "category": "logistics",
+    "title": "马士基TP7新增奥克兰直靠、ONE EC3插入宁波港，美线中美东中西岸港序调整",
+    "summary": "马士基TP7航线新增奥克兰直靠，首班8月2日抵宁波；ONE EC3航线增加宁波港。美线港序优化为托运人提供新选择。",
+    "selected": true,
+    "why": "航线调整影响船期和价格，卖家可据此优化发货计划和成本。",
+    "impact": "华东、华北地区发往美西或美东的卖家可关注新直航服务，可能缩短运输时间。",
+    "action": "联系货代获取最新船期，评估更优航线方案。",
+    "deadline": "",
+    "tags": [
+      "马士基",
+      "ONE",
+      "美线",
+      "航线调整",
+      "物流"
+    ],
+    "eventId": "evt-38eb468e3b18"
+  },
+  {
+    "id": "amz-G930D1ID",
+    "date": "2026-07-29",
+    "time": "06:06",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/G930D1ID",
+    "sourceType": "media",
+    "score": 90,
+    "category": "logistics",
+    "title": "马士基8月多条航线征收旺季附加费，欧线及沙特线最高涨至2000美元",
+    "summary": "马士基8月3日起对远东至欧洲等地征收旺季附加费，小柜最高1000美元、大柜最高2000美元，涉及欧地、墨西哥、沙特等多条航线。",
+    "selected": true,
+    "why": "旺季附加费大幅推高物流成本，卖家需及时应对，避免利润被侵蚀。",
+    "impact": "发往欧洲、地中海、墨西哥、沙特等地区的卖家成本将显著增加。",
+    "action": "评估附加费影响，考虑8月3日前提前出货或更换船公司，并相应调整产品定价。",
+    "deadline": "2025-08-03",
+    "tags": [
+      "马士基",
+      "旺季附加费",
+      "PSS",
+      "欧洲",
+      "沙特"
+    ],
+    "eventId": "evt-c3d18363a411"
+  },
+  {
+    "id": "amz-97xfkG0y",
+    "date": "2026-07-29",
+    "time": "06:06",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/97xfkG0y",
+    "sourceType": "media",
+    "score": 40,
+    "category": "logistics",
+    "title": "挪威化学品船Bergstraum锚泊爆炸起火，硫酸货物零泄漏零伤亡",
+    "summary": "挪威化学品船Bergstraum在锚泊区发生爆炸起火，船上硫酸货物未泄漏，无人员伤亡。",
+    "selected": false,
+    "why": "了解航运安全事件，但对跨境物流暂无实际影响。",
+    "impact": "对跨境卖家业务无直接影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "航运",
+      "事故"
+    ],
+    "eventId": "evt-06749af30b48"
+  },
+  {
+    "id": "amz-EOaebllJ",
+    "date": "2026-07-29",
+    "time": "05:55",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/EOaebllJ",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "深圳95后卖家凭11.99英镑车载支架实现日销千单",
+    "summary": "深圳95后卖家利用数据工具分析市场，通过TikTok内容矩阵和独立站，将一款11.99英镑车载支架卖到日销千单，30天GMV达58万美元。",
+    "selected": true,
+    "why": "提供从选品验证到内容营销的实操案例，启发中小卖家打造爆款。",
+    "impact": "对TikTok和独立站卖家，尤其车载配件类目，具有选品和打法借鉴价值。",
+    "action": "运用数据工具分析目标市场价格和竞争，规划短视频和达人矩阵测试新品。",
+    "deadline": "",
+    "tags": [
+      "选品",
+      "TikTok",
+      "车载支架",
+      "案例"
+    ],
+    "eventId": "evt-f6f78f54e8f8"
+  },
+  {
+    "id": "amz-35y3bv7B",
+    "date": "2026-07-29",
+    "time": "05:55",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/35y3bv7B",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "千岸科技7月29日登陆北交所，总市值达62.54亿",
+    "summary": "千岸科技7月29日登陆北交所，发行价24.30元/股，募资4.25亿元，总市值62.54亿元，旗下拥有Ohuhu、Tribit等多品牌，通过亚马逊等渠道出海。",
+    "selected": true,
+    "why": "跨境品牌化发展成功案例，展示多品牌矩阵与上市路径，对寻求长期发展的卖家有参考意义。",
+    "impact": "主要影响通过亚马逊等平台建立自主品牌的跨境卖家，提供品牌化战略思路。",
+    "action": "可研究其多品牌运营模式，结合自身类目思考品牌升级方向。",
+    "deadline": "",
+    "tags": [
+      "品牌出海",
+      "融资上市",
+      "亚马逊",
+      "行业动态"
+    ],
+    "eventId": "evt-5ffbd3b973a4"
+  },
+  {
+    "id": "amz-r6XulMOK",
+    "date": "2026-07-29",
+    "time": "05:45",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/r6XulMOK",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "印尼鞋厂面临成本与需求双重压力",
+    "summary": "印尼万隆鞋厂因印尼盾贬值导致进口材料成本涨30%-40%，需求同比降30%-40%，工厂裁员过半，经营压力超过疫情期。",
+    "selected": true,
+    "why": "反映东南亚制鞋业成本压力，可能影响从该地区采购或销售鞋类的卖家。",
+    "impact": "涉及在印尼有供应链或鞋类、服饰销售的亚马逊、Shopee等平台卖家。",
+    "action": "评估印尼供应链风险，考虑分散采购或调整定价。",
+    "deadline": "",
+    "tags": [
+      "供应链",
+      "成本",
+      "东南亚",
+      "鞋类"
+    ],
+    "eventId": "evt-0a9c6085981d"
+  },
+  {
     "id": "was-q-122710",
     "date": "2026-07-29",
     "time": "04:26",
@@ -915,19 +1327,20 @@ window.NEWS_DATA = [
     "source": "AMZ123",
     "url": "https://www.amz123.com/kx/2MDyRNjL",
     "sourceType": "media",
-    "score": 61,
-    "category": "logistics",
+    "score": 65,
+    "category": "market",
     "title": "亚马逊法国站2025年252亿欧元成交额跻身法国零售第三",
-    "summary": "AMZ123获悉，亚马逊法国站在2025年实现252亿欧元总成交额，首次进入法国零售业排行榜前三，位列第三名，仅次于E. Leclerc（629亿欧元）和Intermarché（438亿欧元），并超过Super U。平台营收预计同比增长8.5%，规模约增加20亿欧元，主要增长动力来自第三方Marketplace活跃度提升，以及广告、物流等服务收入的持续增长。数据显示，法国零售百强中的14家在线零售商整体营收同比增长9.9%，高于百强整体4.2%的增速以及实体食品零售3.8%的增速。",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
+    "summary": "亚马逊法国站2025年总成交额252亿欧元，首进法国零售前三，第三方Marketplace及广告、物流服务推动增长。",
+    "selected": true,
+    "why": "揭示法国站第三方卖家生态活跃和市场增长，帮助卖家判断站点潜力。",
+    "impact": "尤其影响亚马逊法国站的中小卖家和准备布局欧洲站的商家。",
+    "action": "评估法国站机会，优化当地物流和广告投放策略。",
     "deadline": "",
     "tags": [
+      "法国",
       "亚马逊",
-      "物流仓储",
-      "广告营销"
+      "市场数据",
+      "第三方卖家"
     ],
     "eventId": "evt-c402dfd0e8ce"
   },
@@ -1371,6 +1784,164 @@ window.NEWS_DATA = [
     "eventId": "evt-b44595972629"
   },
   {
+    "id": "mjzj-ftggd217knpc",
+    "date": "2026-07-28",
+    "time": "16:37",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftggd217knpc",
+    "sourceType": "media",
+    "score": 85,
+    "category": "policy",
+    "title": "26-08873｜五金类目卖家避雷，OLALALO商标维权进行时",
+    "summary": "深圳卖家Shuting Huang针对OLALALO商标发起维权立案，涉及五金、小家电、服饰等品类，提醒相关卖家立即排查。",
+    "selected": true,
+    "why": "五金及小家电类目卖家易成为被告，未排查可能面临账号冻结或高额赔偿。",
+    "impact": "亚马逊等平台销售五金、小家电、服饰贴牌商品的卖家。",
+    "action": "立刻排查店铺中OLALALO相关商标使用，删除侵权关键词并下架商品。",
+    "deadline": "",
+    "tags": [
+      "商标",
+      "维权",
+      "五金",
+      "知识产权"
+    ],
+    "eventId": "evt-93ad20cecb00"
+  },
+  {
+    "id": "mjzj-ftgf809f43y8",
+    "date": "2026-07-28",
+    "time": "16:34",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftgf809f43y8",
+    "sourceType": "media",
+    "score": 50,
+    "category": "marketing",
+    "title": "库存越多越安全吗？90%的亚马逊卖家，都忽略了这个利润指标！——26 章鱼站外选品助力品牌运营",
+    "summary": "文章指出多数亚马逊卖家忽视库存周转率，导致资金占用、仓储费上涨，利润被蚕食。",
+    "selected": true,
+    "why": "库存周转率直接影响现金流和利润，是优化运营的关键指标，值得卖家自查。",
+    "impact": "所有采用FBA的亚马逊卖家，尤其是货物周转慢、仓储费高的店铺。",
+    "action": "计算库存周转率，分析滞销库存，优化备货周期和清理冗余。",
+    "deadline": "",
+    "tags": [
+      "库存管理",
+      "利润",
+      "亚马逊"
+    ],
+    "eventId": "evt-6b98fad3c2ea"
+  },
+  {
+    "id": "mjzj-ftge1x886jgg",
+    "date": "2026-07-28",
+    "time": "16:19",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftge1x886jgg",
+    "sourceType": "media",
+    "score": 45,
+    "category": "market",
+    "title": "中国品牌出海的下一章：以价值，致全球——亚马逊全球副总裁、亚马逊全球开店全球业务负责人戴竫斐Cindy Tai",
+    "summary": "亚马逊高管强调中国品牌应从拼价格转向拼价值，以全球为起点打造长期品牌。",
+    "selected": false,
+    "why": "提供品牌出海战略方向，但非具体操作指南，适合思考品牌路径的卖家。",
+    "impact": "针对有品牌化转型意愿的跨境卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "品牌出海",
+      "战略"
+    ],
+    "eventId": "evt-d1398feeadd3"
+  },
+  {
+    "id": "mjzj-ftgd7dichjb4",
+    "date": "2026-07-28",
+    "time": "16:11",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftgd7dichjb4",
+    "sourceType": "media",
+    "score": 0,
+    "category": "platform",
+    "title": "微信上线新功能：可手动清除撤回记录提示",
+    "summary": "微信8.0.76版本允许用户手动清除聊天中的撤回记录提示。",
+    "selected": false,
+    "why": "与跨境电商经营无直接关联。",
+    "impact": "无",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "微信"
+    ],
+    "eventId": "evt-83a86a4678b7"
+  },
+  {
+    "id": "mjzj-ftgc5c5kvdvk",
+    "date": "2026-07-28",
+    "time": "16:00",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftgc5c5kvdvk",
+    "sourceType": "media",
+    "score": 60,
+    "category": "policy",
+    "title": "商务部新闻发言人就美宣称拟对中国人工智能企业开展调查并实施制裁答记者问",
+    "summary": "美方拟对中国人工智能企业开展调查和制裁，中方敦促停止并威胁采取反制措施。",
+    "selected": true,
+    "why": "中美科技摩擦可能波及AI相关品类出口，经营智能设备、软件品类的卖家需关注后续政策。",
+    "impact": "主要影响在美销售人工智能算法、智能硬件、软件的跨境电商卖家。",
+    "action": "关注制裁清单和出口管制动态，评估相关产品线风险。",
+    "deadline": "",
+    "tags": [
+      "中美贸易",
+      "政策",
+      "人工智能"
+    ],
+    "eventId": "evt-1d10996fe91e"
+  },
+  {
+    "id": "mjzj-ftgbx2o07jsw",
+    "date": "2026-07-28",
+    "time": "15:54",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftgbx2o07jsw",
+    "sourceType": "media",
+    "score": 40,
+    "category": "policy",
+    "title": "商务部发布：关于所谓“产能过剩”问题的中方立场",
+    "summary": "中方发布文件，主张客观看待产能问题，呼吁国际合作化解分歧。",
+    "selected": false,
+    "why": "属于宏观贸易表态，对卖家日常经营无直接影响。",
+    "impact": "无直接具体影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "贸易政策"
+    ],
+    "eventId": "evt-9c8401eca562"
+  },
+  {
+    "id": "mjzj-ftgewgagbzeo",
+    "date": "2026-07-28",
+    "time": "15:39",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftgewgagbzeo",
+    "sourceType": "media",
+    "score": 85,
+    "category": "policy",
+    "title": "26-08865｜跨境宠物用品商家警惕，Awolf宠物用品商标维权立案",
+    "summary": "深圳中诚鸿业科技公司旗下Awolf宠物用品商标维权立案，涉及宠物窝、家居等品类，卖家需紧急排查。",
+    "selected": true,
+    "why": "宠物用品类目热门，卖家易误用商标，面临账号暂停和账户资金冻结风险。",
+    "impact": "亚马逊、速卖通等平台销售宠物垫子、宠物家居的卖家。",
+    "action": "立即排查标题、描述中的Awolf字样，下架涉嫌商品并清理库存。",
+    "deadline": "",
+    "tags": [
+      "商标",
+      "维权",
+      "宠物用品",
+      "知识产权"
+    ],
+    "eventId": "evt-a4f0644eaf7e"
+  },
+  {
     "id": "187824",
     "date": "2026-07-28",
     "time": "15:38",
@@ -1392,6 +1963,30 @@ window.NEWS_DATA = [
       "钓鱼诈骗"
     ],
     "eventId": "evt-c9f116ed0b08"
+  },
+  {
+    "id": "mjzj-ftg9z8jzt2bk",
+    "date": "2026-07-28",
+    "time": "15:12",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftg9z8jzt2bk",
+    "sourceType": "media",
+    "score": 85,
+    "category": "policy",
+    "title": "26-08898｜Netflix再立案！KPop Demon Hunters商标版权双维权？",
+    "summary": "Netflix就KPop Demon Hunters发起商标与版权维权，要求下架印有角色形象及NETFLIX字样的周边商品。",
+    "selected": true,
+    "why": "热门IP维权力度大，周边产品若未授权极易被告，需立即清理。",
+    "impact": "亚马逊等平台销售影视周边服饰、玩具、家居等商品的卖家。",
+    "action": "全店排查NETFLIX、KPOP DEMON HUNTERS及角色形象，删除侵权商品及详情页。",
+    "deadline": "",
+    "tags": [
+      "商标",
+      "版权",
+      "维权",
+      "Netflix"
+    ],
+    "eventId": "evt-f89008d4d981"
   },
   {
     "id": "mjzj-ftg6aqzygydc",
@@ -1417,6 +2012,30 @@ window.NEWS_DATA = [
     ],
     "ref": "https://www.amz123.com/t/JzDYOQbH",
     "eventId": "evt-f500c8df4615"
+  },
+  {
+    "id": "mjzj-ftg6b7ydnuo0",
+    "date": "2026-07-28",
+    "time": "14:55",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftg6b7ydnuo0",
+    "sourceType": "media",
+    "score": 75,
+    "category": "logistics",
+    "title": "海运运价连续三周小幅回落，仅波斯湾航线价格上涨",
+    "summary": "SCFI指数报3062.95点，周跌0.56%，美西运价跌3.25%至5535美元，欧洲跌1.87%，波斯湾逆势涨7.45%。",
+    "selected": true,
+    "why": "海运运费直接影响头程成本，运价回落窗口期可优化发货计划。",
+    "impact": "所有通过海运发货的亚马逊FBA、独立站等跨境卖家。",
+    "action": "对比美西和欧洲运价走低趋势，适当安排补货，关注波斯湾线成本上涨。",
+    "deadline": "",
+    "tags": [
+      "物流",
+      "海运",
+      "运价"
+    ],
+    "ref": "https://www.amz123.com/t/94aNjIyu",
+    "eventId": "evt-38c0dd81cae0"
   },
   {
     "id": "187823",
@@ -2076,6 +2695,27 @@ window.NEWS_DATA = [
     "eventId": "evt-af4195981938"
   },
   {
+    "id": "amz-be1hTQLQ",
+    "date": "2026-07-28",
+    "time": "09:28",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/be1hTQLQ",
+    "sourceType": "media",
+    "score": 40,
+    "category": "logistics",
+    "title": "全国港口货物吞吐量环比增长近两成",
+    "summary": "7月20-26日全国港口货物吞吐量环比增19.47%，集装箱吞吐量增16.51%，铁路货运量也小幅增长。",
+    "selected": false,
+    "why": "反映国内物流活跃度，但对跨境卖家经营决策指导意义有限。",
+    "impact": "对个体卖家无直接操作影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流"
+    ],
+    "eventId": "evt-b56f556244a2"
+  },
+  {
     "id": "mjzj-ftfbjl8mz9c0",
     "date": "2026-07-28",
     "time": "09:09",
@@ -2097,6 +2737,29 @@ window.NEWS_DATA = [
       "IEC标准"
     ],
     "eventId": "evt-977575b769a6"
+  },
+  {
+    "id": "amz-AtYvyMhi",
+    "date": "2026-07-28",
+    "time": "09:07",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/AtYvyMhi",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "泡泡玛特首次跻身《财富》中国500强位列第393位",
+    "summary": "泡泡玛特以51.64亿美元营收位列2026年《财富》中国500强第393位，利润同比增长超3倍，全球潮玩排名第三。",
+    "selected": true,
+    "why": "潮玩品牌出海标杆，展现IP运营与全球化战略，对玩具、礼品类卖家具参考价值。",
+    "impact": "启发亚马逊等平台潮玩、IP衍生品、创意玩具类卖家。",
+    "action": "可学习其IP矩阵化和海外本地化运营思路。",
+    "deadline": "",
+    "tags": [
+      "品牌出海",
+      "潮玩",
+      "案例"
+    ],
+    "eventId": "evt-b8dab8f5d6c0"
   },
   {
     "id": "mjzj-ftfa6dy61rls",
@@ -2312,7 +2975,7 @@ window.NEWS_DATA = [
       "承运商",
       "Buy Shipping"
     ],
-    "eventId": "evt-b76052458837"
+    "eventId": "evt-33916e74b430"
   },
   {
     "id": "amz-I6AL8kTt",
@@ -2429,7 +3092,7 @@ window.NEWS_DATA = [
       "图片合规",
       "元数据"
     ],
-    "eventId": "evt-b7843023f458"
+    "eventId": "evt-2a44c28e983d"
   },
   {
     "id": "was-q-122700",
@@ -10328,6 +10991,29 @@ window.NEWS_DATA = [
     "eventId": "evt-3d6993099db0"
   },
   {
+    "id": "was-q-122238",
+    "date": "2026-07-15",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122238",
+    "sourceType": "community",
+    "score": 30,
+    "category": "policy",
+    "title": "美国站点上架三合一磁吸无线充电器产品需要什么认证？？",
+    "summary": "卖家在社区询问美国站上架三合一磁吸无线充电器（配外接线，无电池）所需认证和合规条件。",
+    "selected": false,
+    "why": "用户提问反映无线充电品类认证困惑，但非官方解答，仅作问题参考。",
+    "impact": "计划在亚马逊美国站销售无线充电配件的卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "认证",
+      "无线充",
+      "美国站"
+    ],
+    "eventId": "evt-d467ff69f9c2"
+  },
+  {
     "id": "lsch-cf1dacbc",
     "date": "2026-07-14",
     "time": "21:14",
@@ -10728,6 +11414,30 @@ window.NEWS_DATA = [
       "社区"
     ],
     "eventId": "evt-16d6fa05b5e2"
+  },
+  {
+    "id": "was-q-121870",
+    "date": "2026-07-06",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121870",
+    "sourceType": "community",
+    "score": 45,
+    "category": "market",
+    "title": "有没有公司HR，行业前辈或者老板回答一下我的简历问题？有没有友友有面试的一些经验或者避雷原因分享？比如面试过程中打死都不能说的话或者事情；或者面试中哪些行为让面试官有好感？",
+    "summary": "一位跨境电商运营助理发帖，恳请HR或前辈解答简历撰写难题，并分享面试中绝对要避免的言行，以及能增加面试官好感的行为经验。",
+    "selected": false,
+    "why": "内容反映了新人求职痛点，招聘方可以从中了解候选人的关注点，优化面试考察维度。",
+    "impact": "主要影响跨境电商行业的求职者与招聘企业，对卖家日常销售运营无直接关联。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "求职",
+      "面试",
+      "运营助理",
+      "职业发展"
+    ],
+    "eventId": "evt-af81e9b33849"
   },
   {
     "id": "187297",
@@ -12962,6 +13672,29 @@ window.NEWS_DATA = [
       "成人服饰"
     ],
     "eventId": "evt-8a3f07ba02be"
+  },
+  {
+    "id": "was-q-121573",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121573",
+    "sourceType": "community",
+    "score": 45,
+    "category": "market",
+    "title": "老板画饼、无人带教，我还要继续熬吗？求前辈指点",
+    "summary": "一名24岁应届毕业的运营助理，面临老板画饼、无人带教的困境，纠结是否继续留在公司，发帖寻求职业发展建议。",
+    "selected": false,
+    "why": "呈现了新人成长中的典型困境，可为卖家团队管理、新人培养机制提供反思素材。",
+    "impact": "影响新入行运营的个人职业选择，对团队稳定性和留存问题有间接启示。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "职业发展",
+      "新人留存",
+      "团队管理"
+    ],
+    "eventId": "evt-209662cb565a"
   },
   {
     "id": "amazon-forum-145b6d0f-999c-4555-896c-c694bda2e470",

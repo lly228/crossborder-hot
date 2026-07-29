@@ -486,6 +486,27 @@
     "eventId": "evt-94e9b8e10a47"
   },
   {
+    "id": "was-q-121001",
+    "date": "2026-06-12",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121001",
+    "sourceType": "community",
+    "score": 53,
+    "category": "logistics",
+    "title": "实物产品的EAN条码与上架产品时用UPC码的不一致，库房要求提供与UPC码一致的ASIN并重新贴标，库存断货受影响大。 有没有遇到过类似情况？你们是如何向 FBA 仓库说明或者争取让库存保持可售 的？",
+    "summary": "实物产品的EAN条码与上架产品时用UPC码的不一致，库房要求提供与UPC码一致的ASIN并重新贴标，库存断货受影响大。 有没有遇到过类似情况？你们是如何向 FBA 仓库说明或者争取让库存保持可售 的？ - 紧急求助 ！！！ 大家好，我遇到一个库存问题，想请教一下的朋友们： 最近我在欧洲亚马逊的 FBA 仓的 ASIN=A的库存被标记为 Reserved，页面显示 Out of stock，影响了正常销售。经过调查，情况如下： 1. 这款产品是我们自己组...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-17334175ef20"
+  },
+  {
     "id": "186693",
     "date": "2026-06-11",
     "time": "09:50",
@@ -525,6 +546,27 @@
       "亚马逊"
     ],
     "eventId": "evt-8b4c8ff15049"
+  },
+  {
+    "id": "was-q-120943",
+    "date": "2026-06-11",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120943",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "# 运营案例分析 # 美站鞋类新品开了20天广告只出13单，自动+广泛还是不稳，非标品到底该怎么打？",
+    "summary": "# 运营案例分析 # 美站鞋类新品开了20天广告只出13单，自动+广泛还是不稳，非标品到底该怎么打？ - 美站鞋类，新品，评价上了4个直评5星，目前的情况是开广告20天了，只出了13单，不稳定有一单没一单的，广告开了自动和广泛为主，固定策略，竞价给到竞价范围最低多一点点。请教各位大佬我的广告有哪些问题 1. 因为数据有点少，词很分散，但是都是相关的词，就没...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-c41996af9fca"
   },
   {
     "id": "was-q-120853",
@@ -736,6 +778,25 @@
       "Lazada"
     ],
     "eventId": "evt-6fa3a473957e"
+  },
+  {
+    "id": "was-q-120663",
+    "date": "2026-06-05",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120663",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "大家现在都有使用哪些agent工具啊？自己还停留于大模型对话居多，少量有体验过workbuddy、accio work这类自动化工具，但感觉效果一般......",
+    "summary": "大家现在都有使用哪些agent工具啊？自己还停留于大模型对话居多，少量有体验过workbuddy、accio work这类自动化工具，但感觉效果一般...... - 大家现在都是使用AI大模型对话聊天、还是有使用一些AI工具、还是已经有使用一些agent工具应用了啊。 就个人目前来说，已经有在尝试一些agent工具。从早前openclaw的兴起，自己有用着其他厂商发布的工具，如workbuddy、accio work...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-fa47ac2a1b45"
   },
   {
     "id": "lsch-d28eb7e7",
