@@ -1,5 +1,28 @@
 [
   {
+    "id": "was-q-121573",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121573",
+    "sourceType": "community",
+    "score": 45,
+    "category": "market",
+    "title": "老板画饼、无人带教，我还要继续熬吗？求前辈指点",
+    "summary": "一名24岁应届毕业的运营助理，面临老板画饼、无人带教的困境，纠结是否继续留在公司，发帖寻求职业发展建议。",
+    "selected": false,
+    "why": "呈现了新人成长中的典型困境，可为卖家团队管理、新人培养机制提供反思素材。",
+    "impact": "影响新入行运营的个人职业选择，对团队稳定性和留存问题有间接启示。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "职业发展",
+      "新人留存",
+      "团队管理"
+    ],
+    "eventId": "evt-209662cb565a"
+  },
+  {
     "id": "lsch-9743448d",
     "date": "2026-06-28",
     "time": "23:03",
@@ -590,6 +613,28 @@
       "广告营销"
     ],
     "eventId": "evt-07bcd8d3d5e4"
+  },
+  {
+    "id": "was-q-120876",
+    "date": "2026-06-10",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120876",
+    "sourceType": "community",
+    "score": 53,
+    "category": "policy",
+    "title": "AI图片标注合规问题，纽约SB 8420-A法案：《合成表演者披露法》",
+    "summary": "AI图片标注合规问题，纽约SB 8420-A法案：《合成表演者披露法》 - 我们公司今年全面梭哈AI（服装类目），老板原话：今年我们的产品一套图都不会实拍了，全部AI生成 如今纽约对于AI图片管控的法案落地 亚马逊后台A+已有AI标记按钮 我的今年的 几十款产品 全部都是AI 图片， 是不是要全部重新上传标注AI生成？ 主副图 ...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规"
+    ],
+    "eventId": "evt-5e0621a8804f"
   },
   {
     "id": "lsch-a07b83dd",

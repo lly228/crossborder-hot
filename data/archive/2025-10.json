@@ -84,5 +84,43 @@
       "广告营销"
     ],
     "eventId": "evt-eceab362bb25"
+  },
+  {
+    "id": "was-q-110892",
+    "date": "2025-10-14",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/110892",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "关于Vine合并。把15个子ASIN的Vine评论合并到父体，最终会展示所有30条评价，还是只能看到10条呢？",
+    "summary": "关于Vine合并。把15个子ASIN的Vine评论合并到父体，最终会展示所有30条评价，还是只能看到10条呢？ - 大家好， 现在vine2个是免费的，那么15个asin都做2个免费vine，合并在同一个父体。请问一下这样会显示全部30个vine评论出来吗？ 还是最多显示10个？谢谢！",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-65389e76c4a3"
+  },
+  {
+    "id": "was-q-110663",
+    "date": "2025-10-08",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/110663",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "假设给你10w，怎么开始跨境之路",
+    "summary": "假设给你10w，怎么开始跨境之路 - 目录 0x01-背景 0x02-资金规划 0x03-能力与认知 0x04-讨论 0x01-背景 这是我时常会去想的事情，打工这一辈子是不可能永远打工的，反过来说，没有一个私企愿意养你到老。所以我时常会把时间和精力放再工作之外，异常努力的吸收各种知识。...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-005bcb04fa68"
   }
 ]

@@ -32,6 +32,27 @@
     "eventId": "evt-f793412ae5fb"
   },
   {
+    "id": "was-q-120350",
+    "date": "2026-05-28",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120350",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "刚进公司，老板看不起我大专学历，让我离职，主管给我机会，三个月后老板跪求我不要走",
+    "summary": "刚进公司，老板看不起我大专学历，让我离职，主管给我机会，三个月后老板跪求我不要走 - 第二章：爆品不是捡来的，是算出来的 第二天早上八点五十七分。 我抱着电脑站在会议室门口，手里还拿着一杯没来得及喝的冰美式。 昨晚写到凌晨一点的那份《LED氛围灯链接30天修复方案》，已经被我导成了PDF。 一共二十七页。 第一页只有一句话。 ...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品"
+    ],
+    "eventId": "evt-ec7aa1e61c8b"
+  },
+  {
     "id": "lsch-50b0ece0",
     "date": "2026-05-26",
     "time": "22:09",
@@ -161,6 +182,28 @@
       "广告营销"
     ],
     "eventId": "evt-c11f77589b09"
+  },
+  {
+    "id": "was-q-119635",
+    "date": "2026-05-13",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/119635",
+    "sourceType": "community",
+    "score": 61,
+    "category": "policy",
+    "title": "关于5月18日以后新规价格机制变化的探讨和疑问",
+    "summary": "关于5月18日以后新规价格机制变化的探讨和疑问 - 5.18亚马逊新规价格即将落地，从改版后的规则来看，我理解的参考价的计算逻辑变化： 1、参考价来源确定为：经验证的建议零售价 or 按90天内成交价中位数计算过后的价格 2、价格分类的确定： 促销价格：deal价格、coupon价格、promot...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规"
+    ],
+    "eventId": "evt-416cc70a1a54"
   },
   {
     "id": "lsch-e0d6d0cd",
