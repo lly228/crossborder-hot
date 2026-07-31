@@ -750,6 +750,48 @@
     "eventId": "evt-5e0621a8804f"
   },
   {
+    "id": "was-q-120857",
+    "date": "2026-06-10",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120857",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "求助，当前亚马逊合并变体后rating抓取规则是怎样的？能否开case刷新rating",
+    "summary": "求助，当前亚马逊合并变体后rating抓取规则是怎样的？能否开case刷新rating - 合并的链接1个评分是4.3，评论数68，一个评分是3.3，评论数24，如果按照之前的核算逻辑合并后rating评分会变为4，评论数92。但是目前前台的rating评分是3.4，评论数92。 请问现在的核算逻辑是改了吗？能不能联系客服复核一下计算逻辑呀？ 求...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-552d9875e6f6"
+  },
+  {
+    "id": "was-q-120812",
+    "date": "2026-06-09",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120812",
+    "sourceType": "community",
+    "score": 55,
+    "category": "policy",
+    "title": "2026过半，税务合规你们怎么搞的？你是在用9810或0110模式，还是继续买单方式来确保税务合规呢？",
+    "summary": "2026过半，税务合规你们怎么搞的？你是在用9810或0110模式，还是继续买单方式来确保税务合规呢？ - 2026年已经过半，税务合规这块大家都是怎么做的？9810？0110？ 还是继续买单？ 求真实经验，多谢！",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-f822725b3474"
+  },
+  {
     "id": "lsch-a07b83dd",
     "date": "2026-06-08",
     "time": "15:45",

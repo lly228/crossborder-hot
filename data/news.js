@@ -2,6 +2,205 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "187862",
+    "date": "2026-07-31",
+    "time": "15:09",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187862",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "突发！亚马逊后台又崩了",
+    "summary": "亚马逊卖家后台突发崩溃，管理库存等操作受影响，后逐步恢复。",
+    "selected": true,
+    "why": "影响卖家日常运营，需关注系统稳定性。",
+    "impact": "亚马逊美国站卖家可能无法访问后台，临时影响订单处理。",
+    "action": "检查后台状态，已恢复则正常操作；若仍有异常联系客服。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "后台崩溃",
+      "平台故障"
+    ],
+    "eventId": "evt-8b4c3dc5ebe6"
+  },
+  {
+    "id": "mjzj-ftqtt9jplhc0",
+    "date": "2026-07-31",
+    "time": "14:34",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftqtt9jplhc0",
+    "sourceType": "media",
+    "score": 85,
+    "category": "policy",
+    "title": "深圳海关查获整柜瞒报出口香烟，申报“连接线”实为200万支",
+    "summary": "深圳海关查获整柜瞒报出口香烟，申报为“连接线”，实际装载1万条、200万支香烟，涉嫌走私立案。",
+    "selected": true,
+    "why": "警示出口合规，瞒报后果严重，卖家必须如实申报。",
+    "impact": "所有出口跨境电商卖家，需高度重视申报合规。",
+    "action": "核查自身出口申报信息，确保货物品名、数量真实准确。",
+    "deadline": "",
+    "tags": [
+      "海关",
+      "合规",
+      "出口",
+      "走私",
+      "选品"
+    ],
+    "ref": "https://www.amz123.com/kx/mK4nNn4u",
+    "eventId": "evt-b90a12d5d6b0"
+  },
+  {
+    "id": "mjzj-ftqts40dvvuo",
+    "date": "2026-07-31",
+    "time": "14:34",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftqts40dvvuo",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "亚马逊美国站后台7月31日突然崩溃",
+    "summary": "7月31日亚马逊美国站卖家后台宕机，管理库存页面空白，逐步恢复；同日发布Q2财报，净销售额2006亿美元，同比增20%。",
+    "selected": true,
+    "why": "后台宕机影响卖家操作，平台业绩数据值得关注。",
+    "impact": "美国站卖家管理库存和订单处理受到影响。",
+    "action": "等待官方状态更新，恢复后检查库存和订单。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "后台崩溃",
+      "平台",
+      "财报"
+    ],
+    "ref": "https://www.amz123.com/kx/lWrR1Tws",
+    "eventId": "evt-a196b52872bc"
+  },
+  {
+    "id": "mjzj-ftqtt9jplhc1",
+    "date": "2026-07-31",
+    "time": "14:34",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftqtt9jplhc1",
+    "sourceType": "media",
+    "score": 65,
+    "category": "marketing",
+    "title": "字节跳动发布新一代视频生成模型Seedance 2.5",
+    "summary": "字节跳动发布视频生成模型Seedance 2.5，支持30秒视频生成、多轮延长及多模态参考，已上线即梦AI等平台。",
+    "selected": true,
+    "why": "TikTok卖家可利用AI生成视频提升内容营销效率。",
+    "impact": "主要利好TikTok Shop卖家，可用于制作广告和带货视频。",
+    "action": "了解Seedance 2.5功能，尝试在TikTok内容创作中应用。",
+    "deadline": "",
+    "tags": [
+      "TikTok",
+      "AI视频",
+      "营销",
+      "字节跳动"
+    ],
+    "ref": "https://www.pai.com.cn/p/01kyvcwp6ef6md679cv7g5zve9",
+    "eventId": "evt-0d2bb2dc0034"
+  },
+  {
+    "id": "mjzj-ftqtqj24q0ap",
+    "date": "2026-07-31",
+    "time": "14:33",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftqtqj24q0ap",
+    "sourceType": "media",
+    "score": 90,
+    "category": "logistics",
+    "title": "美国海关加强ISF合规前置拦截，进口合规监管力度升级",
+    "summary": "2026年7月起美国CBP对ISF申报异常货物实施2R禁装指令，起运港前置拦截，违规罚款5000-10000美元，形成前置拦截+到港核查双重监管。",
+    "selected": true,
+    "why": "美线ISF合规要求重大升级，违规将面临高额罚款与货物被扣。",
+    "impact": "所有出口美国的海运卖家，需确保ISF申报准确及时。",
+    "action": "立即审查ISF申报流程，核实数据准确性、IOR资质和申报时效。",
+    "deadline": "2026-07-01",
+    "tags": [
+      "美国海关",
+      "ISF",
+      "合规",
+      "罚款",
+      "物流"
+    ],
+    "ref": "https://www.amz123.com/t/t5DgNO2N",
+    "eventId": "evt-d4e4a2dbbea6"
+  },
+  {
+    "id": "mjzj-ftqtqj24q0ao",
+    "date": "2026-07-31",
+    "time": "14:33",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftqtqj24q0ao",
+    "sourceType": "media",
+    "score": 80,
+    "category": "logistics",
+    "title": "双台风影响持续发酵 中国六大集装箱港口全面陷入严重中断",
+    "summary": "台风“巴威”“红霞”导致中国六大集装箱港口持续拥堵，上海港平均延误4.56天，盐田、蛇口港实施ETB-7限进措施，出口重箱进港困难。",
+    "selected": true,
+    "why": "港口严重拥堵将导致物流大面积延误，影响发货与库存。",
+    "impact": "中国出口卖家，尤其是经由上海、盐田、蛇口港发货的卖家。",
+    "action": "与货代确认船期延误情况，预留更多时间，考虑备选港口。",
+    "deadline": "",
+    "tags": [
+      "港口",
+      "物流",
+      "台风",
+      "中国",
+      "延误"
+    ],
+    "ref": "https://www.amz123.com/kx/mkc5EkwY",
+    "eventId": "evt-c5522f9233c6"
+  },
+  {
+    "id": "mjzj-ftqssv7z3ls0",
+    "date": "2026-07-31",
+    "time": "14:20",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftqssv7z3ls0",
+    "sourceType": "media",
+    "score": 85,
+    "category": "logistics",
+    "title": "货还没上船就被扣？美线查验再升级！",
+    "summary": "美线查验升级，货物可能在起运港被前置拦截，导致未上船即被扣留，产生延误和高额罚款。",
+    "selected": true,
+    "why": "查验加严直接影响发货计划，卖家需提前规避风险。",
+    "impact": "美国站卖家，尤其使用海运发货的账户。",
+    "action": "了解最新查验规则，确保所有申报文件准确合规。",
+    "deadline": "",
+    "tags": [
+      "美国",
+      "海关",
+      "查验",
+      "物流"
+    ],
+    "eventId": "evt-d302db72b30f"
+  },
+  {
+    "id": "lsch-4472b724",
+    "date": "2026-07-31",
+    "time": "12:10",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/4472b724",
+    "sourceType": "media",
+    "score": 45,
+    "category": "market",
+    "title": "36氪出海·专访｜赴日谈：高驰——以产品力与长期主义赢得日本市场",
+    "summary": "运动品牌高驰通过专注产品力和长期主义策略在日本市场获得成功。",
+    "selected": true,
+    "why": "为准备进入或深耕日本市场的卖家提供经验参考。",
+    "impact": "对日本市场感兴趣的品牌卖家和运营负责人。",
+    "action": "借鉴高驰的品牌建设思路，调整日本市场本地化策略。",
+    "deadline": "",
+    "tags": [
+      "日本",
+      "市场",
+      "案例",
+      "品牌"
+    ],
+    "eventId": "evt-417e6da2322d"
+  },
+  {
     "id": "mjzj-ftqdk176kmbk",
     "date": "2026-07-31",
     "time": "11:31",
@@ -191,6 +390,30 @@ window.NEWS_DATA = [
     "eventId": "evt-4db00d392b2d"
   },
   {
+    "id": "mjzj-ftqeotcmm03k",
+    "date": "2026-07-31",
+    "time": "11:23",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftqeotcmm03k",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "亚马逊前台改版，展示逻辑又变了！",
+    "summary": "亚马逊前台展示算法再次改版，影响产品搜索排名和曝光逻辑。",
+    "selected": true,
+    "why": "需关注前台变化以优化listing和广告策略，维持流量。",
+    "impact": "所有亚马逊卖家，特别是依赖搜索流量的产品。",
+    "action": "检查主要关键词的前台页面，分析变化，调整listing和广告投放。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "前台",
+      "展示",
+      "算法"
+    ],
+    "eventId": "evt-a7859df4e9a0"
+  },
+  {
     "id": "mjzj-ftq9egfnj18g",
     "date": "2026-07-31",
     "time": "11:12",
@@ -286,6 +509,32 @@ window.NEWS_DATA = [
       "美国"
     ],
     "eventId": "evt-41638c5ef1bc"
+  },
+  {
+    "id": "mjzj-ftq63mpggqv4",
+    "date": "2026-07-31",
+    "time": "10:05",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftq63mpggqv4",
+    "sourceType": "media",
+    "score": 80,
+    "category": "policy",
+    "title": "专利版权商标维权26-cv-01610高尔夫球烈酒杯和26-cv-01568健身单杠",
+    "summary": "两起跨境电商侵权案件立案：26-cv-01610涉及高尔夫球烈酒杯，26-cv-01568涉及健身单杠，相关卖家面临维权风险。",
+    "selected": true,
+    "why": "提醒卖家排查店铺，避免因销售侵权产品被起诉冻结资金。",
+    "impact": "销售高尔夫用品、创意酒杯、健身器材的卖家。",
+    "action": "立即下架涉及相关专利或版权的高尔夫球烈酒杯及同款健身单杠产品。",
+    "deadline": "",
+    "tags": [
+      "专利",
+      "版权",
+      "商标",
+      "维权",
+      "选品",
+      "侵权"
+    ],
+    "eventId": "evt-e5e6cb0761a3"
   },
   {
     "id": "mjzj-ftq5j6wjpvr4",
@@ -455,6 +704,151 @@ window.NEWS_DATA = [
     "eventId": "evt-4e2ce8d6cc17"
   },
   {
+    "id": "mjzj-ftq41t0k6ark",
+    "date": "2026-07-31",
+    "time": "09:44",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftq41t0k6ark",
+    "sourceType": "media",
+    "score": 40,
+    "category": "market",
+    "title": "谷歌发布Gemini Robotics ER 2机器人推理模型",
+    "summary": "谷歌发布机器人推理模型Gemini Robotics ER 2，通过API和AI Studio开放使用。",
+    "selected": false,
+    "why": "前沿科技，暂时与跨境电商卖家日常经营无直接关联。",
+    "impact": "对卖家暂无直接影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "AI",
+      "谷歌"
+    ],
+    "eventId": "evt-81c94a771bd3"
+  },
+  {
+    "id": "mjzj-ftn8kxtvqhvk",
+    "date": "2026-07-31",
+    "time": "09:42",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftn8kxtvqhvk",
+    "sourceType": "media",
+    "score": 65,
+    "category": "market",
+    "title": "26年Q2日本打印机电商市场达31.2亿日元，墨盒等耗材为核心",
+    "summary": "2026年Q2日本打印机线上销售额31.2亿日元，同比增长4.2%；耗材占销售额61.8%，增速9%，机会主要集中在墨盒等耗材。",
+    "selected": true,
+    "why": "日本打印机耗材市场增长快、占比高，是选品机会点。",
+    "impact": "在日本站销售打印机及配件的卖家，或寻找新选品的卖家。",
+    "action": "分析日本打印机耗材需求，考虑上架高性价比的墨盒等产品。",
+    "deadline": "",
+    "tags": [
+      "日本",
+      "市场",
+      "打印机",
+      "耗材",
+      "选品"
+    ],
+    "ref": "https://www.amz123.com/t/KMaPPWK0",
+    "eventId": "evt-938f4ca41ca7"
+  },
+  {
+    "id": "mjzj-ftniivwfjbi8",
+    "date": "2026-07-31",
+    "time": "09:41",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftniivwfjbi8",
+    "sourceType": "media",
+    "score": 60,
+    "category": "marketing",
+    "title": "6大分析维度，AI搞定亚马逊全流程市场调研",
+    "summary": "亚马逊商机探测器推出AI洞察报告，通过6大维度提供全流程市场调研，辅助选品决策。",
+    "selected": true,
+    "why": "新的免费工具可提升市场分析和选品效率。",
+    "impact": "所有亚马逊卖家，特别是选品阶段的卖家。",
+    "action": "进入亚马逊商机探测器，试用AI洞察报告功能。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "选品",
+      "AI",
+      "工具"
+    ],
+    "eventId": "evt-e3da165bac7b"
+  },
+  {
+    "id": "mjzj-ftnhop927ls0",
+    "date": "2026-07-31",
+    "time": "09:39",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftnhop927ls0",
+    "sourceType": "media",
+    "score": 90,
+    "category": "logistics",
+    "title": "亚马逊新规：大件货物7月31号起进不了美国AWD",
+    "summary": "亚马逊新政策，自7月31日起大件货物将无法进入美国AWD仓库进行仓储配送。",
+    "selected": true,
+    "why": "直接影响大件卖家库存管理，必须立即调整发货计划。",
+    "impact": "所有在美国站销售大件商品的卖家。",
+    "action": "立即停止创建发往AWD的大件货件，将货物转向FBA或其他海外仓。",
+    "deadline": "2025-07-31",
+    "tags": [
+      "亚马逊",
+      "AWD",
+      "大件",
+      "物流",
+      "新规"
+    ],
+    "eventId": "evt-a196b52872bc"
+  },
+  {
+    "id": "mjzj-ftnvzpugsnwg",
+    "date": "2026-07-31",
+    "time": "09:37",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftnvzpugsnwg",
+    "sourceType": "media",
+    "score": 85,
+    "category": "platform",
+    "title": "炸了！大批卖家收到“亚马逊”邮件，资金被清空、账号没了",
+    "summary": "大量卖家收到伪装成亚马逊官方钓鱼邮件，导致账号被盗、资金被清空，甚至绑定手机被篡改。",
+    "selected": true,
+    "why": "账号安全风险极高，必须立即采取措施防范钓鱼攻击。",
+    "impact": "所有亚马逊卖家，尤其是近期收到可疑邮件的卖家。",
+    "action": "立即开启两步验证，仔细核实邮件发件人，不点击任何可疑链接，检查账户登录记录。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "账号安全",
+      "钓鱼",
+      "警告"
+    ],
+    "eventId": "evt-3fdcc5d917ab"
+  },
+  {
+    "id": "mjzj-ftnwu7h5jvnk",
+    "date": "2026-07-31",
+    "time": "09:36",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftnwu7h5jvnk",
+    "sourceType": "media",
+    "score": 75,
+    "category": "logistics",
+    "title": "35%配送减免！亚马逊多渠道配送TikTok Shop专属优惠",
+    "summary": "亚马逊针对TikTok Shop卖家推出多渠道配送（MCF）专属优惠，可享35%配送费用减免。",
+    "selected": true,
+    "why": "直接降低从亚马逊仓库发货至TikTok Shop订单的物流成本，提升多渠道利润空间。",
+    "impact": "同时经营亚马逊和TikTok Shop、使用亚马逊物流的卖家。",
+    "action": "注册MCF并关联TikTok Shop店铺，立即启用折扣方案。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "TikTok Shop",
+      "物流配送",
+      "费用优惠"
+    ],
+    "eventId": "evt-eca89c874515"
+  },
+  {
     "id": "187860",
     "date": "2026-07-31",
     "time": "09:08",
@@ -476,6 +870,144 @@ window.NEWS_DATA = [
       "案件预警"
     ],
     "eventId": "evt-050cb04a17db"
+  },
+  {
+    "id": "mjzj-ftpzc15dnfnk",
+    "date": "2026-07-31",
+    "time": "08:53",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftpzc15dnfnk",
+    "sourceType": "media",
+    "score": 65,
+    "category": "policy",
+    "title": "新政出台：美国税局把“追杀”变为“奖励”，这是跨境卖家的护身符还是糖衣弹？踩过坑的才懂这有多值钱！",
+    "summary": "美国国税局出台新政策，将以往严厉的税务追查转变为鼓励自愿披露的“奖励”机制。",
+    "selected": false,
+    "why": "可能为有税务遗留问题的卖家提供合规窗口，但具体条款需核实。",
+    "impact": "有美国税务义务的跨境卖家。",
+    "action": "咨询专业税务顾问，评估是否适用自愿披露计划。",
+    "deadline": "",
+    "tags": [
+      "美国税务",
+      "合规",
+      "IRS"
+    ],
+    "eventId": "evt-a1c886685021"
+  },
+  {
+    "id": "was-q-122852",
+    "date": "2026-07-31",
+    "time": "07:11",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122852",
+    "sourceType": "community",
+    "score": 40,
+    "category": "market",
+    "title": "鸭王QA-六年时长跨境练习生读评论环节--解答力所能及的问题",
+    "summary": "一位有六年跨境经验的卖家在社区在线回答卖家提问，分享个人经历与见解。",
+    "selected": false,
+    "why": "可获取一线经验，但信息未经官方证实，仅供参考。",
+    "impact": "所有卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "跨境电商",
+      "经验分享"
+    ],
+    "eventId": "evt-982b59cd5ee0"
+  },
+  {
+    "id": "was-q-122849",
+    "date": "2026-07-31",
+    "time": "07:11",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122849",
+    "sourceType": "community",
+    "score": 45,
+    "category": "marketing",
+    "title": "用站外deal把广告ACOS从48%压到22%，月销1100+单后利润却被站外折扣吃掉，这算真盈利吗？还是只是先把排名做上去，再靠后期涨价赚回来？",
+    "summary": "卖家分享通过站外deal降低ACOS但利润被折扣侵蚀的案例，讨论站外推广的真实盈利与排名策略。",
+    "selected": false,
+    "why": "引发对站外推广投入产出比的思考，但属个人经验，不具有普适性。",
+    "impact": "使用站外促销的卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "站外推广",
+      "ACOS",
+      "利润分析"
+    ],
+    "eventId": "evt-2f43d42270cc"
+  },
+  {
+    "id": "amz-4ifaih3a",
+    "date": "2026-07-31",
+    "time": "06:29",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/4ifaih3a",
+    "sourceType": "media",
+    "score": 80,
+    "category": "platform",
+    "title": "亚马逊NSP计划将于7月30日进行重大升级",
+    "summary": "亚马逊新选品计划（NSP）将于7月30日迎来重大升级，可能涉及返点比例和适用条件的调整。",
+    "selected": true,
+    "why": "新品返点直接决定前期投入成本，升级内容将影响新品上架策略。",
+    "impact": "所有使用NSP计划的亚马逊卖家。",
+    "action": "立即查看升级政策，调整近期新品上架规划和费用预估。",
+    "deadline": "2025-07-30",
+    "tags": [
+      "亚马逊",
+      "NSP",
+      "政策升级"
+    ],
+    "eventId": "evt-b3805c8bcaf5"
+  },
+  {
+    "id": "amz-NHhRifg1",
+    "date": "2026-07-31",
+    "time": "06:29",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/NHhRifg1",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "Hsia-Bras牛油果色5合1挂脖内衣9个月销售额突破1100万元",
+    "summary": "一款挂脖内衣在9个月内销售额突破1100万元，成为细分品类爆款案例。",
+    "selected": false,
+    "why": "可作为内衣类目选品与运营的参考案例。",
+    "impact": "服装内衣类卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品案例",
+      "内衣",
+      "爆款"
+    ],
+    "eventId": "evt-9e52bcc28424"
+  },
+  {
+    "id": "amz-H6B7Cv4R",
+    "date": "2026-07-31",
+    "time": "05:49",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/H6B7Cv4R",
+    "sourceType": "media",
+    "score": 80,
+    "category": "logistics",
+    "title": "Ozon被列为潜在袭击目标，下诺夫哥罗德物流中心采取避险措施",
+    "summary": "因无人机袭击风险，Ozon下诺夫哥罗德物流中心采取避险措施；同时物流货物保险费率上调，新客户费率增至3.3倍，8月27日起全面执行。",
+    "selected": true,
+    "why": "物流成本将上升，且存在履约中断可能，直接冲击Ozon卖家经营。",
+    "impact": "Ozon平台卖家，尤其是使用平台物流的卖家。",
+    "action": "核算费率上调对成本的影响，预留更多运费预算，并关注物流稳定性。",
+    "deadline": "2025-08-27",
+    "tags": [
+      "Ozon",
+      "俄罗斯",
+      "物流风险",
+      "保险费率"
+    ],
+    "eventId": "evt-e008f02b7b35"
   },
   {
     "id": "was-q-122809",
@@ -1150,6 +1682,28 @@ window.NEWS_DATA = [
     "eventId": "evt-87aeeacf0cd8"
   },
   {
+    "id": "mjzj-ftogxf4rin0g",
+    "date": "2026-07-30",
+    "time": "22:44",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftogxf4rin0g",
+    "sourceType": "media",
+    "score": 50,
+    "category": "marketing",
+    "title": "后续活动要排了，卖家先拉哪 4 张表？",
+    "summary": "文章指导卖家在促销活动前排期时，应拉取四张数据表以进行优先级排序与风险排查。",
+    "selected": false,
+    "why": "提供可参考的活动准备方法论，但非紧急必读。",
+    "impact": "有促销计划的卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "运营方法",
+      "促销准备"
+    ],
+    "eventId": "evt-6fc6cd074969"
+  },
+  {
     "id": "187855",
     "date": "2026-07-30",
     "time": "17:45",
@@ -1266,7 +1820,7 @@ window.NEWS_DATA = [
       "产业带",
       "扶持计划"
     ],
-    "eventId": "evt-2682e6c55dd4"
+    "eventId": "evt-9193ed1ab3f8"
   },
   {
     "id": "mjzj-ftn8qd0e41s0",
@@ -2067,6 +2621,53 @@ window.NEWS_DATA = [
     "eventId": "evt-d91973062ddb"
   },
   {
+    "id": "amz-dBV8bn2O",
+    "date": "2026-07-30",
+    "time": "09:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/dBV8bn2O",
+    "sourceType": "media",
+    "score": 75,
+    "category": "logistics",
+    "title": "中国首条中欧北极快运周班航线8月15日开通",
+    "summary": "8月15日开通宁波至英国的中欧北极集装箱快运周班航线，全程约20天，比传统苏伊士运河航线大幅缩短时间。",
+    "selected": true,
+    "why": "提供新的快速物流通道，有助于降低库存压力、提高补货效率。",
+    "impact": "面向欧洲市场的亚马逊及其他平台卖家。",
+    "action": "联系相关船公司了解运价和班期，评估是否纳入物流方案。",
+    "deadline": "2025-08-15",
+    "tags": [
+      "中欧物流",
+      "北极航线",
+      "运输时效"
+    ],
+    "eventId": "evt-5cbee4213e5d"
+  },
+  {
+    "id": "amz-Knii9KPc",
+    "date": "2026-07-30",
+    "time": "09:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Knii9KPc",
+    "sourceType": "media",
+    "score": 90,
+    "category": "policy",
+    "title": "马士基发布双重合规提醒：埃及UCR与肯尼亚ACD将于8月3日起强制执行",
+    "summary": "马士基提醒，埃及出口必须提供19位UCR号，肯尼亚进口须在装船前取得ACD参考号，后者将于8月3日强制执行，否则无法订舱或清关。",
+    "selected": true,
+    "why": "缺少相关编号将直接导致货物无法出运，影响发货和交付。",
+    "impact": "从埃及出口或向肯尼亚发货的卖家。",
+    "action": "立即联系货代或船公司，确保已获取UCR/ACD编号并更新订舱流程。",
+    "deadline": "2025-08-03",
+    "tags": [
+      "埃及",
+      "肯尼亚",
+      "海关合规",
+      "强制"
+    ],
+    "eventId": "evt-23bbde8d4ebd"
+  },
+  {
     "id": "mjzj-fsnn0d0evfuo",
     "date": "2026-07-30",
     "time": "09:37",
@@ -2090,6 +2691,53 @@ window.NEWS_DATA = [
       "多站点"
     ],
     "eventId": "evt-ae3182666584"
+  },
+  {
+    "id": "amz-xxjvyAtJ",
+    "date": "2026-07-30",
+    "time": "09:27",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/xxjvyAtJ",
+    "sourceType": "media",
+    "score": 60,
+    "category": "market",
+    "title": "亚马逊全球开店布局成都 华西产业带联合赋能计划覆盖西部十省区市",
+    "summary": "亚马逊在成都推出“华西产业带联合赋能计划”，两年内计划覆盖西部十省区市，孵化300家出海品牌。",
+    "selected": true,
+    "why": "西部产业带卖家可获取官方资源与扶持机会，值得关注。",
+    "impact": "位于川、渝、陕、云、贵等西部十省区市的产业带卖家。",
+    "action": "关注亚马逊全球开店官方渠道，报名参与相关培训与扶持项目。",
+    "deadline": "",
+    "tags": [
+      "亚马逊全球开店",
+      "华西产业带",
+      "扶持计划"
+    ],
+    "eventId": "evt-9193ed1ab3f8"
+  },
+  {
+    "id": "amz-oHeYk4z1",
+    "date": "2026-07-30",
+    "time": "09:27",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/oHeYk4z1",
+    "sourceType": "media",
+    "score": 80,
+    "category": "policy",
+    "title": "马来西亚议员提议临时下架拼多多",
+    "summary": "马来西亚议员提议在反跨境倾销法规出台前，暂时下架拼多多（Temu），以应对其对本土中小企业的冲击。",
+    "selected": true,
+    "why": "若平台被下架，Temu卖家将直接面临业务中断风险，需提前布局。",
+    "impact": "在马来西亚市场经营Temu的卖家。",
+    "action": "密切关注政策动向，考虑拓展其他平台或独立站以分散风险。",
+    "deadline": "",
+    "tags": [
+      "Temu",
+      "马来西亚",
+      "政策风险",
+      "下架"
+    ],
+    "eventId": "evt-f602404459fb"
   },
   {
     "id": "mjzj-ftmho84znrwg",
@@ -2117,6 +2765,27 @@ window.NEWS_DATA = [
     "eventId": "evt-1a8402636fae"
   },
   {
+    "id": "amz-r6jzaSWv",
+    "date": "2026-07-30",
+    "time": "09:17",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/r6jzaSWv",
+    "sourceType": "media",
+    "score": 30,
+    "category": "market",
+    "title": "绿联科技子公司2748万元竞得深圳龙华工业用地",
+    "summary": "绿联科技子公司以2748万元竞得深圳龙华一宗工业用地，或用于扩大产能。",
+    "selected": false,
+    "why": "仅为企业自身发展动态，对卖家经营无直接影响。",
+    "impact": "无直接卖家影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "企业动态"
+    ],
+    "eventId": "evt-4a8bee8cc6e2"
+  },
+  {
     "id": "187843",
     "date": "2026-07-30",
     "time": "09:09",
@@ -2142,6 +2811,53 @@ window.NEWS_DATA = [
     "eventId": "evt-738d6f960d55"
   },
   {
+    "id": "amz-7Cem5pLz",
+    "date": "2026-07-30",
+    "time": "09:07",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/7Cem5pLz",
+    "sourceType": "media",
+    "score": 65,
+    "category": "marketing",
+    "title": "国产“老鼠干”玩偶登TikTok美区玩具榜首 MJ同款热销引发侵权风险",
+    "summary": "一款丑萌“老鼠干”玩偶在TikTok美区爆红，周销量登顶玩具榜；但MJ同款形象走红可能涉及肖像权或版权侵权。",
+    "selected": true,
+    "why": "爆款机会与侵权风险并存，跟卖卖家需警惕知识产权纠纷。",
+    "impact": "TikTok Shop美区玩具类卖家及潜在跟卖者。",
+    "action": "上架类似产品前进行知识产权排查，避免直接使用名人形象或相似设计。",
+    "deadline": "",
+    "tags": [
+      "TikTok",
+      "爆款",
+      "侵权风险",
+      "玩具"
+    ],
+    "eventId": "evt-e267c2aecda8"
+  },
+  {
+    "id": "amz-nxPr4FxR",
+    "date": "2026-07-30",
+    "time": "09:07",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/nxPr4FxR",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "美参议院通过涉俄制裁法案拟对购买俄能源国家征收100%二级关税",
+    "summary": "美国参议院通过法案，拟对购买俄罗斯能源的国家征收100%二级关税。",
+    "selected": false,
+    "why": "可能间接影响全球供应链成本和俄罗斯相关业务，但直接冲击有限。",
+    "impact": "对俄罗斯市场有业务或受能源价格间接影响的卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "美国制裁",
+      "俄罗斯",
+      "关税"
+    ],
+    "eventId": "evt-6494bcb9019e"
+  },
+  {
     "id": "amz-VWqTF3Q4",
     "date": "2026-07-30",
     "time": "08:57",
@@ -2165,6 +2881,32 @@ window.NEWS_DATA = [
       "合规"
     ],
     "eventId": "evt-0be6a62262af"
+  },
+  {
+    "id": "amz-Gks8LdDh",
+    "date": "2026-07-30",
+    "time": "08:57",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Gks8LdDh",
+    "sourceType": "media",
+    "score": 80,
+    "category": "logistics",
+    "title": "Temu关停广东国内仓转向德波自营仓，跨境直邮模式加速调整",
+    "summary": "Temu关闭广东国内仓，收缩全托管和直邮链路，同时在德国、波兰部署十余个自营仓，并推进美国自建仓，加速向海外半托管和本对本模式转型。直接触发因素包括2026年7月欧盟将取消150欧元以下包裹免税并征收清关费和增值税。",
+    "selected": true,
+    "why": "平台物流策略重大转向，直接影响卖家备货和履约方式，特别是依赖直邮的全托管卖家需尽快调整，避免成本上升和时效问题。",
+    "impact": "Temu欧洲站和美国站卖家，全托管直邮模式受限，将转向海外仓备货，可能面临仓储成本和选品调整压力。",
+    "action": "评估转向半托管或本对本模式，提前在德国、波兰或美国海外仓备货，并关注欧盟税务合规要求。",
+    "deadline": "2026-07-01",
+    "tags": [
+      "Temu",
+      "海外仓",
+      "直邮模式",
+      "欧盟免税",
+      "物流调整",
+      "卖家策略"
+    ],
+    "eventId": "evt-edfbb722849e"
   },
   {
     "id": "187842",
