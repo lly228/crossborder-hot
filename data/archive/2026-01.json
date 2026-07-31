@@ -30,6 +30,27 @@
     "eventId": "evt-79480cf9b4f9"
   },
   {
+    "id": "was-q-115142",
+    "date": "2026-01-16",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/115142",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "新品广告“只跑商品页，不跑首页”，应该继续加Bid还是改用广告位溢价？在推新品过程中，大家一般是依据什么逻辑来判断“竞价已到天花板，不能再加了”？",
+    "summary": "新品广告“只跑商品页，不跑首页”，应该继续加Bid还是改用广告位溢价？在推新品过程中，大家一般是依据什么逻辑来判断“竞价已到天花板，不能再加了”？ - 【背景与数据】 新品刚推，我把基础竞价从1.5开始跑，提到了$2，再提到了$2.5（系统建议范围 $2-$3.5），精准匹配。 跑了3天，数据如下： 商品页面： 曝光猛增到 2000+，点击 10个（流量全灌到这了）。 搜索结果顶部（首页）： 曝光 0，...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-0a6af66c227d"
+  },
+  {
     "id": "was-q-115040",
     "date": "2026-01-14",
     "time": "00:00",
@@ -68,6 +89,28 @@
     "deadline": "",
     "tags": [],
     "eventId": "evt-ab5e0d84a030"
+  },
+  {
+    "id": "was-q-114896",
+    "date": "2026-01-10",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/114896",
+    "sourceType": "community",
+    "score": 47,
+    "category": "policy",
+    "title": "同一品牌下，关于单链接（同ASIN）多店铺销售的合规边界与长期风控问题探讨。同一品牌授权这么多店铺，没有风险吗？是怎么控制风险的？",
+    "summary": "同一品牌下，关于单链接（同ASIN）多店铺销售的合规边界与长期风控问题探讨。同一品牌授权这么多店铺，没有风险吗？是怎么控制风险的？ - 找到3个代表性产品都是用多店铺销售，woot店铺除外。 行车记录仪：https://www.amazon.com/dp/B0FC6S2R7K 手机支架：https://www.amazon.com/dp/B0DN1S1YLV 研磨器：https://ww...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规"
+    ],
+    "eventId": "evt-aa3f76f4762a"
   },
   {
     "id": "was-q-114823",

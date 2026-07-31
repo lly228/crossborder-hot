@@ -1,5 +1,97 @@
 [
   {
+    "id": "187175",
+    "date": "2026-06-30",
+    "time": "21:23",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187175",
+    "score": 40,
+    "category": "market",
+    "title": "千锁大战中活下来，出海战场上拿第一！解码凯迪仕Kaadas的全球征途",
+    "summary": "凯迪仕Kaadas分享全球出海成功经验，强调在千锁大战中存活并取得第一。",
+    "selected": false,
+    "why": "案例故事提供品牌出海启示，但缺乏具体操作细节。",
+    "impact": "影响智能锁品类卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品",
+      "市场行情",
+      "亚马逊"
+    ],
+    "eventId": "evt-9929a1cd9730",
+    "sourceType": "media"
+  },
+  {
+    "id": "187171",
+    "date": "2026-06-30",
+    "time": "17:58",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187171",
+    "score": 45,
+    "category": "market",
+    "title": "销量暴涨5倍、退货率仅6%！盖世小鸡拉美市场实战方法论丨“新”卖家故事②",
+    "summary": "盖世小鸡分享拉美市场实战方法，销量暴涨5倍且退货率仅6%。",
+    "selected": false,
+    "why": "拉美市场增长潜力大，案例提供可借鉴策略。",
+    "impact": "影响考虑进入拉美市场的卖家。",
+    "action": "研究拉美市场特点，评估产品适配性和物流方案。",
+    "deadline": "",
+    "tags": [
+      "选品",
+      "市场行情",
+      "拉美"
+    ],
+    "eventId": "evt-5118f4d16116",
+    "sourceType": "media"
+  },
+  {
+    "id": "187167",
+    "date": "2026-06-30",
+    "time": "15:07",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187167",
+    "score": 60,
+    "category": "market",
+    "title": "迷雾中的分水岭：2026中国出海半年盘点与下半年展望",
+    "summary": "文章盘点2026年上半年中国出海行业趋势，并对下半年进行展望，涵盖市场变化、政策影响等。",
+    "selected": true,
+    "why": "帮助卖家了解行业宏观趋势，为下半年策略调整提供参考。",
+    "impact": "影响所有中国出海卖家，尤其是关注市场动态和战略规划的卖家。",
+    "action": "阅读全文，结合自身业务分析趋势，调整下半年运营计划。",
+    "deadline": "",
+    "tags": [
+      "市场行情",
+      "行业动态",
+      "出海"
+    ],
+    "eventId": "evt-7a36f8714871",
+    "sourceType": "media"
+  },
+  {
+    "id": "was-q-121627",
+    "date": "2026-06-30",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121627",
+    "sourceType": "community",
+    "score": 42,
+    "category": "policy",
+    "title": "各位做成人服饰的卖家，大家都做 GCC 了吗？还是在观望？",
+    "summary": "成人服饰卖家讨论是否进行海湾合规认证GCC，因产品数量多、成本高而普遍观望。",
+    "selected": false,
+    "why": "反映特定品类在中东市场的合规成本压力，但未形成明确结论。",
+    "impact": "面向沙特等海湾国家销售的成人服饰卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "GCC",
+      "合规",
+      "成人服饰"
+    ],
+    "eventId": "evt-8a3f07ba02be"
+  },
+  {
     "id": "was-q-121573",
     "date": "2026-06-29",
     "time": "00:00",
