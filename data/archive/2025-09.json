@@ -1,5 +1,26 @@
 [
   {
+    "id": "was-q-110400",
+    "date": "2025-09-26",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/110400",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "亚马逊BD活动参考价格抓取问题",
+    "summary": "亚马逊BD活动参考价格抓取问题 - 亚马逊美国站后台的BD活动费用规则改成了70美金/天，加上销售额的1%的费用，那么坐上了7天的BD活动，那么假如说做到了美国时间第三天晚上22点取消了活动， 1. 那么这个费用是收取3天的70美金/天，也就是210美金，不会收取7天的把？ 2. 取消了...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-d70583a6b7fb"
+  },
+  {
     "id": "was-q-110309",
     "date": "2025-09-24",
     "time": "00:00",

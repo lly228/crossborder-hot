@@ -115,6 +115,27 @@
     "eventId": "evt-209662cb565a"
   },
   {
+    "id": "was-q-121611",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121611",
+    "sourceType": "community",
+    "score": 47,
+    "category": "logistics",
+    "title": "请教大神，货件因为被海关查验即将或已经关闭，如何解决",
+    "summary": "请教大神，货件因为被海关查验即将或已经关闭，如何解决 - 求大神解答，哪种处理方式比较好。 有两票货A和B被海关查验,导致入库延迟，目前货物距离提取出来遥遥无期。 A分了5个仓，全部被查验，货件已经被关闭。 B分了5个仓，全部被查验，货件即将被关。 几个疑惑，现在如何处理才能保证货物顺利接收的同时尽可能减少费用...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-ec26c8b43591"
+  },
+  {
     "id": "lsch-9743448d",
     "date": "2026-06-28",
     "time": "23:03",
