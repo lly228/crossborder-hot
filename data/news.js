@@ -2,6 +2,54 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "amz-8aLUUDbh",
+    "date": "2026-08-01",
+    "time": "06:02",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/8aLUUDbh",
+    "sourceType": "media",
+    "score": 65,
+    "category": "market",
+    "title": "新加坡直播带货正在重塑本地零售",
+    "summary": "新加坡政府支持直播带货，TikTok Shop计划2027年前赋能超1000家线上商家，过去一年直播观看量增长150%，GMV增长1.7倍，月活跃买家增长1.6倍。",
+    "selected": true,
+    "why": "揭示东南亚社交电商增长趋势与平台扶持政策，适合关注新加坡TikTok Shop市场的卖家把握机会。",
+    "impact": "主要影响TikTok Shop新加坡站点的现有及潜在卖家。",
+    "action": "可研究新加坡直播带货模式，考虑入驻并利用平台扶持计划与本地创作者合作。",
+    "deadline": "",
+    "tags": [
+      "新加坡",
+      "TikTok Shop",
+      "直播带货",
+      "市场趋势"
+    ],
+    "eventId": "evt-ce3ff3b818fc"
+  },
+  {
+    "id": "amz-GnQnTxsI",
+    "date": "2026-08-01",
+    "time": "06:02",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/GnQnTxsI",
+    "sourceType": "media",
+    "score": 85,
+    "category": "policy",
+    "title": "越南药管局撤回313个化妆品备案号，资生堂无印良品乐敦在列",
+    "summary": "越南药品管理局撤回313个化妆品备案号，涉及资生堂、无印良品、乐敦等多个知名品牌。",
+    "selected": true,
+    "why": "备案号被撤可能导致相关产品无法在越南正常销售或进口，化妆品卖家需紧急应对合规风险。",
+    "impact": "在越南市场销售上述品牌化妆品的跨境卖家，尤其是Shopee、Lazada等平台卖家。",
+    "action": "立即核查在售产品的越南备案状态，暂停销售受影响商品，联系供应商确认后续安排。",
+    "deadline": "",
+    "tags": [
+      "越南",
+      "化妆品",
+      "备案撤回",
+      "政策合规"
+    ],
+    "eventId": "evt-7783b8788e69"
+  },
+  {
     "id": "was-q-122864",
     "date": "2026-08-01",
     "time": "04:31",
@@ -2811,6 +2859,78 @@ window.NEWS_DATA = [
     "eventId": "evt-82a5ec861a9b"
   },
   {
+    "id": "mjzj-ftnmqpxh5rls",
+    "date": "2026-07-30",
+    "time": "17:03",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftnmqpxh5rls",
+    "sourceType": "media",
+    "score": 50,
+    "category": "marketing",
+    "title": "什么是关键词需求标签？从亚马逊关键词看用户真实需求的方法",
+    "summary": "介绍关键词需求标签方法：从亚马逊关键词提取核心词根，按品类、场景、人群等属性分类，以理解用户真实需求。",
+    "selected": true,
+    "why": "为卖家提供挖掘关键词背后用户意图的思路，有助于优化Listing与广告投放。",
+    "impact": "适用于所有亚马逊站点卖家的关键词研究与选品分析。",
+    "action": "可尝试对自己产品的核心关键词进行分类梳理，识别主力需求标签。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "关键词分析",
+      "选品",
+      "需求挖掘"
+    ],
+    "eventId": "evt-81accb2edd07"
+  },
+  {
+    "id": "mjzj-ftnm2k6dfy80",
+    "date": "2026-07-30",
+    "time": "16:42",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftnm2k6dfy80",
+    "sourceType": "media",
+    "score": 90,
+    "category": "policy",
+    "title": "26-cv-08984｜JISSOE商标维权启动，跨境箱包卖家紧急风控防TRO冻结",
+    "summary": "JISSOE商标维权案件已启动，针对跨境箱包卖家，可能引发TRO账户资金冻结。",
+    "selected": true,
+    "why": "商标侵权风险极高，未及时排查可能导致账户资金被冻结，影响正常经营。",
+    "impact": "所有销售箱包产品的跨境电商卖家，尤其是亚马逊、eBay等平台卖家。",
+    "action": "立即排查是否使用了JISSOE商标，下架涉嫌侵权产品并删除相关关键词。",
+    "deadline": "",
+    "tags": [
+      "JISSOE",
+      "商标维权",
+      "箱包",
+      "TRO"
+    ],
+    "eventId": "evt-ae4c23518be7"
+  },
+  {
+    "id": "mjzj-ftnjtnfjw4xs",
+    "date": "2026-07-30",
+    "time": "16:19",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftnjtnfjw4xs",
+    "sourceType": "media",
+    "score": 90,
+    "category": "policy",
+    "title": "26-cv-01928｜GBRacing隐匿维权，215店涉案TRO已被冻结",
+    "summary": "GBRacing摩托车配件商标隐匿维权案件已有215家店铺被TRO冻结，风险正在扩大。",
+    "selected": true,
+    "why": "隐匿维权已造成大量店铺被冻结，销售机车防护配件的卖家面临极高的侵权和资金风险。",
+    "impact": "所有跨境电商平台销售摩托车发动机保护盖、防摔滑块等机车防护产品的卖家。",
+    "action": "立刻排查并下架所有GBRacing相关或疑似产品，避免使用其商标。",
+    "deadline": "",
+    "tags": [
+      "GBRacing",
+      "商标维权",
+      "TRO",
+      "机车配件"
+    ],
+    "eventId": "evt-ad5a2588eb51"
+  },
+  {
     "id": "187856",
     "date": "2026-07-30",
     "time": "16:05",
@@ -2833,6 +2953,30 @@ window.NEWS_DATA = [
       "官方扶持"
     ],
     "eventId": "evt-a67a6d568444"
+  },
+  {
+    "id": "mjzj-ftnemkpacqo0",
+    "date": "2026-07-30",
+    "time": "15:32",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/ftnemkpacqo0",
+    "sourceType": "media",
+    "score": 85,
+    "category": "platform",
+    "title": "紧急提醒｜亚马逊标题新规已启动：超 75 字符的老 Listing，可能被 AI 逐步改写",
+    "summary": "亚马逊美国站自7月27日起要求除媒体类目外商品标题不超过75个字符，超限老链接可能被AI优化，品牌卖家有14天审核窗口。",
+    "selected": true,
+    "why": "标题规则变化直接影响搜索流量分配，长期依赖标题堆砌关键词的老链接首当其冲，卖家需主动调整。",
+    "impact": "所有亚马逊美国站卖家，尤其是拥有大量老ASIN的店铺。",
+    "action": "立即检查并缩短标题至75字符以内，将非核心信息迁移到五点描述或商品描述中。",
+    "deadline": "2025-07-27",
+    "tags": [
+      "亚马逊",
+      "标题",
+      "新规",
+      "AI优化"
+    ],
+    "eventId": "evt-06af9a9f2328"
   },
   {
     "id": "187854",
@@ -15398,6 +15542,30 @@ window.NEWS_DATA = [
     ],
     "eventId": "evt-754f94a6c26d",
     "sourceType": "media"
+  },
+  {
+    "id": "was-q-122555",
+    "date": "2026-07-23",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122555",
+    "sourceType": "community",
+    "score": 40,
+    "category": "marketing",
+    "title": "# 超级话题 # 如何在大活动或者月促过后不受到这些价格的影响且优惠券不会报错",
+    "summary": "社区卖家讨论大促后避免价格受影响及优惠券报错的几种经验方法，操作未经官方证实。",
+    "selected": false,
+    "why": "仅为社区经验分享，可作了解，但不可作为确定方案直接执行。",
+    "impact": "使用优惠券的亚马逊卖家可能遇到类似价格设置与报错问题。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "优惠券",
+      "大促",
+      "价格设置"
+    ],
+    "eventId": "evt-bd389249b9b8"
   },
   {
     "id": "187681",
