@@ -188,6 +188,25 @@
     "eventId": "evt-50f476f111bb"
   },
   {
+    "id": "was-q-118736",
+    "date": "2026-04-21",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/118736",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "请教一个问题，同一个ASIN切换不同的SKU销售，会影响权重从而影响销售吗？",
+    "summary": "请教一个问题，同一个ASIN切换不同的SKU销售，会影响权重从而影响销售吗？ - 最近又遇到了这样的问题，一个产品因为降本，所以重新设计了产品，外观有了些微不同，所以在同ASIN下创建了另一个SKU，老SKU销售了2年的时间了，本来表现还可以，但是切换到新库存，也就是新的SKU、新的buy box之后，各方面销售都没有之前那么好。 ...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e0d1493450bd"
+  },
+  {
     "id": "lsch-a3f0065e",
     "date": "2026-04-18",
     "time": "14:28",
@@ -288,6 +307,28 @@
     "deadline": "",
     "tags": [],
     "eventId": "evt-7d5d8f1b9e3f"
+  },
+  {
+    "id": "was-q-118155",
+    "date": "2026-04-08",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/118155",
+    "sourceType": "community",
+    "score": 61,
+    "category": "marketing",
+    "title": "亚马逊运营梳理-广告优化的思路大概框架",
+    "summary": "亚马逊运营梳理-广告优化的思路大概框架 - 过完年回来，就一直在忙忙忙，忙着开新店，忙着拓展其他跨境平台，忙着把控社媒推广方向。今天给大家分享关于广告优化的思路大概框架吧。 我们调整优化广告的目的，是为了要最大化亚马逊广告收益，其核心是：控ACoS、提转化、扩精准流量、动态调预算，形成“数据→优化...”",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-3dcce215c1a5"
   },
   {
     "id": "was-q-118053",

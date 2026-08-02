@@ -1,0 +1,83 @@
+[
+  {
+    "id": "amz-Z4okoRv7",
+    "date": "2023-04-26",
+    "time": "02:57",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Z4okoRv7",
+    "sourceType": "media",
+    "score": 77,
+    "category": "policy",
+    "title": "大量卖家利用ChatGPT刷好评！亚马逊发出封号警告！",
+    "summary": "AMZ123获悉，ChatGPT的横空出世，颠覆了整个人类文明的发展。对于一些跨境电商卖家而言，ChatGPT在选品、详情页文案、小语种翻译、关键词提取等方面为他们提供了巨大帮助。但是，近日有媒体发现，许多卖家使用ChatGPT撰写虚假好评，欺骗网购者。 报道称，亚马逊上一些电子产品、书籍、婴儿用品的评价中都出现了“作为人工智能语言模型”这样的开头，这是ChatGPT生成的回答。这些评价通常对商品进行了一些简单和笼统的描述，没有反映出真实的使用体验和感受。 其中，一条孕妇短裤的评论说：“作为一个人工智能语言模型，我没有身体，但我明白怀孕期间穿着舒适衣服的重要性。”",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "选品"
+    ],
+    "eventId": "evt-3c1f93ceed77"
+  },
+  {
+    "id": "amz-UqIIMJqF",
+    "date": "2023-04-21",
+    "time": "04:03",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/UqIIMJqF",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "OpenAI流量超过BBC等大媒体！谁是ChatGPT 主要用户？",
+    "summary": "AMZ123获悉，Semrush高级市场研究经理Fernando Angulo表示：“数据证实了 ChatGPT 的受欢迎程度有多么爆炸性。根据 Semrush 数据，从 11 月到 2022 年 12 月，即 ChatGPT 推出一个月后，“chatgpt”的全球在线搜索量增长了 1043.66%，一个月内搜索量从 4000 万增加到近 5亿。人们纷纷涌向互联网，以了解更多关于这种可以在几秒钟内编写原创内容的神秘新机器的信息。”按照这些思路，2023 年 1 月“AI 文本生成器”的搜索量同比增长 820%，其中在引入 ChatGPT 后每月增长 235%。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-b258284262b8"
+  },
+  {
+    "id": "amz-iAekVrAJ",
+    "date": "2023-04-20",
+    "time": "06:04",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/iAekVrAJ",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "帮助用户下单！Zalando添加ChatGPT搜索助手！",
+    "summary": "AMZ123获悉，在线时尚巨头Zalando将推出一款由ChatGPT提供支持的新工具，以增强在线时尚购物体验，帮助消费者浏览其应用程序和网络平台。由OpenAI提供支持的技术将允许客户使用他们自己的时尚术语和词语提问，Zalando声称这使搜索和购买过程更加“直观和自然”。这一新工具将为英国、爱尔兰、德国和奥地利的特定客户群提供服务。Zalando的时尚助手还将为客户推荐相关产品，使他们能够进行持续的对话以购买所需时尚产品。例如，如果客户问“7月在圣托里尼参加婚礼我应该穿什么？”，Zalando的时尚助理将提供书面解释，并为该活动提供服装建议。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-3bb3a47c029b"
+  },
+  {
+    "id": "amz-CrFVzIcV",
+    "date": "2023-04-20",
+    "time": "03:07",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/CrFVzIcV",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "ChatGPT闯进二手电商，“美国煤炉”上线AI新工具",
+    "summary": "AMZ123获悉，4月18日，据外媒报道，美国煤炉Mercari正在测试其新购物工具“Merchat AI”，该工具是一个基于ChatGPT技术的客户服务聊天机器人，能够根据客户提示推荐最符合需求的商品。 据报道，“Merchat AI”目前仅在美国范围内测试，后续可能会向Mercari其他市场上线。 根据Mercari发布的该工具的使用指南，买家可以在聊天框输入自己的购物需求，例如“母亲节我应该给妈妈买什么？”、“我想要BarbieCore风格的服装”等，该工具将在 数秒内筛选出平台中最符合买家描述需求的商品。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-5e259882a530"
+  }
+]

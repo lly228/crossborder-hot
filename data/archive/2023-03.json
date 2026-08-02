@@ -1,0 +1,40 @@
+[
+  {
+    "id": "amz-oBunPFHs",
+    "date": "2023-03-30",
+    "time": "09:25",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/oBunPFHs",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "又一电商平台集成ChatGPT，但用户体验遭吐槽",
+    "summary": "AMZ123获悉，3月27日，美国科技电子产品电商平台Newegg宣布集成ChatGPT，将这一技术应用于改善平台购物体验的各个方面。然而，在其购物推荐工具PCBuilder中，集成ChatGPT后的使用体验遭到大量买家吐槽。 据悉，Newegg目前已将ChatGPT整合到以下几个方面： PCBuilderPCBuilder是Newegg在2020年推出的一款工具，旨在帮助买家挑选符合需求的电脑组件。集成ChatGPT后，买家只需输入关于预期的用途、处理器、显卡和价格的要求，该工具就会推荐完整的台式电脑组件清单。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e337100658d7"
+  },
+  {
+    "id": "amz-Nq47sqTJ",
+    "date": "2023-03-01",
+    "time": "03:50",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Nq47sqTJ",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "加入ChatGPT 赛道！Meta将成立新团队专注于生成人工智能！",
+    "summary": "AMZ123获悉，Meta正在创建一个新的产品团队，专注于类似于OpenAI的ChatGPT和Google Bard的生成式人工智能。此前，在OpenAI发布ChatGPT广受好评后，包括微软和京东在内的一波科技公司纷纷进入该领域。Meta创始人马克·扎克伯格(Mark Zuckerberg)在Facebook的一篇帖子中写道，新产品团队部门将合并公司的多个团队。新团队将由现任首席产品官Chris Cox领导。扎克伯格表示，新团队将构建“富有创意和表现力”的工具，用于Meta的产品中。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-9e7363db5def"
+  }
+]

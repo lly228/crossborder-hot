@@ -1,0 +1,44 @@
+[
+  {
+    "id": "amz-2ro3VWrh",
+    "date": "2023-05-22",
+    "time": "03:39",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/2ro3VWrh",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "从亚马逊到苹果：为什么大型科技公司禁止员工使用 ChatGPT？",
+    "summary": "AMZ123获悉，Apple和其他公司对ChatGPT和其他AI工具采取限制措施，以防止通过这些服务共享敏感信息。Apple加入了限制员工在公司设备上使用ChatGPT等人工智能(AI)的公司名单，以保护公司机密信息并防止其泄露。据华尔街日报(WSJ)报道，Apple已禁止其员工使用ChatGPT 和其他人工智能服务，例如Github的Copilot，据悉该工具可以帮助开发人员编写代码。此外，《华尔街日报》指出，苹果也在开发自己的人工智能模型。亚马逊是最早做出这一决定的公司之一，自3月以来，其员工被禁止与OpenAI聊天机器人共享公司代码或敏感和机密信息。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-9bc6d22243cf"
+  },
+  {
+    "id": "amz-x2z9TKZ7",
+    "date": "2023-05-16",
+    "time": "02:19",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/x2z9TKZ7",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "亚马逊要做类ChatGPT电商搜索，正招聘相关人才",
+    "summary": "AI浪潮下，亚马逊是少数一直保持沉默的大型科技公司之一。但AMZ123获悉，据彭博社报道，近日，亚马逊发布了关于打造AI搜索功能的招聘信息。从招聘信息来看，亚马逊似乎要将类似ChatGPT的功能融入其购物平台。 据报道，亚马逊正在招聘的职位包括“高级软件开发工程师”，职位描述为“通过交互式对话体验重新构想亚马逊搜索，以帮助用户找到问题的答案，比较产品并获得个性化建议。”其他招聘职位的描述还包括“以人工智能为先导，通过使用极大规模的下一代深度学习技术来重新构建和革新我们的搜索方式。”",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-a3e5988d6142"
+  }
+]
