@@ -1041,6 +1041,27 @@
     "eventId": "evt-fa47ac2a1b45"
   },
   {
+    "id": "was-q-120719",
+    "date": "2026-06-05",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120719",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "新品由promotion转优惠券，自动广告曝光骤减且0转化。今天优惠券出了一单，打算凌晨再切回大promotion测试。大佬分析一下原因",
+    "summary": "新品由promotion转优惠券，自动广告曝光骤减且0转化。今天优惠券出了一单，打算凌晨再切回大promotion测试。大佬分析一下原因 - 1.新品刚上架前4天疯狂测试cpc，第二天开始商品页面曝光，第三天商品页面转化2单； 2.第四天为了出划线价，开了优惠券减少了promotion的折扣，结果自动曝光骤减，加了cpc后曝光增长缓慢且不出单，商品页面低曝光无点击 3.后续再一次减少了cpc想曝...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-6d2447e931e3"
+  },
+  {
     "id": "lsch-d28eb7e7",
     "date": "2026-06-04",
     "time": "14:13",
