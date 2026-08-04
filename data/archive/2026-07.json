@@ -1,5 +1,145 @@
 [
   {
+    "id": "amz-TV3AT2yu",
+    "date": "2026-07-04",
+    "time": "18:00",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/TV3AT2yu",
+    "score": 40,
+    "category": "platform",
+    "title": "AI服务功能调整：字节与阿里同日下线智能体能力",
+    "summary": "字节跳动旗下豆包与阿里云通义千问宣布智能体功能将于2026年7月15日停止服务，用户需在10月15日前备份数据。",
+    "selected": false,
+    "why": "对依赖这些AI工具进行客服或内容生成的卖家有影响，但时间充裕，需提前规划替代方案。",
+    "impact": "影响使用豆包或通义千问智能体功能的卖家，尤其是用于自动化运营的卖家。",
+    "action": "评估当前对豆包或通义千问智能体的依赖程度，在10月15日前备份数据并寻找替代工具。",
+    "deadline": "2026-07-15",
+    "tags": [
+      "AI工具",
+      "服务调整",
+      "数据备份"
+    ],
+    "eventId": "evt-3d3c117a25f6",
+    "sourceType": "media"
+  },
+  {
+    "id": "187296",
+    "date": "2026-07-04",
+    "time": "17:44",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187296",
+    "score": 70,
+    "category": "marketing",
+    "title": "欧洲热爆了！除了空调，这些「降温神器」也在被疯抢",
+    "summary": "欧洲高温季来临，除空调外，风扇、冰垫、防晒用品等“降温神器”需求激增，卖家可对照选品清单备货。",
+    "selected": true,
+    "why": "高温季是短期爆发的销售机会，选对产品可快速提升销量，适合欧洲站卖家。",
+    "impact": "主要影响欧洲站卖家，尤其是销售季节性产品的卖家。",
+    "action": "立即查看选品清单，评估库存和供应链，快速上架相关降温产品。",
+    "deadline": "",
+    "tags": [
+      "选品",
+      "欧洲",
+      "季节性",
+      "热销"
+    ],
+    "eventId": "evt-0023781ab7b9",
+    "sourceType": "media"
+  },
+  {
+    "id": "mjzj-fr1r1c1bivpc",
+    "date": "2026-07-04",
+    "time": "09:38",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fr1r1c1bivpc",
+    "score": 80,
+    "category": "policy",
+    "title": "补税潮杀到跨境圈：69家A股已掏49亿，下一个是谁？",
+    "summary": "跨境企业补税潮来袭，星徽、赛维、华凯易佰等69家A股公司已掏49亿补税，合规成本持续攀升。",
+    "selected": true,
+    "why": "税务合规是跨境卖家的红线，补税潮警示卖家需重视税务规划，避免高额罚款。",
+    "impact": "影响所有跨境卖家，尤其是通过香港公司或海外架构运营的卖家。",
+    "action": "立即审查公司税务架构和申报情况，咨询专业税务顾问，确保合规。",
+    "deadline": "",
+    "tags": [
+      "税务合规",
+      "政策合规",
+      "跨境企业",
+      "风险"
+    ],
+    "eventId": "evt-d5efe6041979",
+    "sourceType": "media"
+  },
+  {
+    "id": "lsch-22b55143",
+    "date": "2026-07-04",
+    "time": "08:52",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/22b55143",
+    "score": 30,
+    "category": "market",
+    "title": "汽车“极寒”，博弈全球｜深度",
+    "summary": "国内汽车市场竞争激烈，征战全球成为必修课，文章深度分析汽车行业全球化趋势。",
+    "selected": false,
+    "why": "与跨境电商卖家直接关联度低，主要面向汽车行业从业者。",
+    "impact": "主要影响汽车行业相关卖家，对普通跨境卖家参考价值有限。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "汽车",
+      "全球化",
+      "市场趋势"
+    ],
+    "eventId": "evt-4ac0b18f8811",
+    "sourceType": "media"
+  },
+  {
+    "id": "lsch-6e217fba",
+    "date": "2026-07-04",
+    "time": "08:18",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/6e217fba",
+    "score": 20,
+    "category": "market",
+    "title": "6月卡塔尔创投要闻：“北京-卡塔尔”投资合作高峰洽谈会成功举办；Invest Qatar Gateway推出创投融资模块",
+    "summary": "卡塔尔创投要闻，包括中卡投资合作高峰洽谈会及创投融资模块推出。",
+    "selected": false,
+    "why": "信息较为小众，主要面向关注中东市场的投资者，对普通卖家指导性弱。",
+    "impact": "影响关注卡塔尔或中东市场的卖家，但范围有限。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "卡塔尔",
+      "投资",
+      "中东市场"
+    ],
+    "eventId": "evt-6d9553705c54",
+    "sourceType": "media"
+  },
+  {
+    "id": "lsch-8d2623f9",
+    "date": "2026-07-04",
+    "time": "07:41",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/8d2623f9",
+    "score": 25,
+    "category": "market",
+    "title": "大停电后一年，西班牙补强电网和储能",
+    "summary": "西班牙大停电后反思，补强电网和储能，分析其能源发展模式转变。",
+    "selected": false,
+    "why": "与跨境电商卖家直接关联度低，主要面向能源行业。",
+    "impact": "对跨境卖家影响较小，除非涉及西班牙本地仓储或物流。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "西班牙",
+      "能源",
+      "电网"
+    ],
+    "eventId": "evt-a80f1d992254",
+    "sourceType": "media"
+  },
+  {
     "id": "mjzj-fqzj65fiwo3k",
     "date": "2026-07-03",
     "time": "18:37",
@@ -1667,6 +1807,27 @@
       "人才"
     ],
     "eventId": "evt-9f39afcdb4df"
+  },
+  {
+    "id": "was-q-121732",
+    "date": "2026-07-02",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121732",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "广告花费限制，开case被拒，无法再次提交申诉，系统自动解除需要多长时间",
+    "summary": "广告花费限制，开case被拒，无法再次提交申诉，系统自动解除需要多长时间 - 有没有碰到同款广告硬性花费限额的卖家？想跟大家请教一下实际解决办法！ 我日本站店铺现在广告每日花费被平台锁死上限，单日最多只能消耗14,000日元；美站限制大概是100美金。 这里说明一下，限额不是我自己手动设置的预算。就算当天广告预留预算还有很多结...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-b754582773a3"
   },
   {
     "id": "187201",

@@ -178,6 +178,28 @@
     "eventId": "evt-d05043fe7562"
   },
   {
+    "id": "was-q-121582",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121582",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "优化ACOS的四种操作方法（AI在亚马逊广告中的一些应用）",
+    "summary": "优化ACOS的四种操作方法（AI在亚马逊广告中的一些应用） - 亚马逊的广告数据我们需要及时查看和优化，优化acos各自有各自的方法，简单分享下我使用过的几种方法，以供大家参考。 先说第一种方法：后台直接调广告，刚接触亚马逊广告的时候，只会这一种。找到ACOS选项，从高到低排列，然后点高ACOS的广告...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-b2ada990a9b7"
+  },
+  {
     "id": "lsch-9743448d",
     "date": "2026-06-28",
     "time": "23:03",
@@ -897,6 +919,25 @@
     "eventId": "evt-357249b43113"
   },
   {
+    "id": "was-q-120824",
+    "date": "2026-06-09",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120824",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "中小卖家应该如何轻量化落地 AI 运营、从领搭建属于自己店铺自动化工作流，这里分享下我们的做法",
+    "summary": "中小卖家应该如何轻量化落地 AI 运营、从领搭建属于自己店铺自动化工作流，这里分享下我们的做法 - 不少卖家想尝试用 AI 做日常运营，可一想到搭建整套自动化体系就觉得头大，迟迟不敢动手。其实没必要一开始就追求全流程自动化，循序渐进落地，很快就能感受到效率变化。下面分享一套四周落地方法，普通人也能直接照着做 第一周：梳理日常工作，找准落地切入点 这是整...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-98d1252c143f"
+  },
+  {
     "id": "lsch-a07b83dd",
     "date": "2026-06-08",
     "time": "15:45",
@@ -1263,6 +1304,28 @@
     "deadline": "",
     "tags": [],
     "eventId": "evt-33e9be7d2dfb"
+  },
+  {
+    "id": "was-q-120508",
+    "date": "2026-06-02",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120508",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "Temu 全域推广：到底要不要开？有人靠它 7 天起量、快速冲类目前列，也有人吐槽 “自然流全变付费、退款还扣费”，利润被严重压缩。所以这个到底需不需要开呢",
+    "summary": "Temu 全域推广：到底要不要开？有人靠它 7 天起量、快速冲类目前列，也有人吐槽 “自然流全变付费、退款还扣费”，利润被严重压缩。所以这个到底需不需要开呢 - 在 Temu 全托管生态里，“全域推广” 已成为卖家热议的核心功能。 有人靠它 7 天起量、快速冲类目前列，也有人吐槽 “自然流全变付费、退款还扣费”，利润被严重压缩。 所以这个到底需不需要开呢，开了帮助大不大，不开有没有啥损失",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Temu",
+      "广告营销"
+    ],
+    "eventId": "evt-502c18bd9c6f"
   },
   {
     "id": "lsch-b53ff4d1",
