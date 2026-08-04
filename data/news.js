@@ -2,6 +2,103 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "187896",
+    "date": "2026-08-04",
+    "time": "13:59",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187896",
+    "sourceType": "media",
+    "score": 45,
+    "category": "marketing",
+    "title": "深圳工厂卖智能眼镜，出货100万副、干到亚马逊第一",
+    "summary": "深圳智能眼镜工厂通过亚马逊销售，出货量达100万副，成为类目第一。",
+    "selected": true,
+    "why": "成功案例展示工厂转型跨境电商的路径，提供选品和运营启发。",
+    "impact": "激励亚马逊电子品类卖家，关注智能穿戴市场。",
+    "action": "可研究该案例的定价、推广策略。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "选品",
+      "成功案例",
+      "智能眼镜"
+    ],
+    "eventId": "evt-bb58fcb85141"
+  },
+  {
+    "id": "mjzj-fu4pdghjtjpc",
+    "date": "2026-08-04",
+    "time": "11:54",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fu4pdghjtjpc",
+    "sourceType": "media",
+    "score": 80,
+    "category": "logistics",
+    "title": "美线海运迎来传统旺季，多家船公司启动运价上调",
+    "summary": "多家船公司自8月1日起上调跨太平洋美线海运运价，传统旺季来临。",
+    "selected": true,
+    "why": "运费上涨直接影响卖家物流成本和利润，需提前应对。",
+    "impact": "影响亚马逊FBA及其他美线海运卖家。",
+    "action": "提前备货或调整发货计划，控制物流成本。",
+    "deadline": "2026-08-01",
+    "tags": [
+      "物流",
+      "海运",
+      "美线",
+      "运价上涨"
+    ],
+    "ref": "https://www.amz123.com/t/J0gFiVQM",
+    "eventId": "evt-a93045d5b56c"
+  },
+  {
+    "id": "mjzj-fu4pdgmh45xc",
+    "date": "2026-08-04",
+    "time": "11:54",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fu4pdgmh45xc",
+    "sourceType": "media",
+    "score": 65,
+    "category": "market",
+    "title": "ISM报告：美国制造业增长在7月加速",
+    "summary": "美国7月ISM制造业PMI升至52.8，新订单和产出加速增长，就业仍收缩。",
+    "selected": true,
+    "why": "洞察美国消费需求潜力，辅助选品和库存决策。",
+    "impact": "面向美国市场的卖家，尤其消费电子、家居品类。",
+    "action": "关注相关品类需求变化，调整备货。",
+    "deadline": "",
+    "tags": [
+      "美国市场",
+      "制造业",
+      "PMI"
+    ],
+    "eventId": "evt-60ac54d837d2"
+  },
+  {
+    "id": "mjzj-fu4opz270074",
+    "date": "2026-08-04",
+    "time": "11:47",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fu4opz270074",
+    "sourceType": "media",
+    "score": 65,
+    "category": "market",
+    "title": "夏季带动线上消费增长，26年拉美电商市场将达2153亿美元",
+    "summary": "预计2026年拉美电商市场达2153亿美元，增速超全球平均50%，夏季线上消费活跃。",
+    "selected": true,
+    "why": "拉美市场增长强劲，为卖家拓展新区域提供数据支持。",
+    "impact": "布局拉美的亚马逊、TikTok Shop等平台卖家。",
+    "action": "考虑拓展拉美，重点关注男装和移动端体验。",
+    "deadline": "",
+    "tags": [
+      "拉美",
+      "电商市场",
+      "男装",
+      "移动购物"
+    ],
+    "ref": "https://www.amz123.com/t/VRkgRiAA",
+    "eventId": "evt-ff10c4f9fff4"
+  },
+  {
     "id": "mjzj-fu4n1imbgb9c",
     "date": "2026-08-04",
     "time": "11:28",
@@ -504,6 +601,29 @@ window.NEWS_DATA = [
     "eventId": "evt-e3f48c51556e"
   },
   {
+    "id": "mjzj-fu4an5tpoy68",
+    "date": "2026-08-04",
+    "time": "09:07",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fu4an5tpoy68",
+    "sourceType": "media",
+    "score": 50,
+    "category": "marketing",
+    "title": "曝光高、点击低，别急着换主图！亚马逊Alexa时代下影响点击率的真正原因是这个",
+    "summary": "在亚马逊Alexa算法下，曝光高点击低的原因不只是图片，需综合诊断。",
+    "selected": true,
+    "why": "帮助卖家避免盲目更换主图，提升广告点击率。",
+    "impact": "亚马逊广告投放卖家。",
+    "action": "分析价格、标题、评价等因素，利用Alexa数据优化。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告优化",
+      "点击率"
+    ],
+    "eventId": "evt-fb4dc1df6a9e"
+  },
+  {
     "id": "187884",
     "date": "2026-08-04",
     "time": "09:04",
@@ -526,6 +646,30 @@ window.NEWS_DATA = [
       "TRO"
     ],
     "eventId": "evt-953cd5188f99"
+  },
+  {
+    "id": "was-q-122991",
+    "date": "2026-08-04",
+    "time": "06:38",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122991",
+    "sourceType": "community",
+    "score": 40,
+    "category": "policy",
+    "title": "亚马逊日本站上线有线耳机需要注意哪些问题?",
+    "summary": "卖家询问亚马逊日本站上线有线耳机的专利侵权和认证问题。",
+    "selected": false,
+    "why": "社区讨论，仅供了解注意事项，非官方解答。",
+    "impact": "拟进入日本耳机市场的卖家。",
+    "action": "自行查询日本专利及PSE认证要求。",
+    "deadline": "",
+    "tags": [
+      "亚马逊日本",
+      "有线耳机",
+      "知识产权",
+      "认证"
+    ],
+    "eventId": "evt-b63c44954e6a"
   },
   {
     "id": "was-q-122990",
@@ -920,6 +1064,53 @@ window.NEWS_DATA = [
     "eventId": "evt-faec617aefbb"
   },
   {
+    "id": "mjzj-fu2ahzs09hc0",
+    "date": "2026-08-03",
+    "time": "19:32",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fu2ahzs09hc0",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "一口锅冲进 TikTok 东南亚跨境榜前 9，把 3C 和快时尚都挤到了后面",
+    "summary": "Redchef陶瓷锅通过TikTok内容营销和RCEP关税红利，三年在东南亚卖出200万口。",
+    "selected": true,
+    "why": "案例展示政策与本土化营销结合的打法，可复制性高。",
+    "impact": "TikTok Shop东南亚卖家，家居厨房品类。",
+    "action": "借鉴内容营销策略，利用RCEP关税优惠。",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "东南亚",
+      "案例",
+      "RCEP"
+    ],
+    "eventId": "evt-ca5af82d1935"
+  },
+  {
+    "id": "mjzj-fu27a262tvr4",
+    "date": "2026-08-03",
+    "time": "19:10",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fu27a262tvr4",
+    "sourceType": "media",
+    "score": 70,
+    "category": "platform",
+    "title": "单ASIN省$1724！2026亚马逊NSP升级，上新成本直降38%",
+    "summary": "亚马逊NSP计划升级，新ASIN可享佣金、仓储等减免，单ASIN平均省1724美元，上新成本降38%。",
+    "selected": true,
+    "why": "直接降低新品试错成本，鼓励卖家推新。",
+    "impact": "所有亚马逊卖家，尤其是经常上新的商家。",
+    "action": "核查NSP资格，利用优惠上架新品。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "NSP",
+      "费用减免"
+    ],
+    "eventId": "evt-ab393eba0709"
+  },
+  {
     "id": "187883",
     "date": "2026-08-03",
     "time": "17:54",
@@ -944,6 +1135,28 @@ window.NEWS_DATA = [
     "eventId": "evt-dbf55233d7d4"
   },
   {
+    "id": "mjzj-fu1vpbpq3sao",
+    "date": "2026-08-03",
+    "time": "16:52",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fu1vpbpq3sao",
+    "sourceType": "media",
+    "score": 35,
+    "category": "market",
+    "title": "TikTok CEO周受资出席南洋理工大学毕业典礼：鼓励博士生毕业积极探索未知",
+    "summary": "TikTok CEO周受资出席毕业典礼演讲，鼓励探索未知。",
+    "selected": false,
+    "why": "行业领袖观点，无直接经营影响。",
+    "impact": "无直接业务影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok",
+      "行业领袖"
+    ],
+    "eventId": "evt-3356508d2747"
+  },
+  {
     "id": "187879",
     "date": "2026-08-03",
     "time": "16:24",
@@ -966,6 +1179,127 @@ window.NEWS_DATA = [
       "女性消费"
     ],
     "eventId": "evt-1dc20926ba34"
+  },
+  {
+    "id": "mjzj-fu1ssz77b4sg",
+    "date": "2026-08-03",
+    "time": "16:20",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fu1ssz77b4sg",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "Meta 公司二季度利润下滑 扎克伯格重申加码人工智能投资",
+    "summary": "Meta二季度营收增长28%，广告曝光与价格双增，但利润因AI投资下滑。",
+    "selected": true,
+    "why": "广告需求强劲，卖家可评估投放效果并关注成本变化。",
+    "impact": "使用Facebook、Instagram广告的卖家。",
+    "action": "优化广告策略，关注CPC变化。",
+    "deadline": "",
+    "tags": [
+      "Meta",
+      "广告",
+      "财报"
+    ],
+    "eventId": "evt-ef78ba5082b6"
+  },
+  {
+    "id": "mjzj-fu1rgjg42vi8",
+    "date": "2026-08-03",
+    "time": "16:03",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fu1rgjg42vi8",
+    "sourceType": "media",
+    "score": 85,
+    "category": "policy",
+    "title": "（附组团案件号）最新TRO名单出炉，进入倒计时｜7月最后一周美国TRO最新动态",
+    "summary": "2026年7月最后一周美国TRO案件名单公布，含多个商标专利维权案件。",
+    "selected": true,
+    "why": "提醒卖家排查侵权，防止账号资金被冻结。",
+    "impact": "亚马逊、eBay等平台美国站卖家。",
+    "action": "对照名单排查店铺，下架侵权商品。",
+    "deadline": "",
+    "tags": [
+      "TRO",
+      "美国",
+      "知识产权",
+      "商标",
+      "专利"
+    ],
+    "eventId": "evt-e537c3792980"
+  },
+  {
+    "id": "mjzj-fu1r2o3ebsow",
+    "date": "2026-08-03",
+    "time": "15:56",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fu1r2o3ebsow",
+    "sourceType": "media",
+    "score": 90,
+    "category": "policy",
+    "title": "26-cv-09181｜Miraculous瓢虫少女商标版权双维权，TRO已立案",
+    "summary": "Miraculous瓢虫少女商标版权维权，TRO案件26-cv-09181已立案。",
+    "selected": true,
+    "why": "高风险品牌，卖家需立即下架相关产品。",
+    "impact": "涉及玩具、服装类目的卖家。",
+    "action": "检查商品是否使用该品牌，立即删除。",
+    "deadline": "",
+    "tags": [
+      "TRO",
+      "商标",
+      "版权",
+      "Miraculous"
+    ],
+    "eventId": "evt-f2deb056f890"
+  },
+  {
+    "id": "mjzj-fu1qf54h9kao",
+    "date": "2026-08-03",
+    "time": "15:50",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fu1qf54h9kao",
+    "sourceType": "media",
+    "score": 90,
+    "category": "policy",
+    "title": "26-cv-09170｜抹布商标KONSUL一词慎用，已立案维权！",
+    "summary": "抹布商标KONSUL已被立案维权，案件号26-cv-09170。",
+    "selected": true,
+    "why": "抹布品类卖家极易误用，需紧急排查。",
+    "impact": "清洁用品卖家，特别是抹布产品。",
+    "action": "排查listing中是否包含KONSUL，修改。",
+    "deadline": "",
+    "tags": [
+      "TRO",
+      "商标",
+      "抹布",
+      "KONSUL"
+    ],
+    "eventId": "evt-f613a7d95ae9"
+  },
+  {
+    "id": "mjzj-fu1o85d3rj0g",
+    "date": "2026-08-03",
+    "time": "15:30",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fu1o85d3rj0g",
+    "sourceType": "media",
+    "score": 50,
+    "category": "market",
+    "title": "突发，字节跳动大调整！豆包飞书整合",
+    "summary": "字节跳动整合豆包、飞书，成立创造力服务平台，豆包Token调用量达180万亿。",
+    "selected": true,
+    "why": "可能推出AI电商工具，影响卖家运营效率。",
+    "impact": "使用字节系工具的TikTok Shop卖家。",
+    "action": "关注后续发布的AI功能。",
+    "deadline": "",
+    "tags": [
+      "字节跳动",
+      "豆包",
+      "飞书",
+      "AI"
+    ],
+    "ref": "https://www.pai.com.cn/p/01kz2mref8zp006dvyf18t1d4n",
+    "eventId": "evt-63a246410ca6"
   },
   {
     "id": "mjzj-fu1kiyxeu9z4",
