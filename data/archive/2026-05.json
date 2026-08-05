@@ -162,6 +162,27 @@
     "summary": ""
   },
   {
+    "id": "was-q-119712",
+    "date": "2026-05-15",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/119712",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "分享自己用ai编写的在线亚马逊利润自动核算工具",
+    "summary": "分享自己用ai编写的在线亚马逊利润自动核算工具 - 月初又是统计亚马逊日期范围报告的日子，站点多了也要耗费不少时间，特别是单干的卖家，没有使用erp。于是自己用ai gemini对话的方式生成代码，花了3天时间不断修改、修复bug，终于发布一版能使用的，代码已开源，不会储存数据，放心使用。欢迎提交bug，我...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-401590d8aa1d"
+  },
+  {
     "id": "was-q-119657",
     "date": "2026-05-14",
     "time": "00:00",
@@ -204,6 +225,25 @@
       "政策合规"
     ],
     "eventId": "evt-416cc70a1a54"
+  },
+  {
+    "id": "was-q-119553",
+    "date": "2026-05-12",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/119553",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "GPT生图手把手教学",
+    "summary": "GPT生图手把手教学 - 今天教大家一个很实用的东西： 怎么用 GPT 做商品图。 很多人一听到 AI 生图，就觉得提示词要写得特别复杂，特别专业。 但其实现在完全不用。 我这次做一组女装商品图，整个过程你们也看到了，基本上就是： 想改什么，直接说。想加什么，直接说。...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-a6ab54f57997"
   },
   {
     "id": "lsch-e0d6d0cd",

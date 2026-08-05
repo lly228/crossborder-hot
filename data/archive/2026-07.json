@@ -1,5 +1,76 @@
 [
   {
+    "id": "187297",
+    "date": "2026-07-05",
+    "time": "17:40",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187297",
+    "score": 85,
+    "category": "policy",
+    "title": "这几类卖家快自查！海外爆款IP成下架重灾区",
+    "summary": "海外爆款IP成为下架重灾区，提醒卖家自查产品是否涉及侵权，避免账号被封或产品被下架。",
+    "selected": true,
+    "why": "知识产权侵权是亚马逊封号的主要原因之一，卖家需及时排查，避免重大损失。",
+    "impact": "影响所有跨境电商平台卖家，尤其是销售玩具、服饰等易侵权品类的卖家。",
+    "action": "立即检查在售产品是否使用未经授权的IP元素，下架可疑产品并联系律师咨询。",
+    "deadline": "",
+    "tags": [
+      "知识产权",
+      "合规",
+      "下架风险",
+      "亚马逊"
+    ],
+    "eventId": "evt-0f73d84dce26",
+    "sourceType": "media"
+  },
+  {
+    "id": "lsch-9f9745fe",
+    "date": "2026-07-05",
+    "time": "09:15",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/9f9745fe",
+    "score": 55,
+    "category": "marketing",
+    "title": "中国公司全球化周报｜速卖通首发618中国品牌出海成交榜 / 智平方最新融资50亿元、估值破200亿",
+    "summary": "速卖通发布618中国品牌出海成交榜，同时智平方最新融资50亿元，估值破200亿。",
+    "selected": false,
+    "why": "速卖通成交榜可帮助卖家了解热销品牌和品类趋势，但信息较为宏观，直接指导性有限。",
+    "impact": "主要影响速卖通平台卖家，尤其是关注品牌出海的卖家。",
+    "action": "参考速卖通成交榜，分析热销品类和品牌策略，优化自身选品和营销。",
+    "deadline": "",
+    "tags": [
+      "速卖通",
+      "品牌出海",
+      "选品",
+      "市场趋势"
+    ],
+    "eventId": "evt-51453e59542a",
+    "sourceType": "media"
+  },
+  {
+    "id": "was-q-121839",
+    "date": "2026-07-05",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121839",
+    "sourceType": "community",
+    "score": 20,
+    "category": "market",
+    "title": "亚马逊转TK，入职后发现误入进了铺货公司，TK的尽头是无脑铺货吗？TK的发展前景在哪里？在广州应该继续亚马逊运营还是TK运营？",
+    "summary": "有亚马逊经验的运营转做TikTok Shop后，发现入职公司采用铺货模式，质疑TK是否只能做铺货，对职业前景感到迷茫。",
+    "selected": false,
+    "why": "反映了部分TikTok Shop卖家的运营现状，对考虑转型的卖家有参考意义，但仅代表个人经历。",
+    "impact": "考虑从亚马逊转向TikTok Shop的运营人员，以及正在TK铺货模式下的卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok",
+      "转型困惑",
+      "铺货"
+    ],
+    "eventId": "evt-542e5c98cac7"
+  },
+  {
     "id": "amz-TV3AT2yu",
     "date": "2026-07-04",
     "time": "18:00",
@@ -1828,6 +1899,27 @@
       "广告营销"
     ],
     "eventId": "evt-b754582773a3"
+  },
+  {
+    "id": "was-q-121740",
+    "date": "2026-07-02",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121740",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "亚马逊封店后选择清算库存，还会受自动弃置影响吗？",
+    "summary": "亚马逊封店后选择清算库存，还会受自动弃置影响吗？ - 我们有个账号被停用了，选择清算掉店铺内的库存，有收到确认加入清算的回复邮件。 但是现在库存没有任何动静，自动弃置时效还是显示在后台，和客服查询，客服说需要激活账号才能启动库存清算，这个库存现在能通过清算处理吗，还会不会被自动弃置？",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-af2965c3166b"
   },
   {
     "id": "187201",

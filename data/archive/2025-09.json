@@ -43,6 +43,28 @@
     "eventId": "evt-2e1ba3a437b4"
   },
   {
+    "id": "was-q-110354",
+    "date": "2025-09-25",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/110354",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "分析“自然订单占比少，广告订单占比多”原因，有原因无对策，资深大佬勿入",
+    "summary": "分析“自然订单占比少，广告订单占比多”原因，有原因无对策，资深大佬勿入 - 今天台风，下午与朋友电话聊天，不知不觉又扯到亚马逊，于是我们聊到了在纯白帽的情况下，“自然订单占比少，广告订单占比多的情况”这个情况很常见，但是我觉得出现的情况会存在差异性，那么这时候不一样的情况优化起来方向肯定会有不一样。 自然单占比少，广...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-3dc6de224ad8"
+  },
+  {
     "id": "was-q-110309",
     "date": "2025-09-24",
     "time": "00:00",
@@ -104,5 +126,27 @@
       "广告营销"
     ],
     "eventId": "evt-821433b26a5f"
+  },
+  {
+    "id": "was-q-109544",
+    "date": "2025-09-04",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/109544",
+    "sourceType": "community",
+    "score": 61,
+    "category": "marketing",
+    "title": "当亚马逊广告ACOS爆表时，靠调整竞价能实现逆袭吗？",
+    "summary": "当亚马逊广告ACOS爆表时，靠调整竞价能实现逆袭吗？ - 在上一篇帖子-亚马逊广告诊断与优化指南：如何精准定位问题并提升广告表现中，看到部分知友回复对于竞价调整的思路还有点不清晰，所以今天跟大家讨论关于竞价调整的一些思路。 了解根源：我们要了解为什么ACOS会爆表？ACOS = （广告总花费 ÷ 广告带来的总销...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-e66331fb1a11"
   }
 ]
