@@ -1221,6 +1221,25 @@
     "eventId": "evt-e9975fc5223d"
   },
   {
+    "id": "was-q-120586",
+    "date": "2026-06-03",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120586",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "正常链接翻新问题：创建跟卖链接无法显示。也开 case 刷新过后台，均无果。这是什么原因导致的呢？有什么解决办法吗？",
+    "summary": "正常链接翻新问题：创建跟卖链接无法显示。也开 case 刷新过后台，均无果。这是什么原因导致的呢？有什么解决办法吗？ - 我的操作步骤是：通过复制老链接来创建新链接，成功后用模板表格删除老链接，使用老链接 SKU 跟卖新链接。提交后，页面显示：您的商品信息已提交！请在 15 分钟后访问“管理所有库存”页面，查看和编辑您的商品信息。 但是后台一直没有跟卖链接出现，邮箱也没有收...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-fb17d924e96b"
+  },
+  {
     "id": "lsch-a1e2f2c7",
     "date": "2026-06-02",
     "time": "17:18",
