@@ -332,6 +332,28 @@
     "eventId": "evt-d7c2e4542a26"
   },
   {
+    "id": "was-q-121520",
+    "date": "2026-06-26",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121520",
+    "sourceType": "community",
+    "score": 55,
+    "category": "policy",
+    "title": "有做速卖通的敏感货物大哥吗？欧盟小包3欧的关税是怎么处理的呢？",
+    "summary": "有做速卖通的敏感货物大哥吗？欧盟小包3欧的关税是怎么处理的呢？ - 3欧元的关税大伙都是咋处理的啊? 我理解的方式是：这3欧元肯定不能是我们商家自己出的，所以归根到底要做的肯定是涨价，这点可以确定吧？ 但是平台规则怎么两头堵的呢 咱们是敏感货，只能走自定义和线下发货的，走不了速卖通的无忧物流，签了前几天平台推出的协议也没...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "速卖通",
+      "物流仓储"
+    ],
+    "eventId": "evt-633babb7747e"
+  },
+  {
     "id": "was-q-121482",
     "date": "2026-06-25",
     "time": "00:00",
@@ -610,6 +632,27 @@
       "广告营销"
     ],
     "eventId": "evt-482682ddf50d"
+  },
+  {
+    "id": "was-q-121130",
+    "date": "2026-06-16",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121130",
+    "sourceType": "community",
+    "score": 47,
+    "category": "logistics",
+    "title": "高客单价新品fbm退货该怎么操作？针对几百美金、约500g的新品，我该选FBA（仅发5个）还是FBM？如何低成本处理可能的退货，尤其FBM时运费和流程怎么解决？",
+    "summary": "高客单价新品fbm退货该怎么操作？针对几百美金、约500g的新品，我该选FBA（仅发5个）还是FBM？如何低成本处理可能的退货，尤其FBM时运费和流程怎么解决？ - 打算上一个几百美金的高客单价新品，产品很小，带包装大概也就500g，目的主要是用来给外贸客户看款式用的，不打算大卖，这种情况下时做fba还是fbm好呢？ 如果是fba的话，应该只会发不到5个。产品成本也很高，如果客户退货导致不可售的话我们还需要另外找海外...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-3f7a31ac0576"
   },
   {
     "id": "lsch-61f8b1d7",

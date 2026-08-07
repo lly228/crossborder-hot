@@ -1,5 +1,74 @@
 [
   {
+    "id": "187348",
+    "date": "2026-07-07",
+    "time": "11:22",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187348",
+    "score": 45,
+    "category": "marketing",
+    "title": "多站点爆单攻略，一键推广+专属广告福利双重加持",
+    "summary": "推广多站点爆单攻略，强调一键推广和广告福利，助力卖家提升销量。",
+    "selected": false,
+    "why": "广告福利和工具更新对卖家有吸引力，但内容偏向宣传。",
+    "impact": "影响多站点运营的卖家，尤其是依赖广告投放的。",
+    "action": "查看具体广告福利细节，评估是否参与。",
+    "deadline": "",
+    "tags": [
+      "广告营销",
+      "多站点"
+    ],
+    "eventId": "evt-e79b11a5e109",
+    "sourceType": "media"
+  },
+  {
+    "id": "was-q-121900",
+    "date": "2026-07-07",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121900",
+    "sourceType": "community",
+    "score": 25,
+    "category": "marketing",
+    "title": "如何有效固定优质长评在页面评论的首页？首页都被新来的短评占住了，没有长评、带图、视频评论的展示",
+    "summary": "卖家反映新评论挤占首页位置，优质长评和带图视频评论无法固定，尝试点赞仍未改善，寻求解决方案。",
+    "selected": false,
+    "why": "评论排序问题影响转化，但社区讨论无法提供确凿有效的官方手段，仅作经验交流。",
+    "impact": "受评论展示影响的亚马逊卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "评论",
+      "亚马逊",
+      "优化"
+    ],
+    "eventId": "evt-f2e4535c4cc3"
+  },
+  {
+    "id": "was-q-121915",
+    "date": "2026-07-07",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121915",
+    "sourceType": "community",
+    "score": 40,
+    "category": "marketing",
+    "title": "产品开发怎么开？选品不会选？三个思维逻辑打破僵局！",
+    "summary": "分享选品和产品开发的三个思维逻辑，强调产品与运营紧密绑定，方向错误会导致后续努力浪费。",
+    "selected": false,
+    "why": "提供系统选品方法论，有助于卖家建立更科学的产品开发思维，但内容通用。",
+    "impact": "对亚马逊卖家的产品开发流程和选品策略有指导作用。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品",
+      "产品开发",
+      "亚马逊",
+      "运营"
+    ],
+    "eventId": "evt-734828c6df44"
+  },
+  {
     "id": "amz-JrJ0TDAR",
     "date": "2026-07-06",
     "time": "01:59",
