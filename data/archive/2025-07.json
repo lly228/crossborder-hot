@@ -17,5 +17,26 @@
     "deadline": "",
     "tags": [],
     "eventId": "evt-a7fb74a5b439"
+  },
+  {
+    "id": "was-q-107492",
+    "date": "2025-07-12",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/107492",
+    "sourceType": "community",
+    "score": 65,
+    "category": "policy",
+    "title": "产品配遥控器带有纽扣电池被下架，求一个通过审核的方案",
+    "summary": "产品配遥控器带有纽扣电池被下架，求一个通过审核的方案 - 链接在5.22那天被下架 当天收到邮件如下： 由于有人举报你的商品存在读个安全问题，此商品已被停售，我们目前不会重新起售此商品，如果改变决定，将会通知你。 在绩效通知栏目原因是：商品和视频安全违规行为。 开case问客服，查到原因，亚马逊禁售产品：...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-02cad051d80e"
   }
 ]
