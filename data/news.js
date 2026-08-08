@@ -2,6 +2,145 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "amz-d15Dx4vB",
+    "date": "2026-08-08",
+    "time": "03:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/d15Dx4vB",
+    "sourceType": "media",
+    "score": 65,
+    "category": "logistics",
+    "title": "京东产发携手深跨协 共建2800万平方米全球仓网助力3800家跨境企业",
+    "summary": "京东产发与深跨协签署战略合作，将共享超2800万平方米全球仓网，帮助3800余家会员企业降低海外仓成本，并推进仓储标准建设。",
+    "selected": true,
+    "why": "卖家可借此对接京东海外仓资源，降低运营成本，提升供应链效率。",
+    "impact": "有海外仓需求的跨境卖家，尤其是深跨协会员企业。",
+    "action": "关注合作落地进展，评估通过深跨协或京东产发获取仓储服务的可行性。",
+    "deadline": "",
+    "tags": [
+      "物流仓储",
+      "海外仓",
+      "深跨协"
+    ],
+    "eventId": "evt-7b8949fa075d"
+  },
+  {
+    "id": "amz-BA2s9yRv",
+    "date": "2026-08-08",
+    "time": "03:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/BA2s9yRv",
+    "sourceType": "media",
+    "score": 65,
+    "category": "market",
+    "title": "Yandex电商业务Q2首次实现调整后EBITDA盈利",
+    "summary": "俄罗斯电商平台Yandex的电商业务在第二季度首次实现调整后EBITDA盈利，标志业务趋于健康增长。",
+    "selected": true,
+    "why": "平台盈利能力改善可能带来更多投入与生态优化，利好卖家。",
+    "impact": "在Yandex平台销售或关注俄罗斯市场的卖家。",
+    "action": "关注Yandex平台后续政策及促销活动，把握增长机会。",
+    "deadline": "",
+    "tags": [
+      "俄罗斯",
+      "Yandex",
+      "市场数据"
+    ],
+    "eventId": "evt-5d378b813733"
+  },
+  {
+    "id": "amz-aIPzXAjn",
+    "date": "2026-08-08",
+    "time": "03:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/aIPzXAjn",
+    "sourceType": "media",
+    "score": 65,
+    "category": "market",
+    "title": "俄罗斯童装市场降幅收窄至3% 天气变化带动季节性补货",
+    "summary": "俄罗斯童装市场下滑幅度收窄至3%，天气变化引发商家季节性补货需求。",
+    "selected": true,
+    "why": "需求回暖信号明显，相关卖家可抓住备货窗口。",
+    "impact": "面向俄罗斯市场销售童装的卖家。",
+    "action": "结合气温变化，适当增加童装库存，优化选品。",
+    "deadline": "",
+    "tags": [
+      "俄罗斯",
+      "童装",
+      "选品"
+    ],
+    "eventId": "evt-60f0c4448507"
+  },
+  {
+    "id": "amz-NWVlwJFU",
+    "date": "2026-08-08",
+    "time": "03:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/NWVlwJFU",
+    "sourceType": "media",
+    "score": 70,
+    "category": "platform",
+    "title": "WB测试“自提点即微型仓”合作计划",
+    "summary": "Wildberries在仓库接连受损后，紧急测试“自提点即微型仓”计划，允许合作方将自提点用作中转仓，补充现有FBW模式。",
+    "selected": true,
+    "why": "新计划可能改变卖家备货与履约路径，影响配送时效和成本。",
+    "impact": "Wildberries平台卖家，尤其是使用官方仓模式的卖家。",
+    "action": "评估是否申请成为合作点，或根据新履约方式调整库存策略。",
+    "deadline": "",
+    "tags": [
+      "Wildberries",
+      "物流",
+      "俄罗斯"
+    ],
+    "eventId": "evt-253bedc36f51"
+  },
+  {
+    "id": "amz-WsphC9g1",
+    "date": "2026-08-08",
+    "time": "03:07",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/WsphC9g1",
+    "sourceType": "media",
+    "score": 30,
+    "category": "market",
+    "title": "英法庭批准50亿英镑针对谷歌的集体诉讼案",
+    "summary": "英国法庭已批准一项针对谷歌的50亿英镑集体诉讼。",
+    "selected": false,
+    "why": "与跨境电商卖家日常经营无直接关联。",
+    "impact": "无直接影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "谷歌",
+      "诉讼"
+    ],
+    "eventId": "evt-c22f4207dc52"
+  },
+  {
+    "id": "amz-3Kpeo48E",
+    "date": "2026-08-08",
+    "time": "03:07",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/3Kpeo48E",
+    "sourceType": "media",
+    "score": 70,
+    "category": "market",
+    "title": "德国消费者海外服饰购买增长 物流与税费成主要弃单因素",
+    "summary": "32%德国消费者每月海外购衣，但48%因运费、44%因配送慢、36%因关税信息不透明放弃订单，PayPal信任度领先。",
+    "selected": true,
+    "why": "直接揭示德国市场弃单痛点，卖家可据此优化结账体验，提升转化。",
+    "impact": "面向德国市场的服饰等品类卖家。",
+    "action": "在德国站提供含税总价、多种物流选项并突出PayPal支付，降低弃单。",
+    "deadline": "",
+    "tags": [
+      "德国",
+      "消费行为",
+      "弃单",
+      "结账",
+      "物流"
+    ],
+    "eventId": "evt-361010c23d0d"
+  },
+  {
     "id": "was-q-123142",
     "date": "2026-08-08",
     "time": "02:59",
@@ -252,17 +391,18 @@ window.NEWS_DATA = [
     "source": "AMZ123",
     "url": "https://www.amz123.com/kx/010J6sCo",
     "sourceType": "media",
-    "score": 55,
+    "score": 50,
     "category": "logistics",
     "title": "马士基出售Maersk Training",
-    "summary": "AMZ123获悉，马士基集团已与纽约—巴黎双总部私募公司Open Gate Capital达成协议，将旗下运营超过40年的Maersk Training及子公司Maersk H2S Safety Services（硫化氢检测与安全服务）整体出售。交易金额尚未披露，预计于2026年下半年完成交割，过渡期间相关业务仍将以马士基品牌继续运营。马士基战略负责人Katharina Poehlmann表示，此次出售是公司“聚焦战略品牌发展”计划的一部分，延续了自2023年以来剥离非核心资产的战略方向，以便将资源重新投入端到端航运及综合物流核心业务。",
+    "summary": "马士基将旗下培训业务Maersk Training出售给私募公司，预计2026年下半年完成，以聚焦核心航运物流。",
     "selected": false,
-    "why": "",
-    "impact": "",
+    "why": "马士基战略调整，但短期对卖家物流服务影响很小。",
+    "impact": "对多数卖家无直接影响。",
     "action": "",
     "deadline": "",
     "tags": [
-      "物流仓储"
+      "马士基",
+      "物流"
     ],
     "eventId": "evt-7880219d819b"
   },
@@ -296,16 +436,19 @@ window.NEWS_DATA = [
     "source": "AMZ123",
     "url": "https://www.amz123.com/kx/oWxwjecn",
     "sourceType": "media",
-    "score": 0,
+    "score": 10,
     "category": "market",
     "title": "美上诉法院2:1维持禁令，暂停4亿美元白宫宴会厅建设",
-    "summary": "美国上诉法院维持禁令，暂停白宫宴会厅建设项目，无跨境电商关联。",
+    "summary": "美国上诉法院维持暂停白宫宴会厅建设的禁令，与跨境电商无关。",
     "selected": false,
-    "why": "",
-    "impact": "",
+    "why": "与跨境电商卖家经营完全无关。",
+    "impact": "无。",
     "action": "",
     "deadline": "",
-    "tags": [],
+    "tags": [
+      "美国",
+      "无关"
+    ],
     "eventId": "evt-d81e67c6696c"
   },
   {
@@ -834,6 +977,31 @@ window.NEWS_DATA = [
     "eventId": "evt-b8458081e503"
   },
   {
+    "id": "mjzj-fuftugrnowzk",
+    "date": "2026-08-07",
+    "time": "14:43",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuftugrnowzk",
+    "sourceType": "media",
+    "score": 85,
+    "category": "platform",
+    "title": "亚马逊规则在变！大批卖家划线价格异常，BD越跑越亏",
+    "summary": "大量亚马逊卖家反映后台设置的List Price前台不显示，导致划线价消失，参与BD等促销时利润受损甚至亏损。",
+    "selected": true,
+    "why": "划线价直接影响转化率和促销效果，是卖家当前急需解决的运营问题。",
+    "impact": "亚马逊所有站点卖家，尤其是正在或计划参与秒杀的卖家。",
+    "action": "立即检查Listing划线价显示状态，开Case联系客服，并重新核算促销利润空间。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "划线价",
+      "促销",
+      "规则变化"
+    ],
+    "ref": "https://www.amz123.com/t/MUN6MxFF",
+    "eventId": "evt-9760698c6aaf"
+  },
+  {
     "id": "mjzj-fufstemu1gjk",
     "date": "2026-08-07",
     "time": "14:31",
@@ -857,6 +1025,77 @@ window.NEWS_DATA = [
       "物流合规"
     ],
     "eventId": "evt-3d5ca43f6501"
+  },
+  {
+    "id": "mjzj-fufr32dh8kqo",
+    "date": "2026-08-07",
+    "time": "14:15",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fufr32dh8kqo",
+    "sourceType": "media",
+    "score": 80,
+    "category": "platform",
+    "title": "告别欧洲跨站调拨噩梦！AWD自动分仓实测缺货率下降15%，卖家成本大减",
+    "summary": "亚马逊AWD卫星仓在欧洲上线自动分仓功能，自动将库存分配至多国仓库，实测缺货率降低15%，减少跨站调拨成本。",
+    "selected": true,
+    "why": "该功能直击欧洲多国库存管理痛点，能有效降本增效，属于高价值运营工具。",
+    "impact": "在欧洲站使用亚马逊物流且面临多国库存分散问题的卖家。",
+    "action": "立即登录卖家平台了解AWD自动分仓设置，启用该功能优化欧洲库存布局。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "AWD",
+      "欧洲",
+      "物流",
+      "自动分仓"
+    ],
+    "eventId": "evt-cbd86847dbfe"
+  },
+  {
+    "id": "mjzj-fufevq3sfkzk",
+    "date": "2026-08-07",
+    "time": "11:56",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fufevq3sfkzk",
+    "sourceType": "media",
+    "score": 40,
+    "category": "market",
+    "title": "消息称字节跳动拟训练超5万亿参数大模型",
+    "summary": "有消息称字节跳动正在讨论训练一个参数超5万亿的模型，项目处于早期阶段。",
+    "selected": false,
+    "why": "与跨境电商卖家日常经营无直接关联。",
+    "impact": "无明显影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "字节跳动",
+      "AI"
+    ],
+    "ref": "https://www.pai.com.cn/p/01kzcyssr716dczgjadezqccbr",
+    "eventId": "evt-18a9db1ca319"
+  },
+  {
+    "id": "mjzj-fufevdc3mghs",
+    "date": "2026-08-07",
+    "time": "11:56",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fufevdc3mghs",
+    "sourceType": "media",
+    "score": 30,
+    "category": "market",
+    "title": "快手可灵AI技术骨干王鑫涛离职",
+    "summary": "快手可灵AI核心技术人员王鑫涛离职，双方未作官方回应。",
+    "selected": false,
+    "why": "与跨境电商卖家经营无关。",
+    "impact": "无。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "快手",
+      "AI"
+    ],
+    "ref": "https://www.pai.com.cn/p/01kzczqwvmxz6p1p30p4y5qwey",
+    "eventId": "evt-7e2429bcd9aa"
   },
   {
     "id": "mjzj-fufckxttpmo1",
@@ -5216,7 +5455,7 @@ window.NEWS_DATA = [
       "家居"
     ],
     "ref": "https://www.amz123.com/t/vu7KExoy",
-    "eventId": "evt-ff1e680eb7f9"
+    "eventId": "evt-52e550a21199"
   },
   {
     "id": "mjzj-fu8p4jpy3e2p",
@@ -5563,7 +5802,7 @@ window.NEWS_DATA = [
       "AI"
     ],
     "ref": "https://www.pai.com.cn/p/01kz80hdzs0a15enj7mk5r1hks",
-    "eventId": "evt-4e9c35a3f17a"
+    "eventId": "evt-a42c9d0e58dc"
   },
   {
     "id": "mjzj-fu8leof81wqo",
@@ -5955,6 +6194,77 @@ window.NEWS_DATA = [
     "eventId": "evt-2272be5363eb"
   },
   {
+    "id": "amz-BLaLXzMx",
+    "date": "2026-08-05",
+    "time": "09:26",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/BLaLXzMx",
+    "sourceType": "media",
+    "score": 45,
+    "category": "market",
+    "title": "奇瑞7月出口突破20万辆，成为中国首家单月出口超20万车企",
+    "summary": "奇瑞集团7月出口20.25万辆，同比增长70.1%，成为首个单月出口突破20万辆的中国车企。",
+    "selected": false,
+    "why": "反映中国品牌出海势头，但与跨境电商卖家业务无直接关联。",
+    "impact": "无直接影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "奇瑞",
+      "出口",
+      "汽车"
+    ],
+    "eventId": "evt-03d147c3aa52"
+  },
+  {
+    "id": "amz-974GcezC",
+    "date": "2026-08-05",
+    "time": "09:16",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/974GcezC",
+    "sourceType": "media",
+    "score": 75,
+    "category": "policy",
+    "title": "菲律宾海关查获两批虚假申报中国进口烟花爆竹",
+    "summary": "菲律宾海关查获两起中国进口烟花爆竹虚假申报案件，货物被扣，相关方将面临处罚。",
+    "selected": true,
+    "why": "为所有向菲律宾出口的卖家敲响合规警钟，虚假申报风险极高。",
+    "impact": "所有向菲律宾出口货物的卖家。",
+    "action": "严格核对申报要素，确保品名、数量、价值等真实准确，杜绝瞒报。",
+    "deadline": "",
+    "tags": [
+      "菲律宾",
+      "海关",
+      "合规",
+      "虚假申报"
+    ],
+    "eventId": "evt-06ec64d85c9b"
+  },
+  {
+    "id": "amz-egxh3MiG",
+    "date": "2026-08-05",
+    "time": "09:16",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/egxh3MiG",
+    "sourceType": "media",
+    "score": 90,
+    "category": "policy",
+    "title": "商务部发布第34号公告 无人机两用物项对美出口实施逐案从严审核",
+    "summary": "商务部8月5日起对无人机整机、关键零部件及相关技术对美出口实施逐案从严审核，取消原有许可便利，即时生效。",
+    "selected": true,
+    "why": "管制政策立即生效且无过渡期，涉无人机出口卖家面临业务中断或合规重构风险。",
+    "impact": "所有向美国出口无人机及管制清单内物项的跨境电商卖家。",
+    "action": "立即排查相关在售产品，暂停未获批订单，向商务主管部门申请许可并咨询专业法律意见。",
+    "deadline": "2026-08-05",
+    "tags": [
+      "出口管制",
+      "无人机",
+      "美国",
+      "政策合规"
+    ],
+    "eventId": "evt-bafef82c4d40"
+  },
+  {
     "id": "187925",
     "date": "2026-08-05",
     "time": "09:02",
@@ -6003,6 +6313,56 @@ window.NEWS_DATA = [
       "跨境电商"
     ],
     "eventId": "evt-395255e4ccb7"
+  },
+  {
+    "id": "amz-3QKnTrJu",
+    "date": "2026-08-05",
+    "time": "07:05",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/3QKnTrJu",
+    "sourceType": "media",
+    "score": 80,
+    "category": "logistics",
+    "title": "Wildberries俄境内物流设施接连遭袭 21处仓储节点受影响",
+    "summary": "自7月18日至8月5日，Wildberries在俄罗斯境内至少21座仓库、分拣中心或物流设施因无人机袭击及火灾受损。",
+    "selected": true,
+    "why": "仓储设施受袭直接影响平台履约与卖家发货，短期可能造成订单延迟与库存损失。",
+    "impact": "在Wildberries俄罗斯站经营的卖家将面临配送延误、货物损毁以及库存管理难题。",
+    "action": "关注平台赔偿政策与发货公告，评估在途货物风险，必要时调整备货计划。",
+    "deadline": "",
+    "tags": [
+      "Wildberries",
+      "俄罗斯",
+      "物流仓储",
+      "风险",
+      "平台"
+    ],
+    "eventId": "evt-760c4cf63b44"
+  },
+  {
+    "id": "amz-EeZifykH",
+    "date": "2026-08-05",
+    "time": "06:45",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/EeZifykH",
+    "sourceType": "media",
+    "score": 70,
+    "category": "market",
+    "title": "Wayfair Q2营收35.19亿美元同比增长7.5%",
+    "summary": "Wayfair发布2026财年第二季度财报，总净营收35.19亿美元，同比增长7.5%，其中美国市场营收31亿美元，订单量增长6%。",
+    "selected": true,
+    "why": "北美家居市场增速创疫情后新高，高端品牌Perigold增长超过35%，为选品提供参考信号。",
+    "impact": "为Wayfair北美站卖家展示市场复苏趋势，尤其高端家居和特色零售品类机会。",
+    "action": "分析热销品类数据，关注Perigold及特色零售品牌，优化选品与备货。",
+    "deadline": "",
+    "tags": [
+      "Wayfair",
+      "北美",
+      "财报",
+      "家居",
+      "选品"
+    ],
+    "eventId": "evt-52e550a21199"
   },
   {
     "id": "was-q-123037",
@@ -6072,6 +6432,129 @@ window.NEWS_DATA = [
       "审核"
     ],
     "eventId": "evt-c142e787db5e"
+  },
+  {
+    "id": "amz-r0QntqVN",
+    "date": "2026-08-05",
+    "time": "06:35",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/r0QntqVN",
+    "sourceType": "media",
+    "score": 90,
+    "category": "policy",
+    "title": "俄政府拟推税延新政纾困 8.5万WB卖家迎来救助窗口",
+    "summary": "俄政府研究允许受袭Wildberries企业将税款及保费缴纳延至2026年底，并免除逾期罚款，副总理要求8月10日前提出方案。",
+    "selected": true,
+    "why": "税收延期可大幅缓解卖家现金流压力，直接减轻受袭事件带来的财务负担。",
+    "impact": "Wildberries俄罗斯站约8.5万受损卖家可能获得税务纾困及平台赔偿。",
+    "action": "保存受损凭证，关注政府及平台发布的申请细则，提前准备材料。",
+    "deadline": "",
+    "tags": [
+      "政策",
+      "俄罗斯",
+      "Wildberries",
+      "税务",
+      "退款"
+    ],
+    "eventId": "evt-fc92dbca0601"
+  },
+  {
+    "id": "amz-GAonkF8c",
+    "date": "2026-08-05",
+    "time": "06:35",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/GAonkF8c",
+    "sourceType": "media",
+    "score": 70,
+    "category": "platform",
+    "title": "亚马逊上线AI商品图片自动翻译功能",
+    "summary": "亚马逊在北美、欧洲等13个站点推出AI图片翻译功能，自动将商品详情图文字本地化，并根据用户语言偏好生成多语言版本。",
+    "selected": true,
+    "why": "该功能可降低卖家多语言图片的制作成本，帮助商品更快适应不同市场。",
+    "impact": "覆盖亚马逊美国、加拿大、墨西哥及德法意西等欧洲站点的非媒体类商品卖家。",
+    "action": "检查商品图片是否含非本地文字，测试自动翻译效果，必要时上传官方版本。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "AI",
+      "图片翻译",
+      "功能更新",
+      "欧洲",
+      "北美"
+    ],
+    "eventId": "evt-a42c9d0e58dc"
+  },
+  {
+    "id": "amz-f4TUUJVp",
+    "date": "2026-08-05",
+    "time": "06:25",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/f4TUUJVp",
+    "sourceType": "media",
+    "score": 65,
+    "category": "market",
+    "title": "Ozon半年报：俄罗斯时尚消费趋势转向 贴身剪裁女装销量最高增长翻番",
+    "summary": "Ozon Select数据显示，2026上半年俄罗斯消费者偏好转向贴身剪裁女装，合身衬衫、连体衣、铅笔裙等品类销量增长1.4至1.8倍。",
+    "selected": true,
+    "why": "揭示俄罗斯时尚消费新趋势，为服装品类卖家提供选品与备货参考。",
+    "impact": "主攻俄罗斯市场的服装卖家，特别是女装类目，可据此调整款式设计。",
+    "action": "关注合身衬衫、连体衣、合身T恤等品类，优化产品线与营销文案。",
+    "deadline": "",
+    "tags": [
+      "Ozon",
+      "俄罗斯",
+      "选品",
+      "时尚",
+      "女装"
+    ],
+    "eventId": "evt-d324138711bc"
+  },
+  {
+    "id": "amz-szU7HjEm",
+    "date": "2026-08-05",
+    "time": "06:25",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/szU7HjEm",
+    "sourceType": "media",
+    "score": 75,
+    "category": "logistics",
+    "title": "Wildberries将在哈萨克斯坦建设26万平方米双仓",
+    "summary": "Wildberries计划在哈萨克斯坦阿拉木图和阿斯塔纳建设共约26万平米仓库，预计2027年第一季度投入运营。",
+    "selected": true,
+    "why": "新增仓储将提升中亚履约能力，分散俄罗斯境内物流风险，利好布局哈萨克斯坦市场的卖家。",
+    "impact": "在Wildberries经营并有意拓展欧亚经济联盟市场的卖家，将获得更稳定的仓储支持。",
+    "action": "评估哈萨克斯坦市场机会，关注平台入仓政策，为2027年新仓启用做准备。",
+    "deadline": "",
+    "tags": [
+      "Wildberries",
+      "哈萨克斯坦",
+      "物流仓储",
+      "拓展"
+    ],
+    "eventId": "evt-d5f0337b2653"
+  },
+  {
+    "id": "amz-CDPoZnuY",
+    "date": "2026-08-05",
+    "time": "06:14",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/CDPoZnuY",
+    "sourceType": "media",
+    "score": 50,
+    "category": "market",
+    "title": "特朗普称美伊会谈取得积极进展，双方关系释放缓和信号",
+    "summary": "特朗普表示美伊之间“非常好的讨论”取得积极进展，美伊关系出现缓和迹象。",
+    "selected": false,
+    "why": "地缘政治缓和可能影响全球油价与物流成本，但短期对电商卖家直接经营影响有限。",
+    "impact": "若局势持续缓和，中东地区仓储物流及跨境走货成本可能降低，但时效不确定。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "美国",
+      "伊朗",
+      "地缘政治"
+    ],
+    "eventId": "evt-360ad8b7309f"
   },
   {
     "id": "was-q-123008",
