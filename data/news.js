@@ -2,6 +2,54 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "lsch-1c425f01",
+    "date": "2026-08-09",
+    "time": "09:18",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/1c425f01",
+    "sourceType": "media",
+    "score": 45,
+    "category": "market",
+    "title": "中国公司全球化周报｜奇瑞7月出口首破20万辆 / 蚂蚁灵波首轮融资拟募资15亿元",
+    "summary": "奇瑞汽车7月出口量首次突破20万辆；蚂蚁集团旗下灵波科技启动首轮融资，拟募集15亿元。",
+    "selected": false,
+    "why": "可了解中国企业出海趋势与科技融资动态，帮助拓宽行业视角。",
+    "impact": "对中国出海企业整体有参考意义，特别是汽车与科技领域，对跨境电商卖家直接影响有限。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "中国出海",
+      "汽车出口",
+      "融资动态"
+    ],
+    "eventId": "evt-ebad1892c00a"
+  },
+  {
+    "id": "was-q-123176",
+    "date": "2026-08-09",
+    "time": "05:16",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123176",
+    "sourceType": "community",
+    "score": 82,
+    "category": "policy",
+    "title": "亚马逊使用第三方平台收款，再提现到人民币公账，算收汇结汇吗，这样合规吗",
+    "summary": "卖家询问通过第三方支付平台收取亚马逊款项后，直接提现到人民币对公账户是否视为收汇结汇，并质疑其合规性。",
+    "selected": false,
+    "why": "资金回款合规是卖家核心关切，但信息来自社区讨论，需自行验证，不可直接作为操作依据。",
+    "impact": "主要影响使用第三方收款工具将亚马逊销售收入转回国内人民币公账的卖家，涉及外汇管理和税务合规。",
+    "action": "建议向专业会计或当地外汇管理局咨询，确认该操作是否满足收汇结汇及税务申报要求。",
+    "deadline": "",
+    "tags": [
+      "收款",
+      "结汇",
+      "合规",
+      "亚马逊",
+      "第三方支付"
+    ],
+    "eventId": "evt-f9e105905a77"
+  },
+  {
     "id": "was-q-123166",
     "date": "2026-08-09",
     "time": "03:06",
@@ -115,6 +163,29 @@ window.NEWS_DATA = [
       "亚马逊广告"
     ],
     "eventId": "evt-beb218751a33"
+  },
+  {
+    "id": "lsch-70b75298",
+    "date": "2026-08-08",
+    "time": "12:40",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/70b75298",
+    "sourceType": "media",
+    "score": 50,
+    "category": "market",
+    "title": "一年净赚老外260亿，中国大巴为什么能海外爆单？",
+    "summary": "中国大巴海外销量猛增，一年出口额达260亿元人民币，得益于技术、价格及新能源优势。",
+    "selected": false,
+    "why": "展示中国制造在海外市场的成功案例，可为跨境电商卖家提供选品或转型思路。",
+    "impact": "对中国出海制造企业有启发，但对亚马逊、TikTok Shop等平台中小卖家直接影响很小。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "中国制造",
+      "汽车出口",
+      "市场趋势"
+    ],
+    "eventId": "evt-9a1f1c3c8739"
   },
   {
     "id": "amz-cyO4W46F",
