@@ -2,6 +2,72 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "mjzj-fuq3d6pnjim8",
+    "date": "2026-08-10",
+    "time": "11:40",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuq3d6pnjim8",
+    "sourceType": "media",
+    "score": 85,
+    "category": "platform",
+    "title": "千个账号一夜封停，头部服务商突发暴雷！",
+    "summary": "一家头部服务商因违规操作导致大批卖家账号被亚马逊封停，千个账号一夜之间无法使用。",
+    "selected": true,
+    "why": "服务商行为直接牵连卖家账号安全，需紧急排查是否使用该服务商。",
+    "impact": "所有使用该服务商的亚马逊卖家，账号可能被永久封禁。",
+    "action": "立即自查是否与该服务商有合作，暂停关联操作并准备申诉材料。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "账号安全",
+      "平台合规"
+    ],
+    "eventId": "evt-6598eab380a6"
+  },
+  {
+    "id": "mjzj-fuq0ob1ptlog",
+    "date": "2026-08-10",
+    "time": "11:16",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuq0ob1ptlog",
+    "sourceType": "media",
+    "score": 40,
+    "category": "market",
+    "title": "关税挡不住中国电动车，欧洲市场份额升至新高",
+    "summary": "中国电动车在欧洲市场份额升至14.2%创新高，前5个月销量17.18万辆，英国和意大利表现突出。",
+    "selected": false,
+    "why": "反映中国制造在欧洲的竞争力，但直接关联性有限。",
+    "impact": "对汽车配件及衍生品类卖家或有启发，多数卖家影响不大。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "欧洲市场",
+      "电动车"
+    ],
+    "eventId": "evt-d75aa679f0c4"
+  },
+  {
+    "id": "mjzj-fuq0oqxd2w3l",
+    "date": "2026-08-10",
+    "time": "11:16",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuq0oqxd2w3l",
+    "sourceType": "media",
+    "score": 40,
+    "category": "market",
+    "title": "AI并非最大网络安全问题，人才才是关键",
+    "summary": "专家指出企业网络安全最大威胁是人员因素，需加强员工培训应对社交工程攻击。",
+    "selected": false,
+    "why": "提醒卖家关注内部安全意识，但非直接运营风险。",
+    "impact": "所有企业，包括电商卖家。",
+    "action": "加强员工网络安全培训，尤其是防钓鱼意识。",
+    "deadline": "",
+    "tags": [
+      "网络安全"
+    ],
+    "eventId": "evt-7214c12b8d93"
+  },
+  {
     "id": "mjzj-fuq0ihicy7sw",
     "date": "2026-08-10",
     "time": "11:13",
@@ -205,6 +271,29 @@ window.NEWS_DATA = [
     "eventId": "evt-b719a256bbe2"
   },
   {
+    "id": "mjzj-fupwty7jobnl",
+    "date": "2026-08-10",
+    "time": "10:33",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fupwty7jobnl",
+    "sourceType": "media",
+    "score": 45,
+    "category": "market",
+    "title": "爆卖10000亿！一大批网红主播发财了",
+    "summary": "直播电商行业规模突破万亿，大量网红主播和MCN机构获得高收益。",
+    "selected": false,
+    "why": "展示直播电商趋势，但仅作市场资讯参考。",
+    "impact": "布局直播带货的卖家，尤其是TikTok Shop等平台卖家。",
+    "action": "可考虑直播渠道，但非紧急。",
+    "deadline": "",
+    "tags": [
+      "直播电商",
+      "市场行情"
+    ],
+    "ref": "https://www.pai.com.cn/p/01kzmkjdyt834tcpbt7gjxrrz9",
+    "eventId": "evt-e6f062cfd46c"
+  },
+  {
     "id": "mjzj-fupw2ht0kveo",
     "date": "2026-08-10",
     "time": "10:19",
@@ -317,6 +406,28 @@ window.NEWS_DATA = [
     "eventId": "evt-bf9f774d6181"
   },
   {
+    "id": "mjzj-fups8g21pl34",
+    "date": "2026-08-10",
+    "time": "09:41",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fups8g21pl34",
+    "sourceType": "media",
+    "score": 60,
+    "category": "logistics",
+    "title": "LPI连续三月站稳荣枯线：产业物流支撑有力 大宗运输阶段性放缓",
+    "summary": "中国物流业景气指数7月为50.4%，连续三个月扩张，多式联运指数升至54%，但大宗运输增速放缓。",
+    "selected": false,
+    "why": "物流景气度影响卖家供应链成本和效率，但数据宏观。",
+    "impact": "依赖国内供应链的跨境卖家，尤其是大件商品卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流",
+      "国内仓储"
+    ],
+    "eventId": "evt-3ed3ae405e64"
+  },
+  {
     "id": "mjzj-fups67tpmbcy",
     "date": "2026-08-10",
     "time": "09:40",
@@ -338,6 +449,259 @@ window.NEWS_DATA = [
     ],
     "ref": "https://www.amz123.com/kx/k4m2briO",
     "eventId": "evt-0c82b8c3eaa2"
+  },
+  {
+    "id": "mjzj-fups67tpmbcw",
+    "date": "2026-08-10",
+    "time": "09:40",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fups67tpmbcw",
+    "sourceType": "media",
+    "score": 85,
+    "category": "policy",
+    "title": "印尼又变卦了，紧急叫停电商税",
+    "summary": "印尼政府紧急叫停刚生效四天的电商平台代扣所得税机制，政策反复。",
+    "selected": true,
+    "why": "直接影响印尼站点卖家的税务成本和合规操作，政策突变需立即关注。",
+    "impact": "在Shopee、Lazada、TikTok Shop等印尼站点销售的中国卖家。",
+    "action": "暂停执行平台代扣所得税，密切关注印尼税务官方后续公告。",
+    "deadline": "",
+    "tags": [
+      "印尼",
+      "税务",
+      "政策合规"
+    ],
+    "ref": "https://www.pai.com.cn/p/01kzdwmkyjtearmd9wpr5t36a9",
+    "eventId": "evt-8025137ddae2"
+  },
+  {
+    "id": "mjzj-fuipbvnjaw3k",
+    "date": "2026-08-10",
+    "time": "09:35",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuipbvnjaw3k",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "看不懂亚马逊英文规则不用开Case！自带中文AI助手一键解惑",
+    "summary": "亚马逊卖家平台内嵌的Seller Assistant AI助手支持中文提问，可解读规则、给出建议。",
+    "selected": true,
+    "why": "实用工具可大幅提升解决问题效率，尤其利好英文不好的卖家。",
+    "impact": "所有亚马逊卖家，特别是新手和语言有障碍的卖家。",
+    "action": "登录卖家平台试用Seller Assistant，用中文提问测试功能。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "AI工具",
+      "运营效率"
+    ],
+    "eventId": "evt-bacc19a3f985"
+  },
+  {
+    "id": "mjzj-fuj9a00a0gzk",
+    "date": "2026-08-10",
+    "time": "09:35",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuj9a00a0gzk",
+    "sourceType": "media",
+    "score": 80,
+    "category": "platform",
+    "title": "亚马逊AI图片新规落地，立刻自查你的商品图",
+    "summary": "亚马逊AI图片审核新规已生效，商品图片如不符合要求可能导致Listing被限制。",
+    "selected": true,
+    "why": "图片违规直接影响Listing展示和销售，需立即自查整改。",
+    "impact": "所有亚马逊卖家，尤其是使用合成或过度修饰图片的卖家。",
+    "action": "对照亚马逊图片要求逐项检查主图和附图，删除违规内容。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "图片要求",
+      "合规"
+    ],
+    "eventId": "evt-afde32c35928"
+  },
+  {
+    "id": "mjzj-fupqbwgqqdc0",
+    "date": "2026-08-10",
+    "time": "09:18",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fupqbwgqqdc0",
+    "sourceType": "media",
+    "score": 50,
+    "category": "policy",
+    "title": "专利、商标与著作权，如何挑选合适的知识产权保护类型",
+    "summary": "科普专利、商标和著作权的区别，指导如何根据作品类型选择保护方式。",
+    "selected": false,
+    "why": "基础知识，对想保护自有品牌的卖家有长期参考价值。",
+    "impact": "所有卖家，尤其是计划申请知识产权的卖家。",
+    "action": "根据自身产品类型初步评估需申请专利还是商标。",
+    "deadline": "",
+    "tags": [
+      "知识产权",
+      "商标",
+      "专利"
+    ],
+    "eventId": "evt-b25d48696d12"
+  },
+  {
+    "id": "mjzj-fupgrqdg4jk0",
+    "date": "2026-08-10",
+    "time": "07:33",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fupgrqdg4jk0",
+    "sourceType": "media",
+    "score": 90,
+    "category": "policy",
+    "title": "9月15日大限逼近！亚马逊联手税局突然较真“你在哪上班”？",
+    "summary": "亚马逊要求卖家在9月15日前提交准确的主要营业地址，否则将面临KYC验证失败、退税被拒和税务处罚。",
+    "selected": true,
+    "why": "有明确截止日，不处理将严重影响账户功能和资金安全。",
+    "impact": "所有亚马逊卖家，尤其跨境卖家。",
+    "action": "立即登录后台，检查并更新主要营业地址为真实有效信息。",
+    "deadline": "2025-09-15",
+    "tags": [
+      "亚马逊",
+      "KYC",
+      "税务合规",
+      "地址验证"
+    ],
+    "eventId": "evt-82ae31df0496"
+  },
+  {
+    "id": "was-q-123199",
+    "date": "2026-08-10",
+    "time": "05:42",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123199",
+    "sourceType": "community",
+    "score": 50,
+    "category": "marketing",
+    "title": "不用请专家，WorkBuddy一句话直出亚马逊Listing体检报告",
+    "summary": "社区卖家分享AI工具WorkBuddy，可自动生成亚马逊Listing优化分析报告。",
+    "selected": false,
+    "why": "可作为运营效率工具的参考，但来自社区分享，需自行验证。",
+    "impact": "亚马逊卖家，尤其想提高Listing优化效率的卖家。",
+    "action": "谨慎测试该工具，注意数据安全。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "AI工具",
+      "Listing优化"
+    ],
+    "eventId": "evt-57cdb4f7ae81"
+  },
+  {
+    "id": "was-q-123197",
+    "date": "2026-08-10",
+    "time": "05:42",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123197",
+    "sourceType": "community",
+    "score": 45,
+    "category": "marketing",
+    "title": "想法不值钱，落地才值钱-亚马逊产品开发“桌面猫床”启示录",
+    "summary": "卖家分享从生活场景发现“桌面猫床”需求并成功落地的产品开发案例。",
+    "selected": false,
+    "why": "提供选品和产品开发的真实思路，但仅为个案经验。",
+    "impact": "亚马逊卖家，尤其是宠物用品和家居类目卖家。",
+    "action": "参考其需求捕捉方法，结合自身类目思考。",
+    "deadline": "",
+    "tags": [
+      "选品",
+      "产品开发",
+      "案例"
+    ],
+    "eventId": "evt-d013675266e5"
+  },
+  {
+    "id": "was-q-123195",
+    "date": "2026-08-10",
+    "time": "05:42",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123195",
+    "sourceType": "community",
+    "score": 50,
+    "category": "marketing",
+    "title": "新品只开3个广告，下一步怎么放量？新品阶段一开始不要把广告铺太满，先用少量广告验证流量质量和转化表现。",
+    "summary": "卖家分享新品广告投放策略，先用三种广告类型测试，再根据数据逐步放量。",
+    "selected": false,
+    "why": "提供了可参考的新品广告优化节奏。",
+    "impact": "亚马逊广告投放卖家，尤其是有新品推广需求的卖家。",
+    "action": "评估自己的新品广告结构，参考其分步验证思路。",
+    "deadline": "",
+    "tags": [
+      "广告",
+      "亚马逊",
+      "新品推广"
+    ],
+    "eventId": "evt-fd9570e3f6ba"
+  },
+  {
+    "id": "was-q-123189",
+    "date": "2026-08-10",
+    "time": "05:42",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123189",
+    "sourceType": "community",
+    "score": 40,
+    "category": "logistics",
+    "title": "精铺云仓FBM有人了解吗？偷偷摸摸挣大钱还是说是个大坑",
+    "summary": "卖家讨论精铺云仓FBM模式，即使用海外货盘创建链接的零库存模式，探讨其风险。",
+    "selected": false,
+    "why": "揭示一种可能存在资金和账号风险的运营模式。",
+    "impact": "考虑使用云仓代发模式的亚马逊卖家。",
+    "action": "充分调研该模式的供应商和合同风险，勿盲目入场。",
+    "deadline": "",
+    "tags": [
+      "发货模式",
+      "风险"
+    ],
+    "eventId": "evt-724a8731bd49"
+  },
+  {
+    "id": "amz-va6JtjgW",
+    "date": "2026-08-10",
+    "time": "05:40",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/va6JtjgW",
+    "sourceType": "media",
+    "score": 70,
+    "category": "market",
+    "title": "慈溪9家小家电企业遭合同诈骗损失3500万元",
+    "summary": "浙江慈溪9家小家电企业被同一家公司以小额预付款骗取大额赊购，货物被贱卖，损失超3000万元。",
+    "selected": true,
+    "why": "警示供应商和卖家警惕合同诈骗，防范供应链金融风险。",
+    "impact": "所有通过赊销方式采购或销售的中小卖家及供应商。",
+    "action": "审查现有客户的赊销额度，对新客户执行严格背调和担保。",
+    "deadline": "",
+    "tags": [
+      "供应链风险",
+      "诈骗",
+      "合同"
+    ],
+    "eventId": "evt-ded0df40b2e2"
+  },
+  {
+    "id": "amz-A8X75UGQ",
+    "date": "2026-08-10",
+    "time": "03:39",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/A8X75UGQ",
+    "sourceType": "media",
+    "score": 60,
+    "category": "platform",
+    "title": "小红书海外电商Redshop正式上线",
+    "summary": "小红书正式推出面向海外市场的电商平台Redshop，主要服务海外本地商家与消费者。",
+    "selected": false,
+    "why": "目前对跨境卖家入驻暂无直接影响，但可观察中国平台出海动向。",
+    "impact": "影响海外本地商家，亚马逊、TikTok Shop等平台卖家暂无法直接参与。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "平台动态",
+      "小红书"
+    ],
+    "eventId": "evt-197c4a639d24"
   },
   {
     "id": "amz-VFIC1uh3",
@@ -491,13 +855,17 @@ window.NEWS_DATA = [
     "score": 55,
     "category": "market",
     "title": "伊朗称美伊谈判进入最后阶段，呼吁美国推动霍尔木兹海峡开放",
-    "summary": "AMZ123获悉，伊朗方面表示，通过阿曼斡旋开展的相关协议谈判已进入最后阶段，并呼吁美国采取措施推动霍尔木兹海峡重新开放。伊朗官员称，目前双方沟通已取得一定进展，但协议最终能否落实仍取决于美国方面后续行动。霍尔木兹海峡作为全球重要能源运输通道，其局势变化持续受到国际市场关注。伊朗释放谈判接近完成的信号，表明美伊双方在长期紧张局势下仍保持外交沟通空间，但围绕安全、制裁以及地区安排等问题的分歧，仍可能对最终结果产生影响。",
+    "summary": "伊朗表示通过阿曼斡旋的谈判已进入最后阶段，呼吁美国推动霍尔木兹海峡重新开放。",
     "selected": false,
-    "why": "",
-    "impact": "",
+    "why": "霍尔木兹海峡是重要能源通道，局势缓和可能稳定油价与物流成本。",
+    "impact": "间接影响全球能源价格及依赖该航线的物流，对所有卖家成本端有潜在影响。",
     "action": "",
     "deadline": "",
-    "tags": [],
+    "tags": [
+      "地缘政治",
+      "航运",
+      "全球贸易"
+    ],
     "eventId": "evt-509439e9a06a"
   },
   {
@@ -507,16 +875,21 @@ window.NEWS_DATA = [
     "source": "AMZ123",
     "url": "https://www.amz123.com/kx/voCu0S55",
     "sourceType": "media",
-    "score": 63,
-    "category": "market",
+    "score": 68,
+    "category": "logistics",
     "title": "土耳其重新开放海峡，船只恢复黑海通行",
-    "summary": "AMZ123获悉，黑海商船近期连续遭遇袭击。6日，一艘德国公司货船遭俄罗斯无人机攻击；3日，两艘从新罗西斯克出发的土耳其商船同样受到袭击。受此影响，土耳其海岸安全总局自8月8日起对部分驶往俄乌方向的船只暂扣过境许可证，博斯普鲁斯海峡和达达尼尔海峡通行受到限制。不过，9日相关管控措施出现调整。路透社援引土耳其官员消息称，船只已恢复顺利通过海峡进入黑海。彭博社追踪显示，原油轮“爱琴海之梦”号结束数日等待后驶入达达尼尔海峡，集装箱船“穆罕默德·卡赫韦奇A”号也于同日完成过峡，两艘船只目的地均为俄罗斯新罗西斯克港。土耳其方面表示，此次临时管控主要基于安全考虑，并非实施海峡封锁。",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
+    "summary": "因黑海商船遇袭而暂停的土耳其海峡通行已恢复，货船重新驶入黑海。",
+    "selected": true,
+    "why": "恢复通行对依靠黑海航线的东欧、俄罗斯市场卖家是重大物流利好。",
+    "impact": "主要影响发货至俄罗斯、乌克兰等黑海沿岸国家的跨境卖家。",
+    "action": "密切关注黑海安全动态，灵活调整运输路线与库存计划。",
     "deadline": "",
-    "tags": [],
+    "tags": [
+      "物流",
+      "黑海",
+      "土耳其",
+      "东欧"
+    ],
     "eventId": "evt-d7b8d368ebd1"
   },
   {
@@ -752,6 +1125,30 @@ window.NEWS_DATA = [
       "现金流"
     ],
     "eventId": "evt-909644597e5d"
+  },
+  {
+    "id": "amz-aYTMWyYT",
+    "date": "2026-08-10",
+    "time": "01:47",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/aYTMWyYT",
+    "sourceType": "media",
+    "score": 85,
+    "category": "platform",
+    "title": "Ozon订单取消率升至20%以上，跨境卖家面临退货成本压力",
+    "summary": "Ozon平台订单取消率自2026年4月起攀升，6月达16.7%，部分超20%，与二次销售政策及买家随意退货有关，导致卖家物流与广告成本大增。",
+    "selected": true,
+    "why": "取消率飙升直接侵蚀利润，卖家必须重新评估在该平台的经营风险与成本模型。",
+    "impact": "严重冲击在Ozon平台销售的中国跨境卖家，尤其是低客单价与服饰类目卖家。",
+    "action": "仔细核算Ozon订单的真实退货成本，考虑提高售价、调整选品或减少平台投入。",
+    "deadline": "",
+    "tags": [
+      "Ozon",
+      "退货",
+      "俄罗斯",
+      "跨境成本"
+    ],
+    "eventId": "evt-9a19670d0d63"
   },
   {
     "id": "amz-eRkXQtw7",
@@ -1033,6 +1430,54 @@ window.NEWS_DATA = [
       "市场趋势"
     ],
     "eventId": "evt-9a1f1c3c8739"
+  },
+  {
+    "id": "mjzj-fuirvwjhajuo",
+    "date": "2026-08-08",
+    "time": "10:15",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuirvwjhajuo",
+    "sourceType": "media",
+    "score": 92,
+    "category": "policy",
+    "title": "紧急通知：意大利VIES欧盟税号大面积失效应急指引",
+    "summary": "意大利VIES税号出现大面积失效，影响B2B交易与清关，官方提醒若本土税号有效可直接激活，切勿盲目注销。",
+    "selected": true,
+    "why": "税号失效将导致无法进行B2B交易与清关，造成断货或账户异常，须立即处理。",
+    "impact": "影响所有在意大利进行跨境B2B交易、使用当地仓储或需要开票的卖家，尤其是亚马逊、eBay等平台的欧洲站卖家。",
+    "action": "立即登录税务局系统检查意大利税号状态，若失效按官方指引申请激活，不要注销。",
+    "deadline": "",
+    "tags": [
+      "税务合规",
+      "意大利",
+      "VIES",
+      "欧洲"
+    ],
+    "eventId": "evt-1eb6ecbce68e"
+  },
+  {
+    "id": "mjzj-fuismfp61340",
+    "date": "2026-08-08",
+    "time": "10:05",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuismfp61340",
+    "sourceType": "media",
+    "score": 88,
+    "category": "policy",
+    "title": "PPWR倒计时！没有AR授权代表，欧洲市场或受影响！",
+    "summary": "欧盟《包装和包装废弃物法规》（PPWR）将于2026年8月12日全面生效，非欧盟企业须指定欧盟授权代表（AR）履行包装EPR义务。",
+    "selected": true,
+    "why": "监管生效后，未指定授权代表的带包装商品可能被禁售或清关受阻，对欧洲站卖家影响直接且紧迫。",
+    "impact": "所有向欧盟出口带包装商品的非欧盟卖家（含亚马逊FBA、TikTok Shop、SHEIN等平台的欧盟订单）均受影响。",
+    "action": "立即联系合规服务商，指定在某一欧盟成员国注册的授权代表，确保8月12日前完成包装EPR注册与授权。",
+    "deadline": "2026-08-12",
+    "tags": [
+      "欧盟",
+      "包装法规",
+      "EPR",
+      "授权代表"
+    ],
+    "eventId": "evt-09895d8b91ac"
   },
   {
     "id": "amz-cyO4W46F",
@@ -1363,6 +1808,100 @@ window.NEWS_DATA = [
       "俄罗斯"
     ],
     "eventId": "evt-253bedc36f51"
+  },
+  {
+    "id": "amz-tFOl4Gig",
+    "date": "2026-08-08",
+    "time": "03:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/tFOl4Gig",
+    "sourceType": "media",
+    "score": 60,
+    "category": "market",
+    "title": "俄罗斯前七月体育消费规模突破520亿卢布",
+    "summary": "2026年1-7月俄罗斯体育消费超520亿卢布，运动营养品、器材、健身房会员增长明显，莫斯科消费额最高。",
+    "selected": false,
+    "why": "数据反映了俄罗斯健康品类的增长趋势，可供选品参考，但非紧急运营事项。",
+    "impact": "对开拓俄罗斯市场的卖家，特别是体育用品、营养品类卖家有选品指导意义。",
+    "action": "可调研俄罗斯运动营养、轻量健身器材等需求，结合自身供应链评估拓展机会。",
+    "deadline": "",
+    "tags": [
+      "俄罗斯",
+      "市场趋势",
+      "体育消费",
+      "选品"
+    ],
+    "eventId": "evt-3efa2ab73bd0"
+  },
+  {
+    "id": "amz-aWr7NTdB",
+    "date": "2026-08-08",
+    "time": "03:27",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/aWr7NTdB",
+    "sourceType": "media",
+    "score": 45,
+    "category": "market",
+    "title": "Momox 8月7日进入荷兰市场上线独立App",
+    "summary": "德国二手交易平台Momox正式进入荷兰市场，推出本地化网站和App，提供二手书等回收服务。",
+    "selected": false,
+    "why": "该动态主要与二手商品C2B模式相关，与大多数跨境卖家的业务暂无直接关联。",
+    "impact": "影响荷兰二手商品市场，对跨境卖家无直接运营影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "欧洲",
+      "二手电商",
+      "荷兰"
+    ],
+    "eventId": "evt-bec43b3b45a3"
+  },
+  {
+    "id": "amz-UhVCNK1m",
+    "date": "2026-08-08",
+    "time": "03:27",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/UhVCNK1m",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "Avito童装销量增长：女童T恤上涨57% 二手童装凭价格优势受关注",
+    "summary": "俄罗斯Avito平台童装销售活跃，女童T恤销量同比增长57%，二手童装因价格优势分流部分需求。",
+    "selected": false,
+    "why": "为在俄童装卖家提供了细分类目趋势参考，说明性价比仍是童装消费的重要驱动。",
+    "impact": "对在俄罗斯市场销售童装的中国卖家有一定选品和定价借鉴意义。",
+    "action": "可针对俄罗斯市场开发高性价比女童T恤、衬衫等品类，并关注二手市场影响。",
+    "deadline": "",
+    "tags": [
+      "俄罗斯",
+      "童装",
+      "选品",
+      "市场趋势"
+    ],
+    "eventId": "evt-295de1bbf9ae"
+  },
+  {
+    "id": "amz-9HGXrHE7",
+    "date": "2026-08-08",
+    "time": "03:17",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/9HGXrHE7",
+    "sourceType": "media",
+    "score": 50,
+    "category": "market",
+    "title": "Flaconi上半年海外业务增长60%将拓展至七国",
+    "summary": "德国高端美妆电商Flaconi公布2026上半年营收增长23%，海外业务激增60%，计划拓展至英、西等7国。",
+    "selected": false,
+    "why": "反映出欧洲美妆电商需求强劲，但对非品牌卖家的直接运营借鉴有限。",
+    "impact": "为美妆类目卖家或品牌提供市场信心信号，但平台自身扩张不开放卖家入驻，影响较小。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "欧洲",
+      "美妆",
+      "市场趋势"
+    ],
+    "eventId": "evt-0715714e5020"
   },
   {
     "id": "amz-WsphC9g1",
