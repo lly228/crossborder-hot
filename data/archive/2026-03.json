@@ -61,6 +61,27 @@
     "eventId": "evt-954752be716c"
   },
   {
+    "id": "was-q-117812",
+    "date": "2026-03-30",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/117812",
+    "sourceType": "community",
+    "score": 67,
+    "category": "policy",
+    "title": "西班牙欧盟税号没下，ES仓储功能已关闭，泛欧库存不断流入ES，求破",
+    "summary": "西班牙欧盟税号没下，ES仓储功能已关闭，泛欧库存不断流入ES，求破 - 大家好 咱欧洲卖家今年的2个统一大难题莫过于西班牙欧盟税号和意大利税号保证金，一波未平一波又起，西班牙欧盟税号至少要6-8个月才能下，但平台只给60天，问过账号专员，对方说法是即使60天期限不合理，那也只能遵守，逾期无税号，ES仓储功能会被强制关闭，好...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-91c02a1e01a2"
+  },
+  {
     "id": "was-q-117745",
     "date": "2026-03-27",
     "time": "00:00",
@@ -502,5 +523,27 @@
       "物流仓储"
     ],
     "eventId": "evt-356bc45c737d"
+  },
+  {
+    "id": "was-q-116479",
+    "date": "2026-03-02",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/116479",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "亚马逊广告第二弹-聊一聊捡漏广告的中高级玩法",
+    "summary": "亚马逊广告第二弹-聊一聊捡漏广告的中高级玩法 - 一、什么叫捡漏广告 所谓捡漏广告，是以远低于市场平均水平的成本（极低的CPC和ACOS），获取被其他卖家忽视或暂时低效的精准流量，从而实现高性价比的成交。 因为广告不同的出价会有不同的关键词跑出；不同出价有不同的广告位置，比如出价低在商品页，高在首位。不...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-e2a28993c48c"
   }
 ]

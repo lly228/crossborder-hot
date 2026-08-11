@@ -273,6 +273,27 @@
     "eventId": "evt-093fd0cf8c0f"
   },
   {
+    "id": "was-q-114845",
+    "date": "2026-01-09",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/114845",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "亚马逊系统把我的子体组建了变体，导致我自己无法组建，请问这个有解决办法吗？",
+    "summary": "亚马逊系统把我的子体组建了变体，导致我自己无法组建，请问这个有解决办法吗？ - 如题，我们是做多变体的，100多个子体，我在后台是正常合并状态，但是前台是不合并的，开case问客服，说系统自动把我的部分子体组建了变体，父体也是系统生成的（我在后台看不到），这条listing里的子体甚至还有其他卖家的（不清楚是跟卖合并进来的还是系统抓取...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-a303eb2fed8e"
+  },
+  {
     "id": "was-q-114714",
     "date": "2026-01-07",
     "time": "00:00",
