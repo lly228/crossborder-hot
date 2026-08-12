@@ -2,6 +2,93 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "mjzj-fux9hvmfa8e8",
+    "date": "2026-08-12",
+    "time": "11:57",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fux9hvmfa8e8",
+    "sourceType": "media",
+    "score": 5,
+    "category": "market",
+    "title": "五千亿AI基建融资被质疑 黄仁勋：需求真实存在，绝非“自循环”",
+    "summary": "英伟达股价下跌近3%，市值蒸发超700亿美元，黄仁勋回应质疑称AI基建需求真实。",
+    "selected": false,
+    "why": "纯科技财经动态，与跨境卖家经营无直接关联。",
+    "impact": "无。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "科技"
+    ],
+    "eventId": "evt-1a0a74ff0878"
+  },
+  {
+    "id": "mjzj-fux99c3vaneo",
+    "date": "2026-08-12",
+    "time": "11:48",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fux99c3vaneo",
+    "sourceType": "media",
+    "score": 0,
+    "category": "market",
+    "title": "腾讯启动2027校园招聘，AI原生岗位陆续上新",
+    "summary": "腾讯2027校招启动，岗位因AI嵌入业务场景而升级。",
+    "selected": false,
+    "why": "与跨境电商卖家经营完全无关。",
+    "impact": "无。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "科技"
+    ],
+    "eventId": "evt-b12eb2effb95"
+  },
+  {
+    "id": "mjzj-fux7yn3jr4sg",
+    "date": "2026-08-12",
+    "time": "11:41",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fux7yn3jr4sg",
+    "sourceType": "media",
+    "score": 5,
+    "category": "market",
+    "title": "迈向万亿规模：英伟达被曝正加码开发新一代开源 AI 模型",
+    "summary": "英伟达正开发新一代开源AI模型，此前已推出Nemotron系列。",
+    "selected": false,
+    "why": "AI底层技术动态，对卖家日常运营暂无直接影响。",
+    "impact": "无。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "AI"
+    ],
+    "eventId": "evt-d094c5948373"
+  },
+  {
+    "id": "188146",
+    "date": "2026-08-12",
+    "time": "11:37",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/188146",
+    "sourceType": "media",
+    "score": 85,
+    "category": "policy",
+    "title": "中国服装进口商被抓！海外再曝超3300万欧元逃税案",
+    "summary": "海外曝中国服装进口商逃税案，案值超3300万欧元，当事人被抓。",
+    "selected": true,
+    "why": "欧洲对进口税务稽查持续高压，卖家须警惕低报、双清包税等违规风险，避免卷入巨额罚款或货物扣押。",
+    "impact": "主要影响欧洲站中国卖家，尤其是服装等品类，海关可能加强查验，合规成本上升。",
+    "action": "立刻自查欧洲VAT申报是否合规，停止使用低报货值、双清包税等灰色渠道，保留完整进出口单证。",
+    "deadline": "",
+    "tags": [
+      "欧洲",
+      "税务合规",
+      "服装",
+      "政策法规"
+    ],
+    "eventId": "evt-6c787b67563e"
+  },
+  {
     "id": "mjzj-fux5jgz40fsw",
     "date": "2026-08-12",
     "time": "11:14",
@@ -182,6 +269,49 @@ window.NEWS_DATA = [
     "eventId": "evt-74705d6cb121"
   },
   {
+    "id": "mjzj-fuwx3o2rucxs",
+    "date": "2026-08-12",
+    "time": "09:40",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuwx3o2rucxs",
+    "sourceType": "media",
+    "score": 0,
+    "category": "market",
+    "title": "董宇辉不装了，开新公司赚大钱，全面起飞",
+    "summary": "董宇辉自立门户成立“与辉同行”后持续扩张，开设新公司。",
+    "selected": false,
+    "why": "国内直播电商人物动态，对跨境中小卖家无参考价值。",
+    "impact": "无。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "直播"
+    ],
+    "ref": "https://www.pai.com.cn/p/01kzsqtewf81rjp3kk74q972sf",
+    "eventId": "evt-6d1620d88bdd"
+  },
+  {
+    "id": "mjzj-fuwx23aoxmgw",
+    "date": "2026-08-12",
+    "time": "09:40",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuwx23aoxmgw",
+    "sourceType": "media",
+    "score": 10,
+    "category": "market",
+    "title": "Anthropic计划为AI生成文本添加水印",
+    "summary": "Anthropic开发AI生成文本水印技术，提升内容可追溯性。",
+    "selected": false,
+    "why": "远期影响内容生成工具的透明度，但对卖家现阶段的运营实操无直接影响。",
+    "impact": "暂无。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "AI"
+    ],
+    "eventId": "evt-9c54ed3f9e23"
+  },
+  {
     "id": "mjzj-fuwx04502680",
     "date": "2026-08-12",
     "time": "09:39",
@@ -300,6 +430,29 @@ window.NEWS_DATA = [
     "eventId": "evt-4e2a088bd264"
   },
   {
+    "id": "mjzj-fuwwzen7vev4",
+    "date": "2026-08-12",
+    "time": "09:39",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuwwzen7vev4",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "宾夕法尼亚州起诉TikTok，称该应用对儿童产生负面影响",
+    "summary": "美国宾夕法尼亚州起诉TikTok，指控其平台加剧未成年抑郁、焦虑及成瘾。",
+    "selected": false,
+    "why": "诉讼若推动更严监管，可能波及TikTok Shop功能或用户数据规则，但当前未发生实际政策变更。",
+    "impact": "潜在影响TikTok Shop美国站卖家，若平台被迫调整算法或强制年龄验证，可能降低年轻用户活跃度。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok",
+      "美国",
+      "政策法规"
+    ],
+    "eventId": "evt-9dcec1b3d97d"
+  },
+  {
     "id": "mjzj-fuu8vwx93m68",
     "date": "2026-08-12",
     "time": "09:35",
@@ -371,6 +524,332 @@ window.NEWS_DATA = [
     "eventId": "evt-9948e401637d"
   },
   {
+    "id": "mjzj-fuwqrbnwf18g",
+    "date": "2026-08-12",
+    "time": "08:30",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuwqrbnwf18g",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "新手必读：亚马逊/TK注册又卡了？2026跨境新手避坑指南",
+    "summary": "文章梳理亚马逊、TikTok Shop注册的常见失败原因，提供合规避坑建议。",
+    "selected": true,
+    "why": "平台注册审核趋严，新手容易因资料瑕疵被拒，提前掌握要点可减少试错成本。",
+    "impact": "适用于准备入驻亚马逊、TikTok Shop的新手卖家。",
+    "action": "注册前核对营业执照、法人信息、双币信用卡等材料真实性，优先使用官方招商经理渠道。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "TikTok Shop",
+      "新手入门",
+      "账号注册"
+    ],
+    "eventId": "evt-da20c280f326"
+  },
+  {
+    "id": "was-q-123299",
+    "date": "2026-08-12",
+    "time": "05:44",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123299",
+    "sourceType": "community",
+    "score": 45,
+    "category": "marketing",
+    "title": "VOC 与竞品结构解码 ：竞品的 Listing 里有没有真话 ？对Amazon US 的刮痧板（Gua Sha Tool）类目实测分析",
+    "summary": "社区用户分享通过VOC和竞品结构分析亚马逊美国站刮痧板类目，探讨竞品Listing的真实性。",
+    "selected": false,
+    "why": "社区选品方法讨论，可作参考，但未经官方验证，不可直接当作决策依据。",
+    "impact": "亚马逊美国站卖家，尤其是健康和美容品类。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "选品",
+      "美国"
+    ],
+    "eventId": "evt-0df893693e27"
+  },
+  {
+    "id": "was-q-123297",
+    "date": "2026-08-12",
+    "time": "05:44",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123297",
+    "sourceType": "community",
+    "score": 40,
+    "category": "marketing",
+    "title": "新品低价开售点击率低，自动只有点击没有转化怎么办呢？怎么调整才能让这款新品真正起量？",
+    "summary": "卖家求助新品广告有点击无转化、低价开售仍不起量的优化方案。",
+    "selected": false,
+    "why": "个人运营问题分享，可获取解决思路，但解决方案需要结合自身情况验证。",
+    "impact": "亚马逊卖家新品推广阶段。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告优化",
+      "新品"
+    ],
+    "eventId": "evt-323f8888583f"
+  },
+  {
+    "id": "was-q-123295",
+    "date": "2026-08-12",
+    "time": "05:44",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123295",
+    "sourceType": "community",
+    "score": 35,
+    "category": "market",
+    "title": "当你被HR问到acos公式是什么，你如何应对",
+    "summary": "社区讨论面试时被问ACOS公式引发的争议，聚焦HR与运营的认知差异。",
+    "selected": false,
+    "why": "话题反映行业人才评价标准，但属于职场讨论，不直接指导经营。",
+    "impact": "无直接经营影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "招聘"
+    ],
+    "eventId": "evt-04109572ae30"
+  },
+  {
+    "id": "was-q-123294",
+    "date": "2026-08-12",
+    "time": "05:44",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123294",
+    "sourceType": "community",
+    "score": 45,
+    "category": "marketing",
+    "title": "烧掉1亿token做了这个Skill，帮你判断亚马逊爆品在TK上到底能不能做？",
+    "summary": "作者分享用AI工具分析亚马逊爆品在TikTok上的可行性，提供选品评分方法。",
+    "selected": false,
+    "why": "创新的AI选品思路，可作为方法参考，但需自行验证准确性，非官方工具。",
+    "impact": "亚马逊和TikTok Shop卖家，尤其是考虑多渠道选品的运营。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品",
+      "AI",
+      "TikTok",
+      "亚马逊"
+    ],
+    "eventId": "evt-dadc7f8b554a"
+  },
+  {
+    "id": "was-q-123290",
+    "date": "2026-08-12",
+    "time": "05:44",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123290",
+    "sourceType": "community",
+    "score": 40,
+    "category": "marketing",
+    "title": "求助：想问一下各位大佬，listing优化，到底是优化什么",
+    "summary": "卖家询问Listing优化的核心内容，社区从埋词、图片、A+等角度回应。",
+    "selected": false,
+    "why": "典型的基础运营问题讨论，新卖家可了解优化方向，但无突破性方法。",
+    "impact": "亚马逊卖家，尤其新手。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "Listing优化"
+    ],
+    "eventId": "evt-0bd2a5a0747a"
+  },
+  {
+    "id": "was-q-123292",
+    "date": "2026-08-12",
+    "time": "05:44",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123292",
+    "sourceType": "community",
+    "score": 45,
+    "category": "logistics",
+    "title": "亚马逊发货： 我的标准件普货变体链接中，销量好的几个为什么总被锁在IMS1、IGA3、IMI1等仓库，有没有办法打破这种限制，避免物流无法预约交付的问题？",
+    "summary": "卖家反馈变体链接中热门SKU总被分配至特定内部仓库，导致物流预约交付困难，寻求突破方法。",
+    "selected": false,
+    "why": "FBA分仓问题困扰部分卖家，社区经验可提供尝试思路，但无官方解决方案。",
+    "impact": "亚马逊FBA卖家，尤其是多变体标准件产品。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "FBA",
+      "物流"
+    ],
+    "eventId": "evt-a2ce580b8c94"
+  },
+  {
+    "id": "was-q-123291",
+    "date": "2026-08-12",
+    "time": "05:44",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123291",
+    "sourceType": "community",
+    "score": 35,
+    "category": "platform",
+    "title": "批量上传表格把多个子体合到一个父体下，想隐藏中间的一些列，点击某一列列号却出来大篇的文字，把显示屏都遮盖了大部分，根本没法选中其他列？",
+    "summary": "卖家求助批量上传表格操作中 Excel 显示异常问题，影响变体合并效率。",
+    "selected": false,
+    "why": "工具使用障碍讨论，对经营影响极小，仅作为技术小贴士参考。",
+    "impact": "个人操作效率。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "工具"
+    ],
+    "eventId": "evt-72ee6b796c05"
+  },
+  {
+    "id": "amz-Og9Pwv7m",
+    "date": "2026-08-12",
+    "time": "03:40",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Og9Pwv7m",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "沃尔玛、Instacart、Shopify接入ChatGPT，AI重塑电商入口",
+    "summary": "ChatGPT正成为交易入口，沃尔玛会员与支付体系、Instacart食材购物、Shopify独立站商品均融入其对话流程，用户可在对话框内完成选品、下单和结账。",
+    "selected": true,
+    "why": "AI购物入口可能改变流量分配逻辑，直接影响沃尔玛、Shopify等渠道的商品曝光与转化方式。",
+    "impact": "沃尔玛、Instacart、Shopify平台卖家及未来可能进入ChatGPT推荐体系的品牌。",
+    "action": "关注自身品类如何适配对话式推荐，优化商品标题和描述以利于AI理解与抓取。",
+    "deadline": "",
+    "tags": [
+      "AI购物",
+      "ChatGPT",
+      "Shopify",
+      "沃尔玛",
+      "Instacart"
+    ],
+    "eventId": "evt-0fa80028078a"
+  },
+  {
+    "id": "amz-HXgjdwA2",
+    "date": "2026-08-12",
+    "time": "03:40",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/HXgjdwA2",
+    "sourceType": "media",
+    "score": 45,
+    "category": "market",
+    "title": "有棵树重获增长：上半年盈利1201万元并获154亿元算力订单",
+    "summary": "有棵树上半年盈利1201万元，同时宣称获得154亿元算力订单，但具体细节未获核实。",
+    "selected": false,
+    "why": "该信息真实性存疑且对中小卖家日常经营无直接参考价值。",
+    "impact": "无直接影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "跨境大卖",
+      "财务"
+    ],
+    "eventId": "evt-ff2fae3f87b8"
+  },
+  {
+    "id": "amz-sDRJgvoO",
+    "date": "2026-08-12",
+    "time": "03:31",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/sDRJgvoO",
+    "sourceType": "media",
+    "score": 68,
+    "category": "market",
+    "title": "俄罗斯上半年电商格局调整：家居家具15.8%份额跃居第一，食品降至第三",
+    "summary": "2025年上半年俄罗斯电商中，家居家具品类以15.8%的份额跃居首位，食品类别下滑至第三名，消费结构出现明显转变。",
+    "selected": true,
+    "why": "品类排名变化直接指引俄向选品方向，有助于卖家调整备货策略。",
+    "impact": "面向俄罗斯市场的全品类卖家，特别是经营家居、家具及食品的商家。",
+    "action": "评估家居家具类目的供应链与利润空间，考虑在俄罗斯站点增加该品类布局。",
+    "deadline": "",
+    "tags": [
+      "俄罗斯",
+      "选品",
+      "家居",
+      "市场结构"
+    ],
+    "eventId": "evt-610618c20766"
+  },
+  {
+    "id": "amz-RKtlkszn",
+    "date": "2026-08-12",
+    "time": "03:31",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/RKtlkszn",
+    "sourceType": "media",
+    "score": 65,
+    "category": "market",
+    "title": "俄罗斯时尚消费呈现“量缩价升”趋势：二手平台订单额增长25%",
+    "summary": "俄罗斯时尚市场出现销量下降、价格上升趋势，二手时尚平台订单额同比增长25%，消费降级与性价比需求凸显。",
+    "selected": true,
+    "why": "反映俄罗斯时尚消费者行为变化，对定价策略和选品方向有参考意义。",
+    "impact": "在俄销售服饰、鞋包等时尚品类的卖家。",
+    "action": "可关注二手市场或调整产品组合，推出更高性价比的时尚单品以适应当前趋势。",
+    "deadline": "",
+    "tags": [
+      "俄罗斯",
+      "时尚",
+      "二手",
+      "消费趋势"
+    ],
+    "eventId": "evt-93863bcf346d"
+  },
+  {
+    "id": "amz-WCqpQfWg",
+    "date": "2026-08-12",
+    "time": "03:30",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/WCqpQfWg",
+    "sourceType": "media",
+    "score": 92,
+    "category": "policy",
+    "title": "亚马逊8月15日起强制执行AI人像元数据披露规则",
+    "summary": "8月15日起，亚马逊要求所有使用AI生成真人形象的图片或视频必须在IPTC元数据中写入特定关键词，并在A+后台勾选AI属性，否则素材将被拦截、内容失效甚至停售。",
+    "selected": true,
+    "why": "强制规则直接关系到账号安全与商品正常展示，未及时处理可能面临限流或禁售。",
+    "impact": "所有使用AI生成模特、数字人讲解等真人形象素材的亚马逊卖家。",
+    "action": "在8月15日前对现用A+页面和图片进行元数据补充，并将后续物料纳入合规流程。",
+    "deadline": "2025-08-15",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "AI内容",
+      "图片规则"
+    ],
+    "eventId": "evt-3d3260e9f0a7"
+  },
+  {
+    "id": "amz-9nXBinIv",
+    "date": "2026-08-12",
+    "time": "03:30",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/9nXBinIv",
+    "sourceType": "media",
+    "score": 62,
+    "category": "market",
+    "title": "俄时尚电商占比或2030年冲86%",
+    "summary": "研究预测俄罗斯时尚电商渗透率将从2025年的62%升至2030年的86%，主要受Wildberries等平台的低价与试穿服务推动。",
+    "selected": true,
+    "why": "长期趋势预言有助于卖家判断是否持续投入俄罗斯时尚赛道。",
+    "impact": "已有或计划布局俄罗斯市场的时尚品类卖家。",
+    "action": "结合数据制定中长期俄向电商渠道规划，关注Wildberries等平台的入驻机会。",
+    "deadline": "",
+    "tags": [
+      "俄罗斯",
+      "时尚",
+      "电商趋势",
+      "Wildberries"
+    ],
+    "eventId": "evt-afcafac9820f"
+  },
+  {
     "id": "was-q-123260",
     "date": "2026-08-12",
     "time": "03:28",
@@ -391,7 +870,7 @@ window.NEWS_DATA = [
       "亚马逊",
       "智能体"
     ],
-    "eventId": "evt-b0eeaf1fd777"
+    "eventId": "evt-4b79c85e2c43"
   },
   {
     "id": "was-q-123249",
@@ -413,7 +892,7 @@ window.NEWS_DATA = [
       "亚马逊",
       "客服"
     ],
-    "eventId": "evt-2c3893597775"
+    "eventId": "evt-a7102f924756"
   },
   {
     "id": "was-q-123283",
@@ -436,7 +915,7 @@ window.NEWS_DATA = [
       "转化率",
       "亚马逊"
     ],
-    "eventId": "evt-4439f137a1bf"
+    "eventId": "evt-1e88dafcfd23"
   },
   {
     "id": "was-q-123286",
@@ -459,7 +938,7 @@ window.NEWS_DATA = [
       "选品",
       "现金流"
     ],
-    "eventId": "evt-cb2a1e49a350"
+    "eventId": "evt-201948e9e7ad"
   },
   {
     "id": "was-q-123289",
@@ -484,7 +963,7 @@ window.NEWS_DATA = [
       "物流",
       "税务"
     ],
-    "eventId": "evt-c3068261fd5c"
+    "eventId": "evt-e1b7d5e8acf5"
   },
   {
     "id": "was-q-123263",
@@ -507,7 +986,7 @@ window.NEWS_DATA = [
       "关联",
       "品牌"
     ],
-    "eventId": "evt-fa5e91c38f34"
+    "eventId": "evt-6211b6cdae1a"
   },
   {
     "id": "was-q-123287",
@@ -533,7 +1012,7 @@ window.NEWS_DATA = [
       "Temu",
       "沃尔玛"
     ],
-    "eventId": "evt-7b83047afdd6"
+    "eventId": "evt-4a31cff0b1e7"
   },
   {
     "id": "was-q-123284",
@@ -556,7 +1035,7 @@ window.NEWS_DATA = [
       "类目",
       "流量"
     ],
-    "eventId": "evt-6fb3869030b6"
+    "eventId": "evt-597ac7de2020"
   },
   {
     "id": "was-q-123282",
@@ -579,7 +1058,7 @@ window.NEWS_DATA = [
       "物流",
       "FBA"
     ],
-    "eventId": "evt-3ff3717ee45b"
+    "eventId": "evt-23ab89c478e8"
   },
   {
     "id": "was-q-123261",
@@ -601,7 +1080,7 @@ window.NEWS_DATA = [
       "职业发展",
       "亚马逊"
     ],
-    "eventId": "evt-6d19c8046edc"
+    "eventId": "evt-5fa1dff6f826"
   },
   {
     "id": "was-q-123281",
@@ -624,7 +1103,7 @@ window.NEWS_DATA = [
       "AI",
       "消费者行为"
     ],
-    "eventId": "evt-8a11a7de963d"
+    "eventId": "evt-c5c96d328cf2"
   },
   {
     "id": "was-q-123279",
@@ -647,7 +1126,7 @@ window.NEWS_DATA = [
       "BD",
       "WOOT"
     ],
-    "eventId": "evt-6b4557c2dc43"
+    "eventId": "evt-6b61a906eb8d"
   },
   {
     "id": "was-q-123269",
@@ -670,7 +1149,7 @@ window.NEWS_DATA = [
       "图片",
       "合规"
     ],
-    "eventId": "evt-72cc60ac8981"
+    "eventId": "evt-b7b954a27e9a"
   },
   {
     "id": "was-q-123277",
@@ -693,7 +1172,7 @@ window.NEWS_DATA = [
       "跟卖",
       "品牌"
     ],
-    "eventId": "evt-79b968774ff8"
+    "eventId": "evt-640ee644b21e"
   },
   {
     "id": "was-q-123267",
@@ -1091,6 +1570,31 @@ window.NEWS_DATA = [
     "eventId": "evt-fe27f8aaca25"
   },
   {
+    "id": "amz-5giPCQ0R",
+    "date": "2026-08-12",
+    "time": "01:28",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/5giPCQ0R",
+    "sourceType": "media",
+    "score": 82,
+    "category": "logistics",
+    "title": "台风接连影响菲律宾与华东港口，9.9大促备货面临物流压力",
+    "summary": "台风“白海豚”导致华东港口严重拥堵，船期延长12天，马尼拉等地严重积水停电，菲律宾海外仓进水，尾程配送受阻，部分店铺评分下滑。",
+    "selected": true,
+    "why": "物流中断直接影响9.9大促备货和订单履约，可能导致断货或账户健康受损。",
+    "impact": "向菲律宾发货或从华东出货的Shopee、Lazada等东南亚卖家，以及使用菲律宾海外仓的卖家。",
+    "action": "紧急检查备货进度，启用其他仓库或调整大促库存分配，安抚已受影响客单。",
+    "deadline": "",
+    "tags": [
+      "物流",
+      "台风",
+      "菲律宾",
+      "华东港口",
+      "9.9大促"
+    ],
+    "eventId": "evt-b8087a9d77cf"
+  },
+  {
     "id": "mjzj-fuul93x8izgg",
     "date": "2026-08-11",
     "time": "17:58",
@@ -1324,6 +1828,125 @@ window.NEWS_DATA = [
     "eventId": "evt-8a6272d5047c"
   },
   {
+    "id": "mjzj-fuu7sxcekagw",
+    "date": "2026-08-11",
+    "time": "15:19",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuu7sxcekagw",
+    "sourceType": "media",
+    "score": 50,
+    "category": "marketing",
+    "title": "从年亏2000万到卖出10个亿！90后深圳老板做对了什么？一把“地摊货”小风扇在TikTok逆袭",
+    "summary": "90后卖家通过极致续航、多场景适配的差异化小风扇，在TikTok产生48万条自发视频种草，菲律宾一周销量破万，实现从亏损到年销10亿的逆袭。",
+    "selected": true,
+    "why": "以小搏大的选品与内容营销案例，可为中小卖家提供产品创新与TikTok打法的启发。",
+    "impact": "TikTok Shop卖家，特别是小家电、创意消费品类卖家。",
+    "action": "学习其用户场景洞察和UGC内容激发方式，尝试在产品定义期融入社交传播点。",
+    "deadline": "",
+    "tags": [
+      "选品",
+      "TikTok",
+      "案例",
+      "小家电"
+    ],
+    "eventId": "evt-a319595d54bc"
+  },
+  {
+    "id": "mjzj-fuu6qdyfuc5c",
+    "date": "2026-08-11",
+    "time": "15:12",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuu6qdyfuc5c",
+    "sourceType": "media",
+    "score": 15,
+    "category": "market",
+    "title": "入职未满一年，OpenAI伦理负责人宣布离职",
+    "summary": "OpenAI伦理负责人巴卡拉尔入职不到一年即离职，引发业内对AI伦理监管的讨论。",
+    "selected": false,
+    "why": "纯行业人事变动，与卖家日常经营无关。",
+    "impact": "无直接影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "AI",
+      "人事"
+    ],
+    "eventId": "evt-e40a3709cf41"
+  },
+  {
+    "id": "mjzj-fuu2zz0gju9s",
+    "date": "2026-08-11",
+    "time": "14:40",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuu2zz0gju9s",
+    "sourceType": "media",
+    "score": 75,
+    "category": "logistics",
+    "title": "亚马逊卖家速看！FBM Ship+双重调整，备货放宽同时发货流程强制变更",
+    "summary": "亚马逊FBM Ship+推出专属优惠运价、现金返现和账户绩效保护，同时调整发货流程强制要求，覆盖中国发往欧洲五国、日本和澳大利亚。",
+    "selected": true,
+    "why": "涉及自发货卖家的成本、时效和合规流程，直接影响日常运营与利润。",
+    "impact": "使用亚马逊FBM模式配送至欧洲、日本、澳大利亚的中国卖家。",
+    "action": "立即查阅FBM Ship+新规，参与优惠并更新内部发货流程，避免绩效降级。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "FBM",
+      "物流",
+      "自发货"
+    ],
+    "eventId": "evt-5fae3ea5a511"
+  },
+  {
+    "id": "mjzj-fuu31sal0pvk",
+    "date": "2026-08-11",
+    "time": "14:36",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuu31sal0pvk",
+    "sourceType": "media",
+    "score": 88,
+    "category": "policy",
+    "title": "亚马逊在售充电器因存在“重伤或致死”风险被召回：请立即退货",
+    "summary": "美国CPSC召回约4930件在亚马逊销售的EEMB锂纽扣电池充电器，因儿童可轻易取出电池，存在误吞致命风险，卖家应立即停售并引导退货。",
+    "selected": true,
+    "why": "产品安全召回对库存和账号安全影响极大，相关卖家须迅速响应以避免法律及平台处罚。",
+    "impact": "亚马逊美国站销售充电器、电池类产品的卖家，尤其是与召回调性相近的SKU。",
+    "action": "立刻排查库存中是否含有该款充电器，下架并联系消费者退货退款，同时审视其他电池产品包装安全。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "产品召回",
+      "安全合规",
+      "充电器"
+    ],
+    "eventId": "evt-6af7eb78a3ea"
+  },
+  {
+    "id": "mjzj-fuu2xzntyps0",
+    "date": "2026-08-11",
+    "time": "14:35",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuu2xzntyps0",
+    "sourceType": "media",
+    "score": 72,
+    "category": "logistics",
+    "title": "运河地缘风险叠加，北美海运运价持续走高",
+    "summary": "巴拿马运河限水、红海局势等地缘因素叠加，导致北美航线集装箱运价持续上行，卖家物流成本面临压力。",
+    "selected": true,
+    "why": "海运成本上升直接侵蚀利润，需提前规划发货节奏和定价。",
+    "impact": "以海运为主要入仓方式的北美站卖家。",
+    "action": "与货代确认最新运价，考虑提前备货或使用快船方案，调整售价以对冲物流上涨。",
+    "deadline": "",
+    "tags": [
+      "北美",
+      "海运",
+      "运价",
+      "物流成本"
+    ],
+    "ref": "https://www.amz123.com/t/ETN1clAJ",
+    "eventId": "evt-072f8923a79b"
+  },
+  {
     "id": "188091",
     "date": "2026-08-11",
     "time": "14:27",
@@ -1345,6 +1968,30 @@ window.NEWS_DATA = [
       "深圳"
     ],
     "eventId": "evt-8b86d8231bd5"
+  },
+  {
+    "id": "mjzj-fuuf7quhko3k",
+    "date": "2026-08-11",
+    "time": "13:20",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fuuf7quhko3k",
+    "sourceType": "media",
+    "score": 62,
+    "category": "platform",
+    "title": "亚马逊美国站本周后台先检查这4处，再谈要不要继续加动作",
+    "summary": "文章梳理美国站购物车资格、FBA退货、自发货承运商和变体维护四项后台变化，给出检查顺序和责任划分建议。",
+    "selected": true,
+    "why": "定期检查这些核心指标可预防购物车丢失、退货异常等隐患，维持账号健康。",
+    "impact": "亚马逊美国站运营团队，尤其负责日常后台维护的人员。",
+    "action": "按照建议顺序逐项核查购物车赢得率、退货报告、承运商设置及变体合规性，修复异常项。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "后台操作",
+      "美国站",
+      "账号维护"
+    ],
+    "eventId": "evt-19c298eae4a3"
   },
   {
     "id": "188083",
@@ -1370,6 +2017,31 @@ window.NEWS_DATA = [
       "TikTok Shop"
     ],
     "eventId": "evt-1137b2474239"
+  },
+  {
+    "id": "mjzj-futrp607qneo",
+    "date": "2026-08-11",
+    "time": "12:13",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/futrp607qneo",
+    "sourceType": "media",
+    "score": 85,
+    "category": "logistics",
+    "title": "紧急提醒！通过PAN-EU入库欧盟货件和发往法国的货件需提供MRN+EORI",
+    "summary": "通过泛欧计划入库欧盟或发往法国的货件，现须提供海关出口报关单号MRN及EORI号，否则可能影响清关和入库。",
+    "selected": true,
+    "why": "新要求属清关必要文件，缺失将导致货物滞留、延误上架，严重影响库存和售卖。",
+    "impact": "使用PAN-EU将货物发送至欧盟及法国站的亚马逊卖家。",
+    "action": "联系物流服务商确认已获取的MRN和EORI有效，并在发货时随附正确信息，更新ERP流程。",
+    "deadline": "",
+    "tags": [
+      "欧盟",
+      "清关",
+      "PAN-EU",
+      "EORI",
+      "合规"
+    ],
+    "eventId": "evt-bc92a88f43dd"
   },
   {
     "id": "mjzj-futlezzs3dog",
@@ -1487,6 +2159,29 @@ window.NEWS_DATA = [
       "竞争"
     ],
     "eventId": "evt-acca62099a18"
+  },
+  {
+    "id": "mjzj-futnqt81qrr4",
+    "date": "2026-08-11",
+    "time": "10:58",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/futnqt81qrr4",
+    "sourceType": "media",
+    "score": 20,
+    "category": "market",
+    "title": "千问开放AI眼镜生态：支持开发者打造导游、教练Skill",
+    "summary": "阿里千问开放AI眼镜生态，开发者可创建导游、教练等Skill，也面向工业零售提供巡检定制方案。",
+    "selected": false,
+    "why": "当前与主流跨境电商卖家业务无直接关联，属于前沿技术动态。",
+    "impact": "暂不影响卖家日常运营。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "AI",
+      "行业动态",
+      "智能眼镜"
+    ],
+    "eventId": "evt-c2d79cc58d00"
   },
   {
     "id": "188071",
@@ -1748,6 +2443,31 @@ window.NEWS_DATA = [
     "eventId": "evt-b14f19c3e6b7"
   },
   {
+    "id": "amz-57XZryUK",
+    "date": "2026-08-11",
+    "time": "09:26",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/57XZryUK",
+    "sourceType": "media",
+    "score": 78,
+    "category": "logistics",
+    "title": "SHEIN在巴西布局4000个线下退货点，逆向物流成本降低20%",
+    "summary": "SHEIN在巴西联合Jadlog落地4000个社区退货网点，覆盖便利店、美容院等场景，消费者扫码就近退货，物流成本降低20%，退款周期缩短，并支持自营及第三方卖家。",
+    "selected": true,
+    "why": "巴西退货率长期高企，新模式将退货从“退回中国”转为本地处理，直接降低卖家弃货损失和退货成本，提升售后效率。",
+    "impact": "影响在巴西SHEIN平台销售的所有卖家，尤其是中小卖家可借此减少退货相关的经济损失。",
+    "action": "向买家推广SHEIN线下退货点，优化退货流程；评估退货成本节省对利润的影响。",
+    "deadline": "",
+    "tags": [
+      "SHEIN",
+      "巴西",
+      "逆向物流",
+      "退货",
+      "成本降低"
+    ],
+    "eventId": "evt-081727485f03"
+  },
+  {
     "id": "mjzj-futajamz7r40",
     "date": "2026-08-11",
     "time": "09:13",
@@ -1770,6 +2490,80 @@ window.NEWS_DATA = [
       "黑五"
     ],
     "eventId": "evt-003a373603ee"
+  },
+  {
+    "id": "amz-A5KcQCs1",
+    "date": "2026-08-11",
+    "time": "09:12",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/A5KcQCs1",
+    "sourceType": "media",
+    "score": 82,
+    "category": "logistics",
+    "title": "哥伦比亚7.5级强震111死87伤 政府宣布进入“国家灾难状态”6机场停运",
+    "summary": "哥伦比亚发生7.5级强震，造成重大伤亡，政府宣布国家灾难状态，6座机场停运，物流和配送网络中断。",
+    "selected": true,
+    "why": "机场停运将导致货物进出哥伦比亚严重受阻，订单履行和退货可能出现长时间延误，需及时安抚买家。",
+    "impact": "主要通过空运向哥伦比亚发货或在当地有库存的卖家，订单妥投和退货处理将受到重大影响。",
+    "action": "立即检查在哥伦比亚的未完成订单，联系物流商确认货物状态，主动告知买家可能的延误并做好售后预案。",
+    "deadline": "",
+    "tags": [
+      "哥伦比亚",
+      "地震",
+      "物流中断",
+      "机场停运"
+    ],
+    "eventId": "evt-47ac5cee84b6"
+  },
+  {
+    "id": "amz-910dxcbl",
+    "date": "2026-08-11",
+    "time": "09:12",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/910dxcbl",
+    "sourceType": "media",
+    "score": 80,
+    "category": "logistics",
+    "title": "上海、宁波港拥堵加剧 船期延误或超一周",
+    "summary": "台风后上海港和宁波舟山港积压货量集中释放，码头等待时间延长，船期延误可能超过一周，堆场利用率高企。",
+    "selected": true,
+    "why": "港口拥堵直接影响跨境海运时效，卖家可能面临断货风险，需提前调整补货计划并管理消费者预期。",
+    "impact": "影响所有通过上海、宁波港出口货物的跨境电商卖家，尤其是走海运的FBA头程和自发货卖家。",
+    "action": "与货代紧急确认最新船期，考虑从其他港口分流，对已下单客户预先沟通延误信息，并提高安全库存。",
+    "deadline": "",
+    "tags": [
+      "上海港",
+      "宁波港",
+      "拥堵",
+      "船期延误",
+      "海运"
+    ],
+    "eventId": "evt-0393189597cf"
+  },
+  {
+    "id": "amz-sAzhOYpi",
+    "date": "2026-08-11",
+    "time": "09:12",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/sAzhOYpi",
+    "sourceType": "media",
+    "score": 68,
+    "category": "market",
+    "title": "TikTok Shop马来西亚使用率升至62% 电商格局加速变化",
+    "summary": "Ipsos调查显示，马来西亚电商浏览率升至74%，TikTok Shop使用率达62%；食品杂货、美容护理、医疗保健等日用品类购买率显著增长，时尚仍居首位。",
+    "selected": true,
+    "why": "数据表明马来电商正转向日常消费品常态化采购，TikTok Shop增长快速，为卖家选品和渠道布局提供重要参考。",
+    "impact": "有意拓展或已在马来西亚市场的卖家，尤其是销售时尚、杂货、美妆、医疗保健品类的卖家。",
+    "action": "评估增加TikTok Shop马来站点的投入，针对杂货、美妆等增长品类开发新品，优化内容营销策略。",
+    "deadline": "",
+    "tags": [
+      "马来西亚",
+      "TikTok Shop",
+      "电商市场",
+      "消费趋势",
+      "选品"
+    ],
+    "eventId": "evt-5ccc77da9811"
   },
   {
     "id": "mjzj-fut6yav0tips",
