@@ -1,5 +1,52 @@
 [
   {
+    "id": "187484",
+    "date": "2026-07-12",
+    "time": "18:02",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/187484",
+    "score": 70,
+    "category": "marketing",
+    "title": "欧洲40℃热浪引爆睡眠经济！这12款产品正在疯狂出单",
+    "summary": "欧洲热浪推动睡眠经济，12款产品（如降温床垫、风扇）在亚马逊等平台热销。",
+    "selected": true,
+    "why": "热浪是季节性爆款机会，卖家可快速选品上架，抓住短期需求。",
+    "impact": "影响欧洲市场（尤其是亚马逊）的卖家，涉及家居、个护品类。",
+    "action": "分析热销产品特点，调整库存或上新相关品类，如降温用品。",
+    "deadline": "",
+    "tags": [
+      "欧洲",
+      "选品",
+      "季节性",
+      "亚马逊"
+    ],
+    "eventId": "evt-cb7319c6a63f",
+    "sourceType": "media"
+  },
+  {
+    "id": "lsch-6c35a640",
+    "date": "2026-07-12",
+    "time": "17:02",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/6c35a640",
+    "score": 40,
+    "category": "market",
+    "title": "中卡合作｜卡塔尔自由区管理局与比亚迪会谈，探讨未来合作机遇",
+    "summary": "卡塔尔自由区管理局与比亚迪会谈，探讨先进制造和科技创新合作。",
+    "selected": false,
+    "why": "合作动态对中小卖家直接影响小，但可关注中东市场准入机会。",
+    "impact": "影响关注中东市场的制造和科技企业。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "中东",
+      "市场行情",
+      "政策合规"
+    ],
+    "eventId": "evt-6798e2c78f09",
+    "sourceType": "media"
+  },
+  {
     "id": "187420",
     "date": "2026-07-10",
     "time": "15:54",
