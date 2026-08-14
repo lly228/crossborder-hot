@@ -1,5 +1,143 @@
 [
   {
+    "id": "lsch-cf1dacbc",
+    "date": "2026-07-14",
+    "time": "21:14",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/cf1dacbc",
+    "score": 40,
+    "category": "market",
+    "title": "一周要闻·阿联酋&卡塔尔｜阿布扎比BlueFive联合领投可灵AI 30亿美元融资；卡塔尔宣布成立全球人工智能伦理联盟",
+    "summary": "阿布扎比BlueFive领投可灵AI融资，卡塔尔成立全球人工智能伦理联盟，中东科技投资活跃。",
+    "selected": false,
+    "why": "中东市场动态对跨境电商影响有限，但可关注潜在合作机会。",
+    "impact": "影响关注中东市场的科技投资者和出海企业。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "中东",
+      "市场行情",
+      "科技投资"
+    ],
+    "eventId": "evt-3c93ebf5ee5a",
+    "sourceType": "media"
+  },
+  {
+    "id": "lsch-73c75624",
+    "date": "2026-07-14",
+    "time": "18:31",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/73c75624",
+    "score": 45,
+    "category": "market",
+    "title": "36氪出海·关注｜LEAP East香港首秀落幕，未来三年将继续在港举办",
+    "summary": "LEAP East香港首秀落幕，未来三年将继续在港举办，促进中东与亚太科技合作。",
+    "selected": false,
+    "why": "科技展会动态对卖家直接经营影响小，但可留意行业趋势。",
+    "impact": "影响关注中东市场的科技企业和初创公司。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "中东",
+      "市场行情",
+      "科技合作"
+    ],
+    "eventId": "evt-d7b9ed2971df",
+    "sourceType": "media"
+  },
+  {
+    "id": "was-q-122149",
+    "date": "2026-07-14",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122149",
+    "sourceType": "community",
+    "score": 60,
+    "category": "platform",
+    "title": "亚马逊美国站SKU成本报告无法下载，一直显示生成中，电脑缓存清理过了，浏览器换过了，都不行……",
+    "summary": "卖家反馈亚马逊美国站SKU成本报告持续显示生成中，无法下载，已尝试清理缓存和更换浏览器仍未解决，客服称暂无其他客户类似反馈。",
+    "selected": false,
+    "why": "季度报税依赖该报告，下载异常可能延误财务合规工作，需关注是否为系统端问题。",
+    "impact": "需要下载SKU成本报告用于报税的亚马逊美国站卖家。",
+    "action": "换时段重试，或通过卖家支持提交问题并记录case编号，寻求亚马逊技术团队协助。",
+    "deadline": "",
+    "tags": [
+      "SKU成本报告",
+      "下载故障",
+      "亚马逊美国站",
+      "税务合规"
+    ],
+    "eventId": "evt-0fd8b05babcc"
+  },
+  {
+    "id": "was-q-122201",
+    "date": "2026-07-14",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122201",
+    "sourceType": "community",
+    "score": 40,
+    "category": "market",
+    "title": "本人有7年一线运营经验，亚马逊2024年创业至今（启动资金160万，截止本月，GMV 500万，毛利润只有20万），增长困难，陷入困局，是放弃还是继续？小卖家是否应该及时止损，后续出路在哪里？",
+    "summary": "一位资深运营分享创业半年来的低利润困境，投入160万，GMV 500万但毛利仅20万，面临是否坚持的抉择。",
+    "selected": false,
+    "why": "真实创业数据为中小卖家提供了成本与盈利的参考，引发对生存策略的思考。",
+    "impact": "正在或准备创业的亚马逊小卖家、寻求转型的运营。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "创业",
+      "小卖家"
+    ],
+    "eventId": "evt-9b9848d7271b"
+  },
+  {
+    "id": "was-q-122153",
+    "date": "2026-07-14",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122153",
+    "sourceType": "community",
+    "score": 40,
+    "category": "marketing",
+    "title": "跨境运营每天都在重复写listing、回多国语言邮件、做广告周报，怎么把这些活提炼成能反复用的skill？",
+    "summary": "运营人员讨论如何将写listing、回邮件、做周报等日常重复工作提炼成可复用的技能或模板。",
+    "selected": false,
+    "why": "探究提升个人效率和工作标准化的方法，适合寻求流程优化的运营参考。",
+    "impact": "日常工作重复度高的跨境电商运营人员。",
+    "action": "创建标准化模板、邮件回复库，利用软件工具自动化部分周报生成。",
+    "deadline": "",
+    "tags": [
+      "运营效率",
+      "工作流程",
+      "模板"
+    ],
+    "eventId": "evt-684639966c31"
+  },
+  {
+    "id": "was-q-122160",
+    "date": "2026-07-14",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122160",
+    "sourceType": "community",
+    "score": 55,
+    "category": "marketing",
+    "title": "ACOS 偏高时，我会先看哪些数据？自动广告最近 30 天一共出了 344 单，整体转化率是 8.9%，ACOS 62.18%。应该怎么调整？应该先看整体转化率，再看细分转化率.....",
+    "summary": "卖家分享当亚马逊自动广告ACOS达62.18%时，应优先检查整体转化率，再深入分析细分转化率以优化广告的策略。",
+    "selected": false,
+    "why": "提供了一套可参考的广告诊断流程，但属于卖家个人经验，未经官方验证。",
+    "impact": "投放亚马逊广告的运营人员。",
+    "action": "可借鉴其分析思路，结合自身广告报表排查问题并进行调整。",
+    "deadline": "",
+    "tags": [
+      "亚马逊广告",
+      "ACOS",
+      "广告优化"
+    ],
+    "eventId": "evt-d46cafcb0646"
+  },
+  {
     "id": "lsch-128c7672",
     "date": "2026-07-13",
     "time": "11:48",
@@ -2655,5 +2793,26 @@
       "检测"
     ],
     "eventId": "evt-b88a183adca4"
+  },
+  {
+    "id": "was-q-121672",
+    "date": "2026-07-01",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121672",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "用我妈的身份信息注册的店铺，遇到协议三视频审核，自己多年前也注册过店铺，但是店铺长期没经营停用了，我可以跟我妈一起出镜视频审核吗？",
+    "summary": "用我妈的身份信息注册的店铺，遇到协议三视频审核，自己多年前也注册过店铺，但是店铺长期没经营停用了，我可以跟我妈一起出镜视频审核吗？ - 我21年的时候，用自己的身份信息注册了亚马逊店铺，但是后面店铺停用了，公司也转让给别人了，今年我用我妈的身份信息，新注册了店铺，运营了4个月，现在遇到协议三视频审核，我妈大概率应付不了视频审核，所以我打算作为运营人员一起出镜，带上户口本进行证明 现在有...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-b22581238e60"
   }
 ]
