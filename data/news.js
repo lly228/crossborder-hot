@@ -2,6 +2,54 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "lsch-89648dfc",
+    "date": "2026-08-16",
+    "time": "12:22",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/89648dfc",
+    "sourceType": "media",
+    "score": 45,
+    "category": "market",
+    "title": "中国公司全球化周报｜滴滴国际业务GTV增速达61%，日均订单超1500万单 / 宁德时代获3GWh海外储能订单",
+    "summary": "中国公司全球化周报聚焦滴滴国际与宁德时代：滴滴国际业务GTV增速达61%，日均订单超1500万单；宁德时代获3GWh海外储能订单。",
+    "selected": false,
+    "why": "中国公司出海加速，但滴滴、宁德时代与跨境电商中小卖家经营关联度低，仅作宏观背景了解。",
+    "impact": "影响有限，主要涉及出行、储能行业；对亚马逊、TikTok等电商卖家无直接经营影响。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "中国出海",
+      "市场动态",
+      "全球化"
+    ],
+    "eventId": "evt-98a00fb01864"
+  },
+  {
+    "id": "mjzj-fv4zlxp1nxts",
+    "date": "2026-08-16",
+    "time": "11:54",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fv4zlxp1nxts",
+    "sourceType": "media",
+    "score": 70,
+    "category": "platform",
+    "title": "亚马逊美国站Variation Wizard退场前，精品FBA卖家主推ASIN先查高风险变体",
+    "summary": "亚马逊美国站Variation Wizard即将退场，建议精品FBA卖家优先检查高流量、高评价、临近大促的主推ASIN高风险变体，避免入口迁移导致数据失真。",
+    "selected": true,
+    "why": "此举有助于保护核心页面资产，防止变体管理工具退场影响主推ASIN流量和转化。",
+    "impact": "影响亚马逊美国站精品FBA卖家，尤其是依赖变体管理的主推ASIN运营者。",
+    "action": "优先审查主推ASIN变体关系，修正错误关联，在活动前消除高风险变体。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "变体管理",
+      "FBA",
+      "美国站",
+      "平台规则"
+    ],
+    "eventId": "evt-71fe8d28b9c9"
+  },
+  {
     "id": "was-q-123429",
     "date": "2026-08-16",
     "time": "02:33",
@@ -73,6 +121,30 @@ window.NEWS_DATA = [
       "3C"
     ],
     "eventId": "evt-4b9880673ad1"
+  },
+  {
+    "id": "188271",
+    "date": "2026-08-15",
+    "time": "16:53",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/188271",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "欧洲返校季广告实战指南",
+    "summary": "雨果跨境发布欧洲返校季广告实战指南，覆盖返校季营销节点与广告策略，帮助卖家把握欧洲Q3销售旺季。",
+    "selected": true,
+    "why": "返校季是欧洲重要消费节点，指南提供可落地的广告投放思路，适合欧洲站卖家优化预算。",
+    "impact": "影响欧洲站亚马逊、TikTok Shop、Temu等平台卖家，尤其是文具、电子、服装类目。",
+    "action": "结合指南调整返校季广告预算、素材和关键词，锁定欧洲返校消费需求。",
+    "deadline": "",
+    "tags": [
+      "欧洲",
+      "返校季",
+      "广告营销",
+      "季节性选品"
+    ],
+    "eventId": "evt-cec05e852774"
   },
   {
     "id": "mjzj-fv47vo7tbg8x",
