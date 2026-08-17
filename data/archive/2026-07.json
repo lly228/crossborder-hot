@@ -1,5 +1,96 @@
 [
   {
+    "id": "lsch-648c71b5",
+    "date": "2026-07-17",
+    "time": "18:10",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/648c71b5",
+    "score": 50,
+    "category": "market",
+    "title": "10个中东“土豪”，8个爱中国手机壳",
+    "summary": "中东市场中国手机壳热销，10个土豪8个爱中国手机壳，品牌出海趋势明显。",
+    "selected": false,
+    "why": "中东市场对个性化小商品需求高，为卖家提供品牌化出海机会。",
+    "impact": "影响关注中东市场的卖家，尤其是手机配件品类。",
+    "action": "研究中东消费者偏好，设计符合当地文化的手机壳产品。",
+    "deadline": "",
+    "tags": [
+      "中东",
+      "手机壳",
+      "品牌出海"
+    ],
+    "eventId": "evt-f7d31c576204",
+    "sourceType": "media"
+  },
+  {
+    "id": "was-q-122312",
+    "date": "2026-07-17",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122312",
+    "sourceType": "community",
+    "score": 20,
+    "category": "market",
+    "title": "最近是有什么节假日吗？流量和订单都下降了1/3",
+    "summary": "多名卖家反映近两周亚马逊流量和订单量均下降约三分之一，猜测原因但无明确结论。",
+    "selected": false,
+    "why": "可作为市场情绪和短期波动的参考，但不能作为决策依据。",
+    "impact": "亚马逊美国站卖家，尤其是正在经历类似下滑的运营者。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "流量下降",
+      "订单",
+      "卖家反馈"
+    ],
+    "eventId": "evt-697b62566bf8"
+  },
+  {
+    "id": "was-q-122333",
+    "date": "2026-07-17",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122333",
+    "sourceType": "community",
+    "score": 40,
+    "category": "market",
+    "title": "在小城市里做运营，蓝海，月薪6k，公司现金流很差，发不出提成，但是不忙，要跳槽吗？",
+    "summary": "亚马逊运营人员在小城市月薪6k，公司拖欠提成，工作强度不大，询问是否应该跳槽。",
+    "selected": false,
+    "why": "个人职业发展讨论，反映部分中小卖家的经营现状。",
+    "impact": "面临类似处境的跨境电商运营从业者。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "职业发展",
+      "运营"
+    ],
+    "eventId": "evt-f6e806e5e470"
+  },
+  {
+    "id": "was-q-122318",
+    "date": "2026-07-17",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122318",
+    "sourceType": "community",
+    "score": 30,
+    "category": "marketing",
+    "title": "新手注册美国站品牌、店铺的流程和费用",
+    "summary": "社区讨论新手注册美国站点品牌和店铺的流程、费用，分享自己注册TM标或直接购买R标的成本经验。",
+    "selected": false,
+    "why": "作为社区问答，可作为新卖家了解注册路径的参考，但无官方或权威更新。",
+    "impact": "准备入驻亚马逊美国站的新手卖家。",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "美国站",
+      "品牌注册",
+      "新手"
+    ],
+    "eventId": "evt-ddd056f3bb48"
+  },
+  {
     "id": "was-q-122269",
     "date": "2026-07-16",
     "time": "00:00",
