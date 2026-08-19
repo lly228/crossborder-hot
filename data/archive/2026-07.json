@@ -1,5 +1,28 @@
 [
   {
+    "id": "lsch-3526a024",
+    "date": "2026-07-19",
+    "time": "11:37",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/3526a024",
+    "score": 40,
+    "category": "market",
+    "title": "WorkBuddy落地东南亚，腾讯AI出海提速",
+    "summary": "WorkBuddy落地东南亚，腾讯AI出海提速，展示AI技术在新兴市场的应用。",
+    "selected": false,
+    "why": "AI出海趋势为卖家提供技术合作和效率提升机会。",
+    "impact": "影响关注AI和东南亚市场的卖家。",
+    "action": "关注腾讯AI产品在东南亚的落地情况，评估是否可用于自身业务。",
+    "deadline": "",
+    "tags": [
+      "AI",
+      "东南亚",
+      "腾讯"
+    ],
+    "eventId": "evt-8387d3490e94",
+    "sourceType": "media"
+  },
+  {
     "id": "187619",
     "date": "2026-07-18",
     "time": "17:51",
@@ -434,6 +457,27 @@
       "亚马逊"
     ],
     "eventId": "evt-de38e3b83468"
+  },
+  {
+    "id": "was-q-122241",
+    "date": "2026-07-15",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122241",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "独立站玄学：大家平时改了Shopify的详情页和定价，怎么科学地测出效果？",
+    "summary": "独立站玄学：大家平时改了Shopify的详情页和定价，怎么科学地测出效果？ - 各位做独立站的同行，最近有个运营问题特别困扰我，想请教下大家平时是怎么操作的。 我们店铺每天大约有 500 到 1000 个入站 IP，经常会根据广告表现微调详情页，比如用 ChatGPT 重新润色描述、更换主图、或者微调价格（比如从 $39.9 降到 ...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-90b998c11fbc"
   },
   {
     "id": "lsch-cf1dacbc",
