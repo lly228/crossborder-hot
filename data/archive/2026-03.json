@@ -441,6 +441,27 @@
     "eventId": "evt-9ef7cf37013e"
   },
   {
+    "id": "was-q-117128",
+    "date": "2026-03-16",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/117128",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "最近亚马逊前台查看评论被限制查看评论只能看到有限的评论",
+    "summary": "最近亚马逊前台查看评论被限制查看评论只能看到有限的评论 - 无法查看产品评论，最近我一直用来查看商品评论的账号突然被限制无法查看评论只能查看有限的评论，重新注册了一个也无法查看评论，但是有的人的是正常的有的无法查看，目前试过的方法有更换浏览器 更换节点，重新用邮箱注册新账号。 新账号也是被限制的状态，发送了请求也是...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-0ead348ce5f9"
+  },
+  {
     "id": "was-q-117048",
     "date": "2026-03-13",
     "time": "00:00",
