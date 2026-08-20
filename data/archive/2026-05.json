@@ -220,6 +220,25 @@
     "eventId": "evt-0a7eea5e5f0e"
   },
   {
+    "id": "was-q-119989",
+    "date": "2026-05-21",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/119989",
+    "sourceType": "community",
+    "score": 55,
+    "category": "policy",
+    "title": "9810报关单金额大于申报企业所得税，税局让解释？",
+    "summary": "9810报关单金额大于申报企业所得税，税局让解释？ - 出口收入未足额申报企业所得税的疑点，请核实是否存在未及时、足额申报企业所得税问题，如存在问题请于2026年X月X日前更正申报。如核实不存在问题，应解释差异原因，并于2026年X月X日前提供情况说明及相关佐证资料至XX税局。有遇到的伙伴吗？ 怎么处理的呢？",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-27f7b6825c56"
+  },
+  {
     "id": "was-q-119848",
     "date": "2026-05-19",
     "time": "00:00",
@@ -536,6 +555,27 @@
     "category": "platform",
     "title": "报名倒计时！2026TikTok Shop东南亚跨境电商年度峰会议程揭晓，火速抢占最后席位",
     "summary": "2026 TikTok Shop东南亚跨境电商年度峰会，将于5月22日落地广州，报名通道将于5月12日正式关闭。"
+  },
+  {
+    "id": "was-q-119331",
+    "date": "2026-05-07",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/119331",
+    "sourceType": "community",
+    "score": 53,
+    "category": "logistics",
+    "title": "求助：产品彩盒贴条形码，但是有内盒+外箱，FBA入库会不会有问题？我担心亚马逊会不会把内盒作为一个销售单位发货出去了？这种方式下怎么样才能确保能正常入库",
+    "summary": "求助：产品彩盒贴条形码，但是有内盒+外箱，FBA入库会不会有问题？我担心亚马逊会不会把内盒作为一个销售单位发货出去了？这种方式下怎么样才能确保能正常入库 - 有一个产品，单个为SKU销售单位，产品的包装盒比较小而且软，容易压坏，所以工厂5个产品入一个内盒，然后20个内盒入一个外箱发货。 亚马逊条形码贴在产品包装盒上，内盒是空白的盒子，不贴条形码，只起到保护作用。 这样亚马逊仓库能正常入库吗？我担...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-37285e8212e9"
   },
   {
     "id": "lsch-bdaa70df",
