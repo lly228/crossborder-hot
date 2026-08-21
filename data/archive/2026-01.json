@@ -113,6 +113,28 @@
     "eventId": "evt-79480cf9b4f9"
   },
   {
+    "id": "was-q-115476",
+    "date": "2026-01-23",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/115476",
+    "sourceType": "community",
+    "score": 53,
+    "category": "logistics",
+    "title": "产品尺寸被误判为外箱尺寸，60天单ASIN测量2次，次数已耗尽，90天追诉期倒计时",
+    "summary": "产品尺寸被误判为外箱尺寸，60天单ASIN测量2次，次数已耗尽，90天追诉期倒计时 - 向大家求助一个关于亚马逊尺寸误判、费用暴涨的死局，目前毫无办法 我们运营中的一个ASIN，首次创货件一切正常。但在售卖期间，系统突然将产品尺寸变更为外箱尺寸，仓储费、配送费、配置费全部按大件计算。配送费翻了2倍多，配置费就多收了1000多美金。二次货件...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储"
+    ],
+    "eventId": "evt-cbca4665c7be"
+  },
+  {
     "id": "was-q-115142",
     "date": "2026-01-16",
     "time": "00:00",
