@@ -2,6 +2,27 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "mjzj-fvuc0pv6rzsw",
+    "date": "2026-08-23",
+    "time": "11:27",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fvuc0pv6rzsw",
+    "sourceType": "media",
+    "score": 61,
+    "category": "policy",
+    "title": "亚马逊美国站视频验证常态化，精品FBA主推ASIN背后四套信息要对齐",
+    "summary": "视频验证本质是经营真实性审查，要求账户主体、供应链、文件记录与人员操作长期一致。精品卖家应持续对齐主体资料、主推ASIN链条及权限台账，避免临时补救导致的叙事断裂与审核风险。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-52281e5aa0a2"
+  },
+  {
     "id": "was-q-123702",
     "date": "2026-08-23",
     "time": "02:35",
