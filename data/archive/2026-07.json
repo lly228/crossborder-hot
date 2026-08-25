@@ -4186,6 +4186,27 @@
     "eventId": "evt-506ca528a9c0"
   },
   {
+    "id": "was-q-122367",
+    "date": "2026-07-18",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122367",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "新SKU跟卖老SKU成功，但图片、标题只能改老SKU？解决方法是什么？请问有没有办法把这个 ASIN 的编辑权限转移到新 SKU 上，让以后直接通过新 SKU 维护 Listing？",
+    "summary": "新SKU跟卖老SKU成功，但图片、标题只能改老SKU？解决方法是什么？请问有没有办法把这个 ASIN 的编辑权限转移到新 SKU 上，让以后直接通过新 SKU 维护 Listing？ - 亚马逊欧美站，我新建了一个 SKU 跟卖自己原来的产品（两个 SKU 对应的是同一个 ASIN）。 目前大部分库存已经转移到新 SKU，后续也打算逐步淘汰老 SKU。 但现在遇到一个问题：这个 ASIN 的编辑权限似乎还在老 SKU 上。无论是修改主图...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-6e8806324ff0"
+  },
+  {
     "id": "lsch-648c71b5",
     "date": "2026-07-17",
     "time": "18:10",
@@ -4370,6 +4391,25 @@
       "VAT"
     ],
     "eventId": "evt-ea93846e2692"
+  },
+  {
+    "id": "was-q-122282",
+    "date": "2026-07-16",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122282",
+    "sourceType": "community",
+    "score": 47,
+    "category": "logistics",
+    "title": "求助，已注册透明计划的ASIN，更换FNSKU后应该怎么发货？",
+    "summary": "求助，已注册透明计划的ASIN，更换FNSKU后应该怎么发货？ - 如题，我有个ASIN已经注册了透明计划，一直用的TYPE4标签，透明计划后台显示的SKU是1，FNSKU是11。 现在因为这个产品换包装了，我在同店铺新建了SKU2，FNSKU22来跟卖。 主要目的是将入库的库存隔离开，我应该怎么为SKU2，FNSK...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-3a8f3daeb5e3"
   },
   {
     "id": "187541",
