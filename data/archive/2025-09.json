@@ -251,6 +251,25 @@
     "eventId": "evt-821433b26a5f"
   },
   {
+    "id": "was-q-110048",
+    "date": "2025-09-17",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/110048",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "商品标签贴错了，箱标是对的，该怎么处理",
+    "summary": "商品标签贴错了，箱标是对的，该怎么处理 - 产品是一款多sku的产品 其中的一个sku的标签贴成了同店铺的其他商品的标签，外箱标是对的，贴错了两批货，第一批货已经接受，库存瑕疵发现的 但是另一批货已经在路上了 现在的问题： 1. 正在路上的这批货分五个货件发货的 每个货件里面都有几箱这个贴错的...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-18f959777278"
+  },
+  {
     "id": "was-q-109876",
     "date": "2025-09-12",
     "time": "00:00",
@@ -312,5 +331,26 @@
       "广告营销"
     ],
     "eventId": "evt-e66331fb1a11"
+  },
+  {
+    "id": "was-q-109574",
+    "date": "2025-09-04",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/109574",
+    "sourceType": "community",
+    "score": 47,
+    "category": "logistics",
+    "title": "一条父体的两个子asin，同时创建FBA货件就报危险品，分开创建就没事。请大佬指导下怎么解决",
+    "summary": "一条父体的两个子asin，同时创建FBA货件就报危险品，分开创建就没事。请大佬指导下怎么解决 - 如题，一起创建就会报危险品，分开创建，数量比一起创建更多，也没有报错。另外两个变体有一个被误判为大件了。请大佬指导下怎么解决，谢谢。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-13584bb89d13"
   }
 ]

@@ -72,6 +72,27 @@
     "eventId": "evt-2d8a5186c28b"
   },
   {
+    "id": "was-q-120233",
+    "date": "2026-05-27",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120233",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "求助，亚马逊混装发货发货建仓选错了SKU，货件里的商品和实际发货的商品不一致，该如何处理",
+    "summary": "求助，亚马逊混装发货发货建仓选错了SKU，货件里的商品和实际发货的商品不一致，该如何处理 - 发货情况：实际发出去的是产品A，标签贴的也是产品A 但是后台货件选成了产品B 发了5个货件每个大概200件左右 货件情况： 货已经发出去三周左右，只能国外拦截 5个货件拦截+重新派送一共需要1000美金左右 请教 这种情况该如何处理？ 如果直接入亚马...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-48fd10b0e185"
+  },
+  {
     "id": "lsch-50b0ece0",
     "date": "2026-05-26",
     "time": "22:09",
@@ -259,6 +280,25 @@
     "deadline": "",
     "tags": [],
     "eventId": "evt-27f7b6825c56"
+  },
+  {
+    "id": "was-q-119916",
+    "date": "2026-05-20",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/119916",
+    "sourceType": "community",
+    "score": 47,
+    "category": "platform",
+    "title": "发英国站的时 fusku误打印成美国站的fnsku并发到了英国ba仓，但是能正常入库销售 今后有什么影响吗？",
+    "summary": "发英国站的时 fusku误打印成美国站的fnsku并发到了英国ba仓，但是能正常入库销售 今后有什么影响吗？ - 有大神遇到过相同的问题吗，求解答 我原先在美国站销售A产品，年初开通了英国站 并且把A产品同步到了英国站上，但是发货的时候没注意到两个站点的fnsku是不一致的，我在发英国的时候用的是美国的FNSKU，并且英国ba仓还正常入库销售过一段时间了，然后我今天...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-dabab4126ad4"
   },
   {
     "id": "was-q-119848",
