@@ -11,6 +11,30 @@
     "summary": "一家小微线下店能不能在 AI 接管日常经营决策之后活得更久，这是商米上市后尝试回答的第一个问题。"
   },
   {
+    "id": "amazon-forum-da197a8b-e781-4530-99db-eb0ac8a5876d",
+    "date": "2026-05-28",
+    "time": "01:17",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/da197a8b-e781-4530-99db-eb0ac8a5876d",
+    "sourceType": "official",
+    "score": 80,
+    "category": "logistics",
+    "title": "亚马逊推出卖家自配送产品的新配送时效要求",
+    "summary": "亚马逊实施新的配送时效要求，以优化卖家自配送产品的承诺送达时间，数据显示配送时效每提升1天可带来平均5%的销售增长。",
+    "selected": true,
+    "why": "新要求直接影响卖家自配送订单的客户体验和转化率，卖家需调整处理时间设置以符合标准。",
+    "impact": "影响所有使用亚马逊卖家自配送（FBM）的卖家，尤其是处理时间设置较长的卖家。",
+    "action": "检查账户级别和SKU级别的处理时间设置，确保符合新要求，并考虑优化仓储和发货流程以缩短处理时间。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储",
+      "卖家自配送",
+      "配送时效"
+    ],
+    "eventId": "evt-fc95abd43a81"
+  },
+  {
     "id": "was-q-120308",
     "date": "2026-05-28",
     "time": "00:00",
@@ -576,6 +600,27 @@
       "亚马逊"
     ],
     "eventId": "evt-62b28337cea5"
+  },
+  {
+    "id": "was-q-119598",
+    "date": "2026-05-13",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/119598",
+    "sourceType": "community",
+    "score": 55,
+    "category": "policy",
+    "title": "五年合规老店零刷单，误踩多功能产品隐藏功能被判 “受限品恶意规避” 封店，4 条稳定盈利链接，求助怎么安全小号跟卖自己",
+    "summary": "五年合规老店零刷单，误踩多功能产品隐藏功能被判 “受限品恶意规避” 封店，4 条稳定盈利链接，求助怎么安全小号跟卖自己 - 主号违规情况：大号被判 “恶意规避受限品政策”，已于26年5月1日封店。（疏忽未发现多功能产品有一个隐藏功能，属于受限品，现在还在申诉） 现在想小号跟卖救店铺内的其他合规链接，有4条稳定盈利链接，sku比较多。 listing 1：最重要，货值高出单多，...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-74858407aa78"
   },
   {
     "id": "was-q-119553",
