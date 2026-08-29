@@ -2,6 +2,25 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "188584",
+    "date": "2026-08-29",
+    "time": "17:30",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/188584",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "2026半年报：乐歌净利下滑84.43%，傲基利润缩水至0.41亿",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-38d57dc56e67"
+  },
+  {
     "id": "mjzj-fwibf07ee60w",
     "date": "2026-08-29",
     "time": "14:02",
@@ -21,6 +40,25 @@ window.NEWS_DATA = [
       "亚马逊"
     ],
     "eventId": "evt-2ec3e4d8d97d"
+  },
+  {
+    "id": "was-q-123955",
+    "date": "2026-08-29",
+    "time": "11:02",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123955",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "被批量差评攻击的处理方法：下面的方法只是个人经验分享，不保证一定能删除差评，建议多个办法同时进行。",
+    "summary": "被批量差评攻击的处理方法：下面的方法只是个人经验分享，不保证一定能删除差评，建议多个办法同时进行。 - 如题，一款产品上个月刚被批量差评攻击，这个月又来了。 连续两个月处理这种事情，也算是积累了一些经验，发在论坛里权当记录。 免责提醒：下面的方法只是个人经验分享，不保证一定能删除差评，建议多个办法同时进行。 1. 用买家号在前台举报 每条评论下面都有...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-46a757edf1e6"
   },
   {
     "id": "188583",
@@ -59,6 +97,113 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-e81983bdb21b"
+  },
+  {
+    "id": "amz-3rs6gYU3",
+    "date": "2026-08-29",
+    "time": "09:36",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/3rs6gYU3",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "千万元货物疑遭物流商倒卖，俄区速卖通卖家诉诸司法追偿",
+    "summary": "AMZ123获悉，俄区速卖通电子产品卖家老Y长期深耕俄罗斯市场，今年3月将累计价值超千万元人民币的笔记本电脑等货物委托物流商壬*办理正规入仓贴标手续。由于壬*仓库级别偏低，货物长期积压于二级仓，随后老Y被告知货物遭\"海关查扣、属不可抗力\"，且不予任何赔偿，仅收到一张无公章的手写字条。老Y随即在俄罗斯二手平台Avito上发现同款笔记本电脑整箱在售，货箱侧面标签露出的角与其在壬*系统内的商家代码完全吻合。与此同时，壬*无法提供查扣现场视频（称监控已被拆除、电脑遭查抄），相关材料既无清单也无授权，货物流向亦绕过司法拍卖直接流入私售渠道。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "速卖通",
+      "物流仓储"
+    ],
+    "eventId": "evt-dbcec1b5973c"
+  },
+  {
+    "id": "amz-7Qvjp4Ar",
+    "date": "2026-08-29",
+    "time": "09:36",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/7Qvjp4Ar",
+    "sourceType": "media",
+    "score": 81,
+    "category": "policy",
+    "title": "Shopee巴西站联盟达人佣金开票新规正式落地",
+    "summary": "AMZ123获悉，Shopee巴西站8月过渡期结束后，联盟达人佣金开票新规正式执行。新规要求所有具备企业资质的带货达人，针对每笔佣金向对应卖家开具以CNPJ为抬头的电子服务发票NFS-e，替代此前的收入证明文件。此举直接回应巴西消费税务改革CBS与IBS法案的相关要求，平台须完整留存交易票据链条，若票据缺失，平台与卖家将共同承担税务连带责任。新规不影响佣金结算节奏，付款无需等待发票开具，但财务票据义务已强制生效。由于达人须针对不同卖家分别开票，卖家每月收到的碎片化电子发票数量大幅增加，财务处理工作量随之显著上升。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee",
+      "政策合规"
+    ],
+    "eventId": "evt-e2f333c50e95"
+  },
+  {
+    "id": "amz-lqPq9t7e",
+    "date": "2026-08-29",
+    "time": "09:36",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/lqPq9t7e",
+    "sourceType": "media",
+    "score": 65,
+    "category": "marketing",
+    "title": "SmartScout：入驻TikTok Shop的亚马逊品牌营收增速高出同类5.2倍",
+    "summary": "AMZ123获悉，SmartScout针对1万家美国亚马逊头部品牌的匹配分析显示，已布局TikTok Shop的亚马逊品牌，其亚马逊站点营收同比增速约为22%，是未开设TikTok Shop店铺品牌的5.2倍。当品牌在TikTok Shop月营收突破45万美元后，其亚马逊业务增速进一步接近30%，而未入局TikTok的亚马逊品牌同比增幅基本维持在个位数中段。报告认为，TikTok在这一链路中承担\"种草+引流\"的双重角色——消费者通过达人短视频完成首次商品认知后，往往带着较强的购买意图回流至亚马逊搜索同款，并借助Prime配送、评价体系及平台信任度完成最终转化。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "TikTok Shop",
+      "广告营销"
+    ],
+    "eventId": "evt-53c452ac57d9"
+  },
+  {
+    "id": "amz-XjjCrndx",
+    "date": "2026-08-29",
+    "time": "09:36",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/XjjCrndx",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "百思买2027财年Q2总营收97.79亿美元，同比增长4.1%",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-b6ce14017d44"
+  },
+  {
+    "id": "amz-2W27muks",
+    "date": "2026-08-29",
+    "time": "09:25",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/2W27muks",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "2026年前7月深圳18家货代企业集中暴雷",
+    "summary": "AMZ123获悉，截至2026年7月，深圳已有18家货代企业集中出现资金断裂、跑路等问题，涉及业务范围覆盖拖车、海运订舱、东南亚/美加/中东双清包税、买单报关等多个细分赛道，单笔涉及金额从数十万元到上百万元不等，数百名跨境卖家因此遭遇货柜被扣、高额赎货费等困境。其中仅7月美伽跨境供应链一案，因资金链断裂导致91条货柜滞留，拖欠运费逾300万元。复盘1至7月的典型案例，暴雷逻辑呈现高度规律性：报价低于市价30%以上甚至腰斩的货代，多以新客户预付款填补旧资金缺口，形成庞氏式资金周转；或以低价海运替换客户议定的卡航、铁路渠道从中套利，资金出现问题后以扣押货物要挟卖家补缴赎货费用。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-8a449b6bf162"
   },
   {
     "id": "was-q-123946",
@@ -283,6 +428,211 @@ window.NEWS_DATA = [
     "eventId": "evt-cca4cf2cba13"
   },
   {
+    "id": "amz-oBSZpTw7",
+    "date": "2026-08-29",
+    "time": "03:43",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/oBSZpTw7",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "俄罗斯数字卢布9月1日正式上线，iPhone用户暂无法使用",
+    "summary": "AMZ123获悉，俄罗斯将于9月1日正式推出数字卢布，作为国家法定货币的第三种形式。符合条件的消费者可通过俄罗斯央行认定的21家重要银行开通数字卢布钱包。然而，iPhone用户目前暂时无法使用这一新型支付工具，原因在于相关银行应用无法在App Store完成支持数字卢布功能的更新。据悉，数字卢布应用需集成符合俄罗斯监管要求的认证加密保护工具。目前，Android设备及网页端已具备相应技术条件，但iOS平台尚缺乏能够满足要求的认证加密方案。与此同时，苹果对涉及俄罗斯金融系统及相关安全证书的银行应用更新存在限制。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-54b134f598f0"
+  },
+  {
+    "id": "amz-T5IcQnGD",
+    "date": "2026-08-29",
+    "time": "03:43",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/T5IcQnGD",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "Ozon升级数字商品审核标准，平台可疑软件商品数量降至最低",
+    "summary": "AMZ123获悉，俄罗斯电商平台Ozon联合APKIT、俄罗斯软件协会、RUSSOFT及NP PPP四家行业组织，完成了对数字商品违规卖家识别体系的进一步优化。本次重点完善了软件商品详情页的评估标准，并加强对相关商品的持续监控，目前平台上的可疑数字商品数量已降至最低水平。Ozon与IT行业协会建立了长效合作机制，协会专家定期参与操作系统、办公软件等商品审核规则的更新，协助平台算法更准确地识别潜在问题商品，同时尽量减少对合规卖家正常经营的影响。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-16a10684944e"
+  },
+  {
+    "id": "amz-WKeJqp3H",
+    "date": "2026-08-29",
+    "time": "03:43",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/WKeJqp3H",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "Telegram仍是俄罗斯广告主首选平台，73%计划2027年持续投放",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-6ef638b60063"
+  },
+  {
+    "id": "amz-8aWWiIoV",
+    "date": "2026-08-29",
+    "time": "03:33",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/8aWWiIoV",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "Temu调查：34%欧洲中小企业卖家入驻后拓展了新海外市场",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Temu"
+    ],
+    "eventId": "evt-ab3b07187f4e"
+  },
+  {
+    "id": "amz-KDqj7of3",
+    "date": "2026-08-29",
+    "time": "03:33",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/KDqj7of3",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "俄罗斯开学季消费升温，校服与鞋履为主要支出项目",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-bec63a8ce6ba"
+  },
+  {
+    "id": "amz-q5W2pQjO",
+    "date": "2026-08-29",
+    "time": "03:23",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/q5W2pQjO",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "Temu加大欧洲本土卖家扶持力度，半数商家实现规模扩张",
+    "summary": "AMZ123获悉，Temu近期对德国、法国、西班牙、意大利、波兰和英国共150余家本地商家开展调查，结果显示，50%的受访商家在入驻Temu后扩大了产能、增加了员工或两者兼而有之，另有三分之一的商家借此拓展了新的海外市场。调查数据显示，约四分之三的商家将Temu定位为重要的新增销售渠道甚至核心销售渠道；其中超过65%的商家认为平台提供的人工服务是显著优势，38%的商家认可卖家后台操作便捷，35%的商家则对平台的成本结构表示认可。部分商家的业务增长尤为突出。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Temu"
+    ],
+    "eventId": "evt-d6dcccd35d6c"
+  },
+  {
+    "id": "amz-ZuDmyeA9",
+    "date": "2026-08-29",
+    "time": "03:23",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/ZuDmyeA9",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "德国9月消费气候指数升至-26.6点，信心改善尚未带动消费意愿",
+    "summary": "AMZ123获悉，德国消费者信心出现改善迹象，9月消费气候指数预计环比上升2.8点至-26.6点，主要受收入预期明显好转及经济前景持续回暖驱动。其中，收入预期指数大幅上涨16.2点至1.7点，达到2026年2月以来的最高水平；与此同时，消费者对整体经济的预期连续第四个月改善，相关指数上升2.4点至-3.9点。然而，信心回升尚未有效转化为消费动力。消费者购买意愿指数仍停留在-9.8点，近四年来基本徘徊于-10点附近，储蓄倾向依然维持较高水平。数据表明，消费者虽对未来收入及经济走势持较为乐观的态度，但在大额消费方面仍较为谨慎。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-0aefa330bf20"
+  },
+  {
+    "id": "amz-B9mFwgoO",
+    "date": "2026-08-29",
+    "time": "03:23",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/B9mFwgoO",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "亚马逊9月再推\"退货特卖\"，逾4000万件商品最高降价50%",
+    "summary": "AMZ123获悉，亚马逊将于9月1日至10日再度举办\"Second Chance Deal Days\"活动，集中销售退货、二手及翻新商品。本次活动参与商品超过4000万件，部分商品价格最高可比同类新品建议零售价低50%，涵盖智能手机、电脑、游戏产品、厨房用品及家居维修用品等多个品类。值得关注的是，此次活动首次引入二手奢侈品合作伙伴Luxclusif，提供二手设计师包袋及配饰。此次促销并非单纯的退货库存清理，而是亚马逊持续扩大欧洲再商务（Recommerce）业务的组成部分。公司数据显示，其欧洲二手业务2025年销售额首次突破20亿欧元。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "选品"
+    ],
+    "eventId": "evt-ac5ec2186f23"
+  },
+  {
+    "id": "amz-kFtKScxa",
+    "date": "2026-08-29",
+    "time": "03:12",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/kFtKScxa",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "德国二季度大型企业破产105起，同比增长近12%",
+    "summary": "AMZ123获悉，德国大型企业破产压力依然未见明显缓解。2026年第二季度，共有105家营收超过1000万欧元的企业申请破产，较去年同期的94起增长近12%，亦较过去五年均值75起高出40%。尽管该数字与第一季度的104起基本持平，但破产重心正逐步向规模更大的企业转移——营收超过1亿欧元的企业破产案件由去年同期的7起增至12起，而营收介于1000万至1900万欧元的企业仍占最大比例，共计50起。相关报告指出，当前德国经济的市场预期已有所改善，但实际经济表现与企业信心之间仍存在明显落差，破产数据尚未反映出真正意义上的稳定复苏。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-49c7f372a08b"
+  },
+  {
+    "id": "amz-ts7tfJmU",
+    "date": "2026-08-29",
+    "time": "03:12",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/ts7tfJmU",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "德国消费者9月\"新年计划\"消费提前，计划类商品搜索量增长90%",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-abdd13af53f6"
+  },
+  {
     "id": "amz-3444pKRr",
     "date": "2026-08-29",
     "time": "01:41",
@@ -408,6 +758,27 @@ window.NEWS_DATA = [
       "选品"
     ],
     "eventId": "evt-9f81a2ce0b00"
+  },
+  {
+    "id": "amazon-forum-264206ca-5f0f-4e5a-9dce-72fa95b1ca30",
+    "date": "2026-08-29",
+    "time": "01:02",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/264206ca-5f0f-4e5a-9dce-72fa95b1ca30",
+    "sourceType": "official",
+    "score": 66,
+    "category": "platform",
+    "title": "Save 35% on fulfillment for TikTok Shop orders",
+    "summary": "TikTok Shop is one of the fastest-growing sales channels, but managing fulfillment alongside your other channels can add complexity and costs. Starting July 16, 2026, Multichannel Fulfillment (MCF) is offering 35% off Standard and Expedited fulfillment rates for TikTok Shop orders in the US for 12 months. The promotion applies automatically to all eligible orders submitted through a supported integration partner. Why use MCF for TikTok Shop? One inventory pool: Use a single supply chain for Amaz",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-7e017ed4a1f0"
   },
   {
     "id": "lsch-ee39e440",
@@ -50309,7 +50680,7 @@ window.NEWS_DATA = [
       "市场增长"
     ],
     "ref": "https://www.amz123.com/t/GIvBKgTZ",
-    "eventId": "evt-ee065a669d22"
+    "eventId": "evt-2f2f709f1d00"
   },
   {
     "id": "mjzj-ftqd7vhk3zsw",
@@ -50787,7 +51158,7 @@ window.NEWS_DATA = [
       "标题新规",
       "政策合规"
     ],
-    "eventId": "evt-4e2ce8d6cc17"
+    "eventId": "evt-8ff5e86d5fdf"
   },
   {
     "id": "amz-EICXTMY0",
@@ -50811,7 +51182,7 @@ window.NEWS_DATA = [
       "直播",
       "增长"
     ],
-    "eventId": "evt-d80c10ced7de"
+    "eventId": "evt-2f2f709f1d00"
   },
   {
     "id": "mjzj-ftq41t0k6ark",
