@@ -1,16 +1,16 @@
 // 数据管线状态。由 scripts/fetch_news.py 每次运行后更新。
 window.NEWS_META = {
-  "generatedAt": "2026-08-28T16:38:51+00:00",
-  "lastSuccessfulFetchAt": "2026-08-28T16:38:51+00:00",
-  "latestItemAt": "2026-08-28T19:43:00+08:00",
+  "generatedAt": "2026-08-29T07:54:05+00:00",
+  "lastSuccessfulFetchAt": "2026-08-29T07:54:05+00:00",
+  "latestItemAt": "2026-08-29T14:02:00+08:00",
   "status": "ok",
-  "durationSeconds": 191.0,
+  "durationSeconds": 261.9,
   "sourceResults": [
     {
       "name": "雨果跨境",
       "status": "ok",
       "discovered": 29,
-      "added": 1
+      "added": 2
     },
     {
       "name": "36氪出海",
@@ -22,13 +22,13 @@ window.NEWS_META = {
       "name": "卖家之家",
       "status": "ok",
       "discovered": 80,
-      "added": 13
+      "added": 1
     },
     {
       "name": "AMZ123",
       "status": "ok",
-      "discovered": 16,
-      "added": 15
+      "discovered": 17,
+      "added": 13
     },
     {
       "name": "Amazon卖家论坛",
@@ -39,8 +39,8 @@ window.NEWS_META = {
     {
       "name": "知无不言",
       "status": "ok",
-      "discovered": 71,
-      "added": 0
+      "discovered": 77,
+      "added": 7
     }
   ]
 };
