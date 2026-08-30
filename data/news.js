@@ -2,6 +2,44 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "188588",
+    "date": "2026-08-30",
+    "time": "17:31",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/188588",
+    "sourceType": "media",
+    "score": 59,
+    "category": "market",
+    "title": "旺季前大清洗！一批卖家已经中招了",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-25219be0dfdf"
+  },
+  {
+    "id": "188589",
+    "date": "2026-08-30",
+    "time": "16:11",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/188589",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "安克创新2026半年报：利润超17亿，充电类营收依然占大头",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-70bf793802ca"
+  },
+  {
     "id": "188587",
     "date": "2026-08-30",
     "time": "13:11",
@@ -83,6 +121,46 @@ window.NEWS_DATA = [
       "广告营销"
     ],
     "eventId": "evt-fc5c5349413b"
+  },
+  {
+    "id": "was-q-123965",
+    "date": "2026-08-30",
+    "time": "09:54",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123965",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "请教各位大卖，高客单新品推广和vine的问题?",
+    "summary": "请教各位大卖，高客单新品推广和vine的问题? - 1. 200 美金客单价，正常计划售卖有 6～10 个变体，计划只做 75 美金的 Vine。假设是同一规格、同一颜色的产品： 方式一：我建立这个产品两个链接，一个做非常低价格的 Vine，目的是快速被客户领取返评。返评后停售这个链接，合并到第二个正常价...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-7c3ebb6421e8"
+  },
+  {
+    "id": "was-q-123964",
+    "date": "2026-08-30",
+    "time": "09:54",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/123964",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "评论一下子被撸光了，从195个两天内撸到只剩下37个，而且差不多一个月了评论来多少删多少",
+    "summary": "评论一下子被撸光了，从195个两天内撸到只剩下37个，而且差不多一个月了评论来多少删多少 - 上个月我一个表现还不错的产品被撸评论了，从195个4.2分撸到37个 ，评分只有3.5分。单量自然是跟着下滑只有正常的30%，一个多月了还没有恢复，然后这期间来的买家真实评论，上多少系统就删掉多少,好评差评都删，这种情况下会持续多久，后面还能继续人工上评...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-267243942b4a"
   },
   {
     "id": "was-q-123962",
