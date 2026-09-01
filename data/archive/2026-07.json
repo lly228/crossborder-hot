@@ -15301,6 +15301,28 @@
     "eventId": "evt-37c5cbc887c2"
   },
   {
+    "id": "was-q-122482",
+    "date": "2026-07-22",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122482",
+    "sourceType": "community",
+    "score": 47,
+    "category": "policy",
+    "title": "救救孩子！制造商标签B0标翻新，操作到生成新asin+老sku链接，链接显示有库存但是缺货，case无法映射！",
+    "summary": "救救孩子！制造商标签B0标翻新，操作到生成新asin+老sku链接，链接显示有库存但是缺货，case无法映射！ - 翻新步骤： 1. 生成新ASIN+新SKU 2. 用旧SKU跟卖新ASIN，选择FBM，自动生成了FBA链接（新ASIN+老SKU+老FNSKU）,库存也自动显示在这条链接上。链接显示有库存但是缺货。 3. 开case操作映射得到的回复一直是: 由于源AS...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "知识产权"
+    ],
+    "eventId": "evt-70bd62886f28"
+  },
+  {
     "id": "187671",
     "date": "2026-07-21",
     "time": "19:11",

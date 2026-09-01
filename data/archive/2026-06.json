@@ -1638,6 +1638,29 @@
     "eventId": "evt-32980e7e9bc2"
   },
   {
+    "id": "amazon-forum-77899d4e-9cb5-439e-a9d4-2796dbaf0766",
+    "date": "2026-06-02",
+    "time": "22:03",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/77899d4e-9cb5-439e-a9d4-2796dbaf0766",
+    "sourceType": "official",
+    "score": 65,
+    "category": "platform",
+    "title": "新版卖家中心体验已上线",
+    "summary": "亚马逊重新设计了卖家中心，将工具、指标和任务整合到“我的业务”、“产品”、“供应链”等专属工作区，提升效率。",
+    "selected": true,
+    "why": "平台界面重大更新，卖家需要尽快熟悉新布局以保持运营效率。",
+    "impact": "所有亚马逊卖家都将逐步使用新版卖家中心。",
+    "action": "登录卖家中心查看新版界面，了解新工作区的功能分布。",
+    "deadline": "",
+    "tags": [
+      "卖家中心",
+      "界面更新",
+      "亚马逊"
+    ],
+    "eventId": "evt-bb19549b17a5"
+  },
+  {
     "id": "lsch-a1e2f2c7",
     "date": "2026-06-02",
     "time": "17:18",
