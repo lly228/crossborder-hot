@@ -441,6 +441,28 @@
     "eventId": "evt-8b436aceee10"
   },
   {
+    "id": "was-q-118707",
+    "date": "2026-04-21",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/118707",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "亚马逊广告优化：从“烧钱不出单”到“精准放大好流量”",
+    "summary": "亚马逊广告优化：从“烧钱不出单”到“精准放大好流量” - 每天$200广告费，ACOS 50%，就是不出单……曝光很多，点击很少，问题到底出在哪？ 别急，你不是一个人。 这些问题，几乎每个亚马逊卖家都遇到过。 更扎心的是——很多人一上来就调竞价、改匹配方式、开新广告活动……结果越调越差，钱越花越多。 在谈论优化...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-68369b53e3cc"
+  },
+  {
     "id": "lsch-a3f0065e",
     "date": "2026-04-18",
     "time": "14:28",
@@ -817,6 +839,27 @@
     "eventId": "evt-050501ea1b1b"
   },
   {
+    "id": "was-q-118105",
+    "date": "2026-04-07",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/118105",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "深刻理解 Vine 的推送逻辑，才能明白竞对新品爆单的节奏",
+    "summary": "深刻理解 Vine 的推送逻辑，才能明白竞对新品爆单的节奏 - 引言： 今天我们来讲下关于Vine的逻辑问题，这个其实很多运营做了很久的vine都不知道它是怎么一套运行方式，今天我们来讲开这个问题。刚好也是有个朋友问到，就写成文章供大家讨论。 做亚马逊的人基本都遇到过一个“神奇的现象”： 同样是新品， 同样开了V...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-05b0451ceed7"
+  },
+  {
     "id": "was-q-118092",
     "date": "2026-04-06",
     "time": "00:00",
@@ -919,5 +962,26 @@
     "deadline": "",
     "tags": [],
     "eventId": "evt-7dd1d34e9967"
+  },
+  {
+    "id": "was-q-117951",
+    "date": "2026-04-02",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/117951",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "求助：小白进了一家黑帽打法的公司，要不要跳槽去找白帽公司",
+    "summary": "求助：小白进了一家黑帽打法的公司，要不要跳槽去找白帽公司 - 2025年毕业，最开始进入了一家白帽服装类目的公司，广告也学了些，业绩做到了八万美金，利润率10%左右，过完年之后跳进了一家黑帽打法的公司（进去之后才知道）。但也不算是完全黑帽，介于黑帽与白帽之间吧，基本就是刷单，种子链接这种，广告基本不跑。而且...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-db01fbf52c8f"
   }
 ]

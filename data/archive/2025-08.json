@@ -140,5 +140,27 @@
       "政策合规"
     ],
     "eventId": "evt-db87e3516449"
+  },
+  {
+    "id": "was-q-108541",
+    "date": "2025-08-09",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/108541",
+    "sourceType": "community",
+    "score": 53,
+    "category": "policy",
+    "title": "求助贴！如何生成有效的带pdf后缀的说明书文档链接，上传至亚马逊不报错？",
+    "summary": "求助贴！如何生成有效的带pdf后缀的说明书文档链接，上传至亚马逊不报错？ - 家人们，我之前在亚马逊英国站试着上传了Google Drive/Dropbox的直接下载链接 ，但是被拒了，导致监管合规性那里一直存在绩效，而且你点“提交信息”，里面的按钮都是灰色的，无法选择文件类型/语言，因此无法手动上传PDF文件去保存（如下图所示）。...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规"
+    ],
+    "eventId": "evt-588b3b8eba0a"
   }
 ]

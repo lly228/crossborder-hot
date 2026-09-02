@@ -146,6 +146,27 @@
     "eventId": "evt-3edff9deeb5b"
   },
   {
+    "id": "was-q-112452",
+    "date": "2025-11-18",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/112452",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "收到一封来自fba-noreply@amazon.lu的邮件：由于安全召回，您的以下产品列表被删除。请为以下列出的ASIN创建移除请求，以便将您的库存发送到您选择的位置。如果该库存未在此通知后30天内(2025年11月12日之前)移除",
+    "summary": "收到一封来自fba-noreply@amazon.lu的邮件：由于安全召回，您的以下产品列表被删除。请为以下列出的ASIN创建移除请求，以便将您的库存发送到您选择的位置。如果该库存未在此通知后30天内(2025年11月12日之前)移除 - 收到亚马逊amazon.lu这个后缀发来的邮件，没有绩效。 然后我查看了德国站点的链接，都是正常在售的，有没有卖家有同样的情况，像这种邮件要不要处理呢？ 感觉很诡异，又担心不处理会出问题。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-9f1e94e62ded"
+  },
+  {
     "id": "was-q-112295",
     "date": "2025-11-13",
     "time": "00:00",
