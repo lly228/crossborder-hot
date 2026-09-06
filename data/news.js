@@ -49820,7 +49820,7 @@ window.NEWS_DATA = [
       "亚马逊美国",
       "季节性"
     ],
-    "eventId": "evt-cb01fe7ade8b"
+    "eventId": "evt-0f440360d171"
   },
   {
     "id": "188043",
@@ -49844,7 +49844,7 @@ window.NEWS_DATA = [
       "服饰品类",
       "教程"
     ],
-    "eventId": "evt-cb01fe7ade8b"
+    "eventId": "evt-0f440360d171"
   },
   {
     "id": "lsch-70b75298",
@@ -51217,7 +51217,7 @@ window.NEWS_DATA = [
       "美国市场"
     ],
     "ref": "https://www.pai.com.cn/p/01kzd1bzfjxcb3gkyyf2zw10bh",
-    "eventId": "evt-b021bbfd2454"
+    "eventId": "evt-72a875fd1e93"
   },
   {
     "id": "mjzj-fuftwnp8olq8",
@@ -51318,7 +51318,7 @@ window.NEWS_DATA = [
       "亚马逊FBA",
       "物流合规"
     ],
-    "eventId": "evt-3d5ca43f6501"
+    "eventId": "evt-73480a73ab8c"
   },
   {
     "id": "mjzj-fufr32dh8kqo",
@@ -51574,7 +51574,7 @@ window.NEWS_DATA = [
       "Etsy",
       "市场行情"
     ],
-    "eventId": "evt-cc5e18fd0435"
+    "eventId": "evt-281d34697d0b"
   },
   {
     "id": "mjzj-fuf6tzwdrxmo",
