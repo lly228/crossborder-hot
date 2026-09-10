@@ -524,6 +524,27 @@
     "eventId": "evt-5640402e0df2"
   },
   {
+    "id": "was-q-121426",
+    "date": "2026-06-24",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121426",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "你真的会写listing吗？你的产品很好，但关买家什么事？如果你现在手上正好有一个产品要写，可以试试试试这个流程：忘掉你所有的专业知识，像一个完全不懂的消费者一样......",
+    "summary": "你真的会写listing吗？你的产品很好，但关买家什么事？如果你现在手上正好有一个产品要写，可以试试试试这个流程：忘掉你所有的专业知识，像一个完全不懂的消费者一样...... - 我最近发现一个问题 产品卖不动，至少90%不是产品问题，是表达问题。 你去看亚马逊上那些卖得好的Listing，和卖不动的Listing，产品本身可能差不了太多。 抛开早期先发优势的链接，如果都是近两年上架且白帽类目，大多数会出现一个让人看完就想下单，另...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-e2d5a0088b41"
+  },
+  {
     "id": "lsch-712538c0",
     "date": "2026-06-23",
     "time": "00:21",
@@ -841,6 +862,25 @@
     "eventId": "evt-3f7a31ac0576"
   },
   {
+    "id": "was-q-121107",
+    "date": "2026-06-16",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121107",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "求助：变体间评论不共享，开case客服说系统判断核心商品不同，尺寸命名包含变体",
+    "summary": "求助：变体间评论不共享，开case客服说系统判断核心商品不同，尺寸命名包含变体 - 原因是上传新变体链接后，原链接的评论就不共享了，新变体链接的尺寸名称用with包含了一些功能的卖点描述，和原本的变体相差有点大。删除新变体链接后也没有恢复。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-fc3664ae5db3"
+  },
+  {
     "id": "was-q-121072",
     "date": "2026-06-15",
     "time": "00:00",
@@ -1061,6 +1101,30 @@
       "亚马逊"
     ],
     "eventId": "evt-e0fd799faac0"
+  },
+  {
+    "id": "amazon-forum-145b6d0f-999c-4555-896c-c694bda2e470",
+    "date": "2026-06-11",
+    "time": "02:31",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/145b6d0f-999c-4555-896c-c694bda2e470",
+    "sourceType": "official",
+    "score": 85,
+    "category": "policy",
+    "title": "亚马逊产品标题更新：7月27日起限制75个字符",
+    "summary": "亚马逊宣布自2026年7月27日起，除媒体类目外，所有产品标题需控制在75个字符以内（含空格），以优化移动端购物体验。",
+    "selected": true,
+    "why": "标题字符限制直接影响Listing的合规性和曝光，卖家需提前调整，避免违规导致流量下降。",
+    "impact": "影响所有亚马逊卖家（除媒体类目），需重新优化标题，尤其是长标题产品。",
+    "action": "立即检查现有标题长度，对超过75字符的标题进行精简，确保核心关键词和卖点突出。",
+    "deadline": "2026-07-27",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "产品标题",
+      "移动端"
+    ],
+    "eventId": "evt-2dfc085f2781"
   },
   {
     "id": "was-q-120904",

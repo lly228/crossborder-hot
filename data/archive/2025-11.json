@@ -386,6 +386,28 @@
     "eventId": "evt-1679fc24e47d"
   },
   {
+    "id": "was-q-111951",
+    "date": "2025-11-06",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/111951",
+    "sourceType": "community",
+    "score": 61,
+    "category": "policy",
+    "title": "亚马逊平台净收入额与税务数据验证方法，求有税管数据的可以一起验证下亚马逊报送数据",
+    "summary": "亚马逊平台净收入额与税务数据验证方法，求有税管数据的可以一起验证下亚马逊报送数据 - 税管手上有两个数据，第一是平台申报净收入额，第二是按照公司规模转化后的应申报额，一般纳税人/1.13，小规模/1.01 我们这里验证第一个数据 下载789三个月每月单独的汇总报表，选取每个月income栏目中的subtotal credit金额-fba...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-9333a5bd61a3"
+  },
+  {
     "id": "was-q-111921",
     "date": "2025-11-05",
     "time": "00:00",
