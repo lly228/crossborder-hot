@@ -40,6 +40,28 @@
     "eventId": "evt-340d962a32f2"
   },
   {
+    "id": "was-q-117889",
+    "date": "2026-03-31",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/117889",
+    "sourceType": "community",
+    "score": 53,
+    "category": "logistics",
+    "title": "简单记录每份工作给我带来的成长 之 第四份-空降做管理+亚马逊0-1-2026/03/31",
+    "summary": "简单记录每份工作给我带来的成长 之 第四份-空降做管理+亚马逊0-1-2026/03/31 - 接上文：https://www.wearesellers.com/question/115752 第一份工作：嘉兴-进出口关务专员-2020.6-2021.9 第二份工作：杭州-国际物流专员-2021.10-2022.2 第三份工作：杭州-亚马逊运营-2...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储"
+    ],
+    "eventId": "evt-abf2dddc59bc"
+  },
+  {
     "id": "was-q-117828",
     "date": "2026-03-30",
     "time": "00:00",
@@ -858,6 +880,28 @@
     "eventId": "evt-3eca45696559"
   },
   {
+    "id": "was-q-116957",
+    "date": "2026-03-11",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/116957",
+    "sourceType": "community",
+    "score": 55,
+    "category": "marketing",
+    "title": "新招运营接手利润稳定的老店铺，提成一般怎么算？目前市场综合薪金多少能留住合适的运营，我们底薪9k左右，希望招一个比较成熟的运营",
+    "summary": "新招运营接手利润稳定的老店铺，提成一般怎么算？目前市场综合薪金多少能留住合适的运营，我们底薪9k左右，希望招一个比较成熟的运营 - 最近准备招新运营，负责一些成品的链接，这些链接上个月的毛利在大概三、四万美金，链接比较成熟，发发货稍微调调广告就行。按我们现有的提成政策（累进制）大概提10000人民币，会再另外给一些新链接让新运营去推广，公司主要做私模精品产品比较好推。问题： 1.这个...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规",
+      "广告营销"
+    ],
+    "eventId": "evt-aeddc31cb2be"
+  },
+  {
     "id": "was-q-116917",
     "date": "2026-03-10",
     "time": "00:00",
@@ -1048,5 +1092,26 @@
       "广告营销"
     ],
     "eventId": "evt-e2a28993c48c"
+  },
+  {
+    "id": "was-q-116504",
+    "date": "2026-03-02",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/116504",
+    "sourceType": "community",
+    "score": 53,
+    "category": "logistics",
+    "title": "亚马逊FBA货件差异，UPS显示送达，亚马逊一个产品没有接收就关闭货件了，而且拒绝索赔，理由是没有收到预期的所有",
+    "summary": "亚马逊FBA货件差异，UPS显示送达，亚马逊一个产品没有接收就关闭货件了，而且拒绝索赔，理由是没有收到预期的所有 - 货件已送达，UPS 跟踪信息上的签收人是亚马逊。但后续一个产品都未被接收，全部丢失。提交资料后，索赔仍被拒绝，一直回复如下： 来自亚马逊卖家支持团队的问候： 根据您的要求，我们已完成对货件的核查。 我们拒绝您对以下商品的赔偿申请，原因是实际接收数量与您的...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-56a2e28af0e8"
   }
 ]
