@@ -23,6 +23,69 @@ window.NEWS_DATA = [
     "eventId": "evt-296b4f14ef1b"
   },
   {
+    "id": "was-q-124497",
+    "date": "2026-09-12",
+    "time": "08:37",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/124497",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "#超级话题# 上新重复创建以及翻新过后的链接不修改 会导致抓取到封链接或者严重会导致店铺",
+    "summary": "#超级话题# 上新重复创建以及翻新过后的链接不修改 会导致抓取到封链接或者严重会导致店铺 - 从大佬那里得知的 ⚠️最近亚马逊批量扫重复创建，卖家们注意排查以下几点情况: 1.翻新或者映射之后是否没有及时删除相同老链接 2.变体之间属性图片详情是否完全相同 3.种子链接与主链接相同详情没有区分 4是 修改老链接详情属性图片发其他新品货去卖 5是对手...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-e74a0a980f83"
+  },
+  {
+    "id": "was-q-124500",
+    "date": "2026-09-12",
+    "time": "08:37",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/124500",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "日本站，从注册完店铺，后台一直登录不上，始终提示未授权。期间收到了亚马逊邮箱，提示店铺已经激活，并扣除了月租",
+    "summary": "日本站，从注册完店铺，后台一直登录不上，始终提示未授权。期间收到了亚马逊邮箱，提示店铺已经激活，并扣除了月租 - 从注册完店铺，后台一直登录不上，始终提示未授权，期间收到了亚马逊邮箱，提示店铺已经激活，并扣除了月租。百思不得其解",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-5a03388703d8"
+  },
+  {
+    "id": "was-q-124494",
+    "date": "2026-09-12",
+    "time": "08:37",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/124494",
+    "sourceType": "community",
+    "score": 51,
+    "category": "marketing",
+    "title": "魔法对轰|GPT6 Astar VS Alexa 手搓listing&关键词&QA优化Skill",
+    "summary": "魔法对轰|GPT6 Astar VS Alexa 手搓listing&关键词&QA优化Skill - 自从Alexa上线以来，老生常谈的打关键词、优化listing、自然单的逻辑都发生了翻天覆地的变化 全网每天除了发教程就是发分析，我每天发货选品就已经很烦了，还要再上课学习千篇一律的分析，我确实是扛不住。 但是Alexa的推荐确实让自然单减少了很多很多，尤...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品"
+    ],
+    "eventId": "evt-3b104d7e0f58"
+  },
+  {
     "id": "was-q-124451",
     "date": "2026-09-12",
     "time": "05:42",
@@ -2514,6 +2577,27 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-203d7f9943b9"
+  },
+  {
+    "id": "188805",
+    "date": "2026-09-10",
+    "time": "20:52",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/188805",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "顾客不退货了？亚马逊用一颗螺丝，把差评变成复购",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-9f0e38166c99"
   },
   {
     "id": "mjzj-fxtx7saw9yps",
@@ -52165,7 +52249,7 @@ window.NEWS_DATA = [
       "东南亚"
     ],
     "ref": "https://www.pai.com.cn/p/01kzt11e1nb4sjffgdsbtcgra1",
-    "eventId": "evt-4d7155c56f66"
+    "eventId": "evt-b6c451379073"
   },
   {
     "id": "mjzj-fv15tvxe70g1",
