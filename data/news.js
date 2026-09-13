@@ -2,6 +2,27 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "lsch-0524249b",
+    "date": "2026-09-13",
+    "time": "15:42",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/0524249b",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "中国公司全球化周报｜2026北京国际投资贸易洽谈会报名通道已开启 / Shopee与Netflix在东南亚达成合作",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee"
+    ],
+    "eventId": "evt-c602f7608a5d"
+  },
+  {
     "id": "was-q-116876",
     "date": "2026-09-13",
     "time": "06:03",
@@ -49593,7 +49614,7 @@ window.NEWS_DATA = [
       "DeepSeek",
       "成本上涨"
     ],
-    "eventId": "evt-a40dc40b2c5c"
+    "eventId": "evt-cd540364d726"
   },
   {
     "id": "188246",
