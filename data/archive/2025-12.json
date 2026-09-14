@@ -201,6 +201,25 @@
     "eventId": "evt-c82a0b6e4bdd"
   },
   {
+    "id": "was-q-114036",
+    "date": "2025-12-22",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/114036",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "Listing 遭遇跨类目属性“脏数据”锁死，GL 已更但前台属性刷不过来，求深度刷新技术",
+    "summary": "Listing 遭遇跨类目属性“脏数据”锁死，GL 已更但前台属性刷不过来，求深度刷新技术 - 我的老链接本来是做户外配件的（节点和关键词都是配件相关），但前段时间系统误判为汽车绑带。为了解决变体合并时的 8541 报错，我曾妥协使用 Cargo Strap (Automotive) 模板强行挂载变体。 现状与核心故障： 1. 节点已对，属性仍脏：...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-7adbfee1ce07"
+  },
+  {
     "id": "was-q-113880",
     "date": "2025-12-18",
     "time": "00:00",
