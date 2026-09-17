@@ -2089,6 +2089,27 @@
     "eventId": "evt-73bc87944e6e"
   },
   {
+    "id": "was-q-120497",
+    "date": "2026-06-02",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120497",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "Amazon Passkey 通行密钥设置问题：和二步验证有什么区别？设备绑定怎么做更稳？",
+    "summary": "Amazon Passkey 通行密钥设置问题：和二步验证有什么区别？设备绑定怎么做更稳？ - 各位大佬好，最近收到亚马逊邮件，提示后续要设置 Passkey / 通行密钥。 想请教两个问题： 1、这个 Passkey 是不是和原来的 二步验证短信/Authenticator 六位码 不是一回事？ 我理解 Passkey 更像是绑定设备，用手机指...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-85a995f0fce3"
+  },
+  {
     "id": "lsch-b53ff4d1",
     "date": "2026-06-01",
     "time": "10:11",
