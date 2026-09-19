@@ -162,5 +162,26 @@
       "政策合规"
     ],
     "eventId": "evt-588b3b8eba0a"
+  },
+  {
+    "id": "was-q-108507",
+    "date": "2025-08-08",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/108507",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "如何完成一次合理的“优化”——逻辑框架的搭建",
+    "summary": "如何完成一次合理的“优化”——逻辑框架的搭建 - 开篇提示： 本文可选择从后往前阅读（包含对上次部分问题的回复与整理） 在上一篇文章中，我写了什么是“有效优化”。那么，优化的这个过程应该是怎么样的才合理？在我看来，亚马逊优化如同解答数学题：先审题（分析数据）-> 找思路（诊断原因）-> 写步骤（执行方案...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-a599f7052b6f"
   }
 ]
