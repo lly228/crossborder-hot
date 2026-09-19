@@ -2,6 +2,25 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "188893",
+    "date": "2026-09-19",
+    "time": "15:35",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/188893",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "大牌都没赢！这个内衣品牌被AI推荐29次",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f6f137b0914d"
+  },
+  {
     "id": "mjzj-fyl7lrywcv0g",
     "date": "2026-09-19",
     "time": "10:27",
@@ -43,6 +62,46 @@ window.NEWS_DATA = [
       "Temu"
     ],
     "eventId": "evt-569205edddea"
+  },
+  {
+    "id": "was-q-124751",
+    "date": "2026-09-19",
+    "time": "08:46",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/124751",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "亚马逊崩了！3年亚马逊运营，请大佬看看是否还能继续做下去？",
+    "summary": "亚马逊崩了！3年亚马逊运营，请大佬看看是否还能继续做下去？ - Hello，大家好，最近遇到了一些问题，发出来看看大家的意见。 本人是 2022 年开始做亚马逊，期间换过 1 家公司，精品、精铺、白帽、黑帽基本都接触过。 做过的类目也比较杂： 户外、家居、宠物、3C。 不能说自己多厉害吧，起码运营是合格的。 今年...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-1da1e91f0427"
+  },
+  {
+    "id": "was-q-124749",
+    "date": "2026-09-19",
+    "time": "08:46",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/124749",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "offer选择，请各位大佬帮忙看一下这几个offer怎么抉择",
+    "summary": "offer选择，请各位大佬帮忙看一下这几个offer怎么抉择 - 1. 相框类目 精品 做木质相框 客单50美金 目标客群中高端 试用期10k，转正12k 按照毛利的3.5%提（绩效2k 试用期不算绩效 个人觉得客单高出市场太多，有点不靠谱，而且公司boss标的100-499，实际参保人20，在南京，深圳都有公司，杭州今...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-8f79c905bdeb"
   },
   {
     "id": "was-q-124746",
@@ -274,6 +333,25 @@ window.NEWS_DATA = [
       "TikTok Shop"
     ],
     "eventId": "evt-2dd40c11cb54"
+  },
+  {
+    "id": "188900",
+    "date": "2026-09-18",
+    "time": "17:03",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/188900",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "福建按摩椅出海，摆在了美国人的客厅",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-746b64c725ce"
   },
   {
     "id": "mjzj-fym0n6utr9xc",
@@ -48878,7 +48956,7 @@ window.NEWS_DATA = [
     "tags": [
       "亚马逊"
     ],
-    "eventId": "evt-cdb8fde0dd4b"
+    "eventId": "evt-a8003e2a7b7e"
   },
   {
     "id": "mjzj-fvpqhhwjbklc",
@@ -49688,7 +49766,7 @@ window.NEWS_DATA = [
     "tags": [
       "亚马逊"
     ],
-    "eventId": "evt-cdb8fde0dd4b"
+    "eventId": "evt-a8003e2a7b7e"
   },
   {
     "id": "amz-0HjexXZW",
