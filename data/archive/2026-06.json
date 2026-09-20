@@ -2160,5 +2160,26 @@
       "选品"
     ],
     "eventId": "evt-f7be70c39cab"
+  },
+  {
+    "id": "was-q-120456",
+    "date": "2026-06-01",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120456",
+    "sourceType": "community",
+    "score": 47,
+    "category": "logistics",
+    "title": "4月初发往美国FBA仓库HGR6的货，4月29日显示已送达，再也没动了，没有登记更没有接收......想问问各位前辈有没有遇到类似的事件，应该如何找到货件上架？",
+    "summary": "4月初发往美国FBA仓库HGR6的货，4月29日显示已送达，再也没动了，没有登记更没有接收......想问问各位前辈有没有遇到类似的事件，应该如何找到货件上架？ - 4月初发往美国FBA仓库HGR6的货，4月29日显示已送达，再也没动了，没有登记更没有接收，问了客服说是6月8日前无法调查，并且回复中说到“Please note that the shipment status is”",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-288af8e3144f"
   }
 ]
