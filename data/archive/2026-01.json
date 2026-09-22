@@ -260,6 +260,25 @@
     "eventId": "evt-7d600e1b854e"
   },
   {
+    "id": "was-q-115305",
+    "date": "2026-01-20",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/115305",
+    "sourceType": "community",
+    "score": 55,
+    "category": "market",
+    "title": "US美国新品ASIN被限评了，所有的最新评价更新出来一天，第二天评价就不见了，除了翻新还有别的方案吗？",
+    "summary": "US美国新品ASIN被限评了，所有的最新评价更新出来一天，第二天评价就不见了，除了翻新还有别的方案吗？ - 我们一条新品ASIN，现在这个ASIN一个评价都没有，每次评价更新一天，第二天就不见了，店铺绩效信里面也没有任何的绩效，店铺体检了，也没有任何的ASIN的相关违规记录，除了翻新之外，还有其他小伙伴有遇到相同情况，有其他的解决办法吗？还是只有一条翻新的路子...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-23fbf8a8c25c"
+  },
+  {
     "id": "was-q-115249",
     "date": "2026-01-19",
     "time": "00:00",
@@ -692,6 +711,27 @@
       "亚马逊"
     ],
     "eventId": "evt-acb2bb0e7658"
+  },
+  {
+    "id": "was-q-114840",
+    "date": "2026-01-09",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/114840",
+    "sourceType": "community",
+    "score": 61,
+    "category": "policy",
+    "title": "家人们，请问亚马逊Q4数据需要给财务报税了，是直接报税，亚马逊推送给税务局的数据还是在这个基础上扣除销售税？",
+    "summary": "家人们，请问亚马逊Q4数据需要给财务报税了，是直接报税，亚马逊推送给税务局的数据还是在这个基础上扣除销售税？ - 为啥马上20号到了，大家好像都不在意这个事？ 请问亚马逊Q4数据需要给财务报税了， 是直接报税，亚马逊推送给税务局的数据 还是在这个基础上扣除美国的销售税？ 如果扣掉销售税，那数据肯定比亚马逊推送给税务的数据少，如果不扣掉销售税，那销售税的发票哪里下载？税...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-ca117616e359"
   },
   {
     "id": "was-q-114810",
