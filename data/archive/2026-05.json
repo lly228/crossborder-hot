@@ -767,6 +767,27 @@
     "eventId": "evt-a19f3b836fb2"
   },
   {
+    "id": "was-q-119781",
+    "date": "2026-05-18",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/119781",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "如何把亚马逊原生运营逻辑，封装进可控的AI Agent，用AI真正提升精细化运营效率",
+    "summary": "如何把亚马逊原生运营逻辑，封装进可控的AI Agent，用AI真正提升精细化运营效率 - 今天分享主要分为三块： 第一，为什么通用大模型，根本做不了亚马逊精细化运营； 第二，目前行业用AI Agent落地运营的两大主流方向； 第三，分享我把运营逻辑封装成可控Agent Workflow的实战经验，以及落地效果。 一、AI Agent落地亚...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-50260aee56d7"
+  },
+  {
     "id": "lsch-fc54dea6",
     "date": "2026-05-15",
     "time": "20:23",
