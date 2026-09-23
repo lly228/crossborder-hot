@@ -146,6 +146,25 @@
     "eventId": "evt-10cdf27cf1af"
   },
   {
+    "id": "was-q-112555",
+    "date": "2025-11-20",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/112555",
+    "sourceType": "community",
+    "score": 55,
+    "category": "platform",
+    "title": "太难了 欧洲站不小心误点击“账户业务转移”导致账户停用 并且被KYC 具体要怎么操作啊",
+    "summary": "太难了 欧洲站不小心误点击“账户业务转移”导致账户停用 并且被KYC 具体要怎么操作啊 - 欧洲站误操作“账户业务转移”, 立马账户就显示停用了, 起因是公司更换了法人(执照其余信息不变)，又碰到了美国消费者法案就想着 趁这次审核把美国站的资料更新为最新的，然后联想到更新了美国可能会导致欧洲站点后续会触发审核，就去欧洲后台找变更法人之类的入口在...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-6db331361d2a"
+  },
+  {
     "id": "was-q-112520",
     "date": "2025-11-19",
     "time": "00:00",
@@ -251,6 +270,27 @@
       "广告营销"
     ],
     "eventId": "evt-50f3ded8f69f"
+  },
+  {
+    "id": "was-q-112392",
+    "date": "2025-11-17",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/112392",
+    "sourceType": "community",
+    "score": 53,
+    "category": "logistics",
+    "title": "FBA入库货件丢失，申诉后只赔偿一半，且赔偿金额低，有什么再申诉的方法吗",
+    "summary": "FBA入库货件丢失，申诉后只赔偿一半，且赔偿金额低，有什么再申诉的方法吗 - 总共30+30, 一票60件的货，中间入库了30件，转运途中数量又清零了，到11月货件状态改成了已完成，数量显示一件都没有收到。 前后申诉了两次，第一次提供了装箱单和送仓的POD，亚马逊只赔偿了一半的货(且赔偿金额不到两件产品的采购价)，不承认收到了另一半...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-9547b0ad2993"
   },
   {
     "id": "was-q-112340",
@@ -450,6 +490,28 @@
       "亚马逊"
     ],
     "eventId": "evt-6dea8f419270"
+  },
+  {
+    "id": "was-q-111987",
+    "date": "2025-11-07",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/111987",
+    "sourceType": "community",
+    "score": 47,
+    "category": "policy",
+    "title": "关于赶跟卖的请教：能否通过FBM跟卖自己的产品来加速透明计划保护，挡住这群跟卖？",
+    "summary": "关于赶跟卖的请教：能否通过FBM跟卖自己的产品来加速透明计划保护，挡住这群跟卖？ - 目前在英国站出售一个产品，全定制【不可能被复制的】。 目前被一个FBA跟卖狗跟卖。品牌名与美国商标同名，英国待下R标。 很明显，我暂时没法直接品牌滥用举报它。 我试过国内那堆投诉手段，工商局回复对方企业是被偷取资料注册的。对方企业不知情，已经很多人投诉这个...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "知识产权"
+    ],
+    "eventId": "evt-fb43fc275451"
   },
   {
     "id": "was-q-111937",
