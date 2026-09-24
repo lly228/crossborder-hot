@@ -19,5 +19,48 @@
       "亚马逊"
     ],
     "eventId": "evt-e606b09d499a"
+  },
+  {
+    "id": "was-q-104746",
+    "date": "2025-04-25",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/104746",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "亚马逊运营梳理-运营板块（二）",
+    "summary": "亚马逊运营梳理-运营板块（二） - 承接上文，复盘的时候发现漏了一个知识点，补充说明一下，当搜索关键词/ASIN未出现自身链接搜索结果时，可能有以下原因： 1. 链接被内部标记（成人、杀虫剂等）； 2. 链接类目节点丢失； 3. 相关搜索词无权重未被亚马逊收录。 快速检查链接是否有被内部标记...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-3b25e918f6ea"
+  },
+  {
+    "id": "was-q-104149",
+    "date": "2025-04-10",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/104149",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "亚马逊运营梳理-运营板块（一）",
+    "summary": "亚马逊运营梳理-运营板块（一） - 由于最近团队扩招，所以老板让我对新人进行一轮稍微全面化的培训，正好我也顺便把各个点梳理串联一下，由于文章篇幅可能会过长，所以我打算分板块讲：运营板块，推广板块，站外营销板块这三个大板块，由于是串联梳理，所以每个板块之间可能会有内容互通或者重复，请大家多加担...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-650705b408db"
   }
 ]
