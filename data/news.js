@@ -2,6 +2,27 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "mjzj-fysyx0dx5bsw",
+    "date": "2026-09-26",
+    "time": "15:37",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fysyx0dx5bsw",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "链接换图整改后，仍被侵权投诉？新手跨境卖家最容易踩的致命误区",
+    "summary": "很多跨境卖家都遇到过这种让人头疼的情况：链接被投诉，立马换掉主图、改标题、删敏感词，以为整改完就没事了，结果风险依旧在，甚至二次中招。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-5d8221465fba"
+  },
+  {
     "id": "mjzj-fz6zjbmxi1a8",
     "date": "2026-09-26",
     "time": "13:55",
@@ -42,6 +63,50 @@ window.NEWS_DATA = [
     "eventId": "evt-16f88925f76f"
   },
   {
+    "id": "amz-lCCHTgd0",
+    "date": "2026-09-26",
+    "time": "09:13",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/lCCHTgd0",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "欧洲平台中式月饼销量环比增长16倍，前8月出口额同比增42.7%",
+    "summary": "AMZ123获悉，中式月饼今年在欧洲市场呈现出罕见的增长态势。央视财经援引欧洲Joybuy平台数据显示，中秋节前夕中式月饼销量环比上月同期增长超过16倍。出口端数据同样表现亮眼，广州海关统计显示，今年前8个月监管出口的月饼货值达4976.5万元，同比增长42.7%。企业层面亦积极跟进，广州陶陶居的奶黄流心月饼今年海外销量同比增长90%，利口福则针对海外市场口味新增了流心、果蔬、低GI等品类。海外消费者对中国传统食品的认知正在逐步转变，月饼已从华人圈的节令食品演变为更为普及的中式伴手礼。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规",
+      "物流仓储",
+      "选品"
+    ],
+    "eventId": "evt-3aff3cc4a9d6"
+  },
+  {
+    "id": "amz-yifFnlHn",
+    "date": "2026-09-26",
+    "time": "08:43",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/yifFnlHn",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "马士基接管PUMA北美分销网络，230万平方英尺仓库高度自动化",
+    "summary": "AMZ123获悉，马士基宣布已正式接管PUMA的北美分销网络，承接三座高度自动化仓库的运营。三座仓库分别位于加利福尼亚州托伦斯、亚利桑那州凤凰城及印第安纳州惠茨敦，总面积约230万平方英尺，均采用AutoStore自动存取系统，由机器人在货架间完成取货，再转至工位由人工进行拣选与打包。此前，马士基已为PUMA提供海运、空运、内陆运输及报关服务，此次进一步将仓储与履约业务纳入服务范围。自2027年起，托伦斯仓库将向其他品牌开放，成为马士基在北美首个支持多客户运营的自动化仓库，年处理能力约达2000万件。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-793e5b63f2f3"
+  },
+  {
     "id": "mjzj-fz7k8ve9raps",
     "date": "2026-09-26",
     "time": "08:15",
@@ -61,6 +126,67 @@ window.NEWS_DATA = [
       "亚马逊"
     ],
     "eventId": "evt-ffcee1e7dc40"
+  },
+  {
+    "id": "amz-L3eq2ZA7",
+    "date": "2026-09-26",
+    "time": "06:52",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/L3eq2ZA7",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "欧盟碳关税争端进入世贸专家组审理阶段，中英美日等经济体保留第三方权利",
+    "summary": "AMZ123获悉，世贸组织争端解决机构于9月25日批准设立专家组，就俄罗斯针对欧盟碳边境调节机制（CBAM）提出的申诉进行审理。此前欧盟于7月驳回了俄方的首次请求，俄方二次提请后获得通过。中国、美国、英国、日本、印度、韩国、沙特等经济体均保留了第三方权利。CBAM已于2026年1月1日正式进入实施阶段，覆盖钢铁、铝、水泥、化肥、电力及氢等品类。欧盟公布的证书价格为一季度每吨75.36欧元、二季度每吨75.28欧元，三季度价格将于10月5日公布，2027年起调整为每周公布一次。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品"
+    ],
+    "eventId": "evt-81141ce156cc"
+  },
+  {
+    "id": "amz-0Sv6xGpl",
+    "date": "2026-09-26",
+    "time": "06:42",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/0Sv6xGpl",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "汉莎货运暂停孟买货机航班至月底，拥堵致卡车排队长达3天",
+    "summary": "AMZ123获悉，汉莎货运已自9月20日起暂停飞往印度孟买机场的全货机航班，暂定持续至月底，并计划于10月1日起改在新孟买国际机场恢复运营。孟买机场方面表示，货运量激增叠加航站楼施工影响，卡车排队等候时间最长已达3天。汉莎货运目前运营12架波音777货机，此前每周执飞孟买航线6班。国泰货运已于本周一将货机业务迁转至新孟买机场，多家航司也在陆续跟进迁移。货代公司提示，当前孟买口岸的收货、理货及清关环节均存在延误，拼板货受到限制，已放行货物移交航司的时间有所延长，经由孟买中转的货物需预留更多中转及清关时间。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-03502f054b12"
+  },
+  {
+    "id": "amz-qVxlgFsZ",
+    "date": "2026-09-26",
+    "time": "06:42",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/qVxlgFsZ",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "USPS审计披露：电商弃件致年收入减少1.63亿美元",
+    "summary": "AMZ123获悉，美国邮政（USPS）监察长办公室最新审计显示，截至今年2月的12个月内，USPS因无法投递的电商包裹导致收入减少1.63亿美元。期间，送至邮件找回中心的无法投递包裹增加45%，总量约1900万件，其中75%来自商业寄件人。问题根源在于Parcel Select渠道不含退件服务：退回包裹须按Ground Advantage价格补收邮资，每件至少12.63美元，而履约中心处理一件退货的成本可达货值的20%至65%。为规避这部分费用，商业寄件人选择直接拒收，将处置成本转嫁至邮政系统。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-7c33323084c4"
   },
   {
     "id": "was-q-124954",
