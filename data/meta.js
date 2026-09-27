@@ -1,10 +1,10 @@
 // 数据管线状态。由 scripts/fetch_news.py 每次运行后更新。
 window.NEWS_META = {
-  "generatedAt": "2026-09-27T06:35:32+00:00",
-  "lastSuccessfulFetchAt": "2026-09-27T06:35:32+00:00",
-  "latestItemAt": "2026-09-27T13:57:00+08:00",
+  "generatedAt": "2026-09-27T09:59:54+00:00",
+  "lastSuccessfulFetchAt": "2026-09-27T09:59:54+00:00",
+  "latestItemAt": "2026-09-27T15:40:00+08:00",
   "status": "ok",
-  "durationSeconds": 98.1,
+  "durationSeconds": 78.8,
   "sourceResults": [
     {
       "name": "雨果跨境",
@@ -27,8 +27,8 @@ window.NEWS_META = {
     {
       "name": "AMZ123",
       "status": "ok",
-      "discovered": 4,
-      "added": 3
+      "discovered": 9,
+      "added": 8
     },
     {
       "name": "Amazon卖家论坛",
@@ -39,8 +39,8 @@ window.NEWS_META = {
     {
       "name": "知无不言",
       "status": "ok",
-      "discovered": 71,
-      "added": 7
+      "discovered": 72,
+      "added": 1
     }
   ]
 };

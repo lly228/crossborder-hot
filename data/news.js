@@ -2,6 +2,27 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "mjzj-fysz5rc5r0g0",
+    "date": "2026-09-27",
+    "time": "15:40",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/fysz5rc5r0g0",
+    "sourceType": "media",
+    "score": 67,
+    "category": "policy",
+    "title": "新手卖家被TRO冻结后不知怎么办？这份止损清单请查收",
+    "summary": "做跨境店铺的卖家听闻TRO就闻风丧胆，美国法院临时禁令一下来，资金冻结、链接下架、店铺陷入瘫痪状态。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-1615bd890412"
+  },
+  {
     "id": "mjzj-fz6zoh1w5uyo",
     "date": "2026-09-27",
     "time": "13:57",
@@ -21,6 +42,173 @@ window.NEWS_DATA = [
       "知识产权"
     ],
     "eventId": "evt-d7c68aeac5f3"
+  },
+  {
+    "id": "amz-qKes0Ojd",
+    "date": "2026-09-27",
+    "time": "08:49",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/qKes0Ojd",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "曼谷50个区全面受灾，Shopee等泰国本土平台延长发货期限",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee"
+    ],
+    "eventId": "evt-3c0b2b2aad01"
+  },
+  {
+    "id": "amz-QfbS11QO",
+    "date": "2026-09-27",
+    "time": "08:49",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/QfbS11QO",
+    "sourceType": "media",
+    "score": 61,
+    "category": "logistics",
+    "title": "TikTok Shop越南站将对超10公斤包裹加收物流运营费",
+    "summary": "AMZ123获悉，TikTok Shop越南本土站将对重量较大的包裹额外征收物流运营费。根据平台通知，自2025年10月12日0时起，所有新订单中计费重量超过10公斤的包裹须缴纳物流运营费，用于覆盖包裹处理、协调派送及基本运输激励等环节的成本。该费用由商家承担，买家结账时不可见。费用按包裹计费重量逐件计算，起步价为每件3000越南盾，随重量区间阶梯递增，单件最高为65000越南盾。以下两点需重点关注：1. 2025年10月12日前已下单的订单不在收费范围内，即便发货与结算时间在该日期之后亦不适用；2. 包裹发货成功后若发生退货，已收取的物流运营费不予退还。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "物流仓储"
+    ],
+    "eventId": "evt-8bcc2ea8d502"
+  },
+  {
+    "id": "amz-0rUs3EFq",
+    "date": "2026-09-27",
+    "time": "08:49",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/0rUs3EFq",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "东南亚24%网购者属精明型买家，2026年将贡献115亿美元电商收入",
+    "summary": "AMZ123获悉，Lazada与电商研究机构Cube联合发布的报告，对东南亚市场消费者群体进行了新型细分。报告显示，约24%的东南亚消费者被归类为精明型买家，另有近两成消费者接近该标准。这类买家的共同特征为跨平台比价、核查商家资质，且愿意为正品保障与交易安全支付溢价。在6个东南亚主要经济体中，这批消费者预计于2026年为电商平台贡献115亿美元的年度交易规模。各国占比存在较大差异：菲律宾精明型网购用户占比达36%，位居东南亚首位；新加坡占比最低，仅为9%。各市场关注焦点亦有所不同，马来西亚与越南买家最重视商品真伪核验，而新加坡、印度尼西亚及菲律宾消费者则更关注平台买家保障机制与商家可信度。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Lazada"
+    ],
+    "eventId": "evt-f92a8c6b2b69"
+  },
+  {
+    "id": "amz-mIlzSsbR",
+    "date": "2026-09-27",
+    "time": "08:49",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/mIlzSsbR",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "印尼连查四起非法进口案，30个集装箱涉案货值达273.4亿印尼盾",
+    "summary": "AMZ123获悉，印尼正持续强化口岸管控，重点针对虚报海关编码行为。印尼财政部与海关总署通报，8至9月间连续查处四起非法进口案件，共查扣30个集装箱的大米和食盐及1435包旧服装，涉案货值约273.4亿印尼盾。海关总署指出，违规的常见手法为篡改商品的海关编码（HS编码），将受管制或高税率商品伪报为低税率、免许可品类，以规避进口许可和关税要求。此次执法行动覆盖马六甲海峡水域、丹戎佩拉港、茂物保税区及丹戎不碌港。印尼总统普拉博沃已要求海关部门进一步收紧边境及沿海地区管控，并将打击旧服装走私列为重点工作。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储",
+      "选品"
+    ],
+    "eventId": "evt-29bc7696127c"
+  },
+  {
+    "id": "amz-KEWM1Olk",
+    "date": "2026-09-27",
+    "time": "08:39",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/KEWM1Olk",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "天然钻石价格五年跌超五成，培育钻占据美国婚戒市场61%份额",
+    "summary": "AMZ123获悉，天然钻石价格持续下行。据钻石报价机构Rapaport数据，1克拉天然钻石当前均价为3898美元，较2021年的8007美元下跌51%，追踪投资级钻石的Diamond Standard指数于8月初创下历史新低。价格承压来自两方面：一是供给过剩，疫情期间超产所积累的库存尚未消化完毕；二是替代品竞争加剧，同等规格的钻石，实验室培育钻在Brilliant Earth平台售价约450美元，而天然钻石售价则在2800至3200美元之间。2025年美国市场销售的婚戒中，61%的主石已由培育钻取代。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-99caf871e5b4"
+  },
+  {
+    "id": "amz-eyikiNL5",
+    "date": "2026-09-27",
+    "time": "06:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/eyikiNL5",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "美国8月爱好类消费同比增长7.9% 户外与手工用品增速超整体零售",
+    "summary": "AMZ123获悉，美国银行最新消费数据分析显示，今年8月美国消费者在爱好类商品上的支出同比增长7.9%，是同期交易笔数增速3.4%的两倍有余，表明消费者不仅购买频次提升，单笔消费金额也有所增加。爱好类商品涵盖手工、模型与爱好商店，以及滑雪、徒步、露营、潜水装备等零售业态。美国普查局数据印证了这一趋势：截至8月的12个月内，运动用品、爱好、乐器与书店的销售额增长10.7%，明显高于美国零售与餐饮总销售额6%的增幅。美国银行分析认为，燃油价格上涨推高出行成本后，部分消费者将预算从旅行转向居家爱好；年长千禧一代的人均爱好支出是Z世代的两倍以上，电子游戏的人均支出在各年龄段均呈上升态势。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-9f9d22b6324f"
+  },
+  {
+    "id": "amz-70g7zC7i",
+    "date": "2026-09-27",
+    "time": "06:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/70g7zC7i",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "AI购物回答逾四分之一引用YouTube内容，创作者长期广告回报优势显著",
+    "summary": "AMZ123获悉，营销机构Jellyfish对OpenAI、Google、Anthropic等六家主流AI模型在回答消费者购物问题时的引用来源进行了分析。结果显示，面向澳大利亚消费者的AI回答中，超过四分之一直接引用了YouTube上的内容，YouTube也是唯一在所有被监测品类中均有出现的视频及社交平台。各品类引用的内容形态存在明显差异。金融服务类中，87%的引用指向长视频，其中18%甚至精确至视频中的某一分钟节点；消费电子品类的长视频引用占比高达94%。日用消费品与家居品类则呈现相反趋势，YouTube短视频占该类引用量的39%。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销",
+      "选品"
+    ],
+    "eventId": "evt-9d41ca711063"
+  },
+  {
+    "id": "amz-2DaBjtma",
+    "date": "2026-09-27",
+    "time": "06:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/2DaBjtma",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "土耳其屏蔽虚假互动服务网站，五星好评、粉丝、加购均在查处范围",
+    "summary": "AMZ123获悉，土耳其贸易部下属广告委员会就电商领域虚假互动服务作出访问屏蔽决定。委员会认定，通过付费购买点赞、观看、粉丝、评论、收藏、加购及五星评价等方式人为提升商品与商家曝光度的行为，属于误导消费者的不正当商业行为，违反了土耳其《商业广告与不正当商业行为条例》。本轮审查范围不仅涵盖虚假评论与虚假粉丝，还延伸至为商家屏蔽负面评价的相关服务——即通过技术手段阻止差评发布或使其难以被消费者获取，此类行为同样被认定为不正当商业行为。依据该条例，商家不得为提升销量购买虚假评价，亦不得雇用人员发布缺乏真实交易依据的评价。委员会此次未披露被屏蔽网站的具体数量。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-51057737256f"
   },
   {
     "id": "was-q-124967",
@@ -47359,7 +47547,7 @@ window.NEWS_DATA = [
       "亚马逊",
       "广告营销"
     ],
-    "eventId": "evt-171771706c81"
+    "eventId": "evt-a9f2b60cecd0"
   },
   {
     "id": "was-q-123915",
