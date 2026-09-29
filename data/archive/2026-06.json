@@ -46,6 +46,53 @@
     "sourceType": "media"
   },
   {
+    "id": "amazon-forum-57222b70-40df-4574-aa0f-9f815c197987",
+    "date": "2026-06-30",
+    "time": "16:02",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/57222b70-40df-4574-aa0f-9f815c197987",
+    "sourceType": "official",
+    "score": 85,
+    "category": "logistics",
+    "title": "卖家自配送订单新增营业时间配送要求",
+    "summary": "亚马逊宣布自2026年9月30日起，美国站卖家自配送订单需维持90%或以上的营业时间配送率，该指标基于现有的营业时间配送指标计算。",
+    "selected": true,
+    "why": "新要求直接影响卖家自配送绩效，不达标可能导致账号限制，需提前调整物流流程。",
+    "impact": "影响所有使用卖家自配送（FBM）的美国站卖家，尤其是面向企业客户的卖家。",
+    "action": "检查现有配送流程，确保能在客户营业时间内完成配送，必要时调整物流合作伙伴或配送时间安排。",
+    "deadline": "2026-09-30",
+    "tags": [
+      "亚马逊",
+      "物流",
+      "卖家自配送",
+      "绩效要求"
+    ],
+    "eventId": "evt-09acb0a14f45"
+  },
+  {
+    "id": "amazon-forum-8cc9ea8c-6e1c-4c32-812c-28de469f3df4",
+    "date": "2026-06-30",
+    "time": "15:33",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/8cc9ea8c-6e1c-4c32-812c-28de469f3df4",
+    "sourceType": "official",
+    "score": 60,
+    "category": "platform",
+    "title": "7月起Seller Central将支持通行密钥登录",
+    "summary": "亚马逊宣布自2026年7月起，所有Seller Central账户将支持通行密钥登录，这是一种无密码的安全登录方式，可使用指纹、面部识别或PIN码。",
+    "selected": false,
+    "why": "通行密钥提升账户安全性，防止钓鱼攻击，但非强制要求，卖家可自愿选择是否启用。",
+    "impact": "影响所有亚马逊卖家，提供更安全的登录选项，但无强制截止日期。",
+    "action": "7月后可在Seller Central设置中启用通行密钥，建议优先使用以增强账户安全。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "账户安全",
+      "功能更新"
+    ],
+    "eventId": "evt-3621d33e2c14"
+  },
+  {
     "id": "187167",
     "date": "2026-06-30",
     "time": "15:07",
@@ -1629,6 +1676,28 @@
       "广告营销"
     ],
     "eventId": "evt-3272839995ce"
+  },
+  {
+    "id": "was-q-120788",
+    "date": "2026-06-08",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120788",
+    "sourceType": "community",
+    "score": 53,
+    "category": "policy",
+    "title": "【亚马逊】美国站膳食补充剂新品上传链接后立即触发合规审核，已提交COA仍在审核中。请教大家美国站膳食补充剂产品，COA 是否足以完成审核？如果后台提示 GMP 认证问题，是否还需要额外提交 GMP 证书？",
+    "summary": "【亚马逊】美国站膳食补充剂新品上传链接后立即触发合规审核，已提交COA仍在审核中。请教大家美国站膳食补充剂产品，COA 是否足以完成审核？如果后台提示 GMP 认证问题，是否还需要额外提交 GMP 证书？ - 各位大佬好， 最近上新了一款美国站膳食补充剂软糖产品（Health & Household 类目），遇到合规审核问题，想请教有经验的卖家。 目前情况 5月20日创建新品链接；链接创建后几乎立即变为不可售；后台显示原因：膳食补充剂 GMP 认证：食品和商...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规"
+    ],
+    "eventId": "evt-ffa7d2f76aef"
   },
   {
     "id": "186661",
