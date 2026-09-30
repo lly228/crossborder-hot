@@ -650,6 +650,27 @@
     "eventId": "evt-25b4af614f07"
   },
   {
+    "id": "was-q-111831",
+    "date": "2025-11-04",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/111831",
+    "sourceType": "community",
+    "score": 55,
+    "category": "marketing",
+    "title": "广告活动打到首行的转化率反而不如搜索结果的其余位置，这种情况的原因是什么啊?",
+    "summary": "广告活动打到首行的转化率反而不如搜索结果的其余位置，这种情况的原因是什么啊? - 各位大佬有没有优化思路和调整广告的建议?或者打首行转化率不行要从哪里分析。 这是最近一周的数据 我的想法是 商品页面的曝光太多了，可能是我基础CPC1.2的原因，所以我打算降低CPC 然后调整bid 把bid调整成 10% 50% 0% 不知道这样对不?...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-8632a5941405"
+  },
+  {
     "id": "was-q-111796",
     "date": "2025-11-03",
     "time": "00:00",

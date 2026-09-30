@@ -1473,6 +1473,28 @@
     "eventId": "evt-fc72067e7e04"
   },
   {
+    "id": "was-q-120892",
+    "date": "2026-06-10",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120892",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "我用AI开发了一个本地运行的 Amazon PPC 广告诊断工具，上传5份报表秒出分析报告，开放给大家用",
+    "summary": "我用AI开发了一个本地运行的 Amazon PPC 广告诊断工具，上传5份报表秒出分析报告，开放给大家用 - 做了很多年亚马逊，每次优化广告都要在后台各个报表之间反复跳来跳去，把数据粘到 Excel 里手动算 ACOS、找白耗词……做了几遍之后实在受不了了，就自己动手写了这个工具。 用了三个月，迭代了四个版本，今天开放出来，大家自取希望能帮到他们提升效率。 单...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-1899e6c6cfcc"
+  },
+  {
     "id": "was-q-120812",
     "date": "2026-06-09",
     "time": "00:00",

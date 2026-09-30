@@ -350,6 +350,25 @@
     "eventId": "evt-6fff4a76c05c"
   },
   {
+    "id": "was-q-117507",
+    "date": "2026-03-24",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/117507",
+    "sourceType": "community",
+    "score": 59,
+    "category": "market",
+    "title": "记一次低客单老链接重推的沉浸式思考心路与沙盘推演——7K字长文预警 (0320)",
+    "summary": "记一次低客单老链接重推的沉浸式思考心路与沙盘推演——7K字长文预警 (0320) - 原创 AMZ Bluesky AMZ小麦成长记 2026年3月21日 06:08 广东 前言碎语 今天聊一条我自己带了差不多大半年的老链接。 这条链接之前写文也多次提到过，起起伏伏，曾经起来过——日销破百，会员日曾冲破150单（单SKU）。也曾面临...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-34bb098e60ac"
+  },
+  {
     "id": "was-q-117469",
     "date": "2026-03-23",
     "time": "00:00",
@@ -538,6 +557,29 @@
     "deadline": "",
     "tags": [],
     "eventId": "evt-35798141acb1"
+  },
+  {
+    "id": "was-q-117303",
+    "date": "2026-03-19",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/117303",
+    "sourceType": "community",
+    "score": 57,
+    "category": "marketing",
+    "title": "从 Rufus 到遍地 AI 工具，做亚马逊的我们，到底被 AI 赋能了，还是被卷死了？",
+    "summary": "从 Rufus 到遍地 AI 工具，做亚马逊的我们，到底被 AI 赋能了，还是被卷死了？ - 开年到现在，刷知无不言刷到最多的两个词，一个是 AI，一个是焦虑。 前有亚马逊 Rufus 底层逻辑大改，全论坛都在拆解算法、抢流量新机会；后有各种 AI 工具满天飞，写 Listing、做主图/A+、调广告、做数据报表，甚至选品建模，好像没有 AI...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销",
+      "选品"
+    ],
+    "eventId": "evt-24756dbc37a8"
   },
   {
     "id": "was-q-117210",
