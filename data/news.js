@@ -2,6 +2,27 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "lsch-7cb48bd0",
+    "date": "2026-10-04",
+    "time": "17:58",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/7cb48bd0",
+    "sourceType": "media",
+    "score": 63,
+    "category": "market",
+    "title": "100余位迪拜政企核心代表10月组团赴深！第五届迪拜商业论坛解锁中迪出海新机遇",
+    "summary": "10月14日，超百位迪拜政企核心代表齐聚深圳，解读最新政策与产业方向。报名通道将于10月7日晚6点关闭，把握最后机会。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-81d5fd036a53"
+  },
+  {
     "id": "lsch-41607a07",
     "date": "2026-10-04",
     "time": "09:07",
@@ -63,6 +84,25 @@ window.NEWS_DATA = [
       "政策合规"
     ],
     "eventId": "evt-304fbd8ec9b8"
+  },
+  {
+    "id": "amz-Td2c5Y18",
+    "date": "2026-10-04",
+    "time": "08:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Td2c5Y18",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "北极航线9月通航133次，较8月增长46%创四年新高",
+    "summary": "AMZ123获悉，受海湾冲突、红海受阻及北极海冰消融等因素影响，越来越多船公司开始放弃苏伊士运河与霍尔木兹海峡等传统要道，转而选择俄罗斯北方海航道。据劳氏日报情报数据显示，今年9月该航线通航次数达到133次，与2022年相比增长超过4倍，同时也比8月高出46%，北极航线正逐步从季节性试验通道演变为连接亚欧两洲的稳定贸易航路。中国船企是本轮增长的重要推动力量之一。9月，中国集装箱船\"迪拜塔\"号从青岛经北极航道抵达英国费利克斯托，全程历时24天，而经苏伊士运河或绕行好望角通常需要40天以上。航运公司Sea Legend也已从试验性航行转向接近每周一班的季节性定期服务。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f71ca9eb9a49"
   },
   {
     "id": "amz-m0k4XCVx",
@@ -45246,7 +45286,7 @@ window.NEWS_DATA = [
       "Shopee",
       "物流仓储"
     ],
-    "eventId": "evt-0eccd1e847c0"
+    "eventId": "evt-2ad92ae2870e"
   },
   {
     "id": "amz-s9ome5Xe",
@@ -45289,7 +45329,7 @@ window.NEWS_DATA = [
       "Shopee",
       "广告营销"
     ],
-    "eventId": "evt-0eccd1e847c0"
+    "eventId": "evt-2ad92ae2870e"
   },
   {
     "id": "amazon-forum-287d5c33-8278-4802-ba69-2f58f7dda408",
