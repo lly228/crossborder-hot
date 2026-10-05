@@ -16991,6 +16991,30 @@
     "eventId": "evt-57834ded7dc1"
   },
   {
+    "id": "amazon-forum-7336583f-09ac-41de-99d1-667017a88db2",
+    "date": "2026-07-06",
+    "time": "23:47",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/7336583f-09ac-41de-99d1-667017a88db2",
+    "sourceType": "official",
+    "score": 75,
+    "category": "platform",
+    "title": "Featured Offer资格要求更新",
+    "summary": "亚马逊宣布自2026年7月起逐步移除Featured Offer的卖家资格要求，预计2026年底前完成全球所有站点更新。现有报价将自动纳入，无需卖家操作。",
+    "selected": true,
+    "why": "此变化可能降低获得购物车的门槛，但竞争可能加剧，卖家需关注后续影响。",
+    "impact": "影响所有亚马逊卖家，尤其是此前因绩效不达标而无法获得Featured Offer的卖家。",
+    "action": "无需立即操作，但应关注后续更新，并持续优化产品定价和绩效以保持竞争力。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "购物车",
+      "政策更新",
+      "卖家资格"
+    ],
+    "eventId": "evt-d63f94c2c709"
+  },
+  {
     "id": "amz-JrJ0TDAR",
     "date": "2026-07-06",
     "time": "01:59",
