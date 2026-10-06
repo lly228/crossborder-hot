@@ -1108,6 +1108,27 @@
     "eventId": "evt-f205d515092d"
   },
   {
+    "id": "was-q-119684",
+    "date": "2026-05-14",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/119684",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "用Nano banana pro生成亚马逊商品套图（附提示词）",
+    "summary": "用Nano banana pro生成亚马逊商品套图（附提示词） - 亚马逊电商套图提示词 找一张产品实拍图作为参考图（1688、竞品或自己拍） 将参考图和提示词发给 Nano Banana Pro（打开 https://gemini.google.com/app，选择制作图片）。 1. 主图（Hero / ...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-7ef3ef9d6f93"
+  },
+  {
     "id": "was-q-119635",
     "date": "2026-05-13",
     "time": "00:00",
