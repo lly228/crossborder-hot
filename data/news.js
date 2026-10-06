@@ -2,6 +2,90 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "was-q-125132",
+    "date": "2026-10-06",
+    "time": "11:13",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/125132",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "做竞品分析抓不到全量Review？自己写了套采集脚本，顺便聊聊大家对这类数据的需求，目前跑下来单个ASIN的代理和服务器成本大概在10元左右。打算后续对外开放服务，但在定价上有点拿不准",
+    "summary": "做竞品分析抓不到全量Review？自己写了套采集脚本，顺便聊聊大家对这类数据的需求，目前跑下来单个ASIN的代理和服务器成本大概在10元左右。打算后续对外开放服务，但在定价上有点拿不准 - 做竞品分析或VOC时，大家肯定遇到过这个坑：市面上很多插件或工具，抓取Review经常被截断在前500条，或者翻页频繁被封，根本拿不到全量数据，分析样本一大就失真。 前段时间自己分析类目实在受不了，就手搓了一套抓取脚本，专门解决这个痛点： 突破条数限制：...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-50de3844f41f"
+  },
+  {
+    "id": "was-q-125137",
+    "date": "2026-10-06",
+    "time": "11:13",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/125137",
+    "sourceType": "community",
+    "score": 47,
+    "category": "policy",
+    "title": "英国站产品被外部比价丢失购物车，公模专利已被他人抢注，未找到直接偷用我们图片的链接，但目前TEMU有多款低价的类似款产品，甚至销量上1k+，账号无付费经理，无法确认实际比价链接，还有什么渠道能够解决？",
+    "summary": "英国站产品被外部比价丢失购物车，公模专利已被他人抢注，未找到直接偷用我们图片的链接，但目前TEMU有多款低价的类似款产品，甚至销量上1k+，账号无付费经理，无法确认实际比价链接，还有什么渠道能够解决？ - 我们英国站有一款 ASIN 受 Amazon 的外部比价影响（Price Match），因其他平台存在低价链接，导致购物车丢失、价格受限。期间我们尝试通过后台邮件 case 申请恢复，但都被拒绝，收到同样的答复。 “我们理解卖家目前面临的情况。我们已审核...”",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "Temu",
+      "知识产权"
+    ],
+    "eventId": "evt-7b90aeeef0fd"
+  },
+  {
+    "id": "was-q-125136",
+    "date": "2026-10-06",
+    "time": "11:13",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/125136",
+    "sourceType": "community",
+    "score": 55,
+    "category": "marketing",
+    "title": "两个新品采用不同广告打法，投放三天转化很少，该如何排查和调整？目前投放到第三天，A还没有转化，B主链接只观察到1单。想把产品情况、广告设置和调整过程整理出来，请大家帮忙看看问题可能在哪里，拯救我的饭碗",
+    "summary": "两个新品采用不同广告打法，投放三天转化很少，该如何排查和调整？目前投放到第三天，A还没有转化，B主链接只观察到1单。想把产品情况、广告设置和调整过程整理出来，请大家帮忙看看问题可能在哪里，拯救我的饭碗 - 两个新品采用不同广告打法，投放三天转化很少，该如何排查和调整？ 各位大佬好，最近刚到货的两个新品，我分别用了两种广告打法：产品A按照上家公司同事的建议操作，产品B按照购买的课程操作，但可能是我没有完全理解课程。 目前投放到第三天，A还没有转化，B主链接...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-8e5f57baf059"
+  },
+  {
+    "id": "was-q-125135",
+    "date": "2026-10-06",
+    "time": "11:13",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/125135",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "收款方式失效，账号密码失效，前台停售，后台消失，处理好了，还会再次遇到",
+    "summary": "收款方式失效，账号密码失效，前台停售，后台消失，处理好了，还会再次遇到 - 亚马逊后台，万里汇存款方式全部失效，经历千辛万苦重新绑定之后，账号显示存在第三方异常登录，密码失效，让我们重新设置密码， 万里汇再次解绑 ，有没有人遇到过 问到服务商能处理，500块钱。 此刻更想分享出来，探讨一下是什么原因。 有老铁遇到 ...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-39787603a68b"
+  },
+  {
     "id": "189217",
     "date": "2026-10-06",
     "time": "10:13",
@@ -23,6 +107,27 @@ window.NEWS_DATA = [
     "eventId": "evt-cbf69c67821f"
   },
   {
+    "id": "amz-rF1P7Gf3",
+    "date": "2026-10-06",
+    "time": "10:01",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/rF1P7Gf3",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "Lamoda向卖家开放消费者画像分析工具",
+    "summary": "AMZ123获悉，Lamoda面向卖家推出\"消费者画像\"分析报告，卖家可在Lamoda Seller后台查看品牌消费者的新客与老客数量、变化趋势、客单价、购买频率、地域、性别及年龄等维度数据，同时可获取消费者在Lamoda平台及店铺内的品类与商品购买情况。该报告支持按品牌、品类、季节、系列及时间段进行筛选，并支持将数据导出至Excel。此外，平台新增自动化提示功能，可识别不同消费者群体的动态变化及潜在增长机会，并向卖家提供相应的后续运营建议。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品"
+    ],
+    "eventId": "evt-652797128628"
+  },
+  {
     "id": "189216",
     "date": "2026-10-06",
     "time": "10:00",
@@ -40,6 +145,108 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-f713ab1377e5"
+  },
+  {
+    "id": "amz-ZSeR9Vl9",
+    "date": "2026-10-06",
+    "time": "09:41",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/ZSeR9Vl9",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "Poizon进军俄罗斯市场，卖家佣金最高29%",
+    "summary": "AMZ123获悉，中国电商平台Poizon公布了面向俄罗斯卖家的合作条件，平台佣金率区间为19%至29%，符合条件的优质卖家最低可享受19%的佣金费率，具体费率视商品类别及合作模式而定。平台同时提供T+7、周结和月结三种结算方式，并承担商品详情页制作、消费者咨询、包装及推广等部分运营职能，卖家主要负责商品品类管理、库存及定价。此次Poizon公布的佣金方案低于俄罗斯部分本土电商平台的最高费率水平。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销",
+      "选品"
+    ],
+    "eventId": "evt-fc2cf3b8ba25"
+  },
+  {
+    "id": "amz-bFUgrwtH",
+    "date": "2026-10-06",
+    "time": "08:41",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/bFUgrwtH",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "Yandex旗下AI助手Alisa已覆盖15%的商品查询",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f4a08081e887"
+  },
+  {
+    "id": "amz-S2IXq6CK",
+    "date": "2026-10-06",
+    "time": "08:41",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/S2IXq6CK",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "俄罗斯半数百万人口城市家居店数量下滑，彼尔姆降幅达14.3%",
+    "summary": "AMZ123获悉，俄罗斯近半数百万人口城市的家居用品专卖店数量出现缩减。据Yandex地图数据，截至2026年10月1日，彼尔姆降幅居首，门店数量减少14.3%至113家；克拉斯诺达尔减少9.4%至182家，克拉斯诺亚尔斯克减少8.4%至119家。圣彼得堡门店数量下降1.8%至423家，莫斯科则小幅增长0.4%至950家。全俄门店总数同比仅增长1.5%，达1.52万家。业内专家将门店数量收缩的原因之一归结为消费支出下滑。据分析机构Магазин магазинов评估，家具与室内商品支出同比下降6%至7%；Sber Index数据显示，9月28日至10月4日当周，该品类支出环比下降5.7%。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品"
+    ],
+    "eventId": "evt-49d66c0f3942"
+  },
+  {
+    "id": "amz-Ckrhckc3",
+    "date": "2026-10-06",
+    "time": "08:41",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Ckrhckc3",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "俄罗斯人均药品支出月均超1000卢布，同比增长11.5%",
+    "summary": "AMZ123获悉，据RNC Pharma数据，2026年前8个月，俄罗斯居民在药店购买药品的人均支出为8900卢布（含线上订购与配送），同比增长11.5%。同期人均购药21盒，约合每月2.6盒，折算月均药品支出超过1000卢布。从地区分布来看，莫斯科州居民支出最高，人均超过1.24万卢布，同比增长12.9%，绝对增量约为1400卢布；圣彼得堡以约1.23万卢布位居第二，同比增长11%；莫斯科以1.16万卢布排名第三，同比增长13%。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-4f1d7aa0a003"
+  },
+  {
+    "id": "amz-d8MFqQ07",
+    "date": "2026-10-06",
+    "time": "07:40",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/d8MFqQ07",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "TikTok Shop美区升级商品管理功能，支持自然语言批量修改库存与价格",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-bc1f538c4b3a"
   },
   {
     "id": "was-q-125130",
@@ -40496,7 +40703,7 @@ window.NEWS_DATA = [
       "TikTok Shop",
       "广告营销"
     ],
-    "eventId": "evt-c01ff3084c61"
+    "eventId": "evt-df76c26d70ca"
   },
   {
     "id": "188735",
