@@ -85,6 +85,28 @@
     "eventId": "evt-bdb5c3bc3568"
   },
   {
+    "id": "was-q-116409",
+    "date": "2026-02-27",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/116409",
+    "sourceType": "community",
+    "score": 53,
+    "category": "logistics",
+    "title": "发往英国亚马逊的货，双清货代不给IEN码，该如何解决",
+    "summary": "发往英国亚马逊的货，双清货代不给IEN码，该如何解决 - 如题：没有IEN码现在亚马逊物流货件处理进度中显示导入详细信息不完善！这个是否会影响我接下来的发货？或者我在是否有进口记录中选择“否，我在英国国内采购了相关商品”会有什么后果？ 当然最好还是有什么办法处理获得IEN码，货代那边已经是条死路！求各位大咖帮...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储"
+    ],
+    "eventId": "evt-c6b733a28632"
+  },
+  {
     "id": "was-q-116350",
     "date": "2026-02-26",
     "time": "00:00",
@@ -521,5 +543,24 @@
       "广告营销"
     ],
     "eventId": "evt-9ce7a2d88540"
+  },
+  {
+    "id": "was-q-115826",
+    "date": "2026-02-02",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/115826",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "【跨境知识库】周末手搓了一个跨境知识库 + AI RAG检索增强技术",
+    "summary": "【跨境知识库】周末手搓了一个跨境知识库 + AI RAG检索增强技术 - 很多时候我们需要的不仅是深度回答，我们需要的是一套能完整落地的方案。 而你碰到的大多数问题，已经有无数人已经完整经历了一遍了。 【跨境知识库链接?】https://www.kdocs.cn/wiki/share/2588409722?invite_...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-dcf68360d6cc"
   }
 ]

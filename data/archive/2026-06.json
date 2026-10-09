@@ -287,6 +287,28 @@
     "eventId": "evt-3c8ad850a6f1"
   },
   {
+    "id": "was-q-121569",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121569",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "temu清库存效果怎样？亚马逊滞销的产品放在temu低价清仓效果好吗？",
+    "summary": "temu清库存效果怎样？亚马逊滞销的产品放在temu低价清仓效果好吗？ - temu清库存效果怎样？ 亚马逊滞销的产品放在temu低价清仓效果好吗？ 请详细说说。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "Temu"
+    ],
+    "eventId": "evt-09d87f4452ef"
+  },
+  {
     "id": "lsch-9743448d",
     "date": "2026-06-28",
     "time": "23:03",
@@ -2366,6 +2388,25 @@
       "亚马逊"
     ],
     "eventId": "evt-85a995f0fce3"
+  },
+  {
+    "id": "was-q-120500",
+    "date": "2026-06-02",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120500",
+    "sourceType": "community",
+    "score": 55,
+    "category": "market",
+    "title": "子体退货标记消失后，快30天了过去30天销量不显示。请问大家遇到过这个情况吗？怎么解决？",
+    "summary": "子体退货标记消失后，快30天了过去30天销量不显示。请问大家遇到过这个情况吗？怎么解决？ - 我有两个子体，之前被标记为经常退货商品，大概两三周前商品显示页面已经没有了“经常退货标记”，但是过去30天的销量一直没有显示。 昨天因为变体主题需要调整，我将子体做了拆分，拆分后独立显示时是有销量显示的（正常应该3K+,但是抓取了1K+）,合并进新的子体...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-eb9faad71bfe"
   },
   {
     "id": "lsch-b53ff4d1",
