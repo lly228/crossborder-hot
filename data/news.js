@@ -2,6 +2,84 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "189321",
+    "date": "2026-10-11",
+    "time": "17:25",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/189321",
+    "sourceType": "media",
+    "score": 67,
+    "category": "policy",
+    "title": "118家店铺被告！这类产品快下架",
+    "summary": "",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-5600f095e6b5"
+  },
+  {
+    "id": "was-q-125281",
+    "date": "2026-10-11",
+    "time": "10:47",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/125281",
+    "sourceType": "community",
+    "score": 47,
+    "category": "policy",
+    "title": "请教各位一个注册店铺中尴尬的小问题",
+    "summary": "请教各位一个注册店铺中尴尬的小问题 - 最近在准备注册公司和店铺了，有一些合规方面的问题请教知无各位大佬。 手头只有一台电脑，有点尴尬的是在23年刚入行的时候，自我摸索阶段用自己的手机号和QQ邮箱注册了买家账号，还进了卖家登陆界面，但是没有提交任何资料，只是进了那个入口。 现在不想重新购...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-bc28facbd0af"
+  },
+  {
+    "id": "was-q-125280",
+    "date": "2026-10-11",
+    "time": "10:47",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/125280",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "今天ChatGPT聊天模式突然降智",
+    "summary": "今天ChatGPT聊天模式突然降智 - 同样一个任务 好多轮了 还没有开始，",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-72ade8930639"
+  },
+  {
+    "id": "189322",
+    "date": "2026-10-11",
+    "time": "10:00",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/189322",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "利润是美国2倍！这个新市场正在批量造富",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f70451b46b6b"
+  },
+  {
     "id": "lsch-e7119190",
     "date": "2026-10-11",
     "time": "09:00",
@@ -19,6 +97,94 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-7455757108e2"
+  },
+  {
+    "id": "amz-d59tgO6k",
+    "date": "2026-10-11",
+    "time": "07:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/d59tgO6k",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "Kaufland利润增长33%，谋求构建抗衡电商巨头的欧洲销售阵营",
+    "summary": "AMZ123获悉，德国零售集团Kaufland最新财报显示，其利润同比增长33%，并明确提出打造欧洲反制力量的战略目标。该集团计划在本土及中东欧市场建立销售网络，以与亚马逊、Temu等电商巨头形成竞争，网络规模有望超越波兰本土平台Allegro。目前，Kaufland已通过Global Marketplace实现德国、捷克、斯洛伐克、波兰、奥地利等多国的跨境销售打通。对于布局欧洲市场的跨境卖家而言，该平台目前卖家基数较小，竞争相对有限，加之其线下门店所带来的品牌信任背书，有助于降低获客成本，为欧洲市场提供了一个具有本地化优势的新兴渠道。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "Temu"
+    ],
+    "eventId": "evt-307b49ed0b5c"
+  },
+  {
+    "id": "amz-PeHFSrky",
+    "date": "2026-10-11",
+    "time": "07:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/PeHFSrky",
+    "sourceType": "media",
+    "score": 75,
+    "category": "policy",
+    "title": "阿联酋发布税务新规，企业须在30天内完成合规过渡",
+    "summary": "AMZ123获悉，阿联酋联邦税务局近期发布税务合规新规指引，要求相关企业在30天过渡期内完成调整，逾期将面临相应处理。本轮调整涉及增值税进项税分摊、员工福利进项税抵扣及税务信用票据等细则，多数修订自10月1日起正式生效。对以阿联酋为中东北非枢纽、设立自贸区实体或本地公司的跨境卖家而言，需尽快核查记账系统与进项税计算，以避免合规空窗期的潜在风险。尤其是使用EmaraTax平台的企业，应同步确认电子发票与转让定价文档的衔接，以防范后续审计风险。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-d948ccb30905"
+  },
+  {
+    "id": "amz-i5e5PGIK",
+    "date": "2026-10-11",
+    "time": "07:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/i5e5PGIK",
+    "sourceType": "media",
+    "score": 69,
+    "category": "policy",
+    "title": "巴西保健品品牌Growth Supplements正式入驻TikTok Shop",
+    "summary": "AMZ123获悉，巴西保健品品牌Growth Supplements宣布投入200万雷亚尔，正式启动TikTok Shop运营，成为最新布局巴西直播电商的本土品牌。该品牌计划借助TikTok短视频内容及达人带货模式触达巴西消费者，首批上线产品聚焦营养补充剂类目。TikTok Shop巴西站自开放本土店业务以来持续吸引卖家入驻。平台目前推行新商家90天免佣政策并配套流量扶持措施，正逐步成为品牌进入拉美市场的重要渠道。值得注意的是，入驻巴西本土店需持有CNPJ税号并提前将货品备至本地仓库，合规门槛高于跨境直发模式。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "政策合规",
+      "广告营销"
+    ],
+    "eventId": "evt-3c3cccf5b7f8"
+  },
+  {
+    "id": "amz-ZIqzaEVn",
+    "date": "2026-10-11",
+    "time": "07:28",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/ZIqzaEVn",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "美国法院放行IEEPA关税集体诉讼，进口商可追退税",
+    "summary": "AMZ123获悉，美国联邦法院近日裁定，为进口商就IEEPA关税发起的集体诉讼扫清了程序障碍。未单独提起诉讼的进口商，有望通过集体诉讼途径追讨被错误征收的关税。今年2月，最高法院判定IEEPA未授权总统征收关税后，美国海关随即启动了CAPE退款程序。然而，该程序仅覆盖尚未完成清算及清算80天以内的进口条目。若集体诉讼最终获得认证，退款范围将扩展至清算超过80天、经由邮政渠道进口等CAPE暂不支持的情形。对于依赖美国市场的跨境卖家而言，中小商家借助集体诉讼追回关税的成本将显著降低，获得退款的机会也相应增加。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权",
+      "物流仓储"
+    ],
+    "eventId": "evt-02316e9cf20f"
   },
   {
     "id": "was-q-125269",
@@ -811,6 +977,27 @@ window.NEWS_DATA = [
       "知识产权"
     ],
     "eventId": "evt-7d55e69ce4df"
+  },
+  {
+    "id": "189319",
+    "date": "2026-10-10",
+    "time": "11:58",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/189319",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "别只看搜索量，AI正在重做亚马逊关键词分析！",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-3dc70125052a"
   },
   {
     "id": "mjzj-g0rqxyzyglq8",
@@ -41635,7 +41822,7 @@ window.NEWS_DATA = [
       "政策合规"
     ],
     "ref": "https://www.amz123.com/kx/Djx12BhD",
-    "eventId": "evt-e8eb52da7215"
+    "eventId": "evt-901c5dcbaacc"
   },
   {
     "id": "mjzj-fxwnh6q1perk",
@@ -42348,7 +42535,7 @@ window.NEWS_DATA = [
       "TikTok Shop",
       "物流仓储"
     ],
-    "eventId": "evt-2832d0328aa4"
+    "eventId": "evt-33778ef74ce1"
   },
   {
     "id": "amz-rx8uTtB4",
@@ -42518,7 +42705,7 @@ window.NEWS_DATA = [
       "亚马逊",
       "选品"
     ],
-    "eventId": "evt-70afcbe2ea36"
+    "eventId": "evt-c4c1fce5fe07"
   },
   {
     "id": "was-q-124471",
