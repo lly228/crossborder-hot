@@ -362,6 +362,25 @@
     "eventId": "evt-e5805e47fe90"
   },
   {
+    "id": "was-q-115241",
+    "date": "2026-01-19",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/115241",
+    "sourceType": "community",
+    "score": 47,
+    "category": "platform",
+    "title": "list price丢失导致参考价格抓取成了was price，高价持续一个月稳定出单，但依旧抓取的was price，怎样才能刷出list price【CA站】",
+    "summary": "list price丢失导致参考价格抓取成了was price，高价持续一个月稳定出单，但依旧抓取的was price，怎样才能刷出list price【CA站】 - 加拿大站点 有一个产品前几个月是按19.99的价格跑，12月上旬开始提价20.99 21.99到现在保持23.99的价格，每天都能稳定出30+单，但是活动的参考价依旧抓的是was price的价格 。 尝试过 开case帮忙验证，答复是只能等系统抓取；用...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e42fffde3132"
+  },
+  {
     "id": "was-q-115142",
     "date": "2026-01-16",
     "time": "00:00",
@@ -964,6 +983,27 @@
       "广告营销"
     ],
     "eventId": "evt-506710587cdc"
+  },
+  {
+    "id": "was-q-114655",
+    "date": "2026-01-06",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/114655",
+    "sourceType": "community",
+    "score": 61,
+    "category": "policy",
+    "title": "求求大佬提点一下，这样的提成制度是否合理？制度：当月回款-（当月发货货值+当月头程费用）-（亚马逊仓库里的货值、头程费）-各种杂费（使用erp之类的费用、税费等）",
+    "summary": "求求大佬提点一下，这样的提成制度是否合理？制度：当月回款-（当月发货货值+当月头程费用）-（亚马逊仓库里的货值、头程费）-各种杂费（使用erp之类的费用、税费等） - 小白25年4月份转行入职了家小公司，欧洲站点，垂直类精铺模式，低客单价，从助理转到运营才能看到提成制度 制度：当月回款-（当月发货货值+当月头程费用）-（亚马逊仓库里的货值、头程费）-各种杂费（使用erp之类的费用、税费等） 有大佬提点一下嘛，这样...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-f0c85b6954ee"
   },
   {
     "id": "was-q-114590",
