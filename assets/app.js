@@ -27,6 +27,7 @@
   var VIEWS = {
     featured: '最新精选',
     all: '全部动态',
+    hot: '热点榜',
     starred: '我的收藏',
     daily: '跨境日报',
     weekly: '跨境周报',
@@ -48,33 +49,109 @@
   var SOURCE_TYPE_LABEL = { official: '官方', community: '社区' };
   var WEEKDAYS = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
   var STORE_KEY = 'cbhot-starred';
+  var READ_KEY = 'cbhot-read';
+  var THEME_KEY = 'cbhot-theme';
 
   var state = {
     view: 'featured',
     topic: null,
     category: 'all',
     keyword: '',
+    unreadOnly: false,
+    visibleCount: 60,
     dailyDate: null,
-    starred: loadStarred()
+    starred: loadStarred(),
+    read: loadObject(READ_KEY)
   };
 
   var feedEl = document.getElementById('feed');
   var tabsEl = document.getElementById('tabs');
   var emptyEl = document.getElementById('emptyState');
   var emptyTextEl = document.getElementById('emptyText');
+  var retryButtonEl = document.getElementById('retryButton');
+  var readToastEl = document.getElementById('readToast');
+  var undoReadButtonEl = document.getElementById('undoReadButton');
   var titleEl = document.getElementById('feedTitle');
   var searchEl = document.getElementById('searchInput');
   var topicNavEl = document.getElementById('topicNav');
   var mobileNavEl = document.getElementById('mobileNav');
   var freshnessEl = document.getElementById('freshnessLabel');
   var hotspotsEl = document.getElementById('hotspots');
+  var unreadToggleEl = document.getElementById('unreadToggle');
+  var themeToggleEl = document.getElementById('themeToggle');
+  var mobileThemeToggleEl = document.getElementById('mobileThemeToggle');
+  var lastReadKey = null;
+  var readToastTimer = null;
+
+  function loadObject(key) {
+    try {
+      var value = JSON.parse(localStorage.getItem(key) || '{}');
+      return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+    } catch (e) { return {}; }
+  }
 
   function loadStarred() {
-    try { return JSON.parse(localStorage.getItem(STORE_KEY) || '{}'); }
-    catch (e) { return {}; }
+    return loadObject(STORE_KEY);
   }
   function saveStarred() {
     try { localStorage.setItem(STORE_KEY, JSON.stringify(state.starred)); } catch (e) { /* 隐私模式下忽略 */ }
+  }
+  function isStarred(it) {
+    if (state.starred[it.eventId] || state.starred[it.id]) return true;
+    return (it._eventItems || []).some(function (source) { return !!state.starred[source.id]; });
+  }
+  function toggleStar(it) {
+    if (isStarred(it)) {
+      delete state.starred[it.eventId];
+      (window.NEWS_DATA || []).forEach(function (source) {
+        if (source.eventId === it.eventId) delete state.starred[source.id];
+      });
+    } else {
+      state.starred[it.eventId] = 1;
+    }
+    saveStarred();
+    render();
+  }
+
+  function readKey(it) { return it.eventId || it.id; }
+  function isRead(it) { return !!state.read[readKey(it)]; }
+  function saveRead() {
+    try { localStorage.setItem(READ_KEY, JSON.stringify(state.read)); } catch (e) { /* 隐私模式下忽略 */ }
+  }
+  function markUnread(it) {
+    delete state.read[readKey(it)];
+    saveRead();
+    if (lastReadKey === readKey(it)) readToastEl.hidden = true;
+    render();
+  }
+  function markRead(it) {
+    if (isRead(it)) return;
+    lastReadKey = readKey(it);
+    state.read[lastReadKey] = 1;
+    saveRead();
+    readToastEl.hidden = false;
+    clearTimeout(readToastTimer);
+    readToastTimer = setTimeout(function () { readToastEl.hidden = true; }, 8000);
+    setTimeout(render, 0);
+  }
+
+  function initTheme() {
+    var saved = '';
+    try { saved = localStorage.getItem(THEME_KEY) || ''; } catch (e) { /* 隐私模式下忽略 */ }
+    var preferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.dataset.theme = saved || (preferred ? 'dark' : 'light');
+    updateThemeButton();
+  }
+  function updateThemeButton() {
+    var dark = document.documentElement.dataset.theme === 'dark';
+    if (themeToggleEl) {
+      themeToggleEl.textContent = dark ? '☀ 浅色' : '☾ 深色';
+      themeToggleEl.setAttribute('aria-label', dark ? '切换浅色模式' : '切换深色模式');
+    }
+    if (mobileThemeToggleEl) {
+      mobileThemeToggleEl.textContent = dark ? '☀' : '☾';
+      mobileThemeToggleEl.setAttribute('aria-label', dark ? '切换浅色模式' : '切换深色模式');
+    }
   }
 
   function dayLabel(dateStr) {
@@ -138,8 +215,10 @@
 
   function distinctSources(items) {
     var seen = {};
+    var sourceByUrl = {};
+    items.forEach(function (it) { sourceByUrl[it.url] = it.source; });
     return items.filter(function (it) {
-      var key = it.source + '|' + it.url;
+      var key = it.ref ? (sourceByUrl[it.ref] || it.ref) : it.source;
       if (seen[key]) return false;
       seen[key] = true;
       return true;
@@ -168,6 +247,11 @@
 
   function renderFreshness() {
     if (!freshnessEl) return;
+    if (!(window.NEWS_DATA || []).length) {
+      freshnessEl.textContent = '资讯暂不可用';
+      freshnessEl.className = 'freshness freshness-stale';
+      return;
+    }
     var meta = window.NEWS_META || {};
     var latest = meta.latestItemAt || ((allDates()[0] || '') + 'T00:00:00+08:00');
     var when = latest ? new Date(latest) : null;
@@ -186,8 +270,14 @@
       freshnessEl.className = 'freshness freshness-delayed';
       freshnessEl.title = '最近一次抓取有部分来源失败';
     } else if (hours <= 24) {
-      freshnessEl.textContent = '数据已更新';
-      freshnessEl.className = 'freshness freshness-fresh';
+      var latestDate = allDates()[0];
+      var recent = (window.NEWS_DATA || []).filter(function (it) { return it.date === latestDate; });
+      var selectedRecent = recent.filter(function (it) { return it.selected; });
+      var processed = selectedRecent.filter(function (it) { return !!it.why; }).length;
+      var pending = selectedRecent.length > 0 && processed < selectedRecent.length / 2;
+      freshnessEl.textContent = pending ? '已抓取 · 待点评' : '数据已更新';
+      freshnessEl.className = pending ? 'freshness freshness-delayed' : 'freshness freshness-fresh';
+      if (pending) freshnessEl.title = '最近一天的资讯已有抓取数据，但尚无模型生成的推荐理由';
     } else if (hours <= 72) {
       freshnessEl.textContent = '数据延迟' + Math.floor(hours) + '小时';
       freshnessEl.className = 'freshness freshness-delayed';
@@ -213,12 +303,43 @@
   function byTimeDesc(a, b) { return (b.date + b.time).localeCompare(a.date + a.time); }
   function byScoreDesc(a, b) { return (b.score - a.score) || byTimeDesc(a, b); }
 
+  // 以事件为单位统计近48小时的独立信源；同一来源多篇报道只计一次。
+  function hotEvents() {
+    var items = window.NEWS_DATA || [];
+    if (!items.length) return [];
+    var latest = items.map(function (it) { return new Date(it.date + 'T' + (it.time || '00:00') + ':00+08:00').getTime(); })
+      .filter(function (n) { return Number.isFinite(n); })
+      .sort(function (a, b) { return b - a; })[0];
+    if (!latest) return [];
+    var recent = items.filter(function (it) {
+      var time = new Date(it.date + 'T' + (it.time || '00:00') + ':00+08:00').getTime();
+      return Number.isFinite(time) && time >= latest - 48 * 3600000;
+    });
+    return collapseEvents(recent).filter(function (event) {
+      // 没有足够事实内容的快讯不占用热点榜位置。
+      return (event._eventItems || [event]).some(function (it) {
+        return it.sourceType === 'official' || (it.summary || '').length >= 40;
+      });
+    }).map(function (event) {
+      var sources = distinctSources(event._eventItems || [event]);
+      var heat = sources.reduce(function (sum, source) {
+        var time = new Date(source.date + 'T' + (source.time || '00:00') + ':00+08:00').getTime();
+        var ageHours = Math.max(0, (latest - time) / 3600000);
+        var weight = source.sourceType === 'official' ? 1.25 : source.sourceType === 'community' ? 0.6 : 1;
+        return sum + weight * Math.pow(0.5, ageHours / 24);
+      }, 0);
+      event._sourceCount = sources.length;
+      event._heat = Math.round(sources.length * 40 + heat * 30);
+      return event;
+    }).sort(function (a, b) { return (b._heat - a._heat) || byTimeDesc(a, b); });
+  }
+
   function getItems() {
     var items = (window.NEWS_DATA || []).slice();
     if (state.view === 'featured') {
       items = items.filter(function (it) { return it.selected; });
     } else if (state.view === 'starred') {
-      items = items.filter(function (it) { return state.starred[it.id]; });
+      items = items.filter(isStarred);
     } else if (state.view === 'topic') {
       var topic = TOPICS.filter(function (t) { return t.id === state.topic; })[0];
       if (topic) {
@@ -238,7 +359,8 @@
     items = applyCommonFilters(items);
     var isReport = state.view === 'daily' || state.view === 'weekly' || state.view === 'monthly';
     items.sort(isReport ? byScoreDesc : byTimeDesc);
-    if (state.view === 'featured' || isReport) items = collapseEvents(items);
+    if (state.view === 'featured' || state.view === 'starred' || isReport) items = collapseEvents(items);
+    if (state.unreadOnly && !isReport) items = items.filter(function (it) { return !isRead(it); });
     if (state.view === 'weekly') items = items.slice(0, 30);
     if (state.view === 'monthly') items = items.slice(0, 60);
     return items;
@@ -251,6 +373,20 @@
     feedEl.innerHTML = '';
     renderHotspots();
 
+    if (!(window.NEWS_DATA || []).length) {
+      emptyEl.hidden = false;
+      emptyTextEl.textContent = '资讯数据暂不可用，请稍后刷新页面';
+      retryButtonEl.hidden = false;
+      return;
+    }
+    retryButtonEl.hidden = true;
+
+    if (state.view === 'hot') {
+      emptyEl.hidden = true;
+      renderHotRanking();
+      return;
+    }
+
     if (REPORT_CFG[state.view]) {
       emptyEl.hidden = true;
       renderReport(items);
@@ -259,7 +395,8 @@
     if (!items.length) {
       emptyEl.hidden = false;
       emptyTextEl.textContent =
-        state.view === 'starred' ? '还没有收藏，点条目右侧的星标即可收藏'
+        state.view === 'starred' && !Object.keys(state.starred).length ? '还没有收藏，点条目右侧的星标即可收藏'
+        : state.unreadOnly ? '没有未读结果，调整搜索或关闭只看未读'
         : state.view === 'featured' ? '这个筛选下暂时没有精选条目，可以切到全部查看'
         : '没有匹配的条目，换个关键词或分类试试';
       return;
@@ -276,67 +413,109 @@
       hotspotsEl.hidden = true;
       return;
     }
-    var latest = allDates()[0];
-    if (!latest) {
-      hotspotsEl.hidden = true;
-      return;
-    }
-    var from = shiftDate(latest, -2);
-    var events = collapseEvents((window.NEWS_DATA || []).filter(function (it) {
-      return it.selected && it.date >= from;
-    }));
-    events.sort(function (a, b) {
-      var aSources = distinctSources(a._eventItems || [a]).length;
-      var bSources = distinctSources(b._eventItems || [b]).length;
-      var aRank = Number(a.score || 0) + (aSources - 1) * 8;
-      var bRank = Number(b.score || 0) + (bSources - 1) * 8;
-      return (bRank - aRank) || byTimeDesc(a, b);
-    });
-    events = events.slice(0, 5);
+    var events = hotEvents().filter(function (it) { return !state.unreadOnly || !isRead(it); }).slice(0, 5);
     if (!events.length) {
       hotspotsEl.hidden = true;
       return;
     }
 
     var head = el('div', 'hotspots-head');
-    head.appendChild(el('h2', 'hotspots-title', '最新重要' + events.length + '件事'));
-    head.appendChild(el('span', 'hotspots-range', shortDate(from) + ' 至 ' + shortDate(latest)));
+    head.appendChild(el('h2', 'hotspots-title', '当前热点'));
+    var more = el('button', 'hotspots-more', '完整榜单 →');
+    more.type = 'button';
+    more.addEventListener('click', function () { setView('hot'); });
+    head.appendChild(more);
     hotspotsEl.appendChild(head);
     var list = el('ol', 'hotspots-list');
     events.forEach(function (it) {
       var sources = distinctSources(it._eventItems || [it]);
       var li = el('li', 'hotspot-item');
+      if (isRead(it)) li.classList.add('hotspot-read');
       var link = el('a', 'hotspot-link', it.title);
       link.href = it.url;
       link.target = '_blank';
       link.rel = 'noopener';
       li.appendChild(link);
-      li.appendChild(el(
-        'span',
-        'hotspot-meta',
-        sources.length > 1 ? sources.length + '个信源报道' : it.source
-      ));
+      link.addEventListener('click', function () { markRead(it); });
+      li.appendChild(el('span', 'hotspot-meta', it._heat + ' 热度 · ' + sources.length + ' 个信源'));
       list.appendChild(li);
     });
     hotspotsEl.appendChild(list);
     hotspotsEl.hidden = false;
   }
 
+  function renderHotRanking() {
+    var intro = el('div', 'hot-intro');
+    intro.appendChild(el('p', 'hot-kicker', 'TRENDING · 48 HOURS'));
+    intro.appendChild(el('h2', 'hot-intro-title', '过去48小时，大家在关注什么'));
+    intro.appendChild(el('p', 'hot-intro-copy', '同一件事合并展示，每个独立信源只计一次。来源数决定基础热度，时效加分每24小时减半；仅纳入有事实摘要或官方来源的事件。'));
+    feedEl.appendChild(intro);
+    var events = hotEvents().filter(function (it) {
+      if (state.category !== 'all' && it.category !== state.category) return false;
+      if (state.keyword && (it.title + (it.summary || '')).toLowerCase().indexOf(state.keyword.toLowerCase()) < 0) return false;
+      return !state.unreadOnly || !isRead(it);
+    });
+    if (!events.length) {
+      feedEl.appendChild(el('p', 'mag-empty', '这个筛选下暂无热点'));
+      return;
+    }
+    var list = el('ol', 'hot-ranking');
+    events.slice(0, 30).forEach(function (it, i) {
+      var item = el('li', isRead(it) ? 'hot-rank-item hot-rank-read' : 'hot-rank-item');
+      item.appendChild(el('span', 'hot-rank-number', ('0' + (i + 1)).slice(-2)));
+      var body = el('div', 'hot-rank-body');
+      var rankMeta = el('div', 'hot-rank-meta', CAT_LABEL[it.category] + ' · ' + it._sourceCount + ' 个独立信源');
+      if (isRead(it)) {
+        var rankUnread = el('button', 'mark-unread', '已读 · 标为未读');
+        rankUnread.type = 'button';
+        rankUnread.addEventListener('click', function () { markUnread(it); });
+        rankMeta.appendChild(rankUnread);
+      }
+      body.appendChild(rankMeta);
+      var link = el('a', 'hot-rank-title', it.title);
+      link.href = it.url;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      link.addEventListener('click', function () { markRead(it); });
+      body.appendChild(link);
+      if (it.summary) body.appendChild(el('p', 'hot-rank-summary', it.summary));
+      item.appendChild(body);
+      var heat = el('div', 'hot-rank-heat');
+      heat.appendChild(el('strong', null, String(it._heat)));
+      heat.appendChild(el('span', null, '热度'));
+      item.appendChild(heat);
+      list.appendChild(item);
+    });
+    feedEl.appendChild(list);
+  }
+
   function renderTimeline(items) {
     var currentDate = null, idx = 0;
-    items.forEach(function (it) {
+    var counts = {};
+    items.forEach(function (it) { counts[it.date] = (counts[it.date] || 0) + 1; });
+    items.slice(0, state.visibleCount).forEach(function (it) {
       if (it.date !== currentDate) {
         currentDate = it.date;
         var day = dayLabel(it.date);
         var bar = document.createElement('div');
         bar.className = 'daybar';
-        bar.innerHTML = '<span class="daybar-main"></span><span class="daybar-sub"></span>';
+        bar.innerHTML = '<span class="daybar-main"></span><span class="daybar-sub"></span><span class="daybar-count"></span>';
         bar.children[0].textContent = day.main;
         bar.children[1].textContent = day.sub;
+        bar.children[2].textContent = counts[it.date] + ' 条';
         feedEl.appendChild(bar);
       }
       feedEl.appendChild(renderRow(it, idx++, false));
     });
+    if (items.length > state.visibleCount) {
+      var more = el('button', 'load-more', '继续查看 · 还有 ' + (items.length - state.visibleCount) + ' 条');
+      more.type = 'button';
+      more.addEventListener('click', function () {
+        state.visibleCount += 60;
+        render();
+      });
+      feedEl.appendChild(more);
+    }
   }
 
   // ---------- 杂志式报告（日报/周报/月报） ----------
@@ -445,6 +624,7 @@
         title.href = it.url;
         title.target = '_blank';
         title.rel = 'noopener';
+        title.addEventListener('click', function () { markRead(it); });
         block.appendChild(title);
         var meta = el('div', 'mag-item-meta');
         meta.appendChild(el('span', null, it.source));
@@ -512,11 +692,11 @@
     var prev = el('button', null, '‹ 前一日');
     prev.type = 'button';
     prev.disabled = i < 0 || i >= dates.length - 1;
-    prev.addEventListener('click', function () { state.dailyDate = dates[i + 1]; render(); });
+    prev.addEventListener('click', function () { state.dailyDate = dates[i + 1]; render(); window.scrollTo(0, 0); });
     var next = el('button', null, '后一日 ›');
     next.type = 'button';
     next.disabled = i <= 0;
-    next.addEventListener('click', function () { state.dailyDate = dates[i - 1]; render(); });
+    next.addEventListener('click', function () { state.dailyDate = dates[i - 1]; render(); window.scrollTo(0, 0); });
     nav.appendChild(prev);
     nav.appendChild(next);
     return nav;
@@ -524,7 +704,7 @@
 
   function renderRow(it, idx, withDate) {
     var row = document.createElement('article');
-    row.className = 'row';
+    row.className = isRead(it) ? 'row row-read' : 'row';
     row.style.animationDelay = Math.min(idx, 12) * 40 + 'ms';
 
     var time = document.createElement('span');
@@ -563,8 +743,14 @@
     var score = document.createElement('span');
     score.className = scoreClass(it.score);
     score.textContent = it.score;
-    score.title = '热度分';
+    score.title = '经营影响分';
     meta.appendChild(score);
+    if (isRead(it)) {
+      var unread = el('button', 'mark-unread', '标为未读');
+      unread.type = 'button';
+      unread.addEventListener('click', function () { markUnread(it); });
+      meta.appendChild(unread);
+    }
 
     var title = document.createElement('a');
     title.className = 'row-title';
@@ -572,6 +758,7 @@
     title.target = '_blank';
     title.rel = 'noopener';
     title.textContent = it.title;
+    title.addEventListener('click', function () { markRead(it); });
 
     body.appendChild(meta);
     body.appendChild(title);
@@ -625,16 +812,13 @@
 
     var star = document.createElement('button');
     star.type = 'button';
-    var on = !!state.starred[it.id];
+    var on = isStarred(it);
     star.className = on ? 'star star-on' : 'star';
     star.textContent = on ? '★' : '☆';
     star.setAttribute('aria-label', on ? '取消收藏' : '收藏');
     star.setAttribute('aria-pressed', String(on));
     star.addEventListener('click', function () {
-      if (state.starred[it.id]) delete state.starred[it.id];
-      else state.starred[it.id] = 1;
-      saveStarred();
-      render();
+      toggleStar(it);
     });
 
     row.appendChild(time);
@@ -657,25 +841,30 @@
       b.textContent = c.label;
       b.addEventListener('click', function () {
         state.category = c.id;
+        state.visibleCount = 60;
         renderTabs();
         render();
+        window.scrollTo(0, 0);
       });
       tabsEl.appendChild(b);
     });
   }
 
   function setView(view, topicId) {
-    state.view = view;
+    state.view = (VIEWS[view] || view === 'topic') ? view : 'featured';
+    state.visibleCount = 60;
     state.topic = topicId || null;
     if (view !== 'daily') state.dailyDate = null;
     if (view === 'topic') {
       var topic = TOPICS.filter(function (t) { return t.id === topicId; })[0];
       titleEl.textContent = topic ? '主题 · ' + topic.label : '主题';
     } else {
-      titleEl.textContent = VIEWS[view] || VIEWS.featured;
+      titleEl.textContent = VIEWS[state.view] || VIEWS.featured;
     }
+    if (unreadToggleEl) unreadToggleEl.hidden = !!REPORT_CFG[state.view];
     syncNavActive();
     render();
+    window.scrollTo(0, 0);
   }
 
   function syncNavActive() {
@@ -729,6 +918,7 @@
   // ---------- 启动 ----------
 
   normalizeNewsItems();
+  initTheme();
   renderFreshness();
 
   (function () {
@@ -742,8 +932,35 @@
     clearTimeout(searchTimer);
     searchTimer = setTimeout(function () {
       state.keyword = searchEl.value.trim();
+      state.visibleCount = 60;
       render();
     }, 200);
+  });
+
+  if (unreadToggleEl) unreadToggleEl.addEventListener('click', function () {
+    state.unreadOnly = !state.unreadOnly;
+    state.visibleCount = 60;
+    unreadToggleEl.setAttribute('aria-pressed', String(state.unreadOnly));
+    unreadToggleEl.classList.toggle('filter-on', state.unreadOnly);
+    render();
+  });
+  function toggleTheme() {
+    var dark = document.documentElement.dataset.theme === 'dark';
+    document.documentElement.dataset.theme = dark ? 'light' : 'dark';
+    try { localStorage.setItem(THEME_KEY, document.documentElement.dataset.theme); } catch (e) { /* 隐私模式下忽略 */ }
+    updateThemeButton();
+  }
+  if (themeToggleEl) themeToggleEl.addEventListener('click', toggleTheme);
+  if (mobileThemeToggleEl) mobileThemeToggleEl.addEventListener('click', toggleTheme);
+  if (retryButtonEl) retryButtonEl.addEventListener('click', function () { location.reload(); });
+  if (undoReadButtonEl) undoReadButtonEl.addEventListener('click', function () {
+    if (lastReadKey) {
+      delete state.read[lastReadKey];
+      saveRead();
+      lastReadKey = null;
+      readToastEl.hidden = true;
+      render();
+    }
   });
 
   buildNav();

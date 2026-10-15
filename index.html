@@ -13,42 +13,52 @@
 
     <aside class="sidebar">
       <div class="brand">
-        <span class="brand-mark">跨境<em>HOT</em></span>
-        <span class="brand-sub">跨境电商信息精选</span>
+        <span class="brand-mark"><i aria-hidden="true"></i>跨境<em>HOT</em></span>
+        <span class="brand-sub">SELLER INTELLIGENCE</span>
       </div>
       <nav class="side-nav" aria-label="侧边导航">
         <div class="side-label">内容</div>
         <button class="side-link" type="button" data-view="featured">精选</button>
-        <button class="side-link" type="button" data-view="all">全部</button>
-        <button class="side-link" type="button" data-view="starred">收藏</button>
-        <div class="side-label">报告</div>
+        <button class="side-link" type="button" data-view="all">全部动态</button>
+        <button class="side-link" type="button" data-view="hot">热点榜</button>
         <button class="side-link" type="button" data-view="daily">日报</button>
         <button class="side-link" type="button" data-view="weekly">周报</button>
         <button class="side-link" type="button" data-view="monthly">月报</button>
+        <button class="side-link" type="button" data-view="starred">收藏</button>
         <div class="side-label">主题</div>
         <div id="topicNav"></div>
       </nav>
-      <div class="side-foot">MVP · 数据仅供参考</div>
+      <div class="side-foot">
+        <button id="themeToggle" class="theme-toggle" type="button">☾ 深色</button>
+        <a href="https://github.com/lly228/crossborder-hot" target="_blank" rel="noopener">GitHub 开源 ↗</a>
+        <span>公开信源 · 原文归作者所有</span>
+      </div>
     </aside>
 
     <main class="main">
       <header class="topbar">
         <div class="topbar-left">
-          <span class="brand-mark brand-mark-mobile">跨境<em>HOT</em></span>
+          <span class="brand-mark brand-mark-mobile"><i aria-hidden="true"></i>跨境<em>HOT</em></span>
           <span class="today" id="todayLabel"></span>
           <span class="freshness" id="freshnessLabel" aria-live="polite"></span>
         </div>
+        <button id="mobileThemeToggle" class="theme-toggle mobile-theme-toggle" type="button" aria-label="切换深色模式">☾</button>
         <div class="searchbox">
           <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.3-4.3M17 10.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/></svg>
-          <input id="searchInput" type="search" placeholder="搜索标题、来源" aria-label="搜索资讯">
+          <input id="searchInput" type="search" placeholder="搜索资讯" aria-label="搜索标题、摘要和来源">
         </div>
       </header>
 
       <div class="mobile-nav" id="mobileNav" aria-label="视图与主题导航"></div>
 
       <div class="feed-head">
+        <p class="feed-kicker">CROSS BORDER BRIEFING <span>／ 每日跨境情报</span></p>
         <h1 class="feed-title" id="feedTitle">最新精选</h1>
-        <div class="tabs" role="tablist" aria-label="分类筛选" id="tabs"></div>
+        <p class="feed-description">从公开信源里找到值得卖家花时间阅读的变化。</p>
+        <div class="feed-toolbar">
+          <div class="tabs" role="tablist" aria-label="分类筛选" id="tabs"></div>
+          <button id="unreadToggle" class="unread-toggle" type="button" aria-pressed="false">只看未读</button>
+        </div>
       </div>
 
       <section id="hotspots" class="hotspots" aria-labelledby="hotspotsTitle" hidden></section>
@@ -58,10 +68,17 @@
       <div id="emptyState" class="empty" hidden>
         <div class="empty-icon">◎</div>
         <p class="empty-text" id="emptyText">没有匹配的条目</p>
+        <button id="retryButton" class="retry-button" type="button" hidden>刷新页面</button>
+      </div>
+
+      <div id="readToast" class="read-toast" role="status" hidden>
+        <span>已标为已读</span>
+        <button id="undoReadButton" type="button">撤销</button>
       </div>
 
       <footer class="pagefoot">
-        跨境HOT MVP · 内容抓取自公开资讯源，版权归原作者 · 点评为站内编辑观点
+        跨境HOT · 公开资料聚合与编辑精选 · 原文版权归各来源所有<br>
+        页面设计与内容方法参考 <a href="https://aihot.news/" target="_blank" rel="noopener">AIHOT</a>
       </footer>
     </main>
 

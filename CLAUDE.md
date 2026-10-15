@@ -2,7 +2,7 @@
 
 ## 项目定位
 
-仿 aihot.virxact.com 风格的跨境电商资讯精选静态站，MVP阶段。纯静态无构建，禁止引入打包工具和框架，保持双击 index.html 可用。
+参考 aihot.news 阅读界面和内容方法的跨境电商资讯静态站。纯静态无构建，禁止引入打包工具和框架，保持双击 index.html 可用。
 
 ## 约定
 
@@ -10,13 +10,15 @@
 - 数据字段 schema 见 README.md「数据字段」一节，新增字段要同步更新 README、`scripts/fetch_news.py` 和 `scripts/enrich_llm.py`。
 - 分类枚举固定五个：platform / policy / logistics / marketing / market，对应中文见 `assets/app.js` 里的 CATEGORIES。加分类要同时改 app.js、fetch_news.py 的关键词表和 enrich_llm.py 的 prompt。
 - 视图逻辑全在 `assets/app.js`：精选由条目的 `selected` 布尔字段决定，`score` 只表示经营影响强度；旧数据缺 `selected` 时才用 FEATURED_MIN_SCORE=65 兜底。主题是 TOPICS 里的正则关键词，日报/周报/月报是纯前端对 NEWS_DATA 的过滤排序，没有独立数据文件。改主题只动 TOPICS 数组。
+- 热点榜按最近48小时的 `eventId` 聚合，每个来源只计一次；独立来源数决定基础热度，时效加分每24小时减半。只展示有足够事实摘要或官方来源的事件。热点热度与经营影响分是两套值。
+- 收藏、已读与深浅色设置保存在浏览器 `localStorage`，无需账号；数据仍来自本地脚本文件，`file://` 必须可用。
 - 同一事件用 `eventId` 聚合。`scripts/fetch_news.py` 每次写数据前会按标题相似度补齐事件ID；精选流折叠同事件条目，全部动态保留原始条目。
 - 数据鲜度放在 `data/meta.js` 的 `window.NEWS_META`，由抓取脚本每次运行后更新。页面仍然不能通过fetch读取本地数据。
 - AMZ123 的发现方式是从已知快讯页链式爬（amz123_discover），种子来自库里最近的 amz-条目和转载ref，断种子时用 AMZ_SEED 兜底。它家 sitemap 是坏的，列表页是客户端渲染，别试。
 - 加数据源：在 `scripts/fetch_news.py` 的 SOURCES 注册表里加一项（discover / detail_accept / detail_time / detail_summary / detail_title / match_id），只接服务端渲染且robots允许访问的公开源。同步设置`source_type`，取值仅限official / media / community。改完跑 `python scripts/test_fetch.py`。
 - LLM密钥放 `.env.local`（已gitignore）或环境变量 CBHOT_LLM_API_KEY，禁止写进代码、commit和派工prompt。
 - 设计令牌集中在 `assets/style.css` 的 `:root`，遵循 `~/.claude/rules/design_template.md` 的变量命名。不要写死色值到组件样式里。
-- 视觉基准是 aihot 的浅色时间线风格：白底、40px等宽时间列、衬线体日期栏、评分按档位着色（>=75 绿、>=65 品牌橙、其余灰）。改版式前先对照参考站。
+- 视觉基准是新版 aihot.news 的浅色侧栏与卡片时间线，但保留跨境HOT字标和行业内容：近白背景、青绿导航与时间轴、等宽时间列、无衬线日期。经营影响分按档位着色（>=75 绿、>=65 独立橙色、其余灰），不能把热点热度与该分数混同。深色模式需覆盖全站。改版式前先对照参考站与 `docs/ui-20261015-aihot-inspired.md`。
 
 ## 踩坑记录
 
