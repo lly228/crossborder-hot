@@ -17,11 +17,12 @@
 
   var TOPICS = [
     { id: 'amazon', label: '亚马逊', re: /亚马逊|Amazon|FBA|FBM|Prime/i },
-    { id: 'tiktok', label: 'TikTok Shop', re: /TikTok/i },
-    { id: 'temu', label: 'Temu·SHEIN·速卖通', re: /Temu|SHEIN|速卖通|AliExpress|全托管/i },
-    { id: 'sea', label: '东南亚', re: /Shopee|Lazada|东南亚|泰国|菲律宾|越南|马来|印尼|新加坡/i },
-    { id: 'compliance', label: '合规与知产', re: /关税|合规|征税|补税|商标|专利|维权|发案|新规|监管|封号|下架|侵权|版权/i },
-    { id: 'logi', label: '物流仓储', re: /物流|海运|空运|海外仓|清关|仓储|履约|尾程|头程|港口|订舱/i }
+    { id: 'independent', label: '独立站', re: /独立站|自建站|Shopify|SHOPLINE|Shoplazza|店匠|WooCommerce|BigCommerce|Magento|DTC|建站/i },
+    { id: 'other-platforms', label: 'TK／Temu等平台', re: /TikTok|\bTK\b|Temu|SHEIN|速卖通|AliExpress|Shopee|Lazada|eBay|Etsy|沃尔玛|Walmart|Wayfair|eMAG|Ozon|美客多|Mercado Libre|Wildberries|野莓|Flipkart|Allegro|Coupang|Rakuten|乐天|Noon|Jumia|Miravia|Trendyol/i },
+    { id: 'finance', label: '财务', re: /财务|财税|税务|报税|VAT|增值税|销售税|所得税|税收|征税|关税|利润|毛利|成本|账期|汇率|外汇|结算|支付|收款|账单|对账|发票|回款|资金|融资|破产|债务|亏损|现金流/i },
+    { id: 'logistics', label: '物流', re: /物流|运输|海运|空运|清关|仓储|海外仓|FBA|履约|配送|快递|运费|尾程|头程|港口|集装箱|货代|订舱/i },
+    { id: 'supply-chain', label: '供应链', re: /供应链|供应商|采购(?!发票)|工厂|制造|生产|备货|补货|缺货|断货|库存管理|库存周转|库存积压|库存预警|选品|产品开发|原材料|产能|交期|供货|代工/i },
+    { id: 'compliance', label: '合规', re: /合规|政策|法规|监管|商标|专利|知识产权|侵权|版权|禁令|新规|认证|召回|封号|账户审核|关税|海关|报关|违规|税法|税局|申报/i }
   ];
 
   var VIEWS = {
@@ -343,7 +344,7 @@
     } else if (state.view === 'topic') {
       var topic = TOPICS.filter(function (t) { return t.id === state.topic; })[0];
       if (topic) {
-        items = items.filter(function (it) { return topic.re.test(it.title + (it.summary || '')); });
+        items = items.filter(function (it) { return topic.re.test(it.title); });
       }
     } else if (state.view === 'daily') {
       var date = state.dailyDate || allDates()[0];

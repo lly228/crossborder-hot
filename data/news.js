@@ -599,25 +599,6 @@ window.NEWS_DATA = [
     "eventId": "evt-ef846fd6b1e4"
   },
   {
-    "id": "mjzj-g19k2se06w3k",
-    "date": "2026-10-15",
-    "time": "11:45",
-    "source": "卖家之家",
-    "url": "https://mjzj.com/article/g19k2se06w3k",
-    "sourceType": "media",
-    "score": 55,
-    "category": "market",
-    "title": "OpenAI基础设施与算力负责人辞职，留任顾问",
-    "summary": "OpenAI的算力组织对其整体战略至关重要；其任务是制定公司的基础设施路线图，并确保公司能够训练和提供模型服务。",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [],
-    "eventId": "evt-24173d4f0c5b"
-  },
-  {
     "id": "mjzj-g19ldg6cixvk",
     "date": "2026-10-15",
     "time": "11:39",
@@ -3094,26 +3075,6 @@ window.NEWS_DATA = [
     "eventId": "evt-4477124f7934"
   },
   {
-    "id": "mjzj-g15rl3filyio",
-    "date": "2026-10-14",
-    "time": "10:00",
-    "source": "卖家之家",
-    "url": "https://mjzj.com/article/g15rl3filyio",
-    "sourceType": "media",
-    "score": 55,
-    "category": "market",
-    "title": "东南亚头部大卖曝裁员？想“镀金”的小白月薪倒欠5K",
-    "summary": "东南亚跨境电商大厂参保人数2025年降至680余人，同比缩减近两成，员工曝月加班83小时、月薪仅5500元，部分月份倒欠公司5千元，公司同步裁撤传统运营岗并高薪招聘AI人才。",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [],
-    "ref": "https://www.amz123.com/t/pDlPWfFF",
-    "eventId": "evt-5c3d65c1e472"
-  },
-  {
     "id": "mjzj-g15renczpsld",
     "date": "2026-10-14",
     "time": "09:58",
@@ -3196,25 +3157,6 @@ window.NEWS_DATA = [
     "eventId": "evt-39576b4aedee"
   },
   {
-    "id": "was-q-125426",
-    "date": "2026-10-14",
-    "time": "09:28",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/125426",
-    "sourceType": "community",
-    "score": 47,
-    "category": "market",
-    "title": "论自学和请教同行的大半年的学习结果，顺带吐槽这两年的遭遇，麻烦各位大佬指点一下我还要往哪方面补充基础，感觉现在还是有很多东西欠缺",
-    "summary": "论自学和请教同行的大半年的学习结果，顺带吐槽这两年的遭遇，麻烦各位大佬指点一下我还要往哪方面补充基础，感觉现在还是有很多东西欠缺 - 想跟各位大佬检验一下我的学习历程，哪有问题还希望各位大佬不吝赐教。先浪费点口舌说一下本人发展历程，也可以跳过这部分，单纯是也比较迷茫，想把这一两年的遭遇说出来。不喜欢看的可以直接下滑到底下重点。 NPC发展史——人物：NPC 年龄：20 MBTI：INF...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [],
-    "eventId": "evt-8fcc7d44ba7f"
-  },
-  {
     "id": "was-q-125406",
     "date": "2026-10-14",
     "time": "09:28",
@@ -3235,25 +3177,6 @@ window.NEWS_DATA = [
       "广告营销"
     ],
     "eventId": "evt-fea85def87f2"
-  },
-  {
-    "id": "was-q-125417",
-    "date": "2026-10-14",
-    "time": "09:28",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/125417",
-    "sourceType": "community",
-    "score": 47,
-    "category": "market",
-    "title": "36岁深圳电商宝妈，郑州房子已还清、两个女儿在深圳上学，运营干不动了还能怎么给自己留后路？",
-    "summary": "36岁深圳电商宝妈，郑州房子已还清、两个女儿在深圳上学，运营干不动了还能怎么给自己留后路？ - 前两天看到同行在讨论“运营35岁失业”的话题，心头一震。转眼间我自己也36了，作为一个在深圳拼搏多年的电商宝妈，突然有一种深深的精力透支感。 当年拼尽全力在郑州买了房，好在咬咬牙把房贷还清了，算是在老家给自己留了个落脚的地方。现在两个女儿都在深圳上学，每...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [],
-    "eventId": "evt-7d6ef4d4c56b"
   },
   {
     "id": "was-q-125412",
@@ -3624,29 +3547,6 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-5f6da0d94420"
-  },
-  {
-    "id": "was-q-125391",
-    "date": "2026-10-14",
-    "time": "06:04",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/125391",
-    "sourceType": "community",
-    "score": 57,
-    "category": "policy",
-    "title": "待业3年、亚马逊店铺注册4个月还没定下产品，美区太卷了吗，我该怎么选品入场？",
-    "summary": "待业3年、亚马逊店铺注册4个月还没定下产品，美区太卷了吗，我该怎么选品入场？ - 不敢想吧！三年没工作。听了朋友聊起电商的内容感觉好像自己又行了。 就在六月份把亚马逊店铺注册了下来。店铺下来到现在已经是四个月了，在这期间也一直在选品，也借助第三方工具去选。选中好几个，一个有专利、其他没有利润，心态有点稳不住。按照一...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [
-      "亚马逊",
-      "知识产权",
-      "选品"
-    ],
-    "eventId": "evt-e6349b0f35ca"
   },
   {
     "id": "was-q-125390",
@@ -4776,28 +4676,6 @@ window.NEWS_DATA = [
     "eventId": "evt-f6b6b34ce3bd"
   },
   {
-    "id": "mjzj-g12roj3ev75s",
-    "date": "2026-10-13",
-    "time": "13:47",
-    "source": "卖家之家",
-    "url": "https://mjzj.com/article/g12roj3ev75s",
-    "sourceType": "media",
-    "score": 65,
-    "category": "marketing",
-    "title": "亚马逊夫妻店最难熬的，不是生意差，而是工作和生活彻底混在一起",
-    "summary": "如果只看社交平台上的截图，亚马逊似乎总是一个充满机会的行业：爆单、冲排名、旺季翻倍、一个链接养活一家公司。但真正做过的人知道，经营从来没有那么单线条。白天谈广告，晚上吃饭还在谈库存，很多判断都不是一句“继续”或者“停掉”就能解决。 这篇文章想聊的，就是“夫妻创业”背后的真实经营逻辑。核心其实并不复杂：夫妻店最难的是没有下班时间。与其被一个数字牵着走，不如把问题拆开，看清钱、时间、库存、团队和风险到底发生了什么变化。",
-    "selected": true,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [
-      "亚马逊",
-      "广告营销"
-    ],
-    "eventId": "evt-1743b1485dbb"
-  },
-  {
     "id": "mjzj-g12raxxi6znk",
     "date": "2026-10-13",
     "time": "13:40",
@@ -5690,25 +5568,6 @@ window.NEWS_DATA = [
       "TikTok Shop"
     ],
     "eventId": "evt-b51344205804"
-  },
-  {
-    "id": "was-q-125340",
-    "date": "2026-10-13",
-    "time": "07:39",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/125340",
-    "sourceType": "community",
-    "score": 47,
-    "category": "market",
-    "title": "边上班边单干，真的扛得住吗？大家是怎么挤出精力做副业的？人和人的精力差距真的这么大吗？",
-    "summary": "边上班边单干，真的扛得住吗？大家是怎么挤出精力做副业的？人和人的精力差距真的这么大吗？ - 想问下大家，一边上班一边搞副业，真的有足够精力吗？ 一边上班一边做副业好处确实很稳，有持续收入兜底，经济压力会小很多。 但我光是想想就觉得特别累，很容易精力分散。很好奇大家是怎么挤出精力做副业的？人和人的精力差距真的这么大吗？ 我现在上班就已经被消耗得差...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [],
-    "eventId": "evt-55f194603f23"
   },
   {
     "id": "was-q-125346",
@@ -8076,48 +7935,6 @@ window.NEWS_DATA = [
     "eventId": "evt-b213f93de6e5"
   },
   {
-    "id": "was-q-125294",
-    "date": "2026-10-12",
-    "time": "07:17",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/125294",
-    "sourceType": "community",
-    "score": 47,
-    "category": "marketing",
-    "title": "面试了三十多个运营，发现简历上最缺的不是业绩，是想法",
-    "summary": "面试了三十多个运营，发现简历上最缺的不是业绩，是想法 - 最近集中面了一批运营，说点真实的观察，可能对正在写简历、准备跳槽的朋友有点用。 大部分简历长这样：某平台运营三年，负责过几个链接，月销从 X 做到 X，会开广告、会报活动、会看数据。数字都不难看。 但面到“你觉得当时为什么能涨？如果再来一次你会怎么打...”",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [
-      "广告营销"
-    ],
-    "eventId": "evt-3f408e4c760c"
-  },
-  {
-    "id": "was-q-125298",
-    "date": "2026-10-12",
-    "time": "07:17",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/125298",
-    "sourceType": "community",
-    "score": 53,
-    "category": "platform",
-    "title": "入职亚马逊已经2.5年了，目前26岁，我想问问我是否该跳槽（第一次发帖）",
-    "summary": "入职亚马逊已经2.5年了，目前26岁，我想问问我是否该跳槽（第一次发帖） - 我已经入职亚马逊2.5年了，这是我第一家亚马逊公司，目前我们部门经历了大裁员，主要原因是货物滞销导致的严重亏损，目前薪资8K，提成1千左右，目前部门的情况是属于没有新品，刚刚处理完滞销产品，处于需要稳定的阶段，开品比较缓慢（可以说没有）。 我这边的业...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [
-      "亚马逊"
-    ],
-    "eventId": "evt-9f6e90300c3d"
-  },
-  {
     "id": "was-q-125299",
     "date": "2026-10-12",
     "time": "07:17",
@@ -9468,26 +9285,6 @@ window.NEWS_DATA = [
     "eventId": "evt-fd3a27f9fed8"
   },
   {
-    "id": "mjzj-g0s8dpbc28lc",
-    "date": "2026-10-10",
-    "time": "14:59",
-    "source": "卖家之家",
-    "url": "https://mjzj.com/article/g0s8dpbc28lc",
-    "sourceType": "media",
-    "score": 55,
-    "category": "market",
-    "title": "字节TRAE原负责人石扬离职",
-    "summary": "字节TRAE原负责人石扬节前离职，拟与前字节AI数据与安全负责人傅越在AI办公领域创业，已完成首轮融资，估值约2亿美元。",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [],
-    "ref": "https://www.pai.com.cn/p/01m4fmsc59e5sh03g5jhm0yt34",
-    "eventId": "evt-fab145620e47"
-  },
-  {
     "id": "mjzj-g0s8ei79sf0g",
     "date": "2026-10-10",
     "time": "14:59",
@@ -9800,27 +9597,6 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-9cbca7a84629"
-  },
-  {
-    "id": "was-q-125260",
-    "date": "2026-10-10",
-    "time": "10:34",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/125260",
-    "sourceType": "community",
-    "score": 53,
-    "category": "platform",
-    "title": "公司强硬要求老运营带新人，新人只有有利润了才能拿提成",
-    "summary": "公司强硬要求老运营带新人，新人只有有利润了才能拿提成 - 公司内部运营都是自己运营产品，没人任何什么头衔之类的。反正搞好业绩就好，本人从事亚马逊运营5年以上。早些年也带人，起码带了5-8个，有刚毕业的，有有经验的，基本都走完了。我们叫的是组长，当时呢，每个月加底薪800.另外拿组员的提成，是拿组员的提成中的百分之...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [
-      "亚马逊"
-    ],
-    "eventId": "evt-b195af81a30f"
   },
   {
     "id": "mjzj-g0rjz83w86ps",
@@ -16386,25 +16162,6 @@ window.NEWS_DATA = [
     "eventId": "evt-3aeab9cf99df"
   },
   {
-    "id": "was-q-125163",
-    "date": "2026-10-07",
-    "time": "11:01",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/125163",
-    "sourceType": "community",
-    "score": 47,
-    "category": "market",
-    "title": "离职后找了差不多两个月，还没找到工作，感觉心气都没了",
-    "summary": "离职后找了差不多两个月，还没找到工作，感觉心气都没了 - 8月干不下去了，就离职了，结果找了两个月，都没几个面试的，可能看我30好几了，做的都是低客单价的产品，还没管理的经验。要的工资也一降再降，差不多7年的精品，要11k，都没多少面试。想找家附近的，看了看附近的工作，要求真高，有的要求运营要做开发的工作，每个月...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [],
-    "eventId": "evt-131bb31b4673"
-  },
-  {
     "id": "was-q-125167",
     "date": "2026-10-07",
     "time": "11:01",
@@ -20916,25 +20673,6 @@ window.NEWS_DATA = [
     "eventId": "evt-829bcae04a97"
   },
   {
-    "id": "mjzj-fzt2c4o0wu0w",
-    "date": "2026-09-30",
-    "time": "18:25",
-    "source": "卖家之家",
-    "url": "https://mjzj.com/article/fzt2c4o0wu0w",
-    "sourceType": "media",
-    "score": 55,
-    "category": "market",
-    "title": "跨境行业：单休、大小周不吃香了？招聘卷向双休",
-    "summary": "双休正在变成招聘筹码，大小周还有存量但优势在减弱",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [],
-    "eventId": "evt-59cce0377511"
-  },
-  {
     "id": "mjzj-fzt0qjiq7sw0",
     "date": "2026-09-30",
     "time": "18:15",
@@ -24184,27 +23922,6 @@ window.NEWS_DATA = [
     "eventId": "evt-ba9ab373c8e3"
   },
   {
-    "id": "was-q-125014",
-    "date": "2026-09-29",
-    "time": "06:49",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/125014",
-    "sourceType": "community",
-    "score": 53,
-    "category": "platform",
-    "title": "当亚马逊运营入职的公司主做国内电商：两次入职都被国内电商作息拖累，从大小周变单休、国庆只休4天，我该怎么选公司？",
-    "summary": "当亚马逊运营入职的公司主做国内电商：两次入职都被国内电商作息拖累，从大小周变单休、国庆只休4天，我该怎么选公司？ - 第一次发帖，还是用的特权发帖，主要是想打发打发时间，看看各位彦祖亦菲有没有过类似的情况。 大家也都知道国内电商主要都是单休比较多，而亚马逊不需要每天在线盯着客服回复信息，所以基本都是大小周或者双休（紫鸟一带，赛里木湖都能去），但慢慢的就会出现一下的情况...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [
-      "亚马逊"
-    ],
-    "eventId": "evt-c50b05641305"
-  },
-  {
     "id": "was-q-124986",
     "date": "2026-09-29",
     "time": "06:49",
@@ -26926,29 +26643,6 @@ window.NEWS_DATA = [
       "广告营销"
     ],
     "eventId": "evt-25a45a723a56"
-  },
-  {
-    "id": "was-q-124951",
-    "date": "2026-09-26",
-    "time": "06:06",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/124951",
-    "sourceType": "community",
-    "score": 57,
-    "category": "marketing",
-    "title": "2023年开始入行做亚马逊，朋友公司做了半年后就开始自己单干，也有做过爆款，也因选品不好亏了钱，后面陆陆续续自己选品上品没起来，现在人到中年，有点迷茫，要不要去找份工作继续做着亚马逊，很迷茫想看看有没有大神指导一下",
-    "summary": "2023年开始入行做亚马逊，朋友公司做了半年后就开始自己单干，也有做过爆款，也因选品不好亏了钱，后面陆陆续续自己选品上品没起来，现在人到中年，有点迷茫，要不要去找份工作继续做着亚马逊，很迷茫想看看有没有大神指导一下 - 以前有做过产品设计，懂得模具和产品开发、设计等专业知识，也做过销售和市场营销。 2023年，因为朋友的原因进入了亚马逊行业。现在回望起来，有点晚了。2018年就有朋友喊着要不要一起去做亚马逊，当时想着自己不懂英语，就没敢做。不过这些都是后话。 进入后，...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [
-      "亚马逊",
-      "广告营销",
-      "选品"
-    ],
-    "eventId": "evt-797946a7d2c4"
   },
   {
     "id": "amz-qiBzagdh",
@@ -29986,29 +29680,6 @@ window.NEWS_DATA = [
       "知识产权"
     ],
     "eventId": "evt-d9a34f690f4d"
-  },
-  {
-    "id": "was-q-124927",
-    "date": "2026-09-24",
-    "time": "06:06",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/124927",
-    "sourceType": "community",
-    "score": 61,
-    "category": "policy",
-    "title": "5年+亚马逊经验，但是25年年初离职修养身心，1年多没碰过亚马逊了，想开店单干，平台有什么新规变化需要注意的吗？",
-    "summary": "5年+亚马逊经验，但是25年年初离职修养身心，1年多没碰过亚马逊了，想开店单干，平台有什么新规变化需要注意的吗？ - 19年开始干亚马逊，纯精品，红海类目，在公司干了5年多，被长期的高额业绩压力和领导的PUA，且没有好的新品情况下：全是老品改款，功能大差不差，该优化的地方因为成本问题又优化不了，同一个类目用不同品牌不同外观产品，四、五个运营一起做，没有站外推广的支持，纯...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [
-      "亚马逊",
-      "政策合规",
-      "广告营销"
-    ],
-    "eventId": "evt-72edb8c509d5"
   },
   {
     "id": "was-q-124926",
@@ -35736,28 +35407,6 @@ window.NEWS_DATA = [
     "eventId": "evt-eb9b5b507a26"
   },
   {
-    "id": "mjzj-fyvzw3d2plog",
-    "date": "2026-09-21",
-    "time": "12:01",
-    "source": "卖家之家",
-    "url": "https://mjzj.com/article/fyvzw3d2plog",
-    "sourceType": "media",
-    "score": 61,
-    "category": "platform",
-    "title": "1000人抢助理岗！大批跨境岗位正在消失......",
-    "summary": "前段时间一位深圳亚马逊卖家的吐槽戳中了不少人：招个运营助理，岗位挂出去3天，涌进来1000多份简历。",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [
-      "亚马逊"
-    ],
-    "ref": "https://www.amz123.com/t/9Bl4Iuje",
-    "eventId": "evt-35a74065d027"
-  },
-  {
     "id": "mjzj-fyvzwguph43k",
     "date": "2026-09-21",
     "time": "12:01",
@@ -39339,25 +38988,6 @@ window.NEWS_DATA = [
     "eventId": "evt-1da1e91f0427"
   },
   {
-    "id": "was-q-124749",
-    "date": "2026-09-19",
-    "time": "08:46",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/124749",
-    "sourceType": "community",
-    "score": 47,
-    "category": "market",
-    "title": "offer选择，请各位大佬帮忙看一下这几个offer怎么抉择",
-    "summary": "offer选择，请各位大佬帮忙看一下这几个offer怎么抉择 - 1. 相框类目 精品 做木质相框 客单50美金 目标客群中高端 试用期10k，转正12k 按照毛利的3.5%提（绩效2k 试用期不算绩效 个人觉得客单高出市场太多，有点不靠谱，而且公司boss标的100-499，实际参保人20，在南京，深圳都有公司，杭州今...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [],
-    "eventId": "evt-8f79c905bdeb"
-  },
-  {
     "id": "lsch-eb0007c2",
     "date": "2026-09-19",
     "time": "08:31",
@@ -40873,27 +40503,6 @@ window.NEWS_DATA = [
     "eventId": "evt-0c478f048291"
   },
   {
-    "id": "was-q-124732",
-    "date": "2026-09-18",
-    "time": "08:58",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/124732",
-    "sourceType": "community",
-    "score": 53,
-    "category": "platform",
-    "title": "应聘亚马逊运营拿到2个offer，试用期4000左右、转正提成差很多，求大家帮忙分析哪家更合适？",
-    "summary": "应聘亚马逊运营拿到2个offer，试用期4000左右、转正提成差很多，求大家帮忙分析哪家更合适？ - 求大家帮忙分析下：我应聘岗位是亚马逊运营，有一年工作经验，接到两个office。 第一个：标品大卖（公司规模500-999人数规模） 试用期：3800➕200满勤（试用期2-3月） 转正：4100底薪➕200➕提成毛利0.5%-3% 五险：转正缴纳（公司...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [
-      "亚马逊"
-    ],
-    "eventId": "evt-541b9547c61b"
-  },
-  {
     "id": "was-q-124733",
     "date": "2026-09-18",
     "time": "08:58",
@@ -41206,27 +40815,6 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-5f2117d86fbb"
-  },
-  {
-    "id": "was-q-124691",
-    "date": "2026-09-18",
-    "time": "05:51",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/124691",
-    "sourceType": "community",
-    "score": 53,
-    "category": "platform",
-    "title": "亚马逊产品开发该如何提升专业度？也想搞点副业，做个兼职，多挣点钱",
-    "summary": "亚马逊产品开发该如何提升专业度？也想搞点副业，做个兼职，多挣点钱 - 先做个简单的介绍：我是个半吊子的产品开发，经验总共半年多。接触这行，是因为我朋友在做这个，他教我，我学会之后去公司面试，然后成功入职了。第一家因为完全没经验，当时混进去了，后来被发现啥都不懂，几天就被开了。但是就这几天，我学到了很多，公司把我辞退了，并且支...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [
-      "亚马逊"
-    ],
-    "eventId": "evt-8ae25af390b7"
   },
   {
     "id": "amz-ldI0y7G3",
@@ -43120,27 +42708,6 @@ window.NEWS_DATA = [
       "物流仓储"
     ],
     "eventId": "evt-47865b5b57d3"
-  },
-  {
-    "id": "was-q-124635",
-    "date": "2026-09-17",
-    "time": "06:05",
-    "source": "知无不言",
-    "url": "https://www.wearesellers.com/question/124635",
-    "sourceType": "community",
-    "score": 53,
-    "category": "platform",
-    "title": "6年开发，在兼职店铺年利润已达20万、主业月薪8千且提成不到位的情况下，要不要辞职全职做店铺？",
-    "summary": "6年开发，在兼职店铺年利润已达20万、主业月薪8千且提成不到位的情况下，要不要辞职全职做店铺？ - 本人是从20年开始接触亚马逊行业的，学历嘛不高不低，一本以上。当时因为有点恋爱脑回了老家的省直，想着电商行业不太吃地域，就阴差阳错进了一个本地的亚马逊公司，在我们这规模也是排名前几的。又因为六级不好，没能去成运营当了开发，现在想想这其实是一个正确的决定，在...",
-    "selected": false,
-    "why": "",
-    "impact": "",
-    "action": "",
-    "deadline": "",
-    "tags": [
-      "亚马逊"
-    ],
-    "eventId": "evt-7e6b4859f49b"
   },
   {
     "id": "was-q-124650",

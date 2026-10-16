@@ -9,7 +9,7 @@
 - 数据文件是 `data/news.js`（`window.NEWS_DATA = [...]` 形式），不是 JSON fetch。原因：file:// 下没有 CORS 问题，用户双击就能打开。改数据格式前先想清楚这一点。
 - 数据字段 schema 见 README.md「数据字段」一节，新增字段要同步更新 README、`scripts/fetch_news.py` 和 `scripts/enrich_llm.py`。
 - 分类枚举固定五个：platform / policy / logistics / marketing / market，对应中文见 `assets/app.js` 里的 CATEGORIES。加分类要同时改 app.js、fetch_news.py 的关键词表和 enrich_llm.py 的 prompt。
-- 视图逻辑全在 `assets/app.js`：精选由条目的 `selected` 布尔字段决定，`score` 只表示经营影响强度；旧数据缺 `selected` 时才用 FEATURED_MIN_SCORE=65 兜底。主题是 TOPICS 里的正则关键词，日报/周报/月报是纯前端对 NEWS_DATA 的过滤排序，没有独立数据文件。改主题只动 TOPICS 数组。
+- 视图逻辑全在 `assets/app.js`：精选由条目的 `selected` 布尔字段决定，`score` 只表示经营影响强度；旧数据缺 `selected` 时才用 FEATURED_MIN_SCORE=65 兜底。主题是 TOPICS 里的标题正则关键词，目前七个：亚马逊、独立站、TK／Temu等平台、财务、物流、供应链、合规；主题允许交叉。日报/周报/月报是纯前端对 NEWS_DATA 的过滤排序，没有独立数据文件。改主题只动 TOPICS 数组及对应的筛选说明。
 - 热点榜按最近48小时的 `eventId` 聚合，每个来源只计一次；独立来源数决定基础热度，时效加分每24小时减半。只展示有足够事实摘要或官方来源的事件。热点热度与经营影响分是两套值。
 - 收藏、已读与深浅色设置保存在浏览器 `localStorage`，无需账号；数据仍来自本地脚本文件，`file://` 必须可用。
 - 同一事件用 `eventId` 聚合。`scripts/fetch_news.py` 每次写数据前会按标题相似度补齐事件ID；精选流折叠同事件条目，全部动态保留原始条目。
@@ -28,4 +28,5 @@
 - 36氪出海的锚文本里混着emotion的CSS规则文本（`@media{...}`、`.css-xxx{...}`），标题必须过 `clean_text` 清洗；部分文章页的 meta description 是站点宣传语（含「36氪出海」「信息差」字样），不能当摘要用。
 - cifnews 首页会混入置顶旧文章，抓取层用「文章id距页面最大id超过3000就丢弃」过滤。
 - Amazon卖家论坛只抓News and Announcements分类，并用原帖作者名`*_Amazon`二次校验官方身份。知无不言只抓公开问题，私密悬赏、付费围观和活动推广必须过滤。微信公众号robots禁止通用爬取，不接自动抓取。
+- 求职、简历、面试及个人职业发展规划类内容不进资讯库；`fetch_news.py`按标题过滤，清理现有数据时保持平台扩仓等经营新闻。
 - 详情页抓取间隔0.4秒，别去掉，避免被源站限流。

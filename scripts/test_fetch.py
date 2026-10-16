@@ -29,6 +29,12 @@ check("categorize 广告->marketing", fn.categorize("eMAG Ads广告基础设置"
 check("categorize 亚马逊->platform", fn.categorize("亚马逊上线新功能") == "platform")
 check("categorize 兜底->market", fn.categorize("刚刚，安克登陆港交所！") == "market")
 
+# 求职与个人职业话题不进入跨境经营资讯
+check("求职文章过滤", fn.is_career_content("面试了三十多个运营，发现简历上最缺的不是业绩"))
+check("职业规划文章过滤", fn.is_career_content("入职亚马逊两年后是否该跳槽"))
+check("平台扩仓新闻保留", not fn.is_career_content("亚马逊新增配送中心，计划创造1000个岗位"))
+check("卖家合规问题保留", not fn.is_career_content("刚入职遇到品牌备案商标被经销商占用"))
+
 # 打分
 check("score 命中生效+新规+平台", fn.score("亚马逊新规7月生效") == 55 + 12 + 8 + 6)
 check("score 无命中=55", fn.score("两个年轻人的创业故事") == 55)

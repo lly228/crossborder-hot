@@ -77,6 +77,14 @@ TAG_KEYWORDS = [
     ("选品", ["选品", "爆品", "品类"]),
 ]
 
+CAREER_TITLE_RE = re.compile(
+    r"求职|找工作|待业|简历|面试|跳槽|应聘|职业规划|职业发展|职业生涯|职场|"
+    r"副业|兼职|离职|辞职|上班|运营干不动|工作和生活|自学和请教|"
+    r"招聘卷|助理岗|岗位正在消失|月薪倒欠|offer选择|offer怎么抉择|"
+    r"带新人.{0,12}提成|入行|入职.{0,25}(?:年|公司|作息|跳槽)",
+    flags=re.IGNORECASE,
+)
+
 EVENT_NOISE_WORDS = (
     "重磅", "突发", "刚刚", "官宣", "最新", "消息", "快讯", "跨境电商",
     "卖家注意", "卖家必看", "正式", "宣布", "发布",
@@ -581,6 +589,11 @@ def categorize(title):
     return "market"
 
 
+def is_career_content(title):
+    """排除面向求职者或个人职业选择的文章，不因摘要提到招聘数字而误删经营新闻。"""
+    return bool(CAREER_TITLE_RE.search(title or ""))
+
+
 def score(title):
     s = 55
     for pts, kws in SCORE_KEYWORDS:
@@ -820,8 +833,9 @@ def main():
     if "--limit" in args:
         limit = int(args[args.index("--limit") + 1])
 
-    items = load_existing()
-    everything = items + load_archives()
+    existing = load_existing()
+    items = [it for it in existing if not is_career_content(it.get("title", ""))]
+    everything = existing + load_archives()
     known_ids = {it["id"] for it in everything}
     known_urls = {it["url"] for it in everything}
     # 同一篇文章可能挂在多个不同链接下（36氪出海出现过），标题也要去重
@@ -848,6 +862,8 @@ def main():
         budget = limit
         source_added = 0
         for uid, url, title in listing:
+            if is_career_content(title):
+                continue
             if uid in known_ids or url in known_urls or budget <= 0:
                 continue
             if url in known_refs:
@@ -872,6 +888,8 @@ def main():
                     ref = src["detail_ref"](detail)
             if not title:
                 # 发现渠道没给标题且详情页也没拿到（如卖家之家未放出的新文），下轮再试
+                continue
+            if is_career_content(title):
                 continue
             if (src["name"], title) in known_titles:
                 continue
