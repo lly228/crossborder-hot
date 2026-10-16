@@ -625,5 +625,27 @@
     "deadline": "",
     "tags": [],
     "eventId": "evt-dcf68360d6cc"
+  },
+  {
+    "id": "was-q-115806",
+    "date": "2026-02-02",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/115806",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "Amazon SP 广告系统梳理：广告位、投放类型与后台创建全流程",
+    "summary": "Amazon SP 广告系统梳理：广告位、投放类型与后台创建全流程 - 很多卖家在投 SP 广告时，问题并不出在“不会操作”，而是从一开始就没搞清楚 SP 广告的整体结构和逻辑。 广告位在哪里、不同投放类型分别解决什么问题、每一个设置背后影响的是什么流量。 这篇文章将从广告位、投放类型到创建流程，系统梳理 Amazon SP ...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-0c9bef817d28"
   }
 ]
