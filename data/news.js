@@ -2,6 +2,25 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "189451",
+    "date": "2026-10-17",
+    "time": "15:00",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/189451",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "深圳工厂卖家靠“借港出海”+AI，在海外赚得盆满钵满",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-bd1688a5daea"
+  },
+  {
     "id": "189459",
     "date": "2026-10-17",
     "time": "10:00",
@@ -19,6 +38,145 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-86adfe72aa45"
+  },
+  {
+    "id": "was-q-125552",
+    "date": "2026-10-17",
+    "time": "08:31",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/125552",
+    "sourceType": "community",
+    "score": 47,
+    "category": "logistics",
+    "title": "TMB8仓库关闭，货件签收证明显示我们FBA货件转仓送至PBI3仓库，但是后台货件显示接收上架为0（货件已完成）",
+    "summary": "TMB8仓库关闭，货件签收证明显示我们FBA货件转仓送至PBI3仓库，但是后台货件显示接收上架为0（货件已完成） - 9月19号接到货代通知，说美国 TMB8 和 PBI3 仓码均已关闭 停止收货。我们5月14号发的FBA货件，7月28号的签收证明显示货物由 TMB8 转送去了 PBI3 仓库，现在此货件状态已完成 但是后台的接收/上架数量仍然是0，而且我们好几票货都是这...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-a181fbe25073"
+  },
+  {
+    "id": "amz-7Mu0XxRm",
+    "date": "2026-10-17",
+    "time": "07:39",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/7Mu0XxRm",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "Notino投入1000万欧元拓展自有品牌，覆盖27个欧洲市场",
+    "summary": "AMZ123获悉，欧洲美妆电商Notino已向旗下自有品牌Notino Collection投入约1000万欧元。该品牌产品线已从彩妆延伸至身体护理和面部护理领域。产品开发以27个欧洲市场的消费行为数据为依托，通过分析用户搜索习惯、评价反馈及未被满足的需求，进而筛选代工方、制定配方。其中一款含50倍防晒成分的彩妆产品历经三年研发方才完成。尼尔森IQ的数据显示，2025年17个受调查市场的自有品牌销售额超过3870亿欧元，68%的消费者认为自有品牌是成熟品牌之外的理想替代选择。Notino目前在27个国家开展线上销售业务，平台内涵盖1800余个品牌、最多11.5万件商品。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-d5547ea3a889"
+  },
+  {
+    "id": "amz-cGGB7nEZ",
+    "date": "2026-10-17",
+    "time": "07:39",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/cGGB7nEZ",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "ChatGPT引荐流量骤降系统计故障，10月15日起已修复",
+    "summary": "AMZ123获悉，多家监测机构发现，自10月9日起，谷歌分析中来自ChatGPT的引荐会话出现明显下滑，跌幅介于22%至57%之间。原因在于GPT-6上线后，回答正文中的链接不再携带来源标记及来源页信息，导致相关访问被计入直接访问。Adobe对约500个页面的对比分析显示，ChatGPT带来的访问量每天减少约3.1万次，同期直接访问量则每天增加约2.6万次。监测机构Profound的数据显示，带标记的引用链接占比从10月8日的98%降至10月14日的66%。OpenAI已于10月14日确认上述情况系程序故障，并于10月15日开始修复。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-df028a5d2442"
+  },
+  {
+    "id": "amz-8UIYo8kb",
+    "date": "2026-10-17",
+    "time": "07:29",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/8UIYo8kb",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "Ozon调查：40%俄罗斯消费者长期在固定自提点取货",
+    "summary": "AMZ123获悉，Ozon针对俄罗斯买家开展的调查显示，40%的受访者始终在同一自提点取货，另有48%最多固定使用三个取货点。超过七成受访者每周至少前往自提点一次，44%的人已在同一地点持续取货数年，25%则使用了约一年。即便附近新增自提点，仍有53%的消费者选择继续使用原有点位或在两者之间轮换，仅25%会尝试新开网点。65%的受访者对常用自提点关停持负面态度。在更换取货点的原因中，60%表示附近新开了更便利的点位，22%认为原点位过于拥挤。在选点偏好方面，90%的消费者将位置列为首要因素，65%要求支持到店验货与退货，51%则看重试衣间设施及店内照明条件。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-bd5a31c3a30b"
+  },
+  {
+    "id": "amz-NKV9elr2",
+    "date": "2026-10-17",
+    "time": "07:29",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/NKV9elr2",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "M.Video：逾七成高价订单在一小时内完成下单",
+    "summary": "AMZ123获悉，俄罗斯家电与电子零售商M.Video对5月1日至8月31日期间超过33.5万笔单笔金额在10万卢布以上的订单进行了统计分析。数据显示，75%的高价订单在买家开始集中筛选后30分钟内提交，76.7%在一小时内完成下单。此外，9%的订单在一天内完成，7%耗时约一周，另有7%的订单下单周期在一周至一个月之间。该公司市场总监指出，订单金额高并不意味着决策周期长，买家通常在完成参数与价格对比、锁定若干备选商品后才正式下单。在此类高价订单中，比价、补充产品信息、支付方式及配送选项是买家最为关注的环节。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-1413668f4531"
+  },
+  {
+    "id": "amz-Jqamkiwa",
+    "date": "2026-10-17",
+    "time": "06:59",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Jqamkiwa",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "霍尔木兹海峡单周遇袭船只达12艘创战事新高，过境量降至131艘次",
+    "summary": "AMZ123获悉，英国海事安全行动中心数据显示，10月5日至11日当周，霍尔木兹海峡及周边共有12艘船只遭到袭击，为美伊战事爆发以来单周最高纪录，前一周为10起。10月14日，新加坡海事及港务管理局通报，两艘新加坡籍集装箱船在海峡内被不明投射物击中。其中，载箱量2824标准箱的支线船GFS Pride起火后在阿曼外海沉没，21名船员已全部撤离。同批次迪拜环球港务旗下的另一艘支线船亦遭击中，船体受损后自行驶抵安全锚地。自战事开始至今，已有三艘船只沉没。袭击范围持续扩大，伊朗近期将打击目标由油轮延伸至集装箱船与散货船。对于走中东航线的卖家而言，海峡过境量已呈下降趋势。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-85d62ff04a06"
+  },
+  {
+    "id": "amz-HJDlqTsC",
+    "date": "2026-10-17",
+    "time": "06:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/HJDlqTsC",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "UPS菲律宾克拉克空运中心扩至15倍，覆盖逾1100条贸易航线",
+    "summary": "AMZ123获悉，联合包裹服务（UPS）已在菲律宾克拉克国际机场正式启用全新空运中心。此次投资规模超过8000万美元，新中心占地面积达3万平方米，是原有场地的15倍，亦是UPS首次公开披露该项目的具体投入规模。新中心将日均包裹处理量提升至4.6万件，最大处理能力为每小时1.5万件，并配备一套自动化分拣系统，可实现每小时处理9000件3公斤以下小包裹。该中心每周运营170个航班段，连接亚太、印度、欧洲及美国市场，服务覆盖全球逾1100条贸易航线。菲律宾总统马科斯于10月15日出席了新中心的启用仪式，目前该项目已带动近600个就业岗位。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-a549b057f509"
   },
   {
     "id": "was-q-125547",
@@ -43043,7 +43201,7 @@ window.NEWS_DATA = [
     "tags": [
       "亚马逊"
     ],
-    "eventId": "evt-45e80157543a"
+    "eventId": "evt-a759e2961f2a"
   },
   {
     "id": "mjzj-fyls7ft2vqww",
@@ -45364,7 +45522,7 @@ window.NEWS_DATA = [
       "亚马逊"
     ],
     "ref": "https://www.amz123.com/t/4zWsIjSA",
-    "eventId": "evt-45e80157543a"
+    "eventId": "evt-a759e2961f2a"
   },
   {
     "id": "mjzj-fyhmkx4k14ao",
