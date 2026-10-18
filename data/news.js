@@ -2,6 +2,48 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "189450",
+    "date": "2026-10-18",
+    "time": "15:21",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/189450",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "销量大幅增长！湖南陶瓷卖家靠亚马逊多站点突围",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-dad87209054a"
+  },
+  {
+    "id": "mjzj-g1dm7ydraz9c",
+    "date": "2026-10-18",
+    "time": "14:42",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g1dm7ydraz9c",
+    "sourceType": "media",
+    "score": 67,
+    "category": "policy",
+    "title": "583家店铺因3张贺卡图案被TRO，你的产品图案来源查过吗",
+    "summary": "Avanti Press以版权插画批量起诉583家跨境店铺，图案风格相似即可能被扫入被告名单并冻结资金。卖家应自查产品图案来源与授权链条，确认素材授权是否含实体印刷商用；收到TRO后先下架止损，再找律师评估，避免缺席判决。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-f0533c1fddbb"
+  },
+  {
     "id": "189464",
     "date": "2026-10-18",
     "time": "10:00",
@@ -19,6 +61,114 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-68cba96ad943"
+  },
+  {
+    "id": "was-q-125564",
+    "date": "2026-10-18",
+    "time": "08:48",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/125564",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "0-1 4个月70万刀，这种水平属于什么了，有大件的可以一起交流学习广告打法",
+    "summary": "0-1 4个月70万刀，这种水平属于什么了，有大件的可以一起交流学习广告打法",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-7e47e5e8e4bc"
+  },
+  {
+    "id": "was-q-125565",
+    "date": "2026-10-18",
+    "time": "08:48",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/125565",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "亚马逊广告官方最新白皮书深度解读1——买家不是不下单，而是在你从没出现过的8.8天里，先把你忘了",
+    "summary": "亚马逊广告官方最新白皮书深度解读1——买家不是不下单，而是在你从没出现过的8.8天里，先把你忘了 - 凌晨一点，你盯着广告后台：ACOS 很健康，ROAS 也挑不出毛病。但总订单数量，就是一年比一年难做了。 你不是投得不够多。你是只接住了一种人——那种",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-36f8189c6199"
+  },
+  {
+    "id": "was-q-125563",
+    "date": "2026-10-18",
+    "time": "08:48",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/125563",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "大厂ERP工具很好，但对于中小卖家，我们真正缺的到底是什么？",
+    "summary": "大厂ERP工具很好，但对于中小卖家，我们真正缺的到底是什么？ - 先说句实在话，这几年大厂的ERP确实牛逼，功能全、生态好，对接了各种API。以前我也眼馋，觉得做亚马逊必须得搞一套。 但咱们中小卖家真用起来是什么感觉？全是折磨。 你要看个库存，他给你拉一堆报表；你要算个补货，他让你自己去填一堆参数，什么交期、安全库...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-64e762d9ee5c"
+  },
+  {
+    "id": "was-q-125562",
+    "date": "2026-10-18",
+    "time": "08:48",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/125562",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "亚马逊如何决定谁能获得排名？",
+    "summary": "亚马逊如何决定谁能获得排名？ - 排名推上去不难，真正困难的是：为什么有些Listing能守住，而另一些Listing一停推广就掉下去？ 大多数卖家都认为，亚马逊排名的核心就是关键词。 只要围绕正确的关键词持续出单，销量推得足够多，最终就能把排名推上去。 这个理解并没有错，但它只说对...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-5199fc795151"
+  },
+  {
+    "id": "was-q-125561",
+    "date": "2026-10-18",
+    "time": "08:48",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/125561",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "免费试用｜亚马逊广告报表分析小工具 DataAnalyzer",
+    "summary": "免费试用｜亚马逊广告报表分析小工具 DataAnalyzer - 各位卖家好，我们在做一款个人用的广告数据分析助手 DataAnalyzer，想找几位在投广告的卖家帮忙真实试用、提反馈。 试用地址（公网）： http://8.148.229.218:8501 大致能做什么： - 上传广告 CSV / Excel，...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-a84d4e8cab85"
   },
   {
     "id": "was-q-125560",
@@ -41447,7 +41597,7 @@ window.NEWS_DATA = [
     "tags": [
       "亚马逊"
     ],
-    "eventId": "evt-a6e8c525e97a"
+    "eventId": "evt-22ad60f8218f"
   },
   {
     "id": "mjzj-fysy42xe6xa8",
@@ -41609,7 +41759,7 @@ window.NEWS_DATA = [
       "物流仓储"
     ],
     "ref": "https://www.amz123.com/t/bCWTAcW5",
-    "eventId": "evt-ba9864781d90"
+    "eventId": "evt-7126aa8e9d76"
   },
   {
     "id": "mjzj-fysg1nw59ji9",
@@ -43596,7 +43746,7 @@ window.NEWS_DATA = [
     "tags": [
       "亚马逊"
     ],
-    "eventId": "evt-a759e2961f2a"
+    "eventId": "evt-1e63549303e3"
   },
   {
     "id": "mjzj-fyls7ft2vqww",
@@ -44445,7 +44595,7 @@ window.NEWS_DATA = [
     "action": "",
     "deadline": "",
     "tags": [],
-    "eventId": "evt-ba9864781d90"
+    "eventId": "evt-acb1bd861552"
   },
   {
     "id": "mjzj-fyin079dkpog",
