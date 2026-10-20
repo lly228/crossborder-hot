@@ -1,5 +1,24 @@
 [
   {
+    "id": "amazon-forum-723bb141-fdcb-492c-bc4d-3e2664081f52",
+    "date": "2025-12-31",
+    "time": "03:11",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/723bb141-fdcb-492c-bc4d-3e2664081f52",
+    "sourceType": "official",
+    "score": 60,
+    "category": "market",
+    "title": "One million robots now operating in fulfillment centers",
+    "summary": "More than 1 million robots are now working across our fulfillment network. Our robotics technology pairs employees with the right tools to make their workday safer and more productive, while delivering packages to customers faster than ever. These robots include: Sequoia: speeds up inventory storage by 75% and retrieves hundreds of thousands of customer orders per week Hercules and Titan: drive units that transport inventory directly to employees, with Titan capable of lifting twice as much for ",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-2ff9bcd48dc8"
+  },
+  {
     "id": "was-q-114466",
     "date": "2025-12-30",
     "time": "00:00",
@@ -191,6 +210,27 @@
     "eventId": "evt-6025154fe79b"
   },
   {
+    "id": "amazon-forum-11268c92-5a5c-4125-9e59-49e433d0d151",
+    "date": "2025-12-23",
+    "time": "11:43",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/11268c92-5a5c-4125-9e59-49e433d0d151",
+    "sourceType": "official",
+    "score": 60,
+    "category": "market",
+    "title": "Update to seller-fulfilled refund process by January 26, 2026",
+    "summary": "Effective January 26, 2026, the Fulfilled by Merchant (FBM) refund process will be updated to improve your return management experience and give you more time to assess returns. The processing window for refunds will extend from two business days to four calendar days before Automated Refund triggers. For most return delivery days, you'll gain additional processing time under this change. If you don't process a refund within four calendar days of receiving a returned item, we may issue an automa",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-5eecc1dcc57b"
+  },
+  {
     "id": "was-q-114126",
     "date": "2025-12-23",
     "time": "00:00",
@@ -320,6 +360,28 @@
     "deadline": "",
     "tags": [],
     "eventId": "evt-2b4b4b54e9fb"
+  },
+  {
+    "id": "was-q-113977",
+    "date": "2025-12-19",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/113977",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "精细化运营操作——如何对一个关键词的份额IS和排名IR变化进行定量分析（后台搜索词展示量份额报告分析）",
+    "summary": "精细化运营操作——如何对一个关键词的份额IS和排名IR变化进行定量分析（后台搜索词展示量份额报告分析） - 亚马逊后台有好多种广告报告，今天来分析一下搜索词展示量份额报告。很基础，但还是有很多人不会，所以来写一篇。制作这个报告，可以帮我们分析出哪些可以带来订单增长的潜力关键词，可以分析销量变化是哪些关键词份额和排名变化了。 直接上操作步...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-18f78f5f9c9f"
   },
   {
     "id": "was-q-113880",

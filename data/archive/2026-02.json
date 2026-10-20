@@ -297,6 +297,27 @@
     "eventId": "evt-5bd7f5a5f91e"
   },
   {
+    "id": "amazon-forum-69cc20fd-825d-447f-a58d-bce282519770",
+    "date": "2026-02-16",
+    "time": "20:42",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/69cc20fd-825d-447f-a58d-bce282519770",
+    "sourceType": "official",
+    "score": 60,
+    "category": "platform",
+    "title": "Use new dashboard to view changes to your brand’s product detail pages",
+    "summary": "Brands can now review all Amazon-initiated changes made to their listings in the last 60 days with Review Listing Changes. The dashboard replaces the excel-based Review Listing Updates tool on Explore Brand Selection and helps you view Amazon listings changes in one place. Review Listing Changes also includes AI-powered content suggestions when we detect potentially incorrect or policy-violating content. You can approve the suggestion or disagree and submit feedback. If you don’t address the sug",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-7d37be4ddaea"
+  },
+  {
     "id": "was-q-116187",
     "date": "2026-02-15",
     "time": "00:00",
@@ -336,6 +357,25 @@
       "政策合规"
     ],
     "eventId": "evt-e42f4799a429"
+  },
+  {
+    "id": "amazon-forum-bb76566a-c8a4-468d-bb94-d49402c83023",
+    "date": "2026-02-12",
+    "time": "21:41",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/bb76566a-c8a4-468d-bb94-d49402c83023",
+    "sourceType": "official",
+    "score": 60,
+    "category": "market",
+    "title": "Update to OTDR listing deactivation process as of February 28, 2026",
+    "summary": "Feb 13, 2026 - Updated to improve clarityNote: On February 11, 2026, we published an article about updates to how we apply the on-time delivery rate requirement. What's new is which specific listings may be deactivated for non-compliance and guidance on how they can be reinstated. You can review the full updated announcement below.Effective February 28, 2026, we’ll update how we apply the existing 90% on-time delivery rate (OTDR) requirement for seller-fulfilled listings.Previously, if your OTDR",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e2bd4d32881e"
   },
   {
     "id": "was-q-116140",

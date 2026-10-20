@@ -19,6 +19,25 @@
     "eventId": "evt-cc7550790081"
   },
   {
+    "id": "was-q-115667",
+    "date": "2026-01-29",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/115667",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "想问问各位大佬们 遇到这种高退货标签应该怎么处理?",
+    "summary": "想问问各位大佬们 遇到这种高退货标签应该怎么处理? - 想问问各位大佬们 遇到这种高退货标签应该怎么处理? 在售库存还有很多 算是新品 因为第一批质量有点问题 所以才会出现高退货率 现在质量已经改善了 后面发的货都是改善好的 现在前台就是出现了这种标签 导致现在一单都不出 求大佬指明方向 感激不胜！",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-3667c8e938c2"
+  },
+  {
     "id": "was-q-115645",
     "date": "2026-01-28",
     "time": "00:00",
@@ -778,6 +797,27 @@
     "eventId": "evt-3c44dd85cbba"
   },
   {
+    "id": "amazon-forum-c1eae42b-ead4-4c63-a007-aefbca44a867",
+    "date": "2026-01-09",
+    "time": "16:11",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/c1eae42b-ead4-4c63-a007-aefbca44a867",
+    "sourceType": "official",
+    "score": 60,
+    "category": "platform",
+    "title": "Prepaid return labels required for high-value items starting February 8",
+    "summary": "Effective February 8, 2026, all US sellers must use the Amazon Prepaid Return Label (APRL) program for customer returns regardless of item value. This change eliminates the previous high-value exemption to create a more consistent return experience for faster refund processing and reduced customer service requirements.The APRL program automatically provides customers with prepaid return shipping labels through Buy Shipping Services. This streamlined process reduces the refund cycle time from 14 ",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-dc89785c2223"
+  },
+  {
     "id": "was-q-114823",
     "date": "2026-01-09",
     "time": "00:00",
@@ -921,6 +961,25 @@
       "物流仓储"
     ],
     "eventId": "evt-76045bd982d2"
+  },
+  {
+    "id": "amazon-forum-a572986d-9bb1-4e91-a53f-41c575874dd7",
+    "date": "2026-01-07",
+    "time": "22:55",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/a572986d-9bb1-4e91-a53f-41c575874dd7",
+    "sourceType": "official",
+    "score": 60,
+    "category": "market",
+    "title": "Changes to review sharing across product variations starting Feb 12",
+    "summary": "Starting February 12, 2026, we're changing how reviews are shared across products in a variation to improve accuracy and help customers make more informed purchasing decisions. This change will help customers understand product-specific feedback before purchase, increasing trust and potentially decreasing returns. Currently, reviews are shared across all variations of a product, even when variations have significant differences in features or specifications. This can lead to reviews that don’t a",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e788f8a7e388"
   },
   {
     "id": "was-q-114714",
