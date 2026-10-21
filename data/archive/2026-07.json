@@ -15274,6 +15274,30 @@
     "sourceType": "media"
   },
   {
+    "id": "amazon-forum-f09dda4e-f582-483a-974c-47ccc89b0f09",
+    "date": "2026-07-22",
+    "time": "00:02",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/f09dda4e-f582-483a-974c-47ccc89b0f09",
+    "sourceType": "official",
+    "score": 85,
+    "category": "policy",
+    "title": "了解测试、检验和认证要求",
+    "summary": "亚马逊官方说明，膳食补充剂、儿童玩具、电动出行产品等品类必须通过测试、检验和认证流程，合规结果需来自批准的机构，否则产品将无法销售。",
+    "selected": true,
+    "why": "合规是账号安全底线，官方明确要求特定品类必须认证，忽视将导致产品下架或账号封禁。",
+    "impact": "影响所有在亚马逊销售膳食补充剂、儿童玩具、电动出行产品的卖家，全球站点均适用。",
+    "action": "立即检查在售产品是否属于上述品类，联系亚马逊批准的认证机构进行测试，确保合规文件齐全。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "产品认证",
+      "安全标准"
+    ],
+    "eventId": "evt-6001a754ab2c"
+  },
+  {
     "id": "was-q-122514",
     "date": "2026-07-22",
     "time": "00:00",
