@@ -1339,6 +1339,27 @@
     "eventId": "evt-e38084f3f59c"
   },
   {
+    "id": "was-q-118252",
+    "date": "2026-04-09",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/118252",
+    "sourceType": "community",
+    "score": 47,
+    "category": "logistics",
+    "title": "我现在公司要走9810。大家流程走通了吗",
+    "summary": "我现在公司要走9810。大家流程走通了吗 - 第一步，我先找人办理进出口备案，注册https://www.singlewindow.cn/#/。然后有了U盾。 第二步，我在第三方网站，填入出口信息，产生订单编码。 第三步，我把订单编码，给物流商，是不是可以了？ 接下来，我还需要做什么？",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-e5f59ca387f5"
+  },
+  {
     "id": "was-q-118169",
     "date": "2026-04-08",
     "time": "00:00",
