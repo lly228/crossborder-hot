@@ -412,6 +412,29 @@
     "eventId": "evt-fe3c5e659cba"
   },
   {
+    "id": "was-q-120280",
+    "date": "2026-05-27",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120280",
+    "sourceType": "community",
+    "score": 61,
+    "category": "policy",
+    "title": "一个美国亚马逊店铺，年销1000wRMB，2025年三季度，四季度都是零申报，三四季度总共460wRMB，现在还没收到SJ短信，怎么提前做好合规，避免按13个点去缴增值税 ？",
+    "summary": "一个美国亚马逊店铺，年销1000wRMB，2025年三季度，四季度都是零申报，三四季度总共460wRMB，现在还没收到SJ短信，怎么提前做好合规，避免按13个点去缴增值税 ？ - 基本情况： 一个店铺，每年大概1000wRMB销售额，货物从1688采购，全都没有发票，走的买单报关，海运费也没有开票， 没开公户，全是万里汇收款再提款到个人卡，公司坐标深圳福田 问题： 1. 一直都是0申报，没有收到税局要求更正的短信，但是5...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "物流仓储"
+    ],
+    "eventId": "evt-a357841d12ec"
+  },
+  {
     "id": "lsch-50b0ece0",
     "date": "2026-05-26",
     "time": "22:09",
@@ -510,6 +533,25 @@
       "广告营销"
     ],
     "eventId": "evt-ae0320429079"
+  },
+  {
+    "id": "was-q-120176",
+    "date": "2026-05-26",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120176",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "对于AI的应用，大家现在还是停留在单词问答的浅层应用吗？大家日常运营都会怎么样使用AI工具",
+    "summary": "对于AI的应用，大家现在还是停留在单词问答的浅层应用吗？大家日常运营都会怎么样使用AI工具 - 目前行业内外对对AI的使用出现明显分层，大部分卖家停留在单次问答的浅层应用，头部团队有开始借助AI Agent处理多环节、多数据的复杂任务，并把沉淀下来的运营经验做成标准化Skill流程，形成专属的工作体系。针对这一趋势，想请教各位 （1）相比传统AI聊...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-d8e1e256d2da"
   },
   {
     "id": "lsch-560fd0d4",
