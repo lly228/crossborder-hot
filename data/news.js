@@ -2,6 +2,49 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "189658",
+    "date": "2026-10-24",
+    "time": "15:22",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/189658",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "托管跑出爆品！它用2个月冲到类目TOP1",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品"
+    ],
+    "eventId": "evt-7ea041be6d72"
+  },
+  {
+    "id": "mjzj-g1zerow7xhxc",
+    "date": "2026-10-24",
+    "time": "15:20",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g1zerow7xhxc",
+    "sourceType": "media",
+    "score": 81,
+    "category": "policy",
+    "title": "10月26日危险品新规生效，手把手教你怎么准备",
+    "summary": "10月26日亚马逊危险品合规新规生效，涉及含电池、液体、粉末、磁性材料四类产品。卖家需按类型准备UN38.3、SDS、磁性测试等文件，提前在后台提交；老Listing暂不强制，但新创建和编辑的Listing须合规，否则可能无法上架或被下架。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规"
+    ],
+    "eventId": "evt-1ce4c9954f76"
+  },
+  {
     "id": "189614",
     "date": "2026-10-24",
     "time": "10:00",
@@ -21,6 +64,249 @@ window.NEWS_DATA = [
       "广告营销"
     ],
     "eventId": "evt-da1d733edd16"
+  },
+  {
+    "id": "amz-Trjyh8wx",
+    "date": "2026-10-24",
+    "time": "08:42",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Trjyh8wx",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "俄罗斯电商联盟致函监管机构，要求核查Ozon促销参与条件变更",
+    "summary": "AMZ123获悉，俄罗斯电子贸易联盟已就Ozon调整卖家参与营销促销的相关条件一事，分别向反垄断局与工贸部发函，要求对此展开核查。该函件日期为10月15日，起因为中小卖家的投诉反映。卖家指出，部分促销活动已无法设定折扣商品的数量上限，也难以将特定商品从促销中移除。对于采用FBO模式的卖家而言，上述变化可能导致全部库存以促销价被清空。对此，Ozon回应称，促销管理逻辑已于10月12日起进行调整，改为单一限价机制，卖家可随时修改限价以退出促销活动。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规",
+      "广告营销"
+    ],
+    "eventId": "evt-9d36baf1e503"
+  },
+  {
+    "id": "amz-Q3w8AnR5",
+    "date": "2026-10-24",
+    "time": "08:21",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Q3w8AnR5",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "东非共同体推进电商合作，域内贸易20年增至196.5亿美元",
+    "summary": "AMZ123获悉，东非共同体成员国本周在达累斯萨拉姆召开区域电商合作平台会议，就电商战略监测评估、消费者信任建设等议题展开讨论，并为落实非洲大陆自贸区数字贸易协议做出部署。数据显示，东非共同体内部贸易额已从2005年的16亿美元增长至2025年的196.5亿美元。区域数字单一市场建设持续推进，支付互联互通与跨境电商规则协调工作正有序推进。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-ede867178d2c"
+  },
+  {
+    "id": "amz-dLwipNNy",
+    "date": "2026-10-24",
+    "time": "08:21",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/dLwipNNy",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "BEST Express马来西亚扩建关丹网络，主推大件重货业务",
+    "summary": "AMZ123获悉，BEST Express马来西亚公司近日扩建了关丹（彭亨州）物流网络，新增服务网点并对现有运营进行重组。本次扩张将服务范围从标准快递延伸至家具、家电及商用设备等大件重货领域，旨在为东海岸中小企业与本地卖家提供更具竞争力的运费方案。目前，关丹正持续巩固其马来西亚东海岸商业枢纽地位，当地对大件物流服务的需求呈持续上升态势。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-19c9c2a91153"
+  },
+  {
+    "id": "amz-wIT3PqGH",
+    "date": "2026-10-24",
+    "time": "08:11",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/wIT3PqGH",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "俄罗斯质检抽查608个羊毛拖鞋商品链接，八成存在标签违规",
+    "summary": "AMZ123获悉，俄罗斯质检机构公布了对主流电商平台羊毛拖鞋商品的首次抽查结果。在抽查的608个商品链接中，488个未规范使用\"羊毛\"相关表述，违规率约为80%，部分商品以\"毛皮\"",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-085276e4193b"
+  },
+  {
+    "id": "amz-ea4h0Qcv",
+    "date": "2026-10-24",
+    "time": "08:01",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/ea4h0Qcv",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "希音拟支付1亿美元和解美国FTC配送延误调查",
+    "summary": "AMZ123获悉，希音同意支付1亿美元，以就美国联邦贸易委员会（FTC）针对其配送延误问题所展开的调查达成和解。此次和解金额约占该公司二季度利润的44%。FTC相关记录显示，2020年1月至2026年6月间，涉及配送延误的消费者投诉超过1.2万起，涉及购买金额逾1100万美元。若和解最终落地，将成为快时尚平台在美国消费者保护领域的标志性案例，低价跨境模式下的履约与售后成本正逐步纳入监管视野。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-6bc3cb34bc9a"
+  },
+  {
+    "id": "amz-WJHQuGhh",
+    "date": "2026-10-24",
+    "time": "06:31",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/WJHQuGhh",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "中国前三季度摩托车整车出口1516万辆，同比增长11.76%",
+    "summary": "AMZ123获悉，前三季度我国摩托车整车出口量达1516.36万辆，同比增长11.76%，同期出口额为102.87亿美元，同比增长21.19%。其中，对非洲的出口量最大且增速最为突出，前三季度出口量达572.21万辆，同比增长32.05%，对非出口额为31.95亿美元，同比增长38.60%。与此同时，前三季度整车进口量为5.40万辆，同比增长11.39%，进出口整体保持增长态势。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-0c99c9a57dc0"
+  },
+  {
+    "id": "amz-zWWSxLG5",
+    "date": "2026-10-24",
+    "time": "06:11",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/zWWSxLG5",
+    "sourceType": "media",
+    "score": 81,
+    "category": "policy",
+    "title": "Shopee马来西亚站即时配送新增订单取消时效窗口",
+    "summary": "AMZ123获悉，Shopee马来西亚本土站发布即时配送（Instant Shipping）履约规则重要更新：自2026年10月20日起，通过指定即时配送渠道发出的订单将适用两套取消时效窗口，分别对应买家无需卖家同意即可申请取消订单的时段，以及需经卖家审批方可取消订单的时段。此次调整旨在协助卖家更高效地处理订单备货及买家取消申请。新规则将自动对上述渠道生效，卖家无需在后台进行额外操作，其他物流渠道不受本次调整影响。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee",
+      "政策合规",
+      "物流仓储"
+    ],
+    "eventId": "evt-d46df552c803"
+  },
+  {
+    "id": "amz-GnIueujR",
+    "date": "2026-10-24",
+    "time": "06:11",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/GnIueujR",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "印尼盾连续三日走弱，收于1美元兑18080印尼盾",
+    "summary": "AMZ123获悉，10月23日，印尼盾持续走弱，现货市场收于1美元兑18080印尼盾，为该周连续第三个交易日下跌。当日开盘汇率跌至1美元兑18074印尼盾，前一交易日收盘价为18060，Jisdor官方参考汇率报18069。当日多数亚洲货币随美元走强而出现贬值：泰铢贬值0.08%，新加坡元与马来西亚林吉特均下跌0.04%；日元、人民币则小幅升值0.07%。美元指数当日上涨0.12%，报101.73，但整周累计仍小幅回落。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-9015e9de5d42"
+  },
+  {
+    "id": "amz-Cno6TQZS",
+    "date": "2026-10-24",
+    "time": "06:01",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Cno6TQZS",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "东盟连续5个月居上海最大贸易伙伴 前三季度进出口增长35.3%",
+    "summary": "AMZ123获悉，上海海关最新数据显示，2026年前三季度上海进出口总值达3.94万亿元，同比增长17.9%；其中出口1.81万亿元，增长22.3%，进口2.13万亿元，增长14.4%，9月份出口创历史新高。从市场结构来看，东盟已连续5个月保持上海第一大贸易伙伴地位，前三季度上海与东盟进出口总值为6427.7亿元，同比增长35.3%；对拉美地区出口增长25.5%。上海在巩固传统市场的同时持续开拓新兴市场，东盟等新兴市场的放量增长正成为外贸实现两位数增长的重要支撑。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-3ae6cbef399e"
+  },
+  {
+    "id": "amz-yzrtN0wj",
+    "date": "2026-10-24",
+    "time": "06:01",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/yzrtN0wj",
+    "sourceType": "media",
+    "score": 63,
+    "category": "market",
+    "title": "摩根大通下调泡泡玛特短期业绩预期，三季度营收预计同比降37%",
+    "summary": "AMZ123获悉，摩根大通于10月21日发布研究报告，下调泡泡玛特短期业绩预期。该行测算，泡泡玛特2026年第三季度营收同比下滑约37%，第四季度降幅收窄至23%；全年经调整净利润预计为93.41亿元，同比减少27%。从区域表现来看，泡泡玛特上半年国内市场收入保持47%的增长，但海外业务有所走弱，整体收入下滑11%。德意志银行的预判更为保守，预计其海外市场三季度收入下跌50%、四季度下滑34%。报告指出，印尼、新加坡、泰国等东南亚市场已出现福袋打包促销方式，品牌通过多IP组合及大幅让利来消化库存；此前市场关注度较高的Labubu 4.0及世界杯联名系列，实际市场反馈均未达预期。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f556d96aa34b"
+  },
+  {
+    "id": "amz-GzqraJNY",
+    "date": "2026-10-24",
+    "time": "06:01",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/GzqraJNY",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "ShopeePay上线余额免手续费取现功能，覆盖BCA ATM与便利店渠道",
+    "summary": "AMZ123获悉，ShopeePay正式推出余额取现新功能，用户无需绑定银行卡即可零手续费将账户余额提取为现金。服务渠道涵盖BCA ATM及Indomaret、Alfamart、Alfamidi等连锁便利店网络。ShopeePay印尼总裁Eka Nilam Dari于10月23日发布公告称，尽管数字支付已日趋普及，仍有大量场景存在现金需求，尤其在发薪周期内，用户需要现金用于缴纳账单及采购家用物资。该取现服务不收取任何管理费，亦无月度额度限制，可同时满足现金与数字支付两类使用场景。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee"
+    ],
+    "eventId": "evt-0f04b2c158f7"
+  },
+  {
+    "id": "amz-FyLSEazg",
+    "date": "2026-10-24",
+    "time": "05:50",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/FyLSEazg",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "赫伯罗特就ONE Apus坠箱事故索赔达成原则性和解",
+    "summary": "AMZ123获悉，赫伯罗特（Hapag-Lloyd）在2020年\"ONE Apus\"轮集装箱坠海事故的索赔案上取得重要进展。据航运媒体TradeWinds报道，赫伯罗特律师已向美国联邦地区法官Paul Engelmayer确认，双方就集装箱损坏索赔在原则上已达成和解。然而，涉及船舶所有人Chidori Ship Holding、光船承租人Jessica Ship Holding及船舶管理方NYK Shipmanagement的三项索赔仍悬而未决，各方协商仍在持续推进中。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-b3960a8adb50"
   },
   {
     "id": "189556",
@@ -1544,6 +1830,26 @@ window.NEWS_DATA = [
     "eventId": "evt-3060591370e3"
   },
   {
+    "id": "mjzj-g226x1ux5e69",
+    "date": "2026-10-23",
+    "time": "12:06",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g226x1ux5e69",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "新石器与双威集团官宣合作 进一步深入马来西亚市场",
+    "summary": "新石器10月23日与双威集团签署谅解备忘录，分销无人配送方案至马来西亚，用于末端配送及设施间货物与医疗运输，未来拟部署双威城镇并覆盖地产、建筑、医疗、零售与酒店业务。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "ref": "https://www.pai.com.cn/p/01m5k73ha5dw61bsx0v1da50zt",
+    "eventId": "evt-f056618c2fc3"
+  },
+  {
     "id": "189624",
     "date": "2026-10-23",
     "time": "11:35",
@@ -2053,6 +2359,29 @@ window.NEWS_DATA = [
     "eventId": "evt-9283ac20f6d7"
   },
   {
+    "id": "mjzj-g1zbmo3e4lj4",
+    "date": "2026-10-23",
+    "time": "09:46",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g1zbmo3e4lj4",
+    "sourceType": "media",
+    "score": 59,
+    "category": "logistics",
+    "title": "最后6天！黑五这批货再不发，Prime标识亮不起来",
+    "summary": "10月28日是Amazon-optimized拆分货件黑五入仓截止日，晚到将失去Prime专属标签流量加持。海运已赶不上，空派/快递今日发货仍有机会。卖家应立即查货件状态，赶不上的不硬发，能赶上的盯紧物流与上架时间。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储",
+      "广告营销"
+    ],
+    "eventId": "evt-c0685219ead4"
+  },
+  {
     "id": "189619",
     "date": "2026-10-23",
     "time": "09:42",
@@ -2091,6 +2420,69 @@ window.NEWS_DATA = [
       "广告营销"
     ],
     "eventId": "evt-7714fe0b6f21"
+  },
+  {
+    "id": "mjzj-g21tn1zfah34",
+    "date": "2026-10-23",
+    "time": "09:36",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g21tn1zfah34",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "布局欧洲枢纽：为什么跨境卖家值得注册捷克 VAT？",
+    "summary": "随着欧盟对跨境电商税务合规要求的日益严格，VAT（Value Added Tax，增值税）已成为卖家拓展欧洲市场的必备资质。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-d7f25d9874e0"
+  },
+  {
+    "id": "mjzj-g1yu1yqxik8w",
+    "date": "2026-10-23",
+    "time": "09:36",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g1yu1yqxik8w",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "亚马逊卖家越做越大的同时，为什么风险也在同步放大？",
+    "summary": "如果只看社交平台上的截图，亚马逊似乎总是一个充满机会的行业：爆单、冲排名、旺季翻倍、一个链接养活一家公司。但真正做过的人知道，经营从来没有那么单线条。销售额翻倍，库存和固定成本也同步翻倍，很多判断都不是一句“继续”或者“停掉”就能解决。 这篇文章想聊的，就是“规模风险”背后的真实经营逻辑。核心其实并不复杂：规模会放大优势，也会放大脆弱点。与其被一个数字牵着走，不如把问题拆开，看清钱、时间、库存、团队和风险到底发生了什么变化。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-ac35cd556411"
+  },
+  {
+    "id": "mjzj-g1ytfi7q7ls0",
+    "date": "2026-10-23",
+    "time": "09:35",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g1ytfi7q7ls0",
+    "sourceType": "media",
+    "score": 73,
+    "category": "logistics",
+    "title": "亚马逊FBA附加费上涨，11月2日生效",
+    "summary": "",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-7c79a9d71f5f"
   },
   {
     "id": "amz-qNxxS8MI",
@@ -3430,6 +3822,25 @@ window.NEWS_DATA = [
     "eventId": "evt-93b4537fb84a"
   },
   {
+    "id": "amz-9wfGOftk",
+    "date": "2026-10-22",
+    "time": "14:25",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/9wfGOftk",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "全球线上支出2036年将达25.6万亿美元，新兴市场贡献六成增量",
+    "summary": "AMZ123获悉，全球线上支出预计将从2026年的11万亿美元增长至2036年的25.6万亿美元，其中约60%的增量来自新兴市场。研究数据显示，中国将贡献4.7万亿美元的新增规模，印度贡献1.3万亿美元，巴西、印尼与墨西哥紧随其后。亚洲中产阶层至2036年将新增7.02亿成年人，占新兴市场增量的四分之三。与此同时，支付结构也在同步演变。新兴市场中，预计到2036年仅约五分之一的成年人持有信用卡，而手机钱包的普及程度已更为广泛。2026年至2036年间，全球线上买家将新增8.34亿人，但新增持卡人仅为2.81亿。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e044ef2b884b"
+  },
+  {
     "id": "189613",
     "date": "2026-10-22",
     "time": "14:00",
@@ -3730,6 +4141,25 @@ window.NEWS_DATA = [
     "eventId": "evt-f39efd3ba406"
   },
   {
+    "id": "amz-APIQxoY7",
+    "date": "2026-10-22",
+    "time": "10:54",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/APIQxoY7",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "德国sennder预计2026年营收突破10亿欧元",
+    "summary": "AMZ123获悉，德国数字公路货运代理商sennder宣布，其2026年营收预计将突破10亿欧元。目前，该公司已完成对C.H. Robinson欧洲业务的整合，每月处理运输量超15万票，合作承运商逾4万家。sennder成立于2015年，累计融资规模已超3.4亿欧元。公司表示，2026年全年有望实现盈利。在运营效率方面，人效同比提升45%，主要得益于统一平台与AI智能体的部署——相关AI智能体可实现实时运力匹配与动态定价。过去12个月，上述举措累计减少碳排放超3.1万吨。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-b2bc4245ec34"
+  },
+  {
     "id": "mjzj-g1yfu8716v40",
     "date": "2026-10-22",
     "time": "10:52",
@@ -3936,6 +4366,49 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-cb61af06d890"
+  },
+  {
+    "id": "amz-pIijEIY2",
+    "date": "2026-10-22",
+    "time": "10:04",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/pIijEIY2",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "印尼将赴华实地核验进口清真认证",
+    "summary": "AMZ123获悉，为确保进口产品符合清真合规要求，印尼清真产品保障实施机构（BPJPH）与印尼驻华大使馆（KBRI Beijing）已达成协议，清真产品监管团队将联合印尼驻华使馆代表，赴中国多家经营主体开展实地监管核查。核查范围涵盖生产场地、供应链体系及分布于中国多个省份的屠宰场。此前清真认证工作多集中于证书审发环节，本次合作将监管延伸至海外生产现场，旨在确保在印尼市场流通的中国产品、且持有印尼清真证书的相关货品，从上游原料至下游成品均持续符合印尼清真标准。相关中国出口企业需提前做好资质与供应链合规准备。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-ec3c6f260238"
+  },
+  {
+    "id": "amz-KA3grQNN",
+    "date": "2026-10-22",
+    "time": "09:53",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/KA3grQNN",
+    "sourceType": "media",
+    "score": 69,
+    "category": "logistics",
+    "title": "Shopee中国台湾站光复节连假期间多项时效调整及拨款顺延",
+    "summary": "AMZ123获悉，因光复节连假即将到来，Shopee中国台湾本土站对多项时效作出调整。备货方面，除隔日到货及无包装隔日到订单外，连假第三天（10月26日）生成的订单将额外增加1天备货时长；商品审核、封禁账号复核及实名认证复审的结果反馈均延后至10月27日处理。订单拨款方面，人工退款拨款因银行休市顺延至10月27日执行，自动拨款于10月26日暂停，10月27日恢复正常。上门取件方面，嘉里快递、新竹物流于10月24日至26日暂停收派件，宅配通部分时段提前结束服务。卖家需据此合理调整发货计划与资金安排，并持续关注平台最新公告。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee",
+      "物流仓储"
+    ],
+    "eventId": "evt-baa42404fe39"
   },
   {
     "id": "lsch-d39184e9",
@@ -37431,7 +37904,7 @@ window.NEWS_DATA = [
     "tags": [
       "TikTok Shop"
     ],
-    "eventId": "evt-8bcc2ea8d502"
+    "eventId": "evt-1e0de3b35882"
   },
   {
     "id": "mjzj-fzrrkhnts1kx",
@@ -41700,7 +42173,7 @@ window.NEWS_DATA = [
       "TikTok Shop",
       "物流仓储"
     ],
-    "eventId": "evt-8bcc2ea8d502"
+    "eventId": "evt-ae543d0646ef"
   },
   {
     "id": "amz-0rUs3EFq",
@@ -43259,7 +43732,7 @@ window.NEWS_DATA = [
       "亚马逊",
       "政策合规"
     ],
-    "eventId": "evt-192875a9e13f"
+    "eventId": "evt-8acb6843b0a8"
   },
   {
     "id": "189164",
@@ -44000,7 +44473,7 @@ window.NEWS_DATA = [
     "tags": [
       "亚马逊"
     ],
-    "eventId": "evt-192875a9e13f"
+    "eventId": "evt-8acb6843b0a8"
   },
   {
     "id": "189121",
@@ -44042,7 +44515,7 @@ window.NEWS_DATA = [
     "tags": [
       "亚马逊"
     ],
-    "eventId": "evt-192875a9e13f"
+    "eventId": "evt-8acb6843b0a8"
   },
   {
     "id": "mjzj-fz6wpadxcvls",
@@ -44891,7 +45364,7 @@ window.NEWS_DATA = [
       "TikTok Shop",
       "广告营销"
     ],
-    "eventId": "evt-319bbdf6edba"
+    "eventId": "evt-ae543d0646ef"
   },
   {
     "id": "amz-SdBqtGTA",
@@ -45522,7 +45995,7 @@ window.NEWS_DATA = [
     "action": "",
     "deadline": "",
     "tags": [],
-    "eventId": "evt-cf88259a541e"
+    "eventId": "evt-6ccdf39056bb"
   },
   {
     "id": "amz-BfJYc2R2",
@@ -45566,7 +46039,7 @@ window.NEWS_DATA = [
       "TikTok Shop",
       "广告营销"
     ],
-    "eventId": "evt-319bbdf6edba"
+    "eventId": "evt-ae543d0646ef"
   },
   {
     "id": "amz-xYxawb6C",
