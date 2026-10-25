@@ -38329,7 +38329,7 @@ window.NEWS_DATA = [
     "tags": [
       "TikTok Shop"
     ],
-    "eventId": "evt-1e0de3b35882"
+    "eventId": "evt-8bcc2ea8d502"
   },
   {
     "id": "mjzj-fzrrkhnts1kx",
@@ -42598,7 +42598,7 @@ window.NEWS_DATA = [
       "TikTok Shop",
       "物流仓储"
     ],
-    "eventId": "evt-ae543d0646ef"
+    "eventId": "evt-8bcc2ea8d502"
   },
   {
     "id": "amz-0rUs3EFq",
