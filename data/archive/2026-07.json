@@ -7864,6 +7864,30 @@
     "eventId": "evt-8b3d7490685d"
   },
   {
+    "id": "amazon-forum-757b7320-5bd4-401e-82c2-1844cbfb0656",
+    "date": "2026-07-28",
+    "time": "06:17",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/757b7320-5bd4-401e-82c2-1844cbfb0656",
+    "sourceType": "official",
+    "score": 65,
+    "category": "platform",
+    "title": "关联您的承运商账户至亚马逊Buy Shipping",
+    "summary": "亚马逊允许自发货卖家在Buy Shipping中关联自有承运商账户，使用自家协商费率，并享受准时达保护与配送索赔退款。",
+    "selected": true,
+    "why": "可直接降低运费成本，同时获得平台配送保护，对自发货卖家是实用更新。",
+    "impact": "所有通过亚马逊自发货的美国站卖家，尤其是使用USPS、UPS、DHL等承运商的卖家。",
+    "action": "在卖家后台的Buy Shipping设置中绑定承运商账户，下单时选择该承运商以使用协商费率。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流",
+      "承运商",
+      "Buy Shipping"
+    ],
+    "eventId": "evt-33916e74b430"
+  },
+  {
     "id": "amz-I6AL8kTt",
     "date": "2026-07-28",
     "time": "06:15",
@@ -7955,6 +7979,30 @@
       "GLS"
     ],
     "eventId": "evt-fe29b1331d98"
+  },
+  {
+    "id": "amazon-forum-aa0aee06-aff4-497a-a4b6-9b2ebe06f715",
+    "date": "2026-07-28",
+    "time": "04:47",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/aa0aee06-aff4-497a-a4b6-9b2ebe06f715",
+    "sourceType": "official",
+    "score": 85,
+    "category": "policy",
+    "title": "您必须为包含AI生成人物的图片添加标签",
+    "summary": "根据新法规，卖家必须在包含逼真AI生成人物的产品图片和A+内容中，使用IPTC元数据添加“contains-synthetic-performer”标签才能上传。",
+    "selected": true,
+    "why": "强制合规要求，未标记的AI生成人物图片将被拦截，影响listing创建和修改。",
+    "impact": "所有使用AI工具生成含人物形象图片的亚马逊全球卖家。",
+    "action": "使用IPTC兼容的元数据编辑器，在dc:subject字段添加关键词“contains-synthetic-performer”，再上传图片。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "AI",
+      "图片合规",
+      "元数据"
+    ],
+    "eventId": "evt-2a44c28e983d"
   },
   {
     "id": "was-q-122700",
@@ -17222,6 +17270,27 @@
     "deadline": "",
     "tags": [],
     "eventId": "evt-ab3fc943ac56"
+  },
+  {
+    "id": "was-q-121902",
+    "date": "2026-07-07",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121902",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "实在卖不动，亏本清货卖13.99，销量每天却只有1单。竟对29.99，月销600。还剩下400件货，怎么清比较好？",
+    "summary": "实在卖不动，亏本清货卖13.99，销量每天却只有1单。竟对29.99，月销600。还剩下400件货，怎么清比较好？ - 这个产品算是比较小众，只有2个竟对有销量，其他都是炮灰。 季节性产品，礼物性，特别符合刚过去的父亲节，头部竟对月销600多，4.8评分，700多个评价。 流量词800多个，其中自然流量词700多个。我这边这条链接32个评论，评分4.2。 足以看来，价格真不...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-92d538f9e8a3"
   },
   {
     "id": "amazon-forum-7336583f-09ac-41de-99d1-667017a88db2",
