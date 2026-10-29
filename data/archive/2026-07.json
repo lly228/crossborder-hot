@@ -4407,6 +4407,29 @@
     "eventId": "evt-6066e0cbdc8c"
   },
   {
+    "id": "amazon-forum-302aaac6-6f2b-4d86-bcd2-36fe24f0e6cd",
+    "date": "2026-07-30",
+    "time": "04:02",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/302aaac6-6f2b-4d86-bcd2-36fe24f0e6cd",
+    "sourceType": "official",
+    "score": 75,
+    "category": "platform",
+    "title": "产品标题更新常见问题解答",
+    "summary": "亚马逊官方解答6月标题新规和Item highlights功能的常见问题，确认搜索可见性不变，并称已更新超过9.84亿个标题。",
+    "selected": true,
+    "why": "标题新规直接影响搜索展示和点击，卖家需根据官方解答优化标题，避免违规。",
+    "impact": "所有亚马逊平台卖家。",
+    "action": "依据新指南调整产品标题，并利用Item highlights突出卖点。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "listing优化",
+      "标题政策"
+    ],
+    "eventId": "evt-611e06d77aad"
+  },
+  {
     "id": "amz-snXCGOWx",
     "date": "2026-07-30",
     "time": "03:49",
