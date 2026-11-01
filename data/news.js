@@ -2,6 +2,46 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "189818",
+    "date": "2026-11-01",
+    "time": "17:40",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/189818",
+    "sourceType": "media",
+    "score": 59,
+    "category": "market",
+    "title": "年终旺季别踩雷！已有212家店铺被冻结",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-99bcbb0a3adf"
+  },
+  {
+    "id": "lsch-3bb4eb12",
+    "date": "2026-11-01",
+    "time": "15:48",
+    "source": "36氪出海",
+    "url": "https://letschuhai.com/3bb4eb12",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "国产小游戏，正在TikTok闷声发财？",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-2fb9b07e194f"
+  },
+  {
     "id": "189819",
     "date": "2026-11-01",
     "time": "15:00",
