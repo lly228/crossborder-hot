@@ -457,6 +457,25 @@
     "eventId": "evt-a357841d12ec"
   },
   {
+    "id": "was-q-120241",
+    "date": "2026-05-27",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120241",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "探讨：关键词整理上该如何系统性的有自己的架构",
+    "summary": "探讨：关键词整理上该如何系统性的有自己的架构 - 今天手写了有关关键词的整理思路。还没写完，需要大家一起探讨一下，看看有没有更优的思路，或者接下来怎么推进。我就抛个砖，引各位的玉。 手写内容如下图。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-ee1d4054946f"
+  },
+  {
     "id": "lsch-50b0ece0",
     "date": "2026-05-26",
     "time": "22:09",
@@ -1950,6 +1969,27 @@
       "亚马逊"
     ],
     "eventId": "evt-355d44ad197c"
+  },
+  {
+    "id": "was-q-119294",
+    "date": "2026-05-07",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/119294",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "精准广告突然没曝光？先查查是不是否错词了",
+    "summary": "精准广告突然没曝光？先查查是不是否错词了 - 精准广告千万不要乱否词，尤其是单复数形式 今天用一条客户的链接作为例子，跟大家说一下：为什么精准广告不要随便否词。 这个事情其实在去年就发生过，今年前两个月又再次出现了。 当时我的精准广告突然有时候就没有曝光了，哪怕我把竞价加得再高，它也完全没有...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-f71a0a14f8a6"
   },
   {
     "id": "lsch-bdaa70df",
