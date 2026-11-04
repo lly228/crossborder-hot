@@ -1103,6 +1103,27 @@
     "eventId": "evt-5d3279843cbe"
   },
   {
+    "id": "was-q-119803",
+    "date": "2026-05-18",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/119803",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "亚马逊高级 A + 页面 手机端无论上传 1200x600 还是 1500x1125 图片都极度模糊，电脑端清晰，移动端长期不清晰",
+    "summary": "亚马逊高级 A + 页面 手机端无论上传 1200x600 还是 1500x1125 图片都极度模糊，电脑端清晰，移动端长期不清晰 - 1. 制作并上传亚马逊高级 A + 页面图片，分别试过1200×600px、1500×1125px两种主流尺寸（原图非常清晰） 2. 电脑网页前台查看 A + 图片清晰度完全正常，无压缩无模糊 3. 亚马逊买家 APP 手机端打开全程发虚、文字糊、细节...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-6bd0aeecc82b"
+  },
+  {
     "id": "was-q-119771",
     "date": "2026-05-16",
     "time": "00:00",
