@@ -16815,6 +16815,27 @@
     "eventId": "evt-d46cafcb0646"
   },
   {
+    "id": "was-q-122157",
+    "date": "2026-07-14",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/122157",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "平时的价格折扣和BD无缝衔接且不会螺旋，这是如何实现的 ？求解，我的链接和对手链接的PD价格，为何参考值不一样？我的PD价格不应该是抓取list price计算85%并低于56.99 5% 即可吗？ 我想复刻这个价格轨迹",
+    "summary": "平时的价格折扣和BD无缝衔接且不会螺旋，这是如何实现的 ？求解，我的链接和对手链接的PD价格，为何参考值不一样？我的PD价格不应该是抓取list price计算85%并低于56.99 5% 即可吗？ 我想复刻这个价格轨迹 - 关于价格规划的方面有几个问题求解： 1. RT,之前我都是平时实际价格+优惠券，然后定时BD促销这样去做，最近在规划其他类目产品价格，发现该类目有些卖家的价格折扣和BD是无缝衔接且不会进入价格螺旋。 补充说明：以下说的价格折扣都是prime...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-38cb001afcc5"
+  },
+  {
     "id": "lsch-128c7672",
     "date": "2026-07-13",
     "time": "11:48",
@@ -17378,6 +17399,27 @@
       "选品"
     ],
     "eventId": "evt-9639d65935be"
+  },
+  {
+    "id": "was-q-121906",
+    "date": "2026-07-07",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121906",
+    "sourceType": "community",
+    "score": 55,
+    "category": "policy",
+    "title": "【求助】意大利欧洲增值税登记要求已过期，意大利商品限制客户订购，纯自发货店铺为什么也受到影响？",
+    "summary": "【求助】意大利欧洲增值税登记要求已过期，意大利商品限制客户订购，纯自发货店铺为什么也受到影响？ - 上个月，提示意大利（Italy）欧洲增值税登记要求已过期，几十天了店铺受到影响客户无法订购，想请教一下有没有卖家遇到过类似情况。 店铺一直都是自发货，从未使用过FBA，我的理解是FBA卖家因为货物存放在欧盟国家，需要注册当地VAT，这一点可以理解。 ...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-56935693c256"
   },
   {
     "id": "amazon-forum-7336583f-09ac-41de-99d1-667017a88db2",

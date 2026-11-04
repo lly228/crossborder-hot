@@ -48116,6 +48116,30 @@
     "eventId": "evt-bb5c0d3b484e"
   },
   {
+    "id": "amazon-forum-0114ca5b-6fd3-4e5e-a854-ebab89c7aa52",
+    "date": "2026-08-05",
+    "time": "02:02",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/0114ca5b-6fd3-4e5e-a854-ebab89c7aa52",
+    "sourceType": "official",
+    "score": 75,
+    "category": "platform",
+    "title": "了解为何你不是Featured Offer",
+    "summary": "亚马逊卖家助手新增功能，能解释Offer未获得Featured Offer的原因并提供改善建议，可一次分析最多10个ASIN。",
+    "selected": true,
+    "why": "直接帮助卖家赢取购物车，提升销售，是实用的官方工具升级。",
+    "impact": "所有亚马逊卖家都可利用此功能优化报价竞争力。",
+    "action": "使用卖家助手检查丢失购物车的ASIN，按建议调整定价、账户健康等。",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "功能更新",
+      "购物车",
+      "卖家助手"
+    ],
+    "eventId": "evt-39613760bfa9"
+  },
+  {
     "id": "187919",
     "date": "2026-08-04",
     "time": "20:32",
