@@ -287,6 +287,25 @@
     "eventId": "evt-25d45eb5ff76"
   },
   {
+    "id": "was-q-118993",
+    "date": "2026-04-27",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/118993",
+    "sourceType": "community",
+    "score": 59,
+    "category": "policy",
+    "title": "AI趋势将至，用AI代运营的方式到底可取吗？",
+    "summary": "AI趋势将至，用AI代运营的方式到底可取吗？ - 最近在尝试使用codex+5.4pro做一个agent可以自动上品 下架 优化 库存补货的skills。 但是很多操作需要人工盯着，预防违规的操作导致账号关店，想要做一个全自动化的agent但是对代码又不是很感冒，想问问各位大佬有没有正在接触的可以交流交流...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-89745f3dc985"
+  },
+  {
     "id": "was-q-118971",
     "date": "2026-04-26",
     "time": "00:00",
