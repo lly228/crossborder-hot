@@ -2,6 +2,44 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "189948",
+    "date": "2026-11-07",
+    "time": "15:59",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/189948",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "没订单了！知名上市大卖子公司停产",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-a660b128ad89"
+  },
+  {
+    "id": "189940",
+    "date": "2026-11-07",
+    "time": "15:30",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/189940",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "3个月营收突破2600万！佛山童装工厂正在引爆欧美圣诞市场",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-eadefef5a337"
+  },
+  {
     "id": "lsch-aaa561ee",
     "date": "2026-11-07",
     "time": "12:19",
@@ -82,6 +120,109 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-8db0679cdab6"
+  },
+  {
+    "id": "was-q-126323",
+    "date": "2026-11-07",
+    "time": "11:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/126323",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "马上过年了，今年大家业绩如何，都进来聊聊",
+    "summary": "马上过年了，今年大家业绩如何，都进来聊聊 - 先说说我们公司，欧美电商，自己负责大件为主。 今年情况是总体销量微增，毛利减半。。。。 一个是今年更加的卷价格，同质化很严重，新开的品很快就会被跟进。 为了保住规模，很多品只能跟进降价了。。。 另一个就是美元汇率跟去年一样又是纯亏的一年。。...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-1ce8504b8f8d"
+  },
+  {
+    "id": "was-q-126321",
+    "date": "2026-11-07",
+    "time": "11:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/126321",
+    "sourceType": "community",
+    "score": 53,
+    "category": "logistics",
+    "title": "关于美东仓库，OA联盟海铁联运的货堆在码头一个多月，这速度还不如直航纽约港，大家是不是也有同样遭遇？",
+    "summary": "关于美东仓库，OA联盟海铁联运的货堆在码头一个多月，这速度还不如直航纽约港，大家是不是也有同样遭遇？ - 大家最近有没有美东仓库，走OA联盟海铁联运的？ 船名航次:OOCL UTAH 087E，2026-09-30到港，2026-10-02卸船的，2026-10-13清关完，到今天2026-11-7了，还没上火车，堆在码头一个多月了；亚马逊入库缺陷费虽然再...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储"
+    ],
+    "eventId": "evt-a78466820649"
+  },
+  {
+    "id": "was-q-126320",
+    "date": "2026-11-07",
+    "time": "11:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/126320",
+    "sourceType": "community",
+    "score": 53,
+    "category": "policy",
+    "title": "亚马逊美国品牌备案，填写公司信息时，选商标归注册公司所有，名称填的商标主体，但是社会统一信用代码被填成已被封店的主体的。",
+    "summary": "亚马逊美国品牌备案，填写公司信息时，选商标归注册公司所有，名称填的商标主体，但是社会统一信用代码被填成已被封店的主体的。 - 目前备案因为信息不一致被拒绝，要申诉重填。 如果提交申诉，这两个店铺主体是否会产生关联？ 还有什么更好的解决方案？",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "知识产权"
+    ],
+    "eventId": "evt-8309f6139d8e"
+  },
+  {
+    "id": "amz-2Zz2ZhOj",
+    "date": "2026-11-07",
+    "time": "10:45",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/2Zz2ZhOj",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "俄罗斯央行拟立法规定退款须退回原支付银行卡",
+    "summary": "AMZ123获悉，俄罗斯央行已向经济发展部提交建议，拟将「商品退款必须退回原支付银行卡」纳入法律规定。央行指出，目前部分电商平台将退款转入旗下子银行开立的匿名电子钱包，用户对该钱包的存在毫不知情，也无法看到退款到账情况。受未实名支付工具的限制，相关资金无法提现，只能在平台内消费使用。央行代表奇尔科夫表示，这一做法在形式上合法，但实质上构成对用户自主支配资金的额外限制。与此同时，央行还建议将目前仅适用于金融机构的金融产品销售规则延伸至在线平台。若新规正式落地，Ozon、Wildberries等平台的退款路径将统一调整为退回原支付银行卡。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-4e3998fcca31"
+  },
+  {
+    "id": "amz-Z69fu1uw",
+    "date": "2026-11-07",
+    "time": "10:15",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Z69fu1uw",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "中东快线扩容至五船联营，青岛南沙直航豪尔费坎",
+    "summary": "AMZ123获悉，阿联酋一家港口集团旗下的班轮公司扩大了与中国承运企业的合作，对中国至阿联酋东海岸的中东快线进行升级。升级后，该公司在该航线投入两艘船，与三家中国承运企业共同组成五艘船的联合班期，全部安排自本月起执行。该航线挂靠青岛、上海、宁波、南沙及豪尔费坎，华中地区出口至豪尔费坎的中转时间为22天，华南地区为18天。与此同时，该公司还与另一家中国航运企业合作运营一条中国至海湾航线，挂靠青岛、宁波、蛇口、南沙、巴生港及豪尔费坎。豪尔费坎位于阿联酋东海岸阿曼湾一侧，是该国面向中东、非洲及南亚的重要中转节点。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-329c7d2ba81b"
   },
   {
     "id": "lsch-bbda34a1",
@@ -179,6 +320,311 @@ window.NEWS_DATA = [
       "知识产权"
     ],
     "eventId": "evt-a01ec252c54c"
+  },
+  {
+    "id": "amz-WoYLdfjf",
+    "date": "2026-11-07",
+    "time": "09:24",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/WoYLdfjf",
+    "sourceType": "media",
+    "score": 69,
+    "category": "platform",
+    "title": "Shopee泰国11.11大促调整发货时效，大型货物最晚可延至13日",
+    "summary": "AMZ123获悉，Shopee泰国本土站正式公布11.11大促期间的发货期限调整方案。普通运输与即时配送按订单生成时段分档执行：11月11日15:00前生成的订单，最晚发货日为11月11日；11月11日15:00至12日15:00生成的订单，顺延至11月13日；11月12日15:00至13日15:00生成的订单，最晚延至11月14日。大型货物运输时效相对更长：11月9日15:00前生成的订单最晚发货日为11月11日；11月10日15:00前生成的订单最晚为11月12日；11月11日15:00前生成的订单最晚延至11月13日。上述调整不适用于预售商品、快捷送达及指定派送渠道。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee"
+    ],
+    "eventId": "evt-7c4b2b8cd957"
+  },
+  {
+    "id": "amz-HKhQPxLM",
+    "date": "2026-11-07",
+    "time": "09:24",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/HKhQPxLM",
+    "sourceType": "media",
+    "score": 59,
+    "category": "platform",
+    "title": "巴西黑五电商交易额预计133亿雷亚尔，美客多投1亿雷亚尔发券",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-6ecc06088b40"
+  },
+  {
+    "id": "amz-jzpoeC2J",
+    "date": "2026-11-07",
+    "time": "09:24",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/jzpoeC2J",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "菲律宾查获500万比索摩托车零件，一名中国籍卖家被捕",
+    "summary": "AMZ123获悉，菲律宾警方在瓦伦苏埃拉市开展打击非法商品交易专项行动，查获总值逾500万比索的疑似走私摩托车零件及配件，并逮捕一名中国籍男子。现场查获物品涵盖刹车泵线、悬挂系统零件、气缸、软管及车把握把等，估值约502.05万比索，警方同时收回行动中使用的诱捕款项。被捕男子与全部查获物品均已遭扣押，执法人员正在完成相关文件整理并推进后续法律程序。值得关注的是，菲律宾国家警察目前对该批商品的定性为疑似走私摩托车零件，货物来源国、完整进口文件与报关资料及最终鉴定结果尚未公开，菲律宾媒体报道称仍需进一步核查是否违反进口及海关相关规定。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-8ea0e9d4349a"
+  },
+  {
+    "id": "amz-WsoONI3x",
+    "date": "2026-11-07",
+    "time": "08:14",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/WsoONI3x",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "泰国邮政配合实地核验法人地址，打击虚假注册与空壳企业",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-eb945913d0ff"
+  },
+  {
+    "id": "amz-32unO0n3",
+    "date": "2026-11-07",
+    "time": "08:14",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/32unO0n3",
+    "sourceType": "media",
+    "score": 75,
+    "category": "policy",
+    "title": "印尼拟2027年上调个税起征点，月免征额从450万调至750万印尼盾",
+    "summary": "AMZ123获悉，印尼经济事务协调部长艾尔朗加·哈塔托透露，上调非应税收入门槛（PTKP，即个税免征门槛）的相关政策计划于2027年正式执行，但大概率不会从1月起生效，具体细则仍在政府内部研讨中。该提案由印尼工会联合会KSPI推动，拟将PTKP从现行每月450万印尼盾提升至每月750万印尼盾，政策出发点是使收入接近地方最低工资水平的劳动者免于缴纳个税。目前，雅加达不少从业者月薪约为500万印尼盾，折算年收入约6000万印尼盾，而现行PTKP年度上限仅为5400万印尼盾，超出部分仍须计税，免征标准已与各地最低工资水平出现明显脱节。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-71fc0284fa30"
+  },
+  {
+    "id": "amz-6PeF7DLj",
+    "date": "2026-11-07",
+    "time": "08:14",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/6PeF7DLj",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "新加坡查获4300枚电子烟弹，走私男子被判1年6个月监禁",
+    "summary": "AMZ123获悉，新加坡卫生科学局于11月5日通报，一名31岁马来西亚男子因走私非依托咪酯电子烟弹入境，被法院判处1年6个月监禁。此判决为新加坡《烟草与电子烟控制法》实施以来该类案件中最重的刑罚。据调查，该男子于今年6月初通过Facebook页面应聘，与一名使用马来西亚号码、自称为老板的联系人对接。对方指派其向新加坡运送电子烟弹，并为其配备马来西亚SIM卡专用于接单联络。该男子驾车经兀兰检查站入境时被移民与关卡局拦截，执法人员在车辆侧板夹层内查获电子烟弹共计逾4300枚，估值约2.2万新元。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e8f544915a4f"
+  },
+  {
+    "id": "amz-XrzAv6HH",
+    "date": "2026-11-07",
+    "time": "08:03",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/XrzAv6HH",
+    "sourceType": "media",
+    "score": 69,
+    "category": "platform",
+    "title": "Shopee中国台湾站上线商品快速编辑功能，完整度进度条指引补齐方向",
+    "summary": "AMZ123获悉，Shopee中国台湾本土站自2026年11月5日起陆续上线商品快速编辑功能，卖家可直接在商品列表页通过商品诊断栏入口进入快速编辑页面，完成商品信息的补全操作，无需跳转至完整商品编辑页，有效简化了Listing优化流程。此次同步更新的还有App端与卖家后台的商品内容优化建议模块，界面展示与优化指引均已升级。新版工具配备可视化的内容完整度进度条，清晰标注配图、品牌信息、商品视频等待补齐的栏位，并提供对应的补齐方向。该模块支持自动解析商品资料完整度，并实时输出个性化优化建议。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee"
+    ],
+    "eventId": "evt-416fbb118e40"
+  },
+  {
+    "id": "amz-LVjs8pOt",
+    "date": "2026-11-07",
+    "time": "08:03",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/LVjs8pOt",
+    "sourceType": "media",
+    "score": 63,
+    "category": "logistics",
+    "title": "Lazada越南站11.11大促实施物流管控政策，11月13日起禁止变更物流信息",
+    "summary": "AMZ123获悉，Lazada越南本土站为保障11.11大促活动的正常运转，集中出台多项临时管控及履约时效政策。仓库地址、物流承运商及运输方式的变更申请入口将于11月9日00:00至23:59期间临时关闭；大促活动商品价格在11月8日00:00至11月13日23:59期间实行锁定，官方活动报名通道的降价申请全程均可提交，涨价申请最晚须于11月10日16:59前完成。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Lazada",
+      "政策合规",
+      "物流仓储"
+    ],
+    "eventId": "evt-9f33213e5ab0"
+  },
+  {
+    "id": "amz-Dzfkusxv",
+    "date": "2026-11-07",
+    "time": "07:53",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Dzfkusxv",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "深圳前三季度外贸额达4.65万亿元，机器人出口增长12.9倍",
+    "summary": "AMZ123获悉，深圳海关数据显示，前三季度深圳累计进出口总额达4.65万亿元，同比增长38.8%，规模已超越去年全年并创历史新高，持续位居内地城市进出口首位。从品类结构来看，3D打印机与数字照相机出口合计增长46.5%，出口量占全国同类产品的八成以上；拓竹、创想三维、纵维立体、智能派四家深圳企业合计占据全球约九成的入门级3D打印机市场份额。机器人赛道增速更为突出，前三季度深圳机器人出口额达134.49亿元，同比增长12.9倍，已由消费级硬件向高端市场延伸拓展。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储",
+      "选品"
+    ],
+    "eventId": "evt-14fdd91df096"
+  },
+  {
+    "id": "amz-ofiIapA1",
+    "date": "2026-11-07",
+    "time": "07:53",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/ofiIapA1",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "首届AI双11：平台集中布局AI工具，京东数字人服务超10万商家",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-acbc2194dc47"
+  },
+  {
+    "id": "amz-SinF8sgM",
+    "date": "2026-11-07",
+    "time": "07:43",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/SinF8sgM",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "空客波音新一代货机交付双双延期，777-8F推迟至2029年前后",
+    "summary": "AMZ123获悉，空客与波音的新一代大型货机交付计划均出现延误。空客A350F的首飞已推迟至2026年9月29日完成取证，预计2027年获得欧洲航空安全局认证，并于下半年正式开始交付。波音777-8F的首架交付时间则由原定的2027年推迟至2029年前后。截至8月底，A350F累计订单量为115架；10月波音公布777-8F确认订单为89架。货机交付进度放缓，意味着现役老旧货机将延长服役周期。777F改装机及747等老机型将继续承担货运任务。777-8F最大结构载重为118吨，较A350F的111吨高出7吨；波音披露其货舱容积为27056立方英尺，定位为同时承运稠密普货与轻泡时效货物。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-fe0e5248384f"
+  },
+  {
+    "id": "amz-vNPBz0iH",
+    "date": "2026-11-07",
+    "time": "07:43",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/vNPBz0iH",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "越南国民议会确定2027年GDP增长目标超10%",
+    "summary": "AMZ123获悉，越南国民议会于11月7日通过了关于2027年社会经济发展的决议，经济增长目标设定为10%以上，人均GDP目标约为6100美元，通胀率控制在4.5%左右。当日，超过93.4%的与会代表投票赞成。决议要求政府持续推动经济增长与宏观经济稳定并举，并通过发行政府债券、ODA贷款等方式拓宽财政收入来源。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f47933173bfc"
+  },
+  {
+    "id": "amz-UxoVKHJP",
+    "date": "2026-11-07",
+    "time": "07:33",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/UxoVKHJP",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "俄罗斯零售市场前九个月仅新增16个品牌，本土品牌占多数",
+    "summary": "AMZ123获悉，据Commonwealth Partnership发布的#MARKETBEAT报告，2026年1月至9月，俄罗斯零售市场共有16个品牌新进入，其中13个为本土品牌，来自海外的品牌仅有3个。服饰鞋类依然是新进入品牌最集中的品类，占前九个月全部新进品牌数量的62%。与此同时，报告也呈现了市场退出一侧的情况。已运营13年的Fashion Fabrique于10月宣布关闭并启动清仓处理，后因顾客挽留而延长了数月营业。整体来看，俄罗斯零售市场全年新进品牌数量有限，叠加本土连锁的退出，有意进入该市场的商家窗口期较为稀缺，空置铺位也趋于集中分布。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品"
+    ],
+    "eventId": "evt-ea6caedf7e03"
+  },
+  {
+    "id": "amz-efjirqyQ",
+    "date": "2026-11-07",
+    "time": "07:33",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/efjirqyQ",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "美国按摩枪品牌Therabody线上年收入达4400万美元，累计销量超650万台",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-9150889476ab"
+  },
+  {
+    "id": "amz-XAiqt2fj",
+    "date": "2026-11-07",
+    "time": "07:12",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/XAiqt2fj",
+    "sourceType": "media",
+    "score": 67,
+    "category": "logistics",
+    "title": "汉莎货运等四家航司签署备忘录，探索日欧空运网络整合",
+    "summary": "AMZ123获悉，汉莎货运、瑞士货运、全日空与日本航空货运于11月6日签署谅解备忘录，四家航司将就日本与欧洲之间的空运市场展开深度合作探索，合作方向涵盖机队资源调配、时刻表衔接与舱位共享。目前，该备忘录仍处于意向阶段，各方均未公布具体运力投放规模与生效时间。四家航司在日欧航线上各有侧重：瑞士货运与汉莎货运主要承运欧洲始发货物，全日空与日本航空货运则以日本始发为主。日欧空运运力本身较为紧张，若四方在时刻与舱位层面实现协同，欧洲与日本之间的运价与时效或将出现新的变化。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储",
+      "广告营销"
+    ],
+    "eventId": "evt-a97191e96ee1"
   },
   {
     "id": "was-q-126309",
@@ -1366,6 +1812,27 @@ window.NEWS_DATA = [
       "亚马逊"
     ],
     "eventId": "evt-79fa62b5dd84"
+  },
+  {
+    "id": "189938",
+    "date": "2026-11-06",
+    "time": "09:56",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/189938",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "独家｜今年速卖通海外双11，原本要躺平的欧洲，居然爆仓了！",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "速卖通"
+    ],
+    "eventId": "evt-8d0adcf82600"
   },
   {
     "id": "mjzj-g3fsw3ih5e68",
@@ -2644,6 +3111,27 @@ window.NEWS_DATA = [
       "选品"
     ],
     "eventId": "evt-222e28ded333"
+  },
+  {
+    "id": "189929",
+    "date": "2026-11-05",
+    "time": "17:14",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/189929",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "亚马逊 48%份额被这家深圳公司拿下，安克提前五年投了它",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-aff91825935b"
   },
   {
     "id": "mjzj-g3dc128a3da8",
@@ -45581,7 +46069,7 @@ window.NEWS_DATA = [
     "tags": [
       "Shopee"
     ],
-    "eventId": "evt-f54cdae9ff00"
+    "eventId": "evt-c7170adf8f8e"
   },
   {
     "id": "amz-UTjvLSRa",
@@ -48665,7 +49153,7 @@ window.NEWS_DATA = [
     "tags": [
       "Shopee"
     ],
-    "eventId": "evt-f54cdae9ff00"
+    "eventId": "evt-f49fb44a321d"
   },
   {
     "id": "amz-grkD5qzg",
@@ -52556,7 +53044,7 @@ window.NEWS_DATA = [
       "政策合规",
       "广告营销"
     ],
-    "eventId": "evt-ef12bbd77be4"
+    "eventId": "evt-f49fb44a321d"
   },
   {
     "id": "mjzj-g0nv23r8qubk",
