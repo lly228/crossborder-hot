@@ -951,6 +951,28 @@
     "eventId": "evt-c10d271df1a3"
   },
   {
+    "id": "was-q-121263",
+    "date": "2026-06-21",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121263",
+    "sourceType": "community",
+    "score": 61,
+    "category": "policy",
+    "title": "新注册的亚马逊店铺，是直接用UPC上产品好，还是先白名单等品牌备案后GTIN豁免好",
+    "summary": "新注册的亚马逊店铺，是直接用UPC上产品好，还是先白名单等品牌备案后GTIN豁免好 - 现在淘宝的UPC还能用吗？ 一年前做的时候是用淘宝一家店的，一直没问题，但是我一年没做亚马逊了，不确定现在的新规怎么样。 听说用了upc后面申请GTIN会失败。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规"
+    ],
+    "eventId": "evt-755d5447be7a"
+  },
+  {
     "id": "lsch-291e654b",
     "date": "2026-06-20",
     "time": "10:47",
@@ -1181,6 +1203,27 @@
     "deadline": "",
     "tags": [],
     "eventId": "evt-fc3664ae5db3"
+  },
+  {
+    "id": "was-q-121117",
+    "date": "2026-06-16",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121117",
+    "sourceType": "community",
+    "score": 47,
+    "category": "logistics",
+    "title": "ebay个人卖家账号刚注册就被封，求大佬指点一下",
+    "summary": "ebay个人卖家账号刚注册就被封，求大佬指点一下 - ebay个人卖家账号刚注册就被封了，不知道确定是哪步出问题了 1、用的公共V*N网络 2、账号注册的个人姓名是瞎编的英文名 3、电话号码验证填写的是中国的号码 4、地址验证填写的是海外仓的发货地址 5、注册好之后马上去发布第一款商品，但是没成功发布，然后账...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-0100fa453d63"
   },
   {
     "id": "was-q-121072",
