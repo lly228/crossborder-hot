@@ -198,6 +198,25 @@
     "eventId": "evt-5c864d113ba6"
   },
   {
+    "id": "was-q-121628",
+    "date": "2026-06-30",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/121628",
+    "sourceType": "community",
+    "score": 55,
+    "category": "market",
+    "title": "消费者法案提示身份信息无法验证",
+    "summary": "消费者法案提示身份信息无法验证 - 消费者法案触发无通知无邮件，账户状况点进去有消费者法案提示，显示身份信息重新审核，但是后台没有提交资料入口，点击身份审核直接到case页面，账户绩效团队提交一次回复邮件说还是无法验证， 后续打电话给你账户绩效团队，找到问题是执照有过更新，已经给绩效团...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f69f2683b202"
+  },
+  {
     "id": "was-q-121573",
     "date": "2026-06-29",
     "time": "00:00",

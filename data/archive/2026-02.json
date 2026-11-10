@@ -320,6 +320,27 @@
     "eventId": "evt-a4039037860e"
   },
   {
+    "id": "was-q-116239",
+    "date": "2026-02-24",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/116239",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "Skill：新的一年亚马逊运营最应该掌握的AI技能",
+    "summary": "Skill：新的一年亚马逊运营最应该掌握的AI技能 - 新年快乐哇 别打盹啦 来学点新技能吧 老规矩 先说下最近做了什么 用大白话把分析 BA 报告的那套思路「塞」给 AI 封装成一个叫 Skill 的东西 后面只要调用它就能按你的角度直接出 Excel + 文档报告 不用再写提示词，也不用 Ctrl C ...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-67c6d230ddbb"
+  },
+  {
     "id": "was-q-116227",
     "date": "2026-02-23",
     "time": "00:00",
