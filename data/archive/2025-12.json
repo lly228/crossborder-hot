@@ -275,6 +275,25 @@
     "eventId": "evt-ba2521859a04"
   },
   {
+    "id": "was-q-114119",
+    "date": "2025-12-23",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/114119",
+    "sourceType": "community",
+    "score": 47,
+    "category": "market",
+    "title": "没有承认错误的选项的受限品违规要怎么处理？",
+    "summary": "没有承认错误的选项的受限品违规要怎么处理？ - 之前有些不是很明确的 listing 被扫是受限品。只剩一两个库存了也不打算卖了，就移除了库存、删除 listing。但绩效那里并没有“承认错误”的选项，申诉理由是必须提交的。我也打电话给绩效专员，她说那个之前承认错误的入口已经合并。按照她的要求，之后提交...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-90559c349b0a"
+  },
+  {
     "id": "lsch-8220e394",
     "date": "2025-12-22",
     "time": "22:45",
@@ -404,6 +423,25 @@
       "广告营销"
     ],
     "eventId": "evt-81282aea9b6d"
+  },
+  {
+    "id": "was-q-113804",
+    "date": "2025-12-17",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/113804",
+    "sourceType": "community",
+    "score": 55,
+    "category": "policy",
+    "title": "德国后台VAT地址和税局不符：按要求更新了后台和VAT地址，为何税局仍反馈地址不一致？",
+    "summary": "德国后台VAT地址和税局不符：按要求更新了后台和VAT地址，为何税局仍反馈地址不一致？ - 前两个月因为公司营业执照地址修改了，后台的地址和 VAT 地址也根据要求一起修改了。由于德国 VAT 地址有字符长度限制，不能超过 50 个字符，因此进行了缩短。前几天我发邮件说明税局地址和后台地址不一致，随后又提交了申诉邮件，解释是因为字符被缩短了。 ...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-787d0c8c7c78"
   },
   {
     "id": "was-q-113737",
