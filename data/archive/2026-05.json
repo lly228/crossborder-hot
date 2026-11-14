@@ -659,6 +659,27 @@
     "eventId": "evt-64a639829d1a"
   },
   {
+    "id": "was-q-120197",
+    "date": "2026-05-26",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120197",
+    "sourceType": "community",
+    "score": 47,
+    "category": "logistics",
+    "title": "原本发货AWD的货件，但货件错误送到了FBA仓库该怎么处理呀？",
+    "summary": "原本发货AWD的货件，但货件错误送到了FBA仓库该怎么处理呀？ - 事情经过： 在2025年10月份，发了一票31箱AWD货件，地址为IUSR，但是当时货代下错订单发货并送到了FBA的CLT2仓库。今天看这票AWD的货件一直显示接收数量为0，才发现送错了。 过去这么久，这票货件的目前的状态是什么样的？还有没有办法可以挽...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-9c41b44e6096"
+  },
+  {
     "id": "lsch-560fd0d4",
     "date": "2026-05-25",
     "time": "21:32",
