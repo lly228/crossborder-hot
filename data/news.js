@@ -2,6 +2,44 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "190139",
+    "date": "2026-11-15",
+    "time": "17:28",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190139",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "500+店铺连夜被封！这类产品不要卖",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-c97bda43c063"
+  },
+  {
+    "id": "mjzj-g45x9tgflfcw",
+    "date": "2026-11-15",
+    "time": "17:28",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g45x9tgflfcw",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "【麦家支持案例分享】仅用2k美金，一个星期便挽回数万美金损失",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-7f18b5fc299e"
+  },
+  {
     "id": "190128",
     "date": "2026-11-15",
     "time": "15:00",
@@ -61,6 +99,25 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-28c874473558"
+  },
+  {
+    "id": "amz-UI5riVcW",
+    "date": "2026-11-15",
+    "time": "08:41",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/UI5riVcW",
+    "sourceType": "media",
+    "score": 63,
+    "category": "market",
+    "title": "MSC首席执行官：港口拥堵成行业新常态，8月延误运力431万TEU超疫情峰值",
+    "summary": "AMZ123获悉，MSC首席执行官Søren Toft在季度更新中指出，港口拥堵已成为航运业的新常态，地缘政治不确定性亦持续存在。据Linerlytica数据，8月因港口拥堵导致延误的集装箱运力达431万TEU，超过COVID后期400万TEU的历史峰值。最新一周港口实况显示，上海7天平均等泊时间为2.28天，宁波为2.25天，新加坡为1.7天。堆场方面，东京大井码头利用率达97%、青海码头达113%，釜山BNCT约为95%，重箱利用率接近100%。Toft所指的新常态，涵盖班期可靠性尚未恢复、网络仍处于重新调整阶段、地缘风险持续未消等结构性问题。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-55a9686229f1"
   },
   {
     "id": "amz-SKwpK4Vj",
@@ -51977,7 +52034,7 @@ window.NEWS_DATA = [
     "tags": [
       "亚马逊"
     ],
-    "eventId": "evt-898ab52efe94"
+    "eventId": "evt-733b83349b8e"
   },
   {
     "id": "mjzj-g1cvm7m0b6yo",
@@ -52315,7 +52372,7 @@ window.NEWS_DATA = [
       "政策合规",
       "物流仓储"
     ],
-    "eventId": "evt-89c1efcd7c16"
+    "eventId": "evt-9847cb0def81"
   },
   {
     "id": "amz-hvRMInY5",
@@ -52502,7 +52559,7 @@ window.NEWS_DATA = [
       "TikTok Shop",
       "Shopee"
     ],
-    "eventId": "evt-f8571638e90b"
+    "eventId": "evt-3545d0baf9d4"
   },
   {
     "id": "amz-vQZ6SVud",
