@@ -1721,6 +1721,28 @@
     "eventId": "evt-2c0b30969ca2"
   },
   {
+    "id": "was-q-120907",
+    "date": "2026-06-11",
+    "time": "00:00",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/120907",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "亚马逊api接入openclaw，会不会被关联店铺？同一台电脑下载不同店铺的广告报告（邮件里收到的）会不会引起店铺关联？",
+    "summary": "亚马逊api接入openclaw，会不会被关联店铺？同一台电脑下载不同店铺的广告报告（邮件里收到的）会不会引起店铺关联？ - 我想用openclaw来运营店铺，通过亚马逊官方的api 我有一台独立的macmini在跑openclaw，设置的时候可以在紫鸟浏览器设置，设置完以后，这台macmini通过openclaw去接入多个店铺的api，会不会引发关联？ 此外，我还想问一下，亚...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-6e681eae0ffb"
+  },
+  {
     "id": "was-q-120853",
     "date": "2026-06-10",
     "time": "00:00",
