@@ -23,6 +23,52 @@ window.NEWS_DATA = [
     "eventId": "evt-8579bba44ac7"
   },
   {
+    "id": "was-q-126678",
+    "date": "2026-11-19",
+    "time": "12:57",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/126678",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "亚马逊内卷加剧，盲目铺开多平台你怎么看？",
+    "summary": "亚马逊内卷加剧，盲目铺开多平台你怎么看？ - 最近和不少卖家聊天，感受很统一：亚马逊的竞争早就不是小幅内卷，广告持续走高、价格战常态化、利润不断被压缩。 焦虑之下，很多人自然而然冒出一个想法：既然亚马逊难做，那不如多铺几个渠道，TikTok Shop、Temu、独立站一起上，靠多平台分摊风险。 但我...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "TikTok Shop",
+      "Temu",
+      "广告营销"
+    ],
+    "eventId": "evt-586f957d6096"
+  },
+  {
+    "id": "was-q-126682",
+    "date": "2026-11-19",
+    "time": "12:57",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/126682",
+    "sourceType": "community",
+    "score": 53,
+    "category": "marketing",
+    "title": "200多个SKU拿去做TikTok，我会先挑库存没那么急的品",
+    "summary": "200多个SKU拿去做TikTok，我会先挑库存没那么急的品 - 论坛有个运营讲自己的经历，前一家公司是一个人管店铺、视频和达人，投放预算也不连续。换了公司以后，接手的又是200多个SKU的清货任务，公司更倾向达人和AI产出，不支持做自营短视频。 评论里不少人在争，TikTok到底应该做精品还是铺货，达人和自营哪个更...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "广告营销"
+    ],
+    "eventId": "evt-37483f483778"
+  },
+  {
     "id": "mjzj-g4qn7tquwg74",
     "date": "2026-11-19",
     "time": "12:51",
@@ -194,6 +240,70 @@ window.NEWS_DATA = [
     "eventId": "evt-43fab3bc4e24"
   },
   {
+    "id": "amz-1IMWgKXR",
+    "date": "2026-11-19",
+    "time": "12:03",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/1IMWgKXR",
+    "sourceType": "media",
+    "score": 61,
+    "category": "logistics",
+    "title": "亚马逊墨西哥州莱尔马新开越库中心，该州物流中心增至6个",
+    "summary": "AMZ123获悉，亚马逊在墨西哥州莱尔马市启用了一座新的越库物流中心，主要承担商品分拨职能，使该州物流中心总数增至6个，另设有2个配送站。亚马逊于2013年进入墨西哥市场，2015年在库奥蒂特兰伊斯卡利建立首个配送中心，近两年在墨西哥州新增3处设施。截至2025年底，亚马逊在墨西哥州的累计投资已超过380亿比索，对当地生产总值的贡献超过350亿比索，累计创造约1.03万个直接与间接就业岗位。目前，该州已有逾4000家中小企业、创业者及手工艺人通过亚马逊平台开展商品销售。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储"
+    ],
+    "eventId": "evt-b3ec3e8dacde"
+  },
+  {
+    "id": "amz-wc4a4oF4",
+    "date": "2026-11-19",
+    "time": "11:53",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/wc4a4oF4",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "Temu与万事达签署合作备忘录，覆盖90余个市场并支持本地卖家融资",
+    "summary": "AMZ123获悉，Temu与万事达于11月19日正式宣布签署合作备忘录，双方将在支付领域深化合作，覆盖范围延伸至90多个市场的消费者。根据双方披露，此次合作将拓宽Temu用户的支付方式，并降低欺诈交易及合法交易被误拒的比例。在面向平台本地卖家的计划方面，合作重点在于提升支付效率、拓宽融资渠道及改善营运资金管理，以支持卖家开拓新市场。目前双方未披露具体支付产品、上线时间表及涉及金额，此前两家在支付领域已有合作基础。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Temu"
+    ],
+    "eventId": "evt-40d60ecb36cb"
+  },
+  {
+    "id": "amz-CG8AW6TT",
+    "date": "2026-11-19",
+    "time": "11:53",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/CG8AW6TT",
+    "sourceType": "media",
+    "score": 63,
+    "category": "logistics",
+    "title": "国际航协2027版电池运输规则出炉 明年1月1日起施行",
+    "summary": "AMZ123获悉，国际航空运输协会正式发布2027年版电池运输规则调整方案，该规则将于2027年1月1日起正式施行。本次变更主要涵盖以下内容：新增混合电池条款，即针对同时含有锂离子与钠离子电芯的电池；大幅修订钠离子电池与原型电池的包装指示。此外，规则明确规定，安装在设备中的纽扣电芯不计入部分条款中的4芯或2电池限量；带有电话号码的旧版锂电池标记将逐步淘汰；电池标记须与其他适用的危险性标签贴于同一包装表面。国际航空运输协会指出，电动车与电动自行车的普及推动电池运输量持续增长，有必要通过规则更新应对运输环节中的潜在风险。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-83415002d6ff"
+  },
+  {
     "id": "mjzj-g4qhkctyixhc",
     "date": "2026-11-19",
     "time": "11:46",
@@ -214,6 +324,27 @@ window.NEWS_DATA = [
       "广告营销"
     ],
     "eventId": "evt-8ae99d11d3d2"
+  },
+  {
+    "id": "amz-S8XSrGs5",
+    "date": "2026-11-19",
+    "time": "11:43",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/S8XSrGs5",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "波兰总统否决饮料增值税上调，能量饮料维持5%与8%税率",
+    "summary": "AMZ123获悉，波兰总统于11月18日否决了将部分饮料增值税税率提升至23%的相关法案。受影响的商品类别涵盖含糖果汁饮料的无酒精替代品、酒精度为零的无酒精啤酒、经脱醇工艺处理的无酒精葡萄酒与苹果酒，以及添加咖啡因或牛磺酸的能量饮料。上述商品在零售环节继续适用5%的增值税率，餐饮环节适用8%。该法案原计划于2027年为财政增收约13亿兹罗提，2027年至2036年累计增收约158亿兹罗提。与此同时，波兰总统于同日签署消费税修订法案，规定自2027年起对乙醇、啤酒、葡萄酒及苹果酒上调消费税率，相关收入将划入国家健康基金。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品"
+    ],
+    "eventId": "evt-d7f6a9627ffb"
   },
   {
     "id": "mjzj-g4qh7nnljhfk",
@@ -255,6 +386,51 @@ window.NEWS_DATA = [
     "tags": [],
     "ref": "https://www.amz123.com/kx/aZTwzyrn",
     "eventId": "evt-9bcf12782510"
+  },
+  {
+    "id": "mjzj-g4qga5hl4c8w",
+    "date": "2026-11-19",
+    "time": "11:33",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g4qga5hl4c8w",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "环比仅增长0.2%，高物价影响美国10月零售销售额",
+    "summary": "美国10月零售销售额7482亿美元环比增0.2%（9月0.8%），同比增6.8%；剔除汽车汽油建材餐饮后核心零售增0.6%；非实体店零售1282亿美元同比增11.8%，剔除通胀后消费者支出实际负增长。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "ref": "https://www.amz123.com/t/VkHNc6rA",
+    "eventId": "evt-ef97971fb699"
+  },
+  {
+    "id": "mjzj-g4qg80a5lp8g",
+    "date": "2026-11-19",
+    "time": "11:33",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g4qg80a5lp8g",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "巴西通知亚马逊等平台，须说明卖家审核与退款等机制",
+    "summary": "巴西国家消费者秘书处11月16日向亚马逊、美客多、TikTok Shop及字节跳动、Shopee、Temu和IDV发出通知，要求72小时内说明2026年黑五消费者保护措施并提交2025年问题数据，违规将面临行政处罚。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "TikTok Shop",
+      "Temu",
+      "Shopee"
+    ],
+    "ref": "https://www.amz123.com/t/DuKY6Vrp",
+    "eventId": "evt-d20df93c4c3d"
   },
   {
     "id": "mjzj-g4qg5qh5bd35",
@@ -321,6 +497,341 @@ window.NEWS_DATA = [
     ],
     "ref": "https://www.amz123.com/kx/mKkRpYTO",
     "eventId": "evt-b8c76ffc84b3"
+  },
+  {
+    "id": "mjzj-g4qfy6s8wsg0",
+    "date": "2026-11-19",
+    "time": "11:29",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g4qfy6s8wsg0",
+    "sourceType": "media",
+    "score": 63,
+    "category": "market",
+    "title": "ZIM 2026年三季度净利润8.3亿美元，同比增长574.8%",
+    "summary": "ZIM 2026年三季度净利润8.3亿美元（同比增长574.8%），营收27.1亿美元（增长52.6%），箱量96.2万TEU（增长3.9%），单箱运费2480美元（增长54.8%），上调全年调整后EBITDA指引至33亿至35亿美元，派息每股2.01美元共约2.43亿美元。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "ref": "https://www.amz123.com/kx/31XXK6Eb",
+    "eventId": "evt-9bcf12782510"
+  },
+  {
+    "id": "mjzj-g4qec6dzinsw",
+    "date": "2026-11-19",
+    "time": "11:11",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g4qec6dzinsw",
+    "sourceType": "media",
+    "score": 67,
+    "category": "policy",
+    "title": "Q3欧盟低价进口包裹数大跌63%，新规影响黑五促销",
+    "summary": "AMZ123获悉，近日，随着欧盟低价值包裹关税和处理费相继落地，跨境电商卖家正面临新的成本压力。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "ref": "https://www.amz123.com/t/9rg2bgb3",
+    "eventId": "evt-d8db21008073"
+  },
+  {
+    "id": "amz-QliCvMi7",
+    "date": "2026-11-19",
+    "time": "10:22",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/QliCvMi7",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "波兰跨境购物支出降73% 自提柜占比升至60%",
+    "summary": "AMZ123获悉，据波兰零售行业媒体报道，欧盟对非欧盟国家低价值包裹实施新关税规定后，波兰消费者在中国跨境电商平台的消费热情明显降低。新规实施后的前四个月，相关平台订单量同比减少78%，消费者总支出下降73%。10月，中国电商平台订单量同比下降72.5%。每位活跃买家月均下单4.4次，低于去年同期的5.2次。月均支出从355兹罗提降至346兹罗提，但单笔订单均价从约68兹罗提升至78兹罗提。追踪数据显示，同一批消费者在波兰本土平台Allegro的购物活跃度基本保持稳定，7月至10月月均订单同比变化幅度在下降3.7%至增长2.4%之间，但Allegro并未出现与跨境平台下滑相对应的明显增长。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-9252fc980591"
+  },
+  {
+    "id": "amz-FN5Y2oto",
+    "date": "2026-11-19",
+    "time": "10:22",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/FN5Y2oto",
+    "sourceType": "media",
+    "score": 67,
+    "category": "platform",
+    "title": "eBay与Whatnot黑五推出0%佣金政策，争夺卖家优质库存",
+    "summary": "AMZ123获悉，eBay与Whatnot在黑色星期五期间展开正面竞争，双方均推出0%卖家佣金政策，以争夺优质假日库存资源。Whatnot推出为期四天的阶梯式降佣方案：黑五当天，所有卖家均可享受0%佣金；11月28日，小型卖家可再享一天0%佣金优惠；11月29日至30日，所有卖家佣金下调五折。上述优惠按卖家所在地时区在全球范围内统一适用。此外，该平台还向美国与加拿大近1万名中小卖家发放最高100万美元礼品卡，用于直播活动中的赠送环节。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-909649761ae4"
+  },
+  {
+    "id": "mjzj-g4q8av31zhfl",
+    "date": "2026-11-19",
+    "time": "10:04",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g4q8av31zhfl",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "小红书等不及了，又搞出一个新平台",
+    "summary": "字节推出豆包工作，阿里整合千问办公，腾讯加码WorkBuddy，百度也在大力发展百度搭子。竞争开始白热化。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "ref": "https://www.pai.com.cn/p/01m7rnpbcq8349g3316nyfh5cm",
+    "eventId": "evt-45a596878a0f"
+  },
+  {
+    "id": "mjzj-g4q8av31zhfk",
+    "date": "2026-11-19",
+    "time": "10:04",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g4q8av31zhfk",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "拼多多Temu上线重磅功能，欧洲电商天翻地覆",
+    "summary": "2016年，《对话》节目的录制现场，黄峥当着张一鸣的面说，如果换作是他，会更加激进地推进全球化。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Temu"
+    ],
+    "ref": "https://www.pai.com.cn/p/01m7q4rqy4qae50bmbxkjadh14",
+    "eventId": "evt-fad812aa05b6"
+  },
+  {
+    "id": "mjzj-g4q8ao2k8z5s",
+    "date": "2026-11-19",
+    "time": "10:04",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g4q8ao2k8z5s",
+    "sourceType": "media",
+    "score": 61,
+    "category": "policy",
+    "title": "欧盟初步认定Temu违规，或面临最高全球年营业额6%罚款",
+    "summary": "欧盟委员会初步认定Temu在产品及内容审核、卖家制裁方面存在薄弱环节，若指控成立将面临最高全球年营业额6%的罚款，Temu对此提出异议并称已投入大量合规资金，最终裁定尚未作出。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Temu",
+      "政策合规"
+    ],
+    "ref": "https://www.amz123.com/kx/Q8Mo5psg",
+    "eventId": "evt-c4c51bbef02d"
+  },
+  {
+    "id": "amz-AMBqX8Ea",
+    "date": "2026-11-19",
+    "time": "09:42",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/AMBqX8Ea",
+    "sourceType": "media",
+    "score": 61,
+    "category": "logistics",
+    "title": "国产毛绒包子玩具上线37天在TikTok美区销售额达457万元",
+    "summary": "AMZ123获悉，一款加大版彩虹毛绒包子玩具在TikTok Shop美区连续3周销量破万。该产品于上月11日上架，37天内累计售出5.64万单，销售额达68.59万美元，约合457万元人民币，售价区间为11.80至17.80美元。该产品设计并不复杂，采用柔软蓬松的毛绒材质，以小笼包为拟人化造型，搭配彩虹渐变配色，附有仿竹制蒸笼包装。产品分小号与大号两种规格，可作为陪伴玩偶、解压玩具及桌面摆件使用。在设计层面，该产品将开笼过程融入盲盒玩法。彩虹渐变款为稀有款式，另设蓝、粉、绿、黄、紫等常规配色，增强了拆盒的趣味性与收藏属性。该产品所代表的是一条品类赛道，而非单一爆款。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "选品"
+    ],
+    "eventId": "evt-de3f2041a8fc"
+  },
+  {
+    "id": "amz-gXluv2Tl",
+    "date": "2026-11-19",
+    "time": "09:42",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/gXluv2Tl",
+    "sourceType": "media",
+    "score": 67,
+    "category": "policy",
+    "title": "越南重组389委员会，头部电商平台列入监察名单",
+    "summary": "AMZ123获悉，越南工贸部部长于11月17日签发一项决定，宣布重组打击走私、贸易欺诈与假冒商品的指导委员会（即389委员会），该文件自签署当日起正式生效。根据决定，该委员会将在工贸部管辖范围内统筹协调国内市场与电商平台的核查管控工作，联合多部门对走私、贸易欺诈及假冒商品行为实施查处。委员会将专设工作组处理重大案件，并推动相关法规的修订完善，涵盖贸易监管、电商经营及货物原产地核验等领域。在监管手段上，越南计划借助数字化手段构建数据链路，实现货源全程追踪。与此同时，越南政府监察总署于11月12日下发决定，明确了2027年度监察工作计划。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-80e3aaa0539e"
+  },
+  {
+    "id": "amz-iqFLRLJq",
+    "date": "2026-11-19",
+    "time": "09:32",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/iqFLRLJq",
+    "sourceType": "media",
+    "score": 81,
+    "category": "marketing",
+    "title": "Shopee印尼站广告净支出门槛上调至4%，单件封顶费用同步提升",
+    "summary": "AMZ123获悉，Shopee印尼站对免运费XTRA可选计划下的广告费率进行调整。广告专属优惠所对应的最低广告净支出门槛，由原销售额占比3%上调至4%，相关费率同步提升。此次调整分两个阶段生效：非Shopee Mall卖家自2026年12月1日起执行，Shopee Mall卖家自2027年1月1日起执行。单件商品封顶费用亦同步上调，常规尺寸由4万印尼盾提升至6万印尼盾，特殊尺寸由6万印尼盾提升至8万印尼盾。此外，该政策设有一项豁免条款。若卖家50%及以上的销售额来自手机、平板、台式电脑、笔记本、显示器、贵金属及贵重珠宝类目，其净广告花费占比仅需满足0.5%。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee",
+      "政策合规",
+      "广告营销"
+    ],
+    "eventId": "evt-7a8fa35c9557"
+  },
+  {
+    "id": "amz-6TbhP10l",
+    "date": "2026-11-19",
+    "time": "09:32",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/6TbhP10l",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "亚马逊企业购英国推出积分返利计划，自营品牌最高返现4%",
+    "summary": "AMZ123获悉，亚马逊企业购（Amazon Business）近日在英国推出Prime Business Rewards积分返利计划。该权益专属于Prime Business会员，面向个体经营者及小型企业。会员可通过日常采购积累积分，并用于抵扣后续订单金额。可选计划包括Duo、Basic和Small三种方案。其中，Duo与Basic计划在亚马逊自营品牌符合条件的商品上最高返还2%积分，Small计划最高可返还4%。100积分等值1英镑，可在结账时直接抵扣。黑色星期五活动周（11月19日至30日）期间，符合条件的新会员最高可获50%积分返还，上限为40英镑。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-f56773cac127"
+  },
+  {
+    "id": "amz-H5ohTN9P",
+    "date": "2026-11-19",
+    "time": "09:31",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/H5ohTN9P",
+    "sourceType": "media",
+    "score": 69,
+    "category": "logistics",
+    "title": "TikTok Shop美区CBT配送限时优惠：日均500单每包裹减0.5美元",
+    "summary": "AMZ123获悉，TikTok Shop针对美国站CBT配送服务推出限时运费优惠政策。日均创建包裹量达到500单的商家，可在现有价卡基础上享受额外运费折扣。优惠幅度为Zone1至4每个包裹减免0.5美元。申请门槛为：自11月1日起，过去15天内单个店铺或经认证的店群维度，日均创建包裹量达500单及以上，统计范围涵盖CBT、TikTok Shipping与自发货。在操作层面，已完成主体关联认证的店铺可按店群合并计算包裹量，有助于更易达到门槛。优惠采用先补后审机制，达标即享，后续进行审核，费用直接在物流费结算时发放。资格需持续维持。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop",
+      "政策合规",
+      "物流仓储"
+    ],
+    "eventId": "evt-05b5dc483b39"
+  },
+  {
+    "id": "amz-TXPmfiGn",
+    "date": "2026-11-19",
+    "time": "09:31",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/TXPmfiGn",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "克里米亚大桥本周第三次遭袭，铁路运输再度中断",
+    "summary": "AMZ123获悉，11月19日凌晨1时35分，克里米亚大桥本周内第三次遭到袭击。俄罗斯交通部随后确认铁路部分暂停运营，公路在上一轮事件后仍处于关闭状态，此次事故未造成人员伤亡。此前，11月16日首次事件发生后公路随即关闭，当晚恢复通行不足5小时后再度中断。11月17日第二次事件后，公路与铁路同时中断，至中午改为单线运行，4列塔夫里亚列车延误6至8小时，当日晚些时候恢复通行。当局表示，桥面封闭未对半岛的货物与燃料供应造成影响，必要时将启用刻赤渡轮作为替代方案。18日晚间当局公布了经刻赤换乘的巴士绕行方案，涵盖塞瓦斯托波尔至克拉斯诺达尔、叶夫帕托里亚至莫斯科、雅尔塔至明斯克三条线路。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-6b4e74bc6863"
+  },
+  {
+    "id": "amz-br3lMxls",
+    "date": "2026-11-19",
+    "time": "09:21",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/br3lMxls",
+    "sourceType": "media",
+    "score": 63,
+    "category": "platform",
+    "title": "Ozon调整推送资费：手动推送升至3卢布固定价并取消季节系数",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-5b38e0394bc7"
+  },
+  {
+    "id": "amz-s49Oz5M3",
+    "date": "2026-11-19",
+    "time": "09:21",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/s49Oz5M3",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "洛杉矶长滩港谈判陷僵局，罢工最早21日凌晨启动",
+    "summary": "AMZ123获悉，美国太平洋海事协会于11月18日表示，与洛杉矶港、长滩港码头安保人员工会的最新一轮谈判几乎未取得任何进展。工会明确表示，不愿在11月21日凌晨合同到期后继续延期。协会提出的方案为：每名工会成员获得3200美元一次性奖金，全职安保人员平均年收入由17万余美元提升至19.8万美元，同时由雇主承担全额医疗保险，养老金提高至每年9.32万美元。工会目前尚未对该方案作出回应。双方定于11月20日重启谈判。若届时仍未达成协议，罢工最早将于周六凌晨正式启动。涉事工会代表约250名安保人员，负责两港6座集装箱码头的闸口证件核验与安全巡查工作。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-03d4f1a83730"
+  },
+  {
+    "id": "amz-lcSoBFQN",
+    "date": "2026-11-19",
+    "time": "09:21",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/lcSoBFQN",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "长沙查实买单出口偷税案 补税加罚款合计超5600万元",
+    "summary": "AMZ123获悉，长沙税务近期披露一起买单出口偷税案件。涉事企业在出口货物时未以自身主体进行报关，而是对外购买空壳贸易公司的名义完成报关手续。与此同时，该企业掌控4家无实际经营活动的离岸公司，专门用于签订外销合同及收取境外货款。企业刻意将上述出口收入排除在国内账册之外，长期进行虚假申报。经核查，该企业少缴税款约2828万元。由于存在拒不配合检查、删除业务数据等较重情节，被处以等额一倍罚款，金额同为2828万元。税款与罚款合计超5600万元，加计滞纳金后总成本进一步提高。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-fbaa7f436598"
   },
   {
     "id": "was-q-126637",
@@ -929,6 +1440,28 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-47c1689b7e42"
+  },
+  {
+    "id": "amz-aYKbWRBt",
+    "date": "2026-11-19",
+    "time": "01:36",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/aYKbWRBt",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "欧盟拟取消进口一站式服务150欧元门槛，平台须代收全部货值增值税",
+    "summary": "AMZ123获悉，欧盟成员国于11月9日就增值税指令修订草案达成一般立场，拟取消进口一站式服务机制的150欧元货值上限。根据修订文本，凡经电子界面促成的进口商品远程销售，平台均被视为供应商，须就全部货值代收代缴增值税。现行规则下，150欧元以下包裹可在销售环节缴税，超出部分则由进口方在清关环节申报缴纳。新规拟于2028年7月1日起正式适用，目前仍需征询欧洲议会意见，并视欧盟海关数据中心的运行情况决定启用时间。欧盟计划于2030年对整套机制开展全面评估。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规",
+      "物流仓储"
+    ],
+    "eventId": "evt-a67b3ed0ecf1"
   },
   {
     "id": "mjzj-g4nxytqcuj28",
@@ -45098,7 +45631,7 @@ window.NEWS_DATA = [
     "tags": [
       "亚马逊"
     ],
-    "eventId": "evt-99533cfe2d91"
+    "eventId": "evt-204ad90d2f01"
   },
   {
     "id": "189616",
@@ -46286,7 +46819,7 @@ window.NEWS_DATA = [
       "亚马逊"
     ],
     "ref": "https://www.amz123.com/t/oGAlYlof",
-    "eventId": "evt-8fb12e3f339f"
+    "eventId": "evt-204ad90d2f01"
   },
   {
     "id": "mjzj-g223xacccnwg",
@@ -50301,7 +50834,7 @@ window.NEWS_DATA = [
       "政策合规"
     ],
     "ref": "https://www.cifnews.com/article/189593",
-    "eventId": "evt-e073fe5523e4"
+    "eventId": "evt-204ad90d2f01"
   },
   {
     "id": "mjzj-g1vr3hi0qdq8",
@@ -51371,7 +51904,7 @@ window.NEWS_DATA = [
       "亚马逊"
     ],
     "ref": "https://www.amz123.com/t/TErTf9Xz",
-    "eventId": "evt-c9f3148cf63a"
+    "eventId": "evt-ea0b21f4d0e1"
   },
   {
     "id": "amz-ViA5uyui",
@@ -52530,7 +53063,7 @@ window.NEWS_DATA = [
       "亚马逊",
       "政策合规"
     ],
-    "eventId": "evt-1ba0741dc595"
+    "eventId": "evt-ae031557cef4"
   },
   {
     "id": "mjzj-g1s86y62r8xs",
