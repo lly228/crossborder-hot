@@ -23,6 +23,48 @@ window.NEWS_DATA = [
     "eventId": "evt-66a80c674412"
   },
   {
+    "id": "was-q-126749",
+    "date": "2026-11-21",
+    "time": "12:34",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/126749",
+    "sourceType": "community",
+    "score": 53,
+    "category": "platform",
+    "title": "下店后公司注册地址门牌号少一个字母，主动改还是等验证？银行对账单相关疑问",
+    "summary": "下店后公司注册地址门牌号少一个字母，主动改还是等验证？银行对账单相关疑问 - 请教各位大佬，亚马逊店铺已经下店，后台公司注册地址填错，门牌号少了一个字母，营业执照地址本身是正确的。 想问下： 1、这种情况是现在主动去后台修改，还是等收到验证通知再改？主动修改大概率会触发审核对吧？ 2、如果主动修改触发验证，一般需要准备提交哪些资料？...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-2b9950dfd747"
+  },
+  {
+    "id": "was-q-126745",
+    "date": "2026-11-21",
+    "time": "12:34",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/126745",
+    "sourceType": "community",
+    "score": 47,
+    "category": "marketing",
+    "title": "想问一下点击率和转化率要多少才合格，在哪里看本类目的点击率和转化率啊。",
+    "summary": "想问一下点击率和转化率要多少才合格，在哪里看本类目的点击率和转化率啊。 - 最近开广告了，但是同一个广告组点击率和转化差距挺大的想知道怎么才能判断链接的点击率和转化率是否合格。 主要就是不知道类目平均点击率和转化率在哪里获得，或者在哪里看竞品的转化率？ 然后就是点击率或者转化率受哪些因素影响，比较常规的优化方式是什么？ 我先说说我...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-f8c827446200"
+  },
+  {
     "id": "lsch-e8a71838",
     "date": "2026-11-21",
     "time": "11:57",
@@ -61,6 +103,171 @@ window.NEWS_DATA = [
     "eventId": "evt-bce64042f1c1"
   },
   {
+    "id": "amz-zUROWglL",
+    "date": "2026-11-21",
+    "time": "11:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/zUROWglL",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "Wildberries恢复提货点退货处理流程：7天未取将销毁，每件收费44卢布",
+    "summary": "AMZ123获悉，Wildberries恢复提货点退货的原有处理流程：卖家若在7天内未从自提点取回退货商品，第8天该商品将被送往分拣中心予以销毁。目前，该规则率先在布里亚特、萨哈（雅库特）、外贝加尔、堪察加、滨海、哈巴罗夫斯克、阿穆尔、马加丹、萨哈林、犹太自治州、楚科奇，以及斯维尔德洛夫斯克州、鞑靼斯坦和加里宁格勒州共14个地区执行，其余地区将于稍后陆续恢复。与此同时，销毁服务费将于9月1日起恢复收取，标准为每件44卢布，从提货点退回分拣中心所产生的运费则另行按费率表计收。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-18a16defc0ea"
+  },
+  {
+    "id": "amz-mYaSTFy3",
+    "date": "2026-11-21",
+    "time": "11:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/mYaSTFy3",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "罗宾逊全球物流将AI货代能力扩展至海运、空运及报关环节，报价时间压缩至两三分钟",
+    "summary": "AMZ123获悉，美国货代罗宾逊全球物流（C.H. Robinson）已将AI智能体的应用范围从公路运输延伸至海运、空运及报关环节，用于自动生成运价报价、处理订舱请求及整理报关单证。据该公司披露，新工具已为超过3600家客户生成逾8万份运价报价。此前，空运报价最长需耗时一天，海运报价则需两到三天，目前上述时间均已压缩至两三分钟。整箱、拼箱海运及空运报价功能于2025年率先在美加拼箱业务中上线，现已扩展至墨西哥、欧洲、拉美及大洋洲，中国市场目前处于试点阶段，第四季度将进一步推广至东南亚、印度、中东及非洲地区。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储",
+      "广告营销"
+    ],
+    "eventId": "evt-adf22fb8613d"
+  },
+  {
+    "id": "amz-cyyQWg48",
+    "date": "2026-11-21",
+    "time": "11:28",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/cyyQWg48",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "阿里国际电商季度收入同比降8%至257.23亿元，速卖通受欧盟海关改革拖累",
+    "summary": "AMZ123获悉，阿里巴巴集团于11月19日发布的季度财报显示，截至9月30日的三个月内，国际电商业务收入为257.23亿元（约38.37亿美元），同比下降8%，上年同期为278.79亿元。集团将收入下滑的主要原因归结为速卖通受欧盟海关改革影响导致收入减少，Trendyol的收入增长对降幅形成了部分对冲。同一季度，面向企业买家的全球批发业务收入为142.60亿元（约21.27亿美元），同比增长6%，增量主要源于跨境相关增值服务。中国电商业务收入为984.97亿元，同比下降5%；中国即时零售收入为587.57亿元，同比增长22%，增长主要由盒马和淘宝闪购驱动。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "速卖通",
+      "物流仓储"
+    ],
+    "eventId": "evt-b4b07c86a4b4"
+  },
+  {
+    "id": "amz-Wob06Zlc",
+    "date": "2026-11-21",
+    "time": "11:28",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Wob06Zlc",
+    "sourceType": "media",
+    "score": 63,
+    "category": "platform",
+    "title": "Wildberries完成换帅，塔季扬娜·金卸任，库里科夫接任总经理",
+    "summary": "AMZ123获悉，俄罗斯电商平台Wildberries的运营主体已完成总经理职位更迭，创始人塔季扬娜·金正式卸任，阿列克谢·库里科夫接任该职务，相关变更已在俄罗斯统一法人登记簿中完成备案。库里科夫此前主导管理两家数字与工程服务公司，而金已退出其名下所有公司的负责人职务。此次管理层调整发生在欧盟于11月16日宣布将金列入制裁名单之后。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-2d9f1cdebeee"
+  },
+  {
+    "id": "amz-xKYo9k5U",
+    "date": "2026-11-21",
+    "time": "10:37",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/xKYo9k5U",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "Shopee泰国11月23日起对拆分店铺单独计收揽收服务费",
+    "summary": "AMZ123获悉，Shopee泰国本土站发布通知，自11月23日起，若店铺集群中的主店铺处于停用或冻结状态，集群内其余单店日订单量不足6单时，平台将按独立店铺编号单独计收揽收服务费，直至卖家重新提交店铺合并绑定表单。主店铺以表单中填写在首位的店铺编号为准，例如绑定5家店铺且首位为A店时按合并方式统计，一旦A店被停用，剩余4家店铺将不再合并核算。已加入Prime Seller计划、享有免揽收服务费且不受日最低订单量约束的店铺不纳入合并统计范围。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "Shopee"
+    ],
+    "eventId": "evt-a68d2fb1e0a0"
+  },
+  {
+    "id": "amz-nzVYJcTx",
+    "date": "2026-11-21",
+    "time": "10:27",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/nzVYJcTx",
+    "sourceType": "media",
+    "score": 59,
+    "category": "platform",
+    "title": "英国黑五七成品类先涨价后打折，2025年实际折扣仅3.4%",
+    "summary": "AMZ123获悉，比价平台idealo对英国80个品类、逾4万条日价格及100款热门商品的追踪数据显示，七成品类在2025年11月27日黑五前的六周内均出现过均价上涨，至黑五当天才有所回落。2025年黑五的典型折扣幅度仅为3.4%，而消费者的平均预期折扣为24%。音箱、移动硬盘、VR头显在黑五当天的价格仍分别比10月中旬高出26%、13%和9%。在100款热门商品中，32%的商品在11月内至少涨价5%；黑五价格虽较月内高点低14%，但相较10月均价仅低1.5%，其中半数商品实际上并未降价。在80个品类中，仅有6个在黑五当天录得全年最低价，45%的年度最低价出现在1月至3月。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品"
+    ],
+    "eventId": "evt-8902822881b6"
+  },
+  {
+    "id": "amz-UEVaWzD7",
+    "date": "2026-11-21",
+    "time": "10:27",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/UEVaWzD7",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "亚马逊企业购英国上线采购返点，自有品牌最高返4%",
+    "summary": "AMZ123获悉，亚马逊企业购于11月19日在英国正式上线Prime Business Rewards，面向Prime Business会员提供采购积分权益。其中，Duo与Basic套餐购买亚马逊自有品牌商品最高返2%积分，Small套餐最高返4%，100积分可抵扣1英镑，适用于后续企业购订单结算，积分自发放之日起12个月内有效。11月19日至30日黑五期间，符合条件的新会员最高可获50%返点，上限为40英镑。此外，添加团队成员、启用Guided Buying采购策略或订阅Subscribe & Save均可额外获取积分，多项权益支持叠加使用。该计划主要面向个体经营者与中小企业。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-0abdfae25c68"
+  },
+  {
+    "id": "amz-dsy0m5XC",
+    "date": "2026-11-21",
+    "time": "10:17",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/dsy0m5XC",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "FedEx财团以85亿美元完成收购InPost，持股37%",
+    "summary": "AMZ123获悉，由Advent International、FedEx旗下FCWB、A&R Investments与捷克PPF组成的财团于11月20日宣布，已完成对欧洲末端配送企业InPost的收购，交易对价为85亿美元。InPost已从阿姆斯特丹泛欧交易所退市，正式转为全资私有企业。就股权结构而言，Advent与FedEx各持股37%，创始人旗下A&R持股16%，PPF持股10%。InPost将保持独立运营，总部与团队继续留驻波兰，创始人将延续担任首席执行官一职。目前，公司在欧洲9个国家共设有逾10万个取投点，涵盖7万余个自动快递柜及近3万个揽派点。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-7a4beaf30771"
+  },
+  {
     "id": "mjzj-g4xbpgix3gn4",
     "date": "2026-11-21",
     "time": "09:41",
@@ -80,6 +287,48 @@ window.NEWS_DATA = [
       "亚马逊"
     ],
     "eventId": "evt-ffc15842a6a5"
+  },
+  {
+    "id": "amz-wgpaFeyF",
+    "date": "2026-11-21",
+    "time": "08:46",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/wgpaFeyF",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "胡塞武装警告船公司撤离沙特红海港口，称若联军打击荷台达港将波及",
+    "summary": "AMZ123获悉，也门胡塞武装军事发言人叶海亚·萨雷于20日发出警告，若沙特主导的多国联军对荷台达港发动打击，吉达港及沙特红海沿岸所有港口将成为攻击目标。胡塞武装同时要求港口工作人员及周边人员立即疏散，并敦促各船公司即刻将船舶撤离上述港口。同日，沙特联军宣布对荷台达港设施展开行动。目前，尚无沙特红海港口关闭的消息得到证实。警告发出之际，吉达港正值历史上最繁忙的月份。沙特港务局数据显示，10月吉达伊斯兰港集装箱吞吐量达58.29万TEU，创下单月历史新高，占沙特全国港口总吞吐量的约67%。长荣海运与阿联酋航运分别于11月13日和14日相继开通红海直航航线，均挂靠吉达港。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-45322d01fd71"
+  },
+  {
+    "id": "amz-vNqCe4kJ",
+    "date": "2026-11-21",
+    "time": "08:36",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/vNqCe4kJ",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "深圳龙岗税务局澄清跨境电商增值税申报规则",
+    "summary": "AMZ123获悉，针对近期跨境圈流传的\"店铺公司无需申报增值税、零申报即可\"的说法，深圳市龙岗区税务局已作出明确回应。该局于11月11日15时在纳税人学堂开展直播《跨境电商企业相关涉税问题讲解》。直播课件明确指出，增值税的纳税申报主体为出口主体，依据出口货物报关单，适用退、免、征政策；跨境电商在境外平台的销售收入，不直接作为出口货物增值税的申报依据。企业所得税则以店铺注册主体为纳税主体，按其名下店铺的全部销售收入进行申报。对于无法独立核算成本费用的店铺，可由运营主体归集后按收入占比分摊至各店铺。委托出口但未办理代理手续的，由出口货物发货人负责申报缴纳增值税。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-b5c96b9ea2aa"
   },
   {
     "id": "was-q-126740",
@@ -49144,7 +49393,7 @@ window.NEWS_DATA = [
     "tags": [
       "亚马逊"
     ],
-    "eventId": "evt-204ad90d2f01"
+    "eventId": "evt-99533cfe2d91"
   },
   {
     "id": "189616",
@@ -50332,7 +50581,7 @@ window.NEWS_DATA = [
       "亚马逊"
     ],
     "ref": "https://www.amz123.com/t/oGAlYlof",
-    "eventId": "evt-204ad90d2f01"
+    "eventId": "evt-8fb12e3f339f"
   },
   {
     "id": "mjzj-g223xacccnwg",
@@ -52872,7 +53121,7 @@ window.NEWS_DATA = [
     "tags": [
       "亚马逊"
     ],
-    "eventId": "evt-d565f1608322"
+    "eventId": "evt-e1b856471295"
   },
   {
     "id": "mjzj-g1y9ku9tfmdf",
