@@ -2,6 +2,339 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "mjzj-g55vt5r93u2o",
+    "date": "2026-11-23",
+    "time": "19:14",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55vt5r93u2o",
+    "sourceType": "media",
+    "score": 67,
+    "category": "policy",
+    "title": "涉及无票免税、核定征收！深圳跨境电商涉税重大利好政策试点公开征求意见稿发布",
+    "summary": "跨境电商出海发展进程中，除选品、流量两大核心课题外，合规体系建设始终是行业重点攻坚的方向。深圳本次推动税制由“以票管税”向“以数治税”转型，让跨境电商的合规路径清晰可算、落地可行。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规",
+      "广告营销",
+      "选品"
+    ],
+    "eventId": "evt-ecfbb20cdb50"
+  },
+  {
+    "id": "mjzj-g55tog4ye4g0",
+    "date": "2026-11-23",
+    "time": "18:57",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55tog4ye4g0",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "26年TikTok搜索趋势报告：运动话题增长155%",
+    "summary": "TikTok《2026年发现趋势报告》显示，82%的16至24岁受访者通过平台发现新事物，58%视其为学习新知识的首选平台之一，68%用于寻找新兴趣；#SportsOnTikTok相关内容同比增长155%，#FilmTok增长42%，#CraftTok增长46%，#DanceTok增长206%。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "ref": "https://www.amz123.com/t/gKWMP8Wf",
+    "eventId": "evt-1afd431d0aad"
+  },
+  {
+    "id": "mjzj-g55to6cupn9d",
+    "date": "2026-11-23",
+    "time": "18:57",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55to6cupn9d",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "亚马逊在加拿大推出AI购物助手Alexa for Shopping",
+    "summary": "亚马逊在加拿大推出AI购物助手Alexa for Shopping",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "ref": "https://www.egainnews.com/article/74815",
+    "eventId": "evt-0815ee6c820d"
+  },
+  {
+    "id": "mjzj-g55to6cupn9c",
+    "date": "2026-11-23",
+    "time": "18:57",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55to6cupn9c",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "Shopify波兰站卖家新增DHL物流管理服务",
+    "summary": "DHL eCommerce成为首家接入Shopify波兰站的物流服务商，波兰商家可在平台内管理包裹、生成标签并追踪发货，接入波兰超2.5万个及欧洲超16.5万个自提点，覆盖28个海外市场；波兰快递业年增增加值275亿兹罗提，占GDP 0.7%。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "ref": "https://www.amz123.com/t/q3QTMF1T",
+    "eventId": "evt-0ac09f69eea9"
+  },
+  {
+    "id": "mjzj-g55tpahqz7r4",
+    "date": "2026-11-23",
+    "time": "18:57",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55tpahqz7r4",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "印尼电商平台Blibli公布Q3财报，营收大增31%",
+    "summary": "Blibli母公司2026年前九个月净营收同比增长46%至22.238万亿印尼盾，Q3净营收增31%至7.408万亿印尼盾，Q3营业亏损收窄46%至2900亿印尼盾。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "ref": "https://www.amz123.com/t/GW86tsi9",
+    "eventId": "evt-92a7fa655e0c"
+  },
+  {
+    "id": "mjzj-g55tmr7qjmrk",
+    "date": "2026-11-23",
+    "time": "18:56",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55tmr7qjmrk",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "越南2026年线上零售规模预计达378亿美元，同比增长约两成",
+    "summary": "越南工贸部预计2026年线上零售规模达372亿至378亿美元，同比增20%至22%，并将以12月12日国家电商日及“无距离电商”主题活动缩小城乡数字差距。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "ref": "https://www.amz123.com/kx/a7VUab0v",
+    "eventId": "evt-e0af6f126edb"
+  },
+  {
+    "id": "mjzj-g55oy91x4z5s",
+    "date": "2026-11-23",
+    "time": "18:03",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55oy91x4z5s",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "老客户不再返单，问题未必只在价格：本土供应链正成为外贸企业留客新筹码",
+    "summary": "获悉，外贸从业者大麦哥在分析老客户流失问题时指出，客户突然停止返单并转向竞争对手，通常与两个核心因素有关：一是客户关系维护不到位，二是企业未能持续为客户提供差异化价值。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e6a10a9c47d9"
+  },
+  {
+    "id": "mjzj-g55ryas4zz0g",
+    "date": "2026-11-23",
+    "time": "18:01",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55ryas4zz0g",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "想卖爆品，担心专利侵权怎么办？",
+    "summary": "爆品有专利，就一定不能卖？未必。关键看那件专利有没有护住卖点 —— 护偏了，你 1:1 照做都没事；真护住了，还能改结构绕开。四步判断，分清哪些款能直接上、哪些要改、哪些必须放手。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权",
+      "选品"
+    ],
+    "eventId": "evt-e5e8f465e7c8"
+  },
+  {
+    "id": "mjzj-g55oppkr3mkg",
+    "date": "2026-11-23",
+    "time": "18:00",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55oppkr3mkg",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "香港CARF落地：加密资产税务申报进入倒计时，谁要登记、何时截止、怎么准备",
+    "summary": "《2026年税务（修订）（加密资产申报框架及经修订的共同汇报标准）条例》已于2026年11月13日在香港刊宪。这意味着，香港正式把 OECD 的加密资产申报框架（CARF）和修订版共同汇报标准（CRS）写进本地法例，跨境税务信息交换体系迎来一次实质性升级。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-84ea5288802e"
+  },
+  {
+    "id": "mjzj-g55m5xcofo5c",
+    "date": "2026-11-23",
+    "time": "17:32",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55m5xcofo5c",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "广告费比净销售还多，先别换素材，先算保本 ROAS",
+    "summary": "2026 年 11 月 22 日（周日）。Shopify 社区里有位卖家发帖：美国站宠物用品店，10 月 Shopify 记的净销售约 660 美元，Meta 广告花了约 746 美元，这两个数都还没扣进货成本和手续费。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-bb2ea664094a"
+  },
+  {
+    "id": "mjzj-g55k89lupg5c",
+    "date": "2026-11-23",
+    "time": "17:09",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55k89lupg5c",
+    "sourceType": "media",
+    "score": 61,
+    "category": "marketing",
+    "title": "AI购物时代到来，亚马逊卖家的流量会发生什么变化？",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-ca7a1dd9e30c"
+  },
+  {
+    "id": "mjzj-g55bagvsjz0g",
+    "date": "2026-11-23",
+    "time": "15:29",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55bagvsjz0g",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "专利商标版权三维权，Rotek代理Puking Ball呕吐球发起维权，26-cv-28115",
+    "summary": "专利商标版权三维权，Rotek代理Puking Ball呕吐球发起维权，26-cv-28115",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-8de33c75f803"
+  },
+  {
+    "id": "mjzj-g55b0g1j3ncw",
+    "date": "2026-11-23",
+    "time": "15:26",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55b0g1j3ncw",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "21类26-cv-28079CYFW 商标和26-cv-27963MUHVWM 商标",
+    "summary": "21类26-cv-28079CYFW 商标和26-cv-27963MUHVWM 商标",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-777c37741c6d"
+  },
+  {
+    "id": "mjzj-g55b9sqcwdfk",
+    "date": "2026-11-23",
+    "time": "15:20",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55b9sqcwdfk",
+    "sourceType": "media",
+    "score": 67,
+    "category": "policy",
+    "title": "26-cv-05930 | 纺织印花大厂Urban Fabrics再举维权大旗，服装家纺卖家注意这张图慎用",
+    "summary": "麦家支持TRO预警｜2026-11-23",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-f9deecb302d1"
+  },
+  {
+    "id": "mjzj-g559z50igbgg",
+    "date": "2026-11-23",
+    "time": "15:15",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g559z50igbgg",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "（附组团案件号）2600+店被TRO，进入倒计时｜11月中旬美国TRO最新动态",
+    "summary": "麦家支持TRO进展｜2026-11-23",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-19d98fb023a7"
+  },
+  {
+    "id": "mjzj-g55ao8fdf1ts",
+    "date": "2026-11-23",
+    "time": "15:15",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g55ao8fdf1ts",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "圣诞节周边产品版权风暴2026-cv-02438和2026-cv-28076",
+    "summary": "圣诞节周边产品版权风暴2026-cv-02438和2026-cv-28076",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-f72eb3517e54"
+  },
+  {
     "id": "mjzj-g559o44h94hs",
     "date": "2026-11-23",
     "time": "15:11",
@@ -64,6 +397,27 @@ window.NEWS_DATA = [
       "广告营销"
     ],
     "eventId": "evt-f5337975e6ab"
+  },
+  {
+    "id": "was-q-126772",
+    "date": "2026-11-23",
+    "time": "14:30",
+    "source": "知无不言",
+    "url": "https://www.wearesellers.com/question/126772",
+    "sourceType": "community",
+    "score": 59,
+    "category": "marketing",
+    "title": "黑五网一结束后，广告预算你们是一下砍回去还是慢慢往下调？",
+    "summary": "黑五网一结束后，广告预算你们是一下砍回去还是慢慢往下调？ - 今年黑五前把几个主力词的竞价和预算都往上提了不少，单量确实起来了。现在想提前规划一下活动结束后的调整，有点拿不准： 1. 活动一结束就直接把预算和竞价恢复到活动前，会不会把刚冲上去的排名掉回去？ 2. 慢慢往下调的话，一般分几天、每次降多少比较稳？ 3. ...",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-84e8bba6c91d"
   },
   {
     "id": "190289",
@@ -402,6 +756,27 @@ window.NEWS_DATA = [
     "eventId": "evt-006b01a8f32e"
   },
   {
+    "id": "amz-mjpz8anr",
+    "date": "2026-11-23",
+    "time": "10:51",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/mjpz8anr",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "马来西亚零售业承压，中国低价商品涌入加剧市场竞争",
+    "summary": "AMZ123获悉，据马来西亚《新海峡时报》报道，中国低价商品的大量涌入、经营成本持续上升以及消费行为的结构性变化，正对马来西亚本地零售商形成多重压力。上述三方面因素共同作用：低价商品对价格区间形成冲击，成本上升持续压缩毛利空间，消费行为的转变则直接影响渠道选择。值得关注的是，本地零售业承压往往伴随监管层面关注度的提升。马来西亚此前已出现平台降佣呼吁、清真标识执法趋严等政策动向，跨境卖家对此应予以重视。在合规层面，清真认证、商品说明、税务登记等方面的要求同样适用于跨境经营主体。一旦价格优势被认定为不公平竞争，合规层面的瑕疵将面临更为严格的审查。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-d201a90deaee"
+  },
+  {
     "id": "mjzj-g54m8sq2kef4",
     "date": "2026-11-23",
     "time": "10:44",
@@ -421,6 +796,48 @@ window.NEWS_DATA = [
       "亚马逊"
     ],
     "eventId": "evt-f989107408f7"
+  },
+  {
+    "id": "amz-lTYarQ0p",
+    "date": "2026-11-23",
+    "time": "10:41",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/lTYarQ0p",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "大马尼拉瓦伦苏埃拉市仓库区发生火灾，多处跨境仓储受损",
+    "summary": "AMZ123获悉，周日大马尼拉瓦伦苏埃拉市Maysan描笼涯一处仓库发生火灾。火情于早上7时起燃，10时39分得到控制，官方尚未公布起火原因，网络流传消息疑为电路故障所致。该区域仓库排布密集，存放大量纸箱货物，火势蔓延迅速，相邻仓库连片受损坍塌，建筑破坏严重。该地区是菲律宾重要的跨境仓储集中区域，大量中国卖家的海外仓布局于此。密集连片的仓储布局存在较高的连锁风险，单一仓库起火极易波及相邻仓储设施。目前货物受损情况仍在核查中，相关卖家可就库存状况、货物安全及履约安排与仓储方进行确认，并视货损情况核查保险责任范围及理赔所需单证。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-b24bb68e6fdf"
+  },
+  {
+    "id": "amz-CKyoOZlY",
+    "date": "2026-11-23",
+    "time": "10:41",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/CKyoOZlY",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "泰国扩大外资代持排查，涉及逾6.2万家法人机构",
+    "summary": "AMZ123获悉，泰国商业发展厅表示，将通过注册前筛查与注册后核查等八项措施，打击利用泰籍人士代持股权以规避外资监管规定的行为，排查范围已扩大至逾6.2万家法人机构。据悉，相关案件已出现刑事处罚。一旦代持结构被认定，涉事方不仅面临罚款，还可能承担刑事责任。对于在泰国设立本地公司从事跨境电商运营的卖家而言，此轮排查重点指向股权与控制关系的真实性。泰籍股东是否实际出资、是否具备真实经营决策权，是核查的核心内容。建议相关企业核对公司登记文件与实际经营情况是否一致，重点关注资金来源、董事权限及决策记录。若股权结构存在代持安排，应尽早评估合规整改路径，以规避后续被列入核查名单的风险。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-250149c50ff5"
   },
   {
     "id": "190287",
@@ -461,6 +878,49 @@ window.NEWS_DATA = [
     "eventId": "evt-4d72757508a1"
   },
   {
+    "id": "amz-X7XyVxqh",
+    "date": "2026-11-23",
+    "time": "10:21",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/X7XyVxqh",
+    "sourceType": "media",
+    "score": 59,
+    "category": "policy",
+    "title": "新蛋出席滨州产业带活动，分享北美运营与AI出海实践",
+    "summary": "AMZ123获悉，\"贸促同行·跨境电商走进地方产业带（滨州站）\"活动近日在山东滨州举行，新蛋集团受邀出席并进行专题分享，逾200名代表参与本次活动。新蛋集团围绕北美垂直电商平台运营及跨境数字化工具应用进行了详细介绍，指出北美市场由不同品类、渠道及消费群体构成，垂直平台能够精准触达细分用户。结合工厂型企业实际案例，新蛋就选品定位、Listing本地化、多平台分销、库存订单履约、售后合规等关键环节，以及SellingPilot的AI运营应用进行了系统分享。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规",
+      "选品"
+    ],
+    "eventId": "evt-309af8e901e8"
+  },
+  {
+    "id": "amz-yuDKqBY2",
+    "date": "2026-11-23",
+    "time": "10:21",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/yuDKqBY2",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "安克eufy被裁定侵犯NEC专利，赔偿金额逾2011万美元",
+    "summary": "AMZ123获悉，11月12日，美国得州东区法院作出裁决，陪审团认定安克创新旗下eufy安防产品侵犯日本电气（NEC）三件专利中的四项权利要求，判赔金额为2011.38万美元，约合人民币1.34亿元。此案的核心并非赔偿数字本身，而在于其计算方式。判决中包含按销售额持续计提许可费的条款，并与相关专利的剩余保护期限挂钩，即只要涉案产品持续销售，许可费用便将持续累积。涉案专利指向视频监控的核心功能，涵盖对象检测、人员识别与跟踪，以及机器学习训练数据的生成。被诉产品范围超过45款，包括门铃、摄像头及Home Base等设备。由于权利要求覆盖的是功能而非芯片，采用相同架构的多个型号均被纳入诉讼范围。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-c8dfcaecdff8"
+  },
+  {
     "id": "mjzj-g54j83sw59mo",
     "date": "2026-11-23",
     "time": "10:14",
@@ -478,6 +938,49 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-6f7387c3815d"
+  },
+  {
+    "id": "amz-KWjOVERq",
+    "date": "2026-11-23",
+    "time": "10:11",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/KWjOVERq",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "洛杉矶长滩港铁路70余个集装箱遭盗窃，货值逾2250万美元",
+    "summary": "AMZ123获悉，美国司法部披露一份长达48页的联邦起诉书，揭露一起针对美西供应链的重大铁路集装箱盗窃案。一个14人团伙在两年半内盗窃70余个集装箱，涉案货物价值超过2250万美元。涉案集装箱均为经洛杉矶港与长滩港卸船入境后，转装联合太平洋铁路列车运输的货物。该团伙事先在铁路沿线踩点，待列车通过时剪断空气制动软管迫使列车停驶，随后使用专业工具破坏封条与箱体。盗窃目标明确集中，主要涵盖Nike与Air Jordan运动鞋（包括部分未公开发售的新款）、Milwaukee高端电动工具及各类3C电子产品，均属单价较高、易于变现的品类。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权",
+      "选品"
+    ],
+    "eventId": "evt-dc92863c7ce2"
+  },
+  {
+    "id": "amz-5o4i11tW",
+    "date": "2026-11-23",
+    "time": "10:11",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/5o4i11tW",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "安克创新在德州起诉THREEKEY五家关联主体",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-99d352ed7f19"
   },
   {
     "id": "mjzj-g54h9ai6qfpc",
@@ -499,6 +1002,28 @@ window.NEWS_DATA = [
       "亚马逊"
     ],
     "eventId": "evt-89b1dd614e8d"
+  },
+  {
+    "id": "amz-ljmTPsJQ",
+    "date": "2026-11-23",
+    "time": "09:50",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/ljmTPsJQ",
+    "sourceType": "media",
+    "score": 65,
+    "category": "logistics",
+    "title": "亚马逊波兰12个物流中心招募万名季节工备战旺季",
+    "summary": "AMZ123获悉，亚马逊计划在波兰12个物流中心招募1万名季节性员工，以应对黑五与圣诞购物季的订单高峰。黑五活动将于11月19日持续至30日。新增岗位较为集中的城市包括索斯诺维茨、格利维采、罗兹、波兹南及弗罗茨瓦夫。其中，多布罗梅日物流中心面积逾20万平方米，共设4层，配备逾5000台机器人与自动包装设备。亚马逊于2014年进入波兰市场，目前直接雇用员工逾1.9万人。此外，公司还为员工提供每年最高8200兹罗提的培训补贴，目前已有约7000名波兰员工享受该项福利。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储"
+    ],
+    "eventId": "evt-fe8d7ef69c76"
   },
   {
     "id": "mjzj-g54gd85800sg",
@@ -545,6 +1070,69 @@ window.NEWS_DATA = [
     "eventId": "evt-19c15ae0378b"
   },
   {
+    "id": "mjzj-g54ga2m154ow",
+    "date": "2026-11-23",
+    "time": "09:43",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g54ga2m154ow",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "墨西哥达成29项货运安全协议，前九月货运抢劫6211起",
+    "summary": "墨西哥联邦政府与货运行业达成29项协议治理高速货运抢劫，10月26日至27日罢工波及19州691辆车858人，1至9月货运抢劫6211起、10月新增145起，12月上线拖车登记系统并优先修缮62段公路。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "ref": "https://www.amz123.com/kx/5aKfCMcz",
+    "eventId": "evt-95a1a0350f21"
+  },
+  {
+    "id": "mjzj-g54gfifalngg",
+    "date": "2026-11-23",
+    "time": "09:40",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g54gfifalngg",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "TikTok Shop又开新区，加拿大站预计明年开放！",
+    "summary": "TikTok Shop又有新动作，北美市场或将迎来新的扩张。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-ad0dc54c80c0"
+  },
+  {
+    "id": "amz-g7Agy95G",
+    "date": "2026-11-23",
+    "time": "09:40",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/g7Agy95G",
+    "sourceType": "media",
+    "score": 59,
+    "category": "marketing",
+    "title": "速卖通与YouTube、CJ达成战略合作，为黑五新增站外流量入口",
+    "summary": "AMZ123获悉，速卖通在双11前夕宣布与YouTube达成全球战略合作，消费者在YouTube观看视频时可一键跳转至商品链接，实现即看即购。此前两周，速卖通还与联盟营销平台CJ达成战略合作，双方将共同拓展西班牙、德国、英国、波兰、美国等欧美市场的站外流量；CJ平台覆盖逾100万个创作者生态。两项合作叠加黑五大促节点，为商家新增了多个站外流量入口。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "速卖通",
+      "广告营销"
+    ],
+    "eventId": "evt-1b00aeacd6aa"
+  },
+  {
     "id": "190285",
     "date": "2026-11-23",
     "time": "09:37",
@@ -562,6 +1150,133 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-7ce045ffaffd"
+  },
+  {
+    "id": "mjzj-g4xmlsqh0wzk",
+    "date": "2026-11-23",
+    "time": "09:33",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g4xmlsqh0wzk",
+    "sourceType": "media",
+    "score": 61,
+    "category": "logistics",
+    "title": "库存周转变慢，可能比销量下滑更危险",
+    "summary": "做亚马逊久了，很多卖家都会发现，真正让人头疼的往往不是某一天没订单，而是一批货明明还能零星出单，却怎么都卖不快。继续投广告，利润越来越薄；直接降价，又担心把价格体系打乱；什么都不做，FBA仓储费却不会停。库存一旦进入这种不上不下的状态，最容易把人拖进“再等等看”的循环。 围绕“库存周转变慢，可能比销量下滑更危险”这个问题，真正值得关注的不是某一个固定答案，而是库存所处阶段、继续持有成本以及卖家的下一步计划。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储",
+      "广告营销"
+    ],
+    "eventId": "evt-d167814ba574"
+  },
+  {
+    "id": "mjzj-g54farb8jaio",
+    "date": "2026-11-23",
+    "time": "09:33",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g54farb8jaio",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "每天 2000 访客、视频 7 天只有 70 次播放，先查哪三件事？",
+    "summary": "2026 年 11 月 21 日（周六）。卖家之家「知无不言」里有位卖家问：每天 2000 多名访客，一个商品的视频 7 天总观看量只有 70 次。我没有他的后台数据，下面只回答「官方页面能证明什么、自己后台该查什么」，不判断他那个商品。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-c4955f2eb501"
+  },
+  {
+    "id": "mjzj-g5596zxjhfk0",
+    "date": "2026-11-23",
+    "time": "09:32",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5596zxjhfk0",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "亚马逊新上线‌“新品加速器”，轻松制定新品计划",
+    "summary": "亚马逊新上线‌“新品加速器”，轻松制定新品计划",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-4fcffc9d6edd"
+  },
+  {
+    "id": "mjzj-g4xmhdxbfmrk",
+    "date": "2026-11-23",
+    "time": "09:30",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g4xmhdxbfmrk",
+    "sourceType": "media",
+    "score": 69,
+    "category": "marketing",
+    "title": "亚马逊店铺交给代运营， 为什么老板反而更不能当甩手掌柜？",
+    "summary": "签约时，服务方负责上架、广告、活动和报表，老板觉得终于能把精力放到产品上。三个月后，店铺销售额增长，采购也随之增加，但利润与回款并没有改善。老板拿着一份很漂亮的月报，仍然不知道该不该继续投入。 代运营可以补充执行能力，却不能替企业承担所有经营判断。产品预算、现金安排、供应链和资产管理仍然属于企业。合作做得好的前提，是把目标、权限、数据与验收讲清楚。老板需要管的是经营结果，而不是每天替运营调整关键词。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-4f4965478097"
+  },
+  {
+    "id": "amz-tOomLNW4",
+    "date": "2026-11-23",
+    "time": "09:30",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/tOomLNW4",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "儿童感统训练转椅在TikTok美区7天销售3064件",
+    "summary": "AMZ123获悉，一款儿童感统训练转椅在TikTok美区实现快速走量。该产品售价约230元人民币，近7天销售量达3064件，上架至今累计GMV为22.5万美元，约合150万元人民币，其中约一半来自近7天的销售。该产品本质上是一款摇摆类玩具，并非传统座椅。其采用类似平衡盘的设计结构，儿童通过重心变化实现360度旋转，在游戏过程中锻炼平衡感、协调能力与核心控制力。底部配备金属支撑底座及防滑结构，承重上限约120公斤，成人同样适用。该产品精准切入两类需求：一是帮助家长解放双手的看护需求，二是针对自闭症及ADHD儿童的感官探索辅助需求。后者使该产品跳脱出普通玩具的价格竞争区间。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-c3f58af3a0e5"
+  },
+  {
+    "id": "amz-HsTj4WTm",
+    "date": "2026-11-23",
+    "time": "09:30",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/HsTj4WTm",
+    "sourceType": "media",
+    "score": 75,
+    "category": "logistics",
+    "title": "Lazada下调菲越站点Global Plus运费，12月4日起正式生效",
+    "summary": "AMZ123获悉，Lazada宣布将下调两项跨境直邮运费，调整自北京时间2026年12月4日0时起正式生效，覆盖菲律宾与越南站点的Global Plus包裹。本次降价集中于轻小件重量段。其中，菲律宾站点覆盖0至0.07公斤重量段，越南站点覆盖0至0.2公斤重量段。此次调整适用于已加入Global Plus的商品，涉及由中国大陆履约至菲律宾、越南站点的直邮包裹。系统将自动完成运费调整，卖家无需进行任何操作。对于经营菲越轻小件业务的卖家，各重量段的具体降幅存在差异，建议前往Global Plus商品管理页的国际运费项查看具体金额，不建议按统一比例进行估算。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Lazada"
+    ],
+    "eventId": "evt-95e6afa3c82a"
   },
   {
     "id": "190284",
@@ -583,6 +1298,28 @@ window.NEWS_DATA = [
       "广告营销"
     ],
     "eventId": "evt-07afc27bcead"
+  },
+  {
+    "id": "amz-dPECCT0i",
+    "date": "2026-11-23",
+    "time": "09:10",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/dPECCT0i",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "速卖通与CJ达成战略合作，拓展欧美五国站外流量",
+    "summary": "AMZ123获悉，速卖通与全球头部联盟营销平台CJ正式达成战略合作，双方将协力在西班牙、德国、英国、波兰、美国等欧美市场为商家开拓站外流量渠道。CJ旗下创作者生态覆盖逾100万个创作者，其联盟营销网络涵盖海外内容媒体、网红创作者及比价站等多元渠道。今年双11期间，3D打印机品牌闪铸借助导购站发帖推广，其中3条推荐帖成功冲上导购站热搜，单个爆款产品日均出单量超过300件。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "速卖通",
+      "广告营销"
+    ],
+    "eventId": "evt-21ad123dd0bf"
   },
   {
     "id": "190283",
@@ -1053,6 +1790,113 @@ window.NEWS_DATA = [
       "政策合规"
     ],
     "eventId": "evt-ad017053c885"
+  },
+  {
+    "id": "amz-ojppdYEm",
+    "date": "2026-11-23",
+    "time": "04:16",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/ojppdYEm",
+    "sourceType": "media",
+    "score": 69,
+    "category": "platform",
+    "title": "Shopee菲律宾双11大促：中小微企业贡献逾66%订单量",
+    "summary": "AMZ123获悉，据菲律宾星报报道，Shopee菲律宾站在11.11大促期间，中小微企业贡献了平台至少66%的订单量。大促期间订单量较日常增长逾199%。本地商品通过Shopee Video带动的结账量同比增长30%。平台方面表示，越来越多的消费者借助短视频了解商品，在观看产品演示、与卖家互动后做出购买决策。优惠券与免运费政策依然是吸引消费者的重要驱动因素。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee",
+      "政策合规"
+    ],
+    "eventId": "evt-abf72bd3bb48"
+  },
+  {
+    "id": "amz-u5KU6hFH",
+    "date": "2026-11-23",
+    "time": "04:16",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/u5KU6hFH",
+    "sourceType": "media",
+    "score": 75,
+    "category": "policy",
+    "title": "泰国拟对电商平台强制收费设置上限",
+    "summary": "AMZ123获悉，泰国三大电商平台即将实施阶段性降费措施。泰国证券交易委员会委员就此提出，应借助降费期系统收集商家实际支付费用数据，以研究制定更为透明、可持续的平台收费规则。相关建议涵盖三个方面：要求平台向卖家明确披露各项费用明细；对强制性费用总额设置上限；保障卖家自主选择增值服务的权利。设置费用上限的出发点在于防止某一收费项目下调后，其他收费项目随之上涨，导致商家整体经营成本并未实质性降低。泰国电商行业协会提供了一组测算数据：一件售价289泰铢的商品，在扣除商品成本、平台费用及税费后，实际利润仅剩约7泰铢，且尚未计入包装成本。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-99e195523442"
+  },
+  {
+    "id": "amz-Yr6iTuhh",
+    "date": "2026-11-23",
+    "time": "04:06",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/Yr6iTuhh",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "德国四大平台佣金对比：Kaufland最低，OTTO最高",
+    "summary": "AMZ123获悉，德国电商行业组织Händlerbund发布了一份平台费用对比报告，对OTTO、亚马逊、Kaufland与eBay在13个商品类别中的销售费用进行了比较，数据截至2026年11月7日。其中，Kaufland在8个类别中佣金最低，OTTO在8个类别中佣金最高。以一条售价129欧元的银项链为例，OTTO收取平台费用27.80欧元，亚马逊为25.80欧元，eBay为21.09欧元，Kaufland为20.64欧元。卖家在Kaufland销售比在OTTO每单可多保留7.76欧元。月费方面，OTTO为99.90欧元，亚马逊为39欧元，Kaufland与eBay均为39.95欧元。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "选品"
+    ],
+    "eventId": "evt-4ccac2433777"
+  },
+  {
+    "id": "amz-an06OT7g",
+    "date": "2026-11-23",
+    "time": "02:35",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/an06OT7g",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "福州卖家重型矫形鞋垫在TikTok美区累计GMV达468万元人民币",
+    "summary": "AMZ123获悉，一款专为体重超过220磅人群设计的重型矫形鞋垫在TikTok美区实现快速放量。该产品于5月下旬上线，累计售出3.86万单，GMV达70.22万美元，折合人民币约468万元。近28天（10月23日至11月19日），该产品售出1.24万单，销售额为20.35万美元。售价区间为13.10至15.00美元，用户评分4.4。该品牌由福州企业运营，供应链位于国内。该产品的核心卖点在于支撑性能而非柔软度，主要针对大体重人群的足弓支撑与抗压需求。产品采用高足弓结构以分散压力点，配备耐用泡沫缓冲垫，并具备足底筋膜炎疼痛缓解功能。多层复合设计可兼容工作鞋、运动鞋及皮鞋等多种鞋型。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-163fa34d69e7"
+  },
+  {
+    "id": "amz-EoPQD5FD",
+    "date": "2026-11-23",
+    "time": "01:34",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/EoPQD5FD",
+    "sourceType": "media",
+    "score": 61,
+    "category": "marketing",
+    "title": "亚马逊筹谋\"世界商品图谱\"，拟对全网在售商品建立索引以支持AI比价",
+    "summary": "AMZ123获悉，亚马逊正在推进一项名为\"世界商品图谱\"的项目，计划为互联网上所有在售商品建立完整的数据档案。收录范围涵盖平台自身并不经营的品类，旨在使消费者在进行选购调研时无需离开平台前往站外搜索引擎或论坛。该图谱同时面向AI购物代理开放。商品数据规模越大，代理在执行比价任务时越倾向于调用该平台的索引，机器人代购所产生的交易也将回流至平台页面。对跨境卖家而言，比价范围随之扩大。一旦站外商品被纳入索引，其价格、规格与卖点将在站内被直接对比，广告投放与listing的差异化空间将相应压缩。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销",
+      "选品"
+    ],
+    "eventId": "evt-d8c0cff61c16"
   },
   {
     "id": "190281",
@@ -46587,7 +47431,7 @@ window.NEWS_DATA = [
     "tags": [
       "速卖通"
     ],
-    "eventId": "evt-6e529b45e39d"
+    "eventId": "evt-1ce9d4dcdf89"
   },
   {
     "id": "mjzj-g2gc6uzni2gw",
@@ -48400,7 +49244,7 @@ window.NEWS_DATA = [
     "tags": [
       "速卖通"
     ],
-    "eventId": "evt-1d17d6ea39c9"
+    "eventId": "evt-1ce9d4dcdf89"
   },
   {
     "id": "mjzj-g2dfkgtbssu8",
@@ -48748,7 +49592,7 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "ref": "https://www.pai.com.cn/p/01m5phtk94p9hedwhf4j8b45kc",
-    "eventId": "evt-055b269dc42d"
+    "eventId": "evt-ad3c3725d8bd"
   },
   {
     "id": "189670",
