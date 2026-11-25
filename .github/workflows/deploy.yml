@@ -26,11 +26,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  package:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
@@ -51,6 +48,13 @@ jobs:
         with:
           path: _site
 
+  deploy:
+    needs: package
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: 部署到GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
