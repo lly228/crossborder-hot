@@ -2,6 +2,152 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "190386",
+    "date": "2026-11-26",
+    "time": "21:42",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190386",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "欧盟新规倒计时！不合规货物或被扣留",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-759454884a68"
+  },
+  {
+    "id": "190392",
+    "date": "2026-11-26",
+    "time": "18:03",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190392",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "【雨果快报】商务部坚决反对美301关税！速卖通韩国直采平台担滞销",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "速卖通"
+    ],
+    "eventId": "evt-3666d5744484"
+  },
+  {
+    "id": "190385",
+    "date": "2026-11-26",
+    "time": "17:40",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190385",
+    "sourceType": "media",
+    "score": 73,
+    "category": "policy",
+    "title": "被亚马逊封号潮逼出来的“工具大卖”，傲基是背后靠山",
+    "summary": "",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-627a70a50f84"
+  },
+  {
+    "id": "mjzj-g5gc2bqrii9s",
+    "date": "2026-11-26",
+    "time": "17:39",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5gc2bqrii9s",
+    "sourceType": "media",
+    "score": 61,
+    "category": "marketing",
+    "title": "AI人物素材：亚马逊要文件标签，纽约要广告内披露，别混为一谈",
+    "summary": "2026 年 11 月 23 日（周一）。知无不言上有位卖家 9 月 21 日发帖问：用 AI 人物图片投亚马逊广告，是不是只要做到亚马逊的两条规则就行？",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-d58d6e9248f5"
+  },
+  {
+    "id": "mjzj-g5gcl6iup91c",
+    "date": "2026-11-26",
+    "time": "17:35",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5gcl6iup91c",
+    "sourceType": "media",
+    "score": 67,
+    "category": "policy",
+    "title": "26-CV-02531 | 卖爆全网的儿童大陀螺转椅被盯上了！仅凭底座外观就能告侵权，卖家快排雷！",
+    "summary": "麦家支持TRO预警｜2026-11-26",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-a6331db78365"
+  },
+  {
+    "id": "190389",
+    "date": "2026-11-26",
+    "time": "17:24",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190389",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "年销200万美金的深圳大卖，8类货源需求等你来对接！",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e123d61a6885"
+  },
+  {
+    "id": "mjzj-g5gbg4289e68",
+    "date": "2026-11-26",
+    "time": "17:09",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5gbg4289e68",
+    "sourceType": "media",
+    "score": 67,
+    "category": "policy",
+    "title": "26-CV-10339 | 热销感应音箱手机支架高危，26店涉案陷TRO专利风波",
+    "summary": "麦家支持TRO预警｜2026-11-26",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "eventId": "evt-341886710645"
+  },
+  {
     "id": "mjzj-g5g8eayrmzgg",
     "date": "2026-11-26",
     "time": "16:49",
@@ -464,6 +610,168 @@ window.NEWS_DATA = [
     "eventId": "evt-f50310d4ad9d"
   },
   {
+    "id": "amz-RqVrIxUj",
+    "date": "2026-11-26",
+    "time": "12:20",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/RqVrIxUj",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "Ozon证券经纪业务正式上线，银行App内支持股票债券基金交易",
+    "summary": "AMZ123获悉，俄罗斯电商平台Ozon的证券经纪业务已正式上线。初期该业务以独立板块的形式嵌入Ozon Bank手机应用，后续计划推出独立应用程序。用户可直接在平台内交易莫斯科交易所的股票、政府债券及企业债券，并申购Ozon资产管理公司发行的公募基金。Ozon旗下资产管理公司此前已取得俄罗斯央行颁发的基金管理牌照，并发行了货币市场与俄联邦国债两只交易所交易基金。俄罗斯本土商家可将平台沉淀资金投入证券产品，以盘活闲置资金。目前，俄罗斯头部电商平台正加速向金融超级应用方向演进。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-9b1b34f6c57c"
+  },
+  {
+    "id": "amz-H3ZHEWkS",
+    "date": "2026-11-26",
+    "time": "12:20",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/H3ZHEWkS",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "支付服务商CheckAlt收购Finexio，打通企业收付两端",
+    "summary": "AMZ123获悉，美国支付服务商CheckAlt于11月19日宣布与Finexio达成最终收购协议，具体交易金额未予披露。CheckAlt主营应收账款处理业务，Finexio则提供应付账款托管支付服务，支持通过虚拟卡、ACH及支票方式执行供应商付款，并可嵌入采购至付款软件流程。合并完成后，企业将可由单一服务商同时处理收款与供应商付款业务。目前该交易仍待常规交割条件满足，交割完成前两家公司将继续独立运营。据悉，Finexio每年为客户处理数十亿美元的B2B付款业务。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-c6faee1b34da"
+  },
+  {
+    "id": "amz-oPb2S4a9",
+    "date": "2026-11-26",
+    "time": "12:10",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/oPb2S4a9",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "美国FTC查处虚假美国制造宣传，440万美元和解为年内第四起",
+    "summary": "AMZ123获悉，美国联邦贸易委员会于11月17日宣布对工业安全设备制造商Elk River展开执法行动，指控其将大量使用海外零部件的安全带产品标榜为美国制造，和解方案涉及440万美元的金钱判决。这是FTC今年以来第四起针对美国原产地宣传的执法行动，此前于4月集中公布三起案件，并于7月向8家企业发出警告函。根据今年3月签署的行政令，FTC将重点查处未经限定的美国原产地声明，跨境卖家须确保商品实际生产情况与标签、销售页面及广告宣传内容保持一致。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-a079a1bc36bb"
+  },
+  {
+    "id": "amz-dBH51gbm",
+    "date": "2026-11-26",
+    "time": "12:10",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/dBH51gbm",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "IFC牵头7.35亿美元融资，支持美客多巴西中小卖家提前回款",
+    "summary": "AMZ123获悉，世界银行集团旗下国际金融公司（IFC）于11月18日宣布，向美客多旗下Mercado Livre Brasil与Mercado Pago提供7.35亿美元融资。其中，2.5亿美元来自国际金融公司自有资金，4.85亿美元由六家国际银行参与动员。此次合作系美客多与国际金融公司的首度联手。上述资金将用于提前结算通过Mercado Pago收款的商户信用卡应收款，以缓解巴西亚马孙地区小微企业的营运资金压力，预计每年可支持该地区超38万笔交易。目前，巴西北部与东北部地区的信贷渗透率仅约14%，低于全国约20%的平均水平。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-0ea48fbb4bca"
+  },
+  {
+    "id": "amz-yyoNeptD",
+    "date": "2026-11-26",
+    "time": "12:10",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/yyoNeptD",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "Wildberries上线积分计划，最高可抵扣99%订单金额",
+    "summary": "AMZ123获悉，俄罗斯电商平台Wildberries面向全俄买家正式推出全新忠诚度计划「我的WB」，入口设于App及官网的个人中心，整合了积分、个性化推荐、每日任务、会员等级与专属权益等功能，覆盖药房、美妆、旅行、银行及二手交易等生态业务板块。该计划设有三类积分奖励：通用积分按1积分等值1卢布计算，最高可抵扣订单金额的99%，有效期为一年；定向积分仅限于抵扣指定商品；等级积分专用于会员等级晋升，不可兑换现金。在卖家端，平台同步开放了向买家赠送积分、设置互动任务及发起促销活动的相关功能，旨在提升复购率并促进库存周转。平台表示，目前已完成用户行为分析与反馈收集工作，该计划正式进入全面推广阶段。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-14c8f2de2256"
+  },
+  {
+    "id": "amz-7nREBp39",
+    "date": "2026-11-26",
+    "time": "11:59",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/7nREBp39",
+    "sourceType": "media",
+    "score": 55,
+    "category": "logistics",
+    "title": "船司集中回归苏伊士运河，欧洲枢纽港拥堵加剧致亚英航线延误",
+    "summary": "AMZ123获悉，英国货运代理Davies Turner表示，多条航线改回苏伊士运河后，原本绕行好望角的船舶与改走苏伊士航线的船舶在同一时段抵达欧洲枢纽港，到港高度集中推高拥堵，亚洲至英国的集装箱运输时效与物流成本均受到明显影响。据德路里追踪数据，亚欧航线已有约六成运力恢复经苏伊士运河通行，马士基与赫伯罗特旗下多条亚欧航线将于2026年12月至2027年1月陆续切回运河，长荣、阳明等船司亦已于11月恢复红海挂靠。欧洲主要港口需同时承接两路到港船期，鹿特丹、安特卫普等枢纽的卸船与转运压力短期内难以明显缓解，卖家需为亚欧线交期波动预留充足缓冲时间。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "物流仓储"
+    ],
+    "eventId": "evt-b1230866d38e"
+  },
+  {
+    "id": "amz-d5XuJ6gu",
+    "date": "2026-11-26",
+    "time": "11:59",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/d5XuJ6gu",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "南非Takealot收入增长27%至5.71亿美元，抵御亚马逊及Temu竞争",
+    "summary": "AMZ123获悉，南非电商平台Takealot母公司Naspers发布中期业绩报告，截至2026年9月30日的六个月内，Takealot集团收入同比增长27%至5.71亿美元，按本币计算增幅为16%。其中，主站收入增长17%至4.93亿美元，订阅服务TakealotMORE收入增长66%，外卖配送平台Mr D收入增长11%至7800万美元。报告期内，亚马逊Prime已于6月正式进入南非市场，Shein与Temu分别覆盖约21.5%和11.6%的南非网购用户。Takealot凭借本地商家网络与自营配送体系保持增长态势，第三方卖家贡献了64%的销售额。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "Temu",
+      "SHEIN"
+    ],
+    "eventId": "evt-724923102585"
+  },
+  {
+    "id": "amz-jFcAQMsr",
+    "date": "2026-11-26",
+    "time": "11:59",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/jFcAQMsr",
+    "sourceType": "media",
+    "score": 63,
+    "category": "market",
+    "title": "美国假日消费增长集中于富裕群体，高收入家庭礼品预算增幅达13.6%",
+    "summary": "AMZ123获悉，世界大型企业联合会最新调查显示，美国消费者今年假日季礼品与非礼品平均支出计划较去年增长5.9%，经物价调整后实际增幅为3.2%。增长主要集中于年收入20万美元以上的群体，该群体礼品预算较2024年提升13.6%，其余收入层级的预期支出则全面下滑。调查还显示，约38%的受访者计划购买更多促销商品，近30%计划削减礼品数量，20%则倾向于转向价格更低的品牌。全美零售联合会的报告同样印证了消费分化趋势，支出最高的10%消费者预计将贡献假日季总销售额的70%。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-d554e2084363"
+  },
+  {
     "id": "mjzj-g5fs6xt6a7sw",
     "date": "2026-11-26",
     "time": "11:56",
@@ -484,6 +792,67 @@ window.NEWS_DATA = [
       "广告营销"
     ],
     "eventId": "evt-e4c6fa72293b"
+  },
+  {
+    "id": "amz-MwojN37H",
+    "date": "2026-11-26",
+    "time": "11:49",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/MwojN37H",
+    "sourceType": "media",
+    "score": 65,
+    "category": "platform",
+    "title": "德国ver.di工会号召黑五罢工，亚马逊11个站点运营或受影响",
+    "summary": "AMZ123获悉，德国服务业联合工会ver.di于11月26日号召亚马逊员工在黑色星期五当天在全国11个站点展开罢工，涉及莱比锡、巴特赫尔斯费尔德、多特蒙德、科布伦茨等地，核心诉求为签订具有约束力的零售业集体薪资协议。此次罢工系国际工会联合会\"让亚马逊付出代价\"全球行动日的组成部分。工会同时指出，亚马逊通过数字化系统对约4万名员工实施全程监控。对此，亚马逊方面回应称配送可靠性较以往更有保障，并否认存在数字监控行为。目前，亚马逊在德国共雇用约1.3万名旺季临时员工。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-f42aedca07e9"
+  },
+  {
+    "id": "amz-D8aO0ZI4",
+    "date": "2026-11-26",
+    "time": "11:49",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/D8aO0ZI4",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "美国10月实际个人消费支出环比持平，核心PCE同比升至3.3%",
+    "summary": "AMZ123获悉，美国经济分析局于11月25日公布数据显示，10月名义个人消费支出环比增长0.3%，剔除价格因素后实际支出环比持平，其中商品消费下降0.2%，增长几乎全部源于价格上涨。同期名义个人收入环比增长0.7%，个人储蓄率由3.6%上升至4.1%，居民呈现增加储蓄、放缓消费的趋势。10月核心PCE物价指数环比上涨0.3%，同比升至3.3%，创2023年以来新高，三季度实际GDP年化增速同步上修至4.3%。当前高利率与通胀压力正在抑制假日季前的消费动能。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-7bc24f9aff22"
+  },
+  {
+    "id": "amz-C8ZOioGA",
+    "date": "2026-11-26",
+    "time": "11:49",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/C8ZOioGA",
+    "sourceType": "media",
+    "score": 67,
+    "category": "market",
+    "title": "美国假日季销售额预计19%遭退回，线上退货率维持18%",
+    "summary": "AMZ123获悉，美国退货管理服务商Happy Returns于11月25日发布年度报告，预计2026年美国假日季销售额的19%将面临退货，69%的零售商预计旺季退货欺诈情况将有所增加。数据显示，美国线上退货率为18%，线下实体店退货率为9%，整体退货率为15%，上述三项数据均与2025年持平。与此同时，线上购物占假日消费的比例从43%上升至47%。在退货时间分布上，45%的消费者集中于节后两周至1月间办理退货；在退货政策方面，47%的零售商延长了退货窗口，47%要求退回商品须保留吊牌与收据。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-b6ebd6fed13f"
   },
   {
     "id": "mjzj-g5fgs6jrn4zk",
@@ -584,6 +953,168 @@ window.NEWS_DATA = [
     "eventId": "evt-24e1ab0bac3e"
   },
   {
+    "id": "mjzj-g5fcmyyfbta8",
+    "date": "2026-11-26",
+    "time": "11:01",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5fcmyyfbta8",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "Shein 与 FTC 达成和解，将支付 1 亿美元",
+    "summary": "Shein因虚假配送承诺、操纵评论及虚假原产地声明等欺骗性行为，将向FTC支付1亿美元和解金，协议不承认责任。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "SHEIN"
+    ],
+    "eventId": "evt-4a8befa6accf"
+  },
+  {
+    "id": "mjzj-g5fcluh1kikg",
+    "date": "2026-11-26",
+    "time": "11:00",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5fcluh1kikg",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "谷歌Gemini新增独立隐私开关 保留记录可退出AI训练",
+    "summary": "操作路径也非常清晰，点开Gemini设置图标，在页面底部找到新增的活动记录选项，跳转至Google我的活动页面就能通过下拉菜单切换开关状态。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-fa6d57aa6d40"
+  },
+  {
+    "id": "mjzj-g5fcphhbctmo",
+    "date": "2026-11-26",
+    "time": "10:58",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5fcphhbctmo",
+    "sourceType": "media",
+    "score": 61,
+    "category": "marketing",
+    "title": "登顶家纺榜第一！这款“云朵泡芙枕”，正在悄悄收割美国人的睡眠",
+    "summary": "很多人饱受枕头不适的困扰，这款泡芙枕凭借云朵外观、软硬合适、适配各种睡姿的特点，在 TikTok 走红。它靠视觉化展示蓬松回弹来带货，主打低成本睡眠投入，契合年末自用、送礼需求。如今睡眠经济转向小件体验，家纺竞争也开始侧重体感与情绪价值。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-58cdf056d3fa"
+  },
+  {
+    "id": "mjzj-g5fcdm7q3tvk",
+    "date": "2026-11-26",
+    "time": "10:57",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5fcdm7q3tvk",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "OpenAI整合ChatGPT聊天工作模式 重度用户高级推理额度或受限",
+    "summary": "两类模式共用同一套流量计量标准，仅少数高频调用高级推理模型的重度用户会更早触达使用上限，即时模式对话全程不限量且不占用共享额度。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "广告营销"
+    ],
+    "eventId": "evt-654277155851"
+  },
+  {
+    "id": "mjzj-g5fc6etb77cw",
+    "date": "2026-11-26",
+    "time": "10:56",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5fc6etb77cw",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "OpenAI开测私有推理 推理阶段隔离数据员工也无法查看",
+    "summary": "该功能核心是在模型推理运行阶段全程隔离客户数据，连OpenAI内部员工都没有权限查看相关内容，目前暂未公布全量开放的具体时间表。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-df4280802340"
+  },
+  {
+    "id": "mjzj-g5fc3weg0npc",
+    "date": "2026-11-26",
+    "time": "10:55",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5fc3weg0npc",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "Anthropic CEO驳斥让渡自由意志传闻警示AI递归改进风险",
+    "summary": "这背后是头部大模型厂商近期普遍蔓延的安全焦虑，Anthropic刚完成IPO，此前还因Claude使用规范、AI意识相关议题接连引发行业争议。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-10f1d4b1c75d"
+  },
+  {
+    "id": "mjzj-g5faaumyeio0",
+    "date": "2026-11-26",
+    "time": "10:33",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5faaumyeio0",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "多个亚马逊竞品放一起，怎么用AI分析差距？",
+    "summary": "本文介绍如何利用卖家精灵 MCP 进行多竞品深度分析：先判断商品的可比性，再从产品配置、市场表现、关键词需求、页面与买家反馈四个维度展开比较。AI 可在同一任务中组合调用商品详情、销量趋势、关键词和评论等工具，将多维数据整理成竞品对比表、差异化机会和待验证问题清单，避免在多个页面间反复查找和搬运数据。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-21ff02b7f4b9"
+  },
+  {
+    "id": "mjzj-g5f8qlbt75ds",
+    "date": "2026-11-26",
+    "time": "10:16",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5f8qlbt75ds",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "亚马逊新品怎么找对标竞品？让AI从关联商品里找线索",
+    "summary": "本文介绍在亚马逊新品尚无ASIN时，如何利用卖家精灵 MCP 进行竞品研究：先确定一款相近的候选ASIN，通过查询看了又看、相似商品对比等关联关系，并结合关键词结果与商品详情、销量数据，筛选出具备可比性的直接对标竞品，同时排除配件与互补品，形成有依据的竞品清单。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊"
+    ],
+    "eventId": "evt-8677d77d6513"
+  },
+  {
     "id": "190376",
     "date": "2026-11-26",
     "time": "10:09",
@@ -601,6 +1132,218 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-ea1ba038bd1a"
+  },
+  {
+    "id": "mjzj-g5f88tx7vt34",
+    "date": "2026-11-26",
+    "time": "10:04",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5f88tx7vt34",
+    "sourceType": "media",
+    "score": 61,
+    "category": "marketing",
+    "title": "亚马逊AI托管型广告活动---全流域广告",
+    "summary": "亚马逊AI托管型广告活动---全流域广告",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-588b597776a9"
+  },
+  {
+    "id": "mjzj-g5f7f61h3x8g",
+    "date": "2026-11-26",
+    "time": "10:00",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5f7f61h3x8g",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "泰国超6.2万家法人机构被排查，外资公司代持风险加剧！",
+    "summary": "近期，泰国针对外国投资者通过泰籍人士代持股份（Nominee）规避外资经营限制的专项排查持续升级。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-fe214e71866c"
+  },
+  {
+    "id": "amz-MttdwEYA",
+    "date": "2026-11-26",
+    "time": "09:58",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/MttdwEYA",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "泰国扩大电子预扣税代理主体范围，持牌汇款机构正式纳入",
+    "summary": "AMZ123获悉，泰国内阁于11月24日批准了财政部提交的税收法部长级条例草案原则。该草案拟对2020年第364号部长条例进行修订，扩大电子预扣税服务供给主体的范围。修订内容包括将支付系统法下持牌电子汇款服务商纳入代理范围，符合条件的非银行金融机构同样适用。此外，新规允许泰国央行在履职场景下进行线上缴税，覆盖对外支付、证券收益发放等业务，该行每年相关预扣税规模约为20亿泰铢。新规还开放多税合并申报渠道，符合条件的主体可同步完成预扣税、所得税与增值税的缴纳。此前，该系统仅向21家商业银行与专业金融机构开放。泰国政府强调，扩大缴税渠道并不意味着降低税率或缩减税收优惠。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "政策合规"
+    ],
+    "eventId": "evt-77c74ff9bd83"
+  },
+  {
+    "id": "mjzj-g5f6mz3zc16o",
+    "date": "2026-11-26",
+    "time": "09:54",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5f6mz3zc16o",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "要赔1.34亿元，安克，惹恼了谁？",
+    "summary": "安克创新因eufy安防产品侵犯NEC三件专利被判赔1.34亿元（按销量滚动计费），NEC另就六项专利再诉，同时安克起诉五家",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "知识产权"
+    ],
+    "ref": "https://www.egainnews.com/article/74842",
+    "eventId": "evt-45c89a29d035"
+  },
+  {
+    "id": "mjzj-g5f6lbsomvb4",
+    "date": "2026-11-26",
+    "time": "09:54",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5f6lbsomvb4",
+    "sourceType": "media",
+    "score": 65,
+    "category": "logistics",
+    "title": "亚马逊FBM模式真的没有竞争力吗？ 很多卖家忽略了它的另一种优势",
+    "summary": "FBA适合追求配送效率和Prime流量的卖家，但需提前备货并承担仓储及移除费用；FBM通过美国第三方海外仓实现库存灵活调配和多渠道销售，降低积压风险，但面临配送时效和物流成本挑战。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储",
+      "广告营销"
+    ],
+    "ref": "https://www.amz123.com/t/PqiKEhqd",
+    "eventId": "evt-93879a8f2a8e"
+  },
+  {
+    "id": "mjzj-g5f6jeuu0o3l",
+    "date": "2026-11-26",
+    "time": "09:53",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5f6jeuu0o3l",
+    "sourceType": "media",
+    "score": 77,
+    "category": "policy",
+    "title": "Etsy新条款12月16日起允许第三方用卖家内容训练AI",
+    "summary": "Etsy自12月16日起允许第三方使用卖家内容训练AI，155家儿童权益组织联名呼吁亚马逊、eBay下架AI玩具；2025/26财年英国低价跨境包裹进口额达53亿英镑，较两年前增长超4倍；亚马逊在卢森堡启用欧洲首个IT物流中心，投资1250万欧元；英国消费者黑五预计平均支出192英镑。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "物流仓储"
+    ],
+    "ref": "https://www.egainnews.com/article/74848",
+    "eventId": "evt-d813bceaf102"
+  },
+  {
+    "id": "mjzj-g5f6je21ovsx",
+    "date": "2026-11-26",
+    "time": "09:53",
+    "source": "卖家之家",
+    "url": "https://mjzj.com/article/g5f6je21ovsx",
+    "sourceType": "media",
+    "score": 55,
+    "category": "marketing",
+    "title": "豆包突然带货，一切才刚刚开始",
+    "summary": "近几年，互联网行业硝烟四起，各家大厂纷纷重仓AI，电商这块市场更是寸土必争。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "ref": "https://www.pai.com.cn/p/01m8apswrq2zr3eag8espx12gr",
+    "eventId": "evt-0605bea24bd8"
+  },
+  {
+    "id": "amz-pCKZZLJS",
+    "date": "2026-11-26",
+    "time": "09:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/pCKZZLJS",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "TikTok Shop泰国OTOP项目三年成交超13亿泰铢，覆盖全国77府",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-8ec8c3daae91"
+  },
+  {
+    "id": "amz-o7c1WlZN",
+    "date": "2026-11-26",
+    "time": "09:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/o7c1WlZN",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "河南许昌假发产业带聚集4000家企业，年跨境交易额超10亿美元",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-d8ffbc54f633"
+  },
+  {
+    "id": "amz-iMxBggP0",
+    "date": "2026-11-26",
+    "time": "09:48",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/iMxBggP0",
+    "sourceType": "media",
+    "score": 63,
+    "category": "policy",
+    "title": "俄罗斯财政部提议2027年起对不友好国家进口精品食品征收15%关税",
+    "summary": "AMZ123获悉，俄罗斯财政部提议自2027年1月1日起，对来自其所称\"不友好国家\"的精品食品加征15%进口关税。俄罗斯\"不友好国家\"名单涵盖所有对其实施制裁的国家，包括美国及欧盟成员国。该提议由俄罗斯财政部副部长阿列克谢·萨扎诺夫提出。萨扎诺夫表示，相关建议已提交经济发展部审议。最终适用该税率的商品清单将另行制定，并纳入议员及参议员提出的全部商品建议。目前讨论涉及的品类包括海鲜、帕尔马干酪、火腿及松露等。2026年10月，俄罗斯联邦委员会主席瓦连京娜·马特维延科提出对精品商品增值税进行调整，主张取消牡蛎等海鲜类商品10%的优惠税率，改按22%征收。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "选品"
+    ],
+    "eventId": "evt-86c80905c047"
   },
   {
     "id": "190375",
@@ -622,6 +1365,50 @@ window.NEWS_DATA = [
       "知识产权"
     ],
     "eventId": "evt-66b054c7db47"
+  },
+  {
+    "id": "amz-h2Pf9kCc",
+    "date": "2026-11-26",
+    "time": "09:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/h2Pf9kCc",
+    "sourceType": "media",
+    "score": 65,
+    "category": "marketing",
+    "title": "亚马逊巴西黑五主推Alexa购物工具，支持展示商品一年价格走势",
+    "summary": "AMZ123获悉，亚马逊巴西在黑色星期五期间重点推广生成式AI购物工具Alexa。用户可通过对话式提问获取商品推荐并将商品加入购物车，Alexa Plus设备还支持全程语音下单。该工具的核心功能为历史价格对比，可展示商品长达一年的价格走势及最低价与最高价，旨在消除消费者对黑五虚假促销的顾虑。亚马逊调查数据显示，41%的巴西消费者计划在今年黑五的消费金额高于去年，主要集中于游戏机、电视及家电等高价商品。影响其购买决策的首要因素为免费配送，其次为折扣幅度与配送时效。",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-bcd6acfd2d16"
+  },
+  {
+    "id": "amz-xOdPM5Ss",
+    "date": "2026-11-26",
+    "time": "09:38",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/xOdPM5Ss",
+    "sourceType": "media",
+    "score": 61,
+    "category": "logistics",
+    "title": "Shopee泰国公布2026年新年假期物流安排，DHL部分日期暂停服务",
+    "summary": "AMZ123获悉，Shopee泰国本土站正式公布2026年新年假期物流配送安排。标准国内配送方面，12月5日，J&T Express、SPX、FLASH Express与Ninja Van均正常提供服务，DHL Domestic当日暂停全部服务；12月7日，上述五家服务商均恢复正常运营。12月10日及31日，DHL Domestic同样不开放服务，其余四家服务商维持正常。大件商品配送方面，假期期间不提供卖家自行送件至网点的服务，仅保留上门取件与送货上门两项服务。12月5日、10日及31日，DHL Domestic Bulky暂停服务；12月7日恢复全部正常。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "Shopee",
+      "物流仓储"
+    ],
+    "eventId": "evt-470e398901ef"
   },
   {
     "id": "amz-t3412r0X",
@@ -1259,6 +2046,47 @@ window.NEWS_DATA = [
       "选品"
     ],
     "eventId": "evt-82af6f8d377e"
+  },
+  {
+    "id": "amz-IGHueDHe",
+    "date": "2026-11-26",
+    "time": "03:03",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/IGHueDHe",
+    "sourceType": "media",
+    "score": 61,
+    "category": "marketing",
+    "title": "亚马逊与Meta就解除Muse封锁展开谈判，焦点集中于搜索与广告",
+    "summary": "AMZ123获悉，11月26日，亚马逊与Meta就一项潜在合作展开谈判。若协议最终达成，Meta旗下AI智能体Muse将重新接入亚马逊电商平台，从而结束自9月底以来长达约两个月的封锁状态。此前，亚马逊发现Muse可访问其平台后，要求Meta将其排除在服务范围之外，遭拒后随即采取封堵措施。据知情人士透露，双方已进行多轮磋商，谈判焦点集中于两大核心议题。一是搜索结果的具体呈现方式，二是广告业务的处理机制。上述议题的推进意味着卖家通过AI智能体触达高意向用户的渠道或将重新开放。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "广告营销"
+    ],
+    "eventId": "evt-8cbd06708b8d"
+  },
+  {
+    "id": "amz-raY6VLTP",
+    "date": "2026-11-26",
+    "time": "02:52",
+    "source": "AMZ123",
+    "url": "https://www.amz123.com/kx/raY6VLTP",
+    "sourceType": "media",
+    "score": 63,
+    "category": "market",
+    "title": "新加坡船东在广船国际订造两艘汽车运输船，总投资2.1亿美元",
+    "summary": "AMZ123获悉，11月21日，新加坡某航运公司与广船国际、中船贸易正式签署建造合同，合同标的为两艘7000车位液化天然气双燃料汽车运输船。两船总投资约2.1亿美元，涵盖造船价、融资成本及其他物料费用。据悉，两船预计分别于2031年3月和6月完成交付。该公司表示，此次订造源于长期业务需求，主要用于船队更新。",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-d6b06a3de40a"
   },
   {
     "id": "amz-Y6ZGTCok",
@@ -3965,6 +4793,29 @@ window.NEWS_DATA = [
       "亚马逊"
     ],
     "eventId": "evt-1515f09ffe00"
+  },
+  {
+    "id": "190319",
+    "date": "2026-11-24",
+    "time": "15:18",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190319",
+    "sourceType": "media",
+    "score": 81,
+    "category": "policy",
+    "title": "亚马逊FBA清关新规将于2027年1月5日正式生效",
+    "summary": "",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "亚马逊",
+      "政策合规",
+      "物流仓储"
+    ],
+    "eventId": "evt-e62b7140aecc"
   },
   {
     "id": "mjzj-g58udqei4c1s",
@@ -45740,7 +46591,7 @@ window.NEWS_DATA = [
       "TikTok Shop"
     ],
     "ref": "https://www.amz123.com/kx/fi15s3z6",
-    "eventId": "evt-698a89b50f63"
+    "eventId": "evt-97a3bddad946"
   },
   {
     "id": "mjzj-g2ruthv3utj4",
@@ -47170,7 +48021,7 @@ window.NEWS_DATA = [
     "tags": [
       "TikTok Shop"
     ],
-    "eventId": "evt-698a89b50f63"
+    "eventId": "evt-a805547997f6"
   },
   {
     "id": "amz-D23GpeCr",
@@ -49285,7 +50136,7 @@ window.NEWS_DATA = [
       "政策合规",
       "物流仓储"
     ],
-    "eventId": "evt-f3ffa5788e34"
+    "eventId": "evt-a805547997f6"
   },
   {
     "id": "amz-aj4qV2fM",
@@ -53151,7 +54002,7 @@ window.NEWS_DATA = [
     "tags": [
       "速卖通"
     ],
-    "eventId": "evt-1ce9d4dcdf89"
+    "eventId": "evt-6e529b45e39d"
   },
   {
     "id": "mjzj-g2gc6uzni2gw",
