@@ -2,6 +2,25 @@
 // 字段说明见 README.md「数据字段」。
 window.NEWS_DATA = [
   {
+    "id": "190402",
+    "date": "2026-11-28",
+    "time": "17:38",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190402",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "美国又一新平台上线！多个中国大卖已悄悄入驻",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-db8ac94a648d"
+  },
+  {
     "id": "mjzj-g5jpo4yd84xs",
     "date": "2026-11-28",
     "time": "15:59",
@@ -21,6 +40,44 @@ window.NEWS_DATA = [
       "知识产权"
     ],
     "eventId": "evt-3b413298a066"
+  },
+  {
+    "id": "190388",
+    "date": "2026-11-28",
+    "time": "15:00",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190388",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "每分钟狂卖6000单！一批卖家开始在拉美躺着赚钱",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-c743ad294930"
+  },
+  {
+    "id": "190382",
+    "date": "2026-11-28",
+    "time": "10:00",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190382",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "跳出内卷！2027跨境大卖都在布局这些高潜力平台",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-34690538c1dd"
   },
   {
     "id": "was-q-126967",
@@ -202,6 +259,46 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-834145d7c2f7"
+  },
+  {
+    "id": "190410",
+    "date": "2026-11-27",
+    "time": "17:50",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190410",
+    "sourceType": "media",
+    "score": 61,
+    "category": "platform",
+    "title": "【雨果快报】横琴前10月进出口增66.8%！TikTok Shop马新开放店铺评分申诉",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-d9aad73983f0"
+  },
+  {
+    "id": "190409",
+    "date": "2026-11-27",
+    "time": "17:39",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190409",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "又一美国大平台开放！Best Buy招国际卖家入驻",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-c678f4727146"
   },
   {
     "id": "mjzj-g5k07pmv4pa8",
@@ -735,6 +832,25 @@ window.NEWS_DATA = [
     "eventId": "evt-d083834e62b4"
   },
   {
+    "id": "190404",
+    "date": "2026-11-27",
+    "time": "14:00",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190404",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "上架一周就售罄！中国卖家在小众平台跑出了新样本",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-0811ae3cae50"
+  },
+  {
     "id": "mjzj-g5jcnk6c5f5s",
     "date": "2026-11-27",
     "time": "13:53",
@@ -872,6 +988,25 @@ window.NEWS_DATA = [
       "Temu"
     ],
     "eventId": "evt-0fa2f1ce51ba"
+  },
+  {
+    "id": "190401",
+    "date": "2026-11-27",
+    "time": "11:14",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190401",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "从十年工厂到东南亚新品牌，一双凉拖如何打开跨境增长空间？",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-ecb057509808"
   },
   {
     "id": "mjzj-g5ixtd044t1c",
@@ -1046,6 +1181,25 @@ window.NEWS_DATA = [
     "eventId": "evt-7d50c3b58349"
   },
   {
+    "id": "190400",
+    "date": "2026-11-27",
+    "time": "10:46",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190400",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "零散上架VS完整上架，Wayfair增长快的供应商做对了什么？丨Wayfair运营干货⑭",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-1c2ae459226e"
+  },
+  {
     "id": "lsch-8400a151",
     "date": "2026-11-27",
     "time": "10:38",
@@ -1184,6 +1338,25 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-1186809a3472"
+  },
+  {
+    "id": "190391",
+    "date": "2026-11-27",
+    "time": "10:00",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190391",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "不拼流明不杀价，一根灯带如何跑出47亿营收？",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-8ac8d596b8d7"
   },
   {
     "id": "mjzj-g5irgy8c696o",
@@ -1819,6 +1992,25 @@ window.NEWS_DATA = [
     "eventId": "evt-eede6bf646f0"
   },
   {
+    "id": "190397",
+    "date": "2026-11-27",
+    "time": "09:36",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190397",
+    "sourceType": "media",
+    "score": 55,
+    "category": "market",
+    "title": "即刻报名！AI 正在重写增长规则，2027 年独立站卖家如何抢占先机？",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-e1b8f65c54f7"
+  },
+  {
     "id": "mjzj-g5iq5f0rtiww",
     "date": "2026-11-27",
     "time": "09:34",
@@ -2006,6 +2198,44 @@ window.NEWS_DATA = [
     "deadline": "",
     "tags": [],
     "eventId": "evt-30ab682c15f8"
+  },
+  {
+    "id": "190396",
+    "date": "2026-11-27",
+    "time": "09:16",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190396",
+    "sourceType": "media",
+    "score": 55,
+    "category": "platform",
+    "title": "利润率高达32%！Coupang成为新的增量平台",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-cc854cc12247"
+  },
+  {
+    "id": "190395",
+    "date": "2026-11-27",
+    "time": "09:08",
+    "source": "雨果跨境",
+    "url": "https://www.cifnews.com/article/190395",
+    "sourceType": "media",
+    "score": 55,
+    "category": "policy",
+    "title": "Hannah爆款海报发案！蜜蜂花卉元素印花类卖家慎用！",
+    "summary": "",
+    "selected": false,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [],
+    "eventId": "evt-5f98f436c2b0"
   },
   {
     "id": "amz-qKKTeKjj",
@@ -45763,7 +45993,7 @@ window.NEWS_DATA = [
       "亚马逊",
       "广告营销"
     ],
-    "eventId": "evt-9148ede5346e"
+    "eventId": "evt-2ce59e509f4d"
   },
   {
     "id": "189835",
@@ -47944,7 +48174,7 @@ window.NEWS_DATA = [
     "tags": [
       "TikTok Shop"
     ],
-    "eventId": "evt-526b8e5de13e"
+    "eventId": "evt-26701eecc6d7"
   },
   {
     "id": "amz-HttxYGe9",
@@ -49863,7 +50093,7 @@ window.NEWS_DATA = [
       "广告营销"
     ],
     "ref": "https://www.amz123.com/t/0WM84k4h",
-    "eventId": "evt-951542aaa421"
+    "eventId": "evt-ec35b90eb982"
   },
   {
     "id": "mjzj-g2r6dr5ilts1",
@@ -50901,7 +51131,7 @@ window.NEWS_DATA = [
     "tags": [
       "亚马逊"
     ],
-    "eventId": "evt-1e7f7f1d037d"
+    "eventId": "evt-2ce59e509f4d"
   },
   {
     "id": "amz-JfhgktQy",
