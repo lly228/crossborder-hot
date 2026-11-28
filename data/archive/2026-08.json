@@ -2827,6 +2827,27 @@
     "eventId": "evt-9f81a2ce0b00"
   },
   {
+    "id": "amazon-forum-264206ca-5f0f-4e5a-9dce-72fa95b1ca30",
+    "date": "2026-08-29",
+    "time": "01:02",
+    "source": "Amazon卖家论坛",
+    "url": "https://sellercentral.amazon.com/seller-forums/discussions/t/264206ca-5f0f-4e5a-9dce-72fa95b1ca30",
+    "sourceType": "official",
+    "score": 66,
+    "category": "platform",
+    "title": "Save 35% on fulfillment for TikTok Shop orders",
+    "summary": "TikTok Shop is one of the fastest-growing sales channels, but managing fulfillment alongside your other channels can add complexity and costs. Starting July 16, 2026, Multichannel Fulfillment (MCF) is offering 35% off Standard and Expedited fulfillment rates for TikTok Shop orders in the US for 12 months. The promotion applies automatically to all eligible orders submitted through a supported integration partner. Why use MCF for TikTok Shop? One inventory pool: Use a single supply chain for Amaz",
+    "selected": true,
+    "why": "",
+    "impact": "",
+    "action": "",
+    "deadline": "",
+    "tags": [
+      "TikTok Shop"
+    ],
+    "eventId": "evt-7e017ed4a1f0"
+  },
+  {
     "id": "lsch-ee39e440",
     "date": "2026-08-28",
     "time": "19:43",
